@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xxx.xsd">
+	<!-- Also available to use from npc (L2MuseumInstance), but SeparatedTabs must be turned off, because in html certain tabs will not appear. -->
+	<!-- If museum is not in all tabs, then select the tab in which it is. -->
+	<set name="TabInCommunityBoard" val="_bbsloc" />
+	<!-- Allows museum to be in all community board tabs. -->
+	<set name="WholeCommunityBoard" val="false" />
+	<!-- If museum is not in all tabs, this allows personal and rankings data to be in separated tabs. -->
+	<set name="SeparateTabs" val="false" />
+	<!-- If museum is in separated tabs, then select second tab (for personal data). -->
+	<set name="SecondTabInCommunityBoard" val="_bbsloc" />
+	<!-- Time in seconds, when rankings are refreshed. -->
+	<set name="TotalTimeStatuesRefresh" val="3600" />
+	<!-- Time in seconds, when total type rankings are refreshed and selected new statues for total time. -->
+	<set name="RefreshAllStatisticsIn" val="3600" />
+	
+	<!-- 
+	Category:
+		name = is the name of the category, shown in the left side, both in personal and ranking datas.
+	Type:
+		name = is the name shown in there, below the category (it means the type will be under that category which is above).
+		type = this is the type which allows engine to detect which thing to rank and calculate, available types:
+			xp / adena / play_duration / private_store_sales / quests_clear / monster_kills / monster_kill_xp / monster_deats / raid_kill_xxx (instead of xxx, write raid/grand boss id), pvp_victories, pvp_defeats, pk_victories, pk_defeats
+	 	refreshTime = this detects the refresh timing:
+	 		monthly - refreshes every months 1st day at 00:00
+	 		weekly - refreshes every Monday at 00:00
+	 		daily - refreshes every day at 00:00
+	 		total - refreshes x time run from server start (using RefreshAllStatisticsIn config above)
+	 	additionalText = ability to add certain word to collected variable, like adding "Round(s)", instead of writing "PvP: 45", will write "PvP: 45 Round(s)"
+	 	timer = true / false. Enable or disable turning normal numbers into time, like play_duration, instead of 300, will write: 5 mins.
+	 Spawn:
+	 	allows to spawn statue of certain type, in all of locations (multiple spawns for one category is also possible)
+	 	x / y / z / heading - coordinates
+	 Reward:
+	 	allows to give reward for winner of period (monthly/weekly/daily/total), the reward must be taken until next period change.
+	 	type = Item / Experience / SkillPoints / ClanPoints
+	 	id (only for Item type) = item ID
+	 	minCount = is minimum count of giving reward
+	 	maxCount = is maximum count of giving reward
+	 	chance = 1-100 is the chance for reward being given.
+	 Bonus:
+	 	allows to give bonus for winner of period (monthly/weekly/daily/total), the bonus must be taken until next period change.
+	 	type = Item / Experience / SkillPoints / ClanPoints
+	 	id (only for Item type) = item ID
+	 	min = is minimum count of bonus (percent/value)
+	 	max = is maximum count of bonus (percent/value)
+	 	chance = 1-100 is the chance for bonus being given
+	 	itemBonusType (only for Item type) = drop (increases drop amount) / chance (increases chance to drop)
+	 	addingType = is the type of how the addition will be calculated - percent (will be increased by percent - 50% by 50%, will be 75%) / amount (will be increased by value - 50% by 50, will be 100%)
+	 	time = the amount of time (in seconds), bonus will be given for player
+	 -->
+	
+	<category name="General - Weekly">	
+		<type name="Acquired XP" type="xp" refreshTime="weekly">
+			<spawn x="-114176" y="256133" z="-1401" heading="49151" />		
+			<reward  type="Item" id="57" min="100" max="100" chance="100"/>
+		</type>		
+		<type name="Play Duration" type="play_duration" refreshTime="weekly" timer="true">
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+			<bonus id="57" type="Item" itemBonusType="chance" addingType="percent" min="10" max="10" chance="100" time="3600"/>			
+			<bonus type="Experience" addingType="amount" min="10" max="10" chance="100" time="3600"/>
+			<bonus type="SkillPoints" addingType="amount" min="10" max="10" chance="100" time="3600"/>			
+		</type>		
+		<type name="Quests Clear" type="quests_clear" refreshTime="weekly" additionalText="Quest(s)">
+			<spawn x="-114564" y="256136" z="-1401" heading="49151" />		
+			<reward  type="Item" id="57" min="100" max="100" chance="100"/>
+		</type>		
+	</category>
+
+	<category name="Commerce - Weekly">	
+		<type name="Acquired Adena" type="adena" refreshTime="weekly">
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+			<bonus id="57" type="Item" itemBonusType="chance" addingType="percent" min="10" max="10" chance="100" time="3600"/>			
+			<bonus type="Experience" addingType="amount" min="10" max="10" chance="100" time="3600"/>
+			<bonus type="SkillPoints" addingType="amount" min="10" max="10" chance="100" time="3600"/>			
+		</type>						
+		<type name="Private Store Sales" type="private_stores_sales" refreshTime="weekly" additionalText="Sales">
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+			<bonus id="57" type="Item" itemBonusType="chance" addingType="percent" min="10" max="10" chance="100" time="3600"/>			
+			<bonus type="Experience" addingType="amount" min="10" max="10" chance="100" time="3600"/>
+			<bonus type="SkillPoints" addingType="amount" min="10" max="10" chance="100" time="3600"/>			
+		</type>		
+	</category>	
+	
+	<category name="Hunting - Weekly">	
+		<type name="Killed Monsters" type="monster_kills" refreshTime="weekly" additionalText="Kill(s)" >
+			<spawn x="-114567" y="256064" z="-1433" heading="49151" />	
+			<reward  type="Item" id="57" min="100" max="100" chance="100"/>
+		</type>
+		<type name="XP from Killing Monsters" type="monster_kill_xp" refreshTime="weekly">
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+			<bonus id="57" type="Item" itemBonusType="chance" addingType="percent" min="10" max="10" chance="100" time="3600"/>			
+			<bonus type="Experience" addingType="amount" min="10" max="10" chance="100" time="3600"/>
+			<bonus type="SkillPoints" addingType="amount" min="10" max="10" chance="100" time="3600"/>			
+		</type>		
+		<type name="Killed by Monsters" type="monster_deaths" refreshTime="weekly" additionalText="Deaths">
+			<spawn x="-114176" y="256068" z="-1434" heading="49151" />		
+			<reward  type="Item" id="57" min="100" max="100" chance="100"/>
+		</type>
+		<type name="Catched Fishes" type="gone_fishing" refreshTime="weekly" additionalText="Catches">
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+			<bonus id="57" type="Item" itemBonusType="chance" addingType="percent" min="10" max="10" chance="100" time="3600"/>			
+			<bonus type="Experience" addingType="amount" min="10" max="10" chance="100" time="3600"/>
+			<bonus type="SkillPoints" addingType="amount" min="10" max="10" chance="100" time="3600"/>			
+		</type>				
+	</category>
+
+	<category name="Raid Bosses - Monthly">
+		<type name="Baium" type="raid_kill_29020" refreshTime="monthly" additionalText="Kills" />
+		<type name="Antharas" type="raid_kill_29068" refreshTime="monthly" additionalText="Kills" />
+		<type name="Valakas" type="raid_kill_29028" refreshTime="monthly" additionalText="Kills" />
+	</category>
+	
+	<!--<category name="PVP - Monthly">-->
+		<!--<type name="PK Victory Count" type="pk_victories" refreshTime="monthly" additionalText="Kills" />-->
+		<!--<type name="PvP Victory Count" type="pvp_victories" refreshTime="monthly" additionalText="Kills" />-->
+		<!--<type name="PK Defeat Count" type="pk_defeats" refreshTime="monthly" additionalText="Deaths" />-->
+		<!--<type name="PvP Defeat Count" type="pvp_defeats" refreshTime="monthly" additionalText="Deaths" />-->
+	<!--</category>-->
+	
+</list>

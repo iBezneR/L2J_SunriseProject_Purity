@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <category id="1" name="Newbies">
+        <set name="progressBarSmallCenterUnfilled" value="L2UI_CH3.br_bar2_cp1"/>
+        <set name="progressBarSmallCenterFilled" value="L2UI_CH3.br_bar2_cp"/>
+        <set name="progressBarCenterUnfilled" value="L2UI_CH3.br_bar1_cp1"/>
+        <set name="progressBarCenterFilled" value="L2UI_CH3.br_bar1_cp"/>
+
+        <!-- Kill Gremlins -->
+        <achievement name="Gremlin Slasher" type="monster_kills_gremlin">
+            <set name="title" value="Gremlin Slasher"/>
+            <set name="titleColor" value="f30b0b"/>
+            <set name="icon" value="Icon.skill4407"/>
+            <set name="shortDesc" value="Kill %value% Gremlins"/>
+
+            <point level="1" requiredValue="10">
+                <set name="shortDesc" value="Kill %value% Gremlins to receive buff scrolls bundles"/>
+                <set name="longDesc" value="Condition: You must be below level 5! 'br' Reward: 'br' 1x A Scroll Bundle of Fighter 'br' 1x A Scroll Bundle of Mage 'br' x5 Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="22087" min="1" max="1" chance="100"/>
+                    <reward type="Item" id="22088" min="1" max="1" chance="100"/>
+                    <reward type="Item" id="40904" min="5" max="5" chance="100"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="5"/>
+                </cond>
+            </point>
+        </achievement>
+
+        <!-- Kill Wolfs -->
+        <achievement name="Hunting the Pack" type="monster_kills_wolf">
+            <set name="title" value="Lone Wolf"/>
+            <set name="titleColor" value="f30b0b"/>
+            <set name="icon" value="Icon.skill4407"/>
+            <set name="shortDesc" value="Kill %value% Wolfs"/>
+
+            <point level="1" requiredValue="20">
+                <set name="shortDesc" value="Kill %value% Wolfs to receive various rewards"/>
+                <set name="longDesc" value="Condition: You must be below level 10! 'br' Reward: 'br' +5% Adena drop amount for 1 hour 'br' 300x Dwarven Skill Tokens"/>
+                <rewards>
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="3600"/>
+                    <reward type="Item" id="40300" min="300" max="300" chance="100"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="10"/>
+                </cond>
+            </point>
+            <point level="2" requiredValue="30">
+                <set name="shortDesc" value="Kill %value% Wolfs to receive various rewards"/>
+                <set name="longDesc" value="Condition: You must be below level 10! 'br' Reward: 'br' +10% Adena drop amount for 1 hour 'br' 5x Dwarven Loyality Gems"/>
+                <rewards>
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                    <reward type="Item" id="40904" min="5" max="5" chance="100"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="10"/>
+                </cond>
+            </point>
+        </achievement>
+
+        <!-- Kill Warewolf Heading for the Hills Quest -->
+        <achievement name="Warewolf Hunter" type="monster_kills_warewolf">
+            <set name="title" value="Warewolf Smasher"/>
+            <set name="titleColor" value="f30b0b"/>
+            <set name="icon" value="Icon.skill4407"/>
+            <set name="shortDesc" value="Kill %value% Mountain Werewolfs"/>
+
+            <point level="1" requiredValue="30">
+                <set name="shortDesc" value="Kill %value% Mountain Werewolfs while doing Head for the Hills Quest"/>
+                <set name="longDesc" value="Condition: You must be below level 14! 'br' Reward: 'br' +10% Adena drop amount for 1 hour 'br' x15 Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="15" max="15" chance="100"/>    <!-- Dwarven Loyality Gem -->
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="14"/>
+                </cond>
+            </point>
+        </achievement>
+
+        <!-- Catch Fish -->
+        <achievement name="Fisherman" type="fishing">
+            <set name="title" value="Fisherman"/>
+            <set name="titleColor" value="f30b0b"/>
+            <set name="icon" value="Icon.skill1312"/>
+            <set name="shortDesc" value="Catch %value% Fish"/>
+
+            <point level="1" requiredValue="3">
+                <set name="shortDesc" value="Catch %value% fishes"/>
+                <set name="longDesc" value="Condition: You must be below level 20! 'br' Rewards: 'br' Great satisfaction... 'br' ... and 5 Mana Potions!"/>
+                <rewards>
+                    <reward type="Item" id="728" min="5" max="5" chance="100"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="20"/>
+                </cond>
+            </point>
+            <point level="2" requiredValue="5">
+                <set name="shortDesc" value="Catch %value% fishes"/>
+                <set name="longDesc" value="Condition: You must be below level 20! 'br' Rewards: 'br' Great satisfaction... 'br' ... and 6 Mana Potions!"/>
+                <rewards>
+                    <reward type="Item" id="728" min="6" max="6" chance="100"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="20"/>
+                </cond>
+            </point>
+            <point level="3" requiredValue="10">
+                <set name="shortDesc" value="Catch %value% fishes"/>
+                <set name="longDesc" value="Condition: You must be below level 20! 'br' Rewards: 'br' Great satisfaction... 'br' ... and 10 Mana Potions!"/>
+                <rewards>
+                    <reward type="Item" id="728" min="10" max="10" chance="100"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="20"/>
+                </cond>
+            </point>
+        </achievement>
+
+        <!-- Collect Adena -->
+        <achievement name="Every Penny Counts" type="collect_adena">
+            <set name="title" value="Money Maker"/>
+            <set name="titleColor" value="f30b0b"/>
+            <set name="icon" value="Icon.etc_adena_i00"/>
+            <set name="shortDesc" value="Pick %value% Adena from dead monsters."/>
+
+            <point level="1" requiredValue="25000">
+                <set name="shortDesc" value="Collect %value% adena from dead monsters."/>
+                <set name="longDesc" value="Condition: You must be below level 30! 'br' Rewards: 10% Bonus to Adena for 1h 'br' 15,000 Adena 'br' and 15x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="15" max="15" chance="100"/>     <!-- Dwarven Loyality Gem -->
+                    <reward type="Item" id="57" min="15000" max="15000" chance="100"/>  <!-- Adena -->
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="30"/>
+                </cond>
+            </point>
+            <point level="2" requiredValue="75000">
+                <set name="shortDesc" value="Collect %value% adena from dead monsters."/>
+                <set name="longDesc" value="Condition: You must be below level 30! 'br' Rewards: 10% Bonus to Adena for 1h 'br' 25,000 Adena 'br' and 30x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="30" max="30" chance="100"/>     <!-- Dwarven Loyality Gem -->
+                    <reward type="Item" id="57" min="25000" max="25000" chance="100"/>  <!-- Adena -->
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="30"/>
+                </cond>
+            </point>
+            <point level="3" requiredValue="150000">
+                <set name="shortDesc" value="Collect %value% adena from dead monsters."/>
+                <set name="longDesc" value="Condition: You must be below level 30! 'br' Rewards: 10% Bonus to Adena for 1h 'br' 50,000 Adena 'br' and 50x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="50" max="50" chance="100"/>     <!-- Dwarven Loyality Gem -->
+                    <reward type="Item" id="57" min="50000" max="50000" chance="100"/>  <!-- Adena -->
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="30"/>
+                </cond>
+            </point>
+            <point level="4" requiredValue="300000">
+                <set name="shortDesc" value="Collect %value% adena from dead monsters."/>
+                <set name="longDesc" value="Condition: You must be below level 30! 'br' Rewards: 10% Bonus to Adena for 1h 'br' 100,000 Adena 'br' and 100x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="100" max="100" chance="100"/>     <!-- Dwarven Loyality Gem -->
+                    <reward type="Item" id="57" min="100000" max="100000" chance="100"/>  <!-- Adena -->
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="30"/>
+                </cond>
+            </point>
+            <point level="5" requiredValue="500000">
+                <set name="shortDesc" value="Collect %value% adena from dead monsters."/>
+                <set name="longDesc" value="Condition: You must be below level 30! 'br' Rewards: 10% Bonus to Adena for 1h 'br' 250,000 Adena 'br' and 125x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="125" max="125" chance="100"/>     <!-- Dwarven Loyality Gem -->
+                    <reward type="Item" id="57" min="250000" max="250000" chance="100"/>  <!-- Adena -->
+                    <bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="10" max="10" chance="100" time="3600"/>
+                </rewards>
+                <cond>
+                    <set name="MaxLevel" val="35"/>
+                </cond>
+            </point>
+        </achievement>
+
+    </category>
+</list>

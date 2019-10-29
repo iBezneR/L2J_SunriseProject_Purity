@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- If you use npc, leave this "EMPTY" (Npc instance -> L2EAchievements) -->
+	<!-- This sets, the tab for community board (can be found in ShowBoard serverpacket). -->
+	<set name="TabInCommunityBoard" value="_maillist" />
+	<!-- Enable / Disable whole community board to be only for vote. -->
+	<set name="WholeCommunity" value="false" />
+	
+	<set name="LeaveTitleColor" value="false" />
+	<!-- This is used only if the member you want to change title, has achievement title. -->
+	<set name="AllowMemberChangeTitle" value="false" />
+	<!-- After you change title achievement, how long you will not be able to change again (hours). -->
+	<set name="TitleBan" value="2" />
+	
+	<!-- Available condition types:
+		ForClasses, ForRaces, IsCLeader, IsHero, IsInArena, IsInClan, IsInPeaceZone, IsNoble, IsSubclass, MaxLevel, MinClanLevel, MinKarma, MinLevel, MinPk, MinPvP, PlayTime
+	-->
+	
+	<!-- Explanations: -->
+	
+	<!-- category part: -->
+	<!-- id must be unique. -->
+	<!-- name must be unique and will be shown in achievements as Category Name. -->
+	
+	<!-- achievement part: -->
+	<!-- name will be shown as that Achievement Name. -->
+	<!-- type is used, to track from core, what will be counted (monster_kills, champion_kills, raid_kills, raid_id_kills_20899, enchant, blessed_enchant, craft, login_for_first_time, play_time, marriage, gain_noble, gain_hero, pvp, deaths, sprees, sprees, duel) -->
+	<!-- settings for achievement: -->
+	<!-- title -> the title which player will get -->
+	<!-- titleColor -> the title color which will be applied to player -->
+	<!-- icon -> shown icon next to achievement -->
+	<!-- shortDesc -> description, which is shown in the list of achievements. Possible changes -> %value% changes to next required value. -->
+	<!-- isWithTime (optional) -> if achievement is counted by time (like played time or something like that). -->
+	<!-- giveTitle (optional) -> can be enabled/disabled, to give title after accomplishing the achievement. -->
+	<!-- isDaily -> if achievement will be refreshed every day (at 00:00), all points will vanish. (Cannot be used same type 2 times) -->
+	
+	<!-- point part: -->
+	<!-- level, which level it applies -->
+	<!-- requiredValue, required value for this level -->
+	<!-- isExtra (optional), if is extra, then level does not count as base of achievement,
+		 it is shown, only if player meets conditions (WARNING: Does not make extra level in
+		 middle of levels (for example, 2nd level is extra, 3rd not anymore)).
+		 Extra level is hidden until player meets requirements.
+		 To get the title, player does not have to accomplish extra levels! -->
+	
+	<!-- REWARD: -->
+	<!-- id: is used only when you want to give ITEM as reward, then it is itemId -->
+	<!-- type: can be - 
+		 Item
+		 ClanPoints
+		 SkillPoints
+		 Experience -->
+	<!-- min: describes minimum amount of item given to player -->
+	<!-- max: describes maximum amount of item given to player -->
+	<!-- chance: describes the chance of probability that item will be given to player -->
+	
+	<!-- BONUS: -->
+	<!-- id: is used only when you want to give ITEM as reward, then it is itemId -->
+	<!-- type: can be - 
+		 Item
+		 ClanPoints
+		 SkillPoints
+		 Experience
+		 WeaponEnchant 
+		 ArmorEnchant
+		 SkillsEnchant -->
+	<!-- addingType: can be -
+		 percent: bonus will be calculated with percents,
+		 for example: adena drop chance will be increased not by 10% from 60% to 70%, but 60% by 10%, so it will be 66%.
+		 amount: bonus will be added by amount -->
+	<!-- min: describes minimum amount of bonus given to player -->
+	<!-- max: describes maximum amount of bonus given to player -->
+	<!-- chance: describes the chance of probability that bonus will be given to player -->
+	<!-- itemBonusType: (is used only when adding bonus with Item type) can be -
+		 chance: to increase chance to drop that item
+		 drop: to increase amount of item to be dropped -->
+	<!-- time: (seconds) for how long bonus will be added -->
+	
+	<!-- Example: -->
+	
+	<category id="0" name="Example">
+		<set name="progressBarSmallCenterUnfilled" value="L2UI_CH3.br_bar2_cp1" />
+		<set name="progressBarSmallCenterFilled" value="L2UI_CH3.br_bar2_cp" />
+		<set name="progressBarCenterUnfilled" value="L2UI_CH3.br_bar1_cp1" />
+		<set name="progressBarCenterFilled" value="L2UI_CH3.br_bar1_cp" />
+		
+		<!-- This achievement will be shown, only when player gets 500 pvps and becomes clan leader. -->
+		<!-- If then, player will get some points and lost his title as clan leader, -->
+		<!-- achievement still will be shown, but it will be locked, until player again meets all conditions. -->
+		
+		<!-- Achievement has 4 levels, 3 as base, and one for extra. -->
+		<!-- First 2 levels, does not have any conditions and the third one, will be locked, until player becomes noble. -->
+		<!-- Extra level will be shown, only if player gains noble and hero statuses (also player must finish the base levels.) -->
+		<!-- Third and fourth levels has their descriptions, since we need to fill the description, about being nobles and hero. -->
+		<achievement name="Example" type="example_type">
+			<set name="title" value="Example" />
+			<set name="titleColor" value="FF00FF" />
+			<set name="icon" value="Icon.skill4295" />
+			<set name="shortDesc" value="Get %value% examples." />
+			<set name="longDesc" value="When you get %value% of examples,'br'you will accomplish it." />
+			
+			<cond>
+				<set name="MinPvp" val="500" />
+				<set name="IsCLeader" val="true" />
+			</cond>
+			
+			<point level="1" requiredValue="5">
+				<rewards>
+					<reward type="Item" id="57" min="100" max="1000" />
+					<reward type="Item" id="58" min="1" max="1" />
+					<reward type="Item" id="58" min="1" max="1" chance="100" />
+				</rewards>
+			</point>
+			<point level="2" requiredValue="10">
+				<rewards>
+					<reward type="Item" id="57" min="100" max="1000" />
+					<reward type="Item" id="58" min="1" max="1" />
+					<reward type="Item" id="58" min="1" max="1" chance="100" />
+				</rewards>
+			</point>
+			<point level="3" requiredValue="15">
+				<set name="shortDesc" value="Get %value% examples, while being nobles." />
+				<set name="longDesc" value="Get %value% examples, while being nobles." />
+				<rewards>
+					<reward type="Item" id="57" min="100" max="1000" />
+					<reward type="Item" id="58" min="1" max="1" />
+					<bonus id="57" type="Item" itemBonusType="chance" addingType="amount" min="10" max="10" chance="100" time="3600"/>
+				</rewards>
+				<cond>
+					<set name="IsNoble" val="true" />
+				</cond>
+			</point>
+			<point level="4" requiredValue="20" isExtra="true">
+				<set name="shortDesc" value="Get %value% examples, while being nobles and hero." />
+				<set name="longDesc" value="Get %value% examples, while being nobles and hero." />
+				<rewards>
+					<reward type="Item" id="57" min="100" max="1000" />
+					<reward type="Item" id="58" min="1" max="1" />
+					<bonus type="SkillPoints" addingType="percent" min="10" max="20" chance="100" time="3600"/>
+				</rewards>
+				<cond>
+					<set name="IsNoble" val="true" />
+					<set name="IsHero" val="true" />
+				</cond>
+			</point>
+		</achievement>
+	</category>
+</list>

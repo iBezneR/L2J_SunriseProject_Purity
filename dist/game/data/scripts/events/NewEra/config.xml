@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="New Era" active="28 03 2009-05 05 2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<droplist>
+		<add item="3882" min="1" max="1" chance="2.5%" /> <!-- letterL -->
+		<add item="3881" min="1" max="1" chance="2.5%" /> <!-- letterI -->
+		<add item="3883" min="1" max="1" chance="2.5%" /> <!-- letterN -->
+		<add item="3877" min="1" max="1" chance="2.5%" /> <!-- letterE -->
+		<add item="3875" min="1" max="1" chance="2.5%" /> <!-- letterA -->
+		<add item="3879" min="1" max="1" chance="2.5%" /> <!-- letterG -->
+		<add item="3888" min="1" max="1" chance="2.5%" /> <!-- letterII -->
+		<add item="3887" min="1" max="1" chance="2.5%" /> <!-- letterT -->
+		<add item="3880" min="1" max="1" chance="2.5%" /> <!-- letterH -->
+		<add item="3885" min="1" max="1" chance="2.5%" /> <!-- letterR -->
+		<add item="3884" min="1" max="1" chance="2.5%" /> <!-- letterO -->
+	</droplist>
+	<spawnlist>
+		<add npc="31854" x="147698" y="-56025" z="-2775" heading="33865" />
+		<add npc="31854" x="147443" y="26942" z="-2205" heading="15250" />
+		<add npc="31854" x="81921" y="148638" z="-3473" heading="18774" />
+		<add npc="31854" x="82754" y="53573" z="-1496" heading="40541" />
+		<add npc="31854" x="15064" y="143254" z="-2668" heading="52193" />
+		<add npc="31854" x="111067" y="218933" z="-3543" heading="31655" />
+		<add npc="31854" x="-12965" y="122914" z="-3117" heading="18166" />
+		<add npc="31854" x="87362" y="-143166" z="-1293" heading="2714" />
+		<add npc="31854" x="-81037" y="150092" z="-3044" heading="18270" />
+		<add npc="31854" x="117412" y="76642" z="-2695" heading="17311" />
+		<add npc="31854" x="43983" y="-47758" z="-797" heading="49153" />
+		<add npc="31854" x="-45907" y="49387" z="-3060" heading="30708" />
+		<add npc="31854" x="12153" y="16753" z="-4584" heading="30212" />
+		<add npc="31854" x="-84458" y="244761" z="-3730" heading="8992" />
+		<add npc="31854" x="114750" y="-178692" z="-820" heading="29289" />
+		<add npc="31854" x="-45656" y="-113119" z="-240" heading="57345" />
+		<add npc="31854" x="-117195" y="46837" z="367" heading="57345" />
+	</spawnlist>
+	<messages>
+		<add type="onEnd" text="New Era: Event end!" />
+		<add type="onEnter" text="New Era: Event ongoing!" />
+	</messages>
+</event>

@@ -1,0 +1,21 @@
+@echo off 
+set config_version=2 
+set cmode=c
+set safe_mode=1 
+set mysqlPath=C:\Program Files\MySQL\MySQL Server 5.6\bin\mysql.exe
+set mysqlBinPath=C:\Program Files\MySQL\MySQL Server 5.6\bin
+set mysqldumpPath=C:\Program Files\MySQL\MySQL Server 5.6\bin\mysqldump.exe
+set lsuser=SyBariouS427328
+set lspass=2B5V6tD$*3h658
+set lsdb=dwarvencrusadels
+set lshost=localhost 
+set cbuser=
+set cbpass=
+set cbdb=
+set cbhost= 
+set gsuser=SyBariouS427328
+set gspass=2B5V6tD$*3h658
+set gsdb=dwarvencrusadegs
+set gshost=localhost
+set logdir=.
+set backup=.

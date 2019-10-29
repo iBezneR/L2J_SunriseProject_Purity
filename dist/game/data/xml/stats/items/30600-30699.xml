@@ -1,0 +1,3065 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="30600" name="Bound Trident" type="Weapon">
+		<!-- Bound Trident. -->
+		<set name="icon" val="icon.weapon_trident_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="24" />
+		<set name="weight" val="2100" />
+		<set name="price" val="15750" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
+		<for>
+			<set stat="pAtk" val="40" />
+			<set stat="mAtk" val="26" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="80" />
+		</for>
+	</item>
+	<item id="30601" name="Bound Tunic of Zubei" type="Armor">
+		<set name="icon" val="icon.armor_t56_u_i00" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="6" />
+		<set name="weight" val="1960" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="59850" />
+		<for>
+			<add order="0" stat="pDef" val="78" />
+		</for>
+	</item>
+	<item id="30602" name="Bound Tunic of Doom" type="Armor">
+		<set name="icon" val="icon.armor_t73_u_i00" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="10" />
+		<set name="weight" val="1900" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="92850" />
+		<for>
+			<add order="0" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="30603" name="Bound Talwar" type="Weapon">
+		<!-- Kamael-exclusive weapon: Heavy Sword Conversion, Bound Talwar. -->
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="24" />
+		<set name="weight" val="2100" />
+		<set name="price" val="15750" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="43" />
+			<set stat="mAtk" val="26" />
+			<set stat="pAtkSpd" val="350" />
+			<set stat="accCombat" val="2" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="15" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30604" name="Bound Talwar" type="Weapon">
+		<!-- Kamael-exclusive weapon: Steel Sword Conversion, Bound Talwar.. -->
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="24" />
+		<set name="weight" val="2100" />
+		<set name="price" val="15750" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="43" />
+			<set stat="mAtk" val="26" />
+			<set stat="pAtkSpd" val="350" />
+			<set stat="accCombat" val="2" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="15" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30605" name="Bound Tomahawk" type="Weapon">
+		<!-- Bound Tomahawk. -->
+		<set name="icon" val="icon.weapon_tomahawk_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="38" />
+		<set name="weight" val="1780" />
+		<set name="price" val="24775" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="51" />
+			<set stat="mAtk" val="32" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30606" name="Bound Tallum Stockings" type="Armor">
+		<set name="icon" val="icon.armor_t79_l_i00" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="4" />
+		<set name="weight" val="920" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="83500" />
+		<for>
+			<add order="0" stat="pDef" val="53" />
+		</for>
+	</item>
+	<item id="30607" name="Bound Tallum Helmet" type="Armor">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="570" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="66800" />
+		<for>
+			<add order="0" stat="pDef" val="69" />
+		</for>
+	</item>
+	<item id="30608" name="Bound Tallum Plate Armor" type="Armor">
+		<!-- Full body armor. -->
+		<set name="icon" val="icon.armor_t77_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="15" />
+		<set name="weight" val="9780" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="bodypart" val="onepiece" />
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="289400" />
+		<for>
+			<add order="0" stat="pDef" val="278" />
+		</for>
+	</item>
+	<item id="30609" name="Bound Tallum Tunic" type="Armor">
+		<set name="icon" val="icon.armor_t79_u_i00" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="7" />
+		<set name="weight" val="1860" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="133550" />
+		<for>
+			<add order="0" stat="pDef" val="86" />
+		</for>
+	</item>
+	<item id="30610" name="Bound Tallum Blade*Dark Legion's Edge" type="Weapon">
+		<!-- Bound Item. P. Atk. of dualswords increases more than one-handed type weapon when enchanted. Max HP + 15%, Max MP + 20%, Max CP + 30% when enchanted by 4 or more. Increases damage inflicted during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="68" />
+		<set name="weight" val="2080" />
+		<set name="price" val="2137970" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
+			<skill id="3570" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Robust Health -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="342" />
+			<set stat="mAtk" val="132" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30611" name="Bound Tallum Blade*Damascus" type="Weapon">
+		<!-- Bound Item. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="71" />
+		<set name="weight" val="1890" />
+		<set name="price" val="1348420" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
+			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="305" />
+			<set stat="mAtk" val="121" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30612" name="Bound Tallum Blade" type="Weapon">
+		<!-- Bound Item. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1330" />
+		<set name="price" val="704900" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30613" name="Bound Tallum Blade - Critical Poison" type="Weapon">
+		<!-- Bound Item. <Special Option>. Has a 10% chance of casting Poison on the target during a standard Critical Attack. Increases damage inflicted during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1330" />
+		<set name="price" val="704900" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
+			<skill id="3061" level="1" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Poison -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30614" name="Bound Tallum Blade - Haste" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1330" />
+		<set name="price" val="704900" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3068-2" /> <!-- Special Ability: Haste -->
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30615" name="Bound Tallum Blade - Anger" type="Weapon">
+		<!-- Bound Item. <Special Option>. Decreases Max HP by 15%. P. Atk. + 31. Inflicts additional damage during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1330" />
+		<set name="price" val="704900" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3057-1" /> <!-- Special Ability: Anger -->
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30616" name="Bound Tallum Boots" additionalName="Heavy Armor" type="Armor">
+		<!-- Part of the heavy tallum set. -->
+		<set name="icon" val="icon.armor_t77_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="2" />
+		<set name="weight" val="1130" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="bodypart" val="feet" />
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="44500" />
+		<for>
+			<add order="0" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="30617" name="Bound Tallum Boots" additionalName="Light Armor" type="Armor">
+		<!-- Part of the light tallum set. -->
+		<set name="icon" val="icon.armor_t78_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="2" />
+		<set name="weight" val="1130" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="44500" />
+		<for>
+			<add order="0" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="30618" name="Bound Tallum Boots" additionalName="Robe" type="Armor">
+		<!-- Part of the robe tallum set. -->
+		<set name="icon" val="icon.armor_t79_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="2" />
+		<set name="weight" val="1130" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="44500" />
+		<for>
+			<add order="0" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="30619" name="Bound Tallum Leather Armor" type="Armor">
+		<!-- Full body armor. -->
+		<set name="icon" val="icon.armor_t78_ul_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="onepiece" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="11" />
+		<set name="weight" val="5400" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="217050" />
+		<for>
+			<add order="0" stat="pDef" val="209" />
+		</for>
+	</item>
+	<item id="30620" name="Bound Tallum Gloves" additionalName="Heavy Armor" type="Armor">
+		<!-- Part of the heavy tallum set. -->
+		<set name="icon" val="icon.armor_t77_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="2" />
+		<set name="weight" val="580" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="44500" />
+		<for>
+			<add order="0" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="30621" name="Bound Tallum Gloves" additionalName="Light Armor" type="Armor">
+		<!-- Part of the light tallum set. -->
+		<set name="icon" val="icon.armor_t78_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="2" />
+		<set name="weight" val="580" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="44500" />
+		<for>
+			<add order="0" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="30622" name="Bound Tallum Gloves" additionalName="Robe" type="Armor">
+		<!-- Part of the robe tallum set. -->
+		<set name="icon" val="icon.armor_t79_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="2" />
+		<set name="weight" val="580" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="44500" />
+		<for>
+			<add order="0" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="30623" name="Bound Tallum Glaive" type="Weapon">
+		<!-- Bound Item. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1840" />
+		<set name="price" val="1037050" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
+		<for>
+			<set stat="pAtk" val="232" />
+			<set stat="mAtk" val="114" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="80" />
+		</for>
+	</item>
+	<item id="30624" name="Bound Tallum Glaive - Guidance" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Accuracy by about 4. Increases damage inflicted during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1840" />
+		<set name="price" val="1037050" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3602-8" /> <!-- Special Ability: Guidance -->
+		<for>
+			<set stat="pAtk" val="232" />
+			<set stat="mAtk" val="114" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="80" />
+		</for>
+	</item>
+	<item id="30625" name="Bound Tallum Glaive - Health" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1840" />
+		<set name="price" val="1037050" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3013-4" /> <!-- Special Ability: Health -->
+		<for>
+			<set stat="pAtk" val="232" />
+			<set stat="mAtk" val="114" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="80" />
+		</for>
+	</item>
+	<item id="30626" name="Bound Tallum Glaive - Wide Blow" type="Weapon">
+		<!-- Bound Item. <Special Option>. Broadens the angle of attack. Increases damage inflicted during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1840" />
+		<set name="price" val="1037050" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;180" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3552-2" /> <!-- Special Ability: PvP Damage -->
+		<for>
+			<set stat="pAtk" val="232" />
+			<set stat="mAtk" val="114" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="80" />
+		</for>
+	</item>
+	<item id="30627" name="Bound Tateossian Earring" type="Armor">
+		<!-- Tateossian Earring Has the effect of MP + 31. -->
+		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="5" />
+		<set name="weight" val="150" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="163500" />
+		<for>
+			<set stat="mDef" val="71" />
+		</for>
+	</item>
+	<item id="30628" name="Bound Tateossian Ring" type="Armor">
+		<!-- Tateossian Ring Has the effect of MP + 21. -->
+		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="150" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="109000" />
+		<for>
+			<set stat="mDef" val="48" />
+		</for>
+	</item>
+	<item id="30629" name="Bound Tateossian Necklace" type="Armor">
+		<!-- Tateossian Necklace. Has the effect of MP + 42. -->
+		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="crystal_count" val="6" />
+		<set name="weight" val="150" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="218050" />
+		<for>
+			<set stat="mDef" val="95" />
+		</for>
+	</item>
+	<item id="30630" name="Bound Tiger's Eye" type="Armor">
+		<!-- Bound Tiger's Eye. -->
+		<set name="icon" val="icon.accessary_tigerseye_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="150" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="2470" />
+		<for>
+			<set stat="mDef" val="30" />
+		</for>
+	</item>
+	<item id="30631" name="Bound Tiger's Eye" type="Armor">
+		<set name="icon" val="icon.accessary_tigerseye_earing_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="150" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="2470" />
+		<for>
+			<set stat="mDef" val="30" />
+		</for>
+	</item>
+	<item id="30632" name="Bound Tower Shield" type="Armor">
+		<!-- Bound Tower Shield. -->
+		<set name="icon" val="icon.shield_tower_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="1240" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="9915" />
+		<for>
+			<set stat="sDef" val="190" />
+			<set stat="rShld" val="20" />
+			<set stat="rEvas" val="-8" />
+		</for>
+	</item>
+	<item id="30633" name="Bound Tathlum" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Akat Longbow conversion, Bound tathlum. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_taslam_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1760" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="5" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="reuse_delay" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="303" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="400" />
+		</for>
+	</item>
+	<item id="30634" name="Bound Tathlum - Guidance" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Akat Longbow. <Special Option>. Increases Accuracy by 4. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1760" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="5" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="reuse_delay" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3008-3" /> <!-- Special Ability: Guidance -->
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="303" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="400" />
+		</for>
+	</item>
+	<item id="30635" name="Bound Tathlum - Evasion" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Akat Longbow. <Special Option>. Increases Evasion by 2. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1760" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="5" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="reuse_delay" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3009-3" /> <!-- Special Ability: Evasion -->
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="303" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="400" />
+		</for>
+	</item>
+	<item id="30636" name="Bound Tathlum - Miser" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Akat Longbow. <Special Option>. Has a 32% chance of reducing the number of Soulshots consumed to 4 during an attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_taslam_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1760" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="5" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="reuse_delay" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="reduced_soulshot" val="32,4" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="303" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="400" />
+		</for>
+	</item>
+	<item id="30637" name="Bound Tarbar" type="Weapon">
+		<!-- Bound Tarbar. -->
+		<set name="icon" val="icon.weapon_tarbar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="82" />
+		<set name="weight" val="1730" />
+		<set name="price" val="53700" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="79" />
+			<set stat="mAtk" val="47" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30638" name="Bound Claymore" type="Weapon">
+		<!-- Bound Claymore. -->
+		<set name="icon" val="icon.weapon_claymore_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="106" />
+		<set name="weight" val="2090" />
+		<set name="price" val="69350" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="112" />
+			<set stat="mAtk" val="54" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30639" name="Bound Big Hammer" type="Weapon">
+		<!-- Bound Big Hammer. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_big_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1710" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30640" name="Bound Big Hammer - Health" type="Weapon">
+		<!-- <Special Option>. Increases Max HP by 25%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_big_hammer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1710" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3013-1" /> <!-- Special Ability: Health -->
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30641" name="Bound Big Hammer - Rsk. Focus" type="Weapon">
+		<!-- <Special Option>. Increases Critical by 138 when HP drops to 60% or below. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_big_hammer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1710" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3027-1" /> <!-- Special Ability: Rsk. Focus -->
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30642" name="Bound Big Hammer - Haste" type="Weapon">
+		<!-- <Special Option>. Increases Atk. Spd. by about 8%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_big_hammer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1710" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3036-1" /> <!-- Special Ability: Haste -->
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30643" name="Bound Keshanberk*Keshanberk" type="Weapon">
+		<!-- Bound Item. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="2080" />
+		<set name="price" val="704900" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="259" />
+			<set stat="mAtk" val="107" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30644" name="Bound Keshanberk*Damascus" type="Weapon">
+		<!-- Bound Item. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Max HP increases by 25%. Inflicts additional damage to target during PvP. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="A" />
+		<set name="crystal_count" val="49" />
+		<set name="weight" val="2080" />
+		<set name="price" val="928370" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3013" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Health -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="275" />
+			<set stat="mAtk" val="112" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30645" name="Bound Keshanberk" type="Weapon">
+		<!-- Bound Item. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kshanberk_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1370" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30646" name="Bound Keshanberk - Guidance" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Accuracy by 5. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kshanberk_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1370" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3007-5" /> <!-- Special Ability: Guidance -->
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30647" name="Bound Keshanberk - Focus" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Critical by 68. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kshanberk_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1370" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3010-5" /> <!-- Special Ability: Focus -->
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30648" name="Bound Keshanberk - Back Blow" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases P. Critical Rate by 56 when attacking the target from behind. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kshanberk_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="1370" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3018-5" /> <!-- Special Ability: Back Blow -->
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30649" name="Bound Crimson Sword*Sword of Revolution" type="Weapon">
+		<!-- Bound Crimson Sword*Sword of Revolution. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="31" />
+		<set name="weight" val="2390" />
+		<set name="price" val="95175" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="136" />
+			<set stat="mAtk" val="63" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30650" name="Bound Crimson Sword*Crimson Sword" type="Weapon">
+		<!-- Bound Crimson Sword*Crimson Sword. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="25" />
+		<set name="weight" val="2440" />
+		<set name="price" val="75220" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="118" />
+			<set stat="mAtk" val="56" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30651" name="Bound Crimson Sword*Elven Sword" type="Weapon">
+		<!-- Bound Crimson Sword*Elven Sword. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="25" />
+		<set name="weight" val="2450" />
+		<set name="price" val="75220" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="118" />
+			<set stat="mAtk" val="56" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30652" name="Bound Crimson Sword*Elven Long Sword" type="Weapon">
+		<!-- Bound Crimson Sword*Elven Long Sword. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="36" />
+		<set name="weight" val="2360" />
+		<set name="price" val="110485" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<skills>
+			<skill id="3046" level="2" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Guidance -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="148" />
+			<set stat="mAtk" val="68" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30653" name="Bound Crimson Sword" type="Weapon">
+		<!-- Bound Crimson Sword. -->
+		<set name="icon" val="icon.weapon_crimson_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="57" />
+		<set name="weight" val="1490" />
+		<set name="price" val="37175" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="64" />
+			<set stat="mAtk" val="39" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30654" name="Bound Crystal Staff" type="Weapon">
+		<!-- Bound crystal staff. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1020" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="103" />
+			<set stat="mAtk" val="89" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30655" name="Bound Crystal Staff - Rsk. Evasion" type="Weapon">
+		<!-- <Special Option>. Increases Evasion by 7 when HP drops to 60% or below. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1020" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3031-1" /> <!-- Special Ability: Rsk. Evasion -->
+		<for>
+			<set stat="pAtk" val="103" />
+			<set stat="mAtk" val="89" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30656" name="Bound Crystal Staff - Mana Up" type="Weapon">
+		<!-- <Special Option>. Increases Max MP by 30%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1020" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3014-1" /> <!-- Special Ability: Mana Up -->
+		<for>
+			<set stat="pAtk" val="103" />
+			<set stat="mAtk" val="89" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30657" name="Bound Crystal Staff - Blessed Body" type="Weapon">
+		<!-- <Special Option>. Has a 20% chance of casting Blessed Body on the target during magic use. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="29" />
+		<set name="weight" val="1020" />
+		<set name="price" val="88145" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<skills>
+			<skill id="1045" level="2" type_chance="20" type="ON_MAGIC_SKILL" /> <!-- Blessed Body -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="103" />
+			<set stat="mAtk" val="89" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30658" name="Bound Crystal Dagger" type="Weapon">
+		<!-- Bound crystal dagger. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="1000" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="136" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30659" name="Bound Crystal Dagger - Critical Bleed" type="Weapon">
+		<!-- <Special Option>. Has a 14% chance of casting Bleed on the target during a standard Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="1000" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<skills>
+			<skill id="3020" level="4" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Bleed -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="136" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30660" name="Bound Crystal Dagger - Critical Poison" type="Weapon">
+		<!-- <Special Option>. Has a 7% chance of casting Poison on the target during a standard Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="1000" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<skills>
+			<skill id="3041" level="4" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Poison -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="136" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30661" name="Bound Crystal Dagger - Mortal Strike" type="Weapon">
+		<!-- <Special Option>. Increases the success rate of Mortal Blow and Deadly Blow by 44%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_crystal_dagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="1000" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3035-4" /> <!-- Special Ability: Mighty Mortal -->
+		<for>
+			<set stat="pAtk" val="136" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30662" name="Bound Kris" type="Weapon">
+		<!-- Bound Item. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kris_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="980" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="153" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30663" name="Bound Kris - Evasion" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Evasion by 2. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kris_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="980" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3009-5" /> <!-- Special Ability: Evasion -->
+		<for>
+			<set stat="pAtk" val="153" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30664" name="Bound Kris - Focus" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Critical by 71. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kris_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="980" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3011-5" /> <!-- Special Ability: Focus -->
+		<for>
+			<set stat="pAtk" val="153" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30665" name="Bound Kris - Back Blow" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases P. Critical Rate by 40% when attacking the target from behind. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_kris_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="37" />
+		<set name="weight" val="980" />
+		<set name="price" val="334025" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3019-5" /> <!-- Special Ability: Back Blow -->
+		<for>
+			<set stat="pAtk" val="153" />
+			<set stat="mAtk" val="91" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30666" name="Bound Crossbow" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Gastraphetes conversion, Bound crossbow. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="57" />
+		<set name="weight" val="1840" />
+		<set name="price" val="37175" />
+		<set name="soulshots" val="4" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="reuse_delay" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="81" />
+			<set stat="mAtk" val="39" />
+			<set stat="pAtkSpd" val="303" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="400" />
+		</for>
+	</item>
+	<item id="30667" name="Bound Cranequin" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Light Crossbow Conversion, Bound Cranequin. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="106" />
+		<set name="weight" val="1810" />
+		<set name="price" val="69350" />
+		<set name="soulshots" val="6" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="reuse_delay" val="400" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="117" />
+			<set stat="mAtk" val="54" />
+			<set stat="pAtkSpd" val="303" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="400" />
+		</for>
+	</item>
+	<item id="30668" name="Bound Kukuri" type="Weapon">
+		<!-- Bound kukuri. -->
+		<set name="icon" val="icon.weapon_kukuri_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="57" />
+		<set name="weight" val="1080" />
+		<set name="price" val="37175" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="56" />
+			<set stat="mAtk" val="39" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30669" name="Bound Colichemarde" type="Weapon">
+		<!-- Bound Item. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_colichemarde_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1350" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtkSpd" val="406" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="40" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30670" name="Bound Colichemarde - Focus" type="Weapon">
+		<!-- Bound Item. Kamael-exclusive Weapon: Damascus sword conversion. <Special Option>. Increases Critical by 64. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_colichemarde_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1350" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3010" level="6" /> <!-- Special Ability: Focus -->
+			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtkSpd" val="406" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="40" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30671" name="Bound Colichemarde - Critical Damage" type="Weapon">
+		<!-- Bound Item. Kamael-exclusive Weapon: Damascus sword conversion. <Special Option>. P. Atk. + 262 during a Critical Attack. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_colichemarde_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1350" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3023" level="6" /> <!-- Special Ability: Critical Damage -->
+			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtkSpd" val="406" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="40" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30672" name="Bound Colichemarde - Haste" type="Weapon">
+		<!-- Bound Item. Kamael-exclusive Weapon: Damascus sword conversion. <Special Option>. Increases Atk. Spd. by about 6%. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_colichemarde_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1350" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3036" level="6" /> <!-- Special Ability: Haste -->
+			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="176" />
+			<set stat="mAtk" val="99" />
+			<set stat="pAtkSpd" val="406" />
+			<set stat="critRate" val="10" />
+			<!-- <set stat="randomDamage" val="40" /> -->
+			<set stat="accCombat" val="-1.5" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30673" name="Bound Compound Armor" type="Armor">
+		<!-- Bound Compound Armor. -->
+		<set name="icon" val="icon.armor_t61_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="20" />
+		<set name="weight" val="10980" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="bodypart" val="onepiece" />
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="61350" />
+		<for>
+			<add order="0" stat="pDef" val="224" />
+		</for>
+	</item>
+	<item id="30674" name="Bound Compound Helmet" type="Armor">
+		<!-- Bound Compound Helmet. -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="4" />
+		<set name="weight" val="610" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="14160" />
+		<for>
+			<add order="0" stat="pDef" val="54" />
+		</for>
+	</item>
+	<item id="30675" name="Bound Compound Shield" type="Armor">
+		<!-- Bound Compound Shield. -->
+		<set name="icon" val="icon.shield_composite_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="1230" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="9915" />
+		<for>
+			<set stat="sDef" val="190" />
+			<set stat="rShld" val="20" />
+			<set stat="rEvas" val="-8" />
+		</for>
+	</item>
+	<item id="30676" name="Bound Compound Boots" type="Armor">
+		<!-- Bound Compound Boots. -->
+		<set name="icon" val="icon.armor_t61_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="3" />
+		<set name="weight" val="1220" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="9440" />
+		<for>
+			<add order="0" stat="pDef" val="36" />
+		</for>
+	</item>
+	<item id="30677" name="Bound Conjuror's Staff" type="Weapon">
+		<!-- Bound Conjuror's Staff. -->
+		<set name="icon" val="icon.weapon_conjure_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="38" />
+		<set name="weight" val="1030" />
+		<set name="price" val="24775" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="50" />
+			<set stat="mAtk" val="47" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30678" name="Bound Conjuror's Knife" type="Weapon">
+		<!-- Bound Conjuror's Knife. -->
+		<set name="icon" val="icon.weapon_conjure_knife_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="57" />
+		<set name="weight" val="750" />
+		<set name="price" val="37175" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="45" />
+			<set stat="mAtk" val="52" />
+			<set stat="pAtkSpd" val="433" />
+			<set stat="critRate" val="12" />
+			<!-- <set stat="randomDamage" val="5" /> -->
+			<set stat="accCombat" val="-3.75" />
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30679" name="Bound Katana*Katana" type="Weapon">
+		<!-- Bound katana*katana. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="2270" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<skills>
+			<skill id="3045" level="8" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="190" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30680" name="Bound Katana*Spirit Sword" type="Weapon">
+		<!-- Bound Katana*Spirit Sword. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="2250" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<skills>
+			<skill id="3046" level="8" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Guidance -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="190" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30681" name="Bound Katana*Raid Sword" type="Weapon">
+		<!-- Bound Katana*Raid Sword. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="78" />
+		<set name="weight" val="2270" />
+		<set name="price" val="235675" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<skills>
+			<skill id="3042" level="8" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="190" />
+			<set stat="mAtk" val="83" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30682" name="Bound Katana" type="Weapon">
+		<!-- Bound Katana. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_katana_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="36" />
+		<set name="weight" val="1420" />
+		<set name="price" val="110485" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30683" name="Bound Katana - Focus" type="Weapon">
+		<!-- <Special Option>. Increases Critical by 82. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_katana_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="36" />
+		<set name="weight" val="1420" />
+		<set name="price" val="110485" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3010-2" /> <!-- Special Ability: Focus -->
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30684" name="Bound Katana - Critical Damage" type="Weapon">
+		<!-- <Special Option>. P. Atk. + 194 during a Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_katana_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="36" />
+		<set name="weight" val="1420" />
+		<set name="price" val="110485" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3023-2" /> <!-- Special Ability: Critical Damage -->
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30685" name="Bound Katana - Haste" type="Weapon">
+		<!-- <Special Option>. Increases Atk. Spd. by about 7%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_katana_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="36" />
+		<set name="weight" val="1420" />
+		<set name="price" val="110485" />
+		<set name="soulshots" val="2" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="2" />
+        <set name="item_skill" val="3036-2" /> <!-- Special Ability: Haste -->
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30686" name="Bound Katzbalger" type="Weapon">
+		<!-- Kamael-exclusive Weapon: Lesser Giant's Sword conversion, Bound Katzbalger. -->
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="82" />
+		<set name="weight" val="2020" />
+		<set name="price" val="53700" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="86" />
+			<set stat="mAtk" val="47" />
+			<set stat="pAtkSpd" val="350" />
+			<set stat="accCombat" val="2" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="15" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30687" name="Bound Kaim Vanul's Bones" type="Weapon">
+		<!-- Bound Item. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1570" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set stat="pAtk" val="155" />
+			<set stat="mAtk" val="132" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30688" name="Bound Kaim Vanul's Bones - Mana Up" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Max MP by 30%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1570" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3014-1" /> <!-- Special Ability: Mana Up -->
+		<for>
+			<set stat="pAtk" val="155" />
+			<set stat="mAtk" val="132" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30689" name="Bound Kaim Vanul's Bones - Magic Silence" type="Weapon">
+		<!-- Bound Item. <Special Option>. Has a 10% chance of casting Silence on the target during magic use. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1570" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+		<skills>
+			<skill id="3078" level="6" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Silence -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="155" />
+			<set stat="mAtk" val="132" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30690" name="Bound Kaim Vanul's Bones - Conversion" type="Weapon">
+		<!-- Bound Item. <Special Option>. Increases Max MP by 60% and Max HP by 40%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_bone_of_kaim_vanul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="crystal_count" val="56" />
+		<set name="weight" val="1570" />
+		<set name="price" val="504570" />
+		<set name="soulshots" val="1" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="1" />
+        <set name="item_skill" val="3048-1" /> <!-- Special Ability: Conversion -->
+		<for>
+			<set stat="pAtk" val="155" />
+			<set stat="mAtk" val="132" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30691" name="Bound Kite Shield" type="Armor">
+		<!-- Bound Kite Shield. -->
+		<set name="icon" val="icon.shield_kite_shield_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="4" />
+		<set name="weight" val="1320" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="3015" />
+		<for>
+			<set stat="sDef" val="142" />
+			<set stat="rShld" val="20" />
+			<set stat="rEvas" val="-8" />
+		</for>
+	</item>
+	<item id="30692" name="Bound Karik Horn" type="Weapon">
+		<!-- Bound Karik Horn. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_horn_of_karik_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="2020" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="169" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30693" name="Bound Karik Horn - Focus" type="Weapon">
+		<!-- <Special Option>. Increases Critical by 77. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_horn_of_karik_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="2020" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3010-3" /> <!-- Special Ability: Focus -->
+		<for>
+			<set stat="pAtk" val="169" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30694" name="Bound Karik Horn - Haste" type="Weapon">
+		<!-- <Special Option>. Increases Atk. Spd. by about 7%. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_horn_of_karik_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="2020" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3036-3" /> <!-- Special Ability: Haste -->
+		<for>
+			<set stat="pAtk" val="169" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30695" name="Bound Karik Horn - Critical Drain" type="Weapon">
+		<!-- <Special Option>. Absorbs 9 HP from the target during a Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_horn_of_karik_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="2020" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<skills>
+			<skill id="3039" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Drain -->
+		</skills>
+		<for>
+			<set stat="pAtk" val="169" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="325" />
+			<set stat="accCombat" val="8" />
+			<set stat="critRate" val="6" />
+			<!-- <set stat="randomDamage" val="20" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30696" name="Bound Caliburs" type="Weapon">
+		<!-- Bound Caliburs. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_caliburs_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1400" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set stat="pAtk" val="139" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30697" name="Bound Caliburs - Guidance" type="Weapon">
+		<!-- <Special Option>. Increases Accuracy by 5. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_caliburs_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1400" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3007-3" /> <!-- Special Ability: Guidance -->
+		<for>
+			<set stat="pAtk" val="139" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30698" name="Bound Caliburs - Focus" type="Weapon">
+		<!-- <Special Option>. Increases Critical by 77. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_caliburs_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1400" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3010-3" /> <!-- Special Ability: Focus -->
+		<for>
+			<set stat="pAtk" val="139" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+	<item id="30699" name="Bound Caliburs - Critical Damage" type="Weapon">
+		<!-- <Special Option>. P. Atk. + 213 during a Critical Attack. No Soul Crystal option. -->
+		<set name="icon" val="icon.weapon_caliburs_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="crystal_type" val="C" />
+		<set name="crystal_count" val="55" />
+		<set name="weight" val="1400" />
+		<set name="price" val="165215" />
+		<set name="soulshots" val="3" />
+		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="enchant_enabled" val="1" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="spiritshots" val="3" />
+        <set name="item_skill" val="3023-3" /> <!-- Special Ability: Critical Damage -->
+		<for>
+			<set stat="pAtk" val="139" />
+			<set stat="mAtk" val="76" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+</list>

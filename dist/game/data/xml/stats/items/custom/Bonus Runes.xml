@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/items.xsd">
+
+	<item id="40320" type="EtcItem" name="Glyph of Experience Points 50% - 3 Hours">
+		<set name="icon" val="icon.artifact_c_phy_def" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="180" />
+	</item>
+	<item id="40321" type="EtcItem" name="Glyph of Skill Points 50% - 3 Hours">
+		<set name="icon" val="icon.artifact_c_mag_def" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="180" />
+	</item>
+	<item id="40322" type="EtcItem" name="Glyph of Wealth 25% - 3 Hours">
+		<set name="icon" val="icon.artifact_d_vampiric_rage" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="180" />
+	</item>
+</list>
+

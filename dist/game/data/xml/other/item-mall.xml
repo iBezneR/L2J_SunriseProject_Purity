@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/item-mall.xsd">
+
+	<!-- LEGEND
+	
+	is_best="true" - Tab changed to "Special"
+	is_new="true"
+	is_event="true" - Tab changed to "On Offer"
+	
+	category="1" - Enchant	
+	category="2" - Supplies
+	category="3" - Cosmetics	
+	category="4" - Runes
+	
+	others - items that are not in any category
+	
+	sale_start_date="26.08.2013 12:00" 
+	sale_end_date="02.09.2013 07:00"
+
+	-->
+
+    <!-- DWARVEN PATRON TOKENS COINS --><!-- 111000X FAMILY -->
+	
+	<product id="1110001" name="One Week Premium Token" is_best="true" price="200">
+		<component item_id="40906" count="1"/>
+	</product>
+	<product id="1110002" name="One Month Premium Token" is_best="true" is_event="true" price="500">
+		<component item_id="40907" count="1"/>
+	</product>
+<!--	
+	<product id="1110003" name="Dwarven Blue'ish Coins - Bag of 300" is_best="true" price="2600">
+		<component item_id="40904" count="300"/>
+	</product>	
+-->
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+    <!-- FORTUNE BOXES AND CUBES --><!-- DROP TO BE VERIFIED --><!-- 101000X FAMILY -->
+
+<!--<product id="1010001" name="Small Fortuna Box" price="75">
+		<component item_id="22000" count="1"/>
+	</product>
+	<product id="1010002" name="Middle Fortuna Box" price="150">
+		<component item_id="22001" count="1"/>
+	</product>
+	<product id="1010003" name="Large Fortuna Box" price="300">
+		<component item_id="22002" count="1"/>
+	</product>
+-->	
+<!--<product id="1010004" name="Small Fortuna Cube" price="75">
+		<component item_id="22003" count="1"/>
+	</product>
+	<product id="1010005" name="Middle Fortuna Cube" price="150">
+		<component item_id="22004" count="1"/>
+	</product>
+	<product id="1010006" name="Large Fortuna Cube" price="300">
+		<component item_id="22005" count="1"/>
+	</product>
+-->
+	
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+	<!-- POTIONS AND ELIXIRS --><!-- 102000X FAMILY -->
+
+<!-- 	<product id="1020001" name="Secret medicine of Will - D grade" category="2" price="25"> INSTANT CP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22027" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020002" name="Secret medicine of Will - C grade" category="2" price="25"> INSTANT CP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22028" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020003" name="Secret medicine of Will - B grade" category="2" price="25"> INSTANT CP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22029" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020004" name="Secret medicine of Will - A grade" category="2" price="25"> INSTANT CP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22030" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020005" name="Secret medicine of Will - S grade" category="2" price="25"> INSTANT CP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22031" count="1"/> -->
+<!-- 	</product> -->
+	
+<!-- 	<product id="1020006" name="Secret medicine of Life - D grade" category="2" price="25"> INSTANT HP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22032" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020007" name="Secret medicine of Life - C grade" category="2" price="25"> INSTANT HP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22033" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020008" name="Secret medicine of Life - B grade" category="2" price="25"> INSTANT HP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22034" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020009" name="Secret medicine of Life - A grade" category="2" price="25"> INSTANT HP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22035" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020010" name="Secret medicine of Life - S grade" category="2" price="25"> INSTANT HP RECOVERY / SHORT REUSE -->
+<!-- 		<component item_id="22036" count="1"/> -->
+<!-- 	</product> -->
+	
+<!-- 	<product id="1020011" name="Secret medicine of Will - D grade" category="2" price="25"> INSTANT CP RECOVERY -->
+<!-- 		<component item_id="20354" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020012" name="Secret medicine of Will - C grade" category="2" price="25"> INSTANT CP RECOVERY -->
+<!-- 		<component item_id="20355" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020013" name="Secret medicine of Will - B grade" category="2" price="25"> INSTANT CP RECOVERY -->
+<!-- 		<component item_id="20356" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020014" name="Secret medicine of Will - A grade" category="2" price="25"> INSTANT CP RECOVERY -->
+<!-- 		<component item_id="20357" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020015" name="Secret medicine of Will - S grade" category="2" price="25"> INSTANT CP RECOVERY -->
+<!-- 		<component item_id="20358" count="1"/> -->
+<!-- 	</product> -->
+	
+<!-- 	<product id="1020016" name="Secret medicine of Life - D grade" category="2" price="25"> 50% HP RECOVERY / 5 MIN REUSE -->
+<!-- 		<component item_id="20359" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020017" name="Secret medicine of Life - C grade" category="2" price="25"> 50% HP RECOVERY / 5 MIN REUSE -->
+<!-- 		<component item_id="20360" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020018" name="Secret medicine of Life - B grade" category="2" price="25"> 50% HP RECOVERY / 5 MIN REUSE -->
+<!-- 		<component item_id="20361" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020019" name="Secret medicine of Life - A grade" category="2" price="25"> 50% HP RECOVERY / 5 MIN REUSE -->
+<!-- 		<component item_id="20362" count="1"/> -->
+<!-- 	</product> -->
+<!-- 	<product id="1020020" name="Secret medicine of Life - S grade" category="2" price="25"> 50% HP RECOVERY / 5 MIN REUSE -->
+<!-- 		<component item_id="20363" count="1"/> -->
+<!-- 	</product> -->
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+	<!-- XP AND SP RUNES --><!-- 103000X FAMILY -->
+
+	<!-- PACKED RUNES OF XP -->
+	<product id="1030001" name="Packed Rune of XP 50% - 7 days" category="4" price="350"> <!-- STANDARD XP GAIN -->
+		<component item_id="20553" count="1"/>
+	</product>
+	<product id="1030002" name="Packed Rune of XP 50% - 10 Hours" category="4" price="50"> <!-- STANDARD XP GAIN -->
+		<component item_id="20551" count="1"/>
+	</product>		
+
+	<!-- PACKED RUNES OF SP -->
+	<product id="1030010" name="Packed Rune of SP 50% - 7 days" category="4" price="350"> <!-- STANDARD SP GAIN -->
+		<component item_id="20559" count="1"/>
+	</product>
+	<product id="1030011" name="Packed Rune of SP 50% - 10 Hours" category="4" price="50"> <!-- STANDARD SP GAIN -->
+		<component item_id="20557" count="1"/>
+	</product>
+
+	
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		
+	<!-- BACKUP STONES --><!-- 104000X FAMILY -->
+		
+ 	<product id="1040001" name="Weapon Enhance Backup Stone (D-Grade)" category="1" price="10">
+ 		<component item_id="12362" count="1"/>
+ 	</product>
+ 	<product id="1040002" name="Weapon Enhance Backup Stone (C-Grade)" category="1" price="20">
+ 		<component item_id="12363" count="1"/>
+ 	</product>
+ 	<product id="1040003" name="Weapon- Enhance Backup Stone (B-Grade)" category="1" price="30">
+ 		<component item_id="12364" count="1"/>
+ 	</product>
+ 	<product id="1040004" name="Weapon Enhance Backup Stone (A-Grade)" category="1" price="40">
+ 		<component item_id="12365" count="1"/>
+ 	</product>
+ 	<product id="1040005" name="Weapon Enhance Backup Stone (S-Grade)" category="1" price="50">
+ 		<component item_id="12366" count="1"/>
+ 	</product>
+	
+ 	<product id="1040006" name="Armor Enhance Backup Stone (D-Grade)" category="1" price="10">
+ 		<component item_id="12367" count="1"/>
+ 	</product>
+ 	<product id="1040007" name="Armor Enhance Backup Stone (C-Grade)" category="1" price="20">
+ 		<component item_id="12368" count="1"/>
+ 	</product>
+ 	<product id="1040008" name="Armor Enhance Backup Stone (B-Grade)" category="1" price="30">
+ 		<component item_id="12369" count="1"/>
+ 	</product>
+ 	<product id="1040009" name="Armor Enhance Backup Stone (A-Grade)" category="1" price="40">
+ 		<component item_id="12370" count="1"/>
+ 	</product>
+ 	<product id="1040010" name="Armor Enhance Backup Stone (S-Grade)" category="1" price="50">
+ 		<component item_id="12371" count="1"/>
+ 	</product>
+
+		<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+	<!-- TRANSFORMATION SCROLLS --><!-- 105000X FAMILY -->
+<!--  	
+	<product id="1050001" name="Omen Beast Transformation Scroll" price="25">
+		<component item_id="20364" count="1"/>
+	</product>
+	<product id="1050002" name="Death Blader Transformation Scroll" price="25">
+		<component item_id="20365" count="1"/>
+	</product>
+	<product id="1050003" name="Grail Apostle Transformation Scroll" price="25">
+		<component item_id="20366" count="1"/>
+	</product>
+	<product id="1050004" name="Unicorn Transformation Scroll" price="25">
+		<component item_id="20367" count="1"/>
+	</product>
+	<product id="1050005" name="Lilim Knight Transformation Scroll" price="25">
+		<component item_id="20368" count="1"/>
+	</product>
+	<product id="1050006" name="Golem Guardian Transformation Scroll" price="25">
+		<component item_id="20369" count="1"/>
+	</product>
+	<product id="1050007" name="Inferno Drake Transformation Scroll" price="25">
+		<component item_id="20370" count="1"/>
+	</product>
+	<product id="1050008" name="Dragon Bomber Transformation Scroll" price="25">
+		<component item_id="20371" count="1"/>
+	</product>
+-->
+	<!-- COLOR NAME / TITLE --><!-- 105000X FAMILY -->
+<!--  	
+	<product id="1050009" name="Custom Color Title" price="200">
+		<component item_id="13021" count="1"/>
+	</product>	
+-->
+	<!-- SUMMON SCROLLS --><!-- 105000X FAMILY -->
+	
+<!--	<product id="1050010" name="Lucky Sky Lantern Summon Scroll" price="25">
+		<component item_id="20728" count="1"/>
+	</product>
+	<product id="1050011" name="Ambience Sky Lantern Summon Scroll" price="25">
+		<component item_id="20729" count="1"/>
+	</product>
+	<product id="1050012" name="Sway Sky Lantern Summon Scroll" price="25">
+		<component item_id="20730" count="1"/>
+	</product>
+	<product id="1050013" name="Comfort Sky Lantern Summon Scroll" price="25">
+		<component item_id="20731" count="1"/>
+	</product>
+-->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+	<!-- PERSONAL TELEPORT --><!-- 106000X FAMILY -->
+	
+	<product id="1060001" name="Personal Teleport Scroll" price="5">
+		<component item_id="13016" count="1"/>
+	</product>	
+	<product id="1060002" name="Personal Teleport Scroll 5 Units Bundle" price="20">
+		<component item_id="13016" count="5"/>
+	</product>	
+	<product id="1060003" name="Personal Teleport Scroll 10 Units Bundle" price="35">
+		<component item_id="13016" count="10"/>
+	</product>
+	
+	<product id="1060004" name="Personal Teleport Flag" price="10">
+		<component item_id="20033" count="1"/>
+	</product>
+	<product id="1060005" name="Personal Teleport Flag 5 Units Bundle" price="40">
+		<component item_id="20033" count="5"/>
+	</product>
+	<product id="1060006" name="Personal Teleport Flag 10 Units Bundle" price="80">
+		<component item_id="20033" count="10"/>
+	</product>
+
+	<product id="1060007" name="Personal Teleport Spellbook" price="200">
+		<component item_id="13015" count="1"/>
+	</product>
+	<product id="1060008" name="Personal Teleport Spellbook Pack of 3" price="500">
+		<component item_id="13015" count="3"/>
+	</product>
+
+	<product id="1060009" name="Personal Teleport STARTER PACK" price="300">
+		<component item_id="13015" count="1"/>
+		<component item_id="13016" count="20"/>
+		<component item_id="20033" count="10"/>		
+	</product>	
+	
+	<!-- KAMALOKA PASSES - NOT IMPLEMENTED YET -->
+<!--	
+	<product id="1040271" name="Extra Entrance Pass - Near Kamaloka" price="1">
+		<component item_id="20027" count="1"/>
+	</product>
+	<product id="1050079" name="Extra Entrance Pass - Near Kamaloka 3 Sheet Bundle" price="50">
+		<component item_id="20027" count="3"/>
+	</product>	
+	<product id="1080180" name="Extra Entrance Pass - Near Kamaloka 5 Sheet Bundle" price="338">
+		<component item_id="20027" count="5"/>
+	</product>
+	<product id="1080181" name="Extra Entrance Pass - Near Kamaloka 10 Sheet Bundle" price="675">
+		<component item_id="20027" count="10"/>
+	</product>
+	
+	<product id="1040139" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss)" price="100">
+		<component item_id="20026" count="1"/>
+	</product>	
+	<product id="1050078" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 3 Sheet Bundle" price="50">
+		<component item_id="20026" count="3"/>
+	</product>	
+	<product id="1080178" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 5 Sheet Bundle" price="338">
+		<component item_id="20026" count="5"/>
+	</product>	
+	<product id="1080179" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 10 Sheet Bundle" price="675">
+		<component item_id="20026" count="10"/>
+	</product>
+	<product id="1030057" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss) 50 Sheet" price="180">
+		<component item_id="20026" count="50"/>
+	</product>
+
+	<product id="1040272" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss)" price="50">
+		<component item_id="20028" count="1"/>
+	</product>
+	<product id="1050080" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 3 Sheet Bundle" price="50">
+		<component item_id="20028" count="3"/>
+	</product>
+	<product id="1080182" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 5 Sheet Bundle" price="338">
+		<component item_id="20028" count="5"/>
+	</product>
+	<product id="1080183" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 10 Sheet Bundle" price="675">
+		<component item_id="20028" count="10"/>
+	</product>
+	<product id="1030058" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss) 50 Sheet" price="180">
+		<component item_id="20028" count="50"/>
+	</product>
+-->
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- VITALITY MAINTAINING POTIONS --><!-- 107000X FAMILY -->
+		
+	<product id="1070001" name="Vitality Maintaining Potion" price="50"> <!-- MAINTAINS VITALITY / FOR 1 HOUR // 30 MIN REUSE -->
+		<component item_id="20391" count="1"/>
+	</product>
+
+	<product id="1070004" name="Vitality Replenishing Beverage" price="25">	<!-- RESTORES 100% VITALITY / 5 MINUTES REUSE -->
+		<component item_id="14055" count="1"/>
+	</product>
+
+	<product id="1070007" name="Birthday Vitality Potion" price="150">	<!-- RESTORE VITALITY WHILE HUNTING / 4 HOURS -->
+		<component item_id="22188" count="1"/>
+	</product>	
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->	
+    <!-- FEATHERS OF BLESSING / RESURECTION ON THE SPOT --><!-- 108000X FAMILY -->
+
+	<product id="1080001" name="Feather of Blessing" price="100">
+		<component item_id="10649" count="1"/>
+	</product>
+	
+	<!-- RUNE OF FEATHERS / WEIGHT REDUCTION --><!-- 108000X FAMILY -->
+	
+	<product id="1080004" name="Rune of Feather" price="100">	<!-- IS THIS ONE 24H AS WELL? -->
+		<component item_id="22066" count="1"/>
+	</product>
+
+	<!-- SPECIAL RINGS --><!-- 108000X FAMILY -->	
+	
+	<product id="1080006" name="Weight Decreasing Ring" price="200">
+		<component item_id="9899" count="1"/>
+	</product>
+	<product id="1080007" name="Quiet Footsteps Ring" price="200">
+		<component item_id="9900" count="1"/>
+	</product>
+
+	<!-- RUNE OF CRYSTAL / NEGATE EQUIPMENT PENALTY --><!-- 108000X FAMILY -->
+<!--
+	<product id="1080008" name="Rune of Crystal - 24 Hours" price="200">
+		<component item_id="22062" count="1"/>
+	</product>
+	<product id="1080009" name="Rune of Crystal - 7 Days" price="500">
+	</product>
+	<product id="1080010" name="Rune of Crystal - 14 Days" price="800">
+		<component item_id="22062" count="1"/>
+	</product>
+	<product id="1080011" name="Rune of Crystal - 30 Days" price="1200">
+		<component item_id="22062" count="1"/>
+	</product> 
+-->
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ENCHANTS --><!-- 109000X FAMILY -->
+	
+	<!-- SUPERIOR WEAPON +10% BONUS ENCHANT 1 to 20 -->
+<!--<product id="1090001" name="Weapon Enchant Scroll - D Grade" category="1" price="25">
+		<component item_id="22006" count="1"/>
+	</product>
+	<product id="1090002" name="Weapon Enchant Scroll - C Grade" category="1" price="50">
+		<component item_id="22007" count="1"/>
+	</product>	
+	<product id="1090003" name="Weapon Enchant Scroll - B Grade" category="1" price="75">
+		<component item_id="22008" count="1"/>
+	</product>	
+	<product id="1090004" name="Weapon Enchant Scroll - A Grade" category="1" price="100">
+		<component item_id="22009" count="1"/>
+	</product>	
+	<product id="1090005" name="Weapon Enchant Scroll - S Grade" category="1" price="150">
+		<component item_id="20517" count="1"/>
+	</product>	
+-->	
+	<!-- SUPERIOR ARMOR +10% BONUS ENCHANT 1 to 20 -->
+<!--<product id="1090006" name="Armor Enchant Scroll - D Grade" category="1" price="75">
+		<component item_id="22010" count="1"/>
+	</product>
+	<product id="1090007" name="Armor Enchant Scroll - C Grade" category="1" price="100">
+		<component item_id="22011" count="1"/>
+	</product>
+	<product id="1090008" name="Armor Enchant Scroll - B Grade" category="1" price="125">
+		<component item_id="22012" count="1"/>
+	</product>
+	<product id="1090009" name="Armor Enchant Scroll - A Grade" category="1" price="150">
+		<component item_id="22013" count="1"/>
+	</product>
+	<product id="1090010" name="Armor Enchant Scroll - S Grade" category="1" price="200">
+		<component item_id="20518" count="1"/>
+	</product>
+-->
+	
+	<!-- ANCIENT WEAPON +15% DON'T DROP LEVEL ON FAIL -->
+<!--<product id="1090011" name="Ancient Weapon Enchant Crystal - B Grade" category="1" price="300">
+		<component item_id="22014" count="1"/>
+	</product>
+	<product id="1090012" name="Ancient Weapon Enchant Crystal - A Grade" category="1" price="400">
+		<component item_id="22015" count="1"/>
+	</product>	
+	<product id="1090013" name="Ancient Weapon Enchant Crystal - S Grade" category="1" price="500">
+		<component item_id="20519" count="1"/>
+	</product>
+-->
+	<!-- ANCIENT ARMOR +15% DON'T DROP LEVEL ON FAIL -->
+<!--<product id="1090014" name="Ancient Armor Enchant Crystal - B Grade" category="1" price="250">
+		<component item_id="22016" count="1"/>
+	</product>
+	<product id="1090015" name="Ancient Armor Enchant Crystal - A Grade" category="1" price="300">
+		<component item_id="22017" count="1"/>
+	</product>
+	<product id="1090016" name="Ancient Armor Enchant Crystal - S Grade" category="1" price="400">
+		<component item_id="20520" count="1"/>
+	</product>
+-->
+	<!-- DIVINE WEAPON 100% -->
+<!--
+	<product id="1090017" name="Divine Weapon Enchant Crystal - B Grade" category="1" price="200">
+		<component item_id="22018" count="1"/>
+	</product>
+	<product id="1090018" name="Divine Weapon Enchant Crystal - A Grade" category="1" price="300">
+		<component item_id="22019" count="1"/>
+	</product>	
+	<product id="1090019" name="Divine Weapon Enchant Crystal - S Grade" category="1" price="400">
+		<component item_id="20521" count="1"/>
+	</product>
+-->
+	<!-- DIVINE ARMOR 100% -->
+<!--	
+	<product id="1090020" name="Divine Armor Enchant Crystal - B Grade" category="1" price="300">
+		<component item_id="22020" count="1"/>
+	</product>
+	<product id="1090021" name="Divine Armor Enchant Crystal - A Grade" category="1" price="400">
+		<component item_id="22021" count="1"/>
+	</product>
+	<product id="1090022" name="Divine Armor Enchant Crystal - S Grade" category="1" price="500">
+		<component item_id="20522" count="1"/>
+	</product>	
+-->
+	
+	<!-- PET EXCHANGE -->
+<!--	
+	<product id="1080108" name="Wrapped Pet Exchange Ticket - Buffalo" price="200">
+		<component item_id="22141" count="1"/>
+	</product>
+	<product id="1080109" name="Wrapped Pet Exchange Ticket - Cougar" price="200">
+		<component item_id="22142" count="1"/>
+	</product>
+	<product id="1080110" name="Wrapped Pet Exchange Ticket - Kookaburra" price="200">
+		<component item_id="22143" count="1"/>
+	</product>
+-->
+	<!-- HUNTING HELPER -->
+	
+	<product id="1050102" name="Hunting Helper Exchange Coupon - 1 sheet" category="2" price="100">
+		<component item_id="13273" count="1"/>
+	</product>
+
+	<product id="1050103" name="High Quality Hunting Helper Exchange Coupon - 1 sheet" category="2" price="150">
+		<component item_id="14065" count="1"/>
+	</product>
+
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ACCESSORIES --><!-- 110000X FAMILY -->
+	
+	<product id="1100000" name="Accessory Binding Glue" category="3" price="200">
+		<component item_id="40316" count="1"/>
+	</product>
+	<product id="1100001" name="Recipe: Party Mask" category="3" price="800">
+		<component item_id="40400" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>		
+	<product id="1100002" name="Recipe: Red Party Mask" category="3" price="800">
+		<component item_id="40401" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100003" name="Recipe: Cat Ears" category="3" price="800">
+		<component item_id="40402" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100004" name="Recipe: Lady's Hair Pin" category="3" price="800">
+		<component item_id="40403" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100005" name="Recipe: Pirate's Eye Patch" category="3" price="800">
+		<component item_id="40404" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100006" name="Recipe: Monocle" category="3" price="800">
+		<component item_id="40405" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100007" name="Recipe: Golden Festival Mask" category="3" price="800">
+		<component item_id="40406" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100008" name="Recipe: Tateossian Hairband" category="3" price="800">
+		<component item_id="40407" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100009" name="Recipe: Raccoon Ears" category="3" price="800">
+		<component item_id="40408" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100010" name="Recipe: Outlaw's Eyepatch" category="3" price="800">
+		<component item_id="40409" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100011" name="Recipe: Maiden's Hairpin" category="3" price="800">
+		<component item_id="40410" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100012" name="Recipe: Rabbit Ears" category="3" price="800">
+		<component item_id="40411" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100013" name="Recipe: Noblesse Tiara" category="3" price="800">
+		<component item_id="40412" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100014" name="Recipe: Forget-me-not Hairpin" category="3" price="800">
+		<component item_id="40413" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100015" name="Recipe: Daisy Hairpin" category="3" price="800">
+		<component item_id="40414" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100016" name="Recipe: Santa's Hat" category="3" price="800">
+		<component item_id="40415" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100017" name="Recipe: Sayha's White Mask" category="3" price="800">
+		<component item_id="40416" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100018" name="Recipe: Gran Kain's Black Mask" category="3" price="800">
+		<component item_id="40417" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100019" name="Recipe: Raid Challenger's Circlet" category="3" price="800">
+		<component item_id="40418" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100020" name="Recipe: Raid Adventurer's Circlet" category="3" price="800">
+		<component item_id="40419" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100021" name="Recipe: Raid Master's Circlet" category="3" price="800">
+		<component item_id="40420" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100022" name="Recipe: Circlet of Ice Fairy Sirra" category="3" price="800">
+		<component item_id="40421" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100023" name="Recipe: Academy Circlet" category="3" price="800">
+		<component item_id="40422" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100024" name="Recipe: Party Hat" category="3" price="800">
+		<component item_id="40423" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100025" name="Recipe: Feathered Hat" category="3" price="800">
+		<component item_id="40424" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100026" name="Recipe: Artisan's Goggles" category="3" price="800">
+		<component item_id="40425" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100027" name="Recipe: Demon Horns" category="3" price="800">
+		<component item_id="40426" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100028" name="Recipe: Little Angel Wings" category="3" price="800">
+		<component item_id="40427" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100029" name="Recipe: Fairy Antennae" category="3" price="800">
+		<component item_id="40428" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100030" name="Recipe: Mask of Spirits" category="3" price="800">
+		<component item_id="40429" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100031" name="Recipe: Blue Party Hat" category="3" price="800">
+		<component item_id="40430" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100032" name="Recipe: Diadem" category="3" price="800">
+		<component item_id="40431" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100033" name="Recipe: Teddy Bear Hat" category="3" price="800">
+		<component item_id="40432" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100034" name="Recipe: Piggy Hat" category="3" price="800">
+		<component item_id="40433" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100035" name="Recipe: Jester Hat" category="3" price="800">
+		<component item_id="40434" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100036" name="Recipe: Wizard Hat" category="3" price="800">
+		<component item_id="40435" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100037" name="Recipe: Dapper Cap" category="3" price="800">
+		<component item_id="40436" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100038" name="Recipe: Romantic Chapeau" category="3" price="800">
+		<component item_id="40437" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100039" name="Recipe: Iron Circlet" category="3" price="800">
+		<component item_id="40438" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100040" name="Recipe: Valakas Slayer Circlet" category="3" price="800">
+		<component item_id="40439" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100041" name="Recipe: Antharas Slayer Circlet" category="3" price="800">
+		<component item_id="40440" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100042" name="Recipe: Half Face Mask" category="3" price="800">
+		<component item_id="40441" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<!--<product id="1100043" name="Recipe: Single Stem Flower" category="3" price="800"> DUPLICATE
+		<component item_id="40442" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<product id="1100044" name="Recipe: Butterfly Hairpin" category="3" price="800">
+		<component item_id="40443" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100045" name="Recipe: Luxurious Gold Circlet" category="3" price="800">
+		<component item_id="40444" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100046" name="Recipe: Luxurious Silver Circlet" category="3" price="800">
+		<component item_id="40445" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100047" name="Recipe: Eye Patch" category="3" price="800">
+		<component item_id="40446" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100048" name="Recipe: Goddess Circlet" category="3" price="800">
+		<component item_id="40447" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100049" name="Recipe: Leather Cap" category="3" price="800">
+		<component item_id="40448" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100050" name="Recipe: First Mate's Hat" category="3" price="800">
+		<component item_id="40449" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100051" name="Recipe: Angel Halo" category="3" price="800">
+		<component item_id="40450" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100052" name="Recipe: Demon Circlet" category="3" price="800">
+		<component item_id="40451" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100053" name="Recipe: Pirate Hat" category="3" price="800">
+		<component item_id="40452" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100054" name="Recipe: Scar" category="3" price="800">
+		<component item_id="40453" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100055" name="Recipe: Santa's Antlers" category="3" price="800">
+		<component item_id="40454" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100056" name="Recipe: Gold Circlet of Redemption" category="3" price="800">
+		<component item_id="40455" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100057" name="Recipe: Silver Circlet of Salvation" category="3" price="800">
+		<component item_id="40456" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<!--<product id="1100058" name="Recipe: Pig Wrangler's Cap" category="3" price="800"> DUPLICATE NOT USED
+		<component item_id="40457" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<product id="1100059" name="Recipe: White Half Mask" category="3" price="800">
+		<component item_id="40458" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100060" name="Recipe: Black Half Mask" category="3" price="800">
+		<component item_id="40459" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100061" name="Recipe: Bird Nest" category="3" price="800">
+		<component item_id="40460" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100062" name="Recipe: Purple Viking Circlet" category="3" price="800">
+		<component item_id="40461" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100063" name="Recipe: Golden Viking Circlet" category="3" price="800">
+		<component item_id="40462" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100064" name="Recipe: Panda Hat" category="3" price="800">
+		<component item_id="40463" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100065" name="Recipe: White Sheep Hat" category="3" price="800">
+		<component item_id="40464" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100066" name="Recipe: Black Sheep Hat" category="3" price="800">
+		<component item_id="40465" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100067" name="Recipe: Frog Hat" category="3" price="800">
+		<component item_id="40466" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100068" name="Recipe: Fish Hat" category="3" price="800">
+		<component item_id="40467" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100069" name="Recipe: Straw Hat" category="3" price="800">
+		<component item_id="40468" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100070" name="Recipe: Chicken Hat" category="3" price="800">
+		<component item_id="40469" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100071" name="Recipe: Medieval Party Mask" category="3" price="800">
+		<component item_id="40470" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100072" name="Recipe: Ant Hat" category="3" price="800">
+		<component item_id="40471" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100073" name="Recipe: Ol Mahum Hat" category="3" price="800">
+		<component item_id="40472" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100074" name="Recipe: Wolf Hat" category="3" price="800">
+		<component item_id="40473" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100075" name="Recipe: Monkey Hat" category="3" price="800">
+		<component item_id="40474" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100076" name="Recipe: Pig Hat" category="3" price="800">
+		<component item_id="40475" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100077" name="Recipe: Monster Eye Hat" category="3" price="800">
+		<component item_id="40476" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100078" name="Recipe: Brown Bear Hat" category="3" price="800">
+		<component item_id="40477" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100079" name="Recipe: Fungus Hat" category="3" price="800">
+		<component item_id="40478" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100080" name="Recipe: Skull Hat" category="3" price="800">
+		<component item_id="40479" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100081" name="Recipe: Ornithomimus Hat" category="3" price="800">
+		<component item_id="40480" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100082" name="Recipe: Feline King Hat" category="3" price="800">
+		<component item_id="40481" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100083" name="Recipe: Kai the Cat Hat" category="3" price="800">
+		<component item_id="40482" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100084" name="Recipe: Silenos Hair Accessory" category="3" price="800">
+		<component item_id="40483" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100085" name="Recipe: Birthday Hat" category="3" price="800">
+		<component item_id="40484" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100086" name="Recipe: Halloween Hat" category="3" price="800">
+		<component item_id="40485" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100087" name="Recipe: Arrow-Pierced Apple" category="3" price="800">
+		<component item_id="40486" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100088" name="Recipe: Popped-Out Eye" category="3" price="800">
+		<component item_id="40487" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100089" name="Recipe: Graduation Cap" category="3" price="800">
+		<component item_id="40488" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100090" name="Recipe: Refined Carnival Circlet" category="3" price="800">
+		<component item_id="40489" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100091" name="Recipe: Refined Angel Ring" category="3" price="800">
+		<component item_id="40490" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100092" name="Recipe: Refined Devil Horn" category="3" price="800">
+		<component item_id="40491" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100093" name="Recipe: Refined Pirate Hat" category="3" price="800">
+		<component item_id="40492" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100094" name="Recipe: Refined Wizard Hat" category="3" price="800">
+		<component item_id="40493" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100095" name="Recipe: Refined Jester Hat" category="3" price="800">
+		<component item_id="40494" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100096" name="Recipe: Refined Black Feather Mask" category="3" price="800">
+		<component item_id="40495" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100097" name="Recipe: Refined Romantic Chapeau" category="3" price="800">
+		<component item_id="40496" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100098" name="Recipe: Refined Carnival Circlet" category="3" price="800">
+		<component item_id="40497" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100099" name="Recipe: Refined Medieval Style Party Mask" category="3" price="800">
+		<component item_id="40498" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100100" name="Recipe: Refined Dapper Cap" category="3" price="800">
+		<component item_id="40499" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100101" name="Recipe: Clownfish Hat" category="3" price="800">
+		<component item_id="40500" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100102" name="Recipe: Mining Hat" category="3" price="800">
+		<component item_id="40501" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100103" name="Recipe: Improved Mining Hat" category="3" price="800">
+		<component item_id="40502" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100104" name="Recipe: Search Hat" category="3" price="800">
+		<component item_id="40503" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100105" name="Recipe: Improved Search Hat" category="3" price="800">
+		<component item_id="40504" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100106" name="Recipe: Jindo Dog Hat" category="3" price="800">
+		<component item_id="40505" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100107" name="Recipe: Shaggy Dog Hat" category="3" price="800">
+		<component item_id="40506" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100108" name="Recipe: Rider Goggles" category="3" price="800">
+		<component item_id="40507" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<!--<product id="1100109" name="Recipe: Lineage Souvenir Circlet" category="3" price="800"> ICON NOT AVAILABLE
+		<component item_id="40508" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<!--<product id="1100110" name="Recipe: Cow Hair Accessory" category="3" price="800"> DUPLICATE
+		<component item_id="40509" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<!--<product id="1100111" name="Recipe: Afro Perm Wig" category="3" price="800"> DUPLICATE
+		<component item_id="40510" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<!--<product id="1100112" name="Recipe: Bamboo Hat" category="3" price="800"> SAME AS ASSASSIN'S BAMBOO HAT BUT WITH BROKEN ICON
+		<component item_id="40511" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<product id="1100113" name="Recipe: Smart Glasses" category="3" price="800">
+		<component item_id="40512" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100114" name="Recipe: Afro Hair" category="3" price="800">
+		<component item_id="40513" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100115" name="Recipe: Uniform Hat" category="3" price="800">
+		<component item_id="40514" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100116" name="Recipe: Assassin's Bamboo Hat" category="3" price="800">
+		<component item_id="40515" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100117" name="Recipe: Ruthless Tribe Mask" category="3" price="800">
+		<component item_id="40516" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100118" name="Recipe: Ribbon Hairband" category="3" price="800">
+		<component item_id="40517" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100119" name="Recipe: Visor" category="3" price="800">
+		<component item_id="40518" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100120" name="Recipe: Kat the Cat Hat" category="3" price="800">
+		<component item_id="40519" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<!--<product id="1100121" name="Recipe: Skull Hat" category="3" price="800"> DUPLICATE
+		<component item_id="40520" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>-->
+	<product id="1100122" name="Recipe: Santa Horn Hat" category="3" price="800">
+		<component item_id="40521" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100123" name="Recipe: Saving Santa Hat" category="3" price="800">
+		<component item_id="40522" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100124" name="Recipe: Gold Afro" category="3" price="800">
+		<component item_id="40523" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100125" name="Recipe: Pink Afro" category="3" price="800">
+		<component item_id="40524" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100126" name="Recipe: Goggle" category="3" price="800">
+		<component item_id="40525" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100127" name="Recipe: Napoleon Hat" category="3" price="800">
+		<component item_id="40526" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100128" name="Recipe: Horn Hairband" category="3" price="800">
+		<component item_id="40527" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100129" name="Recipe: Black Gem Mask" category="3" price="800">
+		<component item_id="40528" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100130" name="Recipe: Plastic Hair" category="3" price="800">
+		<component item_id="40529" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100131" name="Recipe: Daisy Hairpin" category="3" price="800">
+		<component item_id="40530" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100132" name="Recipe: Red Mask of Victory" category="3" price="800">
+		<component item_id="40531" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100133" name="Recipe: Red Horn of Victory" category="3" price="800">
+		<component item_id="40532" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>	
+	<product id="1100134" name="Recipe: Black Skeleton Circlet" category="3" price="800">
+		<component item_id="40533" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100135" name="Recipe: Gold Skeleton Circlet" category="3" price="800">
+		<component item_id="40534" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100136" name="Recipe: Green Skeleton Circlet" category="3" price="800">
+		<component item_id="40535" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100137" name="Recipe: Brown Skeleton Circlet" category="3" price="800">
+		<component item_id="40536" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100138" name="Recipe: Shark Cap" category="3" price="800">
+		<component item_id="40537" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100139" name="Recipe: Gold Horn Cap" category="3" price="800">
+		<component item_id="40538" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100140" name="Recipe: Silver Horn Cap" category="3" price="800">
+		<component item_id="40539" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100141" name="Recipe: Penguin Cap" category="3" price="800">
+		<component item_id="40540" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100142" name="Recipe: Brown Turba Hat" category="3" price="800">
+		<component item_id="40541" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100143" name="Recipe: Yellow Skeleton Circlet" category="3" price="800">
+		<component item_id="40542" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100144" name="Recipe: Turtle Cap" category="3" price="800">
+		<component item_id="40543" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+	<product id="1100145" name="Recipe: Cow Cap" category="3" price="800">
+		<component item_id="40544" count="1"/>
+		<component item_id="40316" count="2"/>
+	</product>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- DRAGON WEAPONS 100% --><!-- 120000X FAMILY -->
+<!--
+	<product id="1200000" name="Dragon Weapon Power Stone"  is_best="true" price="1000">
+		<component item_id="40319" count="1"/>		
+	</product>
+-->	
+	<!-- ANTHARAS 100% -->
+<!--	
+	<product id="1200001" name="Recipe: Antharas Avenger"  is_best="true" price="3200">
+		<component item_id="40601" count="1"/>
+		<component item_id="40319" count="1"/>		
+	</product>
+	<product id="1200002" name="Recipe: Antharas Buster"  is_best="true" price="3200">
+		<component item_id="40603" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+	<product id="1200003" name="Recipe: Antharas Cutter"  is_best="true" price="3200">
+		<component item_id="40605" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200004" name="Recipe: Antharas Dual Blunt"  is_best="true" price="3200">
+		<component item_id="40607" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>
+	<product id="1200005" name="Recipe: Antharas Dual Sword"  is_best="true" price="3200">
+		<component item_id="40609" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200006" name="Recipe: Antharas Fighter"  is_best="true" price="3200">
+		<component item_id="40611" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200007" name="Recipe: Antharas Shaper"  is_best="true" price="3200">
+		<component item_id="40613" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200008" name="Recipe: Antharas Slasher"  is_best="true" price="3200">
+		<component item_id="40615" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200009" name="Recipe: Antharas Stormer"  is_best="true" price="3200">
+		<component item_id="40617" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200010" name="Recipe: Antharas Thrower"  is_best="true" price="3200">
+		<component item_id="40619" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+-->	
+	<!-- VALAKAS 100% -->
+<!--		
+	<product id="1200011" name="Recipe: Valakas Buster"  is_best="true" price="3200">
+		<component item_id="40621" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+	<product id="1200012" name="Recipe: Valakas Caster"  is_best="true" price="3200">
+		<component item_id="40623" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200013" name="Recipe: Valakas Cutter"  is_best="true" price="3200">
+		<component item_id="40625" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200014" name="Recipe: Valakas Retributer"  is_best="true" price="3200">
+		<component item_id="40627" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200015" name="Recipe: Valakas Shaper"  is_best="true" price="3200">
+		<component item_id="40629" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200016" name="Recipe: Valakas Slasher"  is_best="true" price="3200">
+		<component item_id="40631" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200017" name="Recipe: Valakas Thrower"  is_best="true" price="3200">
+		<component item_id="40633" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>
+-->	
+	<!-- LINDVIOR 100% -->
+<!--		
+	<product id="1200018" name="Recipe: Lindvior Caster"  is_best="true" price="3200">
+		<component item_id="40635" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200019" name="Recipe: Lindvior Cutter"  is_best="true" price="3200">
+		<component item_id="40637" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200020" name="Recipe: Lindvior Dual Dagger"  is_best="true" price="3200">
+		<component item_id="40639" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>		
+	<product id="1200021" name="Recipe: Lindvior Shaper"  is_best="true" price="3200">
+		<component item_id="40641" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+	<product id="1200022" name="Recipe: Lindvior Shooter"  is_best="true" price="3200">
+		<component item_id="40643" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+	<product id="1200023" name="Recipe: Lindvior Slasher"  is_best="true" price="3200">
+		<component item_id="40645" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+	<product id="1200024" name="Recipe: Lindvior Thrower"  is_best="true" price="3200">
+		<component item_id="40647" count="1"/>
+		<component item_id="40319" count="1"/>			
+	</product>	
+-->
+	
+</list>
+

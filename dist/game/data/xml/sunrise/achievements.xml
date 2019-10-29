@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/achievements.xsd">
+	<achievement id="1" name="Level 20" description="Reach level 20" reward="40904,50" minLevel="20"/>
+	<achievement id="2" name="Level 25" description="Reach level 25" reward="40904,50" minLevel="25"/>
+	<achievement id="3" name="Level 30" description="Reach level 30" reward="40904,50" minLevel="30"/>
+	<achievement id="4" name="Level 35" description="Reach level 35" reward="40904,50" minLevel="35"/>
+	<achievement id="5" name="Level 40" description="Reach level 40" reward="40904,50" minLevel="40"/>
+	<achievement id="6" name="Level 45" description="Reach level 45" reward="40904,50" minLevel="45"/>
+
+<!--
+now reward can support fame points...
+Example: reward"-1,5000" (-1 is used for fame id)
+Soon for clan reputation...
+minLevel=""					put minimum level of the player
+minPvPCount=""				put minimum pvp count
+minPkCount=""				put minimum pk count
+minClanLevel=""				put minimum clan level
+mustBeHero=""				put True if player has to be hero
+mustBeNoble=""				put True if player has to be noble
+mustBeClanLeader=""			put True if player has to be clan leader
+mustBeMarried=""			put True if player has to be married
+mustBelordOfCastle=""		put True if has to be lord of a castle
+minWeaponEnchant=""			put minimum weapon enchant level
+minKarmaCount=""			put minimum karma count
+minAdenaCount=""			put minimum adena count (in inventory)
+minClanMembersCount=""		put minimum clan members count
+minSubclassCount=""			put minimim subclasses count
+maxHP=""					put minimum value for maxHP
+maxCP=""					put minimum value for maxMP
+maxMP=""					put minimum value for maxCP
+crpAmmount=""				put minimum Clan Reputation Points value
+itemAmmount=""				put item id and ammount (57,100)
+mustBeAcademyMember=""		put True if player has to be an academy member
+mustBeMageClass=""			put True if player has to be a mage class
+mustBeSummoner=""			put True if player has to be a summoner
+hasCommonCraft=""			put True if player has to have Common Craft
+hasDwarvenCraft=""			put True if player has to have Dwarven Craft
+mobToHunt=""				put Npc Id that needs to be killed
+-->
+</list>

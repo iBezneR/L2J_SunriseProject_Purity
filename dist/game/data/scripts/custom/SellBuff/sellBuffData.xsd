@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="config" maxOccurs="1" minOccurs="1">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="enabled" type="xs:boolean" use="required" />
+								<xs:attribute name="payItemId" type="xs:integer" use="required" />
+								<xs:attribute name="minPrice" type="xs:integer" use="required" />
+								<xs:attribute name="maxPrice" type="xs:integer" use="required" />
+								<xs:attribute name="mpMultiplier" type="xs:float" use="required" />
+								<xs:attribute name="maxBuffs" type="xs:integer" use="required" />
+								<xs:attribute name="freeForSameIp" type="xs:boolean" use="required" />
+								<xs:attribute name="freeForSameClan" type="xs:boolean" use="required" />
+								<xs:attribute name="freeForFriendlist" type="xs:boolean" use="required" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="skill" maxOccurs="unbounded" minOccurs="1">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="id" type="xs:integer" use="required" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="zone" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="id" type="xs:integer" use="required" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

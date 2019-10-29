@@ -1,0 +1,1258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="38300" name="Daisy Hairpin" additionalName="CON" type="Armor">
+		<!-- CON + 3. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17465-1" /> <!-- Daisy Hairpin: CON -->
+	</item>
+	<item id="38301" name="Daisy Hairpin" additionalName="MEN" type="Armor">
+		<!-- MEN + 3. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17466-1" /> <!-- Daisy Hairpin: MEN -->
+	</item>
+	<item id="38302" name="Daisy Hairpin" additionalName="INT" type="Armor">
+		<!-- INT + 3. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17467-1" /> <!-- Daisy Hairpin: INT -->
+	</item>
+	<item id="38303" name="Daisy Hairpin" additionalName="WIT" type="Armor">
+		<!-- WIT + 3. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17468-1" /> <!-- Daisy Hairpin: WIT -->
+	</item>
+	<item id="38304" name="Daisy Hairpin" additionalName="Critical Rate" type="Armor">
+		<!-- Critical Rate + 50. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17469-1" /> <!-- Daisy Hairpin: Critical Rate -->
+	</item>
+	<item id="38305" name="Daisy Hairpin" additionalName="Critical Damage" type="Armor">
+		<!-- Critical Damage + 90, M. Critical Damage + 68. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17470-1" /> <!-- Daisy Hairpin: Critical Damage -->
+	</item>
+	<item id="38306" name="Daisy Hairpin" additionalName="P. Def." type="Armor">
+		<!-- P. Def. + 5%. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17471-1" /> <!-- Daisy Hairpin: P. Def. -->
+	</item>
+	<item id="38307" name="Daisy Hairpin" additionalName="M. Def." type="Armor">
+		<!-- M. Def. + 5%. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17472-1" /> <!-- Daisy Hairpin: M. Def. -->
+	</item>
+	<item id="38308" name="Daisy Hairpin" additionalName="Evasion" type="Armor">
+		<!-- Evasion + 5. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17473-1" /> <!-- Daisy Hairpin: Evasion -->
+	</item>
+	<item id="38309" name="Daisy Hairpin" additionalName="P. Atk." type="Armor">
+		<!-- P. Atk. + 5%. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17474-1" /> <!-- Daisy Hairpin: P. Atk. -->
+	</item>
+	<item id="38310" name="Daisy Hairpin" additionalName="M. Atk." type="Armor">
+		<!-- M. Atk. + 10%. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17475-1" /> <!-- Daisy Hairpin: M. Atk. -->
+	</item>
+	<item id="38311" name="Daisy Hairpin" additionalName="Accuracy" type="Armor">
+		<!-- Accuracy + 5. Female only. -->
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+        <set name="item_skill" val="17476-1" /> <!-- Daisy Hairpin: Accuracy -->
+	</item>
+	<item id="38312" name="Little Angel Wings" additionalName="STR" type="Armor">
+		<!-- STR + 3. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17477-1" /> <!-- Little Angel Wings: STR -->
+	</item>
+	<item id="38313" name="Little Angel Wings" additionalName="DEX" type="Armor">
+		<!-- DEX + 3. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17478-1" /> <!-- Little Angel Wings: DEX -->
+	</item>
+	<item id="38314" name="Little Angel Wings" additionalName="CON" type="Armor">
+		<!-- CON + 3. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17479-1" /> <!-- Little Angel Wings: CON -->
+	</item>
+	<item id="38315" name="Little Angel Wings" additionalName="MEN" type="Armor">
+		<!-- MEN + 3. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17480-1" /> <!-- Little Angel Wings: MEN -->
+	</item>
+	<item id="38316" name="Little Angel Wings" additionalName="INT" type="Armor">
+		<!-- INT + 3. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17481-1" /> <!-- Little Angel Wings: INT -->
+	</item>
+	<item id="38317" name="Little Angel Wings" additionalName="WIT" type="Armor">
+		<!-- WIT + 3. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17482-1" /> <!-- Little Angel Wings: WIT -->
+	</item>
+	<item id="38318" name="Little Angel Wings" additionalName="Critical Rate" type="Armor">
+		<!-- Critical Rate + 50. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17483-1" /> <!-- Little Angel Wings: Critical Rate -->
+	</item>
+	<item id="38319" name="Little Angel Wings" additionalName="Critical Damage" type="Armor">
+		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17484-1" /> <!-- Little Angel Wings: Critical Damage -->
+	</item>
+	<item id="38320" name="Little Angel Wings" additionalName="P. Def." type="Armor">
+		<!-- P. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17485-1" /> <!-- Little Angel Wings: P. Def. -->
+	</item>
+	<item id="38321" name="Little Angel Wings" additionalName="M. Def." type="Armor">
+		<!-- M. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17486-1" /> <!-- Little Angel Wings: M. Def. -->
+	</item>
+	<item id="38322" name="Little Angel Wings" additionalName="Evasion" type="Armor">
+		<!-- Evasion + 5. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17487-1" /> <!-- Little Angel Wings: Evasion -->
+	</item>
+	<item id="38323" name="Little Angel Wings" additionalName="P. Atk." type="Armor">
+		<!-- P. Atk. + 5%. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17488-1" /> <!-- Little Angel Wings: P. Atk. -->
+	</item>
+	<item id="38324" name="Little Angel Wings" additionalName="M. Atk." type="Armor">
+		<!-- M. Atk. + 10%. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17489-1" /> <!-- Little Angel Wings: M. Atk. -->
+	</item>
+	<item id="38325" name="Little Angel Wings" additionalName="Accuracy" type="Armor">
+		<!-- Accuracy + 5. -->
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17490-1" /> <!-- Little Angel Wings: Accuracy -->
+	</item>
+	<item id="38326" name="Fairy Antennae" additionalName="STR" type="Armor">
+		<!-- STR + 3. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17491-1" /> <!-- Fairy Antennae: STR -->
+	</item>
+	<item id="38327" name="Fairy Antennae" additionalName="DEX" type="Armor">
+		<!-- DEX + 3. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17492-1" /> <!-- Fairy Antennae: DEX -->
+	</item>
+	<item id="38328" name="Fairy Antennae" additionalName="CON" type="Armor">
+		<!-- CON + 3. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17493-1" /> <!-- Fairy Antennae: CON -->
+	</item>
+	<item id="38329" name="Fairy Antennae" additionalName="MEN" type="Armor">
+		<!-- MEN + 3. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17494-1" /> <!-- Fairy Antennae: MEN -->
+	</item>
+	<item id="38330" name="Fairy Antennae" additionalName="INT" type="Armor">
+		<!-- INT + 3. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17495-1" /> <!-- Fairy Antennae: INT -->
+	</item>
+	<item id="38331" name="Fairy Antennae" additionalName="WIT" type="Armor">
+		<!-- WIT + 3. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17496-1" /> <!-- Fairy Antennae: WIT -->
+	</item>
+	<item id="38332" name="Fairy Antennae" additionalName="Critical Rate" type="Armor">
+		<!-- Critical Rate + 50. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17497-1" /> <!-- Fairy Antennae: Critical Rate -->
+	</item>
+	<item id="38333" name="Fairy Antennae" additionalName="Critical Damage" type="Armor">
+		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17498-1" /> <!-- Fairy Antennae: Critical Damage -->
+	</item>
+	<item id="38334" name="Fairy Antennae" additionalName="P. Def." type="Armor">
+		<!-- P. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17499-1" /> <!-- Fairy Antennae: P. Def. -->
+	</item>
+	<item id="38335" name="Fairy Antennae" additionalName="M. Def." type="Armor">
+		<!-- M. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17500-1" /> <!-- Fairy Antennae: M. Def. -->
+	</item>
+	<item id="38336" name="Fairy Antennae" additionalName="Evasion" type="Armor">
+		<!-- Evasion + 5. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17501-1" /> <!-- Fairy Antennae: Evasion -->
+	</item>
+	<item id="38337" name="Fairy Antennae" additionalName="P. Atk." type="Armor">
+		<!-- P. Atk. + 5%. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17502-1" /> <!-- Fairy Antennae: P. Atk. -->
+	</item>
+	<item id="38338" name="Fairy Antennae" additionalName="M. Atk." type="Armor">
+		<!-- M. Atk. + 10%. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17503-1" /> <!-- Fairy Antennae: M. Atk. -->
+	</item>
+	<item id="38339" name="Fairy Antennae" additionalName="Accuracy" type="Armor">
+		<!-- Accuracy + 5. -->
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17504-1" /> <!-- Fairy Antennae: Accuracy -->
+	</item>
+	<item id="38340" name="Chapeau" additionalName="STR" type="Armor">
+		<!-- STR + 3. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17505-1" /> <!-- Chapeau: STR -->
+	</item>
+	<item id="38341" name="Chapeau" additionalName="DEX" type="Armor">
+		<!-- DEX + 3. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17506-1" /> <!-- Chapeau: DEX -->
+	</item>
+	<item id="38342" name="Chapeau" additionalName="CON" type="Armor">
+		<!-- CON + 3. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17507-1" /> <!-- Chapeau: CON -->
+	</item>
+	<item id="38343" name="Chapeau" additionalName="MEN" type="Armor">
+		<!-- MEN + 3. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17508-1" /> <!-- Chapeau: MEN -->
+	</item>
+	<item id="38344" name="Chapeau" additionalName="INT" type="Armor">
+		<!-- INT + 3. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17509-1" /> <!-- Chapeau: INT -->
+	</item>
+	<item id="38345" name="Chapeau" additionalName="WIT" type="Armor">
+		<!-- WIT + 3. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17510-1" /> <!-- Chapeau: WIT -->
+	</item>
+	<item id="38346" name="Chapeau" additionalName="Critical Rate" type="Armor">
+		<!-- Critical Rate + 50. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17511-1" /> <!-- Chapeau: Critical Rate -->
+	</item>
+	<item id="38347" name="Chapeau" additionalName="Critical Damage" type="Armor">
+		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17512-1" /> <!-- Chapeau: Critical Damage -->
+	</item>
+	<item id="38348" name="Chapeau" additionalName="P. Def." type="Armor">
+		<!-- P. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17513-1" /> <!-- Chapeau: P. Def. -->
+	</item>
+	<item id="38349" name="Chapeau" additionalName="M. Def." type="Armor">
+		<!-- M. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17514-1" /> <!-- Chapeau: M. Def. -->
+	</item>
+	<item id="38350" name="Chapeau" additionalName="Evasion" type="Armor">
+		<!-- Evasion + 5. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17515-1" /> <!-- Chapeau: Evasion -->
+	</item>
+	<item id="38351" name="Chapeau" additionalName="P. Atk." type="Armor">
+		<!-- P. Atk. + 5%. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17516-1" /> <!-- Chapeau: P. Atk. -->
+	</item>
+	<item id="38352" name="Chapeau" additionalName="M. Atk." type="Armor">
+		<!-- M. Atk. + 10%. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17517-1" /> <!-- Chapeau: M. Atk. -->
+	</item>
+	<item id="38353" name="Chapeau" additionalName="Accuracy" type="Armor">
+		<!-- Accuracy + 5. -->
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17518-1" /> <!-- Chapeau: Accuracy -->
+	</item>
+	<item id="38354" name="Artisan's Goggles" additionalName="STR" type="Armor">
+		<!-- STR + 3. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17519-1" /> <!-- Artisan's Goggles: STR -->
+	</item>
+	<item id="38355" name="Artisan's Goggles" additionalName="DEX" type="Armor">
+		<!-- DEX + 3. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17520-1" /> <!-- Artisan's Goggles: DEX -->
+	</item>
+	<item id="38356" name="Artisan's Goggles" additionalName="CON" type="Armor">
+		<!-- CON + 3. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17521-1" /> <!-- Artisan's Goggles: CON -->
+	</item>
+	<item id="38357" name="Artisan's Goggles" additionalName="MEN" type="Armor">
+		<!-- MEN + 3. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17522-1" /> <!-- Artisan's Goggles: MEN -->
+	</item>
+	<item id="38358" name="Artisan's Goggles" additionalName="INT" type="Armor">
+		<!-- INT + 3. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17523-1" /> <!-- Artisan's Goggles: INT -->
+	</item>
+	<item id="38359" name="Artisan's Goggles" additionalName="WIT" type="Armor">
+		<!-- WIT + 3. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17524-1" /> <!-- Artisan's Goggles: WIT -->
+	</item>
+	<item id="38360" name="Artisan's Goggles" additionalName="Critical Rate" type="Armor">
+		<!-- Critical Rate + 50. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17525-1" /> <!-- Artisan's Goggles: Critical Rate -->
+	</item>
+	<item id="38361" name="Artisan's Goggles" additionalName="Critical Damage" type="Armor">
+		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17526-1" /> <!-- Artisan's Goggles: Critical Damage -->
+	</item>
+	<item id="38362" name="Artisan's Goggles" additionalName="P. Def." type="Armor">
+		<!-- P. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17527-1" /> <!-- Artisan's Goggles: P. Def. -->
+	</item>
+	<item id="38363" name="Artisan's Goggles" additionalName="M. Def." type="Armor">
+		<!-- M. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17528-1" /> <!-- Artisan's Goggles: M. Def. -->
+	</item>
+	<item id="38364" name="Artisan's Goggles" additionalName="Evasion" type="Armor">
+		<!-- Evasion + 5. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17529-1" /> <!-- Artisan's Goggles: Evasion -->
+	</item>
+	<item id="38365" name="Artisan's Goggles" additionalName="P. Atk." type="Armor">
+		<!-- P. Atk. + 5%. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17530-1" /> <!-- Artisan's Goggles: P. Atk. -->
+	</item>
+	<item id="38366" name="Artisan's Goggles" additionalName="M. Atk." type="Armor">
+		<!-- M. Atk. + 10%. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17531-1" /> <!-- Artisan's Goggles: M. Atk. -->
+	</item>
+	<item id="38367" name="Artisan's Goggles" additionalName="Accuracy" type="Armor">
+		<!-- Accuracy + 5. -->
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17532-1" /> <!-- Artisan's Goggles: Accuracy -->
+	</item>
+	<item id="38368" name="Arrow-pierced Apple" additionalName="STR" type="Armor">
+		<!-- STR + 3. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17533-1" /> <!-- Arrow-pierced Apple: STR -->
+	</item>
+	<item id="38369" name="Arrow-pierced Apple" additionalName="DEX" type="Armor">
+		<!-- DEX + 3. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17534-1" /> <!-- Arrow-pierced Apple: DEX -->
+	</item>
+	<item id="38370" name="Arrow-pierced Apple" additionalName="CON" type="Armor">
+		<!-- CON + 3. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17535-1" /> <!-- Arrow-pierced Apple: CON -->
+	</item>
+	<item id="38371" name="Arrow-pierced Apple" additionalName="MEN" type="Armor">
+		<!-- MEN + 3. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17536-1" /> <!-- Arrow-pierced Apple: MEN -->
+	</item>
+	<item id="38372" name="Arrow-pierced Apple" additionalName="INT" type="Armor">
+		<!-- INT + 3. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17537-1" /> <!-- Arrow-pierced Apple: INT -->
+	</item>
+	<item id="38373" name="Arrow-pierced Apple" additionalName="WIT" type="Armor">
+		<!-- WIT + 3. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17538-1" /> <!-- Arrow-pierced Apple: WIT -->
+	</item>
+	<item id="38374" name="Arrow-pierced Apple" additionalName="Critical Rate" type="Armor">
+		<!-- Critical Rate + 50. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17539-1" /> <!-- Arrow-pierced Apple: Critical Rate -->
+	</item>
+	<item id="38375" name="Arrow-pierced Apple" additionalName="Critical Damage" type="Armor">
+		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17540-1" /> <!-- Arrow-pierced Apple: Critical Damage -->
+	</item>
+	<item id="38376" name="Arrow-pierced Apple" additionalName="P. Def." type="Armor">
+		<!-- P. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17541-1" /> <!-- Arrow-pierced Apple: P. Def. -->
+	</item>
+	<item id="38377" name="Arrow-pierced Apple" additionalName="M. Def." type="Armor">
+		<!-- M. Def. + 5%. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17542-1" /> <!-- Arrow-pierced Apple: M. Def. -->
+	</item>
+	<item id="38378" name="Arrow-pierced Apple" additionalName="Evasion" type="Armor">
+		<!-- Evasion + 5. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17543-1" /> <!-- Arrow-pierced Apple: Evasion -->
+	</item>
+	<item id="38379" name="Arrow-pierced Apple" additionalName="P. Atk." type="Armor">
+		<!-- P. Atk. + 5%. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17544-1" /> <!-- Arrow-pierced Apple: P. Atk. -->
+	</item>
+	<item id="38380" name="Arrow-pierced Apple" additionalName="M. Atk." type="Armor">
+		<!-- M. Atk. + 10%. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17545-1" /> <!-- Arrow-pierced Apple: M. Atk. -->
+	</item>
+	<item id="38381" name="Arrow-pierced Apple" additionalName="Accuracy" type="Armor">
+		<!-- Accuracy + 5. -->
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="price" val="200000" />
+		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+        <set name="item_skill" val="17546-1" /> <!-- Arrow-pierced Apple:Accuracy -->
+	</item>
+	<item id="38382" name="Apprentice's Spellbook" type="Weapon">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_depositable" val="false" />
+        <set name="is_clan_depositable" val="false" />
+        <set name="is_mailable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_commissionable" val="false" />
+        <set name="is_private_storeable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="650" />
+		<for>
+			<set stat="pAtk" val="9" />
+			<set stat="mAtk" val="12" />
+			<set stat="pAtkSpd" val="379" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkRange" val="40" />
+			<!-- <set stat="randomDamage" val="10" /> -->
+		</for>
+	</item>
+	<item id="38383" name="Lady's Hairpin Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Lady's Hairpin with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17553-1" /> <!-- Lady's Hairpin Pendant Pouch -->
+	</item>
+	<item id="38384" name="Party Mask Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Party Mask with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17554-1" /> <!-- Party Mask Pendant Pouch -->
+	</item>
+	<item id="38385" name="Monocle Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Monocle with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17555-1" /> <!-- Monocle Pendant Pouch -->
+	</item>
+	<item id="38386" name="Maiden's Hairpin Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Maiden's Hairpin with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17556-1" /> <!-- Maiden's Hairpin Pendant Pouch -->
+	</item>
+	<item id="38387" name="Forget-me-not Hairpin Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Forget-me-not Hairpin with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17557-1" /> <!-- Forget-me-not Hairpin Pendant Pouch -->
+	</item>
+	<item id="38388" name="Daisy Hairpin Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Daisy Hairpin with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17558-1" /> <!-- Daisy Hairpin Pendant Pouch -->
+	</item>
+	<item id="38389" name="Little Angel Wings Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain Little Angel Wings with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17559-1" /> <!-- Little Angel Wings Pendant Pouch -->
+	</item>
+	<item id="38390" name="Fairy Antennae Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain Fairy Antennae with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17560-1" /> <!-- Fairy Antennae Pendant Pouch -->
+	</item>
+	<item id="38391" name="Chapeau Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Chapeau with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17561-1" /> <!-- Chapeau Pendant Pouch -->
+	</item>
+	<item id="38392" name="Artisan's Goggles Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain Artisan's Goggles with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17562-1" /> <!-- Artisan's Goggles Pendant Pouch -->
+	</item>
+	<item id="38393" name="Arrow-pierced Apple Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain an Arrow-pierced Apple with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17563-1" /> <!-- Arrow-pierced Apple Pendant Pouch -->
+	</item>
+	<item id="38394" name="Pirate's Eyepatch Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Pirate's Eyepatch with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17564-1" /> <!-- Pirate's Eyepatch Pendant Pouch -->
+	</item>
+	<item id="38395" name="Outlaw's Eyepatch Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain an Outlaw's Eyepatch with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17565-1" /> <!-- Outlaw's Eyepatch Pendant Pouch -->
+	</item>
+	<item id="38396" name="Party Hat Pendant Pouch" type="EtcItem">
+		<!-- Double-click to obtain a Party Hat with pendant options. -->
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+        <set name="item_skill" val="17566-1" /> <!-- Party Hat Pendant Pouch -->
+	</item>
+	<item id="38397" name="Expertise Rune (D-grade)" additionalName="2-hour" type="EtcItem">
+		<!-- 2-hour.When possessed, gives Expertise D Skill. -->
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+        <set name="is_clan_depositable" val="false" />
+        <set name="is_mailable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+        <set name="is_private_storeable" val="false" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="time" val="120" />
+        <set name="item_skill" val="17569-1" /> <!-- Expertise Rune (D-grade) -->
+	</item>
+	<item id="38398" name="Expertise Rune Pack" additionalName="D-grade" type="EtcItem">
+		<!-- Wrapped Pack containing Expertise Rune (D-grade) (2-hour). -->
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38397" min="1" max="1" chance="100" /> <!-- Expertise Rune (D-grade) - 2-hour -->
+		</capsuled_items>
+	</item>
+	<item id="38399" name="Expertise Rune (C-grade)" additionalName="2-hour" type="EtcItem">
+		<!-- 2-hour.When possessed, gives Expertise C Skill. -->
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+        <set name="is_clan_depositable" val="false" />
+        <set name="is_mailable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+        <set name="is_private_storeable" val="false" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="time" val="120" />
+        <set name="item_skill" val="17570-1" /> <!-- Expertise Rune (C-grade) -->
+	</item>
+</list>

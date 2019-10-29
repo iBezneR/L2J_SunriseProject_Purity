@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Available site types: HopZone / L2jLT / L2Network / L2TopCO / TopZone -->
+	<!-- You can add maximum 10 vote sites, but if you will need new one, you will have to make new handler with it's own parsing from website. -->
+	
+	<!-- If you use npc, leave this "EMPTY" (Npc instance -> L2EVoteManager) -->
+	<!-- This sets, the tab for community board (can be found in ShowBoard serverpacket). -->
+	<set name="TabInCommunityBoard" val="EMPTY" />
+	<!-- Enable / Disable whole community board to be only for vote. -->
+	<set name="WholeCommunity" val="false" />
+	<!-- This sets, how much seconds give to player, to vote for one of top sites. -->
+	<set name="VoteTime" val="45" />
+	<!-- Enable / Disable idle (ban) time, for x minutes, after successful/unsuccessful vote (to give some time to vote for others). -->
+	<set name="EnableIdleTime" val="false" />
+	<!-- Idle (ban) time for x minutes, after successful/unsuccessful vote (to give some time to vote for others). -->
+	<set name="IdleTime" val="2" />
+	<!-- First information line below rewards. -->
+	<set name="VoteLinksInformation1" val="Voting links can be found on our website." />
+	<!-- Second information line below rewards. -->
+	<set name="VoteLinksInformation2" val="Please remember to vote every 12 hours." />
+	<!-- Show online count in vote manager. -->
+	<set name="ShowOnline" val="false" />
+	<!-- Show online count in vote manager only for GMs. -->
+	<set name="ShowOnlineForGMs" val="true" />
+	<!-- Show fake online in percents for ex: (online + 50% of online). -->
+	<set name="FakeOnlineInPercents" val="true" />
+	<!-- Show fake online added for normal online (For GMs online is real). -->
+	<set name="FakeOnline" val="0" />
+	<!-- Use button 'Vote' or use buttons as '+' or '-' -->
+	<set name="UseVoteButton" val="true" />
+
+	<!-- Explanations: -->
+	
+	<!-- vote part: -->
+	<!-- id must be unique (min 1, max 10). -->
+	<!-- type is the handler of vote site. -->
+	<!-- linkForPlayers is shown to players, where they can go to vote. Also you can write your text in here. -->
+	<!-- linkForEngine is the place where to check votes count. -->
+	
+	<!-- !!! WARNING !!! IF LINK CONTAINS '&' SYMBOL, YOU HAVE TO CHANGE IT TO '&amp;' TO WORK. -->
+	
+	<!-- refreshesAfter is the time in seconds, after how much time account can vote again. -->
+	<!-- withIP works only if you fix handler to accept with IP (just add withIp="true"). -->
+	
+	<!-- rewards part: -->
+	<!-- Must be in <rewards> node (EACH NODE, EACH REWARDS SECTION!) -->
+	
+	<!-- REWARD: -->
+	<!-- id: is used only when you want to give ITEM as reward, then it is itemId -->
+	<!-- type: can be - 
+		 Item
+		 ClanPoints
+		 SkillPoints
+		 Experience -->
+	<!-- min: describes minimum amount of item given to player -->
+	<!-- max: describes maximum amount of item given to player -->
+	<!-- chance: describes the chance of probability that item will be given to player -->
+	<!-- icon: shown icon next to reward -->
+	
+	<!-- BONUS: -->
+	<!-- id: is used only when you want to give ITEM as reward, then it is itemId -->
+	<!-- type: can be - 
+		 Item
+		 ClanPoints
+		 SkillPoints
+		 Experience
+		 WeaponEnchant 
+		 ArmorEnchant
+		 SkillsEnchant -->
+	<!-- addingType: can be -
+		 percent: bonus will be calculated with percents,
+		 for example: adena drop chance will be increased not by 10% from 60% to 70%, but 60% by 10%, so it will be 66%.
+		 amount: bonus will be added by amount -->
+	<!-- min: describes minimum amount of bonus given to player -->
+	<!-- max: describes maximum amount of bonus given to player -->
+	<!-- chance: describes the chance of probability that bonus will be given to player -->
+	<!-- itemBonusType: (is used only when adding bonus with Item type) can be -
+		 chance: to increase chance to drop that item
+		 drop: to increase amount of item to be dropped -->
+	<!-- time: (seconds) for how long bonus will be added -->
+	<!-- icon: shown icon next to reward -->
+
+	
+	<vote id="1" type="HopZone" linkForPlayers="Chose one of the reward options above." linkForEngine="http://api.hopzone.net/lineage2/votes?token=ORWmGSLwMD1Zj91R" refreshesAfter="43200">
+		<rewards>
+			<reward id="40298" type="Item" min="100" max="100" chance="100" icon="icon.etc_magic_coin_blood_i02"/>	<!-- Dwarven Penny -->			
+			<reward id="40349" type="Item" min="1" max="1" chance="100" icon="icon.lucky_bag_i00"/>	<!-- Skill Tokens Bag -->
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_adena_i00"/>
+			<bonus id="9912" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_shoulder_strap_of_knight_i00"/>															
+			<bonus type="Experience" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_exp_point_i00"/>
+			<bonus type="SkillPoints" addingType="percent" min="10" max="10" chance="100" time="43200" icon="icon.etc_sp_point_i00"/>
+		</rewards>		
+	</vote>
+
+	<vote id="2" type="TopZone" linkForPlayers="Chose one of the reward options above." linkForEngine="https://l2topzone.com/tv.php?id=12264" refreshesAfter="43200">
+		<rewards>
+			<reward id="40298" type="Item" min="100" max="100" chance="100" icon="icon.etc_magic_coin_blood_i02"/>	<!-- Dwarven Penny -->		
+			<reward id="40349" type="Item" min="1" max="1" chance="100" icon="icon.lucky_bag_i00"/>	<!-- Skill Tokens Bag -->
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_adena_i00"/>
+			<bonus id="9912" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_shoulder_strap_of_knight_i00"/>															
+			<bonus type="Experience" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_exp_point_i00"/>
+			<bonus type="SkillPoints" addingType="percent" min="10" max="10" chance="100" time="43200" icon="icon.etc_sp_point_i00"/>
+		</rewards>			
+	</vote>
+	
+	<vote id="3" type="L2Network" linkForPlayers="Chose one of the reward options above." linkForEngine="https://l2network.eu/details/Sybar/" refreshesAfter="43200">
+		<rewards>
+			<reward id="40298" type="Item" min="100" max="100" chance="100" icon="icon.etc_magic_coin_blood_i02"/>	<!-- Dwarven Penny -->			
+			<reward id="40349" type="Item" min="1" max="1" chance="100" icon="icon.lucky_bag_i00"/>	<!-- Skill Tokens Bag -->
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_adena_i00"/>
+			<bonus id="9912" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_shoulder_strap_of_knight_i00"/>															
+			<bonus type="Experience" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_exp_point_i00"/>
+			<bonus type="SkillPoints" addingType="percent" min="10" max="10" chance="100" time="43200" icon="icon.etc_sp_point_i00"/>
+		</rewards>		
+	</vote>	
+
+	<vote id="4" type="L2TopCO" linkForPlayers="Chose one of the reward options above." linkForEngine="http://l2top.co/server-info/Dwarven" refreshesAfter="43200">
+		<rewards>
+			<reward id="40298" type="Item" min="100" max="100" chance="100" icon="icon.etc_magic_coin_blood_i02"/>	<!-- Dwarven Penny -->			
+			<reward id="40349" type="Item" min="1" max="1" chance="100" icon="icon.lucky_bag_i00"/>	<!-- Skill Tokens Bag -->
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_adena_i00"/>
+			<bonus id="9912" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_shoulder_strap_of_knight_i00"/>															
+			<bonus type="Experience" addingType="percent" min="5" max="5" chance="100" time="43200" icon="icon.etc_exp_point_i00"/>
+			<bonus type="SkillPoints" addingType="percent" min="10" max="10" chance="100" time="43200" icon="icon.etc_sp_point_i00"/>
+		</rewards>		
+	</vote>
+	
+	<vote id="5" type="L2jLT" linkForPlayers="Chose one of the reward options above." linkForEngine="http://www.l2servers.com/servers/vote-23464.php" refreshesAfter="86400">
+		<rewards>
+			<reward id="40298" type="Item" min="100" max="100" chance="100" icon="icon.etc_magic_coin_blood_i02"/>	<!-- Dwarven Penny -->			
+			<reward id="40349" type="Item" min="1" max="1" chance="100" icon="icon.lucky_bag_i00"/>	<!-- Skill Tokens Bag -->
+			<bonus id="57" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="86400" icon="icon.etc_adena_i00"/>
+			<bonus id="9912" type="Item" itemBonusType="drop" addingType="percent" min="5" max="5" chance="100" time="86400" icon="icon.etc_shoulder_strap_of_knight_i00"/>															
+			<bonus type="Experience" addingType="percent" min="5" max="5" chance="100" time="86400" icon="icon.etc_exp_point_i00"/>
+			<bonus type="SkillPoints" addingType="percent" min="10" max="10" chance="100" time="86400" icon="icon.etc_sp_point_i00"/>
+		</rewards>		
+	</vote>
+	
+
+	
+</list>

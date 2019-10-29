@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <category id="0" name="Daily">
+        <set name="progressBarSmallCenterUnfilled" value="L2UI_CH3.br_bar2_cp1"/>
+        <set name="progressBarSmallCenterFilled" value="L2UI_CH3.br_bar2_cp"/>
+        <set name="progressBarCenterUnfilled" value="L2UI_CH3.br_bar1_cp1"/>
+        <set name="progressBarCenterFilled" value="L2UI_CH3.br_bar1_cp"/>
+
+        <!-- Daily Rim Kamaloka -->
+        <achievement name="Rim Kamaloka" type="rim_kamaloka_daily">
+            <set name="title" value="Delusional!"/>
+            <set name="titleColor" value="FF00FF"/>
+            <set name="isDaily" value="true"/>
+            <set name="icon" value="Icon.skill11273"/>
+            <set name="shortDesc" value="Complete solo Rim Kamaloka"/>
+            <set name="longDesc" value="Rewards:'br' 5% bonus to XP and SP 'br' for 2 hours. 'br' 75x Dwarven Loyality Gems"/>
+
+            <point level="1" requiredValue="1">
+                <set name="shortDesc" value="Complete solo Rim Kamaloka"/>
+                <set name="longDesc" value="Rewards:'br' 5% bonus to XP and SP 'br' for 2 hours. 'br' 75x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40904" min="75" max="75" chance="100"/>                                <!-- Dwarven Loyality Gem -->
+                    <bonus type="Experience" addingType="percent" min="5" max="5" chance="100" time="7200"/>    <!-- Extra XP Bonus 2 Hours -->
+                    <bonus type="SkillPoints" addingType="percent" min="5" max="5" chance="100" time="7200"/>    <!-- Extra SP Bonus 2 Hours -->
+                </rewards>
+            </point>
+        </achievement>
+
+        <!-- Daily Monster Kills -->
+        <achievement name="Monsters Killer" type="monster_kills_daily">
+            <set name="giveTitle" value="false"/>
+            <set name="isDaily" value="true"/>
+            <set name="icon" value="Icon.skill4299"/>
+            <set name="shortDesc" value="Prove your worth by killing %value% monsters every day"/>
+            <set name="longDesc" value="Kill %value% monsters'br'in one day"/>
+
+            <point level="1" requiredValue="50">
+                <set name="shortDesc" value="Kill %value% monsters today"/>
+                <set name="longDesc" value="Reward: 'br' 5x Personal Mana Potions 'br' 25x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40010" min="5" max="5" chance="100"/>        <!-- Personal Mana Potion -->
+                    <reward type="Item" id="40904" min="25" max="25" chance="100"/>        <!-- Dwarven Loyality Gem-->
+                </rewards>
+            </point>
+            <point level="2" requiredValue="200">
+                <set name="shortDesc" value="Kill %value% monsters today"/>
+                <set name="longDesc" value="Reward: 'br' 10x Mana Potions 'br' 35x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40010" min="10" max="10" chance="100"/>        <!-- Personal Mana Potion -->
+                    <reward type="Item" id="40904" min="35" max="35" chance="100"/>        <!-- Dwarven Loyality Gem-->
+                </rewards>
+            </point>
+            <point level="3" requiredValue="500">
+                <set name="shortDesc" value="Kill %value% monsters today"/>
+                <set name="longDesc" value="Reward: 'br' 10x Mana Potions 'br' 40x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40010" min="15" max="15" chance="100"/>        <!-- Personal Mana Potion -->
+                    <reward type="Item" id="40904" min="40" max="40" chance="100"/>        <!-- Dwarven Loyality Gem-->
+                </rewards>
+            </point>
+            <point level="4" requiredValue="1000">
+                <set name="shortDesc" value="Kill %value% monsters today"/>
+                <set name="longDesc" value="Reward: 'br' 20x Mana Potions 'br' 50x Dwarven Loyality Gems"/>
+                <rewards>
+                    <reward type="Item" id="40010" min="20" max="20" chance="100"/>        <!-- Personal Mana Potion -->
+                    <reward type="Item" id="40904" min="50" max="50" chance="100"/>        <!-- Dwarven Loyality Gem-->
+                </rewards>
+            </point>
+        </achievement>
+
+        <!-- Daily Killing Champions
+        <achievement name="Champion Hunter" type="champion_kills_daily">
+            <set name="title" value="Champion Hunter" />
+            <set name="titleColor" value="FF00FF" />
+            <set name="isDaily" value="true" />
+            <set name="icon" value="Icon.skill1452" />
+            <set name="shortDesc" value="Hunt down %value% Champions. Counter restes every day." />
+            <set name="longDesc" value="Kill %value% Champions." />
+
+            <point level="1" requiredValue="10">
+                <set name="shortDesc" value="Kill %value% Champions today" />
+                <set name="longDesc" value="Reward: " />
+                <rewards>
+                    <reward type="Item" id="57" min="100" max="1000" />
+                </rewards>
+            </point>
+            <point level="2" requiredValue="20">
+                <set name="shortDesc" value="Kill %value% Champions today" />
+                <set name="longDesc" value="Reward: " />
+                <rewards>
+                    <reward type="Item" id="57" min="100" max="1000" />
+                </rewards>
+            </point>
+            <point level="3" requiredValue="30">
+                <set name="shortDesc" value="Kill %value% Champions today" />
+                <set name="longDesc" value="Reward: " />
+                <rewards>
+                    <reward type="Item" id="57" min="100" max="1000" />
+                </rewards>
+            </point>
+        </achievement>
+         -->
+
+        <!-- Daily Killing Raids -->
+        <achievement name="Raids Hunter" type="raid_kills_daily">
+            <set name="title" value="Raid Slayer"/>
+            <set name="titleColor" value="FF00FF"/>
+            <set name="isDaily" value="true"/>
+            <set name="icon" value="Icon.skill4683"/>
+            <set name="shortDesc" value="Every day kill %value% Raid Bosse(s)"/>
+            <set name="longDesc" value="Every day kill %value% Raid Bosses"/>
+
+            <point level="1" requiredValue="1">
+                <set name="longDesc" value="Slay a Raid Boss to receive 'br' between 1 and 3 Raid Skulls"/>
+                <rewards>
+                    <reward type="Item" id="41006" min="1" max="3" chance="100"/> <!-- Raid Skull -->
+                </rewards>
+            </point>
+            <point level="2" requiredValue="3">
+                <set name="longDesc" value="Slay %value% Raid Bosses to receive 'br' between 2 and 4 Raid Skulls"/>
+                <rewards>
+                    <reward type="Item" id="41006" min="2" max="4" chance="100"/> <!-- Raid Skull -->
+                </rewards>
+            </point>
+            <point level="3" requiredValue="5">
+                <set name="longDesc" value="Slay %value% Raid Bosses to receive 'br' between 3 and 5 Raid Skulls"/>
+                <rewards>
+                    <reward type="Item" id="41006" min="3" max="5" chance="100"/> <!-- Raid Skull -->
+                </rewards>
+            </point>
+        </achievement>
+
+        <!-- Play Time -->
+        <achievement name="Loyalist" type="play_time">
+            <set name="isWithTime" value="true"/>
+            <set name="title" value="Loyalist"/>
+            <set name="titleColor" value="C44A2F"/>
+            <set name="icon" value="Icon.skill11783"/>
+            <set name="isDaily" value="true"/>
+            <set name="shortDesc" value="Play for %valueTime% to receive rewards"/>
+            <set name="longDesc" value="Play for %valueTime% to receive rewards."/>
+
+            <point level="1" requiredValue="3600"> <!-- 1 HOUR -->
+                <set name="shortDesc" value="Play for 1 hour"/>
+                <set name="longDesc" value="Reward: 'br' +4% Bonus to XP 'br' +5% Bonus to SP 'br' for 1 hour"/>
+                <rewards>
+                    <bonus type="Experience" addingType="percent" min="4" max="4" chance="100" time="3600"/>        <!-- Extra XP Bonus -->
+                    <bonus type="SkillPoints" addingType="percent" min="5" max="5" chance="100" time="3600"/>        <!-- Extra SP Bonus -->
+                </rewards>
+            </point>
+            <point level="2" requiredValue="10800"> <!-- 3 HOURS -->
+                <set name="shortDesc" value="Play for 3 hours"/>
+                <set name="longDesc" value="Reward: 'br' +7% Bonus to XP 'br' +10% Bonus to SP 'br' for 3 hours"/>
+                <rewards>
+                    <bonus type="Experience" addingType="percent" min="7" max="7" chance="100" time="10800"/>        <!-- Extra XP Bonus -->
+                    <bonus type="SkillPoints" addingType="percent" min="10" max="10" chance="100" time="10800"/>    <!-- Extra SP Bonus -->
+                </rewards>
+            </point>
+            <point level="3" requiredValue="18000"> <!-- 5 HOURS -->
+                <set name="shortDesc" value="Play for 5 hours"/>
+                <set name="longDesc" value="Reward: 'br' +10% Bonus to XP 'br' +15% Bonus to SP 'br' for 5 hours"/>
+                <rewards>
+                    <bonus type="Experience" addingType="percent" min="10" max="10" chance="100" time="18000"/>        <!-- Extra XP Bonus -->
+                    <bonus type="SkillPoints" addingType="percent" min="15" max="15" chance="100" time="18000"/>    <!-- Extra SP Bonus -->
+                </rewards>
+            </point>
+        </achievement>
+
+        <!-- Daily Fishing -->
+        <achievement name="Fisherman" type="daily_fishing">
+            <set name="title" value="Fisherman"/>
+            <set name="titleColor" value="FF00FF"/>
+            <set name="isDaily" value="true"/>
+            <set name="icon" value="Icon.skill1316"/>
+            <set name="shortDesc" value="Every day catch %value% Fishes to meet your quota."/>
+            <set name="longDesc" value="Every day catch %value% Fishes"/>
+
+            <point level="1" requiredValue="10">
+                <set name="longDesc" value="Condition: None! 'br' Rewards: 'br' Immense satisfaction... 'br' ... and 10 Mana Potions!"/>
+                <rewards>
+                    <reward type="Item" id="728" min="10" max="10" chance="100"/> <!-- Mana Potion -->
+                </rewards>
+            </point>
+        </achievement>
+
+    </category>
+</list>

@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/items.xsd">
+	<item id="40103" type="EtcItem" name="Vote Scroll: Enchant Weapon (S-Grade)">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40104" type="EtcItem" name="Safe Scroll: Enchant Weapon (S-Grade)">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40108" type="EtcItem" name="Vote Scroll: Enchant Armor (S-Grade)">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40109" type="EtcItem" name="Safe Scroll: Enchant Armor (S-Grade)">
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="is_stackable" val="true" />
+	</item>
+	
+		<!-- RECIPES -->
+
+	<item id="40400" type="EtcItem" name=" Recipe: Party Mask ">
+        <set name="icon" val="icon.etc_party_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40401" type="EtcItem" name=" Recipe: Red Party Mask ">
+        <set name="icon" val="icon.etc_party_mask_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40402" type="EtcItem" name=" Recipe: Cat Ears ">
+        <set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40403" type="EtcItem" name=" Recipe: Lady's Hair Pin ">
+        <set name="icon" val="icon.accessory_hairpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40404" type="EtcItem" name=" Recipe: Pirate's Eye Patch ">
+        <set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40405" type="EtcItem" name=" Recipe: Monocle ">
+        <set name="icon" val="icon.accessory_glasses_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40406" type="EtcItem" name=" Recipe: Golden Festival Mask ">
+        <set name="icon" val="icon.accessory_taiwan_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40407" type="EtcItem" name=" Recipe: Tateossian Hairband ">
+        <set name="icon" val="icon.accessory_tateossian_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40408" type="EtcItem" name=" Recipe: Raccoon Ears ">
+        <set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40409" type="EtcItem" name=" Recipe: Outlaw's Eyepatch ">
+        <set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40410" type="EtcItem" name=" Recipe: Maiden's Hairpin ">
+        <set name="icon" val="icon.accessory_maidens_hairpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40411" type="EtcItem" name=" Recipe: Rabbit Ears ">
+        <set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40412" type="EtcItem" name=" Recipe: Noblesse Tiara ">
+        <set name="icon" val="icon.accessory_noblesse_tiara_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40413" type="EtcItem" name=" Recipe: Forget-me-not Hairpin ">
+        <set name="icon" val="icon.accessory_forget_me_not_hairpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40414" type="EtcItem" name=" Recipe: Daisy Hairpin ">
+        <set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40415" type="EtcItem" name=" Recipe: Santa's Hat ">
+        <set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40416" type="EtcItem" name=" Recipe: Sayha's White Mask ">
+        <set name="icon" val="icon.accessory_full_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40417" type="EtcItem" name=" Recipe: Gran Kain's Black Mask ">
+        <set name="icon" val="icon.accessory_full_mask_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40418" type="EtcItem" name=" Recipe: Raid Challenger's Circlet ">
+        <set name="icon" val="icon.accessory_raid_challenger_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40419" type="EtcItem" name=" Recipe: Raid Adventurer's Circlet ">
+        <set name="icon" val="icon.accessory_raid_explorer_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40420" type="EtcItem" name=" Recipe: Raid Master's Circlet ">
+        <set name="icon" val="icon.accessory_raid_master_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40421" type="EtcItem" name=" Recipe: Circlet of Ice Fairy Sirra ">
+        <set name="icon" val="icon.accessory_ice_queen_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40422" type="EtcItem" name=" Recipe: Academy Circlet ">
+        <set name="icon" val="icon.accessory_academy_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40423" type="EtcItem" name=" Recipe: Party Hat ">
+        <set name="icon" val="icon.accessory_party_hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40424" type="EtcItem" name=" Recipe: Feathered Hat ">
+        <set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40425" type="EtcItem" name=" Recipe: Artisan's Goggles ">
+        <set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40426" type="EtcItem" name=" Recipe: Demon Horns ">
+        <set name="icon" val="icon.accessory_hair_cornu_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40427" type="EtcItem" name=" Recipe: Little Angel Wings ">
+        <set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40428" type="EtcItem" name=" Recipe: Fairy Antennae ">
+        <set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40429" type="EtcItem" name=" Recipe: Mask of Spirits ">
+        <set name="icon" val="icon.accessory_worldcup_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40430" type="EtcItem" name=" Recipe: Blue Party Hat ">
+        <set name="icon" val="icon.accessory_party_hat_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40431" type="EtcItem" name=" Recipe: Diadem ">
+        <set name="icon" val="icon.accessory_flower_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40432" type="EtcItem" name=" Recipe: Teddy Bear Hat ">
+        <set name="icon" val="icon.accessory_bear_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40433" type="EtcItem" name=" Recipe: Piggy Hat ">
+        <set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40434" type="EtcItem" name=" Recipe: Jester Hat  ">
+        <set name="icon" val="icon.accessory_jester_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40435" type="EtcItem" name=" Recipe: Wizard Hat  ">
+        <set name="icon" val="icon.accessory_magic_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40436" type="EtcItem" name=" Recipe: Dapper Cap  ">
+        <set name="icon" val="icon.accessory_dandy_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40437" type="EtcItem" name=" Recipe: Romantic Chapeau  ">
+        <set name="icon" val="icon.accessory_romantic_chaperon_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40438" type="EtcItem" name=" Recipe: Iron Circlet  ">
+        <set name="icon" val="icon.accessory_iron_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40439" type="EtcItem" name=" Recipe: Valakas Slayer Circlet  ">
+        <set name="icon" val="icon.accessory_valakas_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40440" type="EtcItem" name=" Recipe: Antharas Slayer Circlet  ">
+        <set name="icon" val="icon.accessory_antaras_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40441" type="EtcItem" name=" Recipe: Half Face Mask  ">
+        <set name="icon" val="icon.accessory_half_face_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40442" type="EtcItem" name=" Recipe: Single Stem Flower  ">
+        <set name="icon" val="icon.Accessary_butterfly_hearpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40443" type="EtcItem" name=" Recipe: Butterfly Hairpin  ">
+        <set name="icon" val="icon.Accessary_butterfly_hearpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40444" type="EtcItem" name=" Recipe: Luxurious Gold Circlet  ">
+        <set name="icon" val="icon.Accessary_gold_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40445" type="EtcItem" name=" Recipe: Luxurious Silver Circlet  ">
+        <set name="icon" val="icon.Accessary_gold_circlet_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40446" type="EtcItem" name=" Recipe: Eye Patch  ">
+        <set name="icon" val="icon.Accessary_one_eye_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40447" type="EtcItem" name=" Recipe: Goddess Circlet  ">
+        <set name="icon" val="icon.Accessary_goddess_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40448" type="EtcItem" name=" Recipe: Leather Cap  ">
+        <set name="icon" val="icon.Accessary_middle_ages_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40449" type="EtcItem" name=" Recipe: First Mate's Hat  ">
+        <set name="icon" val="icon.Accessary_middle_ages_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40450" type="EtcItem" name=" Recipe: Angel Halo  ">
+        <set name="icon" val="icon.Accessary_angel_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40451" type="EtcItem" name=" Recipe: Demon Circlet  ">
+        <set name="icon" val="icon.Accessary_demon_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40452" type="EtcItem" name=" Recipe: Pirate Hat  ">
+        <set name="icon" val="icon.Accessary_sea_robber_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40453" type="EtcItem" name=" Recipe: Scar  ">
+        <set name="icon" val="icon.Accessary_scar_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40454" type="EtcItem" name=" Recipe: Santa's Antlers  ">
+        <set name="icon" val="icon.accessory_santas_antler_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40455" type="EtcItem" name=" Recipe: Gold Circlet of Redemption  ">
+        <set name="icon" val="icon.Accessary_gold_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40456" type="EtcItem" name=" Recipe: Silver Circlet of Salvation  ">
+        <set name="icon" val="icon.Accessary_gold_circlet_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40457" type="EtcItem" name=" Recipe: Pig Wrangler's Cap  ">
+        <set name="icon" val="icon.Accessary_middle_ages_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40458" type="EtcItem" name=" Recipe: White Half Mask  ">
+        <set name="icon" val="icon.accessory_half_face_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40459" type="EtcItem" name=" Recipe: Black Half Mask  ">
+        <set name="icon" val="icon.Accessary_black_half_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40460" type="EtcItem" name=" Recipe: Bird Nest  ">
+        <set name="icon" val="icon.accessory_nest_hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40461" type="EtcItem" name=" Recipe: Purple Viking Circlet  ">
+        <set name="icon" val="icon.accessory_viking_circlet_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40462" type="EtcItem" name=" Recipe: Golden Viking Circlet  ">
+        <set name="icon" val="icon.accessory_viking_circlet_gold_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40463" type="EtcItem" name=" Recipe: Panda Hat  ">
+        <set name="icon" val="icon.accessory_panda_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40464" type="EtcItem" name=" Recipe: White Sheep Hat  ">
+        <set name="icon" val="icon.accessory_sheep_cap_white_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40465" type="EtcItem" name=" Recipe: Black Sheep Hat  ">
+        <set name="icon" val="icon.accessory_sheep_cap_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40466" type="EtcItem" name=" Recipe: Frog Hat  ">
+        <set name="icon" val="icon.accessory_frog_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40467" type="EtcItem" name=" Recipe: Fish Hat  ">
+        <set name="icon" val="icon.accessory_fish_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40468" type="EtcItem" name=" Recipe: Straw Hat  ">
+        <set name="icon" val="icon.accessory_straw_hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40469" type="EtcItem" name=" Recipe: Chicken Hat  ">
+        <set name="icon" val="icon.accessory_chicken_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40470" type="EtcItem" name=" Recipe: Medieval Party Mask  ">
+        <set name="icon" val="icon.accessory_middle_age_party_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40471" type="EtcItem" name=" Recipe: Ant Hat">
+        <set name="icon" val="icon.accessory_ant_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40472" type="EtcItem" name=" Recipe: Ol Mahum Hat">
+        <set name="icon" val="icon.accessory_ol_mahum_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40473" type="EtcItem" name=" Recipe: Wolf Hat">
+        <set name="icon" val="icon.accessory_wolf_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40474" type="EtcItem" name=" Recipe: Monkey Hat  ">
+        <set name="icon" val="icon.monkey_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40475" type="EtcItem" name=" Recipe: Pig Hat  ">
+        <set name="icon" val="icon.event_pig_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40476" type="EtcItem" name=" Recipe: Monster Eye Hat">
+        <set name="icon" val="icon.accessory_monstereye_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40477" type="EtcItem" name=" Recipe: Brown Bear Hat">
+        <set name="icon" val="icon.accessory_brown_bear_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40478" type="EtcItem" name=" Recipe: Fungus Hat">
+        <set name="icon" val="icon.accessory_fungus_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40479" type="EtcItem" name=" Recipe: Skull Hat">
+        <set name="icon" val="icon.accessory_skeleton_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40480" type="EtcItem" name=" Recipe: Ornithomimus Hat">
+        <set name="icon" val="icon.accessory_ornithomimus_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40481" type="EtcItem" name=" Recipe: Feline King Hat">
+        <set name="icon" val="icon.accessory_king_of_cat_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40482" type="EtcItem" name=" Recipe: Kai the Cat Hat">
+        <set name="icon" val="icon.accessory_chi_the_cat_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40483" type="EtcItem" name=" Recipe: Silenos Hair Accessory   ">
+        <set name="icon" val="icon.accessory_barka_karm_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40484" type="EtcItem" name=" Recipe: Birthday Hat  ">
+        <set name="icon" val="icon.accessory_birthday_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40485" type="EtcItem" name=" Recipe: Halloween Hat  ">
+        <set name="icon" val="icon.accessory_halloween_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40486" type="EtcItem" name=" Recipe: Arrow-Pierced Apple  ">
+        <set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40487" type="EtcItem" name=" Recipe: Popped-Out Eye  ">
+        <set name="icon" val="icon.accessory_beetle_eye_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40488" type="EtcItem" name=" Recipe: Graduation Cap  ">
+        <set name="icon" val="icon.accessory_graduation_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40489" type="EtcItem" name=" Recipe: Refined Carnival Circlet  ">
+        <set name="icon" val="icon.accessory_carnival_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40490" type="EtcItem" name=" Recipe: Refined Angel Ring  ">
+        <set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40491" type="EtcItem" name=" Recipe: Refined Devil Horn  ">
+        <set name="icon" val="icon.accessory_devil_horn_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40492" type="EtcItem" name=" Recipe: Refined Pirate Hat  ">
+        <set name="icon" val="icon.accessory_captain_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40493" type="EtcItem" name=" Recipe: Refined Wizard Hat  ">
+        <set name="icon" val="icon.accessory_magician_cap2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40494" type="EtcItem" name=" Recipe: Refined Jester Hat  ">
+        <set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40495" type="EtcItem" name=" Recipe: Refined Black Feather Mask  ">
+        <set name="icon" val="icon.accessory_black_feather_mask2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40496" type="EtcItem" name=" Recipe: Refined Romantic Chapeau  ">
+        <set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40497" type="EtcItem" name=" Recipe: Refined Carnival Circlet  ">
+        <set name="icon" val="icon.accessory_carnival_circlet2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40498" type="EtcItem" name=" Recipe: Refined Medieval Style Party Mask  ">
+        <set name="icon" val="icon.accessory_middle_age_party_mask2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40499" type="EtcItem" name=" Recipe: Refined Dapper Cap  ">
+        <set name="icon" val="icon.accessory_dandy_cap2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40500" type="EtcItem" name=" Recipe: Clownfish Hat  ">
+        <set name="icon" val="icon.accessory_fish_cap2_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40501" type="EtcItem" name=" Recipe: Mining Hat  ">
+        <set name="icon" val="icon.accessory_mining_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40502" type="EtcItem" name=" Recipe: Improved Mining Hat  ">
+        <set name="icon" val="icon.accessory_advence_mining_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40503" type="EtcItem" name=" Recipe: Search Hat  ">
+        <set name="icon" val="icon.accessory_mine_search_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40504" type="EtcItem" name=" Recipe: Improved Search Hat  ">
+        <set name="icon" val="icon.accessory_advence_mine_search_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40505" type="EtcItem" name=" Recipe: Jindo Dog Hat  ">
+        <set name="icon" val="icon.accessory_jindo_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40506" type="EtcItem" name=" Recipe: Shaggy Dog Hat  ">
+        <set name="icon" val="icon.accessory_sapsal_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40507" type="EtcItem" name=" Recipe: Rider Goggles  ">
+        <set name="icon" val="icon.accessory_dragonfly_goggle_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40508" type="EtcItem" name=" Recipe: Lineage Souvenir Circlet  ">
+        <set name="icon" val="icon.accessory_5th_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40509" type="EtcItem" name=" Recipe: Cow Hair Accessory  ">
+        <set name="icon" val="icon.Accessory2_cow_of_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40510" type="EtcItem" name=" Recipe: Afro Perm Wig  ">
+        <set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40511" type="EtcItem" name=" Recipe: Bamboo Hat  ">
+        <set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40512" type="EtcItem" name=" Recipe: Smart Glasses  ">
+        <set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40513" type="EtcItem" name=" Recipe: Afro Hair  ">
+        <set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40514" type="EtcItem" name=" Recipe: Uniform Hat  ">
+        <set name="icon" val="BranchSys.icon.br_Uniform_Hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40515" type="EtcItem" name=" Recipe: Assassin's Bamboo Hat  ">
+        <set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40516" type="EtcItem" name=" Recipe: Ruthless Tribe Mask  ">
+        <set name="icon" val="BranchSys.icon.br_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40517" type="EtcItem" name=" Recipe: Ribbon Hairband  ">
+        <set name="icon" val="BranchSys.icon.br_Ribbon_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40518" type="EtcItem" name=" Recipe: Visor  ">
+        <set name="icon" val="BranchSys.icon.br_Eye_Visor_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40519" type="EtcItem" name=" Recipe: Kat the Cat Hat  ">
+        <set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40520" type="EtcItem" name=" Recipe: Skull Hat  ">
+        <set name="icon" val="icon.accessory_skeleton_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40521" type="EtcItem" name=" Recipe: Santa Horn Hat  ">
+        <set name="icon" val="icon.accessory_santas_antler_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40522" type="EtcItem" name=" Recipe: Saving Santa Hat">
+        <set name="icon" val="BranchSys.icon.br_xmas_gawibawibo_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40523" type="EtcItem" name=" Recipe: Gold Afro  ">
+        <set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40524" type="EtcItem" name=" Recipe: Pink Afro  ">
+        <set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40525" type="EtcItem" name=" Recipe: Goggle  ">
+        <set name="icon" val="BranchSys.icon.br_goggles_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40526" type="EtcItem" name=" Recipe: Napoleon Hat  ">
+        <set name="icon" val="BranchSys.icon.br_napoleonic_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40527" type="EtcItem" name=" Recipe: Horn Hairband  ">
+        <set name="icon" val="BranchSys.icon.br_horn_hairband_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40528" type="EtcItem" name=" Recipe: Black Gem Mask  ">
+        <set name="icon" val="BranchSys.icon.br_black_gem_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40529" type="EtcItem" name=" Recipe: Plastic Hair  ">
+        <set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40530" type="EtcItem" name=" Recipe: Daisy Hairpin  ">
+        <set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40531" type="EtcItem" name="Recipe: Red Mask of Victory">
+        <set name="icon" val="icon.accessory_worldcup_mask_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40532" type="EtcItem" name="Recipe: Red Horn of Victory">
+        <set name="icon" val="icon.accessory_hair_cornu_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>	
+	<item id="40533" type="EtcItem" name="Recipe: Black Skeleton Circlet">
+        <set name="icon" val="icon.accessory_animal_skeleton_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>	
+	<item id="40534" type="EtcItem" name="Recipe: Gold Skeleton Circlet">
+        <set name="icon" val="icon.accessory_animal_feather_skeleton_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40535" type="EtcItem" name="Recipe: Green Skeleton Circlet">
+        <set name="icon" val="icon.accessory_animal_warrior_skeleton_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40536" type="EtcItem" name="Recipe: Brown Skeleton Circlet">
+        <set name="icon" val="icon.accessory_animal_rage_skeleton_circlet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40537" type="EtcItem" name="Recipe: Shark Cap">
+        <set name="icon" val="icon.accessory_shark_of_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40538" type="EtcItem" name="Recipe: Gold Horn Cap">
+        <set name="icon" val="icon.accessory_horn01_hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40539" type="EtcItem" name="Recipe: Silver Horn Cap">
+        <set name="icon" val="icon.accessory_horn01_hat_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40540" type="EtcItem" name="Recipe: Penguin Cap">
+        <set name="icon" val="icon.accessory_penguin_of_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40541" type="EtcItem" name="Recipe: Brown Turba Hat">
+        <set name="icon" val="icon.accessory_turban_yellow_hat_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40542" type="EtcItem" name="Recipe: Yellow Skeleton Circlet">
+        <set name="icon" val="icon.accessory_turban_yellow_hat_i01" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40543" type="EtcItem" name="Recipe: Turtle Cap">
+        <set name="icon" val="icon.accessory_turtle_of_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="40544" type="EtcItem" name="Recipe: Cow Cap">
+        <set name="icon" val="icon.accessory_cow_of_cap_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>	
+</list>

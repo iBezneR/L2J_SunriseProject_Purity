@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="49783" name="Sibis Coin Box" type="EtcItem">
+		<!-- A coin paid for activity while disguised as a Balthus Knight. Event Manager Sibis will be able to exchange them for Sibis' Suspicious Supply Items. Will be deleted on June 15, 2016 (Wed), when the Balthus Knights Event ends. -->
+		<set name="icon" val="icon.ev_balthus_coin" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="49798" name="Cheer Pom Poms" additionalName="Event" type="Weapon">
+		<!-- A cheering tool issued to commemorate the anniversary of Lineage II. Hold on to your dreams, as the day will come when they are realized. Equip to enable the Firecracker skill. -->
+		<set name="icon" val="icon.ev_12th_weapon" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="150" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_freightable" val="true" />
+		<for>
+			<set stat="pAtk" val="12" />
+			<set stat="mAtk" val="12" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="200" />
+			<!-- <set stat="randomDamage" val="1" /> -->
+			<set stat="pAtkRange" val="40" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,228 @@
+<html noscrollbar>
+<title>Dwarven Manufacture</title>
+<body><br>
+<table width=755>
+	<tr>
+		<center><td>
+			<table border=0 cellpadding=0 cellspacing=0 width=769 height=492 background="l2ui_ct1.Windows_DF_TooltipBG">
+				<tr>
+					<td valign="top" align="center">
+						<table width=755 height=415>
+							<tr>
+								<td width=755><br>
+									<center>
+									<table width=605 height=164>
+										<tr>
+											<td valign="top" align="center">
+												<table border=0 width=605 height=150 cellspacing=4 cellpadding=3 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+													<tr>
+														<td width=40 align=right valign=top>
+															<img src="branchSys.br_card_FDwarf" width=128 height=150>
+														</td>
+														<td width=350 align=left valign=top>
+															<center>
+															<br><br>
+															<font name=hs12 color="LEVEL">Kama the Librarian</font>
+															<br1> I'm responsible for archiving and updating books containing<br1> information on every monster and item ever encountered.
+															<br>
+															<br1> <font color="FBB117">Browsing my archives is free but teleporting<br1> to monster's location can be very expensive.</font>															
+															</center>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>									
+									<table align=center height="10" width="600" bgcolor="C35817">
+										<tr>
+											<td align=center height="10" width="600"></td>									
+										</tr>										
+									</table>
+									<table width=600 height=60>
+										<tr>
+											<td valign="top" align="center">
+												<table border=0 width=600 height=46 cellspacing=4 cellpadding=3 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+													<tr>
+														<td width=40 height=46 align=right valign=top>
+															<img src="icon.etc_candle_yellow_i00" width=32 height=32>
+														</td>
+														<td width=520 height=46 align=left valign=top>
+															<center><font color="FF6600">Teleporting to Monsters and Raids always costs 1 Magic Candle.<br1>Candles can be obtained from Daily Reward Boxes or the Loyality Store.</font></center>
+														</td>
+														<td width=40 height=46 align=right valign=top>
+															<img src="icon.etc_candle_yellow_i00" width=32 height=32>
+														</td>														
+													</tr>
+												</table>
+											</td>											
+										</tr>
+									</table>									
+									<table align=center height="10" width="500" bgcolor="C35817">
+										<tr>
+											<td align=center height="10" width="500"></td>									
+										</tr>										
+									</table>									
+									<table width=480 height=96>
+										<tr>
+											<td valign="top" align="center">
+												<table border=0 width=250 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+													<tr>
+														<td valign=top align=center>
+															<table width=250>
+																<tr>
+																	<td valign="top" align="center"><font color="FFCC00">Look for Item</font></td>
+																</tr>
+															</table>
+															<table width=250 height=25>
+																<tr>
+																	<td valign="top" align="center"><edit var="item" type="text" width=160 length=20></td>
+																</tr>
+															</table>
+															<table width=250>
+																<tr>
+																	<td valign="top" align="center"><button value="Search" action="bypass -h _bbssearchdropItemsByName_ $item" width=80 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td valign="top" align="center">
+												<table border=0 width=250 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+													<tr>
+														<td valign=top align=center>
+															<table width=250>
+																<tr>
+																	<td valign="top" align="center"><font color="FF3333">Look for Monster</font></td>
+																</tr>
+															</table>
+															<table width=250 height=25>
+																<tr>
+																	<td valign="top" align="center"><edit var="monster" type="text" width=160 length=20></td>
+																</tr>
+															</table>
+															<table width=250>
+																<tr>
+																	<td valign="top" align="center"><button value="Search" action="bypass _bbssearchdropMonstersByName_ $monster" width=80 height=28 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>									
+									<table align=center height="10" width="500" bgcolor="C35817">
+										<tr>
+											<td align=center height="10" width="500"></td>									
+										</tr>										
+									</table>									
+									<table width=480 height=94>
+										<tr>
+											<td valign="top" align="center">
+												<table border=0 width=250 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+													<tr>
+														<td valign=top align=center>
+															<table width=250>
+																<tr>
+																	<td valign="top" align="center"><font color="669933">Popular requests for Items</font></td>
+																</tr>
+															</table>
+															<table width=160 height=25>
+																<tr>
+																	<td width=60 align=center valign=top>
+																		<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.etc_adena_i00">
+																			<tr>
+																				<td width=32 height=32 align=center valign=top>
+																					<button value=. action="bypass -h _bbssearchdropItemsByName_ Adena" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																				</td>
+																			</tr>
+																		</table><br>
+																		Adena
+																	</td>
+																	<td width=60 align=center valign=top>
+																		<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.armor_t94_u_i03">
+																			<tr>
+																				<td width=32 height=32 align=center valign=top>
+																					<button value=. action="bypass -h _bbssearchdropItemsByName_ Vorpal" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																				</td>
+																			</tr>
+																		</table><br>
+																		Vorpal
+																	</td>
+																	<td width=60 align=center valign=top>
+																		<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.etc_water_crystal_i00">
+																			<tr>
+																				<td width=32 height=32 align=center valign=top>
+																					<button value=. action="bypass -h _bbssearchdropItemsByName_ Crystal" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																				</td>
+																			</tr>
+																		</table><br>
+																		Crystal
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+											<td valign="top" align="center">
+												<table border=0 width=250 height=90 cellspacing=1 cellpadding=0 background="l2ui_ct1.ComboBox_DF_Dropmenu_Bg">
+													<tr>
+														<td valign=top align=center>
+															<table width=250>
+																<tr>
+																	<td valign="top" align="center"><font color="669933">Popular requests for Monsters</font></td>
+																</tr>
+															</table>
+															<table width=160 height=25>
+																<tr>
+																	<td width=60 align=center valign=top>
+																		<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4295">
+																			<tr>
+																				<td width=32 height=32 align=center valign=top>
+																					<button value=. action="bypass _bbssearchdropMonstersByName_ Knoriks" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																				</td>
+																			</tr>
+																		</table><br>
+																		Knoriks
+																	</td>
+																	<td width=60 align=center valign=top>
+																		<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4298">
+																			<tr>
+																				<td width=32 height=32 align=center valign=top>
+																					<button value=. action="bypass _bbssearchdropMonstersByName_ Karik" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																				</td>
+																			</tr>
+																		</table><br>
+																		Karik
+																	</td>
+																	<td width=60 align=center valign=top>
+																		<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4291">
+																			<tr>
+																				<td width=32 height=32 align=center valign=top>
+																					<button value=. action="bypass _bbssearchdropMonstersByName_ Leech" width=34 height=34 back="L2UI_CT1.ItemWindow_DF_Frame_Down" fore="L2UI_CT1.ItemWindow_DF_Frame"/>
+																				</td>
+																			</tr>
+																		</table><br>
+																		Leech
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									</center>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td></center>
+	</tr>
+</table>
+</body></html>

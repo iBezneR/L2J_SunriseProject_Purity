@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/npcs.xsd">
+
+<!-- Custom Dwarven Manufacture NPCs -->
+
+	<!-- GIFT CODE NPC -->
+	
+	<npc id="50084" displayId="32881" name="Dwarven Loyalist" usingServerSideName="true" title="Redeem your codes here!" usingServerSideTitle="true" type="L2GiftCode">
+		<collision>
+			<radius normal="11" />
+			<height normal="18" />
+		</collision>
+	</npc>
+
+	<npc id="50085" displayId="32881" name="Glyph Trader" usingServerSideName="true" title="Buy Bonuses!" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="11" />
+			<height normal="18" />
+		</collision>
+	</npc>
+
+	<npc id="50086" displayId="32881" name="Transmutation Specialist" usingServerSideName="true" title="Empower your Characters" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="11" />
+			<height normal="18" />
+		</collision>
+	</npc>
+
+<!-- Custom Sunrise NPCs -->	
+	
+	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="70010" displayId="31606" name="Catrina" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="539" displayId="25350" name="Achievement Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="541" displayId="25350" name="Castle Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="542" displayId="25350" name="Premium Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="543" displayId="25350" name="GrandBoss Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="553" displayId="25350" name="Report Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="554" displayId="25350" name="Points Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="555" displayId="25350" name="Npc Buffer" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Buffer">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="556" displayId="25350" name="Black market" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="558" displayId="13177" name="All In One" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2AioNpc">
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="559" displayId="31324" name="Zeus" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="560" displayId="25350" name="Delevel Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="570" displayId="30719" name="Gatekeeper" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2CustomGatekeeper">
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc>
+	<npc id="571" displayId="30868" name="Services Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2ServicesManager">
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="572" displayId="32576" name="GmShop" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Merchant">
+		<collision>
+			<radius normal="8.5" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="573" displayId="32808" name="Donate Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2DonateManager">
+		<collision>
+			<radius normal="15" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="574" displayId="32597" name="Casino Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="11" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="575" displayId="13298" name="Noble Manager" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="10" />
+			<height normal="22" />
+		</collision>
+	</npc>
+	<npc id="8983" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8984" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8985" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8986" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8987" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8988" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8989" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8990" displayId="35062" name="Flag" usingServerSideName="true" title="CTF" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="21" />
+			<height normal="82" />
+		</collision>
+	</npc>
+	<npc id="8991" displayId="32027" name="Holder" usingServerSideName="true" title="CTF" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="30" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="8992" displayId="31772" name="Zone" usingServerSideName="true" title="Domination" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="23" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="8993" displayId="21804" name="Chest" usingServerSideName="true" title="Regular Chest" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="800" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc>
+	<npc id="8994" displayId="30961" name="Chest" usingServerSideName="true" title="Shabby Chest" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="1100" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="9.5" />
+		</collision>
+	</npc>
+	<npc id="8995" displayId="29116" name="Chest" usingServerSideName="true" title="Luxurious Chest" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="1200" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="5.5" />
+		</collision>
+	</npc>
+	<npc id="8996" displayId="30628" name="Chest" usingServerSideName="true" title="Lucky Box" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="1000" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="18" />
+			<height normal="14" />
+		</collision>
+	</npc>
+	<npc id="8997" displayId="18822" name="Chest" usingServerSideName="true" title="Nexused Crate" usingServerSideTitle="true" type="L2Monster">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="2000" mp="100" />
+			<attack physical="100" magical="100" attackSpeed="253" range="40" />
+			<defence physical="300" magical="100" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="8" />
+		</collision>
+	</npc>
+	<npc id="8998" displayId="31772" name="Base" usingServerSideName="true" title="Battlefields" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="23" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="9994" displayId="35657" name="Pvp Zone" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="46" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="9995" displayId="35657" name="Party Matcher" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="46" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="9996" displayId="30346" name="Sentry" usingServerSideName="true" title="Map Guard" usingServerSideTitle="true" type="L2EventMapGuard">
+		<sex>MALE</sex>
+		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
+			<vitals hp="99999" mp="100" />
+			<attack physical="5000" magical="5000" attackSpeed="500" range="100" />
+			<defence physical="5000" magical="5000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="180" />
+				<run ground="280" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="9997" displayId="35657" name="Buffer" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="46" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="9998" displayId="35657" name="Mini Events" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="46" />
+			<height normal="72" />
+		</collision>
+	</npc>
+	<npc id="9999" displayId="31690" name="Main Events" usingServerSideName="true" title="Dwarven Manufacture" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="24" />
+			<height normal="72" />
+		</collision>
+	</npc>
+</list>
