@@ -212,9 +212,9 @@ public class MuseumBBSManager extends BaseBBSManager
 		return html;
 	}
 	
-	public String showPlayerTops(L2PcInstance player, int type)
+	private String showPlayerTops(L2PcInstance player, int type)
 	{
-		String dailyType[] =
+		String[] dailyType =
 		{
 			"Monthly",
 			"Weekly",

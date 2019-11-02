@@ -11,19 +11,19 @@ import java.util.HashMap;
 
 public class MuseumCategory
 {
-	int _categoryId, _typeId;
-	String _categoryName, _typeName, _type, _additionalText;
-	RefreshTime _refreshTime;
-	boolean _timer;
-	HashMap<Integer, TopPlayer> _players;
-	HashMap<Integer, TopPlayer> _totalTopPlayers;
-	HashMap<Integer, TopPlayer> _statuePlayers;
-	ArrayList<L2MuseumStatueInstance> _spawnedStatues;
-	ArrayList<Location> _statueSpawns;
-	ArrayList<ErReward> _rewards;
-	ArrayList<ErBonus> _bonuses;
+	private int _categoryId, _typeId;
+	private String _categoryName, _typeName, _type, _additionalText;
+	private RefreshTime _refreshTime;
+	private boolean _timer;
+	private HashMap<Integer, TopPlayer> _players;
+	private HashMap<Integer, TopPlayer> _totalTopPlayers;
+	private HashMap<Integer, TopPlayer> _statuePlayers;
+	private ArrayList<L2MuseumStatueInstance> _spawnedStatues;
+	private ArrayList<Location> _statueSpawns;
+	private ArrayList<ErReward> _rewards;
+	private ArrayList<ErBonus> _bonuses;
 	
-	public MuseumCategory(int categoryId, int typeId, String categoryName, String typeName, String type, String refreshTime, boolean timer, String additionalText, ArrayList<Location> statueSpawns, ArrayList<ErReward> rewards, ArrayList<ErBonus> bonuses)
+	MuseumCategory(int categoryId, int typeId, String categoryName, String typeName, String type, String refreshTime, boolean timer, String additionalText, ArrayList<Location> statueSpawns, ArrayList<ErReward> rewards, ArrayList<ErBonus> bonuses)
 	{
 		_players = new HashMap<>();
 		_totalTopPlayers = new HashMap<>();
@@ -49,7 +49,7 @@ public class MuseumCategory
 		}
 	}
 	
-	public int getCategoryId()
+	int getCategoryId()
 	{
 		return _categoryId;
 	}
@@ -74,12 +74,12 @@ public class MuseumCategory
 		return _type;
 	}
 	
-	public String getAdditionalText()
+	String getAdditionalText()
 	{
 		return _additionalText;
 	}
 	
-	public RefreshTime getRefreshTime()
+	RefreshTime getRefreshTime()
 	{
 		return _refreshTime;
 	}
@@ -89,7 +89,7 @@ public class MuseumCategory
 		return _timer;
 	}
 	
-	public ArrayList<Location> getStatueSpawns()
+	ArrayList<Location> getStatueSpawns()
 	{
 		return _statueSpawns;
 	}
@@ -104,22 +104,22 @@ public class MuseumCategory
 		return _bonuses;
 	}
 	
-	public HashMap<Integer, TopPlayer> getAllTops()
+	HashMap<Integer, TopPlayer> getAllTops()
 	{
 		return _players;
 	}
 	
-	public HashMap<Integer, TopPlayer> getAllTotalTops()
+	HashMap<Integer, TopPlayer> getAllTotalTops()
 	{
 		return _totalTopPlayers;
 	}
 	
-	public HashMap<Integer, TopPlayer> getAllStatuePlayers()
+	HashMap<Integer, TopPlayer> getAllStatuePlayers()
 	{
 		return _statuePlayers;
 	}
 	
-	public ArrayList<L2MuseumStatueInstance> getAllSpawnedStatues()
+	ArrayList<L2MuseumStatueInstance> getAllSpawnedStatues()
 	{
 		return _spawnedStatues;
 	}

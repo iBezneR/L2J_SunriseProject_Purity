@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xxx.xsd">
+<list>
 	<!-- Also available to use from npc (L2MuseumInstance), but SeparatedTabs must be turned off, because in html certain tabs will not appear. -->
 	<!-- If museum is not in all tabs, then select the tab in which it is. -->
-	<set name="TabInCommunityBoard" val="_bbsloc" />
+	<set name="TabInCommunityBoard" val="_bbsclan" />
 	<!-- Allows museum to be in all community board tabs. -->
 	<set name="WholeCommunityBoard" val="false" />
 	<!-- If museum is not in all tabs, this allows personal and rankings data to be in separated tabs. -->

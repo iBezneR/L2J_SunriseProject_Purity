@@ -36,7 +36,6 @@ import java.sql.ResultSet;
  */
 public final class L2MuseumStatueInstance extends L2NpcInstance
 {
-	private int _type;
 	private int _playerObjectId;
 	private CharSelectInfoPackage _charLooks;
 	private MuseumCategory _category;
@@ -50,7 +49,6 @@ public final class L2MuseumStatueInstance extends L2NpcInstance
 	{
 		super(template);
 		_playerObjectId = playerObjectId;
-		_type = type;
 		restoreCharLooks();
 		_category = MuseumManager.getInstance().getAllCategories().get(type);
 		setTitle(_category.getTypeName());

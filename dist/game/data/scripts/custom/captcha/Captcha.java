@@ -36,13 +36,14 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * @author Erlandas
  */
 public class Captcha
 {
-	public static ArrayList<String> NUMBERS;
+	private static ArrayList<String> NUMBERS;
 	
 	public Captcha()
 	{
@@ -54,7 +55,7 @@ public class Captcha
 		generateHTMLFile();
 	}
 	
-	public void startCaptcha(L2PcInstance player)
+	void startCaptcha(L2PcInstance player)
 	{
 		if (player.getCPlayer().getFailedCaptchas() >= ErConfig.CAPTCHA_FAIL)
 		{
@@ -65,19 +66,18 @@ public class Captcha
 			player.getClient().closeNow();
 			return;
 		}
-		String iCaptcha = "";
-		String newCaptcha = "";
+		StringBuilder iCaptcha = new StringBuilder();
+		StringBuilder newCaptcha = new StringBuilder();
 		for (int i = 0; i < ErConfig.CAPTCHAS_LENGTH; i++)
 		{
-			iCaptcha += "* ";
-			newCaptcha += Rnd.get(0, 9) + "";
+			iCaptcha.append("* ");
+			newCaptcha.append(Rnd.get(0, 9));
 		}
-		player.getCPlayer().setCaptcha(newCaptcha);
-		player.getCPlayer().setInputedCaptcha(iCaptcha);
-		player.getCPlayer().setInputedNumbers(0);
-		ArrayList<String> numbers = new ArrayList<>();
-		numbers.addAll(NUMBERS);
-		int xNumbers[] =
+		player.getCPlayer().setCaptcha(newCaptcha.toString());
+		player.getCPlayer().setInputedCaptcha(iCaptcha.toString());
+		player.getCPlayer().setInputedNumbers();
+		ArrayList<String> numbers = new ArrayList<>(NUMBERS);
+		int[] xNumbers =
 		{
 			0,
 			0,
@@ -102,7 +102,7 @@ public class Captcha
 		player.setIsInvul(true);
 		if (!ErConfig.CAPTCHA_SECOND_SECURITY_LEVEL)
 		{
-			showScreenMessage(player, "You have to input: " + player.getCPlayer().getCaptcha(), ErConfig.CAPTCHA_DELAY, ErSMPos.TOP_CENTER, false, true, false);
+			showScreenMessage(player, "You have to input: " + player.getCPlayer().getCaptcha(), ErConfig.CAPTCHA_DELAY, ErSMPos.TOP_CENTER, false);
 			player.sendMessage("You have to input: " + player.getCPlayer().getCaptcha());
 		}
 		else
@@ -123,11 +123,11 @@ public class Captcha
 		showCaptcha(player);
 	}
 	
-	public void showCaptcha(L2PcInstance player)
+	private void showCaptcha(L2PcInstance player)
 	{
 		String msg = HtmCache.getInstance().getHtm(player, "data/html/captcha/main.htm");
 		msg = msg.replaceAll("%iCaptcha%", player.getCPlayer().getInputedCaptcha());
-		int htmlNumbers[] = player.getCPlayer().getHtmlNumbers();
+		int[] htmlNumbers = player.getCPlayer().getHtmlNumbers();
 		for (int i = 0; i < 10; i++)
 		{
 			msg = msg.replaceAll("%" + i + "%", (htmlNumbers[i]) + "");
@@ -143,8 +143,8 @@ public class Captcha
 		{
 			if (player.getCPlayer().getInputedNumbers() >= ErConfig.CAPTCHAS_LENGTH)
 			{
-				showScreenMessage(player, "You have already inputed all captcha!", 5000, ErSMPos.BOTTOM_RIGHT, false, true, false);
-				player.sendMessage("You have already inputed all captcha!");
+				showScreenMessage(player, "You have already imputed all captcha!", 5000, ErSMPos.BOTTOM_RIGHT, false);
+				player.sendMessage("You have already imputed all captcha!");
 				showCaptcha(player);
 				return;
 			}
@@ -156,23 +156,23 @@ public class Captcha
 		}
 		else if (command.equals("captchaClear"))
 		{
-			String inputedCaptcha = "";
+			StringBuilder inputedCaptcha = new StringBuilder();
 			for (int i = 0; i < ErConfig.CAPTCHAS_LENGTH; i++)
 			{
-				inputedCaptcha += "* ";
+				inputedCaptcha.append("* ");
 			}
-			player.getCPlayer().setInputedCaptcha(inputedCaptcha);
-			player.getCPlayer().setInputedNumbers(0);
+			player.getCPlayer().setInputedCaptcha(inputedCaptcha.toString());
+			player.getCPlayer().setInputedNumbers();
 			showCaptcha(player);
 		}
 		else if (command.equals("captchaRemove"))
 		{
-			String inputedCaptcha = "";
+			StringBuilder inputedCaptcha = new StringBuilder();
 			for (int i = 0; i < ErConfig.CAPTCHAS_LENGTH; i++)
 			{
-				inputedCaptcha += "* ";
+				inputedCaptcha.append("* ");
 			}
-			player.getCPlayer().decreaseInputedCaptcha(inputedCaptcha);
+			player.getCPlayer().decreaseInputedCaptcha(inputedCaptcha.toString());
 			showCaptcha(player);
 		}
 		else if (command.equals("captchaConfirm"))
@@ -185,25 +185,25 @@ public class Captcha
 			else
 			{
 				showCaptcha(player);
-				showScreenMessage(player, "You haven't inputted all captcha!", 5000, ErSMPos.BOTTOM_RIGHT, false, true, false);
+				showScreenMessage(player, "You haven't inputted all captcha!", 5000, ErSMPos.BOTTOM_RIGHT, false);
 				player.sendMessage("You haven't inputted all captcha!");
 			}
 		}
 	}
 	
-	public void checkCaptcha(final L2PcInstance player)
+	void checkCaptcha(final L2PcInstance player)
 	{
 		if (player.getCPlayer().getInputedCaptcha().replaceAll(" ", "").equals(player.getCPlayer().getCaptcha()))
 		{
 			player.setIsParalyzed(false);
 			player.stopAbnormalEffect(AbnormalEffect.HOLD_1);
-			ThreadPoolManager.getInstance().scheduleGeneral(new Runnable() {@Override public void run() {player.setIsInvul(false);}}, 3000);
-			showScreenMessage(player, "You have successfully get through the captcha!", 5000, ErSMPos.TOP_CENTER, false, true, false);
-			player.sendMessage("You have successfully get through the captcha!");
+			ThreadPoolManager.getInstance().scheduleGeneral(() -> player.setIsInvul(false), 3000);
+			showScreenMessage(player, "You have successfully got through the captcha!", 5000, ErSMPos.TOP_CENTER, false);
+			player.sendMessage("You have successfully got through the captcha!");
 			player.getCPlayer().setCaptcha("");
 			player.getCPlayer().setFailedCaptchas(0);
 			player.getCPlayer().setInputedCaptcha("");
-			player.getCPlayer().setInputedNumbers(0);
+			player.getCPlayer().setInputedNumbers();
 			player.getCPlayer().clearKilledValues();
 			player.sendPacket(TutorialCloseHtml.STATIC_PACKET);
 		}
@@ -214,7 +214,7 @@ public class Captcha
 		}
 	}
 	
-	public byte[] generateCaptcha(L2PcInstance player) throws IOException
+	private byte[] generateCaptcha(L2PcInstance player) throws IOException
 	{
 		File image = new File("data/images/captcha.png");
 		final Color textColor = Color.decode("#6e6155");
@@ -284,12 +284,12 @@ public class Captcha
 		}
 		g.dispose();
 		ImageIO.write(bufferedImage, "png", image);
-		return DDSConverter.convertToDDS(image).array();
+		return Objects.requireNonNull(DDSConverter.convertToDDS(image)).array();
 	}
 	
-	public void showScreenMessage(L2PcInstance player, String text, int time, ErSMPos position, boolean effect, boolean fade, boolean small)
+	void showScreenMessage(L2PcInstance player, String text, int time, ErSMPos position, boolean small)
 	{
-		player.sendPacket(new ExShowScreenMessage(1, 0, position.ordinal(), 0, small ? 1 : 0, 0, 0, effect, time, fade, text));
+		player.sendPacket(new ExShowScreenMessage(1, 0, position.ordinal(), 0, small ? 1 : 0, 0, 0, false, time, true, text));
 	}
 	
 	private void generateHTMLFile()
@@ -393,7 +393,7 @@ public class Captcha
 		ErUtils.generateFile("data/html/captcha/", "main", ".htm", text);
 	}
 	
-	public static final Captcha getInstance()
+	public static Captcha getInstance()
 	{
 		return SingletonHolder._instance;
 	}

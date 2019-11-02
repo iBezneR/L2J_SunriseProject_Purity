@@ -169,13 +169,13 @@
 		<!-- <set name="is_clan_depositable" val="false" /> -->
 		<!-- <set name="is_mailable" val="false" /> -->
 		<set name="time" val="43200" />
+		<set name="item_skill" val="13975-1" /> <!-- Nevit's Cloak of Light -->
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
 		<cond>
 			<player level="80" />
 		</cond>
-        <set name="item_skill" val="13975-1" /> <!-- Nevit's Cloak of Light -->
 		<for>
 			<set stat="mDef" val="80" />
 			<add order="0" stat="pDef" val="100" />

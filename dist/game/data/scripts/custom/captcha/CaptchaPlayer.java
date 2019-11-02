@@ -31,17 +31,17 @@ import java.util.concurrent.ScheduledFuture;
  */
 public class CaptchaPlayer
 {
-	int _killsCount = 0;
-	long _lastKill = 0;
-	int _needKills = 0;
-	int _failedCaptchas = 0;
-	L2PcInstance _player;
-	String _captcha = "";
-	String _inputedCaptcha = "";
-	int _inputedNumbers = 0;
-	int _numbers[] = new int[10];
-	ScheduledFuture<?> _scheduler = null;
-	int _imageId = 0;
+	private int _killsCount = 0;
+	private long _lastKill = 0;
+	private int _needKills = 0;
+	private int _failedCaptchas = 0;
+	private L2PcInstance _player;
+	private String _captcha = "";
+	private String _inputedCaptcha = "";
+	private int _inputedNumbers = 0;
+	private int[] _numbers = new int[10];
+	private ScheduledFuture<?> _scheduler = null;
+	private int _imageId = 0;
 	
 	public CaptchaPlayer(L2PcInstance player)
 	{
@@ -74,12 +74,12 @@ public class CaptchaPlayer
 		}
 	}
 	
-	public void setFailedCaptchas(int failedCaptchas)
+	void setFailedCaptchas(int failedCaptchas)
 	{
 		_failedCaptchas = failedCaptchas;
 	}
 	
-	public int getFailedCaptchas()
+	int getFailedCaptchas()
 	{
 		return _failedCaptchas;
 	}
@@ -94,18 +94,18 @@ public class CaptchaPlayer
 		return _captcha;
 	}
 	
-	public void setInputedCaptcha(String captcha)
+	void setInputedCaptcha(String captcha)
 	{
 		_inputedCaptcha = captcha;
 	}
 	
-	public void increaseInputedCaptcha(String captcha)
+	void increaseInputedCaptcha(String captcha)
 	{
 		_inputedCaptcha = _inputedCaptcha.substring(0, _inputedNumbers * 2) + captcha + " " + _inputedCaptcha.substring((_inputedNumbers * 2) + 2);
 		_inputedNumbers++;
 	}
 	
-	public void decreaseInputedCaptcha(String captcha)
+	void decreaseInputedCaptcha(String captcha)
 	{
 		if (_inputedNumbers < 1)
 		{
@@ -119,54 +119,54 @@ public class CaptchaPlayer
 		_inputedNumbers--;
 	}
 	
-	public String getInputedCaptcha()
+	String getInputedCaptcha()
 	{
 		return _inputedCaptcha;
 	}
 	
-	public int getInputedNumbers()
+	int getInputedNumbers()
 	{
 		return _inputedNumbers;
 	}
 	
-	public void setInputedNumbers(int inputedNumbers)
+	void setInputedNumbers()
 	{
-		_inputedNumbers = inputedNumbers;
+		_inputedNumbers = 0;
 	}
 	
-	public void setHtmlNumbers(int numbers[])
+	void setHtmlNumbers(int[] numbers)
 	{
 		_numbers = numbers;
 	}
 	
-	public int[] getHtmlNumbers()
+	int[] getHtmlNumbers()
 	{
 		return _numbers;
 	}
 	
-	public void clearKilledValues()
+	void clearKilledValues()
 	{
 		_killsCount = 0;
 		_lastKill = 0;
 		_needKills = Rnd.get(ErConfig.CAPTCHA_MIN_MONSTERS_COUNT, ErConfig.CAPTCHA_MAX_MONSTERS_COUNT);
 	}
 	
-	public void startTimer()
+	void startTimer()
 	{
 		_scheduler = ThreadPoolManager.getInstance().scheduleGeneral(new CaptchaTimer(ErConfig.CAPTCHA_DELAY / 1000), 1000);
 	}
 	
-	public void stopTimer()
+	void stopTimer()
 	{
 		_scheduler.cancel(true);
 	}
 	
-	public int getImageId()
+	int getImageId()
 	{
 		return _imageId;
 	}
 	
-	public void setImageId(int img)
+	void setImageId(int img)
 	{
 		_imageId = img;
 	}
@@ -175,7 +175,7 @@ public class CaptchaPlayer
 	{
 		int _leftTime;
 		
-		public CaptchaTimer(int leftTime)
+		CaptchaTimer(int leftTime)
 		{
 			_leftTime = leftTime;
 		}
@@ -188,7 +188,7 @@ public class CaptchaPlayer
 				Captcha.getInstance().checkCaptcha(_player);
 				return;
 			}
-			Captcha.getInstance().showScreenMessage(_player, _leftTime + "s remaining!", 600, ErSMPos.TOP_RIGHT, false, true, true);
+			Captcha.getInstance().showScreenMessage(_player, _leftTime + "s remaining!", 600, ErSMPos.TOP_RIGHT, true);
 			_leftTime--;
 			_scheduler = ThreadPoolManager.getInstance().scheduleGeneral(new CaptchaTimer(_leftTime), 1000);
 		}

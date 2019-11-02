@@ -51,7 +51,9 @@ public class BoardsManager
 		{
 			return;
 		}
-		
+
+		String content = "";
+
 		if (SunriseEvents.cbBypass(activeChar, command))
 		{
 			return;
@@ -126,6 +128,7 @@ public class BoardsManager
 		{
 			ClanBBSManager.getInstance().cbByPass(command, activeChar);
 		}
+
 		else if (command.startsWith("_bbsmemo"))
 		{
 			TopicBBSManager.getInstance().cbByPass(command, activeChar);
@@ -145,6 +148,7 @@ public class BoardsManager
 		else if (command.startsWith("_bbshome"))
 		{
 			TopBBSManager.getInstance().cbByPass(command, activeChar);
+
 		}
 		else if (command.startsWith("_maillist_0_1_0_"))
 		{
@@ -230,7 +234,7 @@ public class BoardsManager
 	{
 		_bypasses.put(player.getObjectId(), title + "&" + bypass);
 	}
-	
+
 	/**
 	 * Removes the last bypass used by the player.
 	 * @param player the player

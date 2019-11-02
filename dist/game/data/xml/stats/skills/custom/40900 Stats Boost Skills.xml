@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skills.xsd">
+
+    <!-- STATS BOOST -->
+
+    <skill id="40901" levels="15" name="Strength Boost">
+        <!-- Confirmed CT2.5 -->
+        <table name="#magicLvl">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+        <table name="#str">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+        <set name="magicLvl" val="#magicLvl"/>
+        <set name="operateType" val="P"/>
+        <set name="targetType" val="SELF"/>
+        <set name="leavesForSubclass" val="true"/>
+        <for>
+            <add stat="STR" val="#str"/>
+        </for>
+    </skill>
+
+    <skill id="40902" levels="15" name="Intelligence Boost">
+        <!-- Confirmed CT2.5 -->
+        <table name="#magicLvl">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+        <table name="#int">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+        <set name="magicLvl" val="#magicLvl"/>
+        <set name="operateType" val="P"/>
+        <set name="targetType" val="SELF"/>
+        <set name="leavesForSubclass" val="true"/>
+        <for>
+            <add stat="INT" val="#int"/>
+        </for>
+    </skill>
+
+    <skill id="40903" levels="15" name="Condition Boost">
+        <!-- Confirmed CT2.5 -->
+        <table name="#magicLvl">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+        <table name="#con">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+        <set name="magicLvl" val="#magicLvl"/>
+        <set name="operateType" val="P"/>
+        <set name="targetType" val="SELF"/>
+        <set name="leavesForSubclass" val="true"/>
+        <for>
+            <add stat="CON" val="#con"/>
+        </for>
+    </skill>
+
+    <skill id="40904" levels="15" name="Mentality Boost">
+        <!-- Confirmed CT2.5 -->
+        <table name="#magicLvl">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+        <table name="#men">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+        <set name="magicLvl" val="#magicLvl"/>
+        <set name="operateType" val="P"/>
+        <set name="targetType" val="SELF"/>
+        <set name="leavesForSubclass" val="true"/>
+        <for>
+            <add stat="MEN" val="#men"/>
+        </for>
+    </skill>
+
+    <skill id="40905" levels="15" name="Dexterity Boost">
+        <!-- Confirmed CT2.5 -->
+        <table name="#magicLvl">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+        <table name="#dex">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+        <set name="magicLvl" val="#magicLvl"/>
+        <set name="operateType" val="P"/>
+        <set name="targetType" val="SELF"/>
+        <set name="leavesForSubclass" val="true"/>
+        <for>
+            <add stat="DEX" val="#dex"/>
+        </for>
+    </skill>
+
+    <skill id="40906" levels="15" name="Vitality Boost">
+        <!-- Confirmed CT2.5 -->
+        <table name="#magicLvl">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+        <table name="#wit">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15</table>
+        <set name="magicLvl" val="#magicLvl"/>
+        <set name="operateType" val="P"/>
+        <set name="targetType" val="SELF"/>
+        <set name="leavesForSubclass" val="true"/>
+        <for>
+            <add stat="WIT" val="#wit"/>
+        </for>
+    </skill>
+
+</list>

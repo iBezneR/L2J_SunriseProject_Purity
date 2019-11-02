@@ -40,11 +40,11 @@ public class TopBBSManager extends BaseBBSManager
 	public void cbByPass(String command, L2PcInstance activeChar)
 	{
 		BoardsManager.getInstance().addBypass(activeChar, "Home", command);
-		
+
 		String path = "data/html/CommunityBoard/";
 		String filepath = "";
 		String content = "";
-		
+
 		if (command.equals("_bbstop") | command.equals("_bbshome"))
 		{
 			content = HtmCache.getInstance().getHtm(activeChar, activeChar.getHtmlPrefix(), path + "index.htm");
@@ -253,6 +253,7 @@ public class TopBBSManager extends BaseBBSManager
 			{
 				content = "<html><body><br><br><center>404 :File not found or empty: " + filepath + " your command is " + command + "</center></body></html>";
 			}
+			content = replaceVars(activeChar, content);
 			separateAndSend(content, activeChar);
 		}
 		else
@@ -263,9 +264,13 @@ public class TopBBSManager extends BaseBBSManager
 			activeChar.sendPacket(new ShowBoard(null, "103"));
 		}
 	}
-	
+
 	private String replaceVars(L2PcInstance activeChar, String content)
 	{
+		String NAVIGATION_PATH = "data/html/CommunityBoard/navigation.html";
+		final String navigation = HtmCache.getInstance().getHtm(activeChar, NAVIGATION_PATH);
+
+		content = content.replaceAll("%navigation%", navigation);
 		content = content.replace("%name%", activeChar.getName());
 		content = content.replace("%class%", ClassNamesHolder.getClassName(activeChar.getActiveClass()));
 		content = content.replace("%level%", String.valueOf(activeChar.getLevel()));

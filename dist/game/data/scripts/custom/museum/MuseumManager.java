@@ -51,10 +51,10 @@ import java.util.logging.Logger;
 public class MuseumManager
 {
 	public static final Logger _log = Logger.getLogger(MuseumManager.class.getName());
-	public static boolean WHOLE_COMMUNITY_BOARD = false;
-	public static String COMMUNITY_BOARD_FIRST_TAB = "_bbshome";
-	public static boolean SEPARATED_TABS = false;
-	public static String COMMUNITY_BOARD_SECOND_TAB = "_bbsfavorite";
+	static boolean WHOLE_COMMUNITY_BOARD = false;
+	private static String COMMUNITY_BOARD_FIRST_TAB = "_bbshome";
+	static boolean SEPARATED_TABS = false;
+	private static String COMMUNITY_BOARD_SECOND_TAB = "_bbsfavorite";
 	private final HashMap<Integer, String> _categoryNames;
 	private final HashMap<Integer, MuseumCategory> _categories;
 	private final HashMap<Integer, ArrayList<MuseumCategory>> _categoriesByCategoryId;
@@ -172,7 +172,7 @@ public class MuseumManager
 		}
 	}
 	
-	public void giveRewards()
+	private void giveRewards()
 	{
 		if (_playersWithReward.size() == 0)
 		{
@@ -248,7 +248,7 @@ public class MuseumManager
 		_playersWithReward.remove(player.getObjectId());
 	}
 
-	public void restoreLastTops(RefreshTime time)
+	private void restoreLastTops(RefreshTime time)
 	{
 		for (MuseumCategory cat : getAllCategories().values())
 		{
@@ -285,7 +285,7 @@ public class MuseumManager
 		}
 	}
 	
-	public void spawnStatue(MuseumCategory cat)
+	private void spawnStatue(MuseumCategory cat)
 	{
 		for (L2MuseumStatueInstance statue : cat.getAllSpawnedStatues())
 		{
@@ -306,7 +306,7 @@ public class MuseumManager
 		}
 	}
 	
-	public void cleanLastTops(RefreshTime time)
+	private void cleanLastTops(RefreshTime time)
 	{
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
 			PreparedStatement statement = con.prepareStatement("DELETE FROM museum_last_statistics WHERE timer='" + time.name().toLowerCase() + "'"))
@@ -320,7 +320,7 @@ public class MuseumManager
 		}
 	}
 	
-	public void refreshTopsFromDatabase(RefreshTime time)
+	private void refreshTopsFromDatabase(RefreshTime time)
 	{
 		_playersWithReward.clear();
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();)
@@ -470,7 +470,7 @@ public class MuseumManager
 		giveRewards();
 	}
 	
-	public void loadCategories()
+	void loadCategories()
 	{
 		_log.info(getClass().getSimpleName() + ": Initializing");
 		_categoryNames.clear();
@@ -600,7 +600,7 @@ public class MuseumManager
 		_log.info(getClass().getSimpleName() + ": Successfully loaded " + _categoryNames.size() + " categories and " + _categories.size() + " post categories.");
 	}
 	
-	public HashMap<Integer, String> getAllCategoryNames()
+	HashMap<Integer, String> getAllCategoryNames()
 	{
 		return _categoryNames;
 	}
@@ -610,7 +610,7 @@ public class MuseumManager
 		return _categories;
 	}
 	
-	public ArrayList<MuseumCategory> getAllCategoriesByCategoryId(int id)
+	ArrayList<MuseumCategory> getAllCategoriesByCategoryId(int id)
 	{
 		if (_categoriesByCategoryId.containsKey(id))
 		{
@@ -623,7 +623,7 @@ public class MuseumManager
 	{
 		HashMap<String, long[]> data = new HashMap<>();
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();
-			PreparedStatement statement = con.prepareStatement("SELECT * FROM museum_statistics WHERE objectId = ?");)
+			PreparedStatement statement = con.prepareStatement("SELECT * FROM museum_statistics WHERE objectId = ?"))
 		{
 			// Retrieve the L2PcInstance from the characters table of the database
 			statement.setInt(1, player.getObjectId());
@@ -631,7 +631,7 @@ public class MuseumManager
 			{
 				while (rset.next())
 				{
-					long d[] =
+					long[] d =
 					{
 						rset.getLong("total_count"),
 						rset.getLong("monthly_count"),
@@ -642,7 +642,6 @@ public class MuseumManager
 					data.put(category, d);
 				}
 				statement.close();
-				rset.close();
 			}
 		}
 		catch (Exception e)
@@ -692,7 +691,6 @@ public class MuseumManager
 				statement.addBatch();
 			}
 			statement.executeBatch();
-			statement.close();
 		}
 		catch (Exception e)
 		{
@@ -729,24 +727,24 @@ public class MuseumManager
 	
 	public String showStatue(MuseumCategory category)
 	{
-		String html = "";
-		html += "<br><br><br><center><table><tr><td width=25></td><td><table border=1 bgcolor=000000><tr><td>";
-		html += "<br><center><font color=b7b8b2>" + category.getTypeName() + "</font></center>";
-		html += "<table><tr>";
+		StringBuilder html = new StringBuilder();
+		html.append("<br><br><br><center><table><tr><td width=25></td><td><table border=1 bgcolor=000000><tr><td>");
+		html.append("<br><center><font color=b7b8b2>").append(category.getTypeName()).append("</font></center>");
+		html.append("<table><tr>");
 		if (!category.getRefreshTime().equals(RefreshTime.Total))
 		{
-			html += "<td align=center width=260>";
-			html += "<button value=\"" + category.getRefreshTime().name() + " Rankings\" action=\"\" fore=\"L2UI_CH3.FrameBackMid\" back=\"L2UI_CH3.FrameBackMid\" width=\"257\" height=\"20\"/>";
-			html += "</td>";
+			html.append("<td align=center width=260>");
+			html.append("<button value=\"").append(category.getRefreshTime().name()).append(" Rankings\" action=\"\" fore=\"L2UI_CH3.FrameBackMid\" back=\"L2UI_CH3.FrameBackMid\" width=\"257\" height=\"20\"/>");
+			html.append("</td>");
 		}
-		html += "<td align=center width=" + (category.getRefreshTime().equals(RefreshTime.Total) ? 520 : 260) + ">";
-		html += "<button value=\"Total Rankings\" action=\"\" fore=\"L2UI_CH3.FrameBackMid\" back=\"L2UI_CH3.FrameBackMid\" width=\"257\" height=\"20\"/>";
-		html += "</td>";
-		html += "</tr><tr>";
+		html.append("<td align=center width=").append(category.getRefreshTime().equals(RefreshTime.Total) ? 520 : 260).append(">");
+		html.append("<button value=\"Total Rankings\" action=\"\" fore=\"L2UI_CH3.FrameBackMid\" back=\"L2UI_CH3.FrameBackMid\" width=\"257\" height=\"20\"/>");
+		html.append("</td>");
+		html.append("</tr><tr>");
 		// First Row
 		if (!category.getRefreshTime().equals(RefreshTime.Total))
 		{
-			html += "<td align=center width=260>";
+			html.append("<td align=center width=260>");
 			
 			for (int i = 0; i < 5; i++)
 			{
@@ -768,19 +766,18 @@ public class MuseumManager
 				String numberColor = i == 0 ? "ffca37" : "dededf";
 				String nameColor = i == 0 ? "eac842" : "e2e2e0";
 				String valueColor = i == 0 ? "eee79f" : "a78d6c";
-				html += "<table width=250 " + bgColor + " height=42><tr>";
-				html += "<td width=50 align=center><font color=" + numberColor + " name=ScreenMessageLarge />" + (i < 1 ? "{" + (i + 1) + "}" : (i + 1)) + "</font></td>";
-				html += "<td width=200 align=left>";
-				html += "<table cellspacing=" + (cellSpacing) + "><tr><td width=200><font color=" + nameColor + " name=ScreenMessageSmall>" + name + "</font></td></tr><tr><td width=200><font color=" + valueColor + " name=ScreenMessageSmall>" + value + "</font></td></tr></table>";
-				html += "<img src=\"L2UI.SquareBlank\" width=1 height=5/></td>";
-				html += "";
-				html += "</tr></table><img src=\"L2UI.SquareGray\" width=250 height=1/>";
+				html.append("<table width=250 ").append(bgColor).append(" height=42><tr>");
+				html.append("<td width=50 align=center><font color=").append(numberColor).append(" name=ScreenMessageLarge />").append(i < 1 ? "{" + (i + 1) + "}" : (i + 1)).append("</font></td>");
+				html.append("<td width=200 align=left>");
+				html.append("<table cellspacing=").append(cellSpacing).append("><tr><td width=200><font color=").append(nameColor).append(" name=ScreenMessageSmall>").append(name).append("</font></td></tr><tr><td width=200><font color=").append(valueColor).append(" name=ScreenMessageSmall>").append(value).append("</font></td></tr></table>");
+				html.append("<img src=\"L2UI.SquareBlank\" width=1 height=5/></td>");
+				html.append("</tr></table><img src=\"L2UI.SquareGray\" width=250 height=1/>");
 			}
 			
-			html += "</td>";
+			html.append("</td>");
 		}
 		// Second Row
-		html += "<td align=center width=" + (category.getRefreshTime().equals(RefreshTime.Total) ? 520 : 260) + ">";
+		html.append("<td align=center width=").append(category.getRefreshTime().equals(RefreshTime.Total) ? 520 : 260).append(">");
 		
 		for (int i = 0; i < 5; i++)
 		{
@@ -802,18 +799,18 @@ public class MuseumManager
 			String numberColor = i == 0 ? "ffca37" : "dededf";
 			String nameColor = i == 0 ? "eac842" : "e2e2e0";
 			String valueColor = i == 0 ? "eee79f" : "a78d6c";
-			html += "<table width=250 " + bgColor + " height=42><tr>";
-			html += "<td width=50 align=center><font color=" + numberColor + " name=ScreenMessageLarge />" + (i < 1 ? "{" + (i + 1) + "}" : (i + 1)) + "</font></td>";
-			html += "<td width=200 align=left>";
-			html += "<table cellspacing=" + (cellSpacing) + "><tr><td width=200><font color=" + nameColor + " name=ScreenMessageSmall>" + name + "</font></td></tr><tr><td width=200><font color=" + valueColor + " name=ScreenMessageSmall>" + value + "</font></td></tr></table>";
-			html += "<img src=\"L2UI.SquareBlank\" width=1 height=5/></td>";
-			html += "";
-			html += "</tr></table><img src=\"L2UI.SquareGray\" width=250 height=1/>";
+			html.append("<table width=250 ").append(bgColor).append(" height=42><tr>");
+			html.append("<td width=50 align=center><font color=").append(numberColor).append(" name=ScreenMessageLarge />").append(i < 1 ? "{" + (i + 1) + "}" : (i + 1)).append("</font></td>");
+			html.append("<td width=200 align=left>");
+			html.append("<table cellspacing=").append(cellSpacing).append("><tr><td width=200><font color=").append(nameColor).append(" name=ScreenMessageSmall>").append(name).append("</font></td></tr><tr><td width=200><font color=").append(valueColor).append(" name=ScreenMessageSmall>").append(value).append("</font></td></tr></table>");
+			html.append("<img src=\"L2UI.SquareBlank\" width=1 height=5/></td>");
+			html.append("");
+			html.append("</tr></table><img src=\"L2UI.SquareGray\" width=250 height=1/>");
 		}
-		html += "</td>";
-		html += "</tr></table><br><br></td></tr></table></td></tr></table>";
-		html += "</center>";
-		return html;
+		html.append("</td>");
+		html.append("</tr></table><br><br></td></tr></table></td></tr></table>");
+		html.append("</center>");
+		return html.toString();
 	}
 	
 	private void generateTables()

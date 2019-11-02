@@ -73,4 +73,573 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
+
+	<!-- DWARVEN ITEMS -->
+
+	<!-- Passage Stone - Underground Teleport -->
+	<item id="44103" type="EtcItem" name="Passage Stone">
+		<set name="icon" val="icon.etc_hard_fossil_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="27000-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+	</item>
+
+	<item id="40300" type="EtcItem" name="Dwarven Skill Token"> <!-- PREVIOUSLY 40500 -->
+		<set name="icon" val="icon.etc_ketra_badge_grunt_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40301" type="EtcItem" name="Dwarven Badge of Honour"> <!-- PREVIOUSLY 40600 -->
+		<set name="icon" val="icon.ketra_badge_captn_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40302" type="EtcItem" name="Dwarven Proof of Valor"> <!-- PREVIOUSLY 40700 -->
+		<set name="icon" val="icon.ketra_badge_officer_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40303" type="EtcItem" name="Magic Candle"> <!-- PREVIOUSLY 40900 -->
+		<set name="icon" val="icon.etc_candle_yellow_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<!-- ITEMS REQUIRED CHANGE CLASSES -->
+
+	<!-- 1st Class Certificate -->
+	<item id="40800" type="EtcItem" name="1st Class Certificate">
+		<set name="icon" val="icon.etc_color_paper_black_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="false" />
+	</item>
+	<!-- 2nd Class Certificate -->
+	<item id="40801" type="EtcItem" name="2nd Class Certificate">
+		<set name="icon" val="icon.etc_color_paper_blue_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="false" />
+	</item>
+	<!-- 3rd Class Certificate -->
+	<item id="40802" type="EtcItem" name="3rd Class Certificate">
+		<set name="icon" val="icon.etc_color_paper_green_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="false" />
+	</item>
+
+	<!-- SPECIAL COINS -->
+
+	<!-- Bronze Dwarf -->
+	<item id="40901" type="EtcItem" name="Bronze Dwarf">
+		<set name="icon" val="icon.etc_magic_coin_blood_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<!-- Silver Dwarf -->
+	<item id="40902" type="EtcItem" name="Silver Dwarf">
+		<set name="icon" val="icon.etc_magic_coin_silver_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<!-- Golden Dwarf -->
+	<item id="40903" type="EtcItem" name="Golden Dwarf">
+		<set name="icon" val="icon.etc_magic_coin_gold_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="10" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<!-- Dwarven Loyality Gem for premium etc -->
+	<item id="40904" type="EtcItem" name="Dwarven Loyality Gem">
+		<set name="icon" val="icon.bm_piece_of_ensoul_stone" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+
+	<!-- One Week Premium -->
+	<item id="40906" type="EtcItem" name="One Week Patron Token">
+		<set name="icon" val="icon.etc_alphabet_w_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<!-- One Month Premium -->
+	<item id="40907" type="EtcItem" name="One Month Patron Token">
+		<set name="icon" val="icon.etc_alphabet_m_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<item id="40342" type="EtcItem" name="Gold Bar"> <!-- Gold Bar -->
+		<set name="icon" val="icon.etc_lump_gold_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="price" val="100000" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<item id="40350" type="EtcItem" name="Delevel Token"> <!-- Delevel Token -->
+		<set name="icon" val="icon.etc_manaks_gold_giant_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<item id="40351" type="EtcItem" name="PvP Reward Coin"> <!-- PvP Reward Token / FlagZone and Events -->
+		<set name="icon" val="icon.etc_manaks_gold_giant_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+
+	<!-- A GRADE EXCHANGE TOKEN -->
+	<item id="40354" type="EtcItem" name="A Grade Recipe Reward Token"> <!-- CAN BE EXCHANGED FOR A GRADE SET RECIPES AT GALIM -->
+		<set name="icon" val="icon.skill0242" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<!-- B GRADE EXCHANGE TOKEN -->
+	<item id="40355" type="EtcItem" name="B Grade Recipe Reward Token"> <!-- CAN BE EXCHANGED FOR B GRADE SET RECIPES AT GALIM -->
+		<set name="icon" val="icon.skill0241" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<!-- Dwarven Loyalist Coin -->
+	<item id="40304" type="EtcItem" name="Dwarven Loyalist Coin">
+		<set name="icon" val="icon.etc_ev_kalie_token" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<!-- Vote Coin -->
+	<item id="40298" type="EtcItem" name="Vote Coin">
+		<set name="icon" val="icon.etc_magic_coin_blood_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="1" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<!-- HERO Badge -->
+	<item id="40299" type="EtcItem" name="HERO Badge">
+		<set name="icon" val="icon.etc_blessed_kalie_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+	<!-- Dwarven Essence -->
+	<item id="40905" type="EtcItem" name="Dwarven Essence">
+		<set name="icon" val="icon.etc_unholy_crystal_1_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="false" />
+	</item>
+
+
+	<!-- Galim's Stash / Reward Boxes -->
+
+	<item id="40352" type="EtcItem" name="Galim's Stash - No Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-1" />
+	</item>
+
+	<item id="40343" type="EtcItem" name="Galim's Stash - D Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-2" />
+	</item>
+
+	<item id="40344" type="EtcItem" name="Galim's Stash - C Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-3" />
+	</item>
+
+	<item id="40345" type="EtcItem" name="Galim's Stash - B Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-4" />
+	</item>
+
+	<item id="40346" type="EtcItem" name="Galim's Stash - A Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-5" />
+	</item>
+
+	<item id="40347" type="EtcItem" name="Galim's Stash - S Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-6" />
+	</item>
+
+	<item id="40348" type="EtcItem" name="Galim's Stash - Top Grade">
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10005-7" />
+	</item>
+
+	<!-- SPECIAL INGREDIENTS -->
+
+	<!-- Accessory Binding Glue -->
+	<item id="40316" type="EtcItem" name="Accessory Binding Glue">
+		<set name="icon" val="icon.block_bond" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_stackable" val="false" />
+	</item>
+	<!-- Mysterious Crystal -->
+	<item id="40317" type="EtcItem" name="Mysterious Crystal">
+		<set name="icon" val="icon.crystal_r_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_stackable" val="false" />
+	</item>
+	<!-- Dragon Weapon Power Stone -->
+	<item id="40319" type="EtcItem" name="Dragon Weapon Power Stone">
+		<set name="icon" val="icon.restore_processing_stone_r_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_stackable" val="false" />
+	</item>
+
+	<!-- CRAFTABLE SUPERIOR MANA POTION -->
+
+	<item id="40305" type="EtcItem" name="Superior Mana Potion">
+		<set name="icon" val="icon.bottle_of_lind_soul_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="36" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="40908-1" />
+		<set name="for_npc" val="true" />
+	</item>
+
+	<item id="40306" type="EtcItem" name=" Recipe: Superior Mana Potion">
+		<set name="icon" val="icon.etc_blesscharm_slay_val_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="3001" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+
+	<!-- DWARVEN ESSENCE RECIPE -->
+	<item id="40338" type="EtcItem" name="Recipe: Dwarven Essence">
+		<set name="icon" val="icon.pr_change_restore_i04" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="price" val="600" />
+		<set name="recipe_id" val="3156" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+
+	<item id="40341" type="EtcItem" name="Packed Dwarven Essence">
+		<set name="icon" val="icon.etc_pouch_violet_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10004-1" />
+	</item>
+
+	<!-- EPIC JEWELERY BOXES -->
+
+	<!-- LOWER GRADE -->
+	<item id="40339" type="EtcItem" name="Epic Jewelery Box - Lower Grade">
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10002-1" />
+	</item>
+	<!-- TOP GRADE -->
+	<item id="40340" type="EtcItem" name="Epic Jewelery Box - Top Grade">
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10002-2" />
+	</item>
+
+	<!-- Transmutation Stone Low -->
+	<item id="40356" type="EtcItem" name="Transmutation Stone - Low">
+		<set name="icon" val="icon.bm_ensoul_stone_PvE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<!-- Transmutation Stone Medium -->
+	<item id="40357" type="EtcItem" name="Transmutation Stone - Medium">
+		<set name="icon" val="icon.bm_ensoul_stone_hidden" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<!-- Transmutation Stone High -->
+	<item id="40358" type="EtcItem" name="Transmutation Stone - High">
+		<set name="icon" val="icon.bm_ensoul_stone_shilen" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+
 </list>

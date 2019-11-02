@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skills.xsd">
+
+	<!-- Daily Reward Box Skill -->
+	<skill id="40353" levels="1" name="Daily Reward Box">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+		<!-- 	40011 	- Personal Great Heling Potion 	20%
+				40010 	- Personal Mana Potion			20%
+				20034	- Revita-Pop					10%
+				40350	- Delevel Token					10%
+				40303	- Magic Candle					10%
+				13016	- Personal Teleport Scroll 		10%
+				20033	- Personal Teleport Flag		10%
+				40904	- Dwarven Loyality Gem		5%
+		-->
+			40011,5,20;40010,5,20;20034,1,10;40350,1,10;40303,1,15;13016,1,10;20033,1,10;40904,25,5;
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" val="0" />
+		</for>
+	</skill>
+	
+</list>	
