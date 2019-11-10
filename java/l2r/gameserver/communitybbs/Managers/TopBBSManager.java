@@ -288,6 +288,10 @@ public class TopBBSManager extends BaseBBSManager
 		content = content.replace("%shots_status%", activeChar.getVarB("onEnterLoadSS") ? "MP" : "HP");
 		content = content.replace("%shots_anim_status%", activeChar.getVarB("hideSSAnime") ? "MP" : "HP");
 		content = content.replace("%hide_stores_status%", activeChar.getVarB("hideStores") ? "MP" : "HP");
+
+		// Community Board Rates
+		content = content.replaceAll("%serverXPrate%", String.valueOf(Config.getRateXp()));
+		content = content.replaceAll("%serverSPrate%", String.valueOf(Config.getRateSp()));
 		return content;
 	}
 	

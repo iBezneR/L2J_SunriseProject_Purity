@@ -13,7 +13,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -24,15 +24,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22801" name="Freya's Staff - Cleverness" additionalName="Empower" type="Weapon">
 		<!-- Not used -->
@@ -47,7 +47,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -57,15 +57,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3575" level="4" /> <!-- Special Ability: Empower -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22802" name="Freya's Staff - Cleverness" additionalName="MP Regeneration" type="Weapon">
 		<!-- Not used -->
@@ -80,7 +80,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -90,15 +90,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3576" level="4" /> <!-- Special Ability: MP Regeneration -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22803" name="Freya's Staff - Cleverness (PvP)" type="Weapon">
 		<!-- Increases damage inflicted during PvP. Has a chance of recovering CP during an attack. No Soul Crystal option. -->
@@ -110,13 +110,13 @@
 		<set name="crystal_count" val="9872" />
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -128,15 +128,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3552" level="3" /> <!-- Special Ability: PvP Damage -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22804" name="Freya's Staff - Cleverness (PvP) - Magic Hold" type="Weapon">
 		<!-- Masterwork Item with chance of MP absorption. <Special Option>. Two-handed magic blunt with special powers used by Freya. A 20% chance of casting Dryad Root on the target during magic use. Increases damage inflicted during PvP. Has a chance of increasing Casting Spd. when attacked. No Soul Crystal option. -->
@@ -148,13 +148,13 @@
 		<set name="crystal_count" val="9872" />
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -167,15 +167,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3577" level="2" type_chance="20" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Hold -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22805" name="Freya's Staff - Cleverness (PvP) - Empower" type="Weapon">
 		<!-- Masterwork Item with chance of MP absorption. <Special Option>. Two-handed magic blunt with special powers used by Freya. M. Atk. Increases by 177. Increases damage inflicted during PvP. Has a chance of increasing Casting Spd. when attacked. No Soul Crystal option. -->
@@ -187,13 +187,13 @@
 		<set name="crystal_count" val="9872" />
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -206,15 +206,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22806" name="Freya's Staff - Cleverness (PvP) - MP Regeneration" type="Weapon">
 		<!-- Masterwork Item with chance of MP absorption. <Special Option>. Two-handed magic blunt with special powers used by Freya. MP Recovery Rate is raised. Increases damage inflicted during PvP. Has a chance of increasing Casting Spd. when attacked. No Soul Crystal option. -->
@@ -226,13 +226,13 @@
 		<set name="crystal_count" val="9872" />
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -245,15 +245,15 @@
 			<skill id="21280" level="1" /> <!-- Freya's Authority -->
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="426" />
-			<set stat="mAtk" val="281" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22807" name="Spezion's Claw" type="Weapon">
 		<!-- Fist weapon with special powers used by Spezion. Can bestow 2 regular Soul Crystals and 1 Special Soul Crystal. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -272,20 +272,20 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<skills>
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22808" name="Spezion's Claw" additionalName="Focus" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Fist weapon with special powers used by Spezion. Critical increases by 76. Increases damage inflicted during PvP. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -300,7 +300,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
@@ -310,15 +310,15 @@
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22809" name="Spezion's Claw" additionalName="Damage Up" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Fist weapon with special powers used by Spezion. P. Atk. Increases by 332. Increases damage inflicted during PvP. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -333,7 +333,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
@@ -343,15 +343,15 @@
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22810" name="Spezion's Claw" additionalName="Haste" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Fist weapon with special powers used by Spezion. Atk. Spd. Increases by about 15%. Increases damage inflicted during PvP. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -366,7 +366,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
@@ -376,15 +376,15 @@
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22811" name="Spezion's Claw" additionalName="Focus + Damage" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Fist weapon with special powers used by Spezion. Critical increases by 78.9. P. Atk. Increases by 332. Increases damage inflicted during PvP. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -399,7 +399,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
@@ -410,15 +410,15 @@
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22812" name="Spezion's Claw" additionalName="Damage Up + Haste" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Fist weapon with special powers used by Spezion. P. Atk. Increases by 332. Atk. Spd. Increases by about 15%. Increases damage inflicted during PvP. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -433,7 +433,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
@@ -444,15 +444,15 @@
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22813" name="Spezion's Claw" additionalName="Haste + Focus" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Fist weapon with special powers used by Spezion. Atk. Spd. Increases by about 15%. Critical increases by 76. Increases damage inflicted during PvP. When enchanted to + 4, Atk. Spd. and P. Atk. also increase. -->
@@ -467,7 +467,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
@@ -478,15 +478,15 @@
 			<skill id="21281" level="1" /> <!-- Spezion's Authority -->
 			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Fist Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22814" name="Maliss Stormer" type="Weapon">
 		<!-- Spear used by Maliss. Can bestow 2 regular Soul Crystals and 1 Special Soul Crystal. When enchanted to + 4, Multi-attack also increases. -->
@@ -501,7 +501,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -511,15 +511,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22815" name="Maliss Stormer" additionalName="HP Drain" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Spear used by Maliss. Recovers 4% of standard physical damage inflicted upon the enemy as HP. Increases damage inflicted during PvP. When enchanted to + 4, Multi-attack also increases. -->
@@ -534,7 +534,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -544,15 +544,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22816" name="Maliss Stormer" additionalName="Guidance" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Spear used by Maliss. Accuracy increases by 7.6. Increases damage inflicted during PvP. When enchanted to + 4, Multi-attack also increases. -->
@@ -567,7 +567,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -577,15 +577,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22817" name="Maliss Stormer" additionalName="Damage Up" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Spear used by Maliss. P. Atk. Increases by 288. Increases damage inflicted during PvP. When enchanted to + 4, Multi-attack also increases. -->
@@ -600,7 +600,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -610,15 +610,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22818" name="Maliss Stormer" additionalName="HP Drain + Guidance" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Spear used by Maliss. Recovers 4% of standard melee physical damage inflicted upon the enemy as HP. Accuracy increases by 7.6. Increases damage inflicted during PvP. When enchanted to + 4, Multi-attack also increases. -->
@@ -633,7 +633,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -645,15 +645,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22819" name="Maliss Stormer" additionalName="Guidance + Damage Up" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Spear used by Maliss. Accuracy increases by 7.6. P. Atk. Increases by 288. Increases damage inflicted during PvP. When enchanted to + 4, Multi-attack also increases. -->
@@ -668,7 +668,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -680,15 +680,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22820" name="Maliss Stormer" additionalName="Damage Up + HP Drain" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Spear used by Maliss. P. Atk. Increases by 288. Recovers 4% of standard melee physical damage inflicted upon the enemy as HP. Increases damage inflicted during PvP. When enchanted to + 4, Multi-attack also increases. -->
@@ -703,7 +703,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -715,15 +715,15 @@
 			<skill id="21282" level="1" /> <!-- Maliss' Authority -->
 			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Spear Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="567" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="22821" name="Steregos' Dagger" type="Weapon">
 		<!-- Dagger used by Steregos. Can bestow 2 regular Soul Crystals and 1 Special Soul Crystal. When enchanted to + 4, P. Critical Damage increases. -->
@@ -738,7 +738,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -747,15 +747,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22822" name="Steregos' Dagger" additionalName="Guidance" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dagger used by Steregos. Accuracy increases by 7.7. Increases damage inflicted during PvP. When enchanted to + 4, P. Critical Damage increases. -->
@@ -770,7 +770,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -780,15 +780,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22823" name="Steregos' Dagger" additionalName="Haste" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dagger used by Steregos. Atk. Spd. Increases by about 15%. Increases damage inflicted during PvP. When enchanted to + 4, P. Critical Damage increases. -->
@@ -803,7 +803,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -813,15 +813,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22824" name="Steregos' Dagger" additionalName="Focus" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dagger used by Steregos. Critical increases by 82.3. Increases damage inflicted during PvP. When enchanted to + 4, P. Critical Damage increases. -->
@@ -836,7 +836,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -846,15 +846,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22825" name="Steregos' Dagger" additionalName="Guidance + Haste" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dagger used by Steregos. Accuracy increases by 7.9. Atk. Spd. Increases by about 15%. Increases damage inflicted during PvP. When enchanted to + 4, P. Critical Damage increases. -->
@@ -869,7 +869,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -880,15 +880,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22826" name="Steregos' Dagger" additionalName="Haste + Focus" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dagger used by Steregos. Atk. Spd. Increases by about 15%. Critical increases by 82.3. Increases damage inflicted during PvP. When enchanted to + 4, P. Critical Damage increases. -->
@@ -903,7 +903,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -914,15 +914,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22827" name="Steregos' Dagger" additionalName="Focus + Guidance" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dagger used by Steregos. Critical increases by 82.3. Accuracy increases by 7.7. Increases damage inflicted during PvP. When enchanted to + 4, P. Critical Damage increases. -->
@@ -937,7 +937,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -948,15 +948,15 @@
 			<skill id="21283" level="1" /> <!-- Steregos' Authority -->
 			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="496" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22828" name="Ron's Dual Blunt Weapon" type="Weapon">
 		<!-- Dual blunt with special powers used by Ron. Can bestow 2 regular Soul Crystals and 1 Special Soul Crystal. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -975,20 +975,20 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<skills>
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22829" name="Ron's Dual Blunt Weapon" additionalName="Focus" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dual blunt with special powers used by Ron. Critical increases by 78.9. Increases damage inflicted during PvP. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -1007,21 +1007,21 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<skills>
 			<skill id="3566" level="8" /> <!-- Special Ability: Focus -->
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22830" name="Ron's Dual Blunt Weapon" additionalName="Guidance" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dual blunt with special powers used by Ron. Accuracy increases by 7.8. Increases damage inflicted during PvP. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -1036,7 +1036,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1046,15 +1046,15 @@
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22831" name="Ron's Dual Blunt Weapon" additionalName="Damage Up" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dual blunt with special powers used by Ron. P. Atk. Increases by 377. Increases damage inflicted during PvP. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -1073,21 +1073,21 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<skills>
 			<skill id="13062" level="3" /> <!-- Special Ability: Damage Up -->
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22832" name="Ron's Dual Blunt Weapon" additionalName="Focus + Guidance" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dual blunt with special powers used by Ron. Critical increases by 79.2. Accuracy increases by 7.8. Increases damage inflicted during PvP. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -1102,7 +1102,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1113,15 +1113,15 @@
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22833" name="Ron's Dual Blunt Weapon" additionalName="Guidance + Damage Up" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dual blunt with special powers used by Ron. Accuracy increases by 7.7. P. Atk. Increases by 377. Increases damage inflicted during PvP. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -1136,7 +1136,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1147,15 +1147,15 @@
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22834" name="Ron's Dual Blunt Weapon" additionalName="Damage Up + Focus" type="Weapon">
 		<!-- <Soul Crystal Enhancement>. Dual blunt with special powers used by Ron. P. Atk. Increases by 377. Critical increases by 78.9. Increases damage inflicted during PvP. When enchanted to + 4, also increases P. Skill Power and P. Atk. -->
@@ -1170,7 +1170,7 @@
 		<set name="soulshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="DUAL_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1181,26 +1181,26 @@
 			<skill id="21284" level="1" /> <!-- Ron's Authority -->
 			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Blunt Weapon Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="690" />
-			<set stat="mAtk" val="275" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="4" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="22882" name="Hair Accessory Restoration Stone" type="EtcItem">
 		<!-- Restores the original appearance of a modified hair accessory. Double-click to use. -->
 		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_r" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
@@ -1208,67 +1208,75 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22624-1" /> <!-- Hair Accessory Restoration Stone -->
+		<skills>
+			<skill id="22624" level="1" /> <!-- Hair Accessory Restoration Stone -->
+		</skills>
 	</item>
 	<item id="22883" name="Scroll: Replenish Vitality" type="EtcItem">
 		<!-- Replenishes 1 Vitality slot when used. Cooldown is 60 min. -->
 		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up" />
 		<set name="weight" val="30" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22595-1" /> <!-- Scroll: Replenish Vitality -->
+		<skills>
+			<skill id="22595" level="1" /> <!-- Scroll: Replenish Vitality -->
+		</skills>
 	</item>
 	<item id="22884" name="Scroll: Replenish Vitality (High-grade)" type="EtcItem">
 		<!-- Replenishes 2 Vitality slots when used. Cooldown is 60 min. -->
 		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up_2" />
 		<set name="weight" val="30" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22596-2" /> <!-- Scroll: Replenish Vitality -->
+		<skills>
+			<skill id="22596" level="2" /> <!-- Scroll: Replenish Vitality -->
+		</skills>
 	</item>
 	<item id="22885" name="Scroll: Replenish Vitality (Top-grade)" type="EtcItem">
 		<!-- Replenishes Vitality to maximum when used. Cooldown is 60 min. -->
 		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up_3" />
 		<set name="weight" val="30" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22597-3" /> <!-- Scroll: Replenish Vitality -->
+		<skills>
+			<skill id="22597" level="3" /> <!-- Scroll: Replenish Vitality -->
+		</skills>
 	</item>
 	<item id="22886" name="Uthanka's Ring" type="Armor">
 		<!-- Ring acquired when you mourn for Pirate Captain Uthanka's spirit. Use it to turn into Pirate Captain Uthanka. -->
 		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
 		<skills>
@@ -1280,13 +1288,13 @@
 		<!-- Can ride a unicorn when equipped. -->
 		<set name="icon" val="BranchSys3.lcon.g_pi_transformation_unicorn" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
@@ -1306,17 +1314,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="SoulShots" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="commissionItemType" val="SOULSHOT" /> -->
+		<set name="commissionItemType" val="SOULSHOT" />
 		<set name="etcitem_type" val="SOULSHOT" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="9299-1" /> <!-- Player Commendation - Soulshot (R-grade) -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="9299" level="1" /> <!-- Player Commendation - Soulshot (R-grade) -->
+		</skills>
 	</item>
 	<item id="22889" name="Mysterious Blessed Spiritshot (R-grade)" type="EtcItem">
 		<!-- Dimensional Item. The power of a higher-level spirit is bestowed upon a weapon, momentarily increasing its M. Atk. significantly. Can be used with an R-grade weapon. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be shared within an account through the Dimensional Merchant. -->
@@ -1327,29 +1337,31 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="BlessedSpiritShot" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="commissionItemType" val="SPIRITSHOT" /> -->
+		<set name="commissionItemType" val="SPIRITSHOT" />
 		<set name="etcitem_type" val="SOULSHOT" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="9306-1" /> <!-- Player Commendation - Blessed Spiritshot (R-grade) -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="9306" level="1" /> <!-- Player Commendation - Blessed Spiritshot (R-grade) -->
+		</skills>
 	</item>
 	<item id="22890" name="Mysterious Blessed Soulshot Pack (10000) (R-grade)" type="EtcItem">
 		<!-- Pack containing 10,000 Mysterious Soulshots (R-grade). -->
 		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1363,13 +1375,13 @@
 		<!-- Pack containing 5,000 Mysterious Soulshots (R-grade). -->
 		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1383,13 +1395,13 @@
 		<!-- Wrapped Pack containing 10,000 Mysterious Blessed Spiritshots (R-grade). -->
 		<set name="icon" val="icon.br_cash_pack_of_spiritshot_r_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1403,13 +1415,13 @@
 		<!-- Wrapped Pack containing 5,000 Mysterious Blessed Spiritshots (R-grade). -->
 		<set name="icon" val="icon.br_cash_pack_of_spiritshot_r_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1423,21 +1435,21 @@
 		<!-- Item for the Lineage II 8th Anniversary event. Combine with other letters to create a special word and bring it to Angel Cat to receive a great gift! -->
 		<set name="icon" val="icon.etc_alphabet_w_i00" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="22895" name="Ancient Kartia's Labyrinth Chronicle" type="EtcItem">
 		<!-- Bring the Ancient Kartia's Labyrinth Chronicle to the Kartia Researcher to receive a reward. -->
 		<set name="icon" val="BranchSys3.lcon.g_record_of_cartia" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SHOW_HTML" />
 		<set name="is_commissionable" val="false" />
 		<set name="immediate_effect" val="true" />
@@ -1447,72 +1459,80 @@
 		<!-- Item that allows you to acquire 1,200,000,000 XP and 360,000 SP. Cooldown is 2 days. Lv. 85 - 89. -->
 		<set name="icon" val="BranchSys3.lcon.g_scroll_of_cartia_85" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22599-1" /> <!-- Ancient Kartia's Labyrinth Origins -->
+		<skills>
+			<skill id="22599" level="1" /> <!-- Ancient Kartia's Labyrinth Origins -->
+		</skills>
 	</item>
 	<item id="22897" name="Ancient Kartia's Labyrinth Origins" additionalName="Stage 2" type="EtcItem">
 		<!-- Item that allows you to acquire 1,675,000,000 XP and 500,000 SP. Cooldown is 2 days. Lv. 90 - 94. -->
 		<set name="icon" val="BranchSys3.lcon.g_scroll_of_cartia_90" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22600-1" /> <!-- Ancient Kartia's Labyrinth Origins -->
+		<skills>
+			<skill id="22600" level="1" /> <!-- Ancient Kartia's Labyrinth Origins -->
+		</skills>
 	</item>
 	<item id="22898" name="Ancient Kartia's Labyrinth Origins" additionalName="Stage 3" type="EtcItem">
 		<!-- Item that allows you to acquire 2,425,000,000 XP and 700,000 SP. Cooldown is 2 days. Lv. 95 - 99. -->
 		<set name="icon" val="BranchSys3.lcon.g_scroll_of_cartia_95" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22601-1" /> <!-- Ancient Kartia's Labyrinth Origins -->
+		<skills>
+			<skill id="22601" level="1" /> <!-- Ancient Kartia's Labyrinth Origins -->
+		</skills>
 	</item>
 	<item id="22899" name="Scroll: Decrease Vitality" type="EtcItem">
 		<!-- Decreases the number of vitality items that can be used per week by 1. For test. -->
 		<set name="icon" val="icon.etc_penalty_recovery_i02" />
 		<set name="weight" val="30" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="22602-1" /> <!-- Scroll: Decrease Vitality -->
+		<skills>
+			<skill id="22602" level="1" /> <!-- Scroll: Decrease Vitality -->
+		</skills>
 	</item>
 </list>

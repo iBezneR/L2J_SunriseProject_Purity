@@ -4,13 +4,13 @@
 		<!-- Transforms an R95-grade bound armor item into a standard item through the Blacksmith of Mammon. -->
 		<set name="icon" val="icon.cursed_free_r95_armor" />
 		<set name="weight" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="crystal_type" val="R95" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -18,13 +18,13 @@
 		<!-- The Blacksmith of Mammon can exchange standard Immortal/Hell armor for Blessed equipment for you at a low probability. A small fee is charged. -->
 		<set name="icon" val="icon.bless_scroll_r1_armor" />
 		<set name="weight" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="crystal_type" val="R" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -32,13 +32,13 @@
 		<!-- The Blacksmith of Mammon can exchange standard Seraph armor for Blessed equipment for you at a low probability. A small fee is charged. -->
 		<set name="icon" val="icon.bless_scroll_r95_armor" />
 		<set name="weight" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="crystal_type" val="R95" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -46,8 +46,8 @@
 		<!-- Dimensional Item. A ticket used at the beauty shop. You may purchase various hair styles and facial styles. -->
 		<set name="icon" val="icon.royal_beauty_item" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
@@ -63,8 +63,10 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
-        <set name="item_skill" val="9763-1" /> <!-- Healing Potion (Battleground) -->
+		<set name="commissionItemType" val="POTION" />
+		<skills>
+			<skill id="9763" level="1" /> <!-- Healing Potion (Battleground) -->
+		</skills>
 	</item>
 	<item id="36310" name="Battleground Scroll: Remove Invincibility" type="EtcItem">
 		<!-- Removes the target's invincibility. Battleground only. -->
@@ -76,21 +78,25 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="9766-1" /> <!-- Battleground Scroll: Remove Invincibility -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="9766" level="1" /> <!-- Battleground Scroll: Remove Invincibility -->
+		</skills>
 	</item>
 	<item id="36311" name="Battleground Scroll: Damage Reflect Resistance" type="EtcItem">
 		<!-- Becomes resistant to Damage Reflect. Battleground only. -->
 		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
 		<set name="weight" val="5" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="is_coc_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9764-1" /> <!-- Battleground Scroll: Damage Reflect Resistance -->
+		<skills>
+			<skill id="9764" level="1" /> <!-- Battleground Scroll: Damage Reflect Resistance -->
+		</skills>
 	</item>
 	<item id="36312" name="Battleground Scroll: Buffs" type="EtcItem">
 		<!-- For 30 min., provides the effects of the Horn Melody, Pipe Organ Melody, Guitar Melody, Lute Melody, Harp Melody, and Drum Melody (Lv. 1). Battleground only. -->
@@ -98,7 +104,7 @@
 		<set name="weight" val="5" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="500" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="is_coc_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -119,77 +125,83 @@
 		<set name="icon" val="icon.etc_roll_of_paper_red_i00" />
 		<set name="weight" val="5" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="is_coc_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9765-1" /> <!-- Battleground Scroll: Sleep -->
+		<skills>
+			<skill id="9765" level="1" /> <!-- Battleground Scroll: Sleep -->
+		</skills>
 	</item>
 	<item id="36314" name="Small Draco Egg x 10" type="EtcItem">
 		<!-- Draco Egg that has been purified of evil energy. Double-click to summon a Small Draco Egg. When the egg's temperature rises, it can be hatched. The rewards from successful or failed hatching of this egg are 10 times greater than those from a normal Small Draco Egg. -->
 		<set name="icon" val="icon.etc_ev_small_egg" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="3000" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9767-1" /> <!-- Small Draco Egg x10 -->
+		<skills>
+			<skill id="9767" level="1" /> <!-- Small Draco Egg x10 -->
+		</skills>
 	</item>
 	<item id="36315" name="Small Draco Egg x 50" type="EtcItem">
 		<!-- Draco Egg that has been purified of evil energy. Double-click to summon a Small Draco Egg. When the egg's temperature rises, it can be hatched. The rewards from successful or failed hatching of this egg are 50 times greater than those from a normal Small Draco Egg. -->
 		<set name="icon" val="icon.etc_ev_small_egg" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="3000" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9768-1" /> <!-- Small Draco Egg x50 -->
+		<skills>
+			<skill id="9768" level="1" /> <!-- Small Draco Egg x50 -->
+		</skills>
 	</item>
 	<item id="36316" name="Draco's Hat: STR Pendant" type="EtcItem">
 		<!-- Combine it with Draco's Hat to create Draco's Hat: STR. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="36317" name="Draco's Hat: DEX Pendant" type="EtcItem">
 		<!-- Combine it with Draco's Hat to create Draco's Hat: DEX. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="36318" name="Draco's Hat: CON Pendant" type="EtcItem">
 		<!-- Combine it with Draco's Hat to create Draco's Hat: CON. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="36319" name="Draco's Hat: MEN Pendant" type="EtcItem">
 		<!-- Combine it with Draco's Hat to create Draco's Hat: MEN. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="36320" name="Draco's Hat: INT Pendant" type="EtcItem">
 		<!-- Combine it with Draco's Hat to create Draco's Hat: INT. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="36321" name="Draco's Hat: WIT Pendant" type="EtcItem">
 		<!-- Combine it with Draco's Hat to create Draco's Hat: WIT. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
 	</item>
@@ -198,35 +210,41 @@
 		<set name="icon" val="icon.etc_ev_draco_gift_box" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9770-1" /> <!-- Lyn Draco's Accessory Pack -->
+		<skills>
+			<skill id="9770" level="1" /> <!-- Lyn Draco's Accessory Pack -->
+		</skills>
 	</item>
 	<item id="36323" name="Lyn Draco's Gift" type="EtcItem">
 		<!-- Gift from a Lyn Draco that hatched unexpectedly from a purified Draco Egg. It looks like an awesome gift. -->
 		<set name="icon" val="icon.etc_treasure_box_i03" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9769-1" /> <!-- Lyn Draco's Gift -->
+		<skills>
+			<skill id="9769" level="1" /> <!-- Lyn Draco's Gift -->
+		</skills>
 	</item>
 	<item id="36324" name="Draco's Shiny Accessory Pack" additionalName="Event" type="EtcItem">
 		<!-- Double-click to receive one of the following: Antharas' Earring, Valakas' Necklace, Earth Wyrm Heart Ring, Bottle of Antharas' Soul, Bottle of Valakas' Soul, Istina's Earring/Necklace/Ring, and Octavis' Earring/Necklace/Ring. -->
 		<set name="icon" val="icon.etc_ev_draco_gift_box" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9773-1" /> <!-- Draco's Shiny Accessory Pack (Event) -->
+		<skills>
+			<skill id="9773" level="1" /> <!-- Draco's Shiny Accessory Pack (Event) -->
+		</skills>
 	</item>
 	<item id="36325" name="Draco's Gift" additionalName="Event" type="EtcItem">
 		<!-- Gift from a Lyn Draco that hatched from a purified Draco Egg. -->
@@ -235,9 +253,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9771-1" /> <!-- Draco's Gift (Event) -->
+		<skills>
+			<skill id="9771" level="1" /> <!-- Draco's Gift (Event) -->
+		</skills>
 	</item>
 	<item id="36326" name="Draco's Shiny Gift" additionalName="Event" type="EtcItem">
 		<!-- Gift from a Draco that hatched from a purified Draco Egg. It shines. -->
@@ -246,128 +266,142 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9772-1" /> <!-- Draco's Shiny Gift (Event) -->
+		<skills>
+			<skill id="9772" level="1" /> <!-- Draco's Shiny Gift (Event) -->
+		</skills>
 	</item>
 	<item id="36327" name="Birthday Vitality Potion" additionalName="1-hour" type="EtcItem">
 		<!-- Upon use, for 1 hour, Vitality is recovered when XP is acquired through hunting. Vitality item with limited usage. -->
 		<set name="icon" val="icon.etc_potion_blue_i00" />
 		<set name="weight" val="80" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="time" val="60" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9775-1" /> <!-- Birthday Vitality Potion -->
+		<skills>
+			<skill id="9775" level="1" /> <!-- Birthday Vitality Potion -->
+		</skills>
 	</item>
 	<item id="36328" name="Freya's Refreshing Breeze" additionalName="1-hour" type="EtcItem">
 		<!-- Upon use, for 1 hour, you can temporarily feel the Vitality-replenishing herb's effect. No effect applies when used while the "Birthday Joy" buff is in effect. Cooldown is 60 min. Vitality item with limited usage. Not deleted upon death. -->
 		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="time" val="60" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9776-1" /> <!-- Freya's Refreshing Breeze (1-hour) -->
+		<skills>
+			<skill id="9776" level="1" /> <!-- Freya's Refreshing Breeze (1-hour) -->
+		</skills>
 	</item>
 	<item id="36329" name="Pa'agrio's Warm Breeze (1-hour)" type="EtcItem">
 		<!-- Upon use, for 1 hour, you can temporarily feel the Vitality-replenishing herb's effect. No effect applies when used while the "Birthday Joy" buff is in effect. Cooldown is 60 min. Vitality item with limited usage. Not deleted upon death. -->
 		<set name="icon" val="BranchSys2.Icon.pi_wind_of_paagrio" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="60" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9777-1" /> <!-- Pa'agrio's Warm Breeze (1-hour) -->
+		<skills>
+			<skill id="9777" level="1" /> <!-- Pa'agrio's Warm Breeze (1-hour) -->
+		</skills>
 	</item>
 	<item id="36330" name="Sweet Chocolate (1-hour)" type="EtcItem">
 		<!-- Upon use, for 1 hour, you can temporarily feel the Vitality-replenishing herb's effect. No effect applies when used while the "Birthday Joy" buff is in effect. Cooldown is 60 min. Vitality item with limited usage. Not deleted upon death. -->
 		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="60" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9778-1" /> <!-- Sweet Chocolate (1-hour) -->
+		<skills>
+			<skill id="9778" level="1" /> <!-- Sweet Chocolate (1-hour) -->
+		</skills>
 	</item>
 	<item id="36331" name="Returning Hero's Vitality Replenishing Juice" additionalName="1-hour" type="EtcItem">
 		<!-- Upon use, for 1 hour, you can temporarily feel the Vitality recovery effect. No effect applies when used while the "Birthday Joy" buff is in effect. Cooldown is 60 min. Vitality item with limited usage. -->
 		<set name="icon" val="BranchSys2.icon.br_breath_of_hero_i00" />
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="time" val="60" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9779-1" /> <!-- Returning Hero's Vitality Replenishing Juice -->
+		<skills>
+			<skill id="9779" level="1" /> <!-- Returning Hero's Vitality Replenishing Juice -->
+		</skills>
 	</item>
 	<item id="36332" name="Pirate Elixir (1-hour)" type="EtcItem">
 		<!-- Upon use, for 1 hour, you can temporarily feel the Vitality-replenishing effect. No effect applies when used while the "Birthday Joy" buff is in effect. Cooldown is 60 min. Vitality item with limited usage. Not deleted upon death. -->
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="60" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9780-1" /> <!-- Pirate Elixir (1-hour) -->
+		<skills>
+			<skill id="9780" level="1" /> <!-- Pirate Elixir (1-hour) -->
+		</skills>
 	</item>
 	<item id="36333" name="Mysterious Box" type="EtcItem">
 		<!-- Chest of Glory awarded to the winner of the Ceremony of Chaos. Double-click to get a reward but there is a chance that you won't get anything. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="36334" name="Adrenaline Energy Drink" additionalName="Event" type="EtcItem">
@@ -377,9 +411,12 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
+		<set name="commissionItemType" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9786-1" /> <!-- Adrenaline Energy Drink -->
+		<skills>
+			<skill id="9786" level="1" /> <!-- Adrenaline Energy Drink -->
+		</skills>
 	</item>
 	<item id="36335" name="Caffeine Energy Drink" additionalName="Event" type="EtcItem">
 		<!-- Energy drink that boosts dexterity and clears one's mind with a single cup. DEX + 10. Formulated for special events, this energy drink should be used with care as it can raise pulse rate and blood pressure. Cannot be used in Olympiad. The body does not remember the drink's potent effect after 30 minutes. -->
@@ -388,9 +425,12 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
+		<set name="commissionItemType" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9787-1" /> <!-- Caffeine Energy Drink -->
+		<skills>
+			<skill id="9787" level="1" /> <!-- Caffeine Energy Drink -->
+		</skills>
 	</item>
 	<item id="36336" name="Protein Energy Drink" additionalName="Event" type="EtcItem">
 		<!-- Energy drink that creates monstrous muscle mass. STR + 10. Formulated for special events, this energy drink makes one extremely powerful. Cannot be used in Olympiad. The body does not remember the drink's potent effect after 30 minutes. -->
@@ -399,8 +439,11 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9788-1" /> <!-- Protein Energy Drink -->
+		<skills>
+			<skill id="9788" level="1" /> <!-- Protein Energy Drink -->
+		</skills>
 	</item>
 	<item id="36337" name="DHA Energy Drink" additionalName="Event" type="EtcItem">
 		<!-- Energy drink that increases brain power. INT + 10. Formulated for special events, this energy drink sharpens Mental/magical attacks unto one's enemy while strengthening the brain from the resulting whiplash. Cannot be used in Olympiad. The body does not remember the drink's potent effect after 30 minutes. -->
@@ -409,8 +452,11 @@
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9789-1" /> <!-- DHA Energy Drink -->
+		<skills>
+			<skill id="9789" level="1" /> <!-- DHA Energy Drink -->
+		</skills>
 	</item>
 	<item id="36338" name="Omega3 Energy Drink" additionalName="Event" type="EtcItem">
 		<!-- Energy drink that stimulates the nerves, activating the neurons in the brain. WIT + 10. Formulated for special events, this energy drink is said to help with Mental activity. Cannot be used in Olympiad. The body does not remember the drink's potent effect after 30 minutes. -->
@@ -419,9 +465,12 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
+		<set name="commissionItemType" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9790-1" /> <!-- Omega 3 Energy Drink -->
+		<skills>
+			<skill id="9790" level="1" /> <!-- Omega 3 Energy Drink -->
+		</skills>
 	</item>
 	<item id="36339" name="Medal of Glory" additionalName="Event" type="EtcItem">
 		<!-- Medal used in the festival hosted by Amadeo Cadmus, the king of Aden. It is rarer and more precious than the Medal of Victory and the Medal of Friendship. Event Manager Cocoring can exchange it for a Golden Chest for you. -->
@@ -448,13 +497,13 @@
 		<!-- Bracelet received from Event Manager Cocoring. When you wear it, you can summon Jr. Cocoring Agathion. This Agathion can take away one of the three medals (the Medal of Glory, the Medal of Victory and the Medal of Friendship) from a monster every hour for 5 hours after being summoned. Your Vitality recovers when stay in a Peaceful Zone wearing this bracelet. -->
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 		<skills>
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
@@ -502,7 +551,9 @@
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9785-1" /> <!-- Scroll of Glory -->
+		<skills>
+			<skill id="9785" level="1" /> <!-- Scroll of Glory -->
+		</skills>
 	</item>
 	<item id="36348" name="Red Horns" additionalName="Event" type="Armor">
 		<!-- Hair accessory that can be used with a pendant. -->
@@ -519,10 +570,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13489-1" /> <!-- Bracelet of Glory: Glory -->
-		<for>
-			<set stat="maxMp" val="216" />
-		</for>
+		<skills>
+			<skill id="13489" level="1" /> <!-- Bracelet of Glory: Glory -->
+		</skills>
+		<stats>
+			<stat type="maxMp">216</stat>
+		</stats>
 	</item>
 	<item id="36350" name="Bracelet of Glory: Victory" additionalName="Event" type="Armor">
 		<!-- Item for the Aden Golden Medal Event. Activates 5 talisman slots when equipped. MP + 216, Dex + 1, Wit + 1. -->
@@ -532,10 +585,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13491-1" /> <!-- Bracelet of Glory: Victory -->
-		<for>
-			<set stat="maxMp" val="216" />
-		</for>
+		<skills>
+			<skill id="13491" level="1" /> <!-- Bracelet of Glory: Victory -->
+		</skills>
+		<stats>
+			<stat type="maxMp">216</stat>
+		</stats>
 	</item>
 	<item id="36351" name="Bracelet of Glory: Friendship" additionalName="Event" type="Armor">
 		<!-- Item for the Aden Golden Medal Event. Activates 5 talisman slots when equipped. MP + 216, Con + 1, Men +1. -->
@@ -545,10 +600,12 @@
 		<set name="immediate_effect" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13490-1" /> <!-- Bracelet of Glory: Friendship -->
-		<for>
-			<set stat="maxMp" val="216" />
-		</for>
+		<skills>
+			<skill id="13490" level="1" /> <!-- Bracelet of Glory: Friendship -->
+		</skills>
+		<stats>
+			<stat type="maxMp">216</stat>
+		</stats>
 	</item>
 	<item id="36352" name="Red Horns" additionalName="STR (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. STR + 3 when equipped. -->
@@ -556,7 +613,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9554-1" /> <!-- Hair Accessory: STR -->
+		<skills>
+			<skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
+		</skills>
 	</item>
 	<item id="36353" name="Red Horns" additionalName="DEX (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. DEX + 3 when equipped. -->
@@ -564,7 +623,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9555-1" /> <!-- Hair Accessory: DEX -->
+		<skills>
+			<skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
+		</skills>
 	</item>
 	<item id="36354" name="Red Horns" additionalName="CON (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. CON + 3 when equipped. -->
@@ -572,7 +633,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9556-1" /> <!-- Hair Accessory: CON -->
+		<skills>
+			<skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
+		</skills>
 	</item>
 	<item id="36355" name="Red Horns" additionalName="MEN (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. MEN + 3 when equipped. -->
@@ -580,7 +643,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9557-1" /> <!-- Hair Accessory: MEN -->
+		<skills>
+			<skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
+		</skills>
 	</item>
 	<item id="36356" name="Red Horns" additionalName="INT (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. INT + 3 when equipped. -->
@@ -588,7 +653,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9558-1" /> <!-- Hair Accessory: INT -->
+		<skills>
+			<skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
+		</skills>
 	</item>
 	<item id="36357" name="Red Horns" additionalName="WIT (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. WIT + 3 when equipped. -->
@@ -596,7 +663,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9559-1" /> <!-- Hair Accessory: WIT -->
+		<skills>
+			<skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
+		</skills>
 	</item>
 	<item id="36358" name="Red Horns" additionalName="Critical Rate (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. Critical Rate + 50 when equipped. -->
@@ -604,7 +673,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9560-1" /> <!-- Hair Accessory: Critical Rate -->
+		<skills>
+			<skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
+		</skills>
 	</item>
 	<item id="36359" name="Red Horns" additionalName="Critical Damage (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
@@ -612,7 +683,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9561-1" /> <!-- Hair Accessory: Critical Damage -->
+		<skills>
+			<skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
+		</skills>
 	</item>
 	<item id="36360" name="Red Horns" additionalName="P. Def. (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. P. Def. + 5% when equipped. -->
@@ -620,7 +693,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9562-1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		<skills>
+			<skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		</skills>
 	</item>
 	<item id="36361" name="Red Horns" additionalName="M. Def. (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. M. Def. + 5% when equipped. -->
@@ -628,8 +703,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9563-1" /> <!-- Hair Accessory: M. Def. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
+		</skills>
 	</item>
 	<item id="36362" name="Red Horns" additionalName="Evasion (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. Evasion + 5 when equipped. -->
@@ -637,7 +714,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9564-1" /> <!-- Hair Accessory: Evasion -->
+		<skills>
+			<skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+		</skills>
 	</item>
 	<item id="36363" name="Red Horns" additionalName="P. Atk. (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. P. Atk. + 5 when equipped. -->
@@ -645,7 +724,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9565-1" /> <!-- Hair Accessory: P. Atk. -->
+		<skills>
+			<skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
+		</skills>
 	</item>
 	<item id="36364" name="Red Horns" additionalName="M. Atk. (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. M. Atk. + 10 when equipped. -->
@@ -653,7 +734,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9566-1" /> <!-- Hair Accessory: M. Atk. -->
+		<skills>
+			<skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
+		</skills>
 	</item>
 	<item id="36365" name="Red Horns" additionalName="Accuracy (Event)" type="Armor">
 		<!-- Hair accessory for the Aden Golden Medal Event. Accuracy + 5 when equipped. -->
@@ -661,7 +744,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9567-1" /> <!-- Hair Accessory: Accuracy -->
+		<skills>
+			<skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
+		</skills>
 	</item>
 	<item id="36366" name="Golden Chest" additionalName="Event" type="EtcItem">
 		<!-- You can get a Golden Chest (Reward) prepared by Amadeo Cadmus, the king of Aden. -->
@@ -813,8 +898,10 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
-        <set name="item_skill" val="9814-1" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<skills>
+			<skill id="9814" level="1" /> <!-- Giant's Scroll: Enchant Weapon (R-grade) -->
+		</skills>
 	</item>
 	<item id="36387" name="Giant's Scroll: Enchant Weapon (S-grade)" type="EtcItem">
 		<!-- Upon enchantment, P. Atk. for one-handed sword/blunt, dagger, spear, etc. (S-grade) + 5, and two-handed sword/blunt/fist, dualsword, and crossbow + 6. P. Atk. for bows + 10. M. Atk. for all weapons + 4. When weapons are enchanted to +4 or above, P. Atk. and M. Atk. double. Weapons are randomly enchanted between + 1 and + 3. -->
@@ -827,8 +914,10 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
-        <set name="item_skill" val="9815-1" /> <!-- Giant's Scroll: Enchant Weapon (S-grade) -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<skills>
+			<skill id="9815" level="1" /> <!-- Giant's Scroll: Enchant Weapon (S-grade) -->
+		</skills>
 	</item>
 	<item id="36388" name="Giant's Scroll: Enchant Weapon (A-grade)" type="EtcItem">
 		<!-- Upon enchantment, P. Atk. for one-handed sword/blunt, dagger, spear, etc. (A-grade) + 4, and two-handed sword/blunt/fist, dualsword, and crossbow + 5. P. Atk. for bows + 8. M. Atk. for all weapons + 3. When weapons are enchanted to +4 or above, P. Atk. and M. Atk. double. Weapons are randomly enchanted between + 1 and + 3. -->
@@ -841,8 +930,10 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
-        <set name="item_skill" val="9816-1" /> <!-- Giant's Scroll: Enchant Weapon (A-grade) -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
+		<skills>
+			<skill id="9816" level="1" /> <!-- Giant's Scroll: Enchant Weapon (A-grade) -->
+		</skills>
 	</item>
 	<item id="36389" name="Giant's Scroll: Enchant Armor (R-grade)" type="EtcItem">
 		<!-- Upon enchantment, P. Def. for R-grade armor and accessories increases by 2, and by a significant amount starting from +4. Armor and accessories can be safely enchanted up to +3. When armor is enchanted to +4 or above, HP also increases according to the enchant value. Armor and accessories are randomly enchanted between + 1 and + 3. -->
@@ -855,8 +946,10 @@
 		<set name="etcitem_type" val="GIANT_ENCHT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
-        <set name="item_skill" val="9817-1" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9817" level="1" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
+		</skills>
 	</item>
 	<item id="36390" name="Giant's Scroll: Enchant Armor (S-grade)" type="EtcItem">
 		<!-- P. Def. for S-grade armor and accessories increases by 1, and by 3 starting from +4. Armor and accessories can be safely enchanted up to +3. One-piece armor can be safely enchanted up to +4. When armor is enchanted to +4 or above, HP also increases according to the enchant value. Armor and accessories are randomly enchanted between +1 and +3. -->
@@ -869,8 +962,10 @@
 		<set name="etcitem_type" val="GIANT_ENCHT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
-        <set name="item_skill" val="9818-1" /> <!-- Giant's Scroll: Enchant Armor (S-grade) -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9818" level="1" /> <!-- Giant's Scroll: Enchant Armor (S-grade) -->
+		</skills>
 	</item>
 	<item id="36391" name="Giant's Scroll: Enchant Armor (A-grade)" type="EtcItem">
 		<!-- P. Def. for A-grade armor and accessories increases by 1, and by 3 starting from +4. Armor and accessories can be safely enchanted up to +3. One-piece armor can be safely enchanted up to +4. When armor is enchanted to +4 or above, HP also increases according to the enchant value. Armor and accessories are randomly enchanted between +1 and +3. -->
@@ -883,20 +978,22 @@
 		<set name="etcitem_type" val="GIANT_ENCHT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
-        <set name="item_skill" val="9819-1" /> <!-- Giant's Scroll: Enchant Armor (A-grade) -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9819" level="1" /> <!-- Giant's Scroll: Enchant Armor (A-grade) -->
+		</skills>
 	</item>
 	<item id="36392" name="Mark of Travis" type="EtcItem">
 		<!-- Mark of those who resurrected and returned with Travis. Take this to the Aden Vanguard Quartermaster at the border of the cemetery and the Seal of Shilen to get a reward. -->
 		<set name="icon" val="icon.item_normal89" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -904,13 +1001,13 @@
 		<!-- Soul of those who resurrected and returned with Travis. Take this to the Aden Vanguard Quartermaster at the border of the cemetery and the Seal of Shilen to get a reward. -->
 		<set name="icon" val="icon.etc_bead_gold_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -918,13 +1015,13 @@
 		<!-- Small reward received for killing those who resurrected and returned with Travis. Double-click to use it. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -944,8 +1041,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
@@ -960,37 +1057,37 @@
 	<item id="36397" name="Chest of Glory" type="EtcItem">
 		<!-- Chest of Glory given by Cocoring to celebrate the winning of the glorious gold medal. Double-click to receive a Medal of Glory/Victory/Friendship at a certain probability. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="36398" name="Chest of Victory" type="EtcItem">
 		<!-- Chest of Victory given by Cocoring to celebrate the winning of the glorious silver medal. Double-click to receive a Medal of Glory/Victory/Friendship at a certain probability. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="36399" name="Chest of Friendship" type="EtcItem">
 		<!-- Chest of Friendship given by Cocoring to celebrate the winning of the glorious gold medal. Double-click to receive a Medal of Glory/Victory/Friendship at a certain probability. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 </list>

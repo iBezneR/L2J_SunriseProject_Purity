@@ -8,20 +8,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="9" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="458000" />
-		<for>
-			<add order="0" stat="pDef" val="76" />
-		</for>
+		<stats>
+			<stat type="pDef">76</stat>
+		</stats>
 	</item>
 	<item id="19601" name="Bound Immortal Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -31,20 +31,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="9" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="458000" />
-		<for>
-			<add order="0" stat="pDef" val="76" />
-		</for>
+		<stats>
+			<stat type="pDef">76</stat>
+		</stats>
 	</item>
 	<item id="19602" name="Bound Twilight Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -54,19 +54,19 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="35" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1665000" />
-		<for>
-			<add order="0" stat="pDef" val="126" />
-		</for>
+		<stats>
+			<stat type="pDef">126</stat>
+		</stats>
 	</item>
 	<item id="19603" name="Bound Twilight Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -77,12 +77,12 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="94" />
 		<set name="weight" val="7520" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -92,9 +92,9 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="335" />
-		</for>
+		<stats>
+			<stat type="pDef">335</stat>
+		</stats>
 	</item>
 	<item id="19604" name="Bound Twilight Gaiters" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -105,20 +105,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="59" />
 		<set name="weight" val="3170" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2776000" />
-		<for>
-			<add order="0" stat="pDef" val="209" />
-		</for>
+		<stats>
+			<stat type="pDef">209</stat>
+		</stats>
 	</item>
 	<item id="19605" name="Bound Twilight Gauntlets" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -128,20 +128,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1110000" />
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="19606" name="Bound Twilight Boots" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -151,20 +151,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1110000" />
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="19607" name="Bound Twilight Shield" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Additionally increases Shield Defense. Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -174,22 +174,24 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="24" />
 		<set name="weight" val="1130" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1166000" />
-        <set name="item_skill" val="8782-1" /> <!-- Equip Shield -->
-		<for>
-			<set stat="sDef" val="458" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<skills>
+			<skill id="8782" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">458</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="19608" name="Bound Twilight Leather Helmet" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -199,19 +201,19 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="35" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1665000" />
-		<for>
-			<add order="0" stat="pDef" val="126" />
-		</for>
+		<stats>
+			<stat type="pDef">126</stat>
+		</stats>
 	</item>
 	<item id="19609" name="Bound Twilight Leather Armor" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. When enchanted to + 4, increases Evasion, Speed and P. Atk. Resistance, and decreases the chance of receiving P. Critical Hit. -->
@@ -222,12 +224,12 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="94" />
 		<set name="weight" val="4140" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -237,11 +239,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Light Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="268" />
-			<set stat="rEvas" val="5" />
-			<set stat="mEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">268</stat>
+			<stat type="rEvas">5</stat>
+			<stat type="mEvas">5</stat>
+		</stats>
 	</item>
 	<item id="19610" name="Bound Twilight Leather Leggings" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -252,22 +254,22 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="59" />
 		<set name="weight" val="1320" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2776000" />
-		<for>
-			<add order="0" stat="pDef" val="168" />
-			<set stat="rEvas" val="3" />
-			<set stat="mEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">168</stat>
+			<stat type="rEvas">3</stat>
+			<stat type="mEvas">3</stat>
+		</stats>
 	</item>
 	<item id="19611" name="Bound Twilight Leather Gloves" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -277,20 +279,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1110000" />
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="19612" name="Bound Twilight Leather Boots" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -300,20 +302,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1110000" />
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="19613" name="Bound Twilight Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -323,19 +325,19 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="35" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1665000" />
-		<for>
-			<add order="0" stat="pDef" val="126" />
-		</for>
+		<stats>
+			<stat type="pDef">126</stat>
+		</stats>
 	</item>
 	<item id="19614" name="Bound Twilight Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. When enchanted to + 4, increases M. Evasion and Mental Attack Resistance, and decreases Damage and the chance of receiving P. Critical Hit. -->
@@ -346,12 +348,12 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="94" />
 		<set name="weight" val="1750" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -361,11 +363,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="184" />
-			<set stat="mDef" val="41" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">184</stat>
+			<stat type="mDef">41</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="19615" name="Bound Twilight Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -376,22 +378,22 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="59" />
 		<set name="weight" val="850" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2776000" />
-		<for>
-			<add order="0" stat="pDef" val="115" />
-			<set stat="mDef" val="27" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="pDef">115</stat>
+			<stat type="mDef">27</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="19616" name="Bound Twilight Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -401,20 +403,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1110000" />
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="19617" name="Bound Twilight Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -424,20 +426,20 @@
 		<set name="crystal_type" val="R" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1110000" />
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="19618" name="Bound Seraph Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -447,19 +449,19 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="76" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="3593000" />
-		<for>
-			<add order="0" stat="pDef" val="139" />
-		</for>
+		<stats>
+			<stat type="pDef">139</stat>
+		</stats>
 	</item>
 	<item id="19619" name="Bound Seraph Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -470,12 +472,12 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="204" />
 		<set name="weight" val="7520" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -485,9 +487,9 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="370" />
-		</for>
+		<stats>
+			<stat type="pDef">370</stat>
+		</stats>
 	</item>
 	<item id="19620" name="Bound Seraph Gaiters" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -498,20 +500,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="127" />
 		<set name="weight" val="3170" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5988000" />
-		<for>
-			<add order="0" stat="pDef" val="231" />
-		</for>
+		<stats>
+			<stat type="pDef">231</stat>
+		</stats>
 	</item>
 	<item id="19621" name="Bound Seraph Gauntlets" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -521,20 +523,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="51" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2395000" />
-		<for>
-			<add order="0" stat="pDef" val="93" />
-		</for>
+		<stats>
+			<stat type="pDef">93</stat>
+		</stats>
 	</item>
 	<item id="19622" name="Bound Seraph Boots" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -544,20 +546,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="51" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2395000" />
-		<for>
-			<add order="0" stat="pDef" val="93" />
-		</for>
+		<stats>
+			<stat type="pDef">93</stat>
+		</stats>
 	</item>
 	<item id="19623" name="Bound Seraph Shield" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Additionally increases Shield Defense. Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -567,22 +569,24 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="53" />
 		<set name="weight" val="1130" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2515000" />
-        <set name="item_skill" val="8783-1" /> <!-- Equip Shield -->
-		<for>
-			<set stat="sDef" val="505" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<skills>
+			<skill id="8783" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">505</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="19624" name="Bound Seraph Leather Helmet" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -592,19 +596,19 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="76" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="3593000" />
-		<for>
-			<add order="0" stat="pDef" val="139" />
-		</for>
+		<stats>
+			<stat type="pDef">139</stat>
+		</stats>
 	</item>
 	<item id="19625" name="Bound Seraph Leather Armor" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. When enchanted to + 4, increases Evasion, Speed and P. Atk. Resistance, and decreases the chance of receiving P. Critical Hit. -->
@@ -615,12 +619,12 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="204" />
 		<set name="weight" val="4140" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -630,11 +634,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Light Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="296" />
-			<set stat="rEvas" val="5" />
-			<set stat="mEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">296</stat>
+			<stat type="rEvas">5</stat>
+			<stat type="mEvas">5</stat>
+		</stats>
 	</item>
 	<item id="19626" name="Bound Seraph Leather Leggings" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -645,22 +649,22 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="127" />
 		<set name="weight" val="1320" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5988000" />
-		<for>
-			<add order="0" stat="pDef" val="185" />
-			<set stat="rEvas" val="3" />
-			<set stat="mEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">185</stat>
+			<stat type="rEvas">3</stat>
+			<stat type="mEvas">3</stat>
+		</stats>
 	</item>
 	<item id="19627" name="Bound Seraph Leather Gloves" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -670,20 +674,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="51" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2395000" />
-		<for>
-			<add order="0" stat="pDef" val="93" />
-		</for>
+		<stats>
+			<stat type="pDef">93</stat>
+		</stats>
 	</item>
 	<item id="19628" name="Bound Seraph Leather Boots" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -693,20 +697,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="51" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2395000" />
-		<for>
-			<add order="0" stat="pDef" val="93" />
-		</for>
+		<stats>
+			<stat type="pDef">93</stat>
+		</stats>
 	</item>
 	<item id="19629" name="Bound Seraph Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -716,19 +720,19 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="76" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="3593000" />
-		<for>
-			<add order="0" stat="pDef" val="139" />
-		</for>
+		<stats>
+			<stat type="pDef">139</stat>
+		</stats>
 	</item>
 	<item id="19630" name="Bound Seraph Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. When enchanted to + 4, increases M. Evasion and Mental Attack Resistance, and decreases Damage and the chance of receiving P. Critical Hit. -->
@@ -739,12 +743,12 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="204" />
 		<set name="weight" val="1750" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -754,11 +758,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="204" />
-			<set stat="mDef" val="47" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">204</stat>
+			<stat type="mDef">47</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="19631" name="Bound Seraph Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -769,22 +773,22 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="127" />
 		<set name="weight" val="850" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5988000" />
-		<for>
-			<add order="0" stat="pDef" val="127" />
-			<set stat="mDef" val="31" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="pDef">127</stat>
+			<stat type="mDef">31</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="19632" name="Bound Seraph Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -794,20 +798,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="51" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2395000" />
-		<for>
-			<add order="0" stat="pDef" val="93" />
-		</for>
+		<stats>
+			<stat type="pDef">93</stat>
+		</stats>
 	</item>
 	<item id="19633" name="Bound Seraph Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -817,20 +821,20 @@
 		<set name="crystal_type" val="R95" />
 		<set name="crystal_count" val="51" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2395000" />
-		<for>
-			<add order="0" stat="pDef" val="93" />
-		</for>
+		<stats>
+			<stat type="pDef">93</stat>
+		</stats>
 	</item>
 	<item id="19634" name="Bound Eternal Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -840,19 +844,19 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="168" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="7917000" />
-		<for>
-			<add order="0" stat="pDef" val="147" />
-		</for>
+		<stats>
+			<stat type="pDef">147</stat>
+		</stats>
 	</item>
 	<item id="19635" name="Bound Eternal Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -863,12 +867,12 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="450" />
 		<set name="weight" val="7520" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -878,9 +882,9 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="392" />
-		</for>
+		<stats>
+			<stat type="pDef">392</stat>
+		</stats>
 	</item>
 	<item id="19636" name="Bound Eternal Gaiters" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -891,20 +895,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="281" />
 		<set name="weight" val="3170" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13196000" />
-		<for>
-			<add order="0" stat="pDef" val="245" />
-		</for>
+		<stats>
+			<stat type="pDef">245</stat>
+		</stats>
 	</item>
 	<item id="19637" name="Bound Eternal Gauntlets" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -914,20 +918,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="112" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5278000" />
-		<for>
-			<add order="0" stat="pDef" val="98" />
-		</for>
+		<stats>
+			<stat type="pDef">98</stat>
+		</stats>
 	</item>
 	<item id="19638" name="Bound Eternal Boots" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -937,20 +941,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="112" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5278000" />
-		<for>
-			<add order="0" stat="pDef" val="98" />
-		</for>
+		<stats>
+			<stat type="pDef">98</stat>
+		</stats>
 	</item>
 	<item id="19639" name="Bound Eternal Shield" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Additionally increases Shield Defense. Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -960,22 +964,24 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="118" />
 		<set name="weight" val="1130" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5542000" />
-        <set name="item_skill" val="8784-1" /> <!-- Equip Shield -->
-		<for>
-			<set stat="sDef" val="536" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<skills>
+			<skill id="8784" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">536</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="19640" name="Bound Eternal Leather Helmet" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -985,19 +991,19 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="168" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="7917000" />
-		<for>
-			<add order="0" stat="pDef" val="147" />
-		</for>
+		<stats>
+			<stat type="pDef">147</stat>
+		</stats>
 	</item>
 	<item id="19641" name="Bound Eternal Leather Armor" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. When enchanted to + 4, increases Evasion, Speed and P. Atk. Resistance, and decreases the chance of receiving P. Critical Hit. -->
@@ -1008,12 +1014,12 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="450" />
 		<set name="weight" val="4140" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1023,11 +1029,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Light Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="313" />
-			<set stat="rEvas" val="5" />
-			<set stat="mEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">313</stat>
+			<stat type="rEvas">5</stat>
+			<stat type="mEvas">5</stat>
+		</stats>
 	</item>
 	<item id="19642" name="Bound Eternal Leather Leggings" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1038,22 +1044,22 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="281" />
 		<set name="weight" val="1320" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13196000" />
-		<for>
-			<add order="0" stat="pDef" val="196" />
-			<set stat="rEvas" val="3" />
-			<set stat="mEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">196</stat>
+			<stat type="rEvas">3</stat>
+			<stat type="mEvas">3</stat>
+		</stats>
 	</item>
 	<item id="19643" name="Bound Eternal Leather Gloves" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1063,20 +1069,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="112" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5278000" />
-		<for>
-			<add order="0" stat="pDef" val="98" />
-		</for>
+		<stats>
+			<stat type="pDef">98</stat>
+		</stats>
 	</item>
 	<item id="19644" name="Bound Eternal Leather Boots" additionalName="Assassin Type / Light" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1086,20 +1092,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="112" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5278000" />
-		<for>
-			<add order="0" stat="pDef" val="98" />
-		</for>
+		<stats>
+			<stat type="pDef">98</stat>
+		</stats>
 	</item>
 	<item id="19645" name="Bound Eternal Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1109,19 +1115,19 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="168" />
 		<set name="weight" val="530" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="7917000" />
-		<for>
-			<add order="0" stat="pDef" val="147" />
-		</for>
+		<stats>
+			<stat type="pDef">147</stat>
+		</stats>
 	</item>
 	<item id="19646" name="Bound Eternal Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. When enchanted to + 4, increases M. Evasion and Mental Attack Resistance, and decreases Damage and the chance of receiving P. Critical Hit. -->
@@ -1132,12 +1138,12 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="450" />
 		<set name="weight" val="1750" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1147,11 +1153,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="215" />
-			<set stat="mDef" val="49" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">215</stat>
+			<stat type="mDef">49</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="19647" name="Bound Eternal Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1162,22 +1168,22 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="281" />
 		<set name="weight" val="850" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13196000" />
-		<for>
-			<add order="0" stat="pDef" val="134" />
-			<set stat="mDef" val="33" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="pDef">134</stat>
+			<stat type="mDef">33</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="19648" name="Bound Eternal Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1187,20 +1193,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="112" />
 		<set name="weight" val="510" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5278000" />
-		<for>
-			<add order="0" stat="pDef" val="98" />
-		</for>
+		<stats>
+			<stat type="pDef">98</stat>
+		</stats>
 	</item>
 	<item id="19649" name="Bound Eternal Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<!-- Can use an Unbind Scroll to change this item into a Standard item. -->
@@ -1210,20 +1216,20 @@
 		<set name="crystal_type" val="R99" />
 		<set name="crystal_count" val="112" />
 		<set name="weight" val="1070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5278000" />
-		<for>
-			<add order="0" stat="pDef" val="98" />
-		</for>
+		<stats>
+			<stat type="pDef">98</stat>
+		</stats>
 	</item>
 	<item id="19650" name="Blessed Immortal Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_helmet_i00" />
@@ -1237,10 +1243,10 @@
 		<set name="element_enabled" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
-		<for>
-			<add order="0" stat="pDef" val="118" />
-		</for>
+		<set name="commissionItemType" val="HELMET" />
+		<stats>
+			<stat type="pDef">118</stat>
+		</stats>
 	</item>
 	<item id="19651" name="Blessed Immortal Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -1253,7 +1259,7 @@
 		<set name="weight" val="7520" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1262,9 +1268,9 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="315" />
-		</for>
+		<stats>
+			<stat type="pDef">315</stat>
+		</stats>
 	</item>
 	<item id="19652" name="Blessed Immortal Gaiters" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t501_l_i00" />
@@ -1280,10 +1286,10 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
-		<for>
-			<add order="0" stat="pDef" val="197" />
-		</for>
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<stats>
+			<stat type="pDef">197</stat>
+		</stats>
 	</item>
 	<item id="19653" name="Blessed Immortal Gauntlets" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t501_g_i00" />
@@ -1298,10 +1304,10 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<set name="commissionItemType" val="GLOVES" />
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="19654" name="Blessed Immortal Boots" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t501_b_i00" />
@@ -1316,10 +1322,10 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<set name="commissionItemType" val="FEET" />
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="19655" name="Blessed Immortal Shield" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Additionally increases Shield Defense. -->
@@ -1330,17 +1336,19 @@
 		<set name="crystal_count" val="116" />
 		<set name="weight" val="1130" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="SHIELD" /> -->
+		<set name="commissionItemType" val="SHIELD" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5453344" />
-        <set name="item_skill" val="8781-1" /> <!-- Equip Shield -->
-		<for>
-			<set stat="sDef" val="431" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<skills>
+			<skill id="8781" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">431</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="19656" name="Blessed Immortal Leather Helmet" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
@@ -1351,13 +1359,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="8180016" />
-		<for>
-			<add order="0" stat="pDef" val="118" />
-		</for>
+		<stats>
+			<stat type="pDef">118</stat>
+		</stats>
 	</item>
 	<item id="19657" name="Blessed Immortal Leather Armor" additionalName="Assassin Type / Light" type="Armor">
 		<!-- When enchanted to + 4, increases Evasion, Speed and P. Atk. Resistance, and decreases the chance of receiving P. Critical Hit. -->
@@ -1370,7 +1378,7 @@
 		<set name="weight" val="4140" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1379,11 +1387,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Light Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="252" />
-			<set stat="rEvas" val="5" />
-			<set stat="mEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">252</stat>
+			<stat type="rEvas">5</stat>
+			<stat type="mEvas">5</stat>
+		</stats>
 	</item>
 	<item id="19658" name="Blessed Immortal Leather Leggings" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t502_l_i00" />
@@ -1395,16 +1403,16 @@
 		<set name="weight" val="1320" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13633360" />
-		<for>
-			<add order="0" stat="pDef" val="157" />
-			<set stat="rEvas" val="3" />
-			<set stat="mEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">157</stat>
+			<stat type="rEvas">3</stat>
+			<stat type="mEvas">3</stat>
+		</stats>
 	</item>
 	<item id="19659" name="Blessed Immortal Leather Gloves" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t502_g_i00" />
@@ -1415,14 +1423,14 @@
 		<set name="weight" val="510" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5453344" />
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="19660" name="Blessed Immortal Leather Boots" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t502_b_i00" />
@@ -1433,14 +1441,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5453344" />
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="19661" name="Blessed Immortal Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_circlet_i00" />
@@ -1451,13 +1459,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="8180016" />
-		<for>
-			<add order="0" stat="pDef" val="118" />
-		</for>
+		<stats>
+			<stat type="pDef">118</stat>
+		</stats>
 	</item>
 	<item id="19662" name="Blessed Immortal Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- When enchanted to + 4, increases M. Evasion and Mental Attack Resistance, and decreases Damage and the chance of receiving P. Critical Hit. -->
@@ -1470,7 +1478,7 @@
 		<set name="weight" val="1750" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1479,11 +1487,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="173" />
-			<set stat="mDef" val="36" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">173</stat>
+			<stat type="mDef">36</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="19663" name="Blessed Immortal Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t503_l_i00" />
@@ -1495,16 +1503,16 @@
 		<set name="weight" val="850" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13633360" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-			<set stat="mDef" val="24" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+			<stat type="mDef">24</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="19664" name="Blessed Immortal Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t503_g_i00" />
@@ -1515,14 +1523,14 @@
 		<set name="weight" val="510" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5453344" />
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="19665" name="Blessed Immortal Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t503_b_i00" />
@@ -1533,14 +1541,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5453344" />
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="19666" name="Blessed Twilight Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_helmet_i00" />
@@ -1551,13 +1559,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="21308498" />
-		<for>
-			<add order="0" stat="pDef" val="130" />
-		</for>
+		<stats>
+			<stat type="pDef">130</stat>
+		</stats>
 	</item>
 	<item id="19667" name="Blessed Twilight Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -1574,14 +1582,14 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<skills>
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="348" />
-		</for>
+		<stats>
+			<stat type="pDef">348</stat>
+		</stats>
 	</item>
 	<item id="19668" name="Blessed Twilight Gaiters" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t601_l_i00" />
@@ -1593,14 +1601,14 @@
 		<set name="weight" val="3170" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="35514164" />
-		<for>
-			<add order="0" stat="pDef" val="217" />
-		</for>
+		<stats>
+			<stat type="pDef">217</stat>
+		</stats>
 	</item>
 	<item id="19669" name="Blessed Twilight Gauntlets" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t601_g_i00" />
@@ -1611,14 +1619,14 @@
 		<set name="weight" val="510" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="14205666" />
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="19670" name="Blessed Twilight Boots" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t601_b_i00" />
@@ -1629,14 +1637,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="14205666" />
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="19671" name="Blessed Twilight Shield" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Additionally increases Shield Defense. -->
@@ -1647,17 +1655,19 @@
 		<set name="crystal_count" val="303" />
 		<set name="weight" val="1130" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="SHIELD" /> -->
+		<set name="commissionItemType" val="SHIELD" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="14205666" />
-        <set name="item_skill" val="8782-1" /> <!-- Equip Shield -->
-		<for>
-			<set stat="sDef" val="476" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<skills>
+			<skill id="8782" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">476</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="19672" name="Blessed Twilight Leather Helmet" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
@@ -1668,13 +1678,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="21308498" />
-		<for>
-			<add order="0" stat="pDef" val="130" />
-		</for>
+		<stats>
+			<stat type="pDef">130</stat>
+		</stats>
 	</item>
 	<item id="19673" name="Blessed Twilight Leather Armor" additionalName="Assassin Type / Light" type="Armor">
 		<!-- When enchanted to + 4, increases Evasion, Speed and P. Atk. Resistance, and decreases the chance of receiving P. Critical Hit. -->
@@ -1687,7 +1697,7 @@
 		<set name="weight" val="4140" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1696,11 +1706,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Light Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="278" />
-			<set stat="rEvas" val="5" />
-			<set stat="mEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">278</stat>
+			<stat type="rEvas">5</stat>
+			<stat type="mEvas">5</stat>
+		</stats>
 	</item>
 	<item id="19674" name="Blessed Twilight Leather Leggings" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t602_l_i00" />
@@ -1712,16 +1722,16 @@
 		<set name="weight" val="1320" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="35514164" />
-		<for>
-			<add order="0" stat="pDef" val="173" />
-			<set stat="rEvas" val="3" />
-			<set stat="mEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">173</stat>
+			<stat type="rEvas">3</stat>
+			<stat type="mEvas">3</stat>
+		</stats>
 	</item>
 	<item id="19675" name="Blessed Twilight Leather Gloves" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t602_g_i00" />
@@ -1732,14 +1742,14 @@
 		<set name="weight" val="510" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="14205666" />
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="19676" name="Blessed Twilight Leather Boots" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t602_b_i00" />
@@ -1750,14 +1760,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="14205666" />
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="19677" name="Blessed Twilight Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_circlet_i00" />
@@ -1768,13 +1778,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="21308498" />
-		<for>
-			<add order="0" stat="pDef" val="130" />
-		</for>
+		<stats>
+			<stat type="pDef">130</stat>
+		</stats>
 	</item>
 	<item id="19678" name="Blessed Twilight Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- When enchanted to + 4, increases M. Evasion and Mental Attack Resistance, and decreases Damage and the chance of receiving P. Critical Hit. -->
@@ -1787,7 +1797,7 @@
 		<set name="weight" val="1750" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1796,11 +1806,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="191" />
-			<set stat="mDef" val="41" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">191</stat>
+			<stat type="mDef">41</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="19679" name="Blessed Twilight Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t603_l_i00" />
@@ -1812,16 +1822,16 @@
 		<set name="weight" val="850" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="35514164" />
-		<for>
-			<add order="0" stat="pDef" val="119" />
-			<set stat="mDef" val="27" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="pDef">119</stat>
+			<stat type="mDef">27</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="19680" name="Blessed Twilight Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t603_g_i00" />
@@ -1836,10 +1846,10 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<set name="commissionItemType" val="GLOVES" />
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="19681" name="Blessed Twilight Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t603_b_i00" />
@@ -1850,14 +1860,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="14205666" />
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="19682" name="Blessed Seraph Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_helmet_i00" />
@@ -1868,13 +1878,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="71863000" />
-		<for>
-			<add order="0" stat="pDef" val="144" />
-		</for>
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
 	</item>
 	<item id="19683" name="Blessed Seraph Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -1887,7 +1897,7 @@
 		<set name="weight" val="7520" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1896,9 +1906,9 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="384" />
-		</for>
+		<stats>
+			<stat type="pDef">384</stat>
+		</stats>
 	</item>
 	<item id="19684" name="Blessed Seraph Gaiters" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t401_l_i00" />
@@ -1910,14 +1920,14 @@
 		<set name="weight" val="3170" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="119772000" />
-		<for>
-			<add order="0" stat="pDef" val="240" />
-		</for>
+		<stats>
+			<stat type="pDef">240</stat>
+		</stats>
 	</item>
 	<item id="19685" name="Blessed Seraph Gauntlets" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t401_g_i00" />
@@ -1928,14 +1938,14 @@
 		<set name="weight" val="510" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="47909000" />
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="19686" name="Blessed Seraph Boots" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_t401_b_i00" />
@@ -1946,14 +1956,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="47909000" />
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="19687" name="Blessed Seraph Shield" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Additionally increases Shield Defense. -->
@@ -1964,17 +1974,19 @@
 		<set name="crystal_count" val="1073" />
 		<set name="weight" val="1130" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="SHIELD" /> -->
+		<set name="commissionItemType" val="SHIELD" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="50304000" />
-        <set name="item_skill" val="8783-1" /> <!-- Equip Shield -->
-		<for>
-			<set stat="sDef" val="525" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<skills>
+			<skill id="8783" level="1" /> <!-- Equip Shield -->
+		</skills>
+		<stats>
+			<stat type="sDef">525</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="19688" name="Blessed Seraph Leather Helmet" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
@@ -1988,10 +2000,10 @@
 		<set name="element_enabled" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
-		<for>
-			<add order="0" stat="pDef" val="144" />
-		</for>
+		<set name="commissionItemType" val="HELMET" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
 	</item>
 	<item id="19689" name="Blessed Seraph Leather Armor" additionalName="Assassin Type / Light" type="Armor">
 		<!-- When enchanted to + 4, increases Evasion, Speed and P. Atk. Resistance, and decreases the chance of receiving P. Critical Hit. -->
@@ -2004,7 +2016,7 @@
 		<set name="weight" val="4140" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -2013,11 +2025,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Light Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="307" />
-			<set stat="rEvas" val="5" />
-			<set stat="mEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">307</stat>
+			<stat type="rEvas">5</stat>
+			<stat type="mEvas">5</stat>
+		</stats>
 	</item>
 	<item id="19690" name="Blessed Seraph Leather Leggings" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t402_l_i00" />
@@ -2033,12 +2045,12 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
-		<for>
-			<add order="0" stat="pDef" val="192" />
-			<set stat="rEvas" val="3" />
-			<set stat="mEvas" val="3" />
-		</for>
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<stats>
+			<stat type="pDef">192</stat>
+			<stat type="rEvas">3</stat>
+			<stat type="mEvas">3</stat>
+		</stats>
 	</item>
 	<item id="19691" name="Blessed Seraph Leather Gloves" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t402_g_i00" />
@@ -2053,10 +2065,10 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="commissionItemType" val="GLOVES" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="19692" name="Blessed Seraph Leather Boots" additionalName="Assassin Type / Light" type="Armor">
 		<set name="icon" val="icon.armor_t402_b_i00" />
@@ -2071,10 +2083,10 @@
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="commissionItemType" val="FEET" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="19693" name="Blessed Seraph Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_circlet_i00" />
@@ -2085,13 +2097,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="71863000" />
-		<for>
-			<add order="0" stat="pDef" val="144" />
-		</for>
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
 	</item>
 	<item id="19694" name="Blessed Seraph Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- When enchanted to + 4, increases M. Evasion and Mental Attack Resistance, and decreases Damage and the chance of receiving P. Critical Hit. -->
@@ -2104,7 +2116,7 @@
 		<set name="weight" val="1750" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -2113,11 +2125,11 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="211" />
-			<set stat="mDef" val="47" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">211</stat>
+			<stat type="mDef">47</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="19695" name="Blessed Seraph Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t403_l_i00" />
@@ -2129,16 +2141,16 @@
 		<set name="weight" val="850" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_PANTS" /> -->
+		<set name="commissionItemType" val="ARMOR_PANTS" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="119772000" />
-		<for>
-			<add order="0" stat="pDef" val="132" />
-			<set stat="mDef" val="31" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="pDef">132</stat>
+			<stat type="mDef">31</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="19696" name="Blessed Seraph Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t403_g_i00" />
@@ -2149,14 +2161,14 @@
 		<set name="weight" val="510" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="47909000" />
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="19697" name="Blessed Seraph Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<set name="icon" val="icon.armor_t403_b_i00" />
@@ -2167,14 +2179,14 @@
 		<set name="weight" val="1070" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="47909000" />
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="19698" name="Blessed Eternal Helmet" additionalName="Attack Type / Heavy" type="Armor">
 		<set name="icon" val="icon.armor_helmet_i00" />
@@ -2185,13 +2197,13 @@
 		<set name="weight" val="530" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="158359000" />
-		<for>
-			<add order="0" stat="pDef" val="153" />
-		</for>
+		<stats>
+			<stat type="pDef">153</stat>
+		</stats>
 	</item>
 	<item id="19699" name="Blessed Eternal Breastplate" additionalName="Attack Type / Heavy" type="Armor">
 		<!-- Increases P. Def. and decreases P. Critical Damage when enchanted to + 4. -->
@@ -2204,7 +2216,7 @@
 		<set name="weight" val="7520" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="isAppearanceable" val="true" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -2213,8 +2225,8 @@
 			<skill id="13063" level="1" /> <!-- Cloak Slot Activation (R-grade) -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="408" />
-		</for>
+		<stats>
+			<stat type="pDef">408</stat>
+		</stats>
 	</item>
 </list>

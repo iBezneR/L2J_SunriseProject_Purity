@@ -5,9 +5,9 @@
 		<set name="armor_type" val="MAGIC" />
 		<set name="default_action" val="EQUIP" />
 		<set name="is_commissionable" val="false" />
-		<for>
-			<add order="0" stat="pDef" val="400.0" />
-		</for>
+		<stats>
+			<stat type="pDef">400.0</stat>
+		</stats>
 	</item>
 	<item id="46601" name="White Assassin Suit" type="Armor">
 		<set name="icon" val="icon.skill1802" />
@@ -15,9 +15,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_commissionable" val="false" />
 		<set name="bodypart" val="chest" />
-		<for>
-			<add order="0" stat="pDef" val="400.0" />
-		</for>
+		<stats>
+			<stat type="pDef">400.0</stat>
+		</stats>
 	</item>
 	<item id="46602" name="Blue Dynasty Cloak" type="Armor">
 		<!-- Blue Dynasty Cloak. -->
@@ -32,10 +32,10 @@
 		<cond>
 			<player level="80" />
 		</cond>
-		<for>
-			<add order="0" stat="pDef" val="50.0" />
-			<set stat="mDef" val="40.0" />
-		</for>
+		<stats>
+			<stat type="pDef">50.0</stat>
+			<stat type="mDef">40.0</stat>
+		</stats>
 	</item>
 	<item id="46603" name="Blue Dynasty Armor Appearance Stone" type="EtcItem">
 		<!-- Changes the appearance of your entire armor into that of Blue Dynasty. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. -->
@@ -82,7 +82,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9554-1" />
+		<skills>
+			<skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
+		</skills>
 	</item>
 	<item id="46608" name="Blue Dynasty Circlet" additionalName="DEX" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. DEX + 3 when equipped. -->
@@ -91,7 +93,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9555-1" />
+		<skills>
+			<skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
+		</skills>
 	</item>
 	<item id="46609" name="Blue Dynasty Circlet" additionalName="CON" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. CON + 3 when equipped. -->
@@ -100,7 +104,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9556-1" />
+		<skills>
+			<skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
+		</skills>
 	</item>
 	<item id="46610" name="Blue Dynasty Circlet" additionalName="MEN" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. MEN + 3 when equipped. -->
@@ -109,7 +115,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9557-1" />
+		<skills>
+			<skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
+		</skills>
 	</item>
 	<item id="46611" name="Blue Dynasty Circlet" additionalName="INT" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. INT + 3 when equipped. -->
@@ -118,7 +126,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9558-1" />
+		<skills>
+			<skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
+		</skills>
 	</item>
 	<item id="46612" name="Blue Dynasty Circlet" additionalName="WIT" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. WIT + 3 when equipped. -->
@@ -127,7 +137,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9559-1" />
+		<skills>
+			<skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
+		</skills>
 	</item>
 	<item id="46613" name="Blue Dynasty Circlet" additionalName="Critical Rate" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. Critical Rate + 50 when equipped. -->
@@ -136,7 +148,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9560-1" />
+		<skills>
+			<skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
+		</skills>
 	</item>
 	<item id="46614" name="Blue Dynasty Circlet" additionalName="Critical Damage" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
@@ -145,7 +159,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9561-1" />
+		<skills>
+			<skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
+		</skills>
 	</item>
 	<item id="46615" name="Blue Dynasty Circlet" additionalName="P. Def." type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. P. Def. + 5% when equipped. -->
@@ -154,7 +170,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9562-1" />
+		<skills>
+			<skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		</skills>
 	</item>
 	<item id="46616" name="Blue Dynasty Circlet" additionalName="M. Def." type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. M. Def. + 5% when equipped. -->
@@ -163,7 +181,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9563-1" />
+		<skills>
+			<skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
+		</skills>
 	</item>
 	<item id="46617" name="Blue Dynasty Circlet" additionalName="Evasion" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. Evasion + 5 when equipped. -->
@@ -172,7 +192,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9564-1" />
+		<skills>
+			<skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+		</skills>
 	</item>
 	<item id="46618" name="Blue Dynasty Circlet" additionalName="P. Atk." type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. P. Atk. + 5% when equipped. -->
@@ -181,7 +203,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9565-1" />
+		<skills>
+			<skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
+		</skills>
 	</item>
 	<item id="46619" name="Blue Dynasty Circlet" additionalName="M. Atk." type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. M. Atk. + 10% when equipped. -->
@@ -190,7 +214,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9566-1" />
+		<skills>
+			<skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
+		</skills>
 	</item>
 	<item id="46620" name="Blue Dynasty Circlet" additionalName="Accuracy" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. Accuracy + 5 when equipped. -->
@@ -199,7 +225,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9567-1" />
+		<skills>
+			<skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
+		</skills>
 	</item>
 	<item id="46621" name="Shadow Blue Seal Bracelet" type="Armor">
 		<!-- Can summon Shadow Blue. -->
@@ -210,19 +238,21 @@
 		<set name="bodypart" val="lbracelet" />
 		<set name="material" val="SILVER" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="13901-1" /> <!-- Shadow Blue -->
+		<skills>
+			<skill id="13901" level="1" /> <!-- Shadow Blue -->
+		</skills>
 	</item>
 	<item id="46622" name="1,000,000,000 Adana" additionalName="Event" type="EtcItem">
 		<!-- Adena? No, this is Adana. Receive the Abundant Blessing buff from Miss Patch when in possession of this Adana. Lv. 85 or above. Deleted after event. -->
 		<set name="icon" val="icon.fairy_adena_joke" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -230,51 +260,51 @@
 		<!-- Adena? No, this is Adana. Take it to Event Manager Miss Patch to exchange for a 30-day Armor Set (R-grade or above), or a Weapon (R-grade or above). Lv. 85 or above. Deleted after event. -->
 		<set name="icon" val="icon.fairy_adena_joke" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46624" name="Entrance Pass: Embryo Command Post" additionalName="1-day" type="EtcItem">
 		<!-- Double-click to reset cooldown to Embryo Command Post. Can only be used once a day outside of the instance zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="1440" />
 	</item>
 	<item id="46625" name="Entrance Pass: Nightmare Kamaloka" additionalName="1-day" type="EtcItem">
 		<!-- Entrance Pass to Nightmare Kamaloka received from Captain Kurtiz. Double-click to reset cooldown to Nightmare Kamaloka. Can only be used once a day outside of the instance zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="1440" />
 	</item>
 	<item id="46626" name="Growth Accelerator Feed" additionalName="Mystic Tavern - Kelbim" type="EtcItem">
 		<!-- Feed for military dogs to accelerate growth. -->
 		<set name="icon" val="icon.etc_piece_bone_white_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -285,7 +315,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="18048-1" /> <!-- Hair Accessory (LUC) -->
+		<skills>
+			<skill id="18048" level="1" /> <!-- Hair Accessory (LUC) -->
+		</skills>
 	</item>
 	<item id="46628" name="Blue Dynasty Circlet" additionalName="CHA" type="Armor">
 		<!-- Blue Dynasty Circlet. Uses 2 Hair Accessory slots. CHA + 3 when equipped. -->
@@ -294,7 +326,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="18049-1" /> <!-- Hair Accessory (CHA) -->
+		<skills>
+			<skill id="18049" level="1" /> <!-- Hair Accessory (CHA) -->
+		</skills>
 	</item>
 	<item id="46629" name="Practice StormBringer" type="Weapon">
 		<!-- Temporary practice weapon for learning about the Soul Crystal system. Very inefficient as a weapon. -->
@@ -310,14 +344,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="107.0" />
-			<set stat="mAtk" val="68.0" />
-			<set stat="pAtkSpd" val="379.0" />
-			<set stat="critRate" val="8.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">107.0</stat>
+			<stat type="mAtk">68.0</stat>
+			<stat type="pAtkSpd">379.0</stat>
+			<stat type="critRate">8.0</stat>
+		</stats>
 	</item>
 	<item id="46630" name="Twilight Necklace" additionalName="30-day" type="Armor">
 		<!-- Twilight Necklace. MP + 58. -->
@@ -325,18 +359,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="142.0" />
-			<set stat="maxMp" val="58" />
-		</for>
+		<stats>
+			<stat type="mDef">142.0</stat>
+			<stat type="maxMp">58</stat>
+		</stats>
 	</item>
 	<item id="46631" name="Twilight Earring" additionalName="30-day" type="Armor">
 		<!-- Twilight Earring. MP + 43. -->
@@ -344,18 +378,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="107.0" />
-			<set stat="maxMp" val="43" />
-		</for>
+		<stats>
+			<stat type="mDef">107.0</stat>
+			<stat type="maxMp">43</stat>
+		</stats>
 	</item>
 	<item id="46632" name="Twilight Ring" additionalName="30-day" type="Armor">
 		<!-- Twilight Ring. MP + 29. -->
@@ -363,18 +397,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="71.0" />
-			<set stat="maxMp" val="29" />
-		</for>
+		<stats>
+			<stat type="mDef">71.0</stat>
+			<stat type="maxMp">29</stat>
+		</stats>
 	</item>
 	<item id="46633" name="Seraph Necklace" additionalName="30-day" type="Armor">
 		<!-- Seraph Necklace. MP + 62. -->
@@ -382,18 +416,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R95" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="161.0" />
-			<set stat="maxMp" val="62" />
-		</for>
+		<stats>
+			<stat type="mDef">161.0</stat>
+			<stat type="maxMp">62</stat>
+		</stats>
 	</item>
 	<item id="46634" name="Seraph Earring" additionalName="30-day" type="Armor">
 		<!-- Seraph Necklace. MP + 46. -->
@@ -401,18 +435,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R95" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="121.0" />
-			<set stat="maxMp" val="46" />
-		</for>
+		<stats>
+			<stat type="mDef">121.0</stat>
+			<stat type="maxMp">46</stat>
+		</stats>
 	</item>
 	<item id="46635" name="Seraph Ring" additionalName="30-day" type="Armor">
 		<!-- Seraph Ring. MP + 31. -->
@@ -420,18 +454,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R95" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="80.0" />
-			<set stat="maxMp" val="31" />
-		</for>
+		<stats>
+			<stat type="mDef">80.0</stat>
+			<stat type="maxMp">31</stat>
+		</stats>
 	</item>
 	<item id="46636" name="Eternal Necklace" additionalName="30-day" type="Armor">
 		<!-- Eternal Necklace. MP + 65. -->
@@ -439,18 +473,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R99" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="174.0" />
-			<set stat="maxMp" val="65" />
-		</for>
+		<stats>
+			<stat type="mDef">174.0</stat>
+			<stat type="maxMp">65</stat>
+		</stats>
 	</item>
 	<item id="46637" name="Eternal Earring" additionalName="30-day" type="Armor">
 		<!-- Eternal Earring. MP + 49. -->
@@ -458,18 +492,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R99" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="130.0" />
-			<set stat="maxMp" val="49" />
-		</for>
+		<stats>
+			<stat type="mDef">130.0</stat>
+			<stat type="maxMp">49</stat>
+		</stats>
 	</item>
 	<item id="46638" name="Eternal Ring" additionalName="30-day" type="Armor">
 		<!-- Eternal Ring. MP + 33. -->
@@ -477,43 +511,43 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R99" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="mDef" val="87.0" />
-			<set stat="maxMp" val="33" />
-		</for>
+		<stats>
+			<stat type="mDef">87.0</stat>
+			<stat type="maxMp">33</stat>
+		</stats>
 	</item>
 	<item id="46639" name="Roa's Lost Item" additionalName="Event" type="EtcItem">
 		<!-- Roa's lost item. Exchange it for Assistant Roa's Gift when you are lucky enough to run into NPC Roa. Can only exchange 1 item per day. Deleted after event. -->
 		<set name="icon" val="icon.event_july_seven_park_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46640" name="Assistant Roa's Gift" additionalName="Event" type="EtcItem">
 		<!-- Gift box full of Roa's love. Double-click to get a random gift from Roa. -->
 		<set name="icon" val="icon.etc_ev_draco_gift_box" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -525,13 +559,13 @@
 	<item id="46642" name="Proof of Red" additionalName="Event" type="EtcItem">
 		<!-- Red Libra item. Proof given to those who carry out the missions given by the Red Libra merchants. Use with Elder Green to change a dual class or with Elder Black to exchange for a weapon. Deleted when the Red Libra merchants leave. -->
 		<set name="icon" val="icon.event_mahum_memo" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46643" name="Rudi" additionalName="Event" type="EtcItem">
@@ -545,49 +579,49 @@
 	<item id="46644" name="Red Libra Supplies Lv. 1" additionalName="Event" type="EtcItem">
 		<!-- Red Libra item. Reward received from Bodyguard Blue for your help. Double-click to get one random item. Deleted when the Red Libra merchants leave. -->
 		<set name="icon" val="icon.event_mahum_coinbox" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46645" name="Red Libra Supplies Lv. 2" additionalName="Event" type="EtcItem">
 		<!-- Red Libra item. Reward received from Bodyguard Blue for your help. Double-click to get one random item. Deleted when the Red Libra merchants leave. -->
 		<set name="icon" val="icon.event_mahum_coinbox" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46646" name="Red Libra Supplies Lv. 3" additionalName="Event" type="EtcItem">
 		<!-- Red Libra item. Reward received from Bodyguard Blue for your help. Double-click to get one random item. Deleted when the Red Libra merchants leave. -->
 		<set name="icon" val="icon.event_mahum_coinbox" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46647" name="Red Libra Supplies Lv. 4" additionalName="Event" type="EtcItem">
 		<!-- Red Libra item. Reward received from Bodyguard Blue for your help. Double-click to get one random item. Deleted when the Red Libra merchants leave. -->
 		<set name="icon" val="icon.event_mahum_coinbox" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46648" name="Red Libra Talisman - Resurrection" additionalName="Event" type="Armor">
@@ -648,14 +682,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="690.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="433.0" />
-			<set stat="critRate" val="12.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">690.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">433.0</stat>
+			<stat type="critRate">12.0</stat>
+		</stats>
 	</item>
 	<item id="46654" name="Elysium Cutter" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -670,14 +704,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="770.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="379.0" />
-			<set stat="critRate" val="8.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">770.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">379.0</stat>
+			<stat type="critRate">8.0</stat>
+		</stats>
 	</item>
 	<item id="46655" name="Elysium Slasher" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -692,14 +726,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="931.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="critRate" val="8.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">931.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="critRate">8.0</stat>
+		</stats>
 	</item>
 	<item id="46656" name="Elysium Avenger" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -714,15 +748,15 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="770.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="379.0" />
-			<set stat="accCombat" val="8.0" />
-			<set stat="critRate" val="6.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">770.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">379.0</stat>
+			<stat type="accCombat">8.0</stat>
+			<stat type="critRate">6.0</stat>
+		</stats>
 	</item>
 	<item id="46657" name="Elysium Fighter" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -737,15 +771,15 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="931.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="accCombat" val="8.0" />
-			<set stat="critRate" val="6.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">931.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="accCombat">8.0</stat>
+			<stat type="critRate">6.0</stat>
+		</stats>
 	</item>
 	<item id="46658" name="Elysium Stormer" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -761,15 +795,17 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="770.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="critRate" val="8.0" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">770.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="critRate">8.0</stat>
+		</stats>
 	</item>
 	<item id="46659" name="Elysium Thrower" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -785,14 +821,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="1521.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="293.0" />
-			<set stat="critRate" val="12.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">1521.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">293.0</stat>
+			<stat type="critRate">12.0</stat>
+		</stats>
 	</item>
 	<item id="46660" name="Elysium Shooter" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -807,14 +843,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="1286.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="critRate" val="12.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">1286.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="critRate">12.0</stat>
+		</stats>
 	</item>
 	<item id="46661" name="Elysium Buster" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -829,14 +865,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="643.0" />
-			<set stat="mAtk" val="481.0" />
-			<set stat="pAtkSpd" val="379.0" />
-			<set stat="critRate" val="8.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">643.0</stat>
+			<stat type="mAtk">481.0</stat>
+			<stat type="pAtkSpd">379.0</stat>
+			<stat type="critRate">8.0</stat>
+		</stats>
 	</item>
 	<item id="46662" name="Elysium Caster" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -851,15 +887,15 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="643.0" />
-			<set stat="mAtk" val="481.0" />
-			<set stat="pAtkSpd" val="379.0" />
-			<set stat="accCombat" val="8.0" />
-			<set stat="critRate" val="6.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">643.0</stat>
+			<stat type="mAtk">481.0</stat>
+			<stat type="pAtkSpd">379.0</stat>
+			<stat type="accCombat">8.0</stat>
+			<stat type="critRate">6.0</stat>
+		</stats>
 	</item>
 	<item id="46663" name="Elysium Retributer" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -874,16 +910,16 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="776.0" />
-			<set stat="mAtk" val="518.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="accCombat" val="8.0" />
-			<set stat="accMagic" val="8.0" />
-			<set stat="critRate" val="6.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">776.0</stat>
+			<stat type="mAtk">518.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="accCombat">8.0</stat>
+			<stat type="accMagic">8.0</stat>
+			<stat type="critRate">6.0</stat>
+		</stats>
 	</item>
 	<item id="46664" name="Elysium Dualsword" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -898,14 +934,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="931.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="critRate" val="8.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">931.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="critRate">8.0</stat>
+		</stats>
 	</item>
 	<item id="46665" name="Elysium Dual Dagger" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -921,14 +957,14 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="792.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="433.0" />
-			<set stat="critRate" val="12.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">792.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">433.0</stat>
+			<stat type="critRate">12.0</stat>
+		</stats>
 	</item>
 	<item id="46666" name="Elysium Dual Blunt Weapon" additionalName="Event" type="Weapon">
 		<!-- Red Libra item. Weapon used all throughout Elysium. It cannot be enchanted in Aden. Cannot be used in the Olympiad. Deleted when the Red Libra merchants leave. -->
@@ -943,43 +979,46 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="931.0" />
-			<set stat="mAtk" val="388.0" />
-			<set stat="pAtkSpd" val="325.0" />
-			<set stat="accCombat" val="8.0" />
-			<set stat="critRate" val="6.0" />
-		</for>
+		<stats>
+			<stat type="pAtk">931.0</stat>
+			<stat type="mAtk">388.0</stat>
+			<stat type="pAtkSpd">325.0</stat>
+			<stat type="accCombat">8.0</stat>
+			<stat type="critRate">6.0</stat>
+		</stats>
 	</item>
 	<item id="46667" name="Lv.5 Giant Dye Pack" type="EtcItem">
 		<set name="icon" val="icon.five_vairy_potion" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46668" name="La Vie En Rose's Radiant Brooch" type="Armor">
 		<!-- Activates 5 jewel slots when equipped. Inventory Slot + 12. -->
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13659-1;13924-1" /> <!-- La Vie En Rose's Radiant Brooch --> <!-- La Vie En Rose's Radiant Brooch -->
-		<for>
-			<set stat="mDef" val="101.0" />
-		</for>
+		<skills>
+			<skill id="13659" level="1" /> <!-- La Vie En Rose's Radiant Brooch -->
+			<skill id="13924" level="1" /> <!-- La Vie En Rose's Radiant Brooch -->
+		</skills>
+		<stats>
+			<stat type="mDef">101.0</stat>
+		</stats>
 	</item>
 	<item id="46669" name="Radiant Brooch Fragment" type="EtcItem">
 		<!-- Main ingredient for making a La Vie En Rose's Radiant Brooch. -->
@@ -993,13 +1032,13 @@
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
 	</item>
 	<item id="46671" name="Vital Stone" additionalName="Lv. 2" type="Armor">
@@ -1007,13 +1046,13 @@
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
 	</item>
 	<item id="46672" name="Vital Stone" additionalName="Lv. 3" type="Armor">
@@ -1021,13 +1060,13 @@
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
 	</item>
 	<item id="46673" name="Vital Stone" additionalName="Lv. 4" type="Armor">
@@ -1035,13 +1074,13 @@
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
 	</item>
 	<item id="46674" name="Vital Stone" additionalName="Lv. 5" type="Armor">
@@ -1058,60 +1097,68 @@
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-1" />
+		<skills>
+			<skill id="18566" level="1"/> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="46676" name="Garnet" additionalName="Lv. 2" type="Armor">
 		<!-- Resistance to Debuffs + 6%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-2" />
+		<skills>
+			<skill id="18566" level="2"/> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="46677" name="Garnet" additionalName="Lv. 3" type="Armor">
 		<!-- Resistance to Debuffs + 12%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-3" />
+		<skills>
+			<skill id="18566" level="3"/> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="46678" name="Garnet" additionalName="Lv. 4" type="Armor">
 		<!-- Resistance to Debuffs + 20%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-4" />
+		<skills>
+			<skill id="18566" level="4"/> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="46679" name="Garnet" additionalName="Lv. 5" type="Armor">
 		<!-- Resistance to Debuffs + 30%. Cancels your debuffs. Effect does not stack with additional jewels of the same type. -->
@@ -1121,67 +1168,78 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-5;18567-1" />
+		<skills>
+			<skill id="18566" level="5" /> <!-- Garnet -->
+			<skill id="18567" level="1" /> <!-- Garnet - Purge -->
+		</skills>
 	</item>
 	<item id="46680" name="Tanzanite" additionalName="Lv. 1" type="Armor">
 		<!-- Creates a protection shield that absorbs 5,000 damage for 5 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-1" />
+		<skills>
+			<skill id="18565" level="1"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="46681" name="Tanzanite" additionalName="Lv. 2" type="Armor">
 		<!-- Creates a protection shield that absorbs 10,000 damage for 5 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-2" />
+		<skills>
+			<skill id="18565" level="2"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="46682" name="Tanzanite" additionalName="Lv. 3" type="Armor">
 		<!-- Creates a protection shield that absorbs 15,000 damage for 10 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-3" />
+		<skills>
+			<skill id="18565" level="3"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="46683" name="Tanzanite" additionalName="Lv. 4" type="Armor">
 		<!-- Creates a protection shield that absorbs 30,000 damage for 10 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-4" />
+		<skills>
+			<skill id="18565" level="4"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="46684" name="Tanzanite" additionalName="Lv. 5" type="Armor">
 		<!-- Creates a protection shield that absorbs 50,000 damage for 15 seconds. Effect does not stack with additional jewels of the same type. -->
@@ -1191,7 +1249,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-5" />
+		<skills>
+			<skill id="18565" level="5"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="46685" name="La Vie En Rose's Vital Stone Chest" type="EtcItem">
 		<!-- Double-click to acquire a Lv. 1 Vital Stone. -->
@@ -1203,8 +1263,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26476" min="1" max="1" chance="100" /> <!-- Vital Stone - Lv. 1 -->
@@ -1220,8 +1280,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26481" min="1" max="1" chance="100" /> <!-- Garnet - Lv. 1 -->
@@ -1237,8 +1297,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26486" min="1" max="1" chance="100" /> <!-- Tanzanite - Lv. 1 -->
@@ -1254,8 +1314,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26474" min="1" max="1" chance="100" /> <!-- La Vie En Rose's Radiant Brooch -->
@@ -1271,10 +1331,12 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="18564-1" /> <!-- Shadai's Jewelry Box -->
+		<skills>
+			<skill id="18564" level="1" /> <!-- Shadai's Jewelry Box -->
+		</skills>
 	</item>
 	<item id="46690" name="Shadai's Shiny Jewelry Box" type="EtcItem">
 		<!-- Double-click to get 1 of the following: La Vie En Rose's Vital Stone Chest, La Vie En Rose's Garnet Chest, or La Vie En Rose's Tanzanite Chest. -->
@@ -1286,25 +1348,25 @@
 	<item id="46691" name="Function Test Item" type="EtcItem">
 		<!-- Double-click to get 1 of the following: La Vie En Rose's Vital Stone Chest, La Vie En Rose's Garnet Chest, or La Vie En Rose's Tanzanite Chest. -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46692" name="Entrance Pass: Embryo Command Post" type="EtcItem">
 		<!-- Double-click to reset cooldown to Embryo Command Post. Can only be used once a day outside of the instance zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="46693" name="Emperor Shunaiman's Shaper" additionalName="30-day" type="Weapon">
@@ -1324,17 +1386,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="737" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="433" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">737</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46694" name="Emperor Shunaiman's Dicing Death" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -1353,16 +1417,18 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="827" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">827</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46695" name="Emperor Shunaiman's Slasher" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -1381,16 +1447,18 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46696" name="Emperor Shunaiman's Avenger" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -1409,17 +1477,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="827" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">827</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46697" name="Emperor Shunaiman's Fighter" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -1438,17 +1508,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46698" name="Emperor Shunaiman's Stormer" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -1466,18 +1538,21 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="damage_range" val="0;0;66;120" />
-        <set name="item_skill" val="13925-1;13115-1" /> <!-- Emperor Shunaiman's Authority --> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="827" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+			<skill id="13115" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">827</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="46699" name="Emperor Shunaiman's Thrower" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -1496,16 +1571,18 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;10;0" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="1631" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="293" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1631</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 </list>

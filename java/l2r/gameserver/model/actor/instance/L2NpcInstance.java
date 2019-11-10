@@ -86,12 +86,12 @@ public class L2NpcInstance extends L2Npc
 		{
 			final List<L2SkillLearn> skills = SkillTreesData.getInstance().getAvailableCollectSkills(player);
 			final AcquireSkillList asl = new AcquireSkillList(AcquireSkillType.COLLECT);
-			
+
 			int counts = 0;
 			for (L2SkillLearn s : skills)
 			{
 				final L2Skill sk = SkillData.getInstance().getInfo(s.getSkillId(), s.getSkillLevel());
-				
+
 				if (sk != null)
 				{
 					counts++;

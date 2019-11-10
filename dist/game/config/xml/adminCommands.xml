@@ -24,6 +24,14 @@
 	<admin command="admin_config_server" accessLevel="7" />
 	<admin command="admin_gmon" accessLevel="7" />
 
+	<!-- ADMIN EVENTS -->
+	<admin command="admin_event_menu" accessLevel="7" />
+	<admin command="admin_event_start" accessLevel="7" />
+	<admin command="admin_event_stop" accessLevel="7" />
+	<admin command="admin_event_start_menu" accessLevel="7" />
+	<admin command="admin_event_stop_menu" accessLevel="7" />
+	<admin command="admin_event_bypass" accessLevel="7" />
+
 	<!-- ADMIN OLYMPIAD -->
 	<admin command="admin_oly" accessLevel="7" />
 	<admin command="admin_saveoly" accessLevel="7" />

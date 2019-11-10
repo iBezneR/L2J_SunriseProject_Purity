@@ -1451,6 +1451,16 @@ public final class Config extends AbstractConfigs
     public static boolean AUCTION_HOUSE_ONLY_PEACE_ZONE;
     public static double AUCTION_HOUSE_SALE_FEE;
 
+    // Community Board HTML Getters
+    public static float getRateXp()
+    {
+        return RATE_XP;
+    }
+    public static float getRateSp()
+    {
+        return RATE_SP;
+    }
+
     /**
      * This class initializes all global variables for configuration.<br>
      * If the key doesn't appear in properties file, a default value is set by this class. {@link #CONFIGURATION_FILE} (properties file) for configuring your server.

@@ -4,8 +4,8 @@
 		<!-- Summons Cancer. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine.(Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. 2. Attribute Atk.: Fire/ Water/ Earth/ Wind/ Dark/ Holy Atk. each increases by 30. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -20,7 +20,7 @@
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
 			<skill id="17567" level="1" /> <!-- Zodiac Agathion Attribute Enchant -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -28,8 +28,8 @@
 		<!-- Summons Cancer. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine.(Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. 2. Attribute Resistance: Fire/ Water/ Earth/ Wind/ Dark/ Holy Def. each increases by 30. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -44,7 +44,7 @@
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
 			<skill id="17568" level="1" /> <!-- Zodiac Agathion Attribute Enchant -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -52,8 +52,8 @@
 		<!-- Summons Cancer. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -67,7 +67,7 @@
 			<skill id="17550" level="1" /> <!-- Agathion Teleport: Town of Heine -->
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -75,8 +75,8 @@
 		<!-- Summons Cancer. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.) -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -89,7 +89,7 @@
 			<skill id="17549" level="1" /> <!-- Agathion Teleport: Town of Giran -->
 			<skill id="17550" level="1" /> <!-- Agathion Teleport: Town of Heine -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -870,23 +870,23 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="250" />
-		<for>
-			<set stat="pAtk" val="125" />
-			<set stat="mAtk" val="186" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">125</stat>
+			<stat type="mAtk">186</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38560" name="Monster Only: Etin Blunt Weapon" type="Weapon">
 		<!-- Monster weapon. -->
@@ -895,35 +895,35 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38561" name="Legendary Sangmin Bracelet" type="Armor">
 		<!-- TBD -->
 		<set name="icon" val="icon.accessory_bangel_of_tauti_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 	</item>
 	<item id="38562" name="Legendary Bumjoon Bracelet" type="Armor">
@@ -931,12 +931,12 @@
 		<set name="icon" val="icon.accessory_bangel_of_tauti_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 	</item>
 	<item id="38563" name="Legendary Junghyun Bracelet" type="Armor">
@@ -944,12 +944,12 @@
 		<set name="icon" val="icon.accessory_bangel_of_tauti_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 	</item>
 	<item id="38564" name="Monster Weapon: Invisible Dagger" type="Weapon">
@@ -959,132 +959,144 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38565" name="Aria's Bracelet" additionalName="CON+3" type="Armor">
 		<!-- Aria's Bracelet. Activates 5 Talisman slots. HP + 531, CON + 3. -->
 		<set name="icon" val="icon.istina_bangel" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
-        <set name="item_skill" val="13584-1" /> <!-- Aria's Bracelet: CON -->
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="13584" level="1" /> <!-- Aria's Bracelet: CON -->
+		</skills>
 	</item>
 	<item id="38566" name="Aria's Bracelet" additionalName="MEN+3" type="Armor">
 		<!-- Aria's Bracelet. Activates 5 Talisman slots. HP + 531, MEN + 3. -->
 		<set name="icon" val="icon.istina_bangel" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
-        <set name="item_skill" val="13585-1" /> <!-- Aria's Bracelet: MEN -->
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="13585" level="1" /> <!-- Aria's Bracelet: MEN -->
+		</skills>
 	</item>
 	<item id="38567" name="Aria's Bracelet" additionalName="DEX+3" type="Armor">
 		<!-- Aria's Bracelet. Activates 5 Talisman slots. HP + 531, DEX + 3. -->
 		<set name="icon" val="icon.octavis_bangel" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
-        <set name="item_skill" val="13586-1" /> <!-- Aria's Bracelet: DEX -->
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="13586" level="1" /> <!-- Aria's Bracelet: DEX -->
+		</skills>
 	</item>
 	<item id="38568" name="Aria's Bracelet" additionalName="WIT+3" type="Armor">
 		<!-- Aria's Bracelet. Activates 5 Talisman slots. HP + 531, WIT + 3. -->
 		<set name="icon" val="icon.octavis_bangel" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
-        <set name="item_skill" val="13587-1" /> <!-- Aria's Bracelet: WIT -->
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="13587" level="1" /> <!-- Aria's Bracelet: WIT -->
+		</skills>
 	</item>
 	<item id="38569" name="Aria's Bracelet" additionalName="STR+3" type="Armor">
 		<!-- Aria's Bracelet. Activates 5 Talisman slots. HP + 531, STR + 3. -->
 		<set name="icon" val="icon.accessory_bangel_of_tauti_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
-        <set name="item_skill" val="13588-1" /> <!-- Aria's Bracelet: STR -->
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="13588" level="1" /> <!-- Aria's Bracelet: STR -->
+		</skills>
 	</item>
 	<item id="38570" name="Aria's Bracelet" additionalName="INT+3" type="Armor">
 		<!-- Aria's Bracelet. Activates 5 Talisman slots. HP + 531, INT + 3. -->
 		<set name="icon" val="icon.accessory_bangel_of_tauti_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
-        <set name="item_skill" val="13589-1" /> <!-- Aria's Bracelet: INT -->
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="13589" level="1" /> <!-- Aria's Bracelet: INT -->
+		</skills>
 	</item>
 	<item id="38571" name="Aria's Life Stone" type="EtcItem">
 		<!-- Stone containing Aria's power. Can be used as an ingredient for augmenting a special accessory. -->
 		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
 		<set name="weight" val="2" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="LIFE_STONE" /> -->
+		<set name="commissionItemType" val="LIFE_STONE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 	</item>
@@ -1093,14 +1105,14 @@
 		<set name="icon" val="icon.etc_life_stone_of_begining_i00" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="MATERIAL" />
-		<!-- <set name="commissionItemType" val="GEMSTONE" /> -->
+		<set name="commissionItemType" val="GEMSTONE" />
 	</item>
 	<item id="38573" name="Apparition Stone (Lv. 93)" type="EtcItem">
 		<!-- Made of a fake soul, this can summon Cassius at the Altar of Souls near Faeron Village. -->
 		<set name="icon" val="icon.etc_life_stone_of_begining_i00" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="MATERIAL" />
-		<!-- <set name="commissionItemType" val="GEMSTONE" /> -->
+		<set name="commissionItemType" val="GEMSTONE" />
 	</item>
 	<item id="38574" name="Apparition Stone (Lv. 98)" type="EtcItem">
 		<!-- Made of a fake soul, this can summon Ladar at the Altar of Souls near Faeron Village. -->
@@ -1111,22 +1123,22 @@
 	<item id="38575" name="Tiat's Charm" type="EtcItem">
 		<!-- Obtained by defeating Dragonkin, this is a special product of the Seed of Destruction. -->
 		<set name="icon" val="icon.etc_feather_black_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="38576" name="Freed Soul Crystal" type="EtcItem">
 		<!-- A crystallization of souls that have conglomerated due to powerful magic, this is a special product of the Seed of Infinity. -->
 		<set name="icon" val="icon.freed_soul_essense_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -1134,39 +1146,39 @@
 		<!-- Letter from Keucereus. Bring this to Sergeant Allenos at the Seed of Destruction. -->
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="38578" name="Keucereus' Introduction - Seed of Infinity" type="EtcItem">
 		<!-- Letter from Keucereus. Bring this to Officer Tepios at the Seed of Infinity. -->
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
 	<item id="38579" name="Tiat's Totem" type="EtcItem">
 		<!-- Obtained by hunting in the Seed of Destruction area. Bring these to Sergeant Allenos at the entrance. -->
 		<set name="icon" val="icon.etc_totem_necklace_black_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -1174,13 +1186,13 @@
 		<!-- Obtained by hunting in the Seed of Infinity area. Bring these to Officer Tepios at the entrance. -->
 		<set name="icon" val="icon.freed_soul_core_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -1188,8 +1200,8 @@
 		<!-- Use to feel the effects of the Heavenly Cocktail, Heavenly P. Atk. Cookie, and Emperor's Cookie. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.bm_buff_fighter_gd35_i00" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
@@ -1217,8 +1229,8 @@
 		<!-- Use to feel the effects of the Heavenly Cocktail, Heavenly Magic Cookie, and Emperor's Cookie. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.bm_buff_mage_gd35_i00" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
@@ -1246,8 +1258,8 @@
 		<!-- Use to feel the effects of the Heavenly Cocktail, Heavenly P. Def. Cookie, and Emperor's Cookie. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.bm_buff_tank_gd35_i00" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
@@ -1274,8 +1286,8 @@
 	<item id="38584" name="Emperor's Dessert Set Pack (Attack Type)" type="EtcItem">
 		<!-- Double-click to obtain either Emperor's Dessert Set (Attack) x 10. Cannot be used in the Olympiad. -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
@@ -1290,8 +1302,8 @@
 	<item id="38585" name="Emperor's Dessert Set Pack (Magic Type)" type="EtcItem">
 		<!-- Double-click to obtain either Emperor's Dessert Set (Magic) x 10. Cannot be used in the Olympiad. -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
@@ -1306,8 +1318,8 @@
 	<item id="38586" name="Emperor's Dessert Set Pack (Defense Type)" type="EtcItem">
 		<!-- Double-click to obtain either Emperor's Dessert Set (Defense) x 10. Cannot be used in the Olympiad. -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
@@ -1351,10 +1363,13 @@
 		<set name="bodypart" val="waist" />
 		<set name="crystal_type" val="R" />
 		<set name="weight" val="440" />
-        <set name="item_skill" val="13652-1" /> <!-- Tiat's Belt Skill -->
-		<for>
-			<add order="0" stat="pDef" val="25" />
-		</for>
+		<set name="enchant_enabled" val="1" />
+		<skills>
+			<skill id="13652" level="1" /> <!-- Tiat's Belt Skill -->
+		</skills>
+		<stats>
+			<stat type="pDef">25</stat>
+		</stats>
 	</item>
 	<item id="38592" name="Ekimus' Belt" type="Armor">
 		<!-- Belt instilled with Ekimus' power. Max HP/CP + 398, Max MP + 176, weight gauge + 12800, additional damage + 5%, inventory slot + 18. Received damage - 6%. -->
@@ -1364,22 +1379,25 @@
 		<set name="bodypart" val="waist" />
 		<set name="crystal_type" val="R" />
 		<set name="weight" val="440" />
-        <set name="item_skill" val="13653-1" /> <!-- Ekimus' Belt Skill -->
-		<for>
-			<add order="0" stat="pDef" val="25" />
-		</for>
+		<set name="enchant_enabled" val="1" />
+		<skills>
+			<skill id="13653" level="1" /> <!-- Ekimus' Belt Skill -->
+		</skills>
+		<stats>
+			<stat type="pDef">25</stat>
+		</stats>
 	</item>
 	<item id="38593" name="Professional Friend Catcher Pack" type="EtcItem">
 		<!-- You've caught a friend like a true pro! A special gift is prepared for you. Now try catching some fish for a change! -->
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -1387,12 +1405,12 @@
 		<!-- The wifi on your head will prevent you from getting caught! Do try to be careful from now on. -->
 		<set name="icon" val="icon.wifi_event_goggle_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="weight" val="10" />
 	</item>
@@ -1403,23 +1421,23 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="1370" />
-		<for>
-			<set stat="pAtk" val="175" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">175</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38596" name="Steel Bow of Peril" type="Weapon">
 		<!-- <Special Option>. Has a 42% chance of consuming 1 MP during a normal attack. Cannot augment or bestow a Soul Crystal option. -->
@@ -1428,24 +1446,24 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="1700" />
-		<for>
-			<set stat="pAtk" val="400" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">400</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38597" name="Steel Tallum Blade" type="Weapon">
 		<!-- <Special Option>. Atk. Spd. + 6%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1454,23 +1472,23 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="1330" />
-		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">213</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38598" name="Steel Draconic Bow" type="Weapon">
 		<!-- <Special Option>. Critical + 88. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1479,24 +1497,24 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="1650" />
-		<for>
-			<set stat="pAtk" val="581" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">581</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38599" name="Steel Dynasty Sword" type="Weapon">
 		<!-- <Special Option>. Critical + 111. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1505,22 +1523,22 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="1520" />
-		<for>
-			<set stat="pAtk" val="333" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">333</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 </list>

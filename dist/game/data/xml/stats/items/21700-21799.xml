@@ -1,182 +1,112 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="21700" name="Power Shirt Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Power Shirt. -->
+	<item id="21700" type="EtcItem" name="Olf's T-shirt Pack">
+		<!-- Description: Dimensional item. Gift box containing 1 Olf's T-shirt. Can be exchanged while in a pack. Cannot be dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
-		<set name="is_dropable" val="false" />
-		<set name="is_stackable" val="true" />
-		<set name="is_premium" val="true" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="is_freightable" val="true" />
-		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="is_mailable" val="false" />
-		<capsuled_items>
-			<item id="21580" min="1" max="1" chance="100" /> <!-- Power Shirt -->
-		</capsuled_items>
-	</item>
-	<item id="21701" name="Power Shirt Pack" additionalName="Event" type="EtcItem">
-		<!-- Wrapped Pack containing Power Shirt. -->
-		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<set name="default_action" val="PEEL" />
-		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="21706" min="1" max="1" chance="100" /> <!-- Power Shirt - Event -->
-		</capsuled_items>
+		<set name="capsuled_items" val="21580,1,1,100" />
 	</item>
-	<item id="21702" name="Olf's Thanksgiving Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Blessed Scroll: Enchant Power Shirt, Large Firecracker, and Honey Rice Cake. -->
+	<item id="21701" type="EtcItem" name="Olf's T-shirt Pack - Event">
+		<!-- Description: Gift box containing 1 Olf's T-shirt. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="21706,1,1,100" />
+	</item>
+	<item id="21702" type="EtcItem" name="Olf's Thanksgiving Pack">
+		<!-- Description: Dimensional item. Blessed Olf's T-shirt Enchant Scroll. Gift box containig 1 each of the Large Firework and Honey Rice Cakes. Can be exchanged while in a pack. Cannot be dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="material" val="STEEL" />
 		<set name="is_dropable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="PEEL" />
-		<set name="is_mailable" val="false" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21704" min="1" max="1" chance="100" /> <!-- Honey Rice Cakes -->
-			<item id="21582" min="1" max="1" chance="100" /> <!-- Blessed Scroll: Enchant Power Shirt -->
-			<item id="6407" min="1" max="1" chance="100" /> <!-- Large Firecracker -->
-		</capsuled_items>
 	</item>
-	<item id="21703" name="Olf's Thanksgiving XL Pack" type="EtcItem">
-		<!-- Wrapped Pack containing 6 Blessed Scrolls: Enchant Power Shirt, Large Firecrackers, and Honey Rice Cakes. -->
+	<item id="21703" type="EtcItem" name="Olf's Thanksgiving XL Pack">
+		<!-- Description: Dimensional item. Blessed Olf's T-shirt Enchant Scroll. Gift box containig 6 each of the Large Firework and Honey Rice Cakes. Can be exchanged while in a pack. Cannot be dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="material" val="STEEL" />
 		<set name="is_dropable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="PEEL" />
-		<set name="is_mailable" val="false" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21704" min="6" max="6" chance="100" /> <!-- Honey Rice Cakes -->
-			<item id="21582" min="6" max="6" chance="100" /> <!-- Blessed Scroll: Enchant Power Shirt -->
-			<item id="6407" min="6" max="6" chance="100" /> <!-- Large Firecracker -->
-		</capsuled_items>
 	</item>
-	<item id="21704" name="Honey Rice Cakes" type="EtcItem">
-		<!-- Delicious honey rice cakes. When used, instantly recovers Max MP by 50%. Cooldown is 5 min. -->
+	<item id="21704" type="EtcItem" name="Honey Rice Cakes">
+		<!-- Description: Delicious honey rice cakes. When used, instantly recovers Max MP by 50%. Reuse time is 5 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys.icon.br_taiwan_newyear_food_c_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="etcitem_type" val="POTION" />
-		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22251" level="1" /> <!-- Honey Rice Cakes -->
-		</skills>
 	</item>
-	<item id="21705" name="Honey Rice Cakes Pack" type="EtcItem">
-		<!-- Wrapped Pack containing 3 delicious honey rice cakes. -->
+	<item id="21705" type="EtcItem" name="Honey Rice Cakes Pack">
+		<!-- Description: Gift box containing 3 delicious honey rice cakes. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="default_action" val="PEEL" />
 		<set name="is_stackable" val="true" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21704" min="3" max="3" chance="100" /> <!-- Honey Rice Cakes -->
-		</capsuled_items>
 	</item>
-	<item id="21706" name="Power Shirt" additionalName="Event" type="Armor">
-		<!-- Special shirt that was handcrafted by the best weavers of Aden. Can be enchanted up to + 10 with Power Shirt exclusive enchant scrolls. Each enchant level bestows the shirt with special additional bonuses. -->
+	<item id="21706" type="Armor" name="Olf's T-shirt - Event">
+		<!-- Description: Dimensional item. Olf's T-shirt Enchant Scroll. Can enhance up to +10 using a Blessed Olf's T-shirt Enchant Scroll. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.7anni_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="5" />
+		<set name="enchant_enabled" val="2" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
-		<stats>
-			<stat type="pDef">28</stat>
-		</stats>
+		<set name="is_destroyable" val="false" />
+		<for>
+			<add order="0" stat="pDef" val="28" />
+		</for>
 	</item>
-	<item id="21707" name="Blessed Scroll: Enchant Power Shirt" additionalName="Event" type="EtcItem">
-		<!-- Enchant scroll exclusive to Power Shirts. Increases the Power Shirt P. Def. and M. Def. by 1. Starting from + 4, P. Def. + 3. Can be safely enchanted up to + 3 and can be enchanted up to a max of + 10. Basic stats (CON, MEN, STR, INT, DEX, WIT) are gradually increased with each enchant level starting from + 4. At + 5, + 7, + 8, and + 9, additional bonuses are also applied. If enchanting fails, the enchant value will be reset to 0. -->
+	<item id="21707" type="EtcItem" name="Blessed Olf's T-shirt Enchant Scroll - Event">
+		<!-- Description: Dimensional item. Enchant scroll exclusive to Olf's T-shirt. Increases the T-shirt's P. Def. and M. Def. by 1. Starting from +4, increases P. Def. by 3. Can safely enchant to +3 and up to a max +10. From +4, "basic abilities (CON, MEN, STR, INT, DEX, WIT)" are raised in stages. Special skills are added at +5, +7, +8 and +9. If the enchant fails, the existing enchant value becomes 0. Cannot be dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
+		<set name="weight" val="120" />
 		<set name="is_dropable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<skills>
-			<skill id="22254" level="1" /> <!-- Blessed Scroll: Enchant Power Shirt -->
-		</skills>
+		<set name="item_skill" val="22248-1" />
 	</item>
-	<item id="21708" name="Honey Rice Cakes" additionalName="Event" type="EtcItem">
-		<!-- Delicious honey rice cakes. When used, instantly recovers Max MP by 50%. Cooldown is 5 min. -->
+	<item id="21708" type="EtcItem" name="Honey Rice Cakes - Event">
+		<!-- Description: Delicious honey rice cakes. When used, instantly recovers Max MP by 50%. Reuse time is 5 minutes. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys.icon.br_taiwan_newyear_food_c_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="etcitem_type" val="POTION" />
-		<set name="handler" val="ItemSkills" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22255" level="1" /> <!-- Honey Rice Cakes -->
-		</skills>
 	</item>
-	<item id="21709" name="Agathion - Rudolph" additionalName="Event" type="Armor">
-		<!-- Bracelet that can summon a cute Rudolph Agathion. -->
+	<item id="21709" type="Armor" name="Agathion Seal Bracelet - Rudolph - Event">
+		<!-- Description: Bracelet that can summon a cute Rudolph Agathion. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.event_lbracelet_rudolph" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -184,121 +114,68 @@
 		<set name="weight" val="150" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="immediate_effect" val="true" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="21245" level="1" /> <!-- Release Agathion's Seal - Rudolph -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21245-1" />
 	</item>
-	<item id="21710" name="Vitality Replenishing Potion" additionalName="Event" type="EtcItem">
-		<!-- Replenishes Vitality upon use. Cooldown is 60 min. Vitality item with limited usage. -->
+	<item id="21710" type="EtcItem" name="Vitality Replenishing Beverage - Event">
+		<!-- Description: When used, replenishes energy to 100%. Reuse time is 60 minutes. Cannot be destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="5" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="shared_reuse_group" val="106" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="etcitem_type" val="POTION" />
-		<set name="handler" val="ItemSkills" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22252" level="1" /> <!-- Vitality Replenishing Potion -->
-		</skills>
 	</item>
-	<item id="21711" name="Santa's Blessing" additionalName="Event" type="EtcItem">
-		<!-- When used, HP Recovery Bonus, Max MP, and Critical Atk. Rate + 20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. -->
+	<item id="21711" type="EtcItem" name="Santa Claus's Blessing - Event">
+		<!-- Description: When used, HP Recovery Bonus, Max MP, and Critical Atk. Rate +20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. Cannot be destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys.icon.br_xmas_miracle_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="5" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="reuse_delay" val="3000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="etcitem_type" val="POTION" />
-		<set name="handler" val="ItemSkills" />
-		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22256" level="1" /> <!-- Might -->
-			<skill id="22257" level="1" /> <!-- Wind Walk -->
-			<skill id="22258" level="1" /> <!-- Haste -->
-			<skill id="22259" level="1" /> <!-- Vampiric Rage -->
-			<skill id="22260" level="1" /> <!-- Berserker Spirit -->
-			<skill id="22261" level="1" /> <!-- Empower -->
-			<skill id="22262" level="1" /> <!-- Acumen -->
-			<skill id="22263" level="1" /> <!-- Shield -->
-			<skill id="22264" level="1" /> <!-- Focus -->
-			<skill id="22265" level="1" /> <!-- Death Whisper -->
-			<skill id="22266" level="1" /> <!-- Guidance -->
-			<skill id="22267" level="1" /> <!-- Clarity -->
-			<skill id="22268" level="1" /> <!-- Wild Magic -->
-			<skill id="22269" level="6" /> <!-- Concentration -->
-			<skill id="22253" level="1" /> <!-- Prophecy of Water -->
-		</skills>
 	</item>
-	<item id="21712" name="Blessed Zaken's Earring" type="Armor">
-		<!-- MP+ 37, Bleed Resistance + 30%, Bleed Atk. Rate + 30%, Heal Amount + 15%, Vampiric Rage Effect, Stun/Mental Attack Resistance + 30%, Stun/Mental Atk. Rate + 30%, and Dark Resistance + 15. Only one effect is applied even when the same two earrings are worn. If it is equipped together with a standard Zaken's Earring, only the effect of Blessed Zaken's Earring will be applied. -->
+	<item id="21712" type="Armor" name="Blessed Earring of Zaken">
+		<!-- Description: MP+37, Resistance to Bleed +30%, Bleed attack rate +30%, heal amount +15%, vampiric rage effect, Resistance to Shock/Mental attacks +30%, Shock/Mental attack rate +30%, and Resistance to Dark +15. Only one effect is applied even when the same two earrings are worn. If it is equipped together with a standard Earring of Zaken, only the effect of Blessed Earring of Zaken will be applied. -->
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="364" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="547" />
+		<set name="crystal_type" val="S84" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3559-2" />
 		<set name="price" val="11394000" />
-		<set name="commissionItemType" val="EARRING" />
-		<skills>
-			<skill id="3559" level="2" /> <!-- Blessed Zaken's Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">94</stat>
-			<stat type="maxMp">37</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="94" />
+			<add stat="maxMp" val="37" />
+			<add stat="darkRes" val="15" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="21713" name="Zaken's Sealed Cloak" type="EtcItem">
-		<!-- When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21713" type="EtcItem" name="Sealed Cloak of Zaken">
+		<!-- Description: When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="icon.sealed_vesper_cloack_i01" />
 		<set name="material" val="CLOTH" />
 		<set name="price" val="29674485" />
 		<set name="weight" val="220" />
-		<set name="crystal_type" val="S80" />
-		<set name="immediate_effect" val="true" />
-		<set name="commissionItemType" val="CLOAK" />
 	</item>
-	<item id="21714" name="Sealed Cloak of Freya" type="EtcItem">
-		<!-- When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21714" type="EtcItem" name="Sealed Cloak of Freya">
+		<!-- Description: When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="icon.sealed_vesper_cloack_i01" />
 		<set name="material" val="CLOTH" />
 		<set name="price" val="32971650" />
 		<set name="weight" val="220" />
-		<set name="crystal_type" val="S80" />
-		<set name="immediate_effect" val="true" />
-		<set name="commissionItemType" val="CLOAK" />
 	</item>
-	<item id="21715" name="Frintezza's Sealed Cloak" type="EtcItem">
-		<!-- When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21715" type="EtcItem" name="Sealed Cloak of Frintezza">
+		<!-- Description: When the seal is released, P. Def. and attribute resistance increase, and special skills can be used. It can be equipped only after releasing the seal through the weavers Olf Kanore in Aden or Olf Adams in Rune. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="icon.sealed_vesper_cloack_i01" />
 		<set name="material" val="CLOTH" />
 		<set name="price" val="29674485" />
 		<set name="weight" val="220" />
-		<set name="crystal_type" val="S80" />
-		<set name="immediate_effect" val="true" />
-		<set name="commissionItemType" val="CLOAK" />
 	</item>
-	<item id="21716" name="Zaken's Cloak" type="Armor">
-		<!-- Cloak that makes you feel Zaken's sorrow. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21716" type="Armor" name="Cloak of Zaken">
+		<!-- Description: Cloak that makes you feel Zaken's sorrow. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="BranchSys2.Icon.br_zaken_cloak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -307,58 +184,46 @@
 		<set name="material" val="CLOTH" />
 		<set name="price" val="29674485" />
 		<set name="weight" val="220" />
-		<set name="commissionItemType" val="CLOAK" />
+		<set name="item_skill" val="21242-1" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<skills>
-			<skill id="21242" level="1" /> <!-- Zaken's Call -->
-		</skills>
-		<stats>
-			<stat type="darkRes">15</stat>
-			<stat type="earthRes">5</stat>
-			<stat type="fireRes">5</stat>
-			<stat type="holyRes">5</stat>
-			<stat type="waterRes">15</stat>
-			<stat type="windRes">15</stat>
-			<stat type="pDef">20</stat>
-		</stats>
+		<for>
+			<add stat="darkRes" val="15" />
+			<add stat="earthRes" val="5" />
+			<add stat="fireRes" val="5" />
+			<add stat="holyRes" val="5" />
+			<add stat="waterRes" val="15" />
+			<add stat="windRes" val="15" />
+			<add order="0" stat="pDef" val="20" />
+		</for>
 	</item>
-	<item id="21717" name="Cloak of Freya" type="Armor">
-		<!-- Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21717" type="Armor" name="Cloak of Freya">
+		<!-- Description: Cloak that makes you feel Freya's chill. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_type" val="S84" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="price" val="32971650" />
 		<set name="weight" val="220" />
-		<set name="commissionItemType" val="CLOAK" />
+		<set name="item_skill" val="21243-1" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<skills>
-			<skill id="21243" level="1" /> <!-- Freya's Call -->
-		</skills>
-		<stats>
-			<stat type="darkRes">10</stat>
-			<stat type="earthRes">10</stat>
-			<stat type="fireRes">10</stat>
-			<stat type="holyRes">20</stat>
-			<stat type="waterRes">20</stat>
-			<stat type="windRes">20</stat>
-			<stat type="pDef">30</stat>
-		</stats>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="20" />
+			<add stat="waterRes" val="20" />
+			<add stat="windRes" val="20" />
+			<add order="0" stat="pDef" val="30" />
+		</for>
 	</item>
-	<item id="21718" name="Frintezza's Cloak" type="Armor">
-		<!-- Cloak that plays Frintezza's melody over and over in your head. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. -->
+	<item id="21718" type="Armor" name="Cloak of Frintezza">
+		<!-- Description: Cloak that plays Frintezza's melody over and over in your head. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, and refining are impossible. Can be exchanged or dropped. -->
 		<set name="icon" val="BranchSys2.Icon.br_frintessa_cloak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -367,28 +232,22 @@
 		<set name="material" val="CLOTH" />
 		<set name="price" val="29674485" />
 		<set name="weight" val="220" />
-		<set name="commissionItemType" val="CLOAK" />
+		<set name="item_skill" val="21244-1" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<skills>
-			<skill id="21244" level="1" /> <!-- Frintezza's Call -->
-		</skills>
-		<stats>
-			<stat type="darkRes">15</stat>
-			<stat type="earthRes">15</stat>
-			<stat type="fireRes">15</stat>
-			<stat type="holyRes">5</stat>
-			<stat type="waterRes">5</stat>
-			<stat type="windRes">5</stat>
-			<stat type="pDef">20</stat>
-		</stats>
+		<for>
+			<add stat="darkRes" val="15" />
+			<add stat="earthRes" val="15" />
+			<add stat="fireRes" val="15" />
+			<add stat="holyRes" val="5" />
+			<add stat="waterRes" val="5" />
+			<add stat="windRes" val="5" />
+			<add order="0" stat="pDef" val="20" />
+		</for>
 	</item>
-	<item id="21719" name="Zaken's Soul Cloak" type="Armor">
-		<!-- Cloak embroidered with Zaken's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21719" type="Armor" name="Soul Cloak of Zaken">
+		<!-- Description: Cloak embroidered with Zaken's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, refining, exchange, and drop are impossible. -->
 		<set name="icon" val="BranchSys2.Icon.br_zaken_cloak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -396,69 +255,49 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="110" />
+		<set name="item_skill" val="21242-1" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_dropable" val="false" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<skills>
-			<skill id="21242" level="1" /> <!-- Zaken's Call -->
-		</skills>
-		<stats>
-			<stat type="darkRes">10</stat>
-			<stat type="earthRes">5</stat>
-			<stat type="fireRes">5</stat>
-			<stat type="holyRes">5</stat>
-			<stat type="waterRes">10</stat>
-			<stat type="windRes">10</stat>
-			<stat type="pDef">40</stat>
-		</stats>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="5" />
+			<add stat="fireRes" val="5" />
+			<add stat="holyRes" val="5" />
+			<add stat="waterRes" val="10" />
+			<add stat="windRes" val="10" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
 	</item>
-	<item id="21720" name="Freya's Soul Cloak" type="Armor">
-		<!-- Cloak embroidered with Freya's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Cannot be enchanted, augmented, or assigned an attribute. -->
+	<item id="21720" type="Armor" name="Soul Cloak of Freya">
+		<!-- Description: Cloak embroidered with Freya's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, refining, exchange, and drop are impossible. -->
 		<set name="icon" val="BranchSys2.Icon.br_freya_cloak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_type" val="S84" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="110" />
+		<set name="item_skill" val="21243-1" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_dropable" val="false" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<skills>
-			<skill id="21243" level="1" /> <!-- Freya's Call -->
-		</skills>
-		<stats>
-			<stat type="darkRes">5</stat>
-			<stat type="earthRes">5</stat>
-			<stat type="fireRes">5</stat>
-			<stat type="holyRes">15</stat>
-			<stat type="waterRes">15</stat>
-			<stat type="windRes">15</stat>
-			<stat type="pDef">60</stat>
-		</stats>
+		<for>
+			<add stat="darkRes" val="5" />
+			<add stat="earthRes" val="5" />
+			<add stat="fireRes" val="5" />
+			<add stat="holyRes" val="15" />
+			<add stat="waterRes" val="15" />
+			<add stat="windRes" val="15" />
+			<add order="0" stat="pDef" val="60" />
+		</for>
 	</item>
-	<item id="21721" name="Frintezza's Soul Cloak" type="Armor">
-		<!-- Cloak embroidered with Frintezza's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, augmenting, exchange, and drop are impossible. -->
+	<item id="21721" type="Armor" name="Soul Cloak of Frintezza">
+		<!-- Description: Cloak embroidered with Frintezza's soul. Increases P. Def. and attribute resistance. Unlocks a skill to move to the boss area. Can only be equipped when the cloak slot is open. Enchantment, attribute, refining, exchange, and drop are impossible. -->
 		<set name="icon" val="BranchSys2.Icon.br_frintessa_cloak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -466,34 +305,24 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="110" />
+		<set name="item_skill" val="21244-1" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_dropable" val="false" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<skills>
-			<skill id="21244" level="1" /> <!-- Frintezza's Call -->
-		</skills>
-		<stats>
-			<stat type="darkRes">10</stat>
-			<stat type="earthRes">10</stat>
-			<stat type="fireRes">10</stat>
-			<stat type="holyRes">5</stat>
-			<stat type="waterRes">5</stat>
-			<stat type="windRes">5</stat>
-			<stat type="pDef">40</stat>
-		</stats>
+		<for>
+			<add stat="darkRes" val="10" />
+			<add stat="earthRes" val="10" />
+			<add stat="fireRes" val="10" />
+			<add stat="holyRes" val="5" />
+			<add stat="waterRes" val="5" />
+			<add stat="windRes" val="5" />
+			<add order="0" stat="pDef" val="40" />
+		</for>
 	</item>
-	<item id="21722" name="Zaken's Soul Fragment" type="EtcItem">
-		<!-- Small fragment that contains a part of Zaken's soul. See weaver Olf Adams to find out what use it Has. -->
+	<item id="21722" type="EtcItem" name="Zaken's Soul Fragment">
+		<!-- Description: Small fragment that contains a part of Zaken's soul. See weaver Olf Adams to find out what use it has. -->
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -502,14 +331,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="21723" name="Freya's Soul Fragment" type="EtcItem">
-		<!-- Small fragment that contains a part of Freya's soul. See weaver Olf Adams to find out what use it Has. -->
+	<item id="21723" type="EtcItem" name="Freya's Soul Fragment">
+		<!-- Description: Small fragment that contains a part of Freya's soul. See weaver Olf Adams to find out what use it has. -->
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -518,14 +343,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="21724" name="Frintezza's Soul Fragment" type="EtcItem">
-		<!-- Small fragment that contains a part of Frintezza's soul. See weaver Olf Adams to find out what use it Has. -->
+	<item id="21724" type="EtcItem" name="Frintezza's Soul Fragment">
+		<!-- Description: Small fragment that contains a part of Frintezza's soul. See weaver Olf Adams to find out what use it has. -->
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -534,14 +355,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="21725" name="Staff of Goddess: Rain Song Fragment" type="EtcItem">
-		<!-- Severely damaged staff piece. Mysterious light shines faintly. -->
+	<item id="21725" type="EtcItem" name="Staff of Goddess: Rain Song Fragment">
+		<!-- Description: A severaly damaged staff piece. A mysterious light shines faintly. -->
 		<set name="icon" val="icon.etc_i.etc_vesper_caster_piece_i00" />
 		<set name="material" val="WOOD" />
 		<set name="is_tradable" val="false" />
@@ -549,52 +366,20 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="21726" name="Angel Cat's Blessing" additionalName="Event" type="EtcItem">
-		<!-- When used, HP Recovery Bonus, Max MP, and Critical Atk. Rate + 20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. -->
+	<item id="21726" type="EtcItem" name="Angel Cat's Blessing - Event">
+		<!-- Description: When used, HP Recovery Bonus, Max MP, and Critical Atk. Rate +20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys.icon.br_xmas_miracle_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="reuse_delay" val="3000" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="etcitem_type" val="POTION" />
-		<set name="handler" val="ItemSkills" />
-		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22256" level="1" /> <!-- Might -->
-			<skill id="22257" level="1" /> <!-- Wind Walk -->
-			<skill id="22258" level="1" /> <!-- Haste -->
-			<skill id="22259" level="1" /> <!-- Vampiric Rage -->
-			<skill id="22260" level="1" /> <!-- Berserker Spirit -->
-			<skill id="22261" level="1" /> <!-- Empower -->
-			<skill id="22262" level="1" /> <!-- Acumen -->
-			<skill id="22263" level="1" /> <!-- Shield -->
-			<skill id="22264" level="1" /> <!-- Focus -->
-			<skill id="22265" level="1" /> <!-- Death Whisper -->
-			<skill id="22266" level="1" /> <!-- Guidance -->
-			<skill id="22267" level="1" /> <!-- Clarity -->
-			<skill id="22268" level="1" /> <!-- Wild Magic -->
-			<skill id="22269" level="6" /> <!-- Concentration -->
-			<skill id="22253" level="1" /> <!-- Prophecy of Water -->
-		</skills>
 	</item>
-	<item id="21727" name="Agathion - Zinyanzi (3-day)" additionalName="3-day" type="Armor">
-		<!-- Bracelet skill that lets you summon Zinyanzi for 3 days. Upon using the skill name, instantly recovers XP, HP, MP, and CP, and makes you invincible for 5 seconds. (But can only be used when HP is below 30%.). Cooldown is 12 hours. -->
+	<item id="21727" type="Armor" name="Zinenze Agathion Bracelet (3 day) - 3-day limited period">
+		<!-- Description: Bracelet skill that let's you summon Zinenze for 3 days. Upon using the skill name, instantly recovers Exp, HP, MP, and CP, and makes you invincible for 5 seconds. (But can only be used when HP is below 30%.). Cool time is 12 hour(s). Can be stored in a private warehouse. But cannot be exchange, dropped, or sold in shops. -->
 		<set name="icon" val="BranchSys2.Icon.br_aga_jinjiayan_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -603,23 +388,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="immediate_effect" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="21248-1;23305-1;23306-1;3267-1" />
 		<set name="time" val="4320" />
-		<skills>
-			<skill id="21248" level="1" /> <!-- Release Agathion's Seal - Zinyanzi -->
-			<skill id="23306" level="1" /> <!-- Zinyanzi Agathion Cute Trick -->
-			<skill id="23305" level="1" /> <!-- Zinyanzi Agathion - Yunbokhwan -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="21728" name="Agathion - Zinyanzi (7-day)" additionalName="7-day" type="Armor">
-		<!-- Bracelet skill that lets you summon Zinyanzi for 3 days. Upon using the skill name, instantly recovers XP, HP, MP, and CP, and makes you invincible for 5 seconds. (But can only be used when HP is below 31%.). Cooldown is 12 hours. -->
+	<item id="21728" type="Armor" name="Zinenze Agathion Bracelet (7 day) - 7-day limited period">
+		<!-- Description: Bracelet skill that let's you summon Zinenze for 3 days. Upon using the skill name, instantly recovers Exp, HP, MP, and CP, and makes you invincible for 5 seconds. (But can only be used when HP is below 31%.). Cool time is 12 hour(s). Can be stored in a private warehouse. But cannot be exchange, dropped, or sold in shops. -->
 		<set name="icon" val="BranchSys2.Icon.br_aga_jinjiayan_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -628,23 +402,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="immediate_effect" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="21248-1;23305-1;23306-1;3267-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21248" level="1" /> <!-- Release Agathion's Seal - Zinyanzi -->
-			<skill id="23306" level="1" /> <!-- Zinyanzi Agathion Cute Trick -->
-			<skill id="23305" level="1" /> <!-- Zinyanzi Agathion - Yunbokhwan -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="21729" name="Agathion - Yanzi" additionalName="Permanent" type="Armor">
-		<!-- Yanzi Agathion. Upon skill use, transforms into an Yanzi fairy. Can stay as an Yanzi fairy for 10 min. Cooldown is 5 hours. -->
+	<item id="21729" type="Armor" name="Enze Agathion Bracelet - Permanent">
+		<!-- Description: Enze Agathion. Upon skill use, transforms into an Enze fairy. Can stay as an Enze fairy for 10 minutes. Cool time is 5 hours. Can be traded, sold at a private store, and stored in a private warehouse. But cannot be dropped or sold at a shop. -->
 		<set name="icon" val="BranchSys2.Icon.br_aga_jiayan_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -652,814 +415,612 @@
 		<set name="weight" val="120" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_tradable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="is_freightable" val="true" />
-		<set name="immediate_effect" val="true" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="21249" level="1" /> <!-- Release Agathion's Seal - Yanzi -->
-			<skill id="23307" level="1" /> <!-- Yanzi Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="21249-1;23307-1;3267-1" />
 	</item>
-	<item id="21730" name="Letter Collector's Gift" additionalName="Event" type="EtcItem">
-		<!-- Letter Collector's Gift. Upon use, for 2 hours, increases Atk. Spd. + 15%, magic Casting Spd. + 15%, Speed + 20, and changes the appearance of the equipped weapon and armor to look like items of memory. Cooldown is 60 min. -->
-		<set name="icon" val="icon.shield_bread_i01" />
+	<item id="21730" type="EtcItem" name="Letter Collector's Gift - Event">
+		<!-- Description: 7th Anniversary. Letter Collector's Gift. Upon use, for 2 hours, increases Atk. Spd. +15%, Casting Spd. +15%, Speed +20, and changes the appearance of the equipped weapon and armor to look like items from the past. Reuse time is 60 minutes. -->
+		<set name="icon" val="BranchSys.icon.br_shield_bread_i01" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="5" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="etcitem_type" val="POTION" />
-		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22270" level="1" /> <!-- Letter Collector's Gift -->
-		</skills>
 	</item>
-	<item id="21731" name="Maingauche" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Maingauche of Memory -->
+	<item id="21731" type="Weapon" name="Maingauche - Event">
+		<!-- Description: Letter Collector's Maingauche of Memory -->
 		<set name="icon" val="icon.weapon_maingauche_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1070" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="DAGGER" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">69</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="69" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21732" name="Sword of Revolution" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Sword of Revolution of Memory -->
+	<item id="21732" type="Weapon" name="Sword of Revolution - Event">
+		<!-- Description: Letter Collector's Sword of Revolution of Memory -->
 		<set name="icon" val="icon.weapon_sword_of_revolution_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1450" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">79</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="79" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21733" name="Lesser Giant's Sword" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Lesser Giant's Sword of Memory -->
+	<item id="21733" type="Weapon" name="Titan Sword - Event">
+		<!-- Description: Letter Collector's Titan Sword of Memory -->
 		<set name="icon" val="icon.weapon_giants_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2020" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;44;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">96</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="96" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21734" name="Priest Mace" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Priest Mace of Memory -->
+	<item id="21734" type="Weapon" name="Priest Mace - Event">
+		<!-- Description: Letter Collector's Priest Mace of Memory -->
 		<set name="icon" val="icon.weapon_mace_of_priest_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1720" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">63</stat>
-			<stat type="mAtk">63</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="63" />
+			<set stat="mAtk" val="63" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21735" name="Tarbar" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Tarbar of Memory -->
+	<item id="21735" type="Weapon" name="Tarbar - Event">
+		<!-- Description: Letter Collector's Tarbar of Memory -->
 		<set name="icon" val="icon.weapon_tarbar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1730" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">79</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="79" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21736" name="Goat Head Staff" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Goat Head Staff of Memory -->
+	<item id="21736" type="Weapon" name="Goat Head Staff - Event">
+		<!-- Description: Letter Collector's Goat Head Staff of Memory -->
 		<set name="icon" val="icon.weapon_goathead_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;46;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">77</stat>
-			<stat type="mAtk">69</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="77" />
+			<set stat="mAtk" val="69" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21737" name="Lesser Giant's Hammer" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Lesser Giant's Hammer of Memory -->
+	<item id="21737" type="Weapon" name="Titan Hammer - Event">
+		<!-- Description: Letter Collector's Titan Hammer of Memory -->
 		<set name="icon" val="icon.weapon_giants_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2100" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;44;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">96</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="96" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21738" name="Winged Spear" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Winged Spear of Memory -->
+	<item id="21738" type="Weapon" name="Winged Spear - Event">
+		<!-- Description: Letter Collector's Winged Spear of Memory -->
 		<set name="icon" val="icon.weapon_winged_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2060" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;66;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">79</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="79" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21739" name="Reinforced Longbow" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Strengthened Low Bow of Memory -->
+	<item id="21739" type="Weapon" name="Reinforced Long Bow - Event">
+		<!-- Description: Letter Collector's Strengthened Low Bow of Memory -->
 		<set name="icon" val="icon.weapon_strengthening_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
-		<set name="reuse_delay" val="820" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;10;0" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">179</stat>
-			<stat type="mAtk">51</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="179" />
+			<set stat="mAtk" val="51" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="227" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21740" name="Épée" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's ?p?e of Memory -->
+	<item id="21740" type="Weapon" name="Epee - Event">
+		<!-- Description: Letter Collector's Epee of Memory -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1450" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="RAPIER" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<skills>
-			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
-		</skills>
-		<stats>
-			<stat type="pAtk">72</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="72" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="406" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21741" name="Sword of Magic Fog" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Sword of Magic Fog of Memory -->
+	<item id="21741" type="Weapon" name="Sword of Magic Fog - Event">
+		<!-- Description: Letter Collector's Sword of Magic Fog of Memory -->
 		<set name="icon" val="icon.weapon_sword_of_magic_fog_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1450" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">63</stat>
-			<stat type="mAtk">63</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="63" />
+			<set stat="mAtk" val="63" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21742" name="Bastard Sword*Bastard Sword" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Bastars*Bastard of Memory -->
+	<item id="21742" type="Weapon" name="Bastard Sword*Bastard Sword - Event">
+		<!-- Description: Letter Collector's Bastars*Bastard of Memory -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2470" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="DUALSWORD" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;44;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">96</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="96" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21743" name="Bich'Hwa" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Bich'Hwa of Memory -->
+	<item id="21743" type="Weapon" name="Bich'Hwa - Event">
+		<!-- Description: Letter Collector's Bich'Hwa of Memory -->
 		<set name="icon" val="icon.weapon_bichhwa_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;32;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">96</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="96" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21744" name="Katzbalger" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Katzbalger of Memory -->
+	<item id="21744" type="Weapon" name="Katzbalger - Event">
+		<!-- Description: Letter Collector's Katzbalger of Memory -->
 		<set name="icon" val="icon.weapon_tulwar_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2020" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ANCIENT_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<stats>
-			<stat type="pAtk">86</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">2</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">350</stat>
-			<stat type="randomDamage">15</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="86" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="350" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21745" name="Arm Breaker" additionalName="Event" type="Weapon">
-		<!-- Letter Collector's Arm Breaker of Memory -->
+	<item id="21745" type="Weapon" name="Arm Breaker - Event">
+		<!-- Description: Letter Collector's Arm Breaker of Memory -->
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
 		<set name="crystal_type" val="D" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1820" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
-		<set name="reuse_delay" val="400" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="CROSSBOW" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;40;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">100</stat>
-			<stat type="mAtk">47</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="100" />
+			<set stat="mAtk" val="47" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="303" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="21746" name="Maestro's Key" type="EtcItem">
-		<!-- Has a 100% chance of opening treasure chests between levels 21-85. When a character level 77 or below uses it on a treasure chest that is 6 levels higher or more, or when a character level 78 or above uses it on a treasure chest that is 5 levels higher or more, the key disappears but the reward cannot be obtained. -->
+	<item id="21746" type="EtcItem" name="Maestro's Key">
+		<!-- High Five Item -->
 		<set name="icon" val="icon.etc_old_key_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 		<set name="price" val="1800" />
+		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="22271-1" />
+		<cond msgId="113" addName="1">
 			<target levelRange="21;85" />
 		</cond>
-		<skills>
-			<skill id="22271" level="1" /> <!-- Maestro's Key -->
-		</skills>
 	</item>
-	<item id="21747" name="Novice Adventurer's Treasure Sack" type="EtcItem">
-		<!-- Treasure sack containing the treasure of beginner adventurers. Open it to obtain one random C or D-grade Weapon. -->
+	<item id="21747" type="EtcItem" name="Beginner Adventurer's Treasure Sack">
+		<!-- High Five Item -->
 		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
-		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="COTTON" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22272" level="1" /> <!-- Novice Explorer's Treasure Sack -->
-		</skills>
+		<set name="item_skill" val="22272-1" />
 	</item>
-	<item id="21748" name="Experienced Adventurer's Treasure Sack" type="EtcItem">
-		<!-- Treasure sack containing the treasure of experienced adventurers. Open it to obtain one random B, A or S-grade Weapon (Dynasty excluded). -->
+	<item id="21748" type="EtcItem" name="Experienced Adventurer's Treasure Sack">
+		<!-- High Five Item -->
 		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
-		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="COTTON" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22273" level="1" /> <!-- Experienced Adventurer's Treasure Sack -->
-		</skills>
+		<set name="item_skill" val="22273-1" />
 	</item>
-	<item id="21749" name="Great Adventurer's Treasure Sack" type="EtcItem">
-		<!-- Treasure sack containing the treasure of great adventurers. Open it to obtain one random Dynasty, Icarus or Vesper Weapon. -->
+	<item id="21749" type="EtcItem" name="Great Adventurer's Treasure Sack">
+		<!-- High Five Item -->
 		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
-		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="COTTON" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22274" level="1" /> <!-- Great Adventurer's Treasure Sack -->
-		</skills>
+		<set name="item_skill" val="22274-1" />
 	</item>
-	<item id="21750" name="Mark of Challenge" type="EtcItem">
-		<!-- Mark received by adventurers for their service to the Elmore king. If you bring it to Captain Mathias in Rune, you will receive a reward. -->
+	<item id="21750" type="EtcItem" name="Blue Elmore Coin">
+		<!-- Description: Token received by adventurers for their service to the Elmore king. If you bring it to Captain Mathias in Rune, you will receive a reward. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_coins_blue_i00" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_questitem" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21751" name="Rune Jewelry Box - Crystal" type="EtcItem">
-		<!-- Jewelry box containing the precious treasure of Rune. When used, you can obtain 15 Crystals of Life with a certain chance. -->
+	<item id="21751" type="EtcItem" name="Rune Jewelry Box - Crystal">
+		<!-- Description: Jewelry box containing the precious treasure of Rune. When used, you can obtain 15 Crystals of Life with a certain rate of chance. -->
 		<set name="icon" val="icon.etc_treasure_box_i07" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22275" level="1" /> <!-- Rune Jewelry Box - Crystal -->
-		</skills>
 	</item>
-	<item id="21752" name="Rune Jewelry Box - Talisman" type="EtcItem">
-		<!-- Jewelry box containing the precious treasure of Rune. When used, you can obtain a Talisman with a certain chance. -->
+	<item id="21752" type="EtcItem" name="Rune Jewelry Box - Talisman">
+		<!-- Description: Jewelry box containing the precious treasure of Rune. When used, you can obtain a Talisman with a certain rate of chance. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
-		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+ 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22276" level="1" /> <!-- Rune Jewelry Box - Talisman -->
-		</skills>
+		<set name="item_skill" val="22276-1" />
 	</item>
-	<item id="21753" name="Pablo's Box" type="EtcItem">
-		<!-- Box containing the precious treasure of Elmore's renowned scholar Pablo. When used, you can obtain a hat with a certain chance. -->
+	<item id="21753" type="EtcItem" name="Pablo's Box">
+		<!-- Description: Box containing the precious treasure of Elmore's renowned scholar Pablo. When used, you can obtain a hat with a certain rate of chance. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-		<skills>
-			<skill id="22277" level="1" /> <!-- Pablo's Box -->
-		</skills>
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22277-1" />
 	</item>
-	<item id="21754" name="Pencil Corps' Magic Pencil" type="Weapon">
-		<!-- Magic pencil with a sharp tip. Provided to and only used by Pencil Corps. -->
+	<item id="21754" type="Weapon" name="Server Ziggi's Magic Pencil">
+		<!-- Description: Magic pencil with a sharp tip. Item that can be used only on the server Ziggi. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.g_pencil_of_servermaster" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="1" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="100" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="isAppearanceable" val="true" />
-		<set name="damage_range" val="0;0;66;120" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_dropable" val="false" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">1</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3</stat>
-			<!-- Truncated value. -->
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">1</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="1" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="21755" name="Manor Scholar's Hat" type="Armor">
-		<!-- Scholar's hat showing knowledge. Gold tassel is attached. -->
+	<item id="21755" type="Armor" name="Manor Scholar's Hat">
+		<!-- Description: Scholar's hat showing knowledge. A gold tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.g_graduation_cap_gold" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="enchant_enabled" val="7" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="isAppearanceable" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_dropable" val="false" />
 	</item>
-	<item id="21756" name="Rank 1 Scholar's Hat" type="Armor">
-		<!-- Scholar's hat showing knowledge. Silver tassel is attached. -->
+	<item id="21756" type="Armor" name="Rank 1 Scholar's Hat">
+		<!-- Description: Scholar's hat showing knowledge. A silver tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.g_graduation_cap_white" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="enchant_enabled" val="7" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="isAppearanceable" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_dropable" val="false" />
 	</item>
-	<item id="21757" name="Rank 2 Scholar's Hat" type="Armor">
-		<!-- Scholar's hat showing knowledge. Red tassel is attached. -->
+	<item id="21757" type="Armor" name="Rank 2 Scholar's Hat">
+		<!-- Description: Scholar's hat showing knowledge. A red tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.g_graduation_cap_red" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="enchant_enabled" val="7" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="isAppearanceable" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_dropable" val="false" />
 	</item>
-	<item id="21758" name="Rank 3 Scholar's Hat" type="Armor">
-		<!-- Scholar's hat showing knowledge. Blue tassel is attached. -->
+	<item id="21758" type="Armor" name="Rank 3 Scholar's Hat">
+		<!-- Description: Scholar's hat showing knowledge. A blue tassle is attached. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="BranchSys2.icon.g_graduation_cap_blue" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="enchant_enabled" val="7" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="isAppearanceable" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_dropable" val="false" />
 	</item>
-	<item id="21759" name="Illumination - Red" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21759" type="EtcItem" name="Illumination - Red">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_red" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21760" name="Illumination - Pink" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21760" type="EtcItem" name="Illumination - Pink">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_pink" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21761" name="Illumination - Rose Pink" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21761" type="EtcItem" name="Illumination - Rose Pink">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_rosepink" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21762" name="Illumination - Orange" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21762" type="EtcItem" name="Illumination - Orange">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_orange" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21763" name="Illumination - Mint Green" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21763" type="EtcItem" name="Illumination - Mint Green">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_mintgreen" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21764" name="Illumination - Green" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21764" type="EtcItem" name="Illumination - Green">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_green" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21765" name="Illumination - Sky Blue" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21765" type="EtcItem" name="Illumination - Sky Blue">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_skyblue" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21766" name="Illumination - Blue" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21766" type="EtcItem" name="Illumination - Blue">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_blue" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21767" name="Illumination - Purple" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21767" type="EtcItem" name="Illumination - Purple">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_purple" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21768" name="Illumination - White" type="EtcItem">
-		<!-- Brightly burning illumination. -->
+	<item id="21768" type="EtcItem" name="Illumination - White">
+		<!-- Description: Brightly burning illumination. -->
 		<set name="icon" val="BranchSys2.icon.g_illumination_white" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21769" name="Unrefined Ore" type="EtcItem">
-		<!-- Ore before augmenting. Absolutely necessary for the craftsman to make a jewel. It should still fetch a certain price at the shop. -->
+	<item id="21769" type="EtcItem" name="Unrefined Ore">
+		<!-- Description: Ore before refining. Absolutely necessary for the craftsman to make a jewel. It should still fetch a certain price at the shop. -->
 		<set name="icon" val="icon.etc_stone_piece_i00" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21770" name="Unrefined Jewel" type="EtcItem">
-		<!-- Jewel before augmenting. Absolutely necessary for the craftsman to make a jewel. It should still fetch a certain price at the shop. -->
+	<item id="21770" type="EtcItem" name="Unrefined Jewel">
+		<!-- Description: Jewel before refining. Absolutely necessary for the craftsman to make a jewel. It should still fetch a certain price at the shop. -->
 		<set name="icon" val="icon.etc_vacualite_noglow_blue_i00" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21771" name="Jewel of Dusk" type="EtcItem">
-		<!-- Jewel carved with ancient skills. It shines brightly. It should still fetch a certain price at the shop. -->
+	<item id="21771" type="EtcItem" name="Jewel of Dusk">
+		<!-- Description: Jewel carged with ancient skills. It shines brightly. It should still fetch a certain price at the shop. -->
 		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21772" name="Jewel of Dawn" type="EtcItem">
-		<!-- The jewel of dawn that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop. -->
+	<item id="21772" type="EtcItem" name="Jewel of Dawn">
+		<!-- Description: The jewel of dawn that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop. -->
 		<set name="icon" val="BranchSys2.icon.g_dawn_gem" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21773" name="Jewel of Splendor" type="EtcItem">
-		<!-- The jewel of dawn that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop. -->
+	<item id="21773" type="EtcItem" name="Jewel of Splendor">
+		<!-- Description: The jewel of dawn that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop. -->
 		<set name="icon" val="BranchSys2.icon.g_brilliance_gem" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21774" name="Giant's Jewel" type="EtcItem">
-		<!-- The giant's jewel that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop. -->
+	<item id="21774" type="EtcItem" name="Giant's Jewel">
+		<!-- Description: The giant's jewel that was created by the craftsman using ancient skills. It shines brightly. It should still fetch a considerable price at the shop. -->
 		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
 		<set name="material" val="CRYSTAL" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="21775" name="Imperial Crusader Breastplate of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21775" type="Armor" name="Imperial Crusader Breastplate of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t88_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -1470,19 +1031,16 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">205</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="205" />
+		</for>
 	</item>
-	<item id="21776" name="Imperial Crusader Gaiters of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21776" type="Armor" name="Imperial Crusader Gaiters of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t88_l_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -1493,19 +1051,16 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">128</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="128" />
+		</for>
 	</item>
-	<item id="21777" name="Imperial Crusader Gauntlets of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21777" type="Armor" name="Imperial Crusader Gauntlet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t88_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1515,19 +1070,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+		</for>
 	</item>
-	<item id="21778" name="Imperial Crusader Boots of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21778" type="Armor" name="Imperial Crusader Boots of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t88_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -1537,19 +1086,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+		</for>
 	</item>
-	<item id="21779" name="Imperial Crusader Helmet of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21779" type="Armor" name="Imperial Crusader Helmet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -1559,65 +1102,42 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">83</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="83" />
+		</for>
 	</item>
-	<item id="21780" name="Imperial Crusader Shield of Fortune" additionalName="90-day" type="Armor">
+	<item id="21780" type="Armor" name="Imperial Crusader Shield of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
+		<set name="random_damage" val="0" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1170" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="element_enabled" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">290</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+		</for>
 	</item>
-	<item id="21781" name="Imperial Crusader of Fortune Set Pack (S-grade)" additionalName="90-day" type="EtcItem">
-		<!-- When used, you acquire an Imperial Crusader of Fortune armor set. Expires after 90 days if not used. -->
+	<item id="21781" type="EtcItem" name="Imperial Crusader of Fortune Set Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire an Imperial Crusader of Fortune armor set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="default_action" val="PEEL" />
 		<set name="time" val="129600" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21775" min="1" max="1" chance="100" /> <!-- Imperial Crusader Breastplate of Fortune - 90-day -->
-			<item id="21776" min="1" max="1" chance="100" /> <!-- Imperial Crusader Gaiters of Fortune - 90-day -->
-			<item id="21777" min="1" max="1" chance="100" /> <!-- Imperial Crusader Gauntlets of Fortune - 90-day -->
-			<item id="21778" min="1" max="1" chance="100" /> <!-- Imperial Crusader Boots of Fortune - 90-day -->
-			<item id="21779" min="1" max="1" chance="100" /> <!-- Imperial Crusader Helmet of Fortune - 90-day -->
-			<item id="21780" min="1" max="1" chance="100" /> <!-- Imperial Crusader Shield of Fortune - 90-day -->
-		</capsuled_items>
 	</item>
-	<item id="21782" name="Draconic Leather Armor of Fortune" additionalName="90-day" type="Armor">
-		<!-- One-piece Body Armor. Can be assigned an attribute. -->
+	<item id="21782" type="Armor" name="Draconic Leather Armor of Fortune - 90-day limited period">
+		<!-- Description: One-piece Body Armor. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t89_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -1628,19 +1148,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">249</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="249" />
+		</for>
 	</item>
-	<item id="21783" name="Draconic Leather Gloves of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21783" type="Armor" name="Draconic Leather Gloves of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t89_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1650,19 +1164,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+		</for>
 	</item>
-	<item id="21784" name="Draconic Leather Boots of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21784" type="Armor" name="Draconic Leather Boots of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t89_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -1672,19 +1180,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+		</for>
 	</item>
-	<item id="21785" name="Draconic Leather Helmet of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21785" type="Armor" name="Draconic Leather Helmet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -1694,40 +1196,21 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">83</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="83" />
+		</for>
 	</item>
-	<item id="21786" name="Draconic Leather of Fortune Set Pack (S-grade)" additionalName="90-day" type="EtcItem">
-		<!-- When used, you acquire a Draconic Leather of Fortune Armor Set. Expires after 90 days if not used. -->
+	<item id="21786" type="EtcItem" name="Draconic Leather of Fortune Set Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire a Draconic Leather of Fortune Armor Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="default_action" val="PEEL" />
 		<set name="time" val="129600" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21782" min="1" max="1" chance="100" /> <!-- Draconic Leather Armor of Fortune - 90-day -->
-			<item id="21783" min="1" max="1" chance="100" /> <!-- Draconic Leather Gloves of Fortune - 90-day -->
-			<item id="21784" min="1" max="1" chance="100" /> <!-- Draconic Leather Boots of Fortune - 90-day -->
-			<item id="21785" min="1" max="1" chance="100" /> <!-- Draconic Leather Helmet of Fortune - 90-day -->
-		</capsuled_items>
 	</item>
-	<item id="21787" name="Major Arcana Robe of Fortune" additionalName="90-day" type="Armor">
-		<!-- One-piece Body Armor. Can be assigned an attribute. -->
+	<item id="21787" type="Armor" name="Major Arcana Robe of Fortune - 90-day limited period">
+		<!-- Description: One-piece Body Armor. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t90_ul_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
@@ -1738,20 +1221,17 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">166</stat>
-			<stat type="maxMp">866</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="166" />
+			<add stat="maxMp" val="866" />
+		</for>
 	</item>
-	<item id="21788" name="Major Arcana Gloves of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21788" type="Armor" name="Major Arcana Gloves of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t90_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1761,19 +1241,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+		</for>
 	</item>
-	<item id="21789" name="Major Arcana Boots of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21789" type="Armor" name="Major Arcana Boots of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t90_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -1783,19 +1257,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+		</for>
 	</item>
-	<item id="21790" name="Major Arcana Circlet of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21790" type="Armor" name="Major Arcana Circlet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -1805,20 +1273,14 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">83</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="83" />
+		</for>
 	</item>
-	<item id="21791" name="Arcana Sigil of Fortune" additionalName="90-day" type="Armor">
+	<item id="21791" type="Armor" name="Arcana Sickle of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.arcana_sigil_i00" />
-		<set name="armor_type" val="SIGIL" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="S" />
@@ -1826,43 +1288,21 @@
 		<set name="weight" val="940" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="element_enabled" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">13</stat>
-			<stat type="rEvas">-8</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="13" />
+		</for>
 	</item>
-	<item id="21792" name="Major Arcana Robe of Fortune Set Pack (S-grade)" additionalName="90-day" type="EtcItem">
-		<!-- The Major Arcana Robe of Friendship set is provided when used. It becomes destroyed after 90 days if it is not used. -->
+	<item id="21792" type="EtcItem" name="Major Arcana Robe of Fortune Set Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire an Arcana Robe of Fortune Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="default_action" val="PEEL" />
 		<set name="time" val="129600" />
-		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21787" min="1" max="1" chance="100" /> <!-- Major Arcana Robe of Fortune - 90-day -->
-			<item id="21788" min="1" max="1" chance="100" /> <!-- Major Arcana Gloves of Fortune - 90-day -->
-			<item id="21789" min="1" max="1" chance="100" /> <!-- Major Arcana Boots of Fortune - 90-day -->
-			<item id="21790" min="1" max="1" chance="100" /> <!-- Major Arcana Circlet of Fortune - 90-day -->
-			<item id="21791" min="1" max="1" chance="100" /> <!-- Arcana Sigil of Fortune - 90-day -->
-		</capsuled_items>
 	</item>
-	<item id="21793" name="Dynasty Breastplate of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21793" type="Armor" name="Dynasty Breastplate of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -1873,19 +1313,16 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+		</for>
 	</item>
-	<item id="21794" name="Dynasty Gaiters of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21794" type="Armor" name="Dynasty Gaiters of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t91_l_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -1896,19 +1333,16 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">141</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="141" />
+		</for>
 	</item>
-	<item id="21795" name="Dynasty Gauntlets of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21795" type="Armor" name="Dynasty Gauntlet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t91_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
@@ -1918,19 +1352,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+		</for>
 	</item>
-	<item id="21796" name="Dynasty Boots of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21796" type="Armor" name="Dynasty Boots of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_t91_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
@@ -1940,19 +1368,13 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+		</for>
 	</item>
-	<item id="21797" name="Dynasty Helmet of Fortune" additionalName="90-day" type="Armor">
-		<!-- Can be assigned an attribute. -->
+	<item id="21797" type="Armor" name="Dynasty Helmet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
@@ -1962,61 +1384,41 @@
 		<set name="element_enabled" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="92" />
+		</for>
 	</item>
-	<item id="21798" name="Dynasty Shield of Fortune" additionalName="90-day" type="Armor">
+	<item id="21798" type="Armor" name="Dynasty Shield of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.shield_dynasty_shield_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
+		<set name="random_damage" val="0" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1150" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="element_enabled" val="true" />
-		<set name="immediate_effect" val="true" />
 		<set name="time" val="129600" />
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">321</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="321" />
+		</for>
 	</item>
-	<item id="21799" name="Dynasty Breastplate of Fortune Set Pack (S-grade)" additionalName="90-day" type="EtcItem">
-		<!-- When used, you acquire a Dynasty Breastplate Armor of Fortune Set. Expires after 90 days if not used. -->
+	<item id="21799" type="EtcItem" name="Dynasty Breastplate of Fortune Set Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire a Dynasty Breastplate Armor of Fortune Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="material" val="STEEL" />
+		<set name="immediate_effect" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="default_action" val="PEEL" />
 		<set name="time" val="129600" />
 		<set name="handler" val="ExtractableItems" />
-		<capsuled_items>
-			<item id="21793" min="1" max="1" chance="100" /> <!-- Dynasty Breastplate of Fortune - 90-day -->
-			<item id="21794" min="1" max="1" chance="100" /> <!-- Dynasty Gaiters of Fortune - 90-day -->
-			<item id="21795" min="1" max="1" chance="100" /> <!-- Dynasty Gauntlets of Fortune - 90-day -->
-			<item id="21796" min="1" max="1" chance="100" /> <!-- Dynasty Boots of Fortune - 90-day -->
-			<item id="21797" min="1" max="1" chance="100" /> <!-- Dynasty Helmet of Fortune - 90-day -->
-			<item id="21798" min="1" max="1" chance="100" /> <!-- Dynasty Shield of Fortune - 90-day -->
-		</capsuled_items>
+		<set name="capsuled_items" val="21793,1,1,100;21794,1,1,100;21795,1,1,100;21796,1,1,100;21797,1,1,100;21798,1,1,100" />
 	</item>
 </list>

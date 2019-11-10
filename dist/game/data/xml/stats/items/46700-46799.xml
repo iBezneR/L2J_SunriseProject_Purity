@@ -17,17 +17,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="1406" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1406</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="46701" name="Emperor Shunaiman's Buster" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -46,16 +48,18 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13926-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="683" />
-			<set stat="mAtk" val="513" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13926" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">683</stat>
+			<stat type="mAtk">513</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46702" name="Emperor Shunaiman's Caster" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -74,17 +78,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13926-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="683" />
-			<set stat="mAtk" val="513" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13926" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">683</stat>
+			<stat type="mAtk">513</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46703" name="Emperor Shunaiman's Retributer" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -103,17 +109,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13926-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="832" />
-			<set stat="mAtk" val="555" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13926" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">832</stat>
+			<stat type="mAtk">555</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46704" name="Emperor Shunaiman's Dualsword" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -132,16 +140,18 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46705" name="Emperor Shunaiman's Dual Dagger" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -160,17 +170,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;44;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="851" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="433" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">851</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46706" name="Emperor Shunaiman's Dual Blunt" additionalName="30-day" type="Weapon">
 		<!-- Dimensional Item. Emperor Shunaiman's Weapon. Can be used at all levels. Must use Soulshot (No-grade)/Spiritshot/Blessed Spiritshot. -->
@@ -189,17 +201,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
 		<set name="damage_range" val="0;0;40;120" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13925-1" /> <!-- Emperor Shunaiman's Authority -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="409" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13925" level="1" /> <!-- Emperor Shunaiman's Authority -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">409</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46707" name="Stylish Color Title" type="EtcItem">
 		<!-- Dimensional Item. Item that can change the color of a character's title. After changing the color of the title, the original title color can be restored through the command '/resettitle'. If there was no original title, the title disappears. -->
@@ -212,7 +226,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46708" name="Entrance Pass: Nightmare Kamaloka" type="EtcItem">
 		<!-- Dimensional Item. Extra Pass for Daily Instanced Zone Dungeon. Double click to reset the instance timer for the Nightmare Kamaloka dungeon. Usable once a day outside instances while on a cooldown. -->
@@ -233,9 +247,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-        <set name="item_skill" val="18703-1" />
+		<skills>
+			<skill id="18703" level="1" /> <!-- Pa'agrio's Blessing -->
+		</skills>
 	</item>
 	<item id="46710" name="Lindvior's Earring" additionalName="30-day" type="Armor">
 		<!-- Dimensional Item. MP +59, Petrification Atk./Resistance +50%, Knock Back/Knock Down Atk./Resistance +40%, Pulling Success Rate +40%, Pulling/Danger Zone Resistance +40%, P. Critical Damage +10%, M. Critical Damage +10%, P./M. Abnormal Status Reflection +10%. Reflect damage magic back to the attacker with the probability of 10%. Movement Speed +5, DEX +3, and WIT +3. Wind/Dark Attack Def. decreased. Enables the skill of cancelling Knock Back/Knock Down and increases Knock Back/Knock Down Resistance to 100% instantly. Effect does not stack with identical ones. -->
@@ -252,11 +268,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="170" />
-			<set stat="maxMp" val="59" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">170</stat>
+			<stat type="maxMp">59</stat>
+		</stats>
 	</item>
 	<item id="46711" name="Lindvior's Earring 30-day pack" type="EtcItem">
 		<!-- Dimensional Item. Gift Box containing one Lindvior's Earring (30-day). -->
@@ -268,7 +284,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46712" name="Blessed Antharas' Earring 30-day pack" type="EtcItem">
@@ -281,7 +297,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46713" name="Blessed Valakas' Necklace 30-day pack" type="EtcItem">
@@ -294,7 +310,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46714" name="Tauti's Ring 30-day pack" type="EtcItem">
@@ -307,7 +323,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46715" name="Earth Wyrm Heart Ring 30-day pack" type="EtcItem">
@@ -320,7 +336,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46716" name="Refined Black Romantic Chapeau" type="Armor">
@@ -335,7 +351,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46717" name="Mysterious Talisman - STR" additionalName="30-day" type="Armor">
@@ -351,7 +367,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46718" name="Mysterious Talisman - INT" additionalName="30-day" type="Armor">
 		<!-- Dimensional Item. INT +5 when wearing the Talisman. Effect does not stack with identical ones. -->
@@ -366,7 +382,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46719" name="Mysterious Talisman - DEX" additionalName="30-day" type="Armor">
 		<!-- Dimensional Item. DEX +5 when wearing the Talisman. Effect does not stack with identical ones. -->
@@ -381,7 +397,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46720" name="Mysterious Talisman - WIT" additionalName="30-day" type="Armor">
 		<!-- Dimensional Item. WIT +5 when wearing the Talisman. Effect does not stack with identical ones. -->
@@ -396,7 +412,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46721" name="Mysterious Talisman - CON" additionalName="30-day" type="Armor">
 		<!-- Dimensional Item. CON +5 when wearing the Talisman. Effect does not stack with identical ones. -->
@@ -411,7 +427,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46722" name="Mysterious Talisman - MEN" additionalName="30-day" type="Armor">
 		<!-- Dimensional Item. MEN +5 when wearing the Talisman. Effect does not stack with identical ones. -->
@@ -426,7 +442,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46723" name="Mysterious Talisman - STR 30-day pack" type="EtcItem">
 		<!-- Dimensional Item. Gift Box containing one Mysterious Talisman - STR (30-day). -->
@@ -438,7 +454,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46724" name="Mysterious Talisman - INT 30-day pack" type="EtcItem">
@@ -451,7 +467,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46725" name="Mysterious Talisman - DEX 30-day pack" type="EtcItem">
@@ -464,7 +480,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46726" name="Mysterious Talisman - WIT 30-day pack" type="EtcItem">
@@ -477,7 +493,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46727" name="Mysterious Talisman - CON 30-day pack" type="EtcItem">
@@ -490,7 +506,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46728" name="Mysterious Talisman - MEN 30-day pack" type="EtcItem">
@@ -503,7 +519,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46729" name="Scroll of Escape: Town of Goddard" type="EtcItem">
@@ -516,14 +532,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-1" /> <!-- Scroll of Escape: Town of Goddard -->
+		<skills>
+			<skill id="18582" level="1" /> <!-- Scroll of Escape: Town of Goddard -->
+		</skills>
 	</item>
 	<item id="46730" name="Scroll of Escape: Varka Silenos Barracks" type="EtcItem">
 		<!-- Teleports to Varka Silenos Barracks. -->
@@ -535,14 +553,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-2" /> <!-- Scroll of Escape: Varka Silenos Barracks -->
+		<skills>
+			<skill id="18582" level="2" /> <!-- Scroll of Escape: Varka Silenos Barracks -->
+		</skills>
 	</item>
 	<item id="46731" name="Scroll of Escape: Town of Goddard" type="EtcItem">
 		<!-- Teleports near the High Priest Gregory in the Town of Goddard. -->
@@ -554,14 +574,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-4" /> <!-- Scroll of Escape: Town of Goddard -->
+		<skills>
+			<skill id="18582" level="4" /> <!-- Scroll of Escape: Town of Goddard -->
+		</skills>
 	</item>
 	<item id="46732" name="Scroll of Escape: Ketra Orc Outpost" type="EtcItem">
 		<!-- Teleports to Ketra Orc Outpost. -->
@@ -573,14 +595,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-3" /> <!-- Scroll of Escape: Ketra Orc Outpost -->
+		<skills>
+			<skill id="18582" level="3" /> <!-- Scroll of Escape: Ketra Orc Outpost -->
+		</skills>
 	</item>
 	<item id="46733" name="Scroll of Escape: Town of Giran" type="EtcItem">
 		<!-- Teleports to Town of Giran. -->
@@ -592,14 +616,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-5" /> <!-- Scroll of Escape: Town of Giran -->
+		<skills>
+			<skill id="18582" level="5" /> <!-- Scroll of Escape: Town of Giran -->
+		</skills>
 	</item>
 	<item id="46734" name="Scroll of Escape: Dragon Valley" type="EtcItem">
 		<!-- Use to teleport to Dragon Valley. -->
@@ -611,14 +637,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-6" /> <!-- Scroll of Escape: Dragon Valley -->
+		<skills>
+			<skill id="18582" level="6" /> <!-- Scroll of Escape: Dragon Valley -->
+		</skills>
 	</item>
 	<item id="46735" name="Hatchling Flesh" type="EtcItem">
 		<!-- The article the Researcher Stena asked you to collected. Can be gained by defeating Dragon Hatchlings or Leopard Dragons that appear in the Dragon Valley area. Collect these and take them to the Researcher Stena at the entrance to Dragon Valley. -->
@@ -628,7 +656,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46736" name="Practice Fish" type="EtcItem">
 		<!-- A small fish that has been caught for fishing practice. Its impatient character means it is an easy catch, but it has no real product value. -->
@@ -639,7 +667,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46737" name="Practice Bait" type="EtcItem">
 		<!-- Bait used to catch practice fish. Ineffective in catching other types of fish. -->
@@ -653,7 +681,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46738" name="Practice Fishing Rod" type="Weapon">
 		<!-- A shoddy fishing rod that has been given to you for practice. It's fine for practice, though. -->
@@ -668,15 +696,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="46739" name="Reward Fishing Rod Pack" type="EtcItem">
 		<!-- A Reward Box obtained by training in fishing. Double click to obtain the item. -->
@@ -689,7 +717,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<capsuled_items>
 			<item id="46740" min="1" max="1" chance="100" /> <!-- Reward Fishing Rod - 7-day -->
 		</capsuled_items>
@@ -708,15 +736,15 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="10080" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="46741" name="Monster Only (Lesser Giant A)" type="Weapon">
 		<set name="icon" val="icon.weapon_monster_i00" />
@@ -730,16 +758,18 @@
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="enchant_enabled" val="1" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="50" />
-			<set stat="mAtk" val="26" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">50</stat>
+			<stat type="mAtk">26</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="46742" name="Monster Only (Lesser Giant Wizard's Weapon A)" type="Weapon">
 		<set name="icon" val="icon.weapon_monster_i00" />
@@ -754,16 +784,18 @@
 		<set name="spiritshots" val="2" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="50" />
-			<set stat="mAtk" val="26" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">50</stat>
+			<stat type="mAtk">26</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="46743" name="Varka's Badge: Soldier" type="EtcItem">
 		<!-- Badge of Silenos Soldiers at Varka Silenos Barracks. Take it to Giant's Minion Hansen at Varka Silenos Barracks to receive a reward. -->
@@ -773,7 +805,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46744" name="Varka's Badge: General" type="EtcItem">
 		<!-- Badge of Silenos Generals at Varka Silenos Barracks. Take it to Giant's Minion Hansen at Varka Silenos Barracks to receive a reward. -->
@@ -783,7 +815,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46745" name="Ketra's Badge: Soldier" type="EtcItem">
 		<!-- Badge of Orc Soldiers at Ketra Orc Outpost. Take it to Giant's Minion Lugonnes at Ketra Orc Outpost to receive a reward. -->
@@ -793,7 +825,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46746" name="Ketra's Badge: General" type="EtcItem">
 		<!-- Badge of Orc Generals at Ketra Orc Outpost. Take it to Giant's Minion Lugonnes at Ketra Orc Outpost to receive a reward. -->
@@ -803,7 +835,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46747" name="Shinedust" type="EtcItem">
 		<!-- Dust from a Shine Stone. Collect a certain amount and purify to gain the same effects as a Shine Stone. -->
@@ -813,7 +845,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46748" name="Minion's Shine Stone" type="EtcItem">
 		<!-- A Shine Stone that the Giant's Minion Retbach created by collecting Shinedust. This can be used on the Root of the Lesser Giant to induce evolution. -->
@@ -824,7 +856,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46749" name="Resistance Mark" type="EtcItem">
 		<!-- A Mark obtained as a reward for working hard for the safety of Kamael and all races in the Giant's Cave. Collect a certain number of these and take them to Kekropus to be recognized as a member of the Resistance. -->
@@ -834,7 +866,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46750" name="Resistance Mark Stage 1" type="EtcItem">
 		<!-- A Mark obtained as a reward for fighting against the Giants in the Giant's Cave alongside with Kamael. Collect 40 Marks of Resistance and go to Kekropus to trade with a Stage 2 Mark. -->
@@ -843,7 +875,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46751" name="Resistance Mark Stage 2" type="EtcItem">
 		<!-- A Mark obtained as a reward for fighting against the Giants in the Giant's Cave alongside with Kamael. With the Giants' activity increasing, it has been agreed that these eye-catching marks will no longer be used, so as to reduce risk. Marks can be exchanged for reward items through Krenaht at Kamael's Foothold. Marks will be deleted when the event ends. -->
@@ -852,7 +884,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46752" name="Resistance Mark Stage 3" type="EtcItem">
 		<!-- A Mark obtained as a reward for fighting against the Giants in the Giant's Cave alongside with Kamael. With the Giants' activity increasing, it has been agreed that these eye-catching marks will no longer be used, so as to reduce risk. Marks can be exchanged for reward items through Krenaht at Kamael's Foothold. Marks will be deleted when the event ends. -->
@@ -861,7 +893,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46753" name="Resistance Mark Stage 4" type="EtcItem">
 		<!-- A Mark obtained as a reward for fighting against the Giants in the Giant's Cave alongside with Kamael. With the Giants' activity increasing, it has been agreed that these eye-catching marks will no longer be used, so as to reduce risk. Marks can be exchanged for reward items through Krenaht at Kamael's Foothold. Marks will be deleted when the event ends. -->
@@ -870,7 +902,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46754" name="Resistance Mark Stage 5" type="EtcItem">
 		<!-- A Mark obtained as a reward for fighting against the Giants in the Giant's Cave alongside with Kamael. With the Giants' activity increasing, it has been agreed that these eye-catching marks will no longer be used, so as to reduce risk. Marks can be exchanged for reward items through Krenaht at Kamael's Foothold. Marks will be deleted when the event ends. -->
@@ -879,7 +911,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46755" name="Demon's Trace" type="EtcItem">
 		<!-- Traces indicating that the demons attempted to use the Lesser Giants. Collect these and take them to the Giant's Minion Retbach at the Giant's Cave. -->
@@ -889,7 +921,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46756" name="Minion's Report" type="EtcItem">
 		<!-- A report sent by the Giant's Minion Retbach to Hermuncus. -->
@@ -899,7 +931,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46757" name="Giants' Relic Key" type="EtcItem">
 		<!-- Key that can be used to open the 7 doors concealing the Giant's Relics on the lower level of the Giants's Cave. -->
@@ -915,7 +947,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46759" name="Steel Apocalypse Weapon Coupon" type="EtcItem">
 		<!-- Can be exchanged for an Apocalypse Weapon through the Adventurers' Guide in each village. -->
@@ -925,7 +957,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46760" name="Steel Armor Pack" type="EtcItem">
 		<!-- Double click to obtain either Immortal or Twilight Armor. -->
@@ -937,7 +969,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46761" name="Schumadriba's Reward Treasure Chest" type="EtcItem">
 		<!-- A reward box received from Schumadriba for thwarting the evolution of the Giants. You did this by collecting the Shinedust that Giants need to evolve in the upper level of the Giant's Cave. Double click to view the item. -->
@@ -948,7 +980,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46762" name="Schumadriba's Advanced Reward Treasure Chest" type="EtcItem">
 		<!-- A reward box received from Schumadriba for defeating the successfully evolved Giants in the lower level of the Giant's Cave. Double click to view the item. -->
@@ -959,7 +991,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46763" name="Scroll of Escape: Giant's Cave" type="EtcItem">
 		<!-- Teleports to Kekropus in the Giant's Cave. -->
@@ -971,14 +1003,16 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18582-7" /> <!-- Scroll of Escape: Giant's Cave -->
+		<skills>
+			<skill id="18582" level="7" /> <!-- Scroll of Escape: Giant's Cave -->
+		</skills>
 	</item>
 	<item id="46764" name="Shadai's Good Fortune Jewelry Box" type="EtcItem">
 		<!-- Double click to obtain one of the Good Fortune Jewelry Boxes -->
@@ -1080,7 +1114,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46778" name="Special Bait Coupon of Quest Pride" additionalName="Event" type="EtcItem">
@@ -1091,7 +1125,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="46779" name="Equipment Enchantment Chest of Quest Pride" additionalName="Event" type="EtcItem">
@@ -1103,7 +1137,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46780" name="Skill Enchantment Chest of Quest Pride" additionalName="Event" type="EtcItem">
 		<!-- Double click the chest to receive 1 random item relating to skill enchantment. Will be deleted when the event ends. -->
@@ -1114,7 +1148,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46781" name="Good Fortune Chest of Quest Pride" additionalName="Event" type="EtcItem">
 		<!-- Double click the chest to receive 1 random item. Will be deleted when the event ends. -->
@@ -1125,7 +1159,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46782" name="Graduation Gift" type="EtcItem">
 		<!-- A Mentee Graduation Gift. Use to obtain Soulshot (R-grade), Blessed Spiritshot (R-grade), Player Commendation - Enhanced Rosy Seduction, Blessed Scroll of Resurrection, Blessed Scroll of Escape. -->
@@ -1136,7 +1170,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46783" name="Blue Dynasty Transformation Potion" type="EtcItem">
 		<!-- Equips the Blue Dynasty for 1 hour. Will be deleted when the event ends. -->
@@ -1148,7 +1182,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46784" name="Red Zubei Transformation Potion" type="EtcItem">
 		<!-- Equips the Red Zubei for 1 hour. Will be deleted when the event ends. -->
@@ -1160,7 +1194,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46785" name="Spirit Fragment" type="EtcItem">
 		<!-- A fragment of the Spirit Realm, received from the Distorted Spirits inside the Dimensional Crack. -->
@@ -1171,7 +1205,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46786" name="Key to the Dimension Dissolver's Prison" type="EtcItem">
 		<!-- The key that opens the door to the Dimension Dissolver's Prison, sealed deep within the Dimensional Crack. -->
@@ -1181,7 +1215,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46787" name="Remnant of the Rift" type="EtcItem">
 		<!-- A Remnant of the Rift gained after completing daily explorations of the Dimensional Crack. This is a mark indicating how many times you have participated in daily explorations. -->
@@ -1192,7 +1226,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46788" name="Ten-day Log" type="EtcItem">
 		<!-- A log of your experiences during the ten-day adventure with the bard. Tells you how much progress you have made on the ten-day adventure. -->
@@ -1203,7 +1237,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46789" name="Fairy Blood" type="EtcItem">
 		<!-- Blood of the Reckless Fairy. Required to create a potion to calm the reckless energy of Fairies and Satyrs. Collect these and take them to a Fairy Citizen to receive a reward. -->
@@ -1214,7 +1248,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46790" name="Satyr Blood" type="EtcItem">
 		<!-- Blood of the Reckless Satyr. Required to create a potion to calm the reckless energy of Fairies and Satyrs. Collect these and take them to a Fairy Citizen to receive a reward. -->
@@ -1225,7 +1259,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="46791" name="Paulina's Sword of Revolution" type="Weapon">
 		<!-- A Sword of Revolution imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1241,17 +1275,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46792" name="Paulina's Claymore" type="Weapon">
 		<!-- A Claymore imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1267,17 +1303,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="121" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">121</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46793" name="Paulina's Tarbar" type="Weapon">
 		<!-- A Tarbar imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1293,18 +1331,20 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46794" name="Paulina's Scallop Jamadhr" type="Weapon">
 		<!-- A Scallop Jamadhr imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1320,18 +1360,20 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="121" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">121</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46795" name="Paulina's Light Crossbow" type="Weapon">
 		<!-- A Light Crossbow imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1349,18 +1391,21 @@
 		<set name="mp_consume" val="2" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="196" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="293" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<set name="reuse_delay" val="1500" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">196</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="46796" name="Paulina's Mithril Dagger" type="Weapon">
 		<!-- A Mithril Dagger imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1376,18 +1421,20 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="87" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="433" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">87</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46797" name="Paulina's Ghost Staff" type="Weapon">
 		<!-- A Ghost Staff imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>Atk. Spd. +5%, M. Critical Rate +30. -->
@@ -1403,19 +1450,21 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
+		<set name="is_depositable" val="true" />
 		<set name="is_magic_weapon" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13930-1" /> <!-- Paulina's Magic Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="97" />
-			<set stat="mAtk" val="88" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13930" level="1" /> <!-- Paulina's Magic Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">97</stat>
+			<stat type="mAtk">88</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46798" name="Paulina's General's Katzbalger" type="Weapon">
 		<!-- A General's Katzbalger imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
@@ -1431,21 +1480,23 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="108" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="2" />
-			<set stat="pAtkSpd" val="350" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">108</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="46799" name="Paulina's Grand Épée" type="Weapon">
-		<!-- A Grand ?p?e imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
+		<!-- A Grand Épée imbued with the energy of Paulina. Enchantment, Soul Crystal, Augment, and Attribute Assignment not possible. <Special Option>. Atk. Spd. +5%, P. Critical Rate +30. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
@@ -1458,17 +1509,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13929-1" /> <!-- Paulina's Battle Enhancement Blessing -->
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="60" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkSpd" val="406" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13929" level="1" /> <!-- Paulina's Battle Enhancement Blessing -->
+		</skills>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 </list>

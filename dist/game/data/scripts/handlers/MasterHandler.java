@@ -79,6 +79,7 @@ public class MasterHandler
 		AdminEffects.class,
 		AdminElement.class,
 		AdminEnchant.class,
+		AdminEvents.class,
 		AdminExpSp.class,
 		AdminFightCalculator.class,
 		AdminFortSiege.class,

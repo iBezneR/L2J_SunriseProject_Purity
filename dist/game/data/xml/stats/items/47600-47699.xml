@@ -11,15 +11,15 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_sellable" val="false" />
-		<for>
-			<set stat="pAtk" val="5" />
-			<set stat="mAtk" val="5" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">5</stat>
+			<stat type="mAtk">5</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="47601" name="Novice Training Log" type="EtcItem">
 		<!-- A log recorded by Shannon while training the new Commando recruits. You must take this to the Warehouse Keeper Wilford. -->
@@ -29,7 +29,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47602" name="Weapon Supply Box" type="EtcItem">
 		<!-- A weapon supply box that the Weapon Merchant Lector has asked you to take to the Administrative Offices -->
@@ -39,7 +39,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47603" name="Armor Supply Box" type="EtcItem">
 		<!-- An armor supply box that the Weapon Merchant Lector has asked you to take to the Administrative Offices -->
@@ -49,7 +49,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47604" name="Grocery Supply Box" type="EtcItem">
 		<!-- A grocery supply box that the Grocer Katerina has asked you to take to the Administrative Offices -->
@@ -59,7 +59,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47605" name="Accessory Supply Box" type="EtcItem">
 		<!-- An accessory supply box that the Accessory Merchant Trevor has asked you to take to the Administrative Offices -->
@@ -69,7 +69,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47606" name="Husk Distribution Report" type="EtcItem">
 		<!-- An Exploration Area 2 Husk Distribution Report that was misplaced in Area 2 by Nagel while retreating to Area 1. Collect and take to Celin who is in Area 2 for the meantime, instead of Nagel. -->
@@ -79,7 +79,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47607" name="King's Tonic" type="EtcItem">
 		<!-- A tonic that the Searchdog King takes for health. Due to the King's habit of hiding his possessions here and there, the tonic lies scattered throughout Exploration Area 4. The Husks sometimes unearth the tonic that the King has hidden, and carry them around. Collect the King's Tonic from the Husks, and take them to Sebion. -->
@@ -89,7 +89,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47608" name="Monkey Bait" additionalName="R" type="EtcItem">
 		<!-- Fishing Time: 75 seconds. Standby Time: 15 seconds. Fish bait bought from Chef Monkey. Fish using this bait to catch Ugly Fish, Nimble Fish, Powerful Fish, and Chef Monkey's Treasure Chest. Can be used by characters between Lv. 85-94. Will be deleted when the event ends. -->
@@ -126,7 +126,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47613" name="Angler's Bait (85)" type="EtcItem">
@@ -177,15 +177,15 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="47618" name="Angler's Fishing Rod - Stage 5 Box" additionalName="30-day" type="EtcItem">
 		<!-- When used, Master Fishing Rod - Stage 5 30-day can be obtained. -->
@@ -255,7 +255,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<skills>
 			<skill id="13562" level="10" /> <!-- Shiny Elemental Shirt -->
 			<skill id="13563" level="5" /> <!-- Einhasad's Wrath -->
@@ -264,9 +264,9 @@
 			<skill id="13566" level="2" /> <!-- Einhasad's Salvation -->
 			<skill id="13567" level="1" /> <!-- Einhasad's Blessing -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="52" />
-		</for>
+		<stats>
+			<stat type="pDef">52</stat>
+		</stats>
 	</item>
 	<item id="47626" name="Ruby Lv. 3 Jewelry Box" type="EtcItem">
 		<!-- Double-click to obtain a Ruby Lv. 3. -->
@@ -467,7 +467,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47651" name="PvP Rune - 1min" additionalName="Test Item" type="EtcItem">
 		<set name="icon" val="icon.bm_freya_bloody_rune" />
@@ -476,7 +476,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47652" name="PvP Rune - 10min" additionalName="Test Item" type="EtcItem">
 		<set name="icon" val="icon.bm_freya_bloody_rune" />
@@ -485,7 +485,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47653" name="PVE Rune" additionalName="Test Item" type="EtcItem">
 		<set name="icon" val="icon.bm_freya_bloody_rune" />
@@ -494,7 +494,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47654" name="PvE Rune - 1min" additionalName="Test Item" type="EtcItem">
 		<set name="icon" val="icon.bm_freya_bloody_rune" />
@@ -503,7 +503,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47655" name="PvE Rune - 10min" additionalName="Test Item" type="EtcItem">
 		<set name="icon" val="icon.bm_freya_bloody_rune" />
@@ -512,7 +512,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47656" name="Protector's Guardian Earrings" additionalName="30-day" type="Armor">
 		<!-- Earrings bought using Mark of Battle. Max MP +49. Max CP +10%, P. Def/M. Def +3%, Stun/MEN Atk./Def. Success Rate +30%, Vampiric Rage +4%. These effects do not stack with identical earrings. -->
@@ -529,50 +529,69 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="174" />
-			<set stat="maxMp" val="49" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">174</stat>
+			<stat type="maxMp">49</stat>
+		</stats>
 	</item>
 	<item id="47657" name="Potion of Protection: Pull" type="EtcItem">
 		<!-- When used, increases Resistance to Pull Attacks by 5%, and reduces damage taken in PvP by 3%. Cannot be used in the Olympiad. Does not stack when used with other Potions of Protection. -->
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i03" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
+		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_oly_restricted" val="true" />
+		<skills>
+			<skill id="18695" level="1" /> <!-- Potion of Protection: Pull -->
+		</skills>
 	</item>
 	<item id="47658" name="Potion of Protection: Danger Zone" type="EtcItem">
 		<!-- When used, increases Resistance to Danger Zone Attacks by 5%, and reduces damage taken in PvP by 3%. Cannot be used in the Olympiad. Does not stack when used with other Potions of Protection. -->
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i03" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
+		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_oly_restricted" val="true" />
+		<skills>
+			<skill id="18696" level="1" /> <!-- Potion of Protection: Danger Zone -->
+		</skills>
 	</item>
 	<item id="47659" name="Potion of Protection: Seduction" type="EtcItem">
 		<!-- When used, increases Resistance to Seduction Attacks by 5%, and reduces damage taken in PvP by 3%. Cannot be used in the Olympiad. Does not stack when used with other Potions of Protection. -->
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i04" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
+		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="47660" name="Potion of Protection: Bluff" type="EtcItem">
 		<!-- When used, increases Resistance to Bluff Attacks by 5%, and reduces damage taken in PvP by 3%. Cannot be used in the Olympiad. Does not stack when used with other Potions of Protection. -->
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i09" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
+		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_oly_restricted" val="true" />
+		<skills>
+			<skill id="18698" level="1" /> <!-- Potion of Protection: Bluff -->
+		</skills>
 	</item>
 	<item id="47661" name="Potion of Protection: Faint" type="EtcItem">
 		<!-- When used, increases Resistance to Faint Attacks by 5%, and reduces damage taken in PvP by 3%. Cannot be used in the Olympiad. Does not stack when used with other Potions of Protection. -->
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i08" />
-		<set name="default_action" val="SKILL_REDUCE" />
-		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
+		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="47662" name="Mysterious Box" type="EtcItem">
@@ -586,7 +605,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47663" name="Freya's Art of Seduction" additionalName="Barrier" type="EtcItem">
 		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 30%, P. Atk. + 10%, M. Atk. + 20%, P./M. Def + 30%, Speed + 20, Skill MP Consumption - 15%. Additionally, Damage Reduction + 10%, All Attributes Defense + 100. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
@@ -595,15 +614,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18700-1" /> <!-- Freya's Art of Seduction -->
+		<skills>
+			<skill id="18700" level="1" /> <!-- Freya's Art of Seduction -->
+		</skills>
 	</item>
 	<item id="47664" name="Freya's Art of Seduction" additionalName="EXP" type="EtcItem">
 		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 30%, P. Atk. + 10%, M. Atk. + 20%, P./M. Def + 30%, Speed + 20, Skill MP Consumption - 15%. Additionally, XP Gain + 30%, Vitality Bonus + 12. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
@@ -612,23 +633,34 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18701-1" /> <!-- Freya's Art of Seduction -->
+		<skills>
+			<skill id="18701" level="1" /> <!-- Freya's Art of Seduction -->
+		</skills>
 	</item>
 	<item id="47665" name="Pa'agrio's Blessing" additionalName="Might" type="EtcItem">
 		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 10%, P. Atk. + 20%, M. Atk. + 30%, P./M. Def + 10%, P. Accuracy+ 4, M. Accuracy + 4, Atk./Casting Spd. + 10%, Speed + 10, Attack Attribute + 100, Skill MP Consumption - 10%. Additionally, Damage + 10%, Skill Power + 10. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
 		<set name="icon" val="icon.nshop_bless_of_paagrio" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
 		<set name="is_sellable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="18727" level="1" /> <!-- Pa'agrio's Blessing - Might -->
+		</skills>
 	</item>
 	<item id="47666" name="Pa'agrio's Blessing" additionalName="EXP" type="EtcItem">
 		<!-- Dimensional Item. For 30 min., Max HP/MP/CP + 10%, P. Atk. + 20%, M. Atk. + 30%, P./M. Def + 10%, P. Accuracy+ 4, M. Accuracy + 4, Atk./Casting Spd. + 10%, Speed + 10, Attack Attribute + 100, Skill MP Consumption - 10%. Additionally, XP Gain + 30%, Vitality Bonus + 12. Buff remains in place after death. Cooldown is 5 minutes. Cannot be stacked with Art of Seduction. Cannot be used in Olympiad. -->
@@ -655,7 +687,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47669" name="Intermediate Arena Loot" type="EtcItem">
@@ -668,7 +700,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47670" name="High-grade Arena Loot" type="EtcItem">
@@ -681,7 +713,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47671" name="PC Points Coupon (180)" type="EtcItem">
@@ -695,22 +727,24 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47672" name="Formal Wear Appearance Stone" type="EtcItem">
 		<!-- An Appearance Stone to change your appearance to Formal Wear. Can be used for Upper Armor and Full-body. All armor takes the appearance of Formal Wear. Effect can be removed using an appearance restoration scroll. -->
 		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="18710-1" /> <!-- Formal Wear Appearance Stone -->
+		<skills>
+			<skill id="18710" level="1" /> <!-- Formal Wear Appearance Stone -->
+		</skills>
 	</item>
 	<item id="47673" name="Freya's Art of Seduction - Barrier" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 30%, P. Atk. 10%, M. Atk. 20%, P. Def/M. Def 30%, and Movement Speed by 20, and reduces Skill MP Consumption by 15% for 30 minutes. Additionally reduces damage taken by 10%, and increases all property Defense by 100. Buff effect persists through death. Cooldown: 5 minutes. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on May 25, 2016 (Wed) after regular maintenance. -->
@@ -719,19 +753,21 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18725-1" /> <!-- Art of Seduction -->
+		<skills>
+			<skill id="18725" level="1" /> <!-- Art of Seduction -->
+		</skills>
 	</item>
 	<item id="47674" name="Freya's Art of Seduction - EXP" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 30%, P. Atk. 10%, M. Atk. 20%, P. Def/M. Def 30%, and Movement Speed by 20, and reduces Skill MP Consumption by 15% for 30 minutes. Additionally Increases XP by 30%, and grants 12% bonus Vitality. Buff effect persists through death. Cooldown: 5 minutes. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on May 25, 2016 (Wed) after regular maintenance. -->
@@ -740,19 +776,21 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18726-1" /> <!-- Art of Seduction -->
+		<skills>
+			<skill id="18726" level="1" /> <!-- Art of Seduction -->
+		</skills>
 	</item>
 	<item id="47675" name="Pa'agrio's Blessing - Might" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 10%, P. Atk. 20%, M. Atk. 30%, P. Def/M. Def 10%, and Accuracy by 4, Magic Accuracy by 4, P. Atk./Casting Spd. by 10%, Movement Speed by 10, Attack Attribute by 100, and reduces Skill MP Consumption by 10% for 30 minutes. Additionally Increases Damage by 10%, and grants 10% Skill Power. Buff effect persists through death. Cooldown Time 5min. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on May 25, 2016 (Wed) after regular maintenance. -->
@@ -761,15 +799,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18727-1" />
+		<skills>
+			<skill id="18727" level="1" /> <!-- Pa??agrio??s Blessing - Might -->
+		</skills>
 	</item>
 	<item id="47676" name="Pa'agrio's Blessing - EXP" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 10%, P. Atk. 20%, M. Atk. 30%, P. Def/M. Def 10%, and Accuracy by 4, Magic Accuracy by 4, P. Atk./Casting Spd. by 10%, Movement Speed by 10, Attack Attribute by 100, and reduces Skill MP Consumption by 10% for 30 minutes. Additionally Increases XP by 30%, and grants 12% bonus Vitality. Buff effect persists through death. Cooldown Time 5min. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on May 25, 2016 (Wed) after regular maintenance. -->
@@ -778,15 +818,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18728-1" />
+		<skills>
+			<skill id="18728" level="1" /> <!-- Pa??agrio??s Blessing - EXP -->
+		</skills>
 	</item>
 	<item id="47677" name="Red Cat's Eye" additionalName="Lv. 1" type="Armor">
 		<!-- When using a physical skill after equipping, P. Critical Damage + 1% and P. Skill Critical Damage + 1%. Effect does not stack with additional jewels of the same type. -->
@@ -800,8 +842,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18713-1" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="1" /> <!-- Red Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47678" name="Red Cat's Eye" additionalName="Lv. 2" type="Armor">
 		<!-- When using a physical skill after equipping, P. Critical Damage + 2% and P. Skill Critical Damage + 2%. Effect does not stack with additional jewels of the same type. -->
@@ -815,8 +859,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18713-2" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="2" /> <!-- Red Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47679" name="Red Cat's Eye" additionalName="Lv. 3" type="Armor">
 		<!-- When using a physical skill after equipping, P. Critical Damage + 4% and P. Skill Critical Damage + 4%. Effect does not stack with additional jewels of the same type. -->
@@ -830,8 +876,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18713-3" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="3" /> <!-- Red Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47680" name="Red Cat's Eye" additionalName="Lv. 4" type="Armor">
 		<!-- When using a physical skill after equipping, P. Critical Damage + 7% and P. Skill Critical Damage + 7%. Effect does not stack with additional jewels of the same type. -->
@@ -845,8 +893,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18713-4" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18713" level="4" /> <!-- Red Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47681" name="Red Cat's Eye" additionalName="Lv. 5" type="Armor">
 		<!-- When using a physical skill after equipping, P. Critical Damage + 12% and P. Skill Critical Damage + 12%. Effect does not stack with additional jewels of the same type. -->
@@ -857,7 +907,9 @@
 		<set name="material" val="GOLD" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18713-5" />
+		<skills>
+			<skill id="18713" level="5" /> <!-- Red Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47682" name="Blue Cat's Eye" additionalName="Lv. 1" type="Armor">
 		<!-- When equipped, M. Skill Critical Damage + 1%. Effect does not stack with additional jewels of the same type. -->
@@ -870,8 +922,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18714-1" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="1" /> <!-- Blue Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47683" name="Blue Cat's Eye" additionalName="Lv. 2" type="Armor">
 		<!-- When equipped, M. Skill Critical Damage + 2%. Effect does not stack with additional jewels of the same type. -->
@@ -884,8 +938,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18714-2" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="2" /> <!-- Blue Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47684" name="Blue Cat's Eye" additionalName="Lv. 3" type="Armor">
 		<!-- When equipped, M. Skill Critical Damage + 4%. Effect does not stack with additional jewels of the same type. -->
@@ -898,8 +954,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18714-3" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="3" /> <!-- Blue Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47685" name="Blue Cat's Eye" additionalName="Lv. 4" type="Armor">
 		<!-- When equipped, M. Skill Critical Damage + 7%. Effect does not stack with additional jewels of the same type. -->
@@ -912,8 +970,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18714-4" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18714" level="4" /> <!-- Blue Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47686" name="Blue Cat's Eye" additionalName="Lv. 5" type="Armor">
 		<!-- When equipped, M. Skill Critical Damage + 12%. Effect does not stack with additional jewels of the same type. -->
@@ -924,7 +984,9 @@
 		<set name="material" val="GOLD" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18714-5" />
+		<skills>
+			<skill id="18714" level="5" /> <!-- Blue Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47687" name="Greater Topaz" type="Armor">
 		<!-- Disrupts the target's skill casting when used. When used on a PC, inflicts damage with 13275 power, ignoring the target's CP. Low chance of killing the enemy instantly. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -934,7 +996,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17701-6" />
+		<skills>
+			<skill id="17701" level="6" /> <!-- Topaz: Spiritshot -->
+		</skills>
 	</item>
 	<item id="47688" name="Greater Ruby" type="Armor">
 		<!-- When equipped, increases Soulshot and Beast Soulshot damage by 20% and P. Atk. By 9%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -972,7 +1036,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17704-6" />
+		<skills>
+			<skill id="17704" level="6" /> <!-- Obsidian -->
+		</skills>
 	</item>
 	<item id="47691" name="Greater Opal" type="Armor">
 		<!-- When equipped, increases Attack Attribute by 120 and all Defense Attributes by 70. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -982,7 +1048,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17705-6" />
+		<skills>
+			<skill id="17705" level="6" /> <!-- Opal -->
+		</skills>
 	</item>
 	<item id="47692" name="Greater Emerald" type="Armor">
 		<!-- When equipped, all basic stats + 3 and Skill Prominence rate + 30%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -992,7 +1060,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17825-6" />
+		<skills>
+			<skill id="17825" level="6" /> <!-- Emerald -->
+		</skills>
 	</item>
 	<item id="47693" name="Greater Aquamarine" type="Armor">
 		<!-- When using a skill after equipping, there is a 15% chance of recovering 136 MP, and skill cooldown is reduced by 5%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1002,7 +1072,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17823-6" />
+		<skills>
+			<skill id="17823" level="6" /> <!-- Aquamarine -->
+		</skills>
 	</item>
 	<item id="47694" name="Greater Diamond" type="Armor">
 		<!-- When equipped, P. Def. Increases by 1986 and incoming P. Critical Damage decreases by 5%. P. Def. increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1012,7 +1084,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17708-6" />
+		<skills>
+			<skill id="17708" level="6" /> <!-- Diamond -->
+		</skills>
 	</item>
 	<item id="47695" name="Greater Pearl" type="Armor">
 		<!-- When equipped, M. Def. Increases by 1150 and incoming M. Critical Damage decreases by 5%. M. Def. increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1022,7 +1096,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="17709-6" />
+		<skills>
+			<skill id="17709" level="6" /> <!-- Pearl -->
+		</skills>
 	</item>
 	<item id="47696" name="Greater Vital Stone" type="Armor">
 		<!-- Increases Vitality Status Bonus XP by 30% and the Vitality Point Consumption Speed decreases by 15%. XP Gain increases by 10% as well. Can use Vital Wind skill. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1032,7 +1108,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18568-6" />
+		<skills>
+			<skill id="18568" level="6" /> <!-- Vital Stone -->
+		</skills>
 	</item>
 	<item id="47697" name="Greater Garnet" type="Armor">
 		<!-- Increases success rate of Resistance to Debuffs by 30%, and when receiving damage to a PC, Stun/Silence are canceled. When used, all debuffs are canceled. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1042,7 +1120,10 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18566-6;18567-2" />
+		<skills>
+			<skill id="18566" level="6" /> <!-- Garnet -->
+			<skill id="18567" level="2" /> <!-- Garnet - Purge -->
+		</skills>
 	</item>
 	<item id="47698" name="Greater Tanzanite" type="Armor">
 		<!-- Creates a protection shield that absorbs 50,000 damage for 15 seconds, and recovers 15% of Max HP immediately. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1052,7 +1133,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18565-6" /> <!-- Greater Tanzanite - Barrier -->
+		<skills>
+			<skill id="18565" level="6" /> <!-- Greater Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="47699" name="Greater Red Cat's Eye" type="Armor">
 		<!-- When using a physical skill after equipping, P. Critical Damage + 12%, P. Skill Critical Damage + 12% and P. Skill Power + 5%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
@@ -1062,6 +1145,8 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18713-6" />
+		<skills>
+			<skill id="18713" level="6" /> <!-- Red Cat's Eye -->
+		</skills>
 	</item>
 </list>

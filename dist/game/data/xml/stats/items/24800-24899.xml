@@ -8,15 +8,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21418-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21418" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24801" name="Beach Swimsuit" additionalName="Top-grade / Damage Reflect Resistance" type="Armor">
 		<!-- When modified, Debuff Reflect Resistance + 15%. -->
@@ -26,15 +28,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21421-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21421" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24802" name="Beach Swimsuit" additionalName="Top-grade / Ranged Resistance" type="Armor">
 		<!-- When modified, Bow/Crossbow Resistance + 10%. -->
@@ -44,15 +48,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21424-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21424" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24803" name="Beach Swimsuit" additionalName="Top-grade / P. Def. Increase" type="Armor">
 		<!-- When modified, P. Def. + 10%. -->
@@ -62,15 +68,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21427-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21427" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24804" name="Beach Swimsuit" additionalName="Top-grade / M. Def. Increase" type="Armor">
 		<!-- When modified, M. Def. + 10%. -->
@@ -80,15 +88,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21430-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21430" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24805" name="Beach Swimsuit" additionalName="Top-grade / Attribute Resistance" type="Armor">
 		<!-- When modified, Attribute Resistance + 15. -->
@@ -98,15 +108,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21433-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21433" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24806" name="Beach Swimsuit" additionalName="Top-grade / Received Heal Amount Increase" type="Armor">
 		<!-- When modified, Received Heal Amount + 15%. -->
@@ -116,15 +128,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21436-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21436" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24807" name="Beach Swimsuit" additionalName="Top-grade / Max. HP Increase" type="Armor">
 		<!-- When modified, Max. HP + 15%. -->
@@ -134,15 +148,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21439-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21439" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24808" name="Beach Swimsuit" additionalName="Top-grade / Max. MP Increase" type="Armor">
 		<!-- When modified, Max. MP + 10%. -->
@@ -152,15 +168,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21442-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21442" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24809" name="Beach Swimsuit" additionalName="Top-grade / Max CP Increase" type="Armor">
 		<!-- When modified, Max. CP + 15%. -->
@@ -170,15 +188,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21445-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21445" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24810" name="Beach Swimsuit" additionalName="Top-grade / Speed Increase" type="Armor">
 		<!-- When modified, Speed + 15. -->
@@ -188,15 +208,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21448-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21448" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24811" name="Beach Swimsuit" additionalName="Top-grade / HP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, HP Recovery Bonus + 16. -->
@@ -206,15 +228,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21451-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21451" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24812" name="Beach Swimsuit" additionalName="Top-grade / MP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, MP Recovery Bonus + 8. -->
@@ -224,15 +248,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21454-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21454" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24813" name="Beach Swimsuit" additionalName="Top-grade / Evasion Increase" type="Armor">
 		<!-- When modified, P./M. Evasion + 8. -->
@@ -242,15 +268,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21457-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21457" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24814" name="Beach Swimsuit" additionalName="Top-grade / Option 15" type="Armor">
 		<!-- When modified, Top-grade / Option + 15. -->
@@ -260,15 +288,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21460-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21460" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24815" name="Beach Swimsuit" additionalName="Top-grade / Option 16" type="Armor">
 		<!-- When modified, Top-grade / Option + 16. -->
@@ -278,15 +308,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21463-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21463" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24816" name="Beach Swimsuit" additionalName="Top-grade / Option 17" type="Armor">
 		<!-- When modified, Top-grade / Option + 17. -->
@@ -296,15 +328,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21466-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21466" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24817" name="Beach Swimsuit" additionalName="Top-grade / Option 18" type="Armor">
 		<!-- When modified, Top-grade / Option + 18. -->
@@ -314,15 +348,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21469-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21469" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24818" name="Beach Swimsuit" additionalName="Top-grade / Option 19" type="Armor">
 		<!-- When modified, Top-grade / Option + 19. -->
@@ -332,15 +368,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21472-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21472" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24819" name="Beach Swimsuit" additionalName="Top-grade / Option 20" type="Armor">
 		<!-- When modified, Top-grade / Option + 20. -->
@@ -350,15 +388,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21475-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21475" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24820" name="Alluring Swimsuit" additionalName="Low-grade / Debuff Reflect" type="Armor">
 		<!-- When modified, Debuff Reflect + 3%. -->
@@ -368,15 +408,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21416-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21416" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24821" name="Alluring Swimsuit" additionalName="Low-grade / Damage Reflect Resistance" type="Armor">
 		<!-- When modified, Debuff Reflect Resistance + 5%. -->
@@ -386,15 +428,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21419-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21419" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24822" name="Alluring Swimsuit" additionalName="Low-grade / Ranged Resistance" type="Armor">
 		<!-- When modified, Bow/Crossbow Resistance + 3%. -->
@@ -404,15 +448,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21422-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21422" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24823" name="Alluring Swimsuit" additionalName="Low-grade / P. Def. Increase" type="Armor">
 		<!-- When modified, P. Def. + 3%. -->
@@ -422,15 +468,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21425-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21425" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24824" name="Alluring Swimsuit" additionalName="Low-grade / M. Def. Increase" type="Armor">
 		<!-- When modified, M. Def. + 3%. -->
@@ -440,15 +488,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21428-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21428" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24825" name="Alluring Swimsuit" additionalName="Low-grade / Attribute Resistance" type="Armor">
 		<!-- When modified, Attribute Resistance + 5. -->
@@ -458,15 +508,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21431-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21431" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24826" name="Alluring Swimsuit" additionalName="Low-grade / Received Heal Amount Increase" type="Armor">
 		<!-- When modified, Received Heal Amount + 3%. -->
@@ -476,15 +528,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21434-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21434" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24827" name="Alluring Swimsuit" additionalName="Low-grade / Max. HP Increase" type="Armor">
 		<!-- When modified, Max. HP + 3%. -->
@@ -494,15 +548,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21437-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21437" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24828" name="Alluring Swimsuit" additionalName="Low-grade / Max. MP Increase" type="Armor">
 		<!-- When modified, Max. MP + 3%. -->
@@ -512,15 +568,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21440-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21440" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24829" name="Alluring Swimsuit" additionalName="Low-grade / Max CP Increase" type="Armor">
 		<!-- When modified, Max. CP + 3%. -->
@@ -530,15 +588,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21443-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21443" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24830" name="Alluring Swimsuit" additionalName="Low-grade / Speed Increase" type="Armor">
 		<!-- When modified, Speed + 3. -->
@@ -548,15 +608,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21446-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21446" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24831" name="Alluring Swimsuit" additionalName="Low-grade / HP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, HP Recovery Bonus + 5. -->
@@ -566,15 +628,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21449-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21449" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24832" name="Alluring Swimsuit" additionalName="Low-grade / MP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, MP Recovery Bonus + 3. -->
@@ -584,15 +648,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21452-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21452" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24833" name="Alluring Swimsuit" additionalName="Low-grade / Evasion Increase" type="Armor">
 		<!-- When modified, P./M. Evasion + 3. -->
@@ -602,15 +668,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21455-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21455" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24834" name="Alluring Swimsuit" additionalName="Low-grade / Option 15" type="Armor">
 		<!-- When modified, Low-grade / Option + 15. -->
@@ -620,15 +688,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21458-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21458" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24835" name="Alluring Swimsuit" additionalName="Low-grade / Option 16" type="Armor">
 		<!-- When modified, Low-grade / Option + 16. -->
@@ -638,15 +708,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21461-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21461" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24836" name="Alluring Swimsuit" additionalName="Low-grade / Option 17" type="Armor">
 		<!-- When modified, Low-grade / Option + 17. -->
@@ -656,15 +728,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21464-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21464" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24837" name="Alluring Swimsuit" additionalName="Low-grade / Option 18" type="Armor">
 		<!-- When modified, Low-grade / Option + 18. -->
@@ -674,15 +748,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21467-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21467" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24838" name="Alluring Swimsuit" additionalName="Low-grade / Option 19" type="Armor">
 		<!-- When modified, Low-grade / Option + 19. -->
@@ -692,15 +768,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21470-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21470" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24839" name="Alluring Swimsuit" additionalName="Low-grade / Option 20" type="Armor">
 		<!-- When modified, Low-grade / Option + 20. -->
@@ -710,15 +788,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21473-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21473" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24840" name="Alluring Swimsuit" additionalName="Mid-grade / Debuff Reflect" type="Armor">
 		<!-- When modified, Debuff Reflect + 5%. -->
@@ -728,15 +808,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21417-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21417" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24841" name="Alluring Swimsuit" additionalName="Mid-grade / Damage Reflect Resistance" type="Armor">
 		<!-- When modified, Debuff Reflect Resistance + 7%. -->
@@ -746,15 +828,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21420-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21420" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24842" name="Alluring Swimsuit" additionalName="Mid-grade / Ranged Resistance" type="Armor">
 		<!-- When modified, Bow/Crossbow Resistance + 5%. -->
@@ -764,15 +848,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21423-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21423" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24843" name="Alluring Swimsuit" additionalName="Mid-grade / P. Def. Increase" type="Armor">
 		<!-- When modified, P. Def. + 5%. -->
@@ -782,15 +868,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21426-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21426" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24844" name="Alluring Swimsuit" additionalName="Mid-grade / M. Def. Increase" type="Armor">
 		<!-- When modified, M. Def. + 5%. -->
@@ -800,15 +888,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21429-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21429" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24845" name="Alluring Swimsuit" additionalName="Mid-grade / Attribute Resistance" type="Armor">
 		<!-- When modified, Attribute Resistance + 7. -->
@@ -818,15 +908,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21432-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21432" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24846" name="Alluring Swimsuit" additionalName="Mid-grade / Received Heal Amount Increase" type="Armor">
 		<!-- When modified, Received Heal Amount + 7%. -->
@@ -836,15 +928,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21435-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21435" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24847" name="Alluring Swimsuit" additionalName="Mid-grade / Max. HP Increase" type="Armor">
 		<!-- When modified, Max. HP + 7%. -->
@@ -854,15 +948,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21438-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21438" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24848" name="Alluring Swimsuit" additionalName="Mid-grade / Max. MP Increase" type="Armor">
 		<!-- When modified, Max. MP + 5%. -->
@@ -872,15 +968,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21441-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21441" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24849" name="Alluring Swimsuit" additionalName="Mid-grade / Max CP Increase" type="Armor">
 		<!-- When modified, Max. CP + 7%. -->
@@ -890,15 +988,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21444-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21444" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24850" name="Alluring Swimsuit" additionalName="Mid-grade / Speed Increase" type="Armor">
 		<!-- When modified, Speed + 7. -->
@@ -908,15 +1008,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21447-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21447" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24851" name="Alluring Swimsuit" additionalName="Mid-grade / HP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, HP Recovery Bonus + 8. -->
@@ -926,15 +1028,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21450-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21450" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24852" name="Alluring Swimsuit" additionalName="Mid-grade / MP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, MP Recovery Bonus + 4. -->
@@ -944,15 +1048,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21453-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21453" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24853" name="Alluring Swimsuit" additionalName="Mid-grade / Evasion Increase" type="Armor">
 		<!-- When modified, P./M. Evasion + 4. -->
@@ -962,15 +1068,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21456-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21456" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24854" name="Alluring Swimsuit" additionalName="Mid-grade / Option 15" type="Armor">
 		<!-- When modified, Mid-grade / Option + 15. -->
@@ -980,15 +1088,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21459-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21459" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24855" name="Alluring Swimsuit" additionalName="Mid-grade / Option 16" type="Armor">
 		<!-- When modified, Mid-grade / Option + 16. -->
@@ -998,15 +1108,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21462-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21462" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24856" name="Alluring Swimsuit" additionalName="Mid-grade / Option 17" type="Armor">
 		<!-- When modified, Mid-grade / Option + 17. -->
@@ -1016,15 +1128,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21465-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21465" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24857" name="Alluring Swimsuit" additionalName="Mid-grade / Option 18" type="Armor">
 		<!-- When modified, Mid-grade / Option + 18. -->
@@ -1034,15 +1148,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21468-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21468" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24858" name="Alluring Swimsuit" additionalName="Mid-grade / Option 19" type="Armor">
 		<!-- When modified, Mid-grade / Option + 19. -->
@@ -1052,15 +1168,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21471-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21471" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24859" name="Alluring Swimsuit" additionalName="Mid-grade / Option 20" type="Armor">
 		<!-- When modified, Mid-grade / Option + 20. -->
@@ -1070,15 +1188,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21474-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21474" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24860" name="Alluring Swimsuit" additionalName="Top-grade / Debuff Reflect" type="Armor">
 		<!-- When modified, Debuff Reflect + 10%. -->
@@ -1088,15 +1208,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21418-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21418" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24861" name="Alluring Swimsuit" additionalName="Top-grade / Damage Reflect Resistance" type="Armor">
 		<!-- When modified, Debuff Reflect Resistance + 15%. -->
@@ -1106,15 +1228,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21421-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21421" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24862" name="Alluring Swimsuit" additionalName="Top-grade / Ranged Resistance" type="Armor">
 		<!-- When modified, Bow/Crossbow Resistance + 10%. -->
@@ -1124,15 +1248,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21424-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21424" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24863" name="Alluring Swimsuit" additionalName="Top-grade / P. Def. Increase" type="Armor">
 		<!-- When modified, P. Def. + 10%. -->
@@ -1142,15 +1268,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21427-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21427" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24864" name="Alluring Swimsuit" additionalName="Top-grade / M. Def. Increase" type="Armor">
 		<!-- When modified, M. Def. + 10%. -->
@@ -1160,15 +1288,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21430-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21430" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24865" name="Alluring Swimsuit" additionalName="Top-grade / Attribute Resistance" type="Armor">
 		<!-- When modified, Attribute Resistance + 15. -->
@@ -1178,15 +1308,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21433-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21433" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24866" name="Alluring Swimsuit" additionalName="Top-grade / Received Heal Amount Increase" type="Armor">
 		<!-- When modified, Received Heal Amount + 15%. -->
@@ -1196,15 +1328,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21436-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21436" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24867" name="Alluring Swimsuit" additionalName="Top-grade / Max. HP Increase" type="Armor">
 		<!-- When modified, Max. HP + 15%. -->
@@ -1214,15 +1348,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21439-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21439" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24868" name="Alluring Swimsuit" additionalName="Top-grade / Max. MP Increase" type="Armor">
 		<!-- When modified, Max. MP + 10%. -->
@@ -1232,15 +1368,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21442-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21442" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24869" name="Alluring Swimsuit" additionalName="Top-grade / Max CP Increase" type="Armor">
 		<!-- When modified, Max. CP + 15%. -->
@@ -1250,15 +1388,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21445-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21445" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24870" name="Alluring Swimsuit" additionalName="Top-grade / Speed Increase" type="Armor">
 		<!-- When modified, Speed + 15. -->
@@ -1268,15 +1408,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21448-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21448" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24871" name="Alluring Swimsuit" additionalName="Top-grade / HP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, HP Recovery Bonus + 16. -->
@@ -1286,15 +1428,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21451-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21451" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24872" name="Alluring Swimsuit" additionalName="Top-grade / MP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, MP Recovery Bonus + 8. -->
@@ -1304,15 +1448,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21454-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21454" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24873" name="Alluring Swimsuit" additionalName="Top-grade / Evasion Increase" type="Armor">
 		<!-- When modified, P./M. Evasion + 8. -->
@@ -1322,15 +1468,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21457-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21457" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24874" name="Alluring Swimsuit" additionalName="Top-grade / Option 15" type="Armor">
 		<!-- When modified, Top-grade / Option + 15. -->
@@ -1340,15 +1488,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21460-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21460" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24875" name="Alluring Swimsuit" additionalName="Top-grade / Option 16" type="Armor">
 		<!-- When modified, Top-grade / Option + 16. -->
@@ -1358,15 +1508,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21463-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21463" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24876" name="Alluring Swimsuit" additionalName="Top-grade / Option 17" type="Armor">
 		<!-- When modified, Top-grade / Option + 17. -->
@@ -1376,15 +1528,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21466-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21466" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24877" name="Alluring Swimsuit" additionalName="Top-grade / Option 18" type="Armor">
 		<!-- When modified, Top-grade / Option + 18. -->
@@ -1394,15 +1548,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21469-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21469" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24878" name="Alluring Swimsuit" additionalName="Top-grade / Option 19" type="Armor">
 		<!-- When modified, Top-grade / Option + 19. -->
@@ -1412,15 +1568,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21472-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21472" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24879" name="Alluring Swimsuit" additionalName="Top-grade / Option 20" type="Armor">
 		<!-- When modified, Top-grade / Option + 20. -->
@@ -1430,15 +1588,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21475-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21475" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24880" name="Seductive Swimsuit" additionalName="Low-grade / Debuff Reflect" type="Armor">
 		<!-- When modified, Debuff Reflect + 3%. -->
@@ -1448,15 +1608,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21416-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21416" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24881" name="Seductive Swimsuit" additionalName="Low-grade / Damage Reflect Resistance" type="Armor">
 		<!-- When modified, Debuff Reflect Resistance + 5%. -->
@@ -1466,15 +1628,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21419-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21419" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24882" name="Seductive Swimsuit" additionalName="Low-grade / Ranged Resistance" type="Armor">
 		<!-- When modified, Bow/Crossbow Resistance + 3%. -->
@@ -1484,15 +1648,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21422-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21422" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24883" name="Seductive Swimsuit" additionalName="Low-grade / P. Def. Increase" type="Armor">
 		<!-- When modified, P. Def. + 3%. -->
@@ -1502,15 +1668,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21425-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21425" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24884" name="Seductive Swimsuit" additionalName="Low-grade / M. Def. Increase" type="Armor">
 		<!-- When modified, M. Def. + 3%. -->
@@ -1520,15 +1688,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21428-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21428" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24885" name="Seductive Swimsuit" additionalName="Low-grade / Attribute Resistance" type="Armor">
 		<!-- When modified, Attribute Resistance + 5. -->
@@ -1538,15 +1708,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21431-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21431" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24886" name="Seductive Swimsuit" additionalName="Low-grade / Received Heal Amount Increase" type="Armor">
 		<!-- When modified, Received Heal Amount + 3%. -->
@@ -1556,15 +1728,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21434-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21434" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24887" name="Seductive Swimsuit" additionalName="Low-grade / Max. HP Increase" type="Armor">
 		<!-- When modified, Max. HP + 3%. -->
@@ -1574,15 +1748,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21437-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21437" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24888" name="Seductive Swimsuit" additionalName="Low-grade / Max. MP Increase" type="Armor">
 		<!-- When modified, Max. MP + 3%. -->
@@ -1592,15 +1768,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21440-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21440" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24889" name="Seductive Swimsuit" additionalName="Low-grade / Max CP Increase" type="Armor">
 		<!-- When modified, Max. CP + 3%. -->
@@ -1610,15 +1788,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21443-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21443" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24890" name="Seductive Swimsuit" additionalName="Low-grade / Speed Increase" type="Armor">
 		<!-- When modified, Speed + 3. -->
@@ -1628,15 +1808,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21446-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21446" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24891" name="Seductive Swimsuit" additionalName="Low-grade / HP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, HP Recovery Bonus + 5. -->
@@ -1646,15 +1828,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21449-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21449" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24892" name="Seductive Swimsuit" additionalName="Low-grade / MP Recovery Bonus Increase" type="Armor">
 		<!-- When modified, MP Recovery Bonus + 3. -->
@@ -1664,15 +1848,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21452-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21452" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24893" name="Seductive Swimsuit" additionalName="Low-grade / Evasion Increase" type="Armor">
 		<!-- When modified, P./M. Evasion + 3. -->
@@ -1682,15 +1868,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21455-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21455" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24894" name="Seductive Swimsuit" additionalName="Low-grade / Option 15" type="Armor">
 		<!-- When modified, Low-grade / Option + 15. -->
@@ -1700,15 +1888,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21458-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21458" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24895" name="Seductive Swimsuit" additionalName="Low-grade / Option 16" type="Armor">
 		<!-- When modified, Low-grade / Option + 16. -->
@@ -1718,15 +1908,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21461-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21461" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24896" name="Seductive Swimsuit" additionalName="Low-grade / Option 17" type="Armor">
 		<!-- When modified, Low-grade / Option + 17. -->
@@ -1736,15 +1928,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21464-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21464" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24897" name="Seductive Swimsuit" additionalName="Low-grade / Option 18" type="Armor">
 		<!-- When modified, Low-grade / Option + 18. -->
@@ -1754,15 +1948,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21467-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21467" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24898" name="Seductive Swimsuit" additionalName="Low-grade / Option 19" type="Armor">
 		<!-- When modified, Low-grade / Option + 19. -->
@@ -1772,15 +1968,17 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21470-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21470" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 	<item id="24899" name="Seductive Swimsuit" additionalName="Low-grade / Option 20" type="Armor">
 		<!-- When modified, Low-grade / Option + 20. -->
@@ -1790,14 +1988,16 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-        <set name="item_skill" val="21473-1" /> <!-- Visual Enchant Stone -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="21473" level="1" /> <!-- Visual Enchant Stone -->
+		</skills>
 	</item>
 </list>

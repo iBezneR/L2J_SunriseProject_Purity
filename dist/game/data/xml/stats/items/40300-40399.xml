@@ -3,8 +3,8 @@
 	<item id="40300" name="Freya's Recovery Potion" type="EtcItem">
 		<!-- Restores 3500 HP. If HP is full, CP is restored. No duration. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.freya_potion" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
@@ -13,7 +13,9 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18155-1" /> <!-- Freya's Recovery Potion -->
+		<skills>
+			<skill id="18155" level="1" /> <!-- Freya's Recovery Potion -->
+		</skills>
 	</item>
 	<item id="40301" name="Buff Helmet" additionalName="LUC" type="Armor">
 		<!-- Uses 2 Hair Accessory slots. LUC + 3. -->
@@ -32,54 +34,56 @@
 	<item id="40303" name="Entrance Pass: Spezion (Normal)" type="EtcItem">
 		<!-- Double-click to reset cooldown to Spezion's (normal) dungeon. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40304" name="Entrance Pass: Spezion (Epic)" type="EtcItem">
 		<!-- Double-click to reset cooldown to Spezion's (Epic) dungeon. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40305" name="Dual Expertise Rune (R99-grade)" additionalName="30-day" type="EtcItem">
 		<!-- While possessed, allows you to equip R99-grade items without penalties. 30-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="time" val="43200" />
-        <set name="item_skill" val="17577-1" /> <!-- Expertise Rune (R99-grade) -->
+		<skills>
+			<skill id="17577" level="1" /> <!-- Expertise Rune (R99-grade) -->
+		</skills>
 	</item>
 	<item id="40306" name="Dual Expertise Rune Pack" additionalName="R99-grade" type="EtcItem">
 		<!-- Double-click to obtain a Dual Expertise Rune Pack (R99-grade) (30-day). Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.etc_treasure_box_i06" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -92,58 +96,60 @@
 		<!-- Double-click to obtain a Dual Expertise Rune Pack (R99-grade) (30-day) and a Mysterious Friend Summon Bracelet Pack (30-day). Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40308" name="Dynamic Dual Knight Gift Pack" type="EtcItem">
 		<!-- Double-click to obtain a Dual Expertise Rune Pack (R99-grade) (30-day), a Mysterious Friend Summon Bracelet Pack (30-day), and 2 Ertheia's Rare Accessory Packs. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.etc_treasure_box_i08" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40309" name="Scroll of Escape: Dwarven Village" type="EtcItem">
 		<!-- Teleports you to Dwarven Village. -->
 		<set name="icon" val="icon.etc_scroll_of_return_i05" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18167-1" /> <!-- Scroll of Escape: Ivory Tower -->
+		<skills>
+			<skill id="18167" level="1" /> <!-- Scroll of Escape: Ivory Tower -->
+		</skills>
 	</item>
 	<item id="40310" name="Appearance Stone: Santa Hat" type="EtcItem">
 		<!-- Changes the appearance of your hair accessory into that of a Santa Hat. Only for hair accessories that use 2 slots. -->
 		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 	</item>
@@ -151,13 +157,15 @@
 		<!-- Double-click to recover Vitality while in peaceful zones. A set amount of Vitality is also restored when the buff is about to expire. 6-hour. -->
 		<set name="icon" val="icon.etc_whiteday_choco" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="16423-1" /> <!-- Noelle's Gift -->
+		<skills>
+			<skill id="16423" level="1" /> <!-- Noelle's Gift -->
+		</skills>
 	</item>
 	<item id="40312" name="Santa's Cloak" type="Armor">
 		<!-- Light and cozy cloak. -->
@@ -165,13 +173,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="220" />
 		<cond msgId="2453">
 			<player cloakStatus="true" />
@@ -179,17 +187,17 @@
 		<cond>
 			<player level="80" />
 		</cond>
-		<for>
-			<add order="0" stat="pDef" val="20" />
-		</for>
+		<stats>
+			<stat type="pDef">20</stat>
+		</stats>
 	</item>
 	<item id="40313" name="Santa's Mark" type="EtcItem">
 		<!-- Proof of your successful search for Santa alongside Tree Fairy, Stocking Fairy, and Snowman Fairy. Take this to Noelle for a reward. -->
 		<set name="icon" val="BranchSys.icon.br_xmas_present_fun_i00" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40314" name="Santa Hat" additionalName="STR" type="Armor">
 		<!-- Uses 2 Hair Accessory slots. STR + 3. -->
@@ -310,20 +318,20 @@
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 	</item>
 	<item id="40331" name="Magic Staff Set of Fortune" additionalName="90-day" type="EtcItem">
 		<!-- Use to receive 5 magic staff weapons (S - C-grade). Disappears after 90 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
 	</item>
 	<item id="40332" name="Mother Tree's Branch of Fortune" additionalName="90-day" type="Weapon">
@@ -336,22 +344,22 @@
 		<set name="weight" val="900" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
-		<for>
-			<set stat="pAtk" val="226" />
-			<set stat="mAtk" val="167" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">226</stat>
+			<stat type="mAtk">167</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40333" name="Foundation Staff of Evil Spirits of Fortune" additionalName="90-day" type="Weapon">
 		<!-- <Special Option>. Has a 6% chance of inflicting Curse Poison on target when using a magical skill on them. No Soul Crystal option. -->
@@ -363,22 +371,22 @@
 		<set name="weight" val="930" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
-		<for>
-			<set stat="pAtk" val="189" />
-			<set stat="mAtk" val="145" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">189</stat>
+			<stat type="mAtk">145</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40334" name="Inferno Staff of Fortune" additionalName="90-day" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. No Soul Crystal option. -->
@@ -390,22 +398,22 @@
 		<set name="weight" val="1000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
-		<for>
-			<set stat="pAtk" val="135" />
-			<set stat="mAtk" val="111" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">111</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40335" name="Atuba Mace of Fortune" additionalName="90-day" type="Weapon">
 		<set name="icon" val="icon.weapon_atuba_mace_i00" />
@@ -416,22 +424,22 @@
 		<set name="weight" val="1010" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40336" name="Imperial Staff of Fortune" additionalName="90-day" type="Weapon">
 		<!-- <Special Option>. M. Atk. + 60. PvP damage increased. No Soul Crystal option. -->
@@ -443,22 +451,22 @@
 		<set name="weight" val="910" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
-		<for>
-			<set stat="pAtk" val="274" />
-			<set stat="mAtk" val="193" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40337" name="Dynasty Staff of Fortune" additionalName="90-day" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. PvP damage increased. No Soul Crystal option. -->
@@ -470,81 +478,81 @@
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
-		<for>
-			<set stat="pAtk" val="325" />
-			<set stat="mAtk" val="222" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40338" name="Ertheia Fighter Equipment Set" additionalName="90-day" type="EtcItem">
 		<!-- Item set for Ertheia Fighter classes. Disappears after 90 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
 	</item>
 	<item id="40339" name="Ertheia Wizard Equipment Set" additionalName="90-day" type="EtcItem">
 		<!-- Item set for Ertheia Wizard classes. Disappears after 90 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
 	</item>
 	<item id="40340" name="Fist Weapon Set of Fortune" additionalName="90-day" type="EtcItem">
 		<!-- Use to receive 5 fist weapons (S - C-grade). Disappears after 90 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
 	</item>
 	<item id="40341" name="Fist Weapon Set of Fortune" additionalName="30-day" type="EtcItem">
 		<!-- Use to receive 3 fist weapons (A - C-grade). Disappears after 30 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40342" name="Magic Staff Set of Fortune" additionalName="30-day" type="EtcItem">
 		<!-- Use to receive 3 magic staff weapons (A - C-grade). Disappears after 30 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40343" name="Mother Tree's Branch of Fortune" additionalName="30-day" type="Weapon">
@@ -557,22 +565,22 @@
 		<set name="weight" val="900" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="pAtk" val="226" />
-			<set stat="mAtk" val="167" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">226</stat>
+			<stat type="mAtk">167</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40344" name="Foundation Staff of Evil Spirits of Fortune" additionalName="30-day" type="Weapon">
 		<!-- <Special Option>. Has a 6% chance of inflicting Curse Poison on target when using a magical skill on them. No Soul Crystal option. -->
@@ -584,22 +592,22 @@
 		<set name="weight" val="930" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="pAtk" val="189" />
-			<set stat="mAtk" val="145" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">189</stat>
+			<stat type="mAtk">145</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40345" name="Inferno Staff of Fortune" additionalName="30-day" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. No Soul Crystal option. -->
@@ -611,22 +619,22 @@
 		<set name="weight" val="1000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="pAtk" val="135" />
-			<set stat="mAtk" val="111" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">111</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40346" name="Atuba Mace of Fortune" additionalName="30-day" type="Weapon">
 		<set name="icon" val="icon.weapon_atuba_mace_i00" />
@@ -637,22 +645,22 @@
 		<set name="weight" val="1010" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40347" name="Imperial Staff of Fortune" additionalName="30-day" type="Weapon">
 		<!-- <Special Option>. M. Atk. + 60. PvP damage increased. No Soul Crystal option. -->
@@ -664,22 +672,22 @@
 		<set name="weight" val="910" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="pAtk" val="274" />
-			<set stat="mAtk" val="193" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40348" name="Dynasty Staff of Fortune" additionalName="30-day" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. PvP damage increased. No Soul Crystal option. -->
@@ -691,69 +699,69 @@
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-		<for>
-			<set stat="pAtk" val="325" />
-			<set stat="mAtk" val="222" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40349" name="Ertheia Fighter Equipment Set" additionalName="30-day" type="EtcItem">
 		<!-- Item set for Ertheia Fighter classes. Disappears after 30 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40350" name="Ertheia Wizard Equipment Set" additionalName="30-day" type="EtcItem">
 		<!-- Item set for Ertheia Warrior classes. Disappears after 30 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40351" name="Fist Weapon Set of Fortune" additionalName="10-day" type="EtcItem">
 		<!-- Use to receive 3 fist weapons (A - C-grade). Disappears after 10 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
 	</item>
 	<item id="40352" name="Magic Staff Set of Fortune" additionalName="10-day" type="EtcItem">
 		<!-- Use to receive 3 magic staff weapons (A - C-grade). Disappears after 10 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
 	</item>
 	<item id="40353" name="Mother Tree's Branch of Fortune" additionalName="10-day" type="Weapon">
@@ -766,22 +774,22 @@
 		<set name="weight" val="900" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
-		<for>
-			<set stat="pAtk" val="226" />
-			<set stat="mAtk" val="167" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">226</stat>
+			<stat type="mAtk">167</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40354" name="Foundation Staff of Evil Spirits of Fortune" additionalName="10-day" type="Weapon">
 		<!-- <Special Option>. Has a 6% chance of inflicting Curse Poison on target when using a magical skill on them. No Soul Crystal option. -->
@@ -793,22 +801,22 @@
 		<set name="weight" val="930" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
-		<for>
-			<set stat="pAtk" val="189" />
-			<set stat="mAtk" val="145" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">189</stat>
+			<stat type="mAtk">145</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40355" name="Inferno Staff of Fortune" additionalName="10-day" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. No Soul Crystal option. -->
@@ -820,22 +828,22 @@
 		<set name="weight" val="1000" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
-		<for>
-			<set stat="pAtk" val="135" />
-			<set stat="mAtk" val="111" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">111</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40356" name="Atuba Mace of Fortune" additionalName="10-day" type="Weapon">
 		<set name="icon" val="icon.weapon_atuba_mace_i00" />
@@ -846,22 +854,22 @@
 		<set name="weight" val="1010" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40357" name="Imperial Staff of Fortune" additionalName="10-day" type="Weapon">
 		<!-- <Special Option>. M. Atk. + 60. PvP damage increased. No Soul Crystal option. -->
@@ -873,22 +881,22 @@
 		<set name="weight" val="910" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
-		<for>
-			<set stat="pAtk" val="274" />
-			<set stat="mAtk" val="193" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40358" name="Dynasty Staff of Fortune" additionalName="10-day" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. PvP damage increased. No Soul Crystal option. -->
@@ -900,45 +908,45 @@
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
-		<for>
-			<set stat="pAtk" val="325" />
-			<set stat="mAtk" val="222" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="40359" name="Ertheia Fighter Equipment Set" additionalName="10-day" type="EtcItem">
 		<!-- Item set for Ertheia Fighter classes. Disappears after 10 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
 	</item>
 	<item id="40360" name="Ertheia Wizard Equipment Set" additionalName="10-day" type="EtcItem">
 		<!-- Item set for Ertheia Wizard classes. Disappears after 10 days if unused. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="14400" />
 	</item>
 	<item id="40361" name="Agathion - Joon Pack" additionalName="30-day" type="EtcItem">
@@ -946,13 +954,13 @@
 		<set name="icon" val="icon.lucky_bag_box_i00" />
 		<set name="weight" val="10" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="time" val="43200" />
 	</item>
@@ -960,13 +968,13 @@
 		<!-- Can summon Joon when equipped. 30-day. Cannot be used in the Olympiad. <Active Skill>. 1. Joon's Magic: For 30 min., acquired XP/SP + 10%, Atk. Attribute + 100, P. Atk. + 20%, M. Atk. + 30%, Atk./Casting Spd. + 10%, P./M. Accuracy + 4, Speed + 10, Max. HP/MP/CP + 10%, P./M. Def. + 10%, and MP Consumption - 10%. Cannot be stacked with Art of Seduction. Buff remains after death. <Active Skill>. 1. Joon's Resurrection: can use Blessed Resurrection. Cooldown is 3 hr. -->
 		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 	</item>
 	<item id="40363" name="Carrot" type="EtcItem">
@@ -1042,27 +1050,27 @@
 	<item id="40367" name="Angel Cat's Blessing Pack" type="EtcItem">
 		<!-- Double-click to obtain an Angel Cat's Blessing (1-hour). Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.event_six_party_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40368" name="Buff Promotion Gift Box" additionalName="Event" type="EtcItem">
 		<!-- Double-click for a chance to obtain a special weapon appearance stone (30-day) or a special hair accessory at a lower rate. -->
 		<set name="icon" val="icon.etc_pi_box_love_pack" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="time" val="43200" />
@@ -1072,14 +1080,14 @@
 		<set name="icon" val="BranchSys.icon.br_napoleonic_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40370" name="Sweet Cheese Hat" additionalName="30-day" type="Armor">
@@ -1087,14 +1095,14 @@
 		<set name="icon" val="BranchSys.icon.br_goldrat_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40371" name="Vigilante Hat" additionalName="30-day" type="Armor">
@@ -1102,14 +1110,14 @@
 		<set name="icon" val="icon.zorocap" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="40372" name="Agathion - Three-headed Dragon" additionalName="30-day" type="Armor">

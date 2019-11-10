@@ -72,7 +72,7 @@ public class MuseumBBSManager extends BaseBBSManager
 			html += "<table cellspacing=-4><tr>";
 			html += "<td width=12></td>";
 			html += "<td align=center><img src=L2UI.SquareBlank width=1 height=7/><table background=\"L2UI_CT1.Tab_DF_Tab_Selected\" width=135 height=21><tr><td width=137 align=center><font color=e6dcbe>View Server Records</font></td></tr></table></td>";
-			html += "<td><img src=L2UI.SquareBlank width=1 height=5/><button value=\"View My Records\" action=\"bypass " + MUSEUM_BBS_CMD + ";personal\" fore=\"L2UI_CT1.Tab_DF_Tab_Unselected\" back=\"L2UI_CT1.Tab_DF_Tab_Unselected_Over\" width=\"135\" height=\"23\"/></td>";
+			html += "<td><img src=L2UI.SquareBlank width=1 height=5/><button value=\"View My Records\" action=\"bypass " + MUSEUM_BBS_CMD + ";personal\" fore=\"L2UI_CT1.Tab_DF_Tab_Unselected\" back=\"L2UI_CT1.Tab_DF_Tab_Unselected_Over\" width=\"135\" height=\"23\"></button></td>";
 			html += "</tr></table>";
 			html += "<img src=L2UI.SquareBlank width=1 height=2/>";
 		}
@@ -225,7 +225,7 @@ public class MuseumBBSManager extends BaseBBSManager
 		{
 			html += "<table cellspacing=-4><tr>";
 			html += "<td width=12></td>";
-			html += "<td><img src=L2UI.SquareBlank width=1 height=5/><button value=\"View Server Records\" action=\"bypass " + MUSEUM_BBS_CMD + ";main\" fore=\"L2UI_CT1.Tab_DF_Tab_Unselected\" back=\"L2UI_CT1.Tab_DF_Tab_Unselected_Over\" width=\"135\" height=\"23\"/></td>";
+			html += "<td><img src=L2UI.SquareBlank width=1 height=5/><button value=\"View Server Records\" action=\"bypass " + MUSEUM_BBS_CMD + ";main\" fore=\"L2UI_CT1.Tab_DF_Tab_Unselected\" back=\"L2UI_CT1.Tab_DF_Tab_Unselected_Over\" width=\"135\" height=\"23\"></button></td>";
 			html += "<td align=center><img src=L2UI.SquareBlank width=1 height=7/><table background=\"L2UI_CT1.Tab_DF_Tab_Selected\" width=135 height=21><tr><td width=137 align=center><font color=e6dcbe>View My Records</font></td></tr></table></td>";
 			html += "</tr></table>";
 			html += "<img src=L2UI.SquareBlank width=1 height=2/>";
@@ -258,7 +258,7 @@ public class MuseumBBSManager extends BaseBBSManager
 			}
 			else
 			{
-				html += "<tr><td><button value=\"[+] " + entry.getValue() + "\" action=\"bypass " + MUSEUM_BBS_CMD + ";personal;" + entry.getKey() + "\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF_Down\" width=\"200\" height=\"21\"/>";
+				html += "<tr><td><button value=\"[+] " + entry.getValue() + "\" action=\"bypass " + MUSEUM_BBS_CMD + ";personal;" + entry.getKey() + "\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF_Down\" width=\"200\" height=\"21\"></button>";
 				html += "<img src=\"L2UI.SquareBlank\" width=\"1\" height=\"1\"/></td></tr>";
 			}
 		}
@@ -312,14 +312,14 @@ public class MuseumBBSManager extends BaseBBSManager
 				
 				typeHtml1[h] += "<table cellspacing=-5><tr>";
 				typeHtml1[h] += "<td width=10></td>";
-				typeHtml1[h] += "<td><button value=\"Item\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"" + (h > 0 ? 212 : 300) + "\" height=\"24\"/></td>";
+				typeHtml1[h] += "<td><button value=\"Item\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"" + (h > 0 ? 212 : 300) + "\" height=\"24\"></button></td>";
 				typeHtml1[h] += "<td width=10></td>";
 				if (h > 0)
 				{
-					typeHtml1[h] += "<td><button value=\"" + dailyType[h - 1] + " Total\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"131\" height=\"24\"/></td>";
+					typeHtml1[h] += "<td><button value=\"" + dailyType[h - 1] + " Total\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"131\" height=\"24\"></button></td>";
 					typeHtml1[h] += "<td width=10></td>";
 				}
-				typeHtml1[h] += "<td><button value=\"Total\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"" + (h > 0 ? 131 : 176) + "\" height=\"24\"/></td>";
+				typeHtml1[h] += "<td><button value=\"Total\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"" + (h > 0 ? 131 : 176) + "\" height=\"24\"></button></td>";
 				typeHtml1[h] += "</tr></table>";
 				typeHtml1[h] += "<table><tr>";
 				typeHtml1[h] += "<td>";

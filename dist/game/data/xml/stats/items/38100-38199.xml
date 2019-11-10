@@ -4,13 +4,13 @@
 		<!-- Double-click for a chance to obtain either Emperor's Rune (2-hour), Emperor's Vitality Tonic, Scroll: 1,000,000 SP, Scroll: 5,000,000 SP, or Scroll: 10,000,000 SP. Once a day. -->
 		<set name="icon" val="icon.etc_violet_crystal_cube_pc_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="CAPSULE" />
@@ -22,11 +22,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="17321-1" /> <!-- Leona's Scroll: 1,000,000 SP -->
+		<skills>
+			<skill id="17321" level="1" /> <!-- Leona's Scroll: 1,000,000 SP -->
+		</skills>
 	</item>
 	<item id="38102" name="Leona's Scroll: 5,000,000 SP" type="EtcItem">
 		<!-- Double-click to obtain 5,000,000 SP. -->
@@ -36,11 +38,13 @@
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="17322-1" /> <!-- Leona's Scroll: 5,000,000 SP -->
+		<skills>
+			<skill id="17322" level="1" /> <!-- Leona's Scroll: 5,000,000 SP -->
+		</skills>
 	</item>
 	<item id="38103" name="Leona's Scroll: 10,000,000 SP" type="EtcItem">
 		<!-- Double-click to obtain 10,000,000 SP. -->
@@ -50,23 +54,25 @@
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="17323-1" /> <!-- Leona's Scroll: 10,000,000 SP -->
+		<skills>
+			<skill id="17323" level="1" /> <!-- Leona's Scroll: 10,000,000 SP -->
+		</skills>
 	</item>
 	<item id="38104" name="Leona's Cube Pack" type="EtcItem">
 		<!-- Double-click to obtain Leona's Cube (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -77,7 +83,7 @@
 		<set name="weight" val="25" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="POTION" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
+		<set name="commissionItemType" val="POTION" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="38106" name="Small Green Mackerel" type="EtcItem">
@@ -390,7 +396,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="SOULSHOT" />
 		<set name="handler" val="FishShots" />
-        <set name="item_skill" val="17386-1" /> <!-- High-grade Fishing Shot -->
+		<skills>
+			<skill id="17386" level="1" /> <!-- High-grade Fishing Shot -->
+		</skills>
 	</item>
 	<item id="38155" name="Fishing Rod (Novice)" type="Weapon">
 		<!-- Novice Fishing Rod that can no longer be used. Get a refund from a fishing guild member. -->
@@ -400,14 +408,14 @@
 		<set name="weight" val="1000" />
 		<set name="bodypart" val="lrhand" />
 		<set name="price" val="2000000" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">1</stat>
+		</stats>
 	</item>
 	<item id="38156" name="Fishing Rod (Experienced)" type="Weapon">
 		<!-- Experienced Fishing Rod that can no longer be used. Get a refund from a fishing guild member. -->
@@ -417,14 +425,14 @@
 		<set name="weight" val="1000" />
 		<set name="bodypart" val="lrhand" />
 		<set name="price" val="15000000" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">1</stat>
+		</stats>
 	</item>
 	<item id="38157" name="Fishing Rod (Expert)" type="Weapon">
 		<!-- Expert Fishing Rod that can no longer be used. Get a refund from a fishing guild member. -->
@@ -434,14 +442,14 @@
 		<set name="weight" val="1000" />
 		<set name="bodypart" val="lrhand" />
 		<set name="price" val="200000000" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">1</stat>
+		</stats>
 	</item>
 	<item id="38158" name="Fishing Rod (Hero)" type="Weapon">
 		<!-- Hero Fishing Rod that can no longer be used. Get a refund from a fishing guild member. -->
@@ -450,20 +458,20 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1000" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">1</stat>
+		</stats>
 	</item>
 	<item id="38159" name="Entrance Pass: Fantasy Fishing Dock (1-hour)" type="EtcItem">
 		<!-- Pass that was used to enter the Fantasy Fishing Dock before it was opened. Now anyone can enter freely. -->
 		<set name="icon" val="icon.fishing_zone_ticket" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="38160" name="Entrance Pass: Fantasy Fishing Dock (2-hour)" type="EtcItem">
 		<!-- Pass that was used to enter the Fantasy Fishing Dock before it was opened. Now anyone can enter freely. -->
@@ -474,8 +482,8 @@
 		<!-- Can summon Virgo. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. 2. Attribute Enchant: Fire/ Water/ Earth/ Wind/ Dark/ Holy Atk. and Def. each increase by 30. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -490,7 +498,7 @@
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
 			<skill id="26117" level="5" /> <!-- Zodiac Agathion Attribute Enchant -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -498,8 +506,8 @@
 		<!-- Can summon Virgo. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. 2. Attribute Atk.: Fire/ Water/ Earth/ Wind/ Dark/ Holy Atk. each increase by 30. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -514,7 +522,7 @@
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
 			<skill id="17567" level="1" /> <!-- Zodiac Agathion Attribute Enchant -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -522,8 +530,8 @@
 		<!-- Can summon Virgo. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. 2. Attribute Resistance: Fire/ Water/ Earth/ Wind/ Dark/ Holy Def. each increase by 30. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -538,7 +546,7 @@
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
 			<skill id="17568" level="1" /> <!-- Zodiac Agathion Attribute Enchant -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -546,8 +554,8 @@
 		<!-- Summons Virgo. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.). <Item Skill>. 1. Balanced Power: STR/INT/CON/DEX/WIT/MEN increases by 1. -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -561,7 +569,7 @@
 			<skill id="17550" level="1" /> <!-- Agathion Teleport: Town of Heine -->
 			<skill id="17551" level="1" /> <!-- Balanced Power -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -569,8 +577,8 @@
 		<!-- Summons Virgo. <Active Skill>. 1. Agathion Teleport: Town of Aden/Town of Rune/Town of Giran/Heine. (Cooldown is 30min.) -->
 		<set name="icon" val="icon.agathion_magmeld_teleport" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="150" />
@@ -583,7 +591,7 @@
 			<skill id="17549" level="1" /> <!-- Agathion Teleport: Town of Giran -->
 			<skill id="17550" level="1" /> <!-- Agathion Teleport: Town of Heine -->
 			<skill id="17622" level="1" /> <!-- Agathion Cute Trick -->
-			<skill id="9606" level="1" />
+			<skill id="9606" level="1" /> <!-- Sealing Agathion -->
 			<skill id="9606" level="1" type="ON_UNEQUIP" /> <!-- Sealing Agathion -->
 		</skills>
 	</item>
@@ -667,7 +675,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_WP_FIXED" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="38177" name="Hellblade Appearance Stone" additionalName="30-day" type="EtcItem">
@@ -764,7 +772,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_WP_FIXED" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="38187" name="Blood Brother Appearance Stone" type="EtcItem">
@@ -781,7 +789,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_WP_FIXED" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="38189" name="Blue Mackerel Appearance Stone: One-handed Sword" additionalName="30-day" type="EtcItem">

@@ -12,11 +12,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="46901" name="PC Cafe - Paulina's Seraph Boots" additionalName="Heavy Armor" type="Armor">
 		<!-- Seraph Boots that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -30,11 +30,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="46902" name="PC Cafe - Paulina's Seraph Shield" additionalName="Heavy Armor" type="Armor">
 		<!-- A Seraph Shield that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. -->
@@ -47,13 +47,13 @@
 		<set name="weight" val="1130" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="525" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">525</stat>
+		</stats>
 	</item>
 	<item id="46903" name="PC Cafe - Paulina's Seraph Leather Helmet" additionalName="Light Armor" type="Armor">
 		<!-- A Seraph Leather Helmet that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -67,11 +67,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="144" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
 	</item>
 	<item id="46904" name="PC Cafe - Paulina's Seraph Leather Armor" additionalName="Light Armor" type="Armor">
 		<!-- A Seraph Leather Armor that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -86,12 +86,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="307" />
-			<set stat="rEvas" val="5" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">307</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
 	</item>
 	<item id="46905" name="PC Cafe - Paulina's Seraph Leather Leggings" additionalName="Light Armor" type="Armor">
 		<!-- Seraph Leather Leggings that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -106,12 +106,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="192" />
-			<set stat="rEvas" val="3" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">192</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
 	</item>
 	<item id="46906" name="PC Cafe - Paulina's Seraph Leather Gloves" additionalName="Light Armor" type="Armor">
 		<!-- Seraph Leather Gloves that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -125,11 +125,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="46907" name="PC Cafe - Paulina's Seraph Leather Boots" additionalName="Light Armor" type="Armor">
 		<!-- Seraph Leather Boots that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -143,11 +143,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="46908" name="PC Cafe - Paulina's Seraph Circlet" additionalName="Robe" type="Armor">
 		<!-- A Seraph Circlet that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -161,11 +161,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="144" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
 	</item>
 	<item id="46909" name="PC Cafe - Paulina's Seraph Tunic" additionalName="Robe" type="Armor">
 		<!-- Seraph Tunic that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -180,13 +180,13 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="47" />
-			<add order="0" stat="pDef" val="211" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">47</stat>
+			<stat type="pDef">211</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="46910" name="PC Cafe - Paulina's Seraph Stockings" additionalName="Robe" type="Armor">
 		<!-- Seraph Stockings that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -201,13 +201,13 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="31" />
-			<add order="0" stat="pDef" val="132" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">31</stat>
+			<stat type="pDef">132</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="46911" name="PC Cafe - Paulina's Seraph Gloves" additionalName="Robe" type="Armor">
 		<!-- Seraph Gloves that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -221,11 +221,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="46912" name="PC Cafe - Paulina's Seraph Shoes" additionalName="Robe" type="Armor">
 		<!-- Seraph Shoes that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. Enchantment, Crystallization, Attribute Assignment not possible. -->
@@ -239,11 +239,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
 	</item>
 	<item id="46913" name="PC Cafe - Paulina's Seraph Sigil" additionalName="Robe" type="Armor">
 		<!-- A Seraph Sigil that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. -->
@@ -258,13 +258,13 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="48" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">48</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="46914" name="PC Cafe - Paulina's Seraph Necklace" additionalName="Skill Cooldown" type="Armor">
 		<!-- A Seraph Necklace that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. MP +62, Skill Cooldown -10%. -->
@@ -278,13 +278,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13934-3" /> <!-- Paulina's Necklace - Skill Cooldown -->
-		<for>
-			<set stat="mDef" val="165" />
-			<set stat="maxMp" val="62" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13934" level="3" /> <!-- Paulina's Necklace - Skill Cooldown -->
+		</skills>
+		<stats>
+			<stat type="mDef">165</stat>
+			<stat type="maxMp">62</stat>
+		</stats>
 	</item>
 	<item id="46915" name="PC Cafe - Paulina's Seraph Earring" additionalName="Vampiric Rage" type="Armor">
 		<!-- Seraph Earrings that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. MP +46, Vampiric Rage. -->
@@ -298,13 +300,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13935-3" /> <!-- Paulina's Earrings - Vampiric Rage -->
-		<for>
-			<set stat="mDef" val="124" />
-			<set stat="maxMp" val="46" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13935" level="3" /> <!-- Paulina's Earrings - Vampiric Rage -->
+		</skills>
+		<stats>
+			<stat type="mDef">124</stat>
+			<stat type="maxMp">46</stat>
+		</stats>
 	</item>
 	<item id="46916" name="PC Cafe - Paulina's Seraph Earring" additionalName="MP Consumption" type="Armor">
 		<!-- Seraph Earrings that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. MP +46, MP Consumption -5%. -->
@@ -318,13 +322,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13936-3" /> <!-- Paulina's Earrings - MP Consumption -->
-		<for>
-			<set stat="mDef" val="124" />
-			<set stat="maxMp" val="46" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13936" level="3" /> <!-- Paulina's Earrings - MP Consumption -->
+		</skills>
+		<stats>
+			<stat type="mDef">124</stat>
+			<stat type="maxMp">46</stat>
+		</stats>
 	</item>
 	<item id="46917" name="PC Cafe - Paulina's Seraph Ring" additionalName="Critical Damage" type="Armor">
 		<!-- A Seraph Ring that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. MP +31, P./M. Critical Damage +15%. -->
@@ -338,13 +344,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13937-3" /> <!-- Paulina's Ring - Critical Damage -->
-		<for>
-			<set stat="mDef" val="82" />
-			<set stat="maxMp" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13937" level="3" /> <!-- Paulina's Ring - Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="mDef">82</stat>
+			<stat type="maxMp">31</stat>
+		</stats>
 	</item>
 	<item id="46918" name="PC Cafe - Paulina's Seraph Ring" additionalName="Critical Rate" type="Armor">
 		<!-- A Seraph Ring that can be equipped from Lv. 85 onwards, thanks to Paulina's blessing. MP +31, P./M. Critical Rate +40. -->
@@ -358,27 +366,29 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13938-3" /> <!-- Paulina's Ring - Critical Rate -->
-		<for>
-			<set stat="mDef" val="82" />
-			<set stat="maxMp" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13938" level="3" /> <!-- Paulina's Ring - Critical Rate -->
+		</skills>
+		<stats>
+			<stat type="mDef">82</stat>
+			<stat type="maxMp">31</stat>
+		</stats>
 	</item>
 	<item id="46919" name="Paulina's Equipment Set (R-grade)" additionalName="30-day" type="EtcItem">
 		<!-- Use to obtain a 30-day equipment set appropriate to your class. Can be used only by characters of Lv. 85 and above. -->
 		<set name="icon" val="icon.etc_equip_item_box_i02" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
+		<set name="is_depositable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="PaulinasSupportBox" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<cond msgId="1902">
 			<player levelRange="85;105" />
 		</cond>
@@ -394,13 +404,13 @@
 		<set name="weight" val="1320" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="142" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">142</stat>
+		</stats>
 	</item>
 	<item id="46921" name="Paulina's Chain Shield" type="Armor">
 		<!-- Chain Shield imbued with the energy of Paulina. -->
@@ -413,13 +423,13 @@
 		<set name="weight" val="1280" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="166" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">166</stat>
+		</stats>
 	</item>
 	<item id="46922" name="Paulina's Dark Crystal Shield" type="Armor">
 		<!-- Dark Crystal Shield imbued with the energy of Paulina. -->
@@ -432,13 +442,13 @@
 		<set name="weight" val="1190" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="243" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">243</stat>
+		</stats>
 	</item>
 	<item id="46923" name="Paulina's Dynasty Shield" type="Armor">
 		<!-- Dynasty Shield imbued with the energy of Paulina. -->
@@ -451,34 +461,35 @@
 		<set name="weight" val="1150" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="321" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">321</stat>
+		</stats>
 	</item>
 	<item id="46924" name="Paulina's Heavy Armor Box (R-grade)" type="EtcItem">
 		<!-- Double click to obtain an R-grade heavy armor set, earrings, necklace, and ring. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
+		<set name="is_depositable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<capsuled_items>
 			<item id="47021" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Helmet - Heavy Armor -->
 			<item id="47022" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Breastplate - Heavy Armor -->
 			<item id="47023" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Gaiters - Heavy Armor -->
 			<item id="47024" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Gauntlets - Heavy Armor -->
 			<item id="47025" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Boots - Heavy Armor -->
+			<item id="47026" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Shield - Heavy Armor -->
 			<item id="47038" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Necklace - Skill Cooldown -->
 			<item id="47039" min="2" max="2" chance="100" /> <!-- Paulina's Twilight Earring - Vampiric Rage -->
 			<item id="47040" min="2" max="2" chance="100" /> <!-- Paulina's Twilight Earring - MP Consumption -->
@@ -491,15 +502,15 @@
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
+		<set name="is_depositable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<capsuled_items>
 			<item id="47027" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Leather Helmet - Light Armor -->
 			<item id="47028" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Leather Armor - Light Armor -->
@@ -518,21 +529,22 @@
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
+		<set name="is_depositable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<capsuled_items>
 			<item id="47032" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Circlet - Robe -->
 			<item id="47033" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Tunic - Robe -->
 			<item id="47034" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Stockings - Robe -->
 			<item id="47035" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Gloves - Robe -->
 			<item id="47036" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Shoes - Robe -->
+			<item id="47037" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Sigil - Robe -->
 			<item id="47038" min="1" max="1" chance="100" /> <!-- Paulina's Twilight Necklace - Skill Cooldown -->
 			<item id="47039" min="2" max="2" chance="100" /> <!-- Paulina's Twilight Earring - Vampiric Rage -->
 			<item id="47040" min="2" max="2" chance="100" /> <!-- Paulina's Twilight Earring - MP Consumption -->
@@ -552,11 +564,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="47" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">47</stat>
+		</stats>
 	</item>
 	<item id="46928" name="Paulina's Brigandine" additionalName="Heavy Armor" type="Armor">
 		<!-- Brigandine imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -571,11 +583,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="125" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
 	</item>
 	<item id="46929" name="Paulina's Brigandine Gaiters" additionalName="Heavy Armor" type="Armor">
 		<!-- Brigandine Gaiters imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -590,11 +602,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="78" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">78</stat>
+		</stats>
 	</item>
 	<item id="46930" name="Paulina's Brigandine Gauntlets" additionalName="Heavy Armor" type="Armor">
 		<!-- Brigandine Gauntlets imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -608,11 +620,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">31</stat>
+		</stats>
 	</item>
 	<item id="46931" name="Paulina's Brigandine Boots" additionalName="Heavy Armor" type="Armor">
 		<!-- Brigandine Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -626,11 +638,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">31</stat>
+		</stats>
 	</item>
 	<item id="46932" name="Paulina's Manticore Skin Helmet" additionalName="Light Armor" type="Armor">
 		<!-- A Manticore Skin Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -644,11 +656,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="47" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">47</stat>
+		</stats>
 	</item>
 	<item id="46933" name="Paulina's Manticore Skin Shirt" additionalName="Light Armor" type="Armor">
 		<!-- A Manticore Skin Shirt imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -663,11 +675,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="100" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">100</stat>
+		</stats>
 	</item>
 	<item id="46934" name="Paulina's Manticore Skin Gaiters" additionalName="Light Armor" type="Armor">
 		<!-- Manticore Skin Gaiters imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -682,11 +694,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="62" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">62</stat>
+		</stats>
 	</item>
 	<item id="46935" name="Paulina's Manticore Skin Gloves" additionalName="Light Armor" type="Armor">
 		<!-- Manticore Skin Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -700,11 +712,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">31</stat>
+		</stats>
 	</item>
 	<item id="46936" name="Paulina's Manticore Skin Boots" additionalName="Light Armor" type="Armor">
 		<!-- Manticore Skin Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -718,11 +730,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">31</stat>
+		</stats>
 	</item>
 	<item id="46937" name="Paulina's Mithril Circlet" additionalName="Robe" type="Armor">
 		<!-- A Mithril Circlet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -736,11 +748,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="47" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">47</stat>
+		</stats>
 	</item>
 	<item id="46938" name="Paulina's Mithril Tunic" additionalName="Robe" type="Armor">
 		<!-- A Mithril Tunic imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -755,12 +767,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-			<set stat="maxMp" val="169" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+			<stat type="maxMp">169</stat>
+		</stats>
 	</item>
 	<item id="46939" name="Paulina's Mithril Stockings" additionalName="Robe" type="Armor">
 		<!-- Mithril Stockings imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -775,12 +787,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="42" />
-			<set stat="maxMp" val="105" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">42</stat>
+			<stat type="maxMp">105</stat>
+		</stats>
 	</item>
 	<item id="46940" name="Paulina's Elven Mithril Gloves" additionalName="Robe" type="Armor">
 		<!-- Elven Mithril Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -794,11 +806,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">31</stat>
+		</stats>
 	</item>
 	<item id="46941" name="Paulina's Elven Mithril Boots" additionalName="Robe" type="Armor">
 		<!-- Elven Mithril Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -812,11 +824,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="31" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">31</stat>
+		</stats>
 	</item>
 	<item id="46942" name="Paulina's Elven Necklace" type="Armor">
 		<!-- An Elven Necklace imbued with the energy of Paulina. -->
@@ -830,11 +842,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="47" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">47</stat>
+		</stats>
 	</item>
 	<item id="46943" name="Paulina's Elven Earrings" type="Armor">
 		<!-- Elven Earrings imbued with the energy of Paulina. -->
@@ -848,11 +860,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="35" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">35</stat>
+		</stats>
 	</item>
 	<item id="46944" name="Paulina's Elven Ring" type="Armor">
 		<!-- An Elven Ring imbued with the energy of Paulina. -->
@@ -866,11 +878,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="mDef" val="23" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="mDef">23</stat>
+		</stats>
 	</item>
 	<item id="46945" name="Paulina's Chain Helmet" additionalName="Heavy Armor" type="Armor">
 		<!-- A Chain Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -884,11 +896,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="65" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">65</stat>
+		</stats>
 	</item>
 	<item id="46946" name="Paulina's Chain Mail Shirt" additionalName="Heavy Armor" type="Armor">
 		<!-- A Chain Mail Shirt imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -903,11 +915,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="175" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">175</stat>
+		</stats>
 	</item>
 	<item id="46947" name="Paulina's Chain Gaiters" additionalName="Heavy Armor" type="Armor">
 		<!-- Chain Gaiters imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -922,11 +934,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="109" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">109</stat>
+		</stats>
 	</item>
 	<item id="46948" name="Paulina's Chain Gloves" additionalName="Heavy Armor" type="Armor">
 		<!-- Chain Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -940,11 +952,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="46949" name="Paulina's Chain Boots" additionalName="Heavy Armor" type="Armor">
 		<!-- A Chain Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -958,11 +970,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="46950" name="Paulina's Theca Leather Helmet" additionalName="Light Armor" type="Armor">
 		<!-- A Theca Leather Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -976,11 +988,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="65" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">65</stat>
+		</stats>
 	</item>
 	<item id="46951" name="Paulina's Theca Leather Armor" additionalName="Light Armor" type="Armor">
 		<!-- A Theca Leather Armor imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -995,11 +1007,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="140" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">140</stat>
+		</stats>
 	</item>
 	<item id="46952" name="Paulina's Theca Leather Gaiters" additionalName="Light Armor" type="Armor">
 		<!-- Theca Leather Gaiters imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1014,11 +1026,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="87" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">87</stat>
+		</stats>
 	</item>
 	<item id="46953" name="Paulina's Theca Leather Gloves" additionalName="Light Armor" type="Armor">
 		<!-- Theca Leather Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1032,11 +1044,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="46954" name="Paulina's Theca Leather Boots" additionalName="Light Armor" type="Armor">
 		<!-- Theca Leather Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1050,11 +1062,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="46955" name="Paulina's Demon Circlet" additionalName="Robe" type="Armor">
 		<!-- A Demon Circlet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1068,11 +1080,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="65" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">65</stat>
+		</stats>
 	</item>
 	<item id="46956" name="Paulina's Demon Tunic" additionalName="Robe" type="Armor">
 		<!-- A Demon Tunic imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1087,12 +1099,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="96" />
-			<set stat="maxMp" val="373" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+			<stat type="maxMp">373</stat>
+		</stats>
 	</item>
 	<item id="46957" name="Paulina's Demon Stockings" additionalName="Robe" type="Armor">
 		<!-- Demon Stockings imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1107,12 +1119,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="59" />
-			<set stat="maxMp" val="249" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">59</stat>
+			<stat type="maxMp">249</stat>
+		</stats>
 	</item>
 	<item id="46958" name="Paulina's Demon Gloves" additionalName="Robe" type="Armor">
 		<!-- Demon Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1126,11 +1138,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="46959" name="Paulina's Demon Boots" additionalName="Robe" type="Armor">
 		<!-- Demon Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1144,11 +1156,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="46960" name="Paulina's Necklace of Protection" additionalName="Skill Cooldown" type="Armor">
 		<!-- A Necklace of Protection imbued with the energy of Paulina. Skill Cooldown -3%. -->
@@ -1162,12 +1174,14 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13934-1" /> <!-- Paulina's Necklace - Skill Cooldown -->
-		<for>
-			<set stat="mDef" val="66" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13934" level="1" /> <!-- Paulina's Necklace - Skill Cooldown -->
+		</skills>
+		<stats>
+			<stat type="mDef">66</stat>
+		</stats>
 	</item>
 	<item id="46961" name="Paulina's Earring of Protection" additionalName="Vampiric Rage" type="Armor">
 		<!-- Earrings of Protection imbued with the energy of Paulina. Vampiric Rage effect. -->
@@ -1181,12 +1195,14 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13935-1" /> <!-- Paulina's Earrings - Vampiric Rage -->
-		<for>
-			<set stat="mDef" val="49" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13935" level="1" /> <!-- Paulina's Earrings - Vampiric Rage -->
+		</skills>
+		<stats>
+			<stat type="mDef">49</stat>
+		</stats>
 	</item>
 	<item id="46962" name="Paulina's Earring of Protection" additionalName="MP Consumption" type="Armor">
 		<!-- Earrings of Protection imbued with the energy of Paulina. MP Consumption -2%. -->
@@ -1200,12 +1216,14 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13936-1" /> <!-- Paulina's Earrings - MP Consumption -->
-		<for>
-			<set stat="mDef" val="49" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13936" level="1" /> <!-- Paulina's Earrings - MP Consumption -->
+		</skills>
+		<stats>
+			<stat type="mDef">49</stat>
+		</stats>
 	</item>
 	<item id="46963" name="Paulina's Ring of Protection" additionalName="Critical Damage" type="Armor">
 		<!-- A Ring of Protection imbued with the energy of Paulina. P./M. Critical Damage +5%. -->
@@ -1219,12 +1237,14 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13937-1" /> <!-- Paulina's Ring - Critical Damage -->
-		<for>
-			<set stat="mDef" val="33" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13937" level="1" /> <!-- Paulina's Ring - Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="mDef">33</stat>
+		</stats>
 	</item>
 	<item id="46964" name="Paulina's Ring of Protection" additionalName="Critical Rate" type="Armor">
 		<!-- A Ring of Protection imbued with the energy of Paulina. P./M. Critical Rate +10. -->
@@ -1238,12 +1258,14 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13938-1" /> <!-- Paulina's Ring - Critical Rate -->
-		<for>
-			<set stat="mDef" val="33" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13938" level="1" /> <!-- Paulina's Ring - Critical Rate -->
+		</skills>
+		<stats>
+			<stat type="mDef">33</stat>
+		</stats>
 	</item>
 	<item id="46965" name="Paulina's Dark Crystal Helmet" additionalName="Heavy Armor" type="Armor">
 		<!-- A Dynasty Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1257,11 +1279,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="46966" name="Paulina's Dark Crystal Breastplate" additionalName="Heavy Armor" type="Armor">
 		<!-- A Dark Crystal Breastplate imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1276,11 +1298,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="225" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">225</stat>
+		</stats>
 	</item>
 	<item id="46967" name="Paulina's Dark Crystal Gaiters" additionalName="Heavy Armor" type="Armor">
 		<!-- Dark Crystal Gaiters imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1295,11 +1317,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="140" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">140</stat>
+		</stats>
 	</item>
 	<item id="46968" name="Paulina's Dark Crystal Gloves" additionalName="Heavy Armor" type="Armor">
 		<!-- Dark Crystal Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1313,11 +1335,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="56" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">56</stat>
+		</stats>
 	</item>
 	<item id="46969" name="Paulina's Dark Crystal Boots" additionalName="Heavy Armor" type="Armor">
 		<!-- Dark Crystal Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1331,11 +1353,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="56" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">56</stat>
+		</stats>
 	</item>
 	<item id="46970" name="Paulina's Dark Crystal Leather Helmet" additionalName="Light Armor" type="Armor">
 		<!-- A Dark Crystal Leather Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1349,11 +1371,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="46971" name="Paulina's Dark Crystal Leather Armor" additionalName="Light Armor" type="Armor">
 		<!-- A Dark Crystal Leather Armor imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1368,11 +1390,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="180" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">180</stat>
+		</stats>
 	</item>
 	<item id="46972" name="Paulina's Dark Crystal Leggings" additionalName="Light Armor" type="Armor">
 		<!-- Dark Crystal Leggings imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1387,11 +1409,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="112" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">112</stat>
+		</stats>
 	</item>
 	<item id="46973" name="Paulina's Dark Crystal Gloves" additionalName="Light Armor" type="Armor">
 		<!-- Dark Crystal Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1405,11 +1427,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="56" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">56</stat>
+		</stats>
 	</item>
 	<item id="46974" name="Paulina's Dark Crystal Boots" additionalName="Light Armor" type="Armor">
 		<!-- Dark Crystal Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1423,11 +1445,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="56" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">56</stat>
+		</stats>
 	</item>
 	<item id="46975" name="Paulina's Tallum Circlet" additionalName="Robe" type="Armor">
 		<!-- A Tallum Circlet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1441,11 +1463,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="84" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">84</stat>
+		</stats>
 	</item>
 	<item id="46976" name="Paulina's Tallum Tunic" additionalName="Robe" type="Armor">
 		<!-- A Tallum Tunic imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1460,12 +1482,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="123" />
-			<set stat="maxMp" val="484" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">123</stat>
+			<stat type="maxMp">484</stat>
+		</stats>
 	</item>
 	<item id="46977" name="Paulina's Tallum Stockings" additionalName="Robe" type="Armor">
 		<!-- Tallum Stockings imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1480,12 +1502,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="77" />
-			<set stat="maxMp" val="323" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">77</stat>
+			<stat type="maxMp">323</stat>
+		</stats>
 	</item>
 	<item id="46978" name="Paulina's Tallum Gloves" additionalName="Robe" type="Armor">
 		<!-- Tallum Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1499,11 +1521,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="56" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">56</stat>
+		</stats>
 	</item>
 	<item id="46979" name="Paulina's Tallum Boots" additionalName="Robe" type="Armor">
 		<!-- Tallum Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1517,11 +1539,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="56" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">56</stat>
+		</stats>
 	</item>
 	<item id="46980" name="Paulina's Majestic Necklace" additionalName="Skill Cooldown" type="Armor">
 		<!-- A Majestic Necklace imbued with the energy of Paulina. Skill Cooldown -3%. -->
@@ -1535,13 +1557,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13934-1" /> <!-- Paulina's Necklace - Skill Cooldown -->
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="maxMp" val="33" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13934" level="1" /> <!-- Paulina's Necklace - Skill Cooldown -->
+		</skills>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="maxMp">33</stat>
+		</stats>
 	</item>
 	<item id="46981" name="Paulina's Majestic Earrings" additionalName="Vampiric Rage" type="Armor">
 		<!-- Majestic Earrings imbued with the energy of Paulina. Vampiric Rage effect. -->
@@ -1555,13 +1579,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13935-1" /> <!-- Paulina's Earrings - Vampiric Rage -->
-		<for>
-			<set stat="mDef" val="63" />
-			<set stat="maxMp" val="25" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13935" level="1" /> <!-- Paulina's Earrings - Vampiric Rage -->
+		</skills>
+		<stats>
+			<stat type="mDef">63</stat>
+			<stat type="maxMp">25</stat>
+		</stats>
 	</item>
 	<item id="46982" name="Paulina's Majestic Earrings" additionalName="MP Consumption" type="Armor">
 		<!-- Majestic Earrings imbued with the energy of Paulina. MP Consumption -2%. -->
@@ -1575,13 +1601,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13936-1" /> <!-- Paulina's Earrings - MP Consumption -->
-		<for>
-			<set stat="mDef" val="63" />
-			<set stat="maxMp" val="25" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13936" level="1" /> <!-- Paulina's Earrings - MP Consumption -->
+		</skills>
+		<stats>
+			<stat type="mDef">63</stat>
+			<stat type="maxMp">25</stat>
+		</stats>
 	</item>
 	<item id="46983" name="Paulina's Majestic Ring" additionalName="Critical Damage" type="Armor">
 		<!-- A Majestic Ring imbued with the energy of Paulina. P./M. Critical Damage +5%. -->
@@ -1595,13 +1623,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13937-1" /> <!-- Paulina's Ring - Critical Damage -->
-		<for>
-			<set stat="mDef" val="42" />
-			<set stat="maxMp" val="17" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13937" level="1" /> <!-- Paulina's Ring - Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+			<stat type="maxMp">17</stat>
+		</stats>
 	</item>
 	<item id="46984" name="Paulina's Majestic Ring" additionalName="Critical Rate" type="Armor">
 		<!-- A Majestic Ring imbued with the energy of Paulina. P./M. Critical Rate +10. -->
@@ -1615,13 +1645,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13938-1" /> <!-- Paulina's Ring - Critical Rate -->
-		<for>
-			<set stat="mDef" val="42" />
-			<set stat="maxMp" val="17" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13938" level="1" /> <!-- Paulina's Ring - Critical Rate -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+			<stat type="maxMp">17</stat>
+		</stats>
 	</item>
 	<item id="46985" name="Paulina's Dynasty Helmet" additionalName="Heavy Armor" type="Armor">
 		<!-- A Dynasty Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1635,11 +1667,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="103" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">103</stat>
+		</stats>
 	</item>
 	<item id="46986" name="Paulina's Dynasty Breastplate" additionalName="Heavy Armor" type="Armor">
 		<!-- A Dynasty Breastplate imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1654,11 +1686,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="274" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">274</stat>
+		</stats>
 	</item>
 	<item id="46987" name="Paulina's Dynasty Gaiters" additionalName="Heavy Armor" type="Armor">
 		<!-- Dynasty Gaiters imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1673,11 +1705,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="171" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">171</stat>
+		</stats>
 	</item>
 	<item id="46988" name="Paulina's Dynasty Gauntlets" additionalName="Heavy Armor" type="Armor">
 		<!-- Dynasty Gauntlets imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1691,11 +1723,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+		</stats>
 	</item>
 	<item id="46989" name="Paulina's Dynasty Boots" additionalName="Heavy Armor" type="Armor">
 		<!-- Dynasty Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1709,11 +1741,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+		</stats>
 	</item>
 	<item id="46990" name="Paulina's Dynasty Leather Helmet" additionalName="Light Armor" type="Armor">
 		<!-- A Dynasty Leather Helmet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1727,11 +1759,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="103" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">103</stat>
+		</stats>
 	</item>
 	<item id="46991" name="Paulina's Dynasty Leather Armor" additionalName="Light Armor" type="Armor">
 		<!-- A Dynasty Leather Armor imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1746,11 +1778,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="219" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">219</stat>
+		</stats>
 	</item>
 	<item id="46992" name="Paulina's Dynasty Leather Leggints" additionalName="Light Armor" type="Armor">
 		<!-- Dynasty Leather Leggings imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1765,11 +1797,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="136" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">136</stat>
+		</stats>
 	</item>
 	<item id="46993" name="Paulina's Dynasty Leather Gloves" additionalName="Light Armor" type="Armor">
 		<!-- Dynasty Leather Gloves containing Paulina's strength. Enchantment, Attribute Assignment are not possible. -->
@@ -1783,11 +1815,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+		</stats>
 	</item>
 	<item id="46994" name="Paulina's Dynasty Leather Boots" additionalName="Light Armor" type="Armor">
 		<!-- Dynasty Leather Boots imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1801,11 +1833,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+		</stats>
 	</item>
 	<item id="46995" name="Paulina's Dynasty Circlet" additionalName="Robe" type="Armor">
 		<!-- A Dynasty Circlet imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1819,11 +1851,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="103" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">103</stat>
+		</stats>
 	</item>
 	<item id="46996" name="Paulina's Dynasty Tunic" additionalName="Robe" type="Armor">
 		<!-- A Dynasty Tunic imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1838,12 +1870,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="150" />
-			<set stat="maxMp" val="602" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">150</stat>
+			<stat type="maxMp">602</stat>
+		</stats>
 	</item>
 	<item id="46997" name="Paulina's Dynasty Stockings" additionalName="Robe" type="Armor">
 		<!-- Dynasty Stockings imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1858,12 +1890,12 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="94" />
-			<set stat="maxMp" val="402" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">94</stat>
+			<stat type="maxMp">402</stat>
+		</stats>
 	</item>
 	<item id="46998" name="Paulina's Dynasty Gloves" additionalName="Robe" type="Armor">
 		<!-- Dynasty Gloves imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1877,11 +1909,11 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+		</stats>
 	</item>
 	<item id="46999" name="Paulina's Dynasty Shoes" additionalName="Robe" type="Armor">
 		<!-- Dynasty Shoes imbued with the energy of Paulina. Enchantment and Attribute Assignment not possible. -->
@@ -1895,10 +1927,10 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_depositable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="68" />
-		</for>
+		<set name="is_depositable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">68</stat>
+		</stats>
 	</item>
 </list>

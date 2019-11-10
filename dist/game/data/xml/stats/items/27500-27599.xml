@@ -9,7 +9,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27572-1" /> <!-- Attribute Stone Pack -->
+		<skills>
+			<skill id="27572" level="1" /> <!-- Attribute Stone Pack -->
+		</skills>
 	</item>
 	<item id="27501" name="Greater Attribute Stone Pack" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to obtain a Super Attribute Stone or a Super Crystal. -->
@@ -20,7 +22,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27573-1" /> <!-- Greater Attribute Stone Pack -->
+		<skills>
+			<skill id="27573" level="1" /> <!-- Greater Attribute Stone Pack -->
+		</skills>
 	</item>
 	<item id="27502" name="Enchant Scroll Pack" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to obtain an Enchant Scroll Pack (R-grade), a Blessed Enchant Scroll, a Giant's Enchant Scroll, a Scroll: Enchant Hair Accessory, or a Destruction Enchant Scroll. -->
@@ -31,7 +35,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27574-1" /> <!-- Enchant Scroll Pack -->
+		<skills>
+			<skill id="27574" level="1" /> <!-- Enchant Scroll Pack -->
+		</skills>
 	</item>
 	<item id="27503" name="Greater Enchant Scroll Pack" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to obtain a Blessed Enchant Scroll or a Destruction Enchant Scroll. -->
@@ -42,7 +48,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27575-1" /> <!-- Greater Enchant Scroll Pack -->
+		<skills>
+			<skill id="27575" level="1" /> <!-- Greater Enchant Scroll Pack -->
+		</skills>
 	</item>
 	<item id="27504" name="Lucky Enchant Stone Pack" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to obtain a Blessed Lucky Enchant Stone (R-grade), a Giant's Lucky Enchant Stone, or a regular Lucky Enchant Stone. -->
@@ -53,7 +61,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27576-1" /> <!-- Lucky Enchant Stone Pack -->
+		<skills>
+			<skill id="27576" level="1" /> <!-- Lucky Enchant Stone Pack -->
+		</skills>
 	</item>
 	<item id="27505" name="Greater Lucky Enchant Stone Pack" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to get one of the following: Blessed Lucky Enchant Stone (R-grade), Giant's Lucky Enchant Stone, regular Lucky Enchant Stone, Blessed Greater Lucky Enchant Stone, Wind Lucky Enchant Stone, regular Greater Lucky Enchant Stone. -->
@@ -64,7 +74,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27577-1" /> <!-- Greater Lucky Enchant Stone Pack -->
+		<skills>
+			<skill id="27577" level="1" /> <!-- Greater Lucky Enchant Stone Pack -->
+		</skills>
 	</item>
 	<item id="27506" name="Treasure Chest" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to get one of the following: Rare Accessory pack, Soul Crystal Coupon Pack, Talisman - Abundance Pack, Spirit Stone Pack, Hair Accessory Pack, Pendant Pack, Enchant Scroll Pack, Attribute Stone Pack, Ingredient Box, Lucky Enchant Stone Pack. -->
@@ -76,7 +88,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27578-1" /> <!-- Treasure Chest -->
+		<skills>
+			<skill id="27578" level="1" /> <!-- Treasure Chest -->
+		</skills>
 	</item>
 	<item id="27507" name="Hero's Treasure Chest" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to get one of the foolowing: Rare Accessory Pack, Soul Bottle Pack, Greater Rare Accessory Pack, Talisman - Abundance Pack, Pendant Pack, Greater Enchant Scroll Pack, Greater Attribute Stone Pack, Greater Lucky Enchant Stone Pack. -->
@@ -87,7 +101,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27579-1" /> <!-- Hero's Treasure Chest -->
+		<skills>
+			<skill id="27579" level="1" /> <!-- Hero's Treasure Chest -->
+		</skills>
 	</item>
 	<item id="27508" name="Talisman - Abundance Pack" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to get one of the basic Talisman - Abundance. -->
@@ -98,7 +114,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27581-1" /> <!-- Talisman - Abundance Pack -->
+		<skills>
+			<skill id="27581" level="1" /> <!-- Talisman - Abundance Pack -->
+		</skills>
 	</item>
 	<item id="27509" name="Treasure Chest" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to obtain one of the following: Rare Accessory Pack, Soul Crystal Coupon Pack, Talisman - Abundance Pack, Spirit Stone Pack, Hair Accessory Pack, Pendant Pack, Enchant Scroll Pack, Attribute Stone Pack, Ingredient Box, Lucky Enchant Stone Pack. -->
@@ -109,7 +127,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27578-1" /> <!-- Treasure Chest -->
+		<skills>
+			<skill id="27578" level="1" /> <!-- Treasure Chest -->
+		</skills>
 	</item>
 	<item id="27510" name="Hero's Treasure Chest" additionalName="Underground" type="EtcItem">
 		<!-- Double-click to obtain one of the following: Rare Accessory Pack, Soul Bottle pack, Greater Rare Accessory Box, Talisman - Abundance Pack, Pendant Pack, Greater Enchant Scroll Pack, Greater Attribute Stone Pack, Greater Lucky Enchant Stone Pack. -->
@@ -120,7 +140,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="27579-1" /> <!-- Hero's Treasure Chest -->
+		<skills>
+			<skill id="27579" level="1" /> <!-- Hero's Treasure Chest -->
+		</skills>
 	</item>
 	<item id="27511" name="Novice Adventurer's Shirt" type="Armor">
 		<!-- Novice Adventurer's shirt. M. Def. + 11 when equipped. -->
@@ -129,16 +151,16 @@
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<add order="0" stat="pDef" val="28" />
-			<set stat="mDef" val="11" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pDef">28</stat>
+			<stat type="mDef">11</stat>
+		</stats>
 	</item>
 	<item id="27512" name="Novice Adventurer's Circlet" type="Armor">
 		<!-- Novice Adventurer's brass-hued hair accessory. Requires 2 hair accessory slots. Critical Rate + 10 when equipped. -->
@@ -148,16 +170,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="27586-1" /> <!-- Novice Adventurer's Circlet - Critical Rate -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="27586" level="1" /> <!-- Novice Adventurer's Circlet - Critical Rate -->
+		</skills>
 	</item>
 	<item id="27513" name="Novice Adventurer's Bracelet" type="Armor">
 		<!-- Novice Adventurer's bracelet. MP + 60 and uses 3 talisman slots when equipped. -->
@@ -165,30 +189,32 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="3324-1" /> <!-- Steel Bracelet -->
-		<for>
-			<set stat="maxMp" val="60" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="3324" level="1" /> <!-- Steel Bracelet -->
+		</skills>
+		<stats>
+			<stat type="maxMp">60</stat>
+		</stats>
 	</item>
 	<item id="27514" name="Novice Adventurer's Support Box" type="EtcItem">
 		<!-- Support box containing a Novice Adventurer's Shirt, Circlet, and Bracelet. -->
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27515" name="Experienced Adventurer's Shirt" type="Armor">
@@ -198,17 +224,19 @@
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="27584-1" /> <!-- Novice Adventurer's Shirt Effect -->
-		<for>
-			<add order="0" stat="pDef" val="28" />
-			<set stat="mDef" val="12" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="27584" level="1" /> <!-- Novice Adventurer's Shirt Effect -->
+		</skills>
+		<stats>
+			<stat type="pDef">28</stat>
+			<stat type="mDef">12</stat>
+		</stats>
 	</item>
 	<item id="27516" name="Experienced Adventurer's Circlet" type="Armor">
 		<!-- Experienced Adventurer's silver-hued hair accessory. Requires 2 hair accessory slots. Critical Rate + 20 when equipped. -->
@@ -218,16 +246,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="27587-1" /> <!-- Experienced Adventurer's Circlet � Critical Rate -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="27587" level="1" /> <!-- Experienced Adventurer's Circlet � Critical Rate -->
+		</skills>
 	</item>
 	<item id="27517" name="Experienced Adventurer's Bracelet" type="Armor">
 		<!-- Experienced Adventurer's bracelet. MP + 90 and uses 3 talisman slots when equipped. -->
@@ -235,31 +265,33 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="3324-1" /> <!-- Steel Bracelet -->
-		<for>
-			<set stat="maxMp" val="90" />
-		</for>
+		<skills>
+			<skill id="3324" level="1" /> <!-- Steel Bracelet -->
+		</skills>
+		<stats>
+			<stat type="maxMp">90</stat>
+		</stats>
 	</item>
 	<item id="27518" name="Experienced Adventurer's Support Box" type="EtcItem">
 		<!-- Support box containing an Experienced Adventurer's Shirt, Circlet, and Bracelet. -->
 		<set name="icon" val="icon.etc_treasure_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27519" name="Adventurer's Shirt" type="Armor">
@@ -269,17 +301,19 @@
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="27585-1" /> <!-- Adventurer's Shirt Effect -->
-		<for>
-			<add order="0" stat="pDef" val="28" />
-			<set stat="mDef" val="13" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="27585" level="1" /> <!-- Adventurer's Shirt Effect -->
+		</skills>
+		<stats>
+			<stat type="pDef">28</stat>
+			<stat type="mDef">13</stat>
+		</stats>
 	</item>
 	<item id="27520" name="Adventurer's Circlet" type="Armor">
 		<!-- Adventurer's circlet. Requires 2 hair accessory slots. P. Atk. + 3%, M. Atk. + 5% when equipped. -->
@@ -289,13 +323,15 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="WOOD" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="27588-1" /> <!-- Adventurer's Shirt Effect -->
+		<skills>
+			<skill id="27588" level="1" /> <!-- Adventurer's Shirt Effect -->
+		</skills>
 	</item>
 	<item id="27521" name="Adventurer's Bracelet" type="Armor">
 		<!-- Adventurer's Bracelet. STR/DEX/CON/INT/WIT/MEN + 1 and uses 3 talisman slots when equipped. -->
@@ -303,28 +339,33 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="3324-1;27602-1" /> <!-- Steel Bracelet --> <!-- Adventurer's Bracelet -->
+		<skills>
+			<skill id="3324" level="1" /> <!-- Steel Bracelet -->
+			<skill id="27602" level="1" /> <!-- Adventurer's Bracelet -->
+		</skills>
 	</item>
 	<item id="27522" name="Support Cube" additionalName="30-day" type="EtcItem">
 		<!-- Cube that can be used for 30 days. Double-click to get one of the following: Specter weapon / Seraph armor / (Blessed) Scroll: Enchant Weapon (R-grade) / (Blessed) Scroll: Enchant Armor (R-grade) / Spirit Stone / Attribute Crystal. (Can only be used once a-day) -->
 		<set name="icon" val="Branchsys2.icon.cube_event_i02" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="time" val="43200" />
-        <set name="item_skill" val="27589-1" /> <!-- Adventurer's Support Cube -->
+		<skills>
+			<skill id="27589" level="1" /> <!-- Adventurer's Support Cube -->
+		</skills>
 	</item>
 	<item id="27523" name="Adventurer's Support Box" type="EtcItem">
 		<!-- Support box containing a Adventurer's Shirt, Circlet, and Bracelet. -->
@@ -351,7 +392,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27590-1" /> <!-- Talisman - Abundance Pack -->
+		<skills>
+			<skill id="27590" level="1" /> <!-- Talisman - Abundance Pack -->
+		</skills>
 	</item>
 	<item id="27525" name="Requiem Weapon Coupon" type="EtcItem">
 		<!-- Take it to the Dimensional Merchant to exchange for a Requiem weapon. -->
@@ -391,13 +434,13 @@
 		<!-- Pack containing Scrolls of Escape for Alligator Island/Outlaw Forest/Sea of Spores/Forsaken Plains/Fields of Massacre/Swamp of Screams/Forest of the Dead/Wall of Argos/Varka Silenos Barracks/Ketra Orc Outpost/Den of Evil/Sel Mahum Training Grounds/Plains of the Lizardmen/Field of Silence/ Field of Whispers. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -405,55 +448,55 @@
 		<!-- Diana's onyx earring. Take it to Diana in the Talking Island Village. -->
 		<set name="icon" val="icon.accessary_mage_earing_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27532" name="Diana's Ring" additionalName="Quest" type="EtcItem">
 		<!-- Diana's sapphire ring. Take it to Diana in the Talking Island Village. -->
 		<set name="icon" val="icon.accessary_ring_of_binding_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27533" name="Diana's Necklace" additionalName="Quest" type="EtcItem">
 		<!-- Diana's ruby necklace. Take it to Diana in the Talking Island Village. -->
 		<set name="icon" val="icon.item_normal142" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27534" name="Diana's Recommendation" additionalName="Event" type="EtcItem">
 		<!-- Diana's recommendation. You can participate in the Miss/Mr. event. -->
 		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27535" name="+ 8 Shiny Elemental Shirt Pack" type="EtcItem">
 		<!-- Double-click to get a + 8 enchanted Shiny Elemental Shirt. -->
 		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -464,8 +507,8 @@
 	<item id="27536" name="+ 8 Reflect Attack T-shirt Pack" type="EtcItem">
 		<!-- Double-click to get a + 8 enchanted Reflect Attack T-shirt. -->
 		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -476,8 +519,8 @@
 	<item id="27537" name="+ 8 Reflect Magic T-shirt Pack" type="EtcItem">
 		<!-- Double-click to get a + 8 enchanted Reflect Magic T-shirt. -->
 		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -488,8 +531,8 @@
 	<item id="27538" name="+ 7 Bloody Amaranthine Pack" type="EtcItem">
 		<!-- Double-click to get a + 7 enchanted Bloody Amaranthine weapon. -->
 		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -504,21 +547,21 @@
 		<!-- Put this item on the character that will receive the service, and send a support ticket on support.lineage2.com. Clan leaders only! -->
 		<set name="icon" val="icon.etc_exchange_ticket_i02" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27541" name="Mysterious Abnormal State Resistance Dye" additionalName="Abnormal State/ Buff Cancellation Resistance, Abnormal State Reflect, 30-day" type="EtcItem">
 		<!-- Bring this to the village symbol maker to imprint a 30-day magic symbol that boosts stats (Hold, Sleep, Paralysis, Mental Attack, Poison, Bleed, Stun Resistance + 20 / Buff-canceling Attack Resistance + 20 / 5% chance of reflecting physical and magical abnormal status). All classes. -->
 		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_debuff" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="DYE" />
 	</item>
@@ -528,95 +571,97 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27597-1" /> <!-- Riding Wolf -->
+		<skills>
+			<skill id="27597" level="1" /> <!-- Riding Wolf -->
+		</skills>
 	</item>
 	<item id="27543" name="Lv. 41 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27544" name="Lv. 53 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27545" name="Lv. 63 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27546" name="Lv. 77 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27547" name="Lv. 79 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27548" name="Lv. 80 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27549" name="Lv. 81 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27550" name="Lv. 83 Equipment Pack" type="EtcItem">
 		<!-- Double-click to receive a variety of items. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="27551" name="Rare Accessory Pack" additionalName="30-day" type="EtcItem">
 		<!-- Double-click to get Blessed Antharas' Earring, Blessed Valakas' Necklace, Tauti's Ring, Earth Wyrm Heart Ring, Ruler's Authority, and Lindvior's Earring for 30 days. -->
@@ -641,50 +686,52 @@
 		<set name="armor_type" val="LIGHT" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="440" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="time" val="43200" />
-        <set name="item_skill" val="15145-1" /> <!-- Ruler's Authority -->
-		<for>
-			<add order="0" stat="pDef" val="50" />
-			<set stat="fireRes" val="15" />
-			<set stat="waterRes" val="15" />
-			<set stat="windRes" val="15" />
-			<set stat="earthRes" val="15" />
-			<set stat="holyRes" val="15" />
-			<set stat="darkRes" val="15" />
-		</for>
+		<skills>
+			<skill id="15145" level="1" /> <!-- Ruler's Authority -->
+		</skills>
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="fireRes">15</stat>
+			<stat type="waterRes">15</stat>
+			<stat type="windRes">15</stat>
+			<stat type="earthRes">15</stat>
+			<stat type="holyRes">15</stat>
+			<stat type="darkRes">15</stat>
+		</stats>
 	</item>
 	<item id="27553" name="Agathion - Griffin" additionalName="Premium" type="Armor">
 		<!-- Can summon Griffin when equipped. -->
 		<set name="icon" val="BranchIcon.icon.Item_g_rbracelet_griffin" />
 		<set name="default_action" val="EQUIP" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 	</item>
 	<item id="27554" name="Blessed Griffin Egg" additionalName="1-day" type="EtcItem">
 		<!-- This Blessed Griffin Egg will be of great help to you. -->
 		<set name="icon" val="BranchSys3.Icon.g_threehead_source" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="1440" />
 	</item>
 	<item id="27555" name="Lv. 3 Giant Dye Exchange Coupon" type="EtcItem">
@@ -837,13 +884,13 @@
 	<item id="27565" name="Weapon Pack (C-grade)" type="EtcItem">
 		<!-- Double-click to obtain a C-grade Steel weapon. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -865,13 +912,13 @@
 	<item id="27566" name="Weapon Pack (B-grade)" type="EtcItem">
 		<!-- Double-click to obtain a B-grade Steel weapon. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -893,13 +940,13 @@
 	<item id="27567" name="Weapon Pack (A-grade)" type="EtcItem">
 		<!-- Double-click to obtain a A-grade Steel weapon. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -920,13 +967,13 @@
 	<item id="27568" name="Weapon Pack (S-grade)" type="EtcItem">
 		<!-- Double-click to obtain a S-grade Steel weapon. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -948,13 +995,13 @@
 	<item id="27569" name="Dynasty Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain a Steel Dynasty weapon. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -977,116 +1024,116 @@
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27571" name="Monthly Login Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27572" name="Daily Quest Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27573" name="Daily Instance Instance Zone Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27574" name="Daily Fishing Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27575" name="Olympiad Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27576" name="Ceremony of Chaos Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27577" name="Castle Siege Reward Pack" type="EtcItem">
 		<!-- Double-click to obtain a crafting ingredient. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27578" name="XP Rune III (Lv. 1-100+) 100% Pack (1-hour)" type="EtcItem">
 		<!-- Premium User Only. Wrapped Pack containing XP Rune III (Lv. 1-100+) 100% (1-hour). -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="60000" />
 		<set name="default_action" val="PEEL" />
@@ -1102,12 +1149,12 @@
 		<!-- Premium User Only. Wrapped Pack containing SP Rune 100% (1-hour). -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="60000" />
 		<set name="default_action" val="PEEL" />
@@ -1123,12 +1170,12 @@
 		<!-- Premium User Only. Wrapped Pack containing Prestige Rune 100% (1-hour). -->
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="60000" />
 		<set name="default_action" val="PEEL" />
@@ -1145,132 +1192,144 @@
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="40320" />
-        <set name="item_skill" val="26046-6" /> <!-- XP Rune III (Lv. 1-100+) 100% -->
+		<skills>
+			<skill id="26046" level="6" /> <!-- XP Rune III (Lv. 1-100+) 100% -->
+		</skills>
 	</item>
 	<item id="27582" name="SP Rune 100%" additionalName="1-hour" type="EtcItem">
 		<!-- Premium User Only. Ancient charm endowed with mysterious symbols. When stored in the inventory, increases acquired SP by 100%. The remaining time decreases even when not playing. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="60" />
-        <set name="item_skill" val="26047-6" /> <!-- SP Rune 100% -->
+		<skills>
+			<skill id="26047" level="6" /> <!-- SP Rune 100% -->
+		</skills>
 	</item>
 	<item id="27583" name="Prestige Rune 100%" additionalName="1-hour" type="EtcItem">
 		<!-- Premium User Only. When carried during a hunt, Adena / item drop rate / item acquisition through Spoil + 30%.100%. -->
 		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="60" />
 	</item>
 	<item id="27584" name="Top-grade Spirit Stone" type="EtcItem">
 		<!-- Top-grade Spirit Stone. It's an ingredient to augment weapons, and can be used by characters Lv. 99 and above. Augment Fees are significantly less than normal. -->
 		<set name="icon" val="icon.renewal_mineral_r99" />
 		<set name="weight" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27585" name="Special Supply Box" additionalName="Standard" type="EtcItem">
 		<!-- Reward box containing various rewards. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27611-1" /> <!-- Lord's Special Supply Box -->
+		<skills>
+			<skill id="27611" level="1" /> <!-- Lord's Special Supply Box -->
+		</skills>
 	</item>
 	<item id="27586" name="Special Supply Box" additionalName="Mid-grade" type="EtcItem">
 		<!-- Reward box containing various rewards. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27612-1" /> <!-- Lord's Special Supply Box -->
+		<skills>
+			<skill id="27612" level="1" /> <!-- Lord's Special Supply Box -->
+		</skills>
 	</item>
 	<item id="27587" name="Special Supply Box" additionalName="High-grade" type="EtcItem">
 		<!-- Reward box containing various rewards. -->
 		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27613-1" /> <!-- Lord's Special Supply Box -->
+		<skills>
+			<skill id="27613" level="1" /> <!-- Lord's Special Supply Box -->
+		</skills>
 	</item>
 	<item id="27588" name="Special Supply Box" additionalName="Top-grade" type="EtcItem">
 		<!-- Reward box containing various rewards. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27614-1" /> <!-- Lord's Special Supply Box -->
+		<skills>
+			<skill id="27614" level="1" /> <!-- Lord's Special Supply Box -->
+		</skills>
 	</item>
 	<item id="27589" name="Supply Box" additionalName="Standard" type="EtcItem">
 		<!-- You can obtain a Daily Coin. If you are lucky, you may obtain a Special Supply Box. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -1282,13 +1341,13 @@
 	<item id="27590" name="Supply Box" additionalName="Mid-grade" type="EtcItem">
 		<!-- You can obtain a Daily Coin. If you are lucky, you may obtain a Special Supply Box. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -1300,13 +1359,13 @@
 	<item id="27591" name="Supply Box" additionalName="High-grade" type="EtcItem">
 		<!-- You can obtain a Daily Coin. If you are lucky, you may obtain a Special Supply Box. -->
 		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -1318,13 +1377,13 @@
 	<item id="27592" name="Supply Box" additionalName="Top-grade" type="EtcItem">
 		<!-- You can obtain a Daily Coin. If you are lucky, you may obtain a Special Supply Box. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
@@ -1337,13 +1396,13 @@
 		<!-- Take it to High Priest Franco in Talking Island to exchange for various consumable items. -->
 		<set name="icon" val="icon.ev_festival_goldcoin" />
 		<set name="etcitem_type" val="MATERIAL" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27594" name="Maphr's Wind Scroll" type="EtcItem">
@@ -1351,13 +1410,13 @@
 		<set name="icon" val="icon.freya_scroll" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
@@ -1365,72 +1424,74 @@
 		<cond>
 			<player MinimumVitalityPoints="35000" />
 		</cond>
-        <set name="item_skill" val="27615-1" /> <!-- Maphr's Wind Scroll -->
+		<skills>
+			<skill id="27615" level="1" /> <!-- Maphr's Wind Scroll -->
+		</skills>
 	</item>
 	<item id="27595" name="Vitality Maintaining Potion" type="EtcItem">
 		<!-- Retains Vitality for 10 min. Cooldown is 30min. Vitality item with limited usage. -->
 		<set name="icon" val="BranchSys.icon.br_vitality_potion_i00" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="weight" val="36" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27596" name="Scroll of Blessing: Weapon (R-grade)" type="EtcItem">
 		<!-- There is a big chance that the Blacksmith of Mammon will exchange for you standard Requiem or Apocalypse equipment for Blessed equipment. -->
 		<set name="icon" val="icon.bless_scroll_r2" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27597" name="Scroll of Blessing: Weapon (R95-grade)" type="EtcItem">
 		<!-- There is a big chance that the Blacksmith of Mammon will exchange for you standard Specter equipment for Blessed equipment. -->
 		<set name="icon" val="icon.bless_scroll_r95" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27598" name="Scroll of Blessing: Weapon (R99-grade)" type="EtcItem">
 		<!-- There is a big chance that the Blacksmith of Mammon will exchange for you standard Amaranthine equipment for Blessed equipment. -->
 		<set name="icon" val="icon.bless_scroll_r99" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="27599" name="Scroll of Blessing: Armor (R-grade)" type="EtcItem">
 		<!-- There is a big chance that the Blacksmith of Mammon will exchange for you standard Immortal or Twilight equipment for Blessed equipment. -->
 		<set name="icon" val="icon.bless_scroll_r2" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 </list>

@@ -117,7 +117,7 @@ public class AdminInventory implements IAdminCommandHandler
 		for (int x = 0; x < maxPages; x++)
 		{
 			int pagenr = x + 1;
-			sbPages.append("<td><button value=\"" + String.valueOf(pagenr) + "\" action=\"bypass -h admin_show_inventory " + String.valueOf(x) + "\" width=20 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td>");
+			sbPages.append("<td><button value=\"" + String.valueOf(pagenr) + "\" action=\"bypass -h admin_show_inventory " + String.valueOf(x) + "\" width=20 height=20 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></button></td>");
 		}
 		
 		adminReply.replace("%PAGES%", sbPages.toString());
@@ -128,7 +128,7 @@ public class AdminInventory implements IAdminCommandHandler
 		{
 			sbItems.append("<tr><td><img src=\"" + items[i].getItem().getIcon() + "\" width=32 height=32></td>");
 			sbItems.append("<td width=60>" + items[i].getName() + "</td>");
-			sbItems.append("<td><button action=\"bypass -h admin_delete_item " + String.valueOf(items[i].getObjectId()) + "\" width=16 height=16 back=\"L2UI_ct1.Button_DF_Delete\" fore=\"L2UI_ct1.Button_DF_Delete\">" + "</td></tr>");
+			sbItems.append("<td><button action=\"bypass -h admin_delete_item " + String.valueOf(items[i].getObjectId()) + "\" width=16 height=16 back=\"L2UI_ct1.Button_DF_Delete\" fore=\"L2UI_ct1.Button_DF_Delete\"></button>" + "</td></tr>");
 		}
 		
 		adminReply.replace("%ITEMS%", sbItems.toString());

@@ -34,11 +34,11 @@ import java.util.Map;
 public enum AuctionHouse
 {
 	// Structure: Name, Category, Conditions
-	ITEM_PET_WEAPON("Pet Weapon", "Pet Goods", new AuctionConditionSlot(L2Item.SLOT_R_HAND), new AuctionConditionForPet(true)),
-	ITEM_PET_ARMOR("Pet Armor", "Pet Goods", new AuctionConditionSlot(L2Item.SLOT_CHEST), new AuctionConditionForPet(true)),
-	ITEM_PET_JEWEL("Pet Jewel", "Pet Goods", new AuctionConditionSlot(L2Item.SLOT_NECK), new AuctionConditionForPet(true)),
-	ITEM_PET_COLLAR("Pet Collar", "Pet Goods", new AuctionConditionEtcType(EtcItemType.PET_COLLAR)),
-	ITEM_PET_SUPPLIES("Pet Supplies", "Pet Goods", new AuctionConditionForPet(true)),
+	ITEM_PET_WEAPON("Pet Weapon", "Pets", new AuctionConditionSlot(L2Item.SLOT_R_HAND), new AuctionConditionForPet(true)),
+	ITEM_PET_ARMOR("Pet Armor", "Pets", new AuctionConditionSlot(L2Item.SLOT_CHEST), new AuctionConditionForPet(true)),
+	ITEM_PET_JEWEL("Pet Jewel", "Pets", new AuctionConditionSlot(L2Item.SLOT_NECK), new AuctionConditionForPet(true)),
+	ITEM_PET_COLLAR("Pet Collar", "Pets", new AuctionConditionEtcType(EtcItemType.PET_COLLAR)),
+	ITEM_PET_SUPPLIES("Pet Supplies", "Pets", new AuctionConditionForPet(true)),
 	
 	ITEM_WEAPON_ONE_HANDED_SWORD("1-H Sword", "Weapon", new AuctionConditionWeaponType(AuctionHouseGenerator.NORMAL_WEAPON, WeaponType.SWORD)),
 	ITEM_WEAPON_ONE_HANDED_MAGIC_SWORD("1-H Magic Sword", "Weapon", new AuctionConditionWeaponType(AuctionHouseGenerator.MAGICAL_WEAPON, WeaponType.SWORD)),

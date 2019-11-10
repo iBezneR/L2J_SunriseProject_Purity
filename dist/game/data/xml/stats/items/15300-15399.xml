@@ -1,10 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="15300" name="Transparent Dual (NPC)" type="Weapon">
+	<item id="15300" type="Weapon" name="Transparent Dual (for NPC)">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -16,24 +18,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="pAtk">282</stat>
-			<stat type="mAtk">114</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="282" />
+			<set stat="mAtk" val="114" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="15301" name="Transparent Pole (NPC)" type="Weapon">
+	<item id="15301" type="Weapon" name="Transparent Pole (for NPC)">
 		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -45,25 +45,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="pAtk">156</stat>
-			<stat type="mAtk">83</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="156" />
+			<set stat="mAtk" val="83" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="15302" name="Transparent Bow (NPC)" type="Weapon">
+	<item id="15302" type="Weapon" name="Transparent Bow (for NPC)">
 		<set name="icon" val="icon.weapon_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -77,25 +75,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="pAtk">114</stat>
-			<stat type="mAtk">35</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="114" />
+			<set stat="mAtk" val="35" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+		</for>
 	</item>
-	<item id="15303" name="Transparent Claw (NPC)" type="Weapon">
+	<item id="15303" type="Weapon" name="Transparent Claw (for NPC)">
 		<set name="icon" val="icon.weapon_foxs_nail_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -108,25 +104,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="pAtk">376</stat>
-			<stat type="mAtk">119</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="is_depositable" val="false" />
+		<for>
+			<set stat="pAtk" val="376" />
+			<set stat="mAtk" val="119" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="15304" name="Transparent Crossbow (NPC)" type="Weapon">
+	<item id="15304" type="Weapon" name="Transparent Bowgun (for NPC)">
 		<set name="icon" val="icon.weapon_hunting_gun_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -139,28 +133,26 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<stats>
-			<stat type="pAtk">64</stat>
-			<stat type="mAtk">32</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="64" />
+			<set stat="mAtk" val="32" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+		</for>
 	</item>
-	<item id="15305" name="Transparent Rapier (NPC)" type="Weapon">
+	<item id="15305" type="Weapon" name="Transparent Rapier (for NPC)">
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -172,28 +164,26 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<stats>
-			<stat type="pAtk">36</stat>
-			<stat type="mAtk">26</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="36" />
+			<set stat="mAtk" val="26" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+		</for>
 	</item>
-	<item id="15306" name="Transparent Dual Dagger (NPC)" type="Weapon">
+	<item id="15306" type="Weapon" name="Transparent Dual Dagger (for NPC)">
 		<set name="icon" val="icon.dual_dagger_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S80" />
@@ -206,74 +196,62 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<cond msgId="1518">
 			<and>
 				<player level="81" />
 				<player categoryType="DAGGER_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pAtk">304</stat>
-			<stat type="mAtk">157</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="304" />
+			<set stat="mAtk" val="157" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="15307" name="Holy Pomander - Cardinal" type="EtcItem">
+	<item id="15307" type="EtcItem" name="Holy Pomander - Cardinal">
 		<set name="icon" val="icon.etc_saint_pomander_bishop_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15308" name="Holy Pomander - Eva's Saint" type="EtcItem">
+	<item id="15308" type="EtcItem" name="Holy Pomander - Eva's Saint">
 		<set name="icon" val="icon.etc_saint_pomander_elder_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15309" name="Holy Pomander - Shillien Saint" type="EtcItem">
+	<item id="15309" type="EtcItem" name="Holy Pomander - Shillien Saint">
 		<set name="icon" val="icon.etc_saint_pomander_silienelder_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="10" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15310" name="Einhasad's Sacred Sword" type="Weapon">
-		<!-- Einhasad's Sacred Sword given by the Emperor of Elmoreden Shunaiman. -->
+	<item id="15310" type="Weapon" name="Sacred Sword of Einhasad">
 		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -284,27 +262,20 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8357-1" />
 		<set name="time" val="7200" />
 		<cond msgId="1518">
 			<player instanceId="112" />
 		</cond>
-		<skills>
-			<skill id="8357" level="1" /> <!-- Einhasad's Strike -->
-		</skills>
-		<stats>
-			<stat type="pAtk">7</stat>
-			<stat type="mAtk">5</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="7" />
+			<set stat="mAtk" val="5" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="15311" name="Delusion Chamber Invitation" type="EtcItem">
+	<item id="15311" type="EtcItem" name="Delusion Chamber Invitation">
 		<set name="icon" val="icon.etc_magic_coin_gold_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -312,13 +283,9 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15312" name="Dawn's Bracelet" type="Armor">
-		<!-- Dawn's bracelet given from the Priest Franz. Precious looking bracelet. Increases Weight Limit of 5000. -->
+	<item id="15312" type="Armor" name="Dawn's Bracelet">
 		<set name="icon" val="icon.accessory_lbracelet_of_dawn" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -330,20 +297,16 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="8337" level="1" /> <!-- Weight Up -->
-		</skills>
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8337-1" />
 	</item>
-	<item id="15313" name="Player Commendation - Forgotten Blade" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Forgotten Blade with limited ability enhancement. <Special Option>. Critical increases by 84. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15313" type="Weapon" name="Player Commendation - Forgotten Blade - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -355,31 +318,27 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3566-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3566" level="1" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">281</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="281" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15314" name="Player Commendation - Basalt Battlehammer" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Basalt Battlehammer with limited ability enhancement. <Special Option>. Max HP increases by 25%. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15314" type="Weapon" name="Player Commendation - Basalt Battlehammer - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_basalt_battlehammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -391,32 +350,28 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3013-3" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">281</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="281" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15315" name="Player Commendation - Imperial Staff" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Imperial Staff with limited ability enhancement. <Special Option>. MP Recovery Rate increases. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15315" type="Weapon" name="Player Commendation - Imperial Staff - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -428,33 +383,29 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3576-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3576" level="1" /> <!-- Special Ability: MP Regeneration -->
-		</skills>
-		<stats>
-			<stat type="pAtk">274</stat>
-			<stat type="mAtk">193</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="274" />
+			<set stat="mAtk" val="193" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15316" name="Player Commendation - Angel Slayer" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Angel Slayer with limited ability enhancement. <Special Option>. P. Atk. Increases by 265 during a critical attack. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15316" type="Weapon" name="Player Commendation - Angel Slayer - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_angel_slayer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -466,32 +417,28 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3572-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3572" level="1" /> <!-- Special Ability: Critical Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">246</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="246" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15317" name="Player Commendation - Dragon Hunter Axe" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Dragon Hunter Axe with limited ability enhancement. <Special Option>. HP Recovery Rate increases. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15317" type="Weapon" name="Player Commendation - Dragon Hunter Axe - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -503,32 +450,28 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3569-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3569" level="1" /> <!-- Special Ability: HP Regeneration -->
-		</skills>
-		<stats>
-			<stat type="pAtk">342</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="342" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15318" name="Player Commendation - Saint Spear" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Saint Spear with limited ability enhancement. <Special Option>. Max HP increases by 25%. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15318" type="Weapon" name="Player Commendation - Saint Spear - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -540,32 +483,28 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3013-4" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3013" level="4" /> <!-- Special Ability: Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">281</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="281" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15319" name="Player Commendation - Demon Splinter" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Demon Splinter with limited ability enhancement. <Special Option>. Critical increases by 80. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15319" type="Weapon" name="Player Commendation - Demon Splinter - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_demon_splinter_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -577,32 +516,28 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3565-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3565" level="1" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">342</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="342" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15320" name="Player Commendation - Heaven's Divider" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Heaven's Divider with limited ability enhancement. <Special Option>. Critical increases by 84. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15320" type="Weapon" name="Player Commendation - Heaven's Divider - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_heavens_divider_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -614,31 +549,27 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3566-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3566" level="1" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">342</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="342" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15321" name="Player Commendation - Arcana Mace" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Arcana Mace with limited ability enhancement. <Special Option>. Casting Spd. Increases by 15%. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15321" type="Weapon" name="Player Commendation - Arcana Macw - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -650,33 +581,29 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3047-2" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3047" level="2" /> <!-- Special Ability: Acumen -->
-		</skills>
-		<stats>
-			<stat type="pAtk">225</stat>
-			<stat type="mAtk">175</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="225" />
+			<set stat="mAtk" val="175" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15322" name="Player Commendation - Draconic Bow" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Draconic Bow with limited ability enhancement. <Special Option>. Critical increases by 88. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15322" type="Weapon" name="Player Commendation - Draconic Bow - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_draconic_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -690,32 +617,28 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3567-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3567" level="1" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">581</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="581" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15323" name="Player Commendation - Laevateinn" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Laevateinn with limited ability enhancement. <Special Option>. Atk. Spd. Increases by about 7%. Increases damage inflicted during PvP. When enchanted to 4 or more, chance of increasing P. Atk., M. Atk., and healing power, and of decreasing MP consumption for skill use for you and your party members during a Critical Attack. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15323" type="Weapon" name="Player Commendation - Laevateinn - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_leavatein_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -724,39 +647,35 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
+		<set name="enchant4_skill" val="3426-1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3564-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3564" level="1" /> <!-- Special Ability: Haste -->
-			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
-		</skills>
-		<stats>
-			<stat type="pAtk">255</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="255" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15324" name="Player Commendation - Gram" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Gram with limited ability enhancement. <Special Option>. Critical increases by 84. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15324" type="Weapon" name="Player Commendation - Gram - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_gram_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -768,35 +687,31 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3566-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3566" level="1" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">304</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">2</stat>
-			<stat type="pAtkSpd">350</stat>
-			<stat type="randomDamage">15</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="304" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15325" name="Player Commendation - Sarunga" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Sarunga with limited ability enhancement. <Special Option>. Critical increases by 88. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15325" type="Weapon" name="Player Commendation - Sarunga - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_sarnga_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -809,35 +724,31 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3567-1" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3567" level="1" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">356</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="356" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15326" name="Player Commendation - Tallum Blade*Dark Legion's Edge" additionalName="PC-exclusive Weapon" type="Weapon">
-		<!-- Tallum Blade*Dark Legion's Edge with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Increases damage inflicted during PvP. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+	<item id="15326" type="Weapon" name="Player Commendation - Tallum Blade *Dark Legion's Edge - Player Recommendation Weapon">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
@@ -846,30 +757,24 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
+		<set name="enchant4_skill" val="3570-1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="duration" val="180" />
 		<set name="time" val="21600" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3570" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Robust Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">342</stat>
-			<stat type="mAtk">132</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="342" />
+			<set stat="mAtk" val="132" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="15327" name="Seed: Sea Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Innadril area and it will bear the fruit of the Sea Coba. For best results, a level 74-84 character must plant it on a level 74-84 monster. Cannot be transferred between servers. -->
+	<item id="15327" type="EtcItem" name="Seed: Sea Coba">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -878,13 +783,9 @@
 		<set name="price" val="900" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15328" name="Seed: Sea Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Schuttgart area and it will bear the fruit of the Sea Coba. For best results, a level 74-84 character must plant it on a level 74-84 monster. Cannot be transferred between servers. -->
+	<item id="15328" type="EtcItem" name="Seed: Sea Coba">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -893,13 +794,9 @@
 		<set name="price" val="900" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15329" name="Seed: Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Aden area and it will bear the fruit of the Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15329" type="EtcItem" name="Seed: Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -908,13 +805,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15330" name="Seed: Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Aden area and it will bear the fruit of the Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15330" type="EtcItem" name="Seed: Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -923,13 +816,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15331" name="Seed: Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Rune area and it will bear the fruit of the Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15331" type="EtcItem" name="Seed: Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -938,13 +827,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15332" name="Seed: Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Schuttgart area and it will bear the fruit of the Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15332" type="EtcItem" name="Seed: Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -953,13 +838,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15333" name="Seed: Great Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Rune area and it will bear the fruit of the Great Coba. For best results, a level 80+ character must plant the seed on a level 80-90 monster. Cannot be transferred between servers. -->
+	<item id="15333" type="EtcItem" name="Seed: King Coba">
 		<set name="icon" val="icon.etc_great_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED" />
@@ -968,13 +849,9 @@
 		<set name="price" val="1200" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15334" name="Seed: Alternative Sea Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Innadril area and it will bear the fruit of the Alternative Sea Coba. For best results, a level 74-84 character must plant it on a level 74-84 monster. Cannot be transferred between servers. -->
+	<item id="15334" type="EtcItem" name="Seed: Alternative Sea Coba">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -983,13 +860,9 @@
 		<set name="price" val="900" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15335" name="Seed: Alternative Sea Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Schuttgart area and it will bear the fruit of the Alternative Sea Coba. For best results, a level 74-84 character must plant it on a level 74-84 monster. Cannot be transferred between servers. -->
+	<item id="15335" type="EtcItem" name="Seed: Alternative Sea Coba">
 		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -998,13 +871,9 @@
 		<set name="price" val="900" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15336" name="Seed: Alternative Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Aden area and it will bear the fruit of the Alternative Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15336" type="EtcItem" name="Seed: Alternative Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -1013,13 +882,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15337" name="Seed: Alternative Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Innadril area and it will bear the fruit of the Alternative Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15337" type="EtcItem" name="Seed: Alternative Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -1028,13 +893,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15338" name="Seed: Alternative Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Rune area and it will bear the fruit of the Alternative Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15338" type="EtcItem" name="Seed: Alternative Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -1043,13 +904,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15339" name="Seed: Alternative Twin Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Schuttgart area and it will bear the fruit of the Alternative Twin Coba. For best results, a level 77-87 character must plant it on a level 77-87 monster. Cannot be transferred between servers. -->
+	<item id="15339" type="EtcItem" name="Seed: Alternative Twin Coba">
 		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -1058,13 +915,9 @@
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15340" name="Seed: Alternative Great Coba" type="EtcItem">
-		<!-- Plant this seed onto a monster in the Rune area and it will bear the fruit of the Alternative Great Coba. For best results, a level 80-90 character must plant it on a level 80-90 monster. Cannot be transferred between servers. -->
+	<item id="15340" type="EtcItem" name="Seed: Alternative Great Coba">
 		<set name="icon" val="icon.etc_great_coba_seed_i00" />
 		<set name="default_action" val="SEED" />
 		<set name="etcitem_type" val="SEED2" />
@@ -1073,52 +926,39 @@
 		<set name="price" val="1200" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="Seed" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2097" level="3" /> <!-- Sowing -->
-		</skills>
+		<set name="item_skill" val="2097-3" />
 	</item>
-	<item id="15341" name="Guiding Tea Leaves" type="EtcItem">
-		<!-- Tea leaves collected from guiding souls. -->
+	<item id="15341" type="EtcItem" name="Guiding Tea Leaves">
 		<set name="icon" val="icon.etc_leaf_green_i00" />
 		<set name="material" val="PAPER" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="15342" name="Aqua Elf Transformation Harp" additionalName="60-day" type="Weapon">
-		<!-- Transformation stick that turns you into an Aqua Elf. 60 days. -->
+	<item id="15342" type="Weapon" name="Aqua Elf Transforming Harp - 60-day limited period">
 		<set name="icon" val="icon.harp_of_transform_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="619-1" />
+		<set name="item_skill" val="2994-1" />
 		<set name="time" val="86400" />
-		<set name="is_destroyable" val="false" />
-		<skills>
-			<skill id="839" level="1" type="ON_UNEQUIP" /> <!-- Dismount -->
-			<skill id="2994" level="1" /> <!-- Transformation Harp: Aqua Elf -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">1</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="1" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="15343" name="Aqua Elf Transformation Harp Pack (60-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Aqua Elf Transformation Stick (60-day). -->
+	<item id="15343" type="EtcItem" name="Aqua Elf Transforming Harp 60-day Pack">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1126,51 +966,38 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15342" min="1" max="1" chance="100" /> <!-- Aqua Elf Transformation Harp - 60-day -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15342,1,1,100" />
 	</item>
-	<item id="15344" name="Aqua Elf Transformation Harp (Event)" additionalName="60-day" type="Weapon">
-		<!-- Transformation stick that turns you into an Aqua Elf. 60 days. -->
+	<item id="15344" type="Weapon" name="Aqua Elf Transforming Harp (Event) - 60-day limited period">
 		<set name="icon" val="icon.harp_of_transform_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="619-1" />
+		<set name="item_skill" val="2994-1" />
 		<set name="time" val="86400" />
-		<set name="is_destroyable" val="false" />
-		<skills>
-			<skill id="839" level="1" type="ON_UNEQUIP" /> <!-- Dismount -->
-			<skill id="2994" level="1" /> <!-- Transformation Harp: Aqua Elf -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">1</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="1" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="15345" name="Aqua Elf Transformation Harp Pack (60-day) (Event)" type="EtcItem">
-		<!-- Wrapped Pack containing Aqua Elf Transformation Stick (60-day). -->
+	<item id="15345" type="EtcItem" name="Aqua Elf Transforming Harp 60-day Pack">
 		<set name="icon" val="icon.etc_pi_gift_box_i02" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1178,129 +1005,93 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15344" min="1" max="1" chance="100" /> <!-- Aqua Elf Transformation Harp (Event) - 60-day -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15344,1,1,100" />
 	</item>
-	<item id="15346" name="Player Commendation - Scroll: Enchant Weapon (S-grade)" type="EtcItem">
-		<!-- Can only be used to enchant S-grade Player Commendation Weapons. Normal enchant rules apply. -->
+	<item id="15346" type="EtcItem" name="Scroll: Enchant Weapon (Grade S) - Exclusive to PC weapons">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
+		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2999" level="1" /> <!-- Player Commendation - Scroll: Enchant Weapon (S-grade) -->
-		</skills>
+		<set name="item_skill" val="2999-1" />
 	</item>
-	<item id="15347" name="Player Commendation - Scroll: Enchant Weapon (A-grade)" type="EtcItem">
-		<!-- Can only be used to enchant A-grade Player Commendation Weapons. Normal enchant rules apply. -->
+	<item id="15347" type="EtcItem" name="Scroll: Enchant Weapon (Grade A) - Exclusive to PC weapons">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
+		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2998" level="1" /> <!-- Player Commendation - Scroll: Enchant Weapon (A-grade) -->
-		</skills>
+		<set name="item_skill" val="2998-1" />
 	</item>
-	<item id="15348" name="Player Commendation - Scroll: Enchant Weapon (B-grade)" type="EtcItem">
-		<!-- Can only be used to enchant B-grade Player Commendation Weapons. Normal enchant rules apply. -->
+	<item id="15348" type="EtcItem" name="Scroll: Enchant Weapon (Grade B) - Exclusive to PC weapons">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
+		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2997" level="1" /> <!-- Player Commendation - Scroll: Enchant Weapon (B-grade) -->
-		</skills>
+		<set name="item_skill" val="2997-1" />
 	</item>
-	<item id="15349" name="Player Commendation - Scroll: Enchant Weapon (C-grade)" type="EtcItem">
-		<!-- Can only be used to enchant C-grade Player Commendation Weapons. Normal enchant rules apply. -->
+	<item id="15349" type="EtcItem" name="Scroll: Enchant Weapon (Grade C) - Exclusive to PC weapons">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
+		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2996" level="1" /> <!-- Player Commendation - Scroll: Enchant Weapon (C-grade) -->
-		</skills>
+		<set name="item_skill" val="2996-1" />
 	</item>
-	<item id="15350" name="Player Commendation - Scroll: Enchant Weapon (D-grade)" type="EtcItem">
-		<!-- Can only be used to enchant D-grade Player Commendation Weapons. Normal enchant rules apply. -->
+	<item id="15350" type="EtcItem" name="Scroll: Enchant Weapon (Grade D) - Exclusive to PC weapons">
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
-		<set name="weight" val="10" />
+		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2995" level="1" /> <!-- Player Commendation - Scroll: Enchant Weapon (D-grade) -->
-		</skills>
+		<set name="item_skill" val="2995-1" />
 	</item>
-	<item id="15351" name="Seal Removal Bracelet_Towbat" type="Armor">
-		<!-- Bracelet to summon Towbat. -->
+	<item id="15351" type="Armor" name="Seal Removal Bracelet_Towbat">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1309,84 +1100,66 @@
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="8358" level="1" /> <!-- Release Agathion's Seal - Towbat -->
-			<skill id="8359" level="1" /> <!-- Notifier -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8358-1;8359-1;3267-1" />
 	</item>
-	<item id="15352" name="Proof of Time and Space" type="EtcItem">
-		<!-- Proof of Time and Space to prove one's identity?. -->
+	<item id="15352" type="EtcItem" name="Proof of Time and Space">
 		<set name="icon" val="icon.etc_sign_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15353" name="Mark of Resurrection" type="EtcItem">
-		<!-- Numerous clauses for satisfying the requirements for resurrection. -->
+	<item id="15353" type="EtcItem" name="Proof of Resurrection">
 		<set name="icon" val="icon.etc_scroll_chalik_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15354" name="Book of Resurrection" type="EtcItem">
-		<!-- Ancient book with marks of Resurrection in it. -->
+	<item id="15354" type="EtcItem" name="Scroll of Resurrection">
 		<set name="icon" val="icon.etc_ancient_tablet_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15355" name="Stone of Resurrection" type="EtcItem">
-		<!-- Ancient stone that makes Resurrection possible. -->
+	<item id="15355" type="EtcItem" name="Stone of Resurrection">
 		<set name="icon" val="icon.etc_life_stone_of_begining_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="5" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="15356" name="Sweet Concentrated Fruit Cocktail" type="EtcItem">
-		<!-- Concentrated cocktail drink that's flavored with many rare types of fruit. It Has a better effect than the Sweet Fruit Cocktail. When consumed, one can feel Might, Shield, Wind Walk, Focus, Death Whisper, Guidance, Blessed Shield, Blessed Body, Haste, Vampiric Rage, and Berserker Spirit effects for a certain amount of time. -->
+	<item id="15356" type="EtcItem" name="Improved Sweet Fruit Cocktail">
 		<set name="icon" val="icon.etc_fruit_cocktail_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1397,30 +1170,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="9011-1;9012-1;9013-1;9014-1;9015-1;9016-1;9017-1;9018-1;9019-1;9020-1;9021-1" />
 		<set name="for_npc" val="true" />
-		<skills>
-			<skill id="9012" level="1" /> <!-- Shield -->
-			<skill id="9013" level="1" /> <!-- Wind Walk -->
-			<skill id="9014" level="1" /> <!-- Focus -->
-			<skill id="9015" level="1" /> <!-- Death Whisper -->
-			<skill id="9016" level="1" /> <!-- Guidance -->
-			<skill id="9017" level="1" /> <!-- Blessed Shield -->
-			<skill id="9018" level="1" /> <!-- Blessed Body -->
-			<skill id="9019" level="1" /> <!-- Haste -->
-			<skill id="9020" level="1" /> <!-- Vampiric Rage -->
-			<skill id="9021" level="1" /> <!-- Berserker Spirit -->
-			<skill id="9011" level="1" /> <!-- Might -->
-		</skills>
 	</item>
-	<item id="15357" name="Fresh Concentrated Fruit Cocktail" type="EtcItem">
-		<!-- Concentrated cocktail drink that's flavored with many rare types of fruit. It Has a better effect than the Fresh Fruit Cocktail. When consumed, one can feel Berserker Spirit, Blessed Body, Magic Barrier, Shield, Wind Walk, Blessed Soul, Empower, Acumen, and Clarity effects for a certain amount of time. -->
+	<item id="15357" type="EtcItem" name="Improved Fresh Fruit Cocktail">
 		<set name="icon" val="icon.etc_fruit_cocktail_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1431,28 +1188,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="9021-1;9022-1;9023-1;9024-1;9025-1;9026-1;9013-1;9018-1;9012-1" />
 		<set name="for_npc" val="true" />
-		<skills>
-			<skill id="9022" level="1" /> <!-- Magic Barrier -->
-			<skill id="9023" level="1" /> <!-- Blessed Soul -->
-			<skill id="9024" level="1" /> <!-- Empower -->
-			<skill id="9025" level="1" /> <!-- Acumen -->
-			<skill id="9026" level="1" /> <!-- Clarity -->
-			<skill id="9013" level="1" /> <!-- Wind Walk -->
-			<skill id="9018" level="1" /> <!-- Blessed Body -->
-			<skill id="9012" level="1" /> <!-- Shield -->
-			<skill id="9021" level="1" /> <!-- Berserker Spirit -->
-		</skills>
 	</item>
-	<item id="15358" name="Player Commendation Instant Lottery Ticket" additionalName="30-day" type="EtcItem">
-		<!-- Instant lottery ticket for a chance to win up to 10,000 Player Commendation Points. Disappears if not used within 30 days. -->
+	<item id="15358" type="EtcItem" name="Player Commendation Instant Lottery Ticket - 30-day limited period">
 		<set name="icon" val="icon.etc_exchange_ticket_i04" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1462,18 +1205,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="9027-1" />
 		<set name="time" val="43200" />
-		<skills>
-			<skill id="9027" level="1" /> <!-- Player Commendation Instant Lottery Ticket -->
-		</skills>
 	</item>
-	<item id="15359" name="Winning Lottery Ticket: 10,000 PC Points" additionalName="30-day" type="EtcItem">
-		<!-- Bring it to an Adventure Guildsman in any town to receive 10,000 PC Points. Disappears if not used within 30 days. -->
+	<item id="15359" type="EtcItem" name="Winning instant lottery ticket - 100,000 PC Points - 30-day limited period">
 		<set name="icon" val="icon.etc_exchange_ticket_i04" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1481,14 +1218,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15360" name="Winning Lottery Ticket: 1,000 PC Points" additionalName="30-day" type="EtcItem">
-		<!-- Bring it to an Adventure Guildsman in any town to receive 1,000 PC Points. Disappears if not used within 30 days. -->
+	<item id="15360" type="EtcItem" name="Winning instant lottery ticket - 10,000 PC Points - 30-day limited period">
 		<set name="icon" val="icon.etc_exchange_ticket_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1496,14 +1229,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15361" name="Winning Lottery Ticket: 200 PC Points" additionalName="30-day" type="EtcItem">
-		<!-- Bring it to an Adventure Guildsman in any town to receive 200 PC Points. Disappears if not used within 30 days. -->
+	<item id="15361" type="EtcItem" name="Winning instant lottery ticket - 2,000 PC Points - 30-day limited period">
 		<set name="icon" val="icon.etc_exchange_ticket_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1511,14 +1240,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15362" name="Winning Lottery Ticket: 100 PC Points" additionalName="30-day" type="EtcItem">
-		<!-- Bring it to an Adventure Guildsman in any town to receive 100 PC Points. Disappears if not used within 30 days. -->
+	<item id="15362" type="EtcItem" name="Winning instant lottery ticket - 1,000 PC Points - 30-day limited period">
 		<set name="icon" val="icon.etc_exchange_ticket_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1526,14 +1251,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15363" name="Winning Lottery Ticket: 10 PC Points" additionalName="30-day" type="EtcItem">
-		<!-- Bring it to an Adventure Guildsman in any town to receive 10 PC Points. Disappears if not used within 30 days. -->
+	<item id="15363" type="EtcItem" name="Winning instant lottery ticket - 100 PC Points - 30-day limited period">
 		<set name="icon" val="icon.etc_exchange_ticket_i03" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1541,108 +1262,76 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15364" name="Cool Pack" type="EtcItem">
-		<!-- Event item. Fires a cool air cannon to lower the blistering temperature. -->
+	<item id="15364" type="EtcItem" name="Cool Pack">
 		<set name="icon" val="icon.etc_int_symbol_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
 		<set name="reuse_delay" val="1" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="9010" level="1" /> <!-- Cool Pack -->
-		</skills>
+		<set name="item_skill" val="9010-1" />
 	</item>
-	<item id="15365" name="Lucky Cool Pack" type="EtcItem">
-		<!-- Event item. Fires a cool air cannon to lower the blistering temperature. Looks much luckier than an ordinary cool air cannon. -->
+	<item id="15365" type="EtcItem" name="Lucky Cool Pack">
 		<set name="icon" val="icon.etc_int_symbol_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
 		<set name="reuse_delay" val="1" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="9028" level="1" /> <!-- Lucky Cool Pack -->
-		</skills>
+		<set name="item_skill" val="9028-1" />
 	</item>
-	<item id="15366" name="Watermelon seed" type="EtcItem">
-		<!-- Double-click to make a Growing Watermelon appear. -->
+	<item id="15366" type="EtcItem" name="Watermelon seed">
 		<set name="icon" val="icon.event_honey_watermelon_seed_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="9029" level="1" /> <!-- Watermelon Seed -->
-		</skills>
+		<set name="item_skill" val="9029-1" />
 	</item>
-	<item id="15367" name="Honey Watermelon Seed" type="EtcItem">
-		<!-- Double-click to make a Growing Honey Watermelon appear. -->
+	<item id="15367" type="EtcItem" name="Honey Watermelon Seed">
 		<set name="icon" val="icon.event_watermelon_seed_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="9030" level="1" /> <!-- Honey Watermelon Seed -->
-		</skills>
+		<set name="item_skill" val="9030-1" />
 	</item>
-	<item id="15368" name="Copied Watermelon Seed" type="EtcItem">
-		<!-- Double-click to make a Growing Watermelon appear. -->
+	<item id="15368" type="EtcItem" name="Copied Watermelon Seed">
 		<set name="icon" val="icon.event_honey_watermelon_seed_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="9031" level="1" /> <!-- Copied Watermelon Seed -->
-		</skills>
+		<set name="item_skill" val="9031-1" />
 	</item>
-	<item id="15369" name="Copied Honey Watermelon Seed" type="EtcItem">
-		<!-- Double-click to make a Growing Honey Watermelon appear. -->
+	<item id="15369" type="EtcItem" name="Copied Honey Watermelon Seed">
 		<set name="icon" val="icon.event_watermelon_seed_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="9032" level="1" /> <!-- Copied Honey Watermelon Seed -->
-		</skills>
+		<set name="item_skill" val="9032-1" />
 	</item>
-	<item id="15370" name="Special July 7th Package" type="EtcItem">
-		<!-- Special July 7th package. Contains a Special July 7th parcel. -->
+	<item id="15370" type="EtcItem" name="Special July 7th Package">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1650,20 +1339,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15372" min="1" max="1" chance="100" /> <!-- Special July 7th Parcel -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15372,1,1,100" />
 	</item>
-	<item id="15371" name="July 7th Package" type="EtcItem">
-		<!-- July 7th package. Contains a July 7th parcel. -->
+	<item id="15371" type="EtcItem" name="July 7th Package">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1671,56 +1354,42 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15373" min="1" max="1" chance="100" /> <!-- July 7th Parcel -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15373,1,1,100" />
 	</item>
-	<item id="15372" name="Special July 7th Parcel" type="EtcItem">
-		<!-- Special July 7th parcel. Contains 5 steamed rice cakes. Has a chance to receive a bonus expiratory item (Weaver's Colorful Dress). -->
+	<item id="15372" type="EtcItem" name="Special July 7th Parcel">
 		<set name="icon" val="icon.event_big_july_seven_park_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="9036" level="1" /> <!-- Special July 7th Parcel -->
-		</skills>
+		<set name="item_skill" val="9036-1" />
 	</item>
-	<item id="15373" name="July 7th Parcel" type="EtcItem">
-		<!-- July 7th parcel. Contains 1 steamed rice cake. -->
+	<item id="15373" type="EtcItem" name="July 7th Parcel">
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15379" min="1" max="1" chance="100" /> <!-- Steamed Rice Cake -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15379,1,1,100" />
 	</item>
-	<item id="15374" name="Special July 7th Package (Event)" type="EtcItem">
-		<!-- Special July 7th package. Contains a Special July 7th parcel. -->
+	<item id="15374" type="EtcItem" name="Special July 7th Package (Event)">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1728,20 +1397,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15376" min="1" max="1" chance="100" /> <!-- Special July 7th Parcel (Event) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15376,1,1,100" />
 	</item>
-	<item id="15375" name="July 7th Package (Event)" type="EtcItem">
-		<!-- July 7th package. Contains a July 7th parcel. -->
+	<item id="15375" type="EtcItem" name="July 7th Package (Event)">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1749,56 +1412,42 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15377" min="1" max="1" chance="100" /> <!-- July 7th Parcel (Event) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15377,1,1,100" />
 	</item>
-	<item id="15376" name="Special July 7th Parcel (Event)" type="EtcItem">
-		<!-- Special July 7th parcel. Contains 5 steamed rice cakes. Has a chance to receive a bonus expiratory item (Weaver's Colorful Dress). -->
+	<item id="15376" type="EtcItem" name="Special July 7th Parcel (Event)">
 		<set name="icon" val="icon.event_big_july_seven_park_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="9037" level="1" /> <!-- Special July 7th Parcel (Event) -->
-		</skills>
+		<set name="item_skill" val="9037-1" />
 	</item>
-	<item id="15377" name="July 7th Parcel (Event)" type="EtcItem">
-		<!-- July 7th parcel. Contains 1 steamed rice cake. -->
+	<item id="15377" type="EtcItem" name="July 7th Parcel (Event)">
 		<set name="icon" val="icon.event_july_seven_park_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15380" min="1" max="1" chance="100" /> <!-- Steamed Rice Cake (Event) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15380,1,1,100" />
 	</item>
-	<item id="15378" name="July 7th Gift Box" type="EtcItem">
-		<!-- July 7th gift box. Contains a Weaver's Colorful Dress. 7-day. -->
+	<item id="15378" type="EtcItem" name="July 7th Gift Box">
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1806,94 +1455,70 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="15383" min="1" max="1" chance="100" /> <!-- Weaver's Colorful Dress - 7-day -->
-		</capsuled_items>
+		<set name="capsuled_items" val="15383,1,1,100" />
 	</item>
-	<item id="15379" name="Steamed Rice Cake" type="EtcItem">
-		<!-- Delicious steamed rice cake. Some Vitality is replenished upon use. Cooldown is 60 min. Vitality item with limited usage. -->
+	<item id="15379" type="EtcItem" name="Steamed Rice Cake">
 		<set name="icon" val="icon.event_steamed_rice_cake_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
-		<set name="shared_reuse_group" val="106" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="3600000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="9038" level="1" /> <!-- Steamed Rice Cake -->
-		</skills>
+		<set name="item_skill" val="9038-1" />
 	</item>
-	<item id="15380" name="Steamed Rice Cake (Event)" type="EtcItem">
-		<!-- Delicious steamed rice cake. Some Vitality is replenished upon use. Cooldown is 60 min. Vitality item with limited usage. -->
+	<item id="15380" type="EtcItem" name="Steamed Rice Cake (Event)">
 		<set name="icon" val="icon.event_steamed_rice_cake_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
-		<set name="shared_reuse_group" val="106" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="3600000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="9039" level="1" /> <!-- Steamed Rice Cake -->
-		</skills>
+		<set name="item_skill" val="9039-1" />
 	</item>
-	<item id="15381" name="Event - Herdsman's Love Scroll" additionalName="Event" type="EtcItem">
-		<!-- July 7th event. Enchant scroll exclusively for the Weaver's Colorful Dress. Increases the P. Def. and M. Def. of the Weaver's Colorful Dress. Can be safely enchanted to + 3, and the item disappears when the enchant fails. When the Weaver's Colorful Dress is enchanted above + 4, attributes, STR, CON, INT, and MEN also increases according to the enhancement value. Can only be used during the event period. Will be deleted once the event ends. -->
+	<item id="15381" type="EtcItem" name="Event - Herdsman's Love Scroll - Event">
 		<set name="icon" val="icon.event_altair_enchant_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="9033" level="1" /> <!-- Herdsman's Love Scroll -->
-		</skills>
+		<set name="item_skill" val="9033-1" />
 	</item>
-	<item id="15382" name="Event - Scroll: Enchant Vitality Belt" additionalName="Event" type="EtcItem">
-		<!-- Enchant scroll exclusively for the Vitality Belt. Increases the Vitality Belt's P. Def. and M. Def. Maintains Vitality. Vitality maintenance cooldown reduced. Can be safely enchanted to + 3, and the item disappears when the enchant fails. When the Vitality Belt is enchanted above + 4, Vitality maintenance duration increases, and the decreases Vitality maintenance cooldown. Can only be used during the event period. Will be deleted once the event ends. -->
+	<item id="15382" type="EtcItem" name="Event - Vitality Belt Enchant Scroll - Event">
 		<set name="icon" val="icon.event_energy_enchant_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="9034" level="1" /> <!-- Scroll: Enchant Vitality Belt -->
-		</skills>
+		<set name="item_skill" val="9034-1" />
 	</item>
-	<item id="15383" name="Weaver's Colorful Dress" additionalName="7-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15383" type="Armor" name="Weaver's Multi-colored Clothes - 7-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1903,14 +1528,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15384" name="Weaver's Colorful Dress" additionalName="30-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15384" type="Armor" name="Weaver's Multi-colored Clothes - 30-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1920,14 +1541,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15385" name="Weaver's Colorful Dress" additionalName="60-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15385" type="Armor" name="Weaver's Multi-colored Clothes - 60-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1937,14 +1554,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15386" name="Weaver's Colorful Dress" additionalName="90-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15386" type="Armor" name="Weaver's Multi-colored Clothes - 90-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1954,14 +1567,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15387" name="Weaver's Colorful Dress" additionalName="Permanent" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15387" type="Armor" name="Weaver's Multi-colored Clothes - Permanent Use">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1970,14 +1579,11 @@
 		<set name="enchant_enabled" val="3" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15388" name="Weaver's Colorful Dress (Event)" additionalName="7-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15388" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 7-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -1987,14 +1593,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15389" name="Weaver's Colorful Dress (Event)" additionalName="30-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15389" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 30-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -2004,14 +1606,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15390" name="Weaver's Colorful Dress (Event)" additionalName="60-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15390" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 60-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -2021,14 +1619,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15391" name="Weaver's Colorful Dress (Event)" additionalName="90-day" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15391" type="Armor" name="Weaver's Multi-colored Clothes (Event) - 90-day limited period">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -2038,14 +1632,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15392" name="Weaver's Colorful Dress (Event)" additionalName="Permanent" type="Armor">
-		<!-- Weaver's Colorful Dress. Can be enchanted using the Herdsman's Love Scroll. -->
+	<item id="15392" type="Armor" name="Weaver's Multi-colored Clothes (Event) - Permanent Use">
 		<set name="icon" val="icon.event_vega_rainbow_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -2054,14 +1644,11 @@
 		<set name="enchant_enabled" val="3" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 	</item>
-	<item id="15393" name="Vitality Belt" additionalName="7-day" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
+	<item id="15393" type="Armor" name="Vitality Belt - 7-day limited period">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -2073,15 +1660,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15394" name="Vitality Belt" additionalName="30-day" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
+	<item id="15394" type="Armor" name="Vitality Belt - 30-day limited period">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -2093,15 +1676,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="15395" name="Vitality Belt" additionalName="60-day" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
+	<item id="15395" type="Armor" name="Vitality Belt - 60-day limited period">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -2113,15 +1692,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="time" val="86400" />
 	</item>
-	<item id="15396" name="Vitality Belt" additionalName="90-day" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
+	<item id="15396" type="Armor" name="Vitality Belt - 90-day limited period">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -2133,33 +1708,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="time" val="129600" />
 	</item>
-	<item id="15397" name="Vitality Belt" additionalName="Permanent" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
-		<set name="icon" val="icon.event_energy_belt_i00" />
-		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="LIGHT" />
-		<set name="bodypart" val="waist" />
-		<set name="immediate_effect" val="true" />
-		<set name="material" val="CRYSTAL" />
-		<set name="enchant_enabled" val="4" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_oly_restricted" val="true" />
-	</item>
-	<item id="15398" name="Vitality Belt (Event)" additionalName="7-day" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
+	<item id="15397" type="Armor" name="Vitality Belt - Permanent Use">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -2171,15 +1724,26 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+	</item>
+	<item id="15398" type="Armor" name="Vitality Belt (Event) - 7-day limited period">
+		<set name="icon" val="icon.event_energy_belt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="enchant_enabled" val="4" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="15399" name="Vitality Belt (Event)" additionalName="30-day" type="Armor">
-		<!-- Vitality Belt. Can be enchanted using the Scroll: Enchant Vitality Belt. When enchanted, increases Vitality maintenance effect, and decreases Vitality maintenance cooldown. -->
+	<item id="15399" type="Armor" name="Vitality Belt (Event) - 30-day limited period">
 		<set name="icon" val="icon.event_energy_belt_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
@@ -2191,11 +1755,8 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 </list>

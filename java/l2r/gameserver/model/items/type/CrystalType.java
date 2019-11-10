@@ -37,7 +37,9 @@ public enum CrystalType
 	R(8, 17371, 30, 500),
 	R95(9, 17371, 30, 500),
 	R99(10, 17371, 30, 500),
-	EVENT(11, 0, 0, 0);
+	// Fafurion
+	R110(11, 17371, 30, 500),
+	EVENT(12, 0, 0, 0);
 	
 	private final int _id;
 	private final int _crystalId;

@@ -36,9 +36,9 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-		<skillList>
+		<skills>
 			<skill id="13280" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dagger Special Ability -->
-		</skillList>
+		</skills>
 		<stats>
 			<stat type="pAtk">454</stat>
 			<stat type="mAtk">226</stat>

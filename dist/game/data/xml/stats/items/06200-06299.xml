@@ -1,1103 +1,903 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="6200" name="Greater Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Giran/Sword/Mobile. -->
+	<item id="6200" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6201" name="Greater Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Giran/Spear/Mobile. -->
+	<item id="6201" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6202" name="Greater Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Giran/Bow/Mobile. -->
+	<item id="6202" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6203" name="Greater Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Giran/Cleric/Mobile. -->
+	<item id="6203" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6204" name="Greater Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Giran/Wizard/Mobile. -->
+	<item id="6204" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6205" name="Greater Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Oren/Sword/Stationary. -->
+	<item id="6205" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6206" name="Greater Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Oren/Spear/Stationary. -->
+	<item id="6206" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6207" name="Greater Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Oren/Bow/Stationary. -->
+	<item id="6207" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6208" name="Greater Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Oren/Cleric/Stationary. -->
+	<item id="6208" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6209" name="Greater Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Oren/Wizard/Stationary. -->
+	<item id="6209" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6210" name="Greater Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Oren/Sword/Mobile. -->
+	<item id="6210" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6211" name="Greater Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Oren/Spear/Mobile. -->
+	<item id="6211" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6212" name="Greater Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Oren/Bow/Mobile. -->
+	<item id="6212" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6213" name="Greater Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Oren/Cleric/Mobile. -->
+	<item id="6213" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6214" name="Greater Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Oren/Wizard/Mobile. -->
+	<item id="6214" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6215" name="Greater Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Aden/Sword/Stationary. -->
+	<item id="6215" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6216" name="Greater Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Aden/Spear/Stationary. -->
+	<item id="6216" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6217" name="Greater Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Aden/Bow/Stationary. -->
+	<item id="6217" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6218" name="Greater Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Aden/Cleric/Stationary. -->
+	<item id="6218" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6219" name="Greater Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Aden/Wizard/Stationary. -->
+	<item id="6219" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6220" name="Greater Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Aden/Sword/Mobile. -->
+	<item id="6220" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6221" name="Greater Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Aden/Spear/Mobile. -->
+	<item id="6221" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6222" name="Greater Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Aden/Bow/Mobile. -->
+	<item id="6222" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6223" name="Greater Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Aden/Cleric/Mobile. -->
+	<item id="6223" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6224" name="Greater Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Aden/Wizard/Mobile. -->
+	<item id="6224" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6225" name="Greater Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Innadril/Sword/Stationary. -->
+	<item id="6225" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6226" name="Greater Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Innadril/Spear/Stationary. -->
+	<item id="6226" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6227" name="Greater Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Innadril/Bow/Stationary. -->
+	<item id="6227" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6228" name="Greater Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Innadril/Cleric/Stationary. -->
+	<item id="6228" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6229" name="Greater Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Innadril/Wizard/Stationary. -->
+	<item id="6229" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6230" name="Greater Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Innadril/Sword/Mobile. -->
+	<item id="6230" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6231" name="Greater Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Innadril/Spear/Mobile. -->
+	<item id="6231" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6232" name="Greater Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Innadril/Bow/Mobile. -->
+	<item id="6232" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6233" name="Greater Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Innadril/Cleric/Mobile. -->
+	<item id="6233" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6234" name="Greater Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Innadril/Wizard/Mobile. -->
+	<item id="6234" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6235" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Gludio/Sword/Stationary. -->
+	<item id="6235" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6236" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Gludio/Spear/Stationary. -->
+	<item id="6236" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6237" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Gludio/Bow/Stationary. -->
+	<item id="6237" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6238" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Gludio/Cleric/Stationary. -->
+	<item id="6238" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6239" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Gludio/Wizard/Stationary. -->
+	<item id="6239" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6240" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Gludio/Sword/Mobile. -->
+	<item id="6240" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6241" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Gludio/Spear/Mobile. -->
+	<item id="6241" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6242" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Gludio/Bow/Mobile. -->
+	<item id="6242" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6243" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Gludio/Cleric/Mobile. -->
+	<item id="6243" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6244" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Gludio/Wizard/Mobile. -->
+	<item id="6244" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6245" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Dion/Sword/Stationary. -->
+	<item id="6245" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6246" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Dion/Spear/Stationary. -->
+	<item id="6246" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6247" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Dion/Bow/Stationary. -->
+	<item id="6247" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6248" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Dion/Cleric/Stationary. -->
+	<item id="6248" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6249" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Dion/Wizard/Stationary. -->
+	<item id="6249" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6250" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Dion/Sword/Mobile. -->
+	<item id="6250" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6251" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Dion/Spear/Mobile. -->
+	<item id="6251" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6252" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Dion/Bow/Mobile. -->
+	<item id="6252" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6253" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Dion/Cleric/Mobile. -->
+	<item id="6253" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6254" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Dion/Wizard/Mobile. -->
+	<item id="6254" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6255" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Giran/Sword/Stationary. -->
+	<item id="6255" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6256" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Giran/Spear/Stationary. -->
+	<item id="6256" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6257" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Giran/Bow/Stationary. -->
+	<item id="6257" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6258" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Giran/Cleric/Stationary. -->
+	<item id="6258" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6259" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Giran/Wizard/Stationary. -->
+	<item id="6259" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6260" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Giran/Sword/Mobile. -->
+	<item id="6260" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6261" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Giran/Spear/Mobile. -->
+	<item id="6261" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6262" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Giran/Bow/Mobile. -->
+	<item id="6262" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6263" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Giran/Cleric/Mobile. -->
+	<item id="6263" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6264" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Giran/Wizard/Mobile. -->
+	<item id="6264" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6265" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Oren/Sword/Stationary. -->
+	<item id="6265" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6266" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Oren/Spear/Stationary. -->
+	<item id="6266" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6267" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Oren/Bow/Stationary. -->
+	<item id="6267" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6268" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Oren/Cleric/Stationary. -->
+	<item id="6268" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6269" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Oren/Wizard/Stationary. -->
+	<item id="6269" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6270" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Oren/Sword/Mobile. -->
+	<item id="6270" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6271" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Oren/Spear/Mobile. -->
+	<item id="6271" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6272" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Oren/Bow/Mobile. -->
+	<item id="6272" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6273" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Oren/Cleric/Mobile. -->
+	<item id="6273" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6274" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Oren/Wizard/Mobile. -->
+	<item id="6274" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6275" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Aden/Sword/Stationary. -->
+	<item id="6275" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6276" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Aden/Spear/Stationary. -->
+	<item id="6276" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6277" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Aden/Bow/Stationary. -->
+	<item id="6277" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6278" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Aden/Cleric/Stationary. -->
+	<item id="6278" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6279" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Aden/Wizard/Stationary. -->
+	<item id="6279" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6280" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Aden/Sword/Mobile. -->
+	<item id="6280" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6281" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Aden/Spear/Mobile. -->
+	<item id="6281" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6282" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Aden/Bow/Mobile. -->
+	<item id="6282" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6283" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Aden/Cleric/Mobile. -->
+	<item id="6283" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6284" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Aden/Wizard/Mobile. -->
+	<item id="6284" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6285" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Innadril/Sword/Stationary. -->
+	<item id="6285" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6286" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Innadril/Spear/Stationary. -->
+	<item id="6286" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6287" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Innadril/Bow/Stationary. -->
+	<item id="6287" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6288" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Innadril/Cleric/Stationary. -->
+	<item id="6288" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6289" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Innadril/Wizard/Stationary. -->
+	<item id="6289" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6290" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Innadril/Sword/Mobile. -->
+	<item id="6290" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6291" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Innadril/Spear/Mobile. -->
+	<item id="6291" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6292" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Innadril/Bow/Mobile. -->
+	<item id="6292" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6293" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Innadril/Cleric/Mobile. -->
+	<item id="6293" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6294" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Innadril/Wizard/Mobile. -->
+	<item id="6294" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6295" name="Nephilim Warrior Posting Ticket" type="EtcItem">
-		<!-- Gludio/Sword/Mobile. -->
+	<item id="6295" type="EtcItem" name="Nephilim Warrior Posting Ticket">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="2500000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6296" name="Nephilim Shaman Posting Ticket" type="EtcItem">
-		<!-- Gludio/Wizard/Mobile. -->
+	<item id="6296" type="EtcItem" name="Nephilim Shaman Posting Ticket">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="5000000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6297" name="Nephilim Warrior Posting Ticket" type="EtcItem">
-		<!-- Dion/Sword/Mobile. -->
+	<item id="6297" type="EtcItem" name="Nephilim Warrior Posting Ticket">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="2500000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6298" name="Nephilim Shaman Posting Ticket" type="EtcItem">
-		<!-- Dion/Wizard/Mobile. -->
+	<item id="6298" type="EtcItem" name="Nephilim Shaman Posting Ticket">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="5000000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="6299" name="Nephilim Warrior Posting Ticket" type="EtcItem">
-		<!-- Giran/Sword/Mobile. -->
+	<item id="6299" type="EtcItem" name="Nephilim Warrior Posting Ticket">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="2500000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
 </list>

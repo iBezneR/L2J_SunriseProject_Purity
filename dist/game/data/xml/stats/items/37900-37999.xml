@@ -30,8 +30,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<capsuled_items>
 			<item id="37897" min="1" max="1" chance="100" /> <!-- SP Rune (High-grade) - 7-day -->
 		</capsuled_items>
@@ -40,30 +40,32 @@
 		<!-- Scroll the replenishes 1,000,000,000 SP. -->
 		<set name="icon" val="icon.etc_sp_scroll3_i00" />
 		<set name="weight" val="30" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="17270-1" /> <!-- Scroll: 1,000,000,000 SP -->
+		<skills>
+			<skill id="17270" level="1" /> <!-- Scroll: 1,000,000,000 SP -->
+		</skills>
 	</item>
 	<item id="37905" name="Kat the Cat's Surprise Gift" type="EtcItem">
 		<!-- Box containing Kat the Cat's gift. Double click to acquire 1 of the following at random: 150 Heavenly Recovery Potions, 1 Kat the Cat's Box of Roses, or 1 Emperor's Rune Box. Can be shared within the same account through the Dimensional Merchant. To be deleted on 30.10.13. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="CAPSULE" />
@@ -172,14 +174,14 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37917" name="Pumpkin Dual Dagger" type="Weapon">
 		<!-- Cute, pumpkin-shaped dual dagger. -->
@@ -191,14 +193,14 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="price" val="121780000" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37918" name="Scarecrow Sword" type="Weapon">
 		<!-- Cute, scarecrow-shaped one-handed magic sword. -->
@@ -206,14 +208,14 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37919" name="Pig Lollipop Appearance Stone: One-handed Sword" additionalName="15-day" type="EtcItem">
 		<!-- Changes the appearance of a one-handed sword into that of a Pig Lollipop. 15-day. -->
@@ -321,391 +323,395 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="26918-1" /> <!-- Art of Seduction -->
+		<skills>
+			<skill id="26918" level="1" /> <!-- Art of Seduction -->
+		</skills>
 	</item>
 	<item id="37929" name="Awakened Warrior's Blade (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. One-handed sword. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Kamaels can use the Change Weapon skill to turn this into a Rapier. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_sword_of_hero_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="435" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">435</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37930" name="Awakened Warrior's Cleaver (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Two-handed Sword. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Kamaels can use the Change Weapon skill to turn this into an Ancient Sword. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="529" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">529</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37931" name="Awakened Warrior's Axe (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. One-handed Blunt Weapon. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_axe_of_hero_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="435" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">435</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37932" name="Awakened Warrior's Rod (7-day)" additionalName="Acumen" type="Weapon">
 		<!-- Awakened warrior's weapon. One-handed Magic Blunt Weapon. Increases Casting Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_mace_of_hero_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="348" />
-			<set stat="mAtk" val="252" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">348</stat>
+			<stat type="mAtk">252</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37933" name="Awakened Warrior's Crusher (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Two-handed Blunt Weapon. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_hammer_of_hero_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="643" />
-			<set stat="mAtk" val="230" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">643</stat>
+			<stat type="mAtk">230</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37934" name="Awakened Warrior's Scepter (7-day)" additionalName="Acumen" type="Weapon">
 		<!-- Awakened warrior's weapon. Two-handed Magic Blunt Weapon. Increases Casting Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="423" />
-			<set stat="mAtk" val="278" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">423</stat>
+			<stat type="mAtk">278</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37935" name="Awakened Warrior's Stinger (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. One-handed Dagger. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_dagger_of_hero_i00" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="380" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">380</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37936" name="Awakened Warrior's Fang (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Fist Weapon. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_fist_of_hero_i00" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="529" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">529</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37937" name="Awakened Warrior's Bow (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Bow. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Kamaels can use the Change Weapon skill to turn this into a Shooter. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_bow_of_hero_i00" />
 		<set name="weapon_type" val="BOW" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="856" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">856</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37938" name="Awakened Warrior's Wing (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Dual Sword. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="529" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">529</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37939" name="Awakened Warrior's Spear (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Spear. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_the_pole_of_hero_i00" />
 		<set name="weapon_type" val="POLE" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="435" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">435</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37940" name="Awakened Warrior's Rapier (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Rapier. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Kamaels can use the Change Weapon skill to turn this into a one-handed sword. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_infinity_rapier_i00" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="479" />
-			<set stat="mAtk" val="230" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">479</stat>
+			<stat type="mAtk">230</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">40</stat>
+		</stats>
 	</item>
 	<item id="37941" name="Awakened Warrior's Sword (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Ancient Sword. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Kamaels can use the Change Weapon skill to turn this into a two-handed sword. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_infinity_sword_i00" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="572" />
-			<set stat="mAtk" val="230" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">572</stat>
+			<stat type="mAtk">230</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">15</stat>
+		</stats>
 	</item>
 	<item id="37942" name="Awakened Warrior's Shooter (7-day)" additionalName="Haste" type="Weapon">
 		<!-- Awakened warrior's weapon. Crossbow. Increases Atk. Spd. 7-day. Cannot be used in the Olympiad. Kamaels can use the Change Weapon skill to turn this into a bow. Cannot be used by Chaotic characters. -->
 		<set name="icon" val="icon.weapon_infinity_shooter_i00" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="1300" />
-		<for>
-			<set stat="pAtk" val="771" />
-			<set stat="mAtk" val="189" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="400" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">771</stat>
+			<stat type="mAtk">189</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37943" name="Awakened Warrior's Weapon Coupon (7-day)" type="EtcItem">
 		<!-- Dimensional Item. Talk to the Dimensional Merchant to exchange for an Awakened Warrior's Weapon (7-day). Note: Cannot be shared once exchanged. -->
 		<set name="icon" val="icon.etc_lottery_card_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -713,8 +719,8 @@
 		<!-- For 1 hr., Prevailing/ Combat/ Refreshing Sonata buffs are applied. Cooldown is 60min. Double-click to use. Buff remains even after death. -->
 		<set name="icon" val="icon.etc_bm_sonata_cookie" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_oly_restricted" val="true" />
@@ -737,14 +743,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37946" name="Chrono Unitus" type="Weapon">
 		<!-- Chrono Unitus. It has been retouched by Celdion, the master of the Black Anvil Guild. 15-day. -->
@@ -753,15 +759,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37947" name="Chrono Campana" type="Weapon">
 		<!-- Chrono Campana. It has been retouched by Celdion, the master of the Black Anvil Guild. 15-day. -->
@@ -770,15 +776,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37948" name="Chrono Darbuka" type="Weapon">
 		<!-- Chrono Darbuka. It has been retouched by Celdion, the master of the Black Anvil Guild. 15-day. -->
@@ -787,15 +793,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37949" name="Chrono Maracas" type="Weapon">
 		<!-- Chrono Maracas. It has been retouched by Celdion, the master of the Black Anvil Guild. 15-day. -->
@@ -804,14 +810,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37950" name="Requiem Shaper Crafting Pack" type="EtcItem">
 		<!-- Wrapped Pack containing all ingredients needed for crafting Requiem Shaper. -->
@@ -819,7 +825,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="28" max="28" chance="100" /> <!-- Adamantite -->
@@ -874,7 +880,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="28" max="28" chance="100" /> <!-- Adamantite -->
@@ -911,7 +917,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="28" max="28" chance="100" /> <!-- Adamantite -->
@@ -1002,7 +1008,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="28" max="28" chance="100" /> <!-- Adamantite -->
@@ -1039,7 +1045,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="9" max="9" chance="100" /> <!-- Adamantite -->
@@ -1112,7 +1118,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SHIELD" /> -->
+		<set name="commissionItemType" val="SHIELD" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="3" max="3" chance="100" /> <!-- Adamantite -->
@@ -1149,7 +1155,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="59" max="59" chance="100" /> <!-- Crystal (R-grade) -->
@@ -1204,7 +1210,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="15" max="15" chance="100" /> <!-- Crystal (R-grade) -->
@@ -1277,7 +1283,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="GLOVES" /> -->
+		<set name="commissionItemType" val="GLOVES" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="15" max="15" chance="100" /> <!-- Crystal (R-grade) -->
@@ -1296,7 +1302,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="15" max="15" chance="100" /> <!-- Crystal (R-grade) -->
@@ -1315,7 +1321,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SIGIL" /> -->
+		<set name="commissionItemType" val="SIGIL" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="15" max="15" chance="100" /> <!-- Crystal (R-grade) -->
@@ -1385,7 +1391,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="DAGGER" /> -->
+		<set name="commissionItemType" val="DAGGER" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1404,7 +1410,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ONE_HAND_SWORD" /> -->
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1423,7 +1429,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="TWO_HAND_SWORD" /> -->
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1442,7 +1448,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1461,7 +1467,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="FIST_WEAPON" /> -->
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1480,7 +1486,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SPEAR" /> -->
+		<set name="commissionItemType" val="SPEAR" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1499,7 +1505,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="BOW" /> -->
+		<set name="commissionItemType" val="BOW" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1536,7 +1542,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" /> -->
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1555,7 +1561,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" /> -->
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="75" max="75" chance="100" /> <!-- Adamantite -->
@@ -1592,7 +1598,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="10" max="10" chance="100" /> <!-- Adamantite -->
@@ -1611,7 +1617,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="25" max="25" chance="100" /> <!-- Adamantite -->
@@ -1666,7 +1672,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="FEET" /> -->
+		<set name="commissionItemType" val="FEET" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="7" max="7" chance="100" /> <!-- Adamantite -->
@@ -1685,7 +1691,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SHIELD" /> -->
+		<set name="commissionItemType" val="SHIELD" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="36523" min="7" max="7" chance="100" /> <!-- Adamantite -->
@@ -1704,7 +1710,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="HELMET" /> -->
+		<set name="commissionItemType" val="HELMET" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="60" max="60" chance="100" /> <!-- Crystal (R-grade) -->
@@ -1723,7 +1729,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="17371" min="160" max="160" chance="100" /> <!-- Crystal (R-grade) -->

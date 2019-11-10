@@ -1,95 +1,78 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="10400" name="Icarus Heavy Arms Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Heavy Arms. It can be sold to public stores. -->
+	<item id="10400" type="EtcItem" name="Icarus Heavy Arms Piece">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10401" name="Icarus Trident Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Trident. It can be sold to public stores. -->
+	<item id="10401" type="EtcItem" name="Icarus Trident Piece">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10402" name="Icarus Hammer Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Hammer. It can be sold to public stores. -->
+	<item id="10402" type="EtcItem" name="Icarus Hammer Piece">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10403" name="Icarus Hand Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Hand. It can be sold to public stores. -->
+	<item id="10403" type="EtcItem" name="Icarus Hand Piece">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10404" name="Icarus Hall Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Hall. It can be sold to public stores. -->
+	<item id="10404" type="EtcItem" name="Icarus Hall Piece">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10405" name="Icarus Spitter Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Spitter. It can be sold to public stores. -->
+	<item id="10405" type="EtcItem" name="Icarus Spitter Piece">
 		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10406" name="Icarus Stinger Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Stinger. It can be sold to public stores. -->
+	<item id="10406" type="EtcItem" name="Icarus Stinger Piece">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10407" name="Icarus Wingblade Piece" type="EtcItem">
-		<!-- Essential ingredient that a Dwarf needs to make Icarus Wingblade. It can be sold to public stores. -->
+	<item id="10407" type="EtcItem" name="Icarus Wingblade Piece">
 		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
 		<set name="price" val="312000" />
-		<set name="commissionItemType" val="MAJOR_CRAFTING_INGREDIENTS" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10408" name="Old Agathion" type="EtcItem">
-		<!-- An Old Agathion with the Spirits Seal released. It cannot be used any more, but may be sold in the Store. -->
+	<item id="10408" type="EtcItem" name="Old Agathion">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -97,15 +80,12 @@
 		<set name="weight" val="60" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2504" level="1" /> <!-- Old Agathion -->
-		</skills>
+		<set name="item_skill" val="2504-1" />
 	</item>
-	<item id="10409" name="A Bottle of Souls" type="EtcItem">
-		<!-- Bottle that holds 5 Souls. Double-click to fill the bottle. For Kamael use only. -->
+	<item id="10409" type="EtcItem" name="A Bottle of Souls">
 		<set name="icon" val="icon.blank_glass_bottle_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
 		<set name="price" val="500" />
@@ -115,16 +95,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2498" level="1" /> <!-- Bottle of Empty Soul -->
-		</skills>
+		<set name="item_skill" val="2498-1" />
 	</item>
-	<item id="10410" name="Full Bottle of Souls - 5 Souls" type="EtcItem">
-		<!-- Bottle containing 5 Souls. Kamael-exclusive Weapon. Disappears without effect if used by other races. -->
+	<item id="10410" type="EtcItem" name="Full Bottle of Souls - 5 Souls">
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i11" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -135,16 +108,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkillsTemplate" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2499" level="1" /> <!-- Full Bottle of Souls -->
-		</skills>
+		<set name="item_skill" val="2499-1" />
 	</item>
-	<item id="10411" name="Full Bottle of Souls - 5 Souls (Battleground)" type="EtcItem">
-		<!-- Bottle containing 5 Souls. Usable only in combat. Kamael-exclusive Weapon. Disappears without effect if used by other races. -->
+	<item id="10411" type="EtcItem" name="Full Bottle of Souls - 5 Souls (For Combat)">
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i11" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -156,19 +122,12 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkillsTemplate" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2499-1" />
+		<cond msgId="113" addName="1">
 			<player SiegeZone="126" />
 		</cond>
-		<skills>
-			<skill id="2499" level="1" /> <!-- Full Bottle of Souls -->
-		</skills>
 	</item>
-	<item id="10412" name="Full Bottle of Souls - 10 Souls" type="EtcItem">
-		<!-- Bottle containing 10 Souls. Kamael-exclusive item. Disappears without effect if used by other races. -->
+	<item id="10412" type="EtcItem" name="Full Bottle of Souls - 10 Souls">
 		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i11" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -177,44 +136,34 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10413" name="Dynastic Essence II" type="EtcItem">
-		<!-- Item that can be used to upgrade Dynasty Chest armor. Grants more powerful options than Dynastic Essence. -->
+	<item id="10413" type="EtcItem" name="Dynastic Essence II">
 		<set name="icon" val="icon.etc_armor_soul_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10414" name="Agathion Coupon" type="EtcItem">
+	<item id="10414" type="EtcItem" name="Agathion Exchange Coupon">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
 	</item>
-	<item id="10415" name="Icarus Dualsword" type="Weapon">
-		<!-- When enchanted, P. Atk. of dualswords, two-handed swords, two-handed blunt weapons and fist weapons increases more than that of one-handed swords. Can bestow 1 regular Soul Crystal and 1 Special Soul Crystal. -->
+	<item id="10415" type="Weapon" name="Icarus Dual Sword">
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -223,23 +172,18 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="DUALSWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3411" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="enchant4_skill" val="3411-1" />
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10416" name="Blue Talisman - Explosion" type="Armor">
-		<!-- Increases P. Atk./Atk. Spd. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10416" type="Armor" name="Blue Talisman - Explosion">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -250,18 +194,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3428-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3428" level="1" /> <!-- Blue Talisman - Explosion -->
-		</skills>
 	</item>
-	<item id="10417" name="Blue Talisman - Magic Explosion" type="Armor">
-		<!-- Increases M. Atk. and M. Critical Rate. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10417" type="Armor" name="Blue Talisman - Magic Explosion">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -272,18 +209,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3437-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3437" level="1" /> <!-- Blue Talisman - Magic Explosion -->
-		</skills>
 	</item>
-	<item id="10418" name="White Talisman - Storm" type="Armor">
-		<!-- Increases Wind attribute. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10418" type="Armor" name="White Talisman - Storm">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -294,18 +224,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3431-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3431" level="1" /> <!-- White Talisman - Storm -->
-		</skills>
 	</item>
-	<item id="10419" name="White Talisman - Darkness" type="Armor">
-		<!-- Increases Dark attribute. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10419" type="Armor" name="White Talisman - Darkness">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -316,18 +239,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3430-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3430" level="1" /> <!-- White Talisman - Darkness -->
-		</skills>
 	</item>
-	<item id="10420" name="White Talisman - Water" type="Armor">
-		<!-- Increases Water attribute. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10420" type="Armor" name="White Talisman - Water">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -338,18 +254,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3432-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3432" level="1" /> <!-- White Talisman - Water -->
-		</skills>
 	</item>
-	<item id="10421" name="White Talisman - Fire" type="Armor">
-		<!-- Instantly increases Fire. Only one effect is applied when you wear the same two talismans. Shadow Item. -->
+	<item id="10421" type="Armor" name="White Talisman - Fire">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -360,18 +269,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3433-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3433" level="1" /> <!-- White Talisman - Fire -->
-		</skills>
 	</item>
-	<item id="10422" name="White Talisman - Light" type="Armor">
-		<!-- Increases holy attribute. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10422" type="Armor" name="White Talisman - Light">
 		<set name="icon" val="icon.etc_talisman_i06" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -382,18 +284,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3435-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3435" level="1" /> <!-- White Talisman - Light -->
-		</skills>
 	</item>
-	<item id="10423" name="Blue Talisman - Self-destruction" type="Armor">
-		<!-- Damages a nearby enemy with a powerful explosion. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10423" type="Armor" name="Blue Talisman - Self-Destruction">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -403,18 +298,11 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3436-1" />
 		<set name="duration" val="60" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
-		<skills>
-			<skill id="3436" level="1" /> <!-- Blue Talisman - Self-destruction -->
-		</skills>
 	</item>
-	<item id="10424" name="Blue Talisman - Greater Healing" type="Armor">
-		<!-- Increases heal power. Effect does not stack with additional Talismans of the same type. -->
+	<item id="10424" type="Armor" name="Blue Talisman - Greater Healing">
 		<set name="icon" val="icon.etc_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="deco1" />
@@ -425,38 +313,27 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3438-1" />
 		<set name="duration" val="65" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="6" />
-		<skills>
-			<skill id="3438" level="1" /> <!-- Blue Talisman - Greater Healing -->
-		</skills>
 	</item>
-	<item id="10425" name="Improved Baby Pet Food" type="EtcItem">
-		<!-- Automatically consumed when an improved baby pet's hunger gauge drops below 55%. -->
+	<item id="10425" type="EtcItem" name="Improved Baby Pet Food">
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="10" />
-		<set name="price" val="1000" />
+		<set name="price" val="1000" /> <!-- H5 Price -->
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="PetFood" />
-		<set name="commissionItemType" val="PET_SUPPLIES" />
+		<set name="item_skill" val="2361-1" />
 		<set name="for_npc" val="true" />
-		<cond addName="1" msgId="113">
+		<cond msgId="113" addName="1">
 			<player categoryType="UPGRADE_BABY_PET_GROUP" />
 		</cond>
-		<skills>
-			<skill id="2361" level="1" /> <!-- Evolving Wolf Food -->
-		</skills>
 	</item>
-	<item id="10426" name="Fenrir Necklace" type="EtcItem">
-		<!-- Necklace that can summon a Fenrir. Takes a part of the XP gained by the Pet master. -->
+	<item id="10426" type="EtcItem" name="Fenrir Necklace">
 		<set name="icon" val="icon.etc_summon_wolf_r_01" />
 		<set name="default_action" val="SKILL_MAINTAIN" />
 		<set name="etcitem_type" val="PET_COLLAR" />
@@ -464,127 +341,93 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
-		<set name="commissionItemType" val="PET_SUPPLIES" />
-		<cond addName="1" msgId="113">
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2046" level="1" /> <!-- Summon Pet -->
-		</skills>
 	</item>
-	<item id="10427" name="Tully's Platinum Medal" type="EtcItem">
-		<!-- Small, shiny platinum medal. It reads, 'Permission No.1 for Group Admission to Special Workshop'. -->
+	<item id="10427" type="EtcItem" name="Tully's Platinum Medal">
 		<set name="icon" val="icon.etc_jewel_silver_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
+		<set name="price" val="5000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10428" name="Tully's Tin Medal" type="EtcItem">
-		<!-- Small, shiny tin medal. It reads, 'Permission No.2 for Group Admission to Special Workshop'. -->
+	<item id="10428" type="EtcItem" name="Tully's Tin Medal">
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
+		<set name="price" val="5000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10429" name="Tully's Lead Medal" type="EtcItem">
-		<!-- Small, shiny lead medal. It reads, 'Permission No.3 for Group Admission to Special Workshop'. -->
+	<item id="10429" type="EtcItem" name="Tully's Lead Medal">
 		<set name="icon" val="icon.etc_jewel_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
+		<set name="price" val="5000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10430" name="Tully's Zinc Medal" type="EtcItem">
-		<!-- Small, shiny zinc medal. It reads, 'Permission No.4 for Group Admission to Special Workshop'. -->
+	<item id="10430" type="EtcItem" name="Tully's Zinc Medal">
 		<set name="icon" val="icon.etc_jewel_green_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
+		<set name="price" val="5000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10431" name="Tully's Copper Medal" type="EtcItem">
-		<!-- Small, shiny copper medal. It reads, 'Permission No.5 for Group Admission to Special Workshop'. -->
+	<item id="10431" type="EtcItem" name="Tully's Copper Medal">
 		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
+		<set name="price" val="5000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="10432" name="Kertang's Herb of Life" type="EtcItem">
+	<item id="10432" type="EtcItem" name="Kertin's Herb of Life">
 		<set name="immediate_effect" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="item_skill" val="2485-1" />
 		<set name="for_npc" val="true" />
-		<skills>
-			<skill id="2485" level="1" /> <!-- Herb of Life -->
-		</skills>
 	</item>
-	<item id="10433" name="Kertang's Herb of Mana" type="EtcItem">
+	<item id="10433" type="EtcItem" name="Kertin's Herb of Mana">
 		<set name="immediate_effect" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="item_skill" val="2486-1" />
 		<set name="for_npc" val="true" />
-		<skills>
-			<skill id="2486" level="1" /> <!-- Herb of Mana -->
-		</skills>
 	</item>
-	<item id="10434" name="Icarus Sawsword" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10434" type="Weapon" name="Icarus Sawsword - Focus">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -594,29 +437,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="isAppearanceable" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<skills>
-			<skill id="3566" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3566-2" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10435" name="Icarus Sawsword" additionalName="Health" type="Weapon">
-		<!-- Not used -->
+	<item id="10435" type="Weapon" name="Icarus Sawsword - Health">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -626,29 +466,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10436" name="Icarus Sawsword" additionalName="Light Armor" type="Weapon">
-		<!-- Not used -->
+	<item id="10436" type="Weapon" name="Icarus Sawsword - Light">
 		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -658,30 +495,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ONE_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3498" level="1" /> <!-- Special Ability: Light -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3552-1;3498-1" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10437" name="Icarus Heavy Arms" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10437" type="Weapon" name="Icarus Heavy Arms - Focus">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1740" />
@@ -691,29 +524,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="TWO_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3566" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3566-2" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10438" name="Icarus Heavy Arms" additionalName="Health" type="Weapon">
-		<!-- Not used -->
+	<item id="10438" type="Weapon" name="Icarus Heavy Arms - Health">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1740" />
@@ -723,29 +553,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="TWO_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10439" name="Icarus Heavy Arms" additionalName="Light Armor" type="Weapon">
-		<!-- Not used -->
+	<item id="10439" type="Weapon" name="Icarus Heavy Arms - Light">
 		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1740" />
@@ -755,30 +582,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="TWO_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3498" level="1" /> <!-- Special Ability: Light -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3552-1;3498-1" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10440" name="Icarus Spirit" additionalName="Acumen" type="Weapon">
-		<!-- Not used -->
+	<item id="10440" type="Weapon" name="Icarus Spirit - Acumen">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -788,29 +611,26 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3047" level="2" /> <!-- Special Ability: Acumen -->
-		</skills>
-		<stats>
-			<stat type="pAtk">290</stat>
-			<stat type="mAtk">217</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3047-2" />
+		<for>
+			<set stat="pAtk" val="290" />
+			<set stat="mAtk" val="217" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10441" name="Icarus Spirit" additionalName="Mana Up" type="Weapon">
-		<!-- Not used -->
+	<item id="10441" type="Weapon" name="Icarus Spirit - Mana Up">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -820,29 +640,26 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3014" level="2" /> <!-- Special Ability: Mana Up -->
-		</skills>
-		<stats>
-			<stat type="pAtk">290</stat>
-			<stat type="mAtk">217</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3014-2" />
+		<for>
+			<set stat="pAtk" val="290" />
+			<set stat="mAtk" val="217" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10442" name="Icarus Spirit" additionalName="Conversion" type="Weapon">
-		<!-- Not used -->
+	<item id="10442" type="Weapon" name="Icarus Spirit - Conversion">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -852,29 +669,26 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3048" level="2" /> <!-- Special Ability: Conversion -->
-		</skills>
-		<stats>
-			<stat type="pAtk">290</stat>
-			<stat type="mAtk">217</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3048-2" />
+		<for>
+			<set stat="pAtk" val="290" />
+			<set stat="mAtk" val="217" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10443" name="Icarus Spitter" additionalName="Cheap Shot" type="Weapon">
-		<!-- Not used -->
+	<item id="10443" type="Weapon" name="Icarus Spitter - Cheap Shot">
 		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -886,31 +700,27 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="8312" level="1" /> <!-- Special Ability: Cheap Shot -->
-		</skills>
-		<stats>
-			<stat type="pAtk">689</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<set name="item_skill" val="3552-1;8312-1" />
+		<for>
+			<set stat="pAtk" val="689" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10444" name="Icarus Spitter" additionalName="Guidance" type="Weapon">
-		<!-- Not used -->
+	<item id="10444" type="Weapon" name="Icarus Spitter - Guidance">
 		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -922,30 +732,27 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3573" level="2" /> <!-- Special Ability: Guidance -->
-		</skills>
-		<stats>
-			<stat type="pAtk">689</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<set name="item_skill" val="3573-2" />
+		<for>
+			<set stat="pAtk" val="689" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10445" name="Icarus Spitter" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10445" type="Weapon" name="Icarus Spitter - Focus">
 		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -957,30 +764,27 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="1500" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3567" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">689</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<set name="item_skill" val="3567-2" />
+		<for>
+			<set stat="pAtk" val="689" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10446" name="Icarus Disperser" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10446" type="Weapon" name="Icarus Disperser - Focus">
 		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -989,30 +793,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="isAppearanceable" val="true" />
-		<set name="commissionItemType" val="DAGGER" />
-		<skills>
-			<skill id="3567" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">318</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3567-2" />
+		<for>
+			<set stat="pAtk" val="318" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10447" name="Icarus Disperser" additionalName="Evasion" type="Weapon">
-		<!-- Not used -->
+	<item id="10447" type="Weapon" name="Icarus Disperser - Evasion">
 		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -1021,31 +822,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="DAGGER" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3009" level="8" /> <!-- Special Ability: Evasion -->
-		</skills>
-		<stats>
-			<stat type="pAtk">318</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3009-8;3552-1" />
+		<for>
+			<set stat="pAtk" val="318" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10448" name="Icarus Disperser" additionalName="Critical Damage" type="Weapon">
-		<!-- Not used -->
+	<item id="10448" type="Weapon" name="Icarus Disperser - Critical Damage">
 		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1520" />
@@ -1054,30 +851,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="DAGGER" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3066" level="4" /> <!-- Special Ability: Critical Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">318</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3066-4" />
+		<for>
+			<set stat="pAtk" val="318" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10449" name="Icarus Trident" additionalName="Anger" type="Weapon">
-		<!-- Not used -->
+	<item id="10449" type="Weapon" name="Icarus Trident - Anger">
 		<set name="icon" val="icon.weapon_icarus_trident_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="2010" />
@@ -1086,30 +880,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3600" level="10" /> <!-- Special Ability: Anger -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="item_skill" val="3600-10" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10450" name="Icarus Trident" additionalName="Critical Stun" type="Weapon">
-		<!-- Not used -->
+	<item id="10450" type="Weapon" name="Icarus Trident - Critical Stun">
 		<set name="icon" val="icon.weapon_icarus_trident_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="2010" />
@@ -1118,31 +909,29 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3070" level="4" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="oncrit_chance" val="48" />
+		<set name="oncrit_skill" val="3070-4" />
+		<set name="item_skill" val="3552-2" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10451" name="Icarus Trident" additionalName="Light Armor" type="Weapon">
-		<!-- Not used -->
+	<item id="10451" type="Weapon" name="Icarus Trident - Light">
 		<set name="icon" val="icon.weapon_icarus_trident_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="BRONZE" />
 		<set name="weight" val="2010" />
@@ -1151,31 +940,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3498" level="1" /> <!-- Special Ability: Light -->
-			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="item_skill" val="3552-2;3498-1" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10452" name="Icarus Hammer" additionalName="Anger" type="Weapon">
-		<!-- Not used -->
+	<item id="10452" type="Weapon" name="Icarus Hammer - Anger">
 		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1740" />
@@ -1184,30 +969,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3057" level="4" /> <!-- Special Ability: Anger -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3057-4" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10453" name="Icarus Hammer" additionalName="Health" type="Weapon">
-		<!-- Not used -->
+	<item id="10453" type="Weapon" name="Icarus Hammer - Health">
 		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1740" />
@@ -1216,30 +998,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10454" name="Icarus Hammer" additionalName="Rsk. Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10454" type="Weapon" name="Icarus Hammer - Rsk. Focus">
 		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1740" />
@@ -1248,30 +1027,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3027" level="7" /> <!-- Special Ability: Rsk. Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">363</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3027-7" />
+		<for>
+			<set stat="pAtk" val="363" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10455" name="Icarus Hall" additionalName="Mana Up" type="Weapon">
-		<!-- Not used -->
+	<item id="10455" type="Weapon" name="Icarus Hall - Mana Up">
 		<set name="icon" val="icon.weapon_icarus_stick_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
@@ -1281,30 +1057,27 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3014" level="2" /> <!-- Special Ability: Mana Up -->
-		</skills>
-		<stats>
-			<stat type="pAtk">290</stat>
-			<stat type="mAtk">217</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3014-2" />
+		<for>
+			<set stat="pAtk" val="290" />
+			<set stat="mAtk" val="217" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10456" name="Icarus Hall" additionalName="Conversion" type="Weapon">
-		<!-- Not used -->
+	<item id="10456" type="Weapon" name="Icarus Hall - Conversion">
 		<set name="icon" val="icon.weapon_icarus_stick_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
@@ -1314,30 +1087,27 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3048" level="2" /> <!-- Special Ability: Conversion -->
-		</skills>
-		<stats>
-			<stat type="pAtk">290</stat>
-			<stat type="mAtk">217</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3048-2" />
+		<for>
+			<set stat="pAtk" val="290" />
+			<set stat="mAtk" val="217" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10457" name="Icarus Hall" additionalName="Acumen" type="Weapon">
-		<!-- Not used -->
+	<item id="10457" type="Weapon" name="Icarus Hall - Acumen">
 		<set name="icon" val="icon.weapon_icarus_stick_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="1080" />
@@ -1347,30 +1117,27 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="isAppearanceable" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<skills>
-			<skill id="3047" level="2" /> <!-- Special Ability: Acumen -->
-		</skills>
-		<stats>
-			<stat type="pAtk">290</stat>
-			<stat type="mAtk">217</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3047-2" />
+		<for>
+			<set stat="pAtk" val="290" />
+			<set stat="mAtk" val="217" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10458" name="Icarus Hand" additionalName="Rsk. Evasion" type="Weapon">
-		<!-- Not used -->
+	<item id="10458" type="Weapon" name="Icarus Hand - Rsk. Evasion">
 		<set name="icon" val="icon.weapon_icarus_knuckle_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1550" />
@@ -1379,31 +1146,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3069" level="1" /> <!-- Special Ability: Rsk. Evasion -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3069-1;3552-1" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10459" name="Icarus Hand" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10459" type="Weapon" name="Icarus Hand - Focus">
 		<set name="icon" val="icon.weapon_icarus_knuckle_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1550" />
@@ -1412,30 +1175,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3565" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3565-2" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10460" name="Icarus Hand" additionalName="Haste" type="Weapon">
-		<!-- Not used -->
+	<item id="10460" type="Weapon" name="Icarus Hand - Haste">
 		<set name="icon" val="icon.weapon_icarus_knuckle_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1550" />
@@ -1444,30 +1204,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3564" level="2" /> <!-- Special Ability: Haste -->
-		</skills>
-		<stats>
-			<stat type="pAtk">442</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3564-2" />
+		<for>
+			<set stat="pAtk" val="442" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10461" name="Icarus Stinger" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10461" type="Weapon" name="Icarus Stinger - Focus">
 		<set name="icon" val="icon.weapon_icarus_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
@@ -1477,34 +1234,31 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RAPIER" />
-		<set name="isAppearanceable" val="true" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3566-2" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3566" level="2" /> <!-- Special Ability: Focus -->
-			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
-		</skills>
-		<stats>
-			<stat type="pAtk">329</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="329" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10462" name="Icarus Stinger" additionalName="Health" type="Weapon">
-		<!-- Not used -->
+	<item id="10462" type="Weapon" name="Icarus Stinger - Health">
 		<set name="icon" val="icon.weapon_icarus_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
@@ -1514,34 +1268,31 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RAPIER" />
-		<set name="isAppearanceable" val="true" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3013-3" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
-			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
-		</skills>
-		<stats>
-			<stat type="pAtk">329</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="329" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10463" name="Icarus Stinger" additionalName="Light Armor" type="Weapon">
-		<!-- Not used -->
+	<item id="10463" type="Weapon" name="Icarus Stinger - Light">
 		<set name="icon" val="icon.weapon_icarus_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1280" />
@@ -1551,35 +1302,31 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RAPIER" />
-		<set name="isAppearanceable" val="true" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3552-1;3498-1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3498" level="1" /> <!-- Special Ability: Light -->
-			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
-		</skills>
-		<stats>
-			<stat type="pAtk">329</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="329" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10464" name="Icarus Wingblade" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10464" type="Weapon" name="Icarus Wingblade - Focus">
 		<set name="icon" val="icon.weapon_icarus_wing_blade_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1800" />
@@ -1589,33 +1336,30 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ANCIENT_SWORD" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3566-2" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3566" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">393</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">2</stat>
-			<stat type="pAtkSpd">350</stat>
-			<stat type="randomDamage">15</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="393" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10465" name="Icarus Wingblade" additionalName="Health" type="Weapon">
-		<!-- Not used -->
+	<item id="10465" type="Weapon" name="Icarus Wingblade - Health">
 		<set name="icon" val="icon.weapon_icarus_wing_blade_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1800" />
@@ -1625,33 +1369,30 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ANCIENT_SWORD" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3013-3" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
-		</skills>
-		<stats>
-			<stat type="pAtk">393</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">2</stat>
-			<stat type="pAtkSpd">350</stat>
-			<stat type="randomDamage">15</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="393" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10466" name="Icarus Wingblade" additionalName="Light Armor" type="Weapon">
-		<!-- Not used -->
+	<item id="10466" type="Weapon" name="Icarus Wingblade - Light">
 		<set name="icon" val="icon.weapon_icarus_wing_blade_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1800" />
@@ -1661,34 +1402,30 @@
 		<set name="spiritshots" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ANCIENT_SWORD" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3552-1;3498-1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3498" level="1" /> <!-- Special Ability: Light -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">393</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">2</stat>
-			<stat type="pAtkSpd">350</stat>
-			<stat type="randomDamage">15</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="393" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10467" name="Icarus Shooter" additionalName="Cheap Shot" type="Weapon">
-		<!-- Not used -->
+	<item id="10467" type="Weapon" name="Icarus Shooter - Cheap Shot">
 		<set name="icon" val="icon.weapon_icarus_shooter_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1580" />
@@ -1699,34 +1436,30 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<set name="commissionItemType" val="CROSSBOW" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3552-1;3360-1" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3360" level="1" /> <!-- Special Ability: Cheap Shot -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">422</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="422" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10468" name="Icarus Shooter" additionalName="Guidance" type="Weapon">
-		<!-- Not used -->
+	<item id="10468" type="Weapon" name="Icarus Shooter - Guidance">
 		<set name="icon" val="icon.weapon_icarus_shooter_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1580" />
@@ -1737,33 +1470,30 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<set name="commissionItemType" val="CROSSBOW" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3573-2" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3573" level="2" /> <!-- Special Ability: Guidance -->
-		</skills>
-		<stats>
-			<stat type="pAtk">422</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="422" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10469" name="Icarus Shooter" additionalName="Focus" type="Weapon">
-		<!-- Not used -->
+	<item id="10469" type="Weapon" name="Icarus Shooter - Focus">
 		<set name="icon" val="icon.weapon_icarus_shooter_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="3310" />
+		<set name="crystal_count" val="4965" />
 		<set name="crystal_type" val="S80" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1580" />
@@ -1774,26 +1504,21 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="400" />
-		<set name="commissionItemType" val="CROSSBOW" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3567-2" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="3567" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">422</stat>
-			<stat type="mAtk">163</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="422" />
+			<set stat="mAtk" val="163" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="10470" name="Shadow Item: Red Crescent" type="Armor">
-		<!-- Shadow Item. -->
+	<item id="10470" type="Armor" name="Shadow Item - Red Crescent">
 		<set name="icon" val="icon.accessary_red_cresent_earing_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -1804,17 +1529,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
-		<stats>
-			<stat type="mDef">24</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="24" />
+		</for>
 	</item>
-	<item id="10471" name="Shadow Item: Ring of Devotion" type="Armor">
-		<!-- Shadow Item. -->
+	<item id="10471" type="Armor" name="Shadow Item - Ring of Devotion">
 		<set name="icon" val="icon.accessary_ring_of_devotion_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1825,17 +1545,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
-		<stats>
-			<stat type="mDef">16</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="16" />
+		</for>
 	</item>
-	<item id="10472" name="Shadow Item: Necklace of Devotion" type="Armor">
-		<!-- Shadow Item. -->
+	<item id="10472" type="Armor" name="Shadow Item - Necklace of Devotion">
 		<set name="icon" val="icon.accessary_necklace_of_devotion_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1846,17 +1561,12 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
-		<stats>
-			<stat type="mDef">32</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="32" />
+		</for>
 	</item>
-	<item id="10473" name="Magic Accessory Set" type="EtcItem">
-		<!-- Double-click to obtain this Shadow Item. -->
+	<item id="10473" type="EtcItem" name="Magic Accessory Set">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1865,22 +1575,18 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2490" level="1" /> <!-- M. Def. Toolkit (Novice) -->
-		</skills>
+		<set name="item_skill" val="2490-1" />
 	</item>
-	<item id="10474" name="Shadow Item: Apprentice's Staff" type="Weapon">
-		<!-- Apprentice Adventurer's Staff. Shadow Item. Cannot be crystallized or enchanted. Chaotic characters are not allowed to use it. -->
+	<item id="10474" type="Weapon" name="Shadow Item - Apprentice's Staff">
 		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="WOOD" />
@@ -1891,30 +1597,25 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
 		<cond msgId="1518">
 			<player chaotic="false" />
 		</cond>
-		<stats>
-			<stat type="pAtk">23</stat>
-			<stat type="mAtk">24</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="23" />
+			<set stat="mAtk" val="24" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="10475" name="Shadow Item: Bone Club" type="Weapon">
-		<!-- Apprentice Adventurer's Bone Club. Shadow Item. Cannot be crystallized or enchanted. Chaotic characters are not allowed to use it. -->
+	<item id="10475" type="Weapon" name="Shadow Item - Bone Club">
 		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1924,30 +1625,25 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
 		<cond msgId="1518">
 			<player chaotic="false" />
 		</cond>
-		<stats>
-			<stat type="pAtk">24</stat>
-			<stat type="mAtk">17</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="24" />
+			<set stat="mAtk" val="17" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="10476" name="Shadow Item: Shining Knife" type="Weapon">
-		<!-- Apprentice Adventurer's Knife. Shadow Item. Cannot be crystallized or enchanted. Chaotic characters are not allowed to use it. -->
+	<item id="10476" type="Weapon" name="Shadow Item - Shining Knife">
 		<set name="icon" val="icon.weapon_shining_knife_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="MITHRIL" />
@@ -1957,30 +1653,25 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
 		<cond msgId="1518">
 			<player chaotic="false" />
 		</cond>
-		<stats>
-			<stat type="pAtk">21</stat>
-			<stat type="mAtk">17</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="21" />
+			<set stat="mAtk" val="17" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="10477" name="Shadow Item: Cestus" type="Weapon">
-		<!-- Apprentice Adventurer's Cestus. Shadow Item. Cannot be crystallized or enchanted. Chaotic characters are not allowed to use it. -->
+	<item id="10477" type="Weapon" name="Shadow Item - Cestus">
 		<set name="icon" val="icon.weapon_vipers_canine_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1990,30 +1681,25 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
 		<cond msgId="1518">
 			<player chaotic="false" />
 		</cond>
-		<stats>
-			<stat type="pAtk">29</stat>
-			<stat type="mAtk">17</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="29" />
+			<set stat="mAtk" val="17" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="10478" name="Shadow Item: Forest Bow" type="Weapon">
-		<!-- Apprentice Adventurer's Bow. Shadow Item. Cannot be crystallized or enchanted. Chaotic characters are not allowed to use it. -->
+	<item id="10478" type="Weapon" name="Shadow Item - Forest Bow">
 		<set name="icon" val="icon.weapon_short_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="WOOD" />
@@ -2025,30 +1711,25 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
 		<cond msgId="1518">
 			<player chaotic="false" />
 		</cond>
-		<stats>
-			<stat type="pAtk">49</stat>
-			<stat type="mAtk">17</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="49" />
+			<set stat="mAtk" val="17" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+		</for>
 	</item>
-	<item id="10479" name="Shadow Item: Long Sword" type="Weapon">
-		<!-- Apprentice Adventurer's Long Sword. Shadow Item. Cannot be crystallized or enchanted. Chaotic characters are not allowed to use it. -->
+	<item id="10479" type="Weapon" name="Shadow Item - Long Sword">
 		<set name="icon" val="icon.weapon_long_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -2058,25 +1739,18 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="180" />
 		<cond msgId="1518">
 			<player chaotic="false" />
 		</cond>
-		<stats>
-			<stat type="pAtk">24</stat>
-			<stat type="mAtk">17</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="24" />
+			<set stat="mAtk" val="17" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="10480" name="Red Soul Crystal - Stage 15" type="EtcItem">
-		<!-- Red crystal containing the light of absorbed souls. stage 15. Special abilities can be applied to the weapon when absorbing certain amount of souls. Every time it is used, it consumes 26 of MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
+	<item id="10480" type="EtcItem" name="Red Soul Crystal - Stage 15">
 		<set name="icon" val="icon.etc_soul_stone_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -2084,14 +1758,9 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_questitem" val="true" />
-		<set name="commissionItemType" val="SOUL_CRYSTAL" />
-		<skills>
-			<skill id="2096" level="1" /> <!-- Soul Crystal -->
-		</skills>
+		<set name="item_skill" val="2096-1" />
 	</item>
-	<item id="10481" name="Blue Soul Crystal - Stage 15" type="EtcItem">
-		<!-- Blue crystal containing the light of absorbed souls. stage 15. Special abilities can be applied to the weapon when absorbing certain amount of souls. Every time it is used, it consumes 26 of MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
+	<item id="10481" type="EtcItem" name="Blue Soul Crystal - Stage 15">
 		<set name="icon" val="icon.etc_soul_stone_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -2099,14 +1768,9 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_questitem" val="true" />
-		<set name="commissionItemType" val="SOUL_CRYSTAL" />
-		<skills>
-			<skill id="2096" level="1" /> <!-- Soul Crystal -->
-		</skills>
+		<set name="item_skill" val="2096-1" />
 	</item>
-	<item id="10482" name="Green Soul Crystal - Stage 15" type="EtcItem">
-		<!-- Green crystal containing the light of absorbed souls. stage 15. Special abilities can be applied to the weapon when absorbing certain amount of souls. Every time it is used, it consumes 26 of MP. A crystal of this level is said to absorb crystals on its own, so it doesn't seem like you need to use it directly on the monsters. -->
+	<item id="10482" type="EtcItem" name="Green Soul Crystal - Stage 15">
 		<set name="icon" val="icon.etc_soul_stone_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -2114,334 +1778,287 @@
 		<set name="weight" val="20" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_questitem" val="true" />
-		<set name="commissionItemType" val="SOUL_CRYSTAL" />
-		<skills>
-			<skill id="2096" level="1" /> <!-- Soul Crystal -->
-		</skills>
+		<set name="item_skill" val="2096-1" />
 	</item>
-	<item id="10483" name="Life Stone - Lv. 82" type="EtcItem">
-		<!-- General mineral created when a stone in a monster is solidified by a physical or magic hit. Key component used in weapon Augmentation by characters level 82 or above. -->
+	<item id="10483" type="EtcItem" name="Life Stone - Level 82">
 		<set name="icon" val="icon.etc_mineral_general_i03" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
 		<set name="price" val="34560" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="LIFE_STONE" />
 		<cond msgId="113">
 			<player level="82" />
 		</cond>
 	</item>
-	<item id="10484" name="Mid-grade Life Stone - Lv. 82" type="EtcItem">
-		<!-- Mid-grade mineral created when a stone in a monster is solidified by a physical or magic hit. Key component used in weapon Augmentation by characters level 82 or above. -->
+	<item id="10484" type="EtcItem" name="Mid-Grade Life Stone - Level 82">
 		<set name="icon" val="icon.etc_mineral_special_i03" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
 		<set name="price" val="138240" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="LIFE_STONE" />
 		<cond msgId="113">
 			<player level="82" />
 		</cond>
 	</item>
-	<item id="10485" name="High-grade Life Stone - Lv. 82" type="EtcItem">
-		<!-- High-grade mineral created when a stone in a monster is solidified by a physical or magic hit. Key component used in weapon Augmentation by characters level 82 or above. -->
+	<item id="10485" type="EtcItem" name="High-Grade Life Stone - Level 82">
 		<set name="icon" val="icon.etc_mineral_rare_i03" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
-		<set name="price" val="691200" />
+		<set name="price" val="1382400" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="LIFE_STONE" />
 		<cond msgId="113">
 			<player level="82" />
 		</cond>
 	</item>
-	<item id="10486" name="Top-grade Life Stone - Lv. 82" type="EtcItem">
-		<!-- Top-grade mineral created when a stone in a monster is solidified by a physical or magic hit. Key component used in weapon Augmentation by characters level 82 or above. -->
+	<item id="10486" type="EtcItem" name="Top-Grade Life Stone - Level 82">
 		<set name="icon" val="icon.etc_mineral_unique_i03" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="2" />
-		<set name="price" val="3456000" />
-		<set name="commissionItemType" val="LIFE_STONE" />
+		<set name="price" val="6912000" />
 		<set name="is_stackable" val="true" />
 		<cond msgId="113">
 			<player level="82" />
 		</cond>
 	</item>
-	<item id="10487" name="Dynasty Jewel Leather Armor" additionalName="Force Master" type="Armor">
-		<!-- Duelist and Grand Khavatari can wear it. -->
+	<item id="10487" type="Armor" name="Dynasty Jeweled Leather Armor - Force Master">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="FORCE_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10488" name="Dynasty Jewel Leather Armor" additionalName="Weapon Master" type="Armor">
-		<!-- Dreadnought, Titan, Fortune Seeker, Maestro, Doombringer and Soul Hound can wear it. -->
+	<item id="10488" type="Armor" name="Dynasty Jeweled Leather Armor - Weapon Master">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="WEAPON_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10489" name="Dynasty Jewel Leather Armor" additionalName="Enchanter" type="Armor">
-		<!-- Hierophant, Dominator, Doomcryer and Judicator can wear it. -->
+	<item id="10489" type="Armor" name="Dynasty Jeweled Leather Armor - Enchanter">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="BUFF_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10490" name="Dynasty Jewel Leather Armor" additionalName="Summoner" type="Armor">
-		<!-- Arcana Lord, Elemental Master and Spectral Master can wear it. -->
+	<item id="10490" type="Armor" name="Dynasty Jeweled Leather Armor - Summoner">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="SUMMON_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10491" name="Silk Shirt" additionalName="HP" type="Armor">
-		<!-- Increases Max HP by 118 when enchanted to + 4 or higher. -->
+	<item id="10491" type="Armor" name="Silk Shirt - HP">
 		<set name="icon" val="icon.etc_shirts_c_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="5" />
+		<set name="crystal_count" val="27" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="16000" />
+		<set name="price" val="80000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3439" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Silk Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">17</stat>
-		</stats>
+		<set name="enchant4_skill" val="3439-1" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10492" name="Silk Shirt" additionalName="MP" type="Armor">
-		<!-- Increases Max MP by 51 when enchanted to + 4 or higher. -->
+	<item id="10492" type="Armor" name="Silk Shirt - MP">
 		<set name="icon" val="icon.etc_shirts_c_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="5" />
+		<set name="crystal_count" val="27" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="16000" />
+		<set name="price" val="80000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3440" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Silk Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">17</stat>
-		</stats>
+		<set name="enchant4_skill" val="3440-1" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10493" name="Silk Shirt" additionalName="CP" type="Armor">
-		<!-- Increases Max CP by 354 when enchanted to + 4 or higher. -->
+	<item id="10493" type="Armor" name="Silk Shirt - CP">
 		<set name="icon" val="icon.etc_shirts_c_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="5" />
+		<set name="crystal_count" val="27" />
 		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="16000" />
+		<set name="price" val="80000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3441" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Silk Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">17</stat>
-		</stats>
+		<set name="enchant4_skill" val="3441-1" />
+		<for>
+			<add order="0" stat="pDef" val="17" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10494" name="Thin Leather Shirt" additionalName="HP" type="Armor">
-		<!-- Increases Max HP by 147 when enchanted to + 4 or higher. -->
+	<item id="10494" type="Armor" name="Thin Leather Shirt - HP">
 		<set name="icon" val="icon.etc_shirts_b_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="5" />
+		<set name="crystal_count" val="29" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="52000" />
+		<set name="price" val="260000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3445" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Thin Leather Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">21</stat>
-		</stats>
+		<set name="enchant4_skill" val="3445-1" />
+		<for>
+			<add order="0" stat="pDef" val="21" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10495" name="Thin Leather Shirt" additionalName="MP" type="Armor">
-		<!-- Increases Max MP by 72 when enchanted to + 4 or higher. -->
+	<item id="10495" type="Armor" name="Thin Leather Shirt - MP">
 		<set name="icon" val="icon.etc_shirts_b_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="5" />
+		<set name="crystal_count" val="29" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="52000" />
+		<set name="price" val="260000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3446" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Thin Leather Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">21</stat>
-		</stats>
+		<set name="enchant4_skill" val="3446-1" />
+		<for>
+			<add order="0" stat="pDef" val="21" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10496" name="Thin Leather Shirt" additionalName="CP" type="Armor">
-		<!-- Increases Max CP by 441 when enchanted to + 4 or higher. -->
+	<item id="10496" type="Armor" name="Thin Leather Shirt - CP">
 		<set name="icon" val="icon.etc_shirts_b_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="5" />
+		<set name="crystal_count" val="29" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="52000" />
+		<set name="price" val="260000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3447" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Thin Leather Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">21</stat>
-		</stats>
+		<set name="enchant4_skill" val="3447-1" />
+		<for>
+			<add order="0" stat="pDef" val="21" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10497" name="Scale Shirt" additionalName="HP" type="Armor">
-		<!-- Increases Max HP by 172 when enchanted to + 4 or higher. -->
+	<item id="10497" type="Armor" name="Scale Shirt - HP">
 		<set name="icon" val="icon.etc_shirts_a_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="31" />
+		<set name="crystal_count" val="39" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="price" val="588000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3451" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Scale Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">23</stat>
-		</stats>
+		<set name="enchant4_skill" val="3451-1" />
+		<for>
+			<add order="0" stat="pDef" val="23" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10498" name="Scale Shirt" additionalName="MP" type="Armor">
-		<!-- Increases Max MP by 85 when enchanted to + 4 or higher. -->
+	<item id="10498" type="Armor" name="Scale Shirt - MP">
 		<set name="icon" val="icon.etc_shirts_a_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="31" />
+		<set name="crystal_count" val="39" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="price" val="588000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3452" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Scale Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">23</stat>
-		</stats>
+		<set name="enchant4_skill" val="3452-1" />
+		<for>
+			<add order="0" stat="pDef" val="23" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="10499" name="Scale Shirt" additionalName="CP" type="Armor">
-		<!-- Increases Max CP by 516 when enchanted to + 4 or higher. -->
+	<item id="10499" type="Armor" name="Scale Shirt - CP">
 		<set name="icon" val="icon.etc_shirts_a_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="31" />
+		<set name="crystal_count" val="39" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="price" val="588000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="UNDERWEAR" />
-		<skills>
-			<skill id="3453" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Scale Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">23</stat>
-		</stats>
+		<set name="enchant4_skill" val="3453-1" />
+		<for>
+			<add order="0" stat="pDef" val="23" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
 </list>

@@ -92,7 +92,7 @@ public final class L2EtcItem extends L2Item
 				String[] data = part.split(",");
 				if (data.length != 4)
 				{
-					_log.info(StringUtil.concat("> Couldnt parse ", part, " in capsuled_items! item ", toString()));
+					_log.info(StringUtil.concat("> Couldn't parse ", part, " in capsuled_items! item ", toString()));
 					continue;
 				}
 				int itemId = Integer.parseInt(data[0]);

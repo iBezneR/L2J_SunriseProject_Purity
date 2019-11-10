@@ -5,57 +5,67 @@
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="12871-1" /> <!-- Hero's Treasure Chest -->
+		<skills>
+			<skill id="22592" level="1" /> <!-- Check Item -->
+		</skills>
 	</item>
 	<item id="34701" name="Giant's Unbind Scroll Pack" type="EtcItem">
 		<!-- Item that is added to the Aden reconstruction renewal. It's functions have not materialized yet. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="12871-1" /> <!-- Hero's Treasure Chest -->
+		<skills>
+			<skill id="22593" level="1" /> <!-- Check Item -->
+		</skills>
 	</item>
 	<item id="34702" name="Treasure Chest" type="EtcItem">
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9345-1" /> <!-- Treasure Chest -->
+		<skills>
+			<skill id="9345" level="1" /> <!-- Treasure Chest -->
+		</skills>
 	</item>
 	<item id="34703" name="Hero's Treasure Chest" type="EtcItem">
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9346-1" /> <!-- Hero's Treasure Chest -->
+		<skills>
+			<skill id="9346" level="1" /> <!-- Hero's Treasure Chest -->
+		</skills>
 	</item>
 	<item id="34704" name="Giant's Treasure Chest" type="EtcItem">
 		<set name="icon" val="icon.etc_pouch_gold_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="12871-1" /> <!-- Hero's Treasure Chest -->
+		<skills>
+			<skill id="22594" level="1" /> <!-- Check Item -->
+		</skills>
 	</item>
 	<item id="34705" name="Pirate's Eyepatch" additionalName="STR" type="Armor">
 		<!-- STR + 3 when equipped. -->
@@ -63,11 +73,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9554-1" /> <!-- Hair Accessory: STR -->
+		<skills>
+			<skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
+		</skills>
 	</item>
 	<item id="34706" name="Pirate's Eyepatch" additionalName="DEX" type="Armor">
 		<!-- DEX + 3 when equipped. -->
@@ -75,11 +87,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9555-1" /> <!-- Hair Accessory: DEX -->
+		<skills>
+			<skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
+		</skills>
 	</item>
 	<item id="34707" name="Outlaw's Eyepatch" additionalName="CON" type="Armor">
 		<!-- CON + 3 when equipped. -->
@@ -90,8 +104,10 @@
 		<set name="enchant_enabled" val="7" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9556-1" /> <!-- Hair Accessory: CON -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
+		</skills>
 	</item>
 	<item id="34708" name="Outlaw's Eyepatch" additionalName="MEN" type="Armor">
 		<!-- MEN + 3 when equipped. -->
@@ -102,8 +118,10 @@
 		<set name="enchant_enabled" val="7" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9557-1" /> <!-- Hair Accessory: MEN -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
+		</skills>
 	</item>
 	<item id="34709" name="Eyepatch" additionalName="INT" type="Armor">
 		<!-- INT + 3 when equipped. -->
@@ -111,11 +129,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9558-1" /> <!-- Hair Accessory: INT -->
+		<skills>
+			<skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
+		</skills>
 	</item>
 	<item id="34710" name="Eyepatch" additionalName="WIT" type="Armor">
 		<!-- WIT + 3 when equipped. -->
@@ -123,11 +143,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9559-1" /> <!-- Hair Accessory: WIT -->
+		<skills>
+			<skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
+		</skills>
 	</item>
 	<item id="34711" name="Party Hat" additionalName="Critical Rate" type="Armor">
 		<!-- P. Critical Rate + 50 when equipped. -->
@@ -138,8 +160,10 @@
 		<set name="enchant_enabled" val="7" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9560-1" /> <!-- Hair Accessory: Critical Rate -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
+		</skills>
 	</item>
 	<item id="34712" name="Party Hat" additionalName="Critical Damage" type="Armor">
 		<!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
@@ -147,11 +171,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9561-1" /> <!-- Hair Accessory: Critical Damage -->
+		<skills>
+			<skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
+		</skills>
 	</item>
 	<item id="34713" name="Refined Angel Ring" additionalName="P. Def." type="Armor">
 		<!-- P. Def. + 5% when equipped. -->
@@ -159,11 +185,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9562-1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		<skills>
+			<skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		</skills>
 	</item>
 	<item id="34714" name="Refined Angel Ring" additionalName="M. Def." type="Armor">
 		<!-- M. Def. + 5% when equipped. -->
@@ -171,11 +199,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9563-1" /> <!-- Hair Accessory: M. Def. -->
+		<skills>
+			<skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
+		</skills>
 	</item>
 	<item id="34715" name="Refined Angel Ring" additionalName="Evasion" type="Armor">
 		<!-- Evasion + 5 when equipped. -->
@@ -183,11 +213,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9564-1" /> <!-- Hair Accessory: Evasion -->
+		<skills>
+			<skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+		</skills>
 	</item>
 	<item id="34716" name="Refined Devil Horn" additionalName="P. Atk." type="Armor">
 		<!-- P. Atk. + 5% when equipped. -->
@@ -195,11 +227,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9565-1" /> <!-- Hair Accessory: P. Atk. -->
+		<skills>
+			<skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
+		</skills>
 	</item>
 	<item id="34717" name="Refined Devil Horn" additionalName="M. Atk." type="Armor">
 		<!-- M. Atk. + 10% when equipped. -->
@@ -207,11 +241,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9566-1" /> <!-- Hair Accessory: M. Atk. -->
+		<skills>
+			<skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
+		</skills>
 	</item>
 	<item id="34718" name="Refined Devil Horn" additionalName="Accuracy" type="Armor">
 		<!-- Accuracy + 5 when equipped. -->
@@ -219,11 +255,13 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9567-1" /> <!-- Hair Accessory: Accuracy -->
+		<skills>
+			<skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
+		</skills>
 	</item>
 	<item id="34719" name="Player Commendation - Apocalypse Dualsword (Earth) - Damage Up" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dualsword (Earth) with limited ability enhancement. <Special Option>. P. Atk. + 332. Increases damage inflicted during PvP. Increases P. Critical Rate and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -232,13 +270,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -252,15 +290,15 @@
 			<skill id="13062" level="2" /> <!-- Special Ability: Damage Up -->
 			<skill id="13275" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dualsword Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="34720" name="Player Commendation - Apocalypse Dualsword (Water) - Damage Up" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dualsword (Water) with limited ability enhancement. <Special Option>. P. Atk. + 332. Increases damage inflicted during PvP. Increases P. Critical Rate and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -269,13 +307,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -289,15 +327,15 @@
 			<skill id="13062" level="2" /> <!-- Special Ability: Damage Up -->
 			<skill id="13275" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dualsword Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="34721" name="Player Commendation - Apocalypse Dualsword (Wind) - Damage Up" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dualsword (Wind) with limited ability enhancement. <Special Option>. P. Atk. + 332. Increases damage inflicted during PvP. Increases P. Critical Rate and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -306,13 +344,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -326,15 +364,15 @@
 			<skill id="13062" level="2" /> <!-- Special Ability: Damage Up -->
 			<skill id="13275" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dualsword Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="34722" name="Player Commendation - Apocalypse Dualsword (Fire) - Damage Up" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dualsword (Fire) with limited ability enhancement. <Special Option>. P. Atk. + 332. Increases damage inflicted during PvP. Increases P. Critical Rate and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -343,13 +381,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -363,15 +401,15 @@
 			<skill id="13062" level="2" /> <!-- Special Ability: Damage Up -->
 			<skill id="13275" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dualsword Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="34723" name="Player Commendation - Apocalypse Dualsword (Holy) - Damage Up" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dualsword (Holy) with limited ability enhancement. <Special Option>. P. Atk. + 332. Increases damage inflicted during PvP. Increases P. Critical Rate and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -380,13 +418,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -400,15 +438,15 @@
 			<skill id="13062" level="2" /> <!-- Special Ability: Damage Up -->
 			<skill id="13275" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dualsword Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="34724" name="Player Commendation - Apocalypse Dualsword (Dark) - Damage Up" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dualsword (Dark) with limited ability enhancement. <Special Option>. P. Atk. + 332. Increases damage inflicted during PvP. Increases P. Critical Rate and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -417,13 +455,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -437,15 +475,15 @@
 			<skill id="13062" level="2" /> <!-- Special Ability: Damage Up -->
 			<skill id="13275" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dualsword Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="595" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="34725" name="Player Commendation - Apocalypse Dual Dagger (Earth) - Focus" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dual Dagger (Earth) with limited ability enhancement. <Special Option>. Critical increases by 79.2. Increases damage inflicted during PvP. Increases P. Critical Damage and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -454,13 +492,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -474,16 +512,16 @@
 			<skill id="3567" level="7" /> <!-- Special Ability: Focus -->
 			<skill id="13285" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="489" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">489</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="34726" name="Player Commendation - Apocalypse Dual Dagger (Water) - Focus" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dual Dagger (Water) with limited ability enhancement. <Special Option>. Critical increases by 79.2. Increases damage inflicted during PvP. Increases P. Critical Damage and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -492,13 +530,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -512,16 +550,16 @@
 			<skill id="3567" level="7" /> <!-- Special Ability: Focus -->
 			<skill id="13285" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="489" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">489</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="34727" name="Player Commendation - Apocalypse Dual Dagger (Wind) - Focus" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dual Dagger (Wind) with limited ability enhancement. <Special Option>. Critical increases by 79.2. Increases damage inflicted during PvP. Increases P. Critical Damage and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -530,13 +568,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -550,16 +588,16 @@
 			<skill id="3567" level="7" /> <!-- Special Ability: Focus -->
 			<skill id="13285" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="489" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">489</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="34728" name="Player Commendation - Apocalypse Dual Dagger (Fire) - Focus" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dual Dagger (Fire) with limited ability enhancement. <Special Option>. Critical increases by 79.2. Increases damage inflicted during PvP. Increases P. Critical Damage and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -568,13 +606,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -588,16 +626,16 @@
 			<skill id="3567" level="7" /> <!-- Special Ability: Focus -->
 			<skill id="13285" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="489" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">489</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="34729" name="Player Commendation - Apocalypse Dual Dagger (Holy) - Focus" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dual Dagger (Holy) with limited ability enhancement. <Special Option>. Critical increases by 79.2. Increases damage inflicted during PvP. Increases P. Critical Damage and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -606,13 +644,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -626,16 +664,16 @@
 			<skill id="3567" level="7" /> <!-- Special Ability: Focus -->
 			<skill id="13285" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="489" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">489</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="34730" name="Player Commendation - Apocalypse Dual Dagger (Dark) - Focus" additionalName="PC-exclusive" type="Weapon">
 		<!-- Apocalypse Dual Dagger (Dark) with limited ability enhancement. <Special Option>. Critical increases by 79.2. Increases damage inflicted during PvP. Increases P. Critical Damage and additionally increases P. Atk. when enchanted to + 4. Expiratory. Cannot be crystallized or granted functions besides enchantment. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -644,13 +682,13 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="2" />
@@ -664,28 +702,28 @@
 			<skill id="3567" level="7" /> <!-- Special Ability: Focus -->
 			<skill id="13285" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Dual Dagger Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="489" />
-			<set stat="mAtk" val="226" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">489</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="34731" name="Sealed Power Shirt" type="Armor">
 		<!-- Sealed Power Shirt. Please note that after the transfer, if the seal on Power Shirt is removed, you can no longer use seal/unseal. -->
 		<set name="icon" val="BranchSys2.icon.7anni_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="bodypart" val="underwear" />
 		<set name="is_oly_restricted" val="true" />
@@ -696,31 +734,31 @@
 		<!-- Power Shirt that has already been exchanged. Dimensional item. Can be enchanted to a max + 10 with Scroll: Enchant Power Shirts and Blessed Scroll: Enchant Power Shirts. -->
 		<set name="icon" val="BranchSys2.icon.7anni_shirt_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="underwear" />
 		<set name="enchant_enabled" val="5" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-		<for>
-			<add order="0" stat="pDef" val="28" />
-		</for>
+		<stats>
+			<stat type="pDef">28</stat>
+		</stats>
 	</item>
 	<item id="34733" name="Pa'agrio's Box" type="EtcItem">
 		<!-- Box containing Pa'agrio's Shirt. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -735,12 +773,12 @@
 		<!-- Box containing Maphr's Shirt. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -755,12 +793,12 @@
 		<!-- Box containing Sayha's Shirt. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -775,12 +813,12 @@
 		<!-- Box containing Eva's Shirt. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -795,13 +833,13 @@
 		<!-- Box containing 4 Pa'agrio's Boxes and 1 Einhasad's Energy. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -816,13 +854,13 @@
 		<!-- Box containing 4 Maphr's Boxes and 1 Einhasad's Energy. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -837,13 +875,13 @@
 		<!-- Box containing 4 Sayha's Boxes and 1 Einhasad's Energy. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -858,13 +896,13 @@
 		<!-- Box containing 4 Eva's Boxes and 1 Einhasad's Energy. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -879,13 +917,13 @@
 		<!-- Agathion - XP Bottle's gift. Can exchange for an Scroll: XP through the Subclass Master Raina. -->
 		<set name="icon" val="icon.exp_bottle" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -893,33 +931,35 @@
 		<!-- Scroll that replenishes 500,000,000 XP. When used by characters below level 85, only 20% of the XP is replenished. Can be used by sub (dual) classes level 76 or above. -->
 		<set name="icon" val="icon.exp_bottle_scroll" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="5000" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="13377-1" /> <!-- Scroll: XP -->
+		<skills>
+			<skill id="13377" level="1" /> <!-- Scroll: XP -->
+		</skills>
 	</item>
 	<item id="34743" name="Agathion - XP Bottle (10-hour)" type="Armor">
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="600" />
@@ -934,14 +974,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="1200" />
@@ -956,14 +996,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="1800" />
@@ -978,14 +1018,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="2400" />
@@ -1000,14 +1040,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="3000" />
@@ -1022,14 +1062,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="3600" />
@@ -1044,14 +1084,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="4200" />
@@ -1066,14 +1106,14 @@
 		<!-- Bracelet that summons an Agathion - XP Bottle. The bracelet must be removed in order to seal an Agathion. After unequipping the bracelet, the XP bottle's divine power will not be felt for 10 seconds. -->
 		<set name="icon" val="icon.exp_bottle_agathion" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="useSkillDisTime" val="10" />
 		<set name="duration" val="4800" />
@@ -1088,13 +1128,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (10-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1107,13 +1147,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (20-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1126,13 +1166,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (30-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1145,13 +1185,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (40-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1164,13 +1204,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (50-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1183,13 +1223,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (60-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i03" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1202,13 +1242,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (70-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1221,13 +1261,13 @@
 		<!-- Wrapped Pack containing Agathion - XP Bottle (80-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1240,13 +1280,13 @@
 		<!-- Hair accessory acquired by mentees. When equipped, there is a great effect that show that you are a mentee. -->
 		<set name="icon" val="BranchSys.icon.br_headphone_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="hair" />
 		<set name="useSkillDisTime" val="1" />
 		<set name="duration" val="4320" />
@@ -1257,13 +1297,13 @@
 		<!-- Dimensional Item Pack. Contains a Mentee Certificate, a Mentoring Guidebook, and a Mentee Headphone. Only 1 per account. Cannot be shared once opened. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1283,41 +1323,45 @@
 		<set name="price" val="400" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="1000" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9399-1" /> <!-- Fearsome Firecracker -->
+		<skills>
+			<skill id="9399" level="1" /> <!-- Fearsome Firecracker -->
+		</skills>
 	</item>
 	<item id="34762" name="Tersi's Holy Water" additionalName="Campaign" type="EtcItem">
 		<!-- Holy water that can purify the Dwarf Corpse. -->
 		<set name="icon" val="icon.etc_holy_grail_i00" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="30" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="price" val="400" />
-        <set name="item_skill" val="14833-1" /> <!-- Tersi's Holy Water -->
+		<skills>
+			<skill id="14833" level="1" /> <!-- Tersi's Holy Water -->
+		</skills>
 	</item>
 	<item id="34763" name="Tama Herb" additionalName="Campaign" type="EtcItem">
 		<!-- Bring it to Herbologist Pobre who is in the Ruins of Agony and Ruins of Despair. -->
 		<set name="icon" val="icon.tama_poisonous_plant" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1325,13 +1369,13 @@
 	<item id="34764" name="Purified Soul" type="EtcItem">
 		<!-- Purified Dwarf's Soul -->
 		<set name="icon" val="icon.etc_jewel_gold_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1339,13 +1383,13 @@
 	<item id="34765" name="Remnant Ashes" type="EtcItem">
 		<!-- Item obtained after defeating all the monsters in the Shrine of Loyalty. Collect an adequate amount and bring them to the Elmorean scholar Gerkenshtein in the Shrine of Loyalty. -->
 		<set name="icon" val="icon.etc_pouch_brown_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1354,13 +1398,13 @@
 	<item id="34766" name="Succubus Essence" type="EtcItem">
 		<!-- Essence obtained after eliminating a Bloody Succubus from the Shrine of Loyalty. Bring it to the Elmorean scholar Gerkenshtein in the Shrine of Loyalty. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1369,13 +1413,13 @@
 	<item id="34767" name="Gerkenshtein's Report" type="EtcItem">
 		<!-- Investigation report from the Elmorean scholar Gerkenshtein to Captain Andrei in the Town of Goddard. Double-click on it for more information. -->
 		<set name="icon" val="icon.etc_spell_books_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SHOW_HTML" />
@@ -1385,13 +1429,13 @@
 	<item id="34768" name="Dimensional Fragment" type="EtcItem">
 		<!-- Fragment piece obtained after eliminating the evil creatures that suddenly appeared in the Shrine of Loyalty. Bring it to Goddard Vanguard Sirik in the Shrine of Loyalty. -->
 		<set name="icon" val="icon.etc_broken_crystal_blue_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1400,13 +1444,13 @@
 	<item id="34769" name="Relics of the Empire" type="EtcItem">
 		<!-- Ancient relics that are being collected by the monsters that have appeared in the Imperial Tomb. Bring them to Vice Hierarch Zenya in the Imperial Tomb. -->
 		<set name="icon" val="icon.etc_piece_holy_light" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1416,80 +1460,80 @@
 		<!-- Magic shirt filled with the power of Pa'agrio, the god of fire. Can be enchanted to + 10 using Scroll: Enchant Elemental Shirt. When enchanted above + 7, can remove abnormal conditions and use the ultimate invincibility skill for a certain amount of time. -->
 		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_fire" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="underwear" />
 		<set name="enchant_enabled" val="8" />
 		<set name="equip_reuse_delay" val="30" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-		<for>
-			<add order="0" stat="pDef" val="28" />
-		</for>
+		<stats>
+			<stat type="pDef">28</stat>
+		</stats>
 	</item>
 	<item id="34771" name="Sayha's Shirt" additionalName="Event" type="Armor">
 		<!-- Magic shirt filled with the power of Sayha, the god of wind. Can be enchanted to + 10 using Scroll: Enchant Elemental Shirt. When enchanted above + 7, can use a portal teleport skill that allows you to create a portal at a selected location and teleport to that portal (cannot be used in the Olympiad). -->
 		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_wind" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="underwear" />
 		<set name="enchant_enabled" val="8" />
 		<set name="equip_reuse_delay" val="30" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-		<for>
-			<add order="0" stat="pDef" val="28" />
-		</for>
+		<stats>
+			<stat type="pDef">28</stat>
+		</stats>
 	</item>
 	<item id="34772" name="Eva's Shirt" additionalName="Event" type="Armor">
 		<!-- Magic shirt filled with the power of Eva, the goddess of water. Can be enchanted to + 10 using Scroll: Enchant Elemental Shirt. When enchanted above + 7, can use HP, MP, and recovering CP skills. -->
 		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_water" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="underwear" />
 		<set name="enchant_enabled" val="8" />
 		<set name="equip_reuse_delay" val="30" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-		<for>
-			<add order="0" stat="pDef" val="28" />
-		</for>
+		<stats>
+			<stat type="pDef">28</stat>
+		</stats>
 	</item>
 	<item id="34773" name="Maphr's Shirt" additionalName="Event" type="Armor">
 		<!-- Magic shirt filled with the power of Maphr, the goddess of earth. Can be enchanted to + 10 using Scroll: Enchant Elemental Shirt. When enchanted above + 7 and equipped, the enchant success rate is increased. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.pi_shirt_of_wolf_2nd_earth" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="underwear" />
 		<set name="enchant_enabled" val="8" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-		<for>
-			<add order="0" stat="pDef" val="28" />
-		</for>
+		<stats>
+			<stat type="pDef">28</stat>
+		</stats>
 	</item>
 	<item id="34774" name="Scroll of Blessing: (R1-grade)" additionalName="Event" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Requiem or Immortal equipment for Blessed equipment. Small fee is charged. -->
@@ -1498,7 +1542,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 	</item>
 	<item id="34775" name="Scroll of Blessing: (R2-grade)" additionalName="Event" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Apocalypse or Twilight equipment for Blessed equipment. Small fee is charged. -->
@@ -1507,7 +1551,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 	</item>
 	<item id="34776" name="Scroll of Blessing: (R95-grade)" additionalName="Event" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Specter or Seraph equipment for Blessed equipment. Small fee is charged. -->
@@ -1516,7 +1560,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 	</item>
 	<item id="34777" name="Scroll of Blessing: (R99-grade)" additionalName="Event" type="EtcItem">
 		<!-- The Blacksmith of Mammon can exchange standard Amaranthine or Eternal equipment for Blessed equipment. Small fee is charged. -->
@@ -1525,7 +1569,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 	</item>
 	<item id="34778" name="Squash Ring (Warrior)" additionalName="Event" type="Armor">
 		<!-- Squash ring, warrior-type. Increases P. Critical Damage by 15% and P. Accuracy by 2. 15-day. When two identical rings are equipped, only one effect is applied. -->
@@ -1533,20 +1577,22 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="21600" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13369-1" /> <!-- Squash Ring (Warrior) -->
-		<for>
-			<set stat="mDef" val="62" />
-		</for>
+		<skills>
+			<skill id="13369" level="1" /> <!-- Squash Ring (Warrior) -->
+		</skills>
+		<stats>
+			<stat type="mDef">62</stat>
+		</stats>
 	</item>
 	<item id="34779" name="Squash Earring (Warrior)" additionalName="Event" type="Armor">
 		<!-- Squash earring, warrior-type. Increases Atk. Spd. by 4% and Speed by 5. 15-day. When two identical earrings are equipped, only one effect is applied. -->
@@ -1554,20 +1600,22 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="21600" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13371-1" /> <!-- Squash Earring (Warrior) -->
-		<for>
-			<set stat="mDef" val="92" />
-		</for>
+		<skills>
+			<skill id="13371" level="1" /> <!-- Squash Earring (Warrior) -->
+		</skills>
+		<stats>
+			<stat type="mDef">92</stat>
+		</stats>
 	</item>
 	<item id="34780" name="Squash Necklace" additionalName="Event" type="Armor">
 		<!-- Squash necklace. Increases Sleep/Paralysis/Stun/Poison/Bleed Resistance and attack rate by 20%. Decreases skill cooldown and skill MP consumption by 5%. 15-day. -->
@@ -1575,20 +1623,22 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="21600" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13373-1" /> <!-- Squash Necklace -->
-		<for>
-			<set stat="mDef" val="123" />
-		</for>
+		<skills>
+			<skill id="13373" level="1" /> <!-- Squash Necklace -->
+		</skills>
+		<stats>
+			<stat type="mDef">123</stat>
+		</stats>
 	</item>
 	<item id="34781" name="Blessed Scroll of Resurrection" additionalName="Event" type="EtcItem">
 		<!-- Magic scroll that resurrects a dead character and restores his or her XP completely. -->
@@ -1599,112 +1649,130 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="9398-1" /> <!-- Blessed Scroll of Resurrection -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="9398" level="1" /> <!-- Blessed Scroll of Resurrection -->
+		</skills>
 	</item>
 	<item id="34782" name="Scroll: Enchant Armor (S-grade)" additionalName="Event" type="EtcItem">
 		<!-- When enchanted, P. Def. Increases by 1 for S-grade armor and accessories. Starting at + 4, P. Def. Increases by 3 and a HP bonus is granted. Enchanting is safe up to + 3, but one-piece body armor can be safely enchanted up to + 4. -->
 		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2022-1" /> <!-- Scroll: Enchant Armor (S-grade) -->
+		<skills>
+			<skill id="2022" level="1" /> <!-- Scroll: Enchant Armor (S-grade) -->
+		</skills>
 	</item>
 	<item id="34783" name="Scroll: Enchant Armor (R-grade)" additionalName="Event" type="EtcItem">
 		<!-- When enchanted, P. Def. + 2 for R-grade armor and accessories. It is greatly increased starting at + 4. Can be safely enchanted to + 3. When enchanted to + 4 or more, HP also increases according to the enchant value. -->
 		<set name="icon" val="icon.scroll_of_enchant_armor_i06" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9186-1" /> <!-- Scroll: Enchant Armor (R-grade) -->
+		<skills>
+			<skill id="9186" level="1" /> <!-- Scroll: Enchant Armor (R-grade) -->
+		</skills>
 	</item>
 	<item id="34784" name="Scroll: Enchant Weapon (S-grade)" additionalName="Event" type="EtcItem">
 		<!-- When enchanted, P. Atk. + 5 for S-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. + 6 for two-handed swords, two-handed blunts, dualswords, and two-handed fist weapons. P. Atk. + 10 for bows. M. Atk. + 4 for all weapons. Starting at + 4, P. Atk. / M. Atk. bonus double. -->
 		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2021-1" /> <!-- Scroll: Enchant Weapon (S-grade) -->
+		<skills>
+			<skill id="2021" level="1" /> <!-- Scroll: Enchant Weapon (S-grade) -->
+		</skills>
 	</item>
 	<item id="34785" name="Scroll: Enchant Weapon (R-grade)" additionalName="Event" type="EtcItem">
 		<!-- P. Atk. + 6 for R-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons when enchanted. P. Atk. + 7 for two-handed swords, two-handed blunts, dualswords, two-handed fist weapons, and crossbows. P. Atk. + 12 for bow weapons. M. Atk. + 5 for all weapons. P. Atk./M. Atk. greatly increases at + 4. All amounts are increased for blessed weapons. -->
 		<set name="icon" val="icon.scroll_of_enchant_weapon_i06" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_WP" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9185-1" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+		<skills>
+			<skill id="9185" level="1" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+		</skills>
 	</item>
 	<item id="34786" name="Blessed Scroll: Enchant Armor (S-grade)" additionalName="Event" type="EtcItem">
 		<!-- When enchanted, P. Def. Increases by 1 for S-grade armor and accessories. Starting at + 4, P. Def. Increases by 3. Enchanting is safe up to + 3, but one-piece body armor can be safely enchanted up to + 4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. Starting at + 4, HP increases according to the enchanting and the enchant value. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2208-1" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
+		<skills>
+			<skill id="2208" level="1" /> <!-- Blessed Scroll: Enchant Armor (S-grade) -->
+		</skills>
 	</item>
 	<item id="34787" name="Blessed Scroll: Enchant Armor (R-grade)" additionalName="Event" type="EtcItem">
 		<!-- When enchanted, P. Def. + 2 for R-grade armor and accessories. Greatly increased starting at + 4. Can be enhanced safely to + 3. When enhanced + 4 or more, HP also increases according to the enchant value. If enchanting fails, the item will not be crystallized, but the enchant value will be reset to 0. -->
 		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9196-1" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+		<skills>
+			<skill id="9196" level="1" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
+		</skills>
 	</item>
 	<item id="34788" name="Blessed Scroll: Enchant Weapon (S-grade)" additionalName="Event" type="EtcItem">
 		<!-- When enchanted, P. Atk. + 5 for S-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. + 6 for two-handed swords, two-handed blunts, dualswords, and two-handed fist weapons. P. Atk. + 10 for bows. M. Atk. + 4 for all weapons. Starting at + 4, P. Atk. and M. Atk. bonus double. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2026-1" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
+		<skills>
+			<skill id="2026" level="1" /> <!-- Blessed Scroll: Enchant Weapon (S-grade) -->
+		</skills>
 	</item>
 	<item id="34789" name="Blessed Scroll: Enchant Weapon (R-grade)" additionalName="Event" type="EtcItem">
 		<!-- P. Atk. + 6 for R-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. P. Atk. + 7 for two-handed sword, two-handed blunt, dualsword, and two-handed fist weapon, and crossbow. P. Atk. + 12 for bow weapons. M. Atk. + 5 for all weapons. P. Atk. and M. Atk. greatly increases starting at + 4. For blessed weapons, all stats increases more than normal weapons. If enchanting fails, the item will not be crystallized, but the enchant value will be reset to 0. -->
 		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" /> -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9187-1" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+		<skills>
+			<skill id="9187" level="1" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
+		</skills>
 	</item>
 	<item id="34790" name="Fire Stone" additionalName="Event" type="EtcItem">
 		<!-- Fire attack attribute increases by 5 when bestowed on a weapon. Water Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
@@ -1716,12 +1784,14 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="2329-1" /> <!-- Fire Stone -->
+		<skills>
+			<skill id="2329" level="1" /> <!-- Fire Stone -->
+		</skills>
 	</item>
 	<item id="34791" name="Water Stone" additionalName="Event" type="EtcItem">
 		<!-- Water attack attribute increases by 5 when bestowed on a weapon. Fire Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
@@ -1733,12 +1803,14 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="2330-1" /> <!-- Water Stone -->
+		<skills>
+			<skill id="2330" level="1" /> <!-- Water Stone -->
+		</skills>
 	</item>
 	<item id="34792" name="Earth Stone" additionalName="Event" type="EtcItem">
 		<!-- Earth attack attribute increases by 5 when bestowed on a weapon. Wind Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
@@ -1750,12 +1822,14 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="2332-1" /> <!-- Earth Stone -->
+		<skills>
+			<skill id="2332" level="1" /> <!-- Earth Stone -->
+		</skills>
 	</item>
 	<item id="34793" name="Wind Stone" additionalName="Event" type="EtcItem">
 		<!-- Wind attack attribute increases by 5 when bestowed on a weapon. Earth Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
@@ -1767,12 +1841,14 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="2331-1" /> <!-- Wind Stone -->
+		<skills>
+			<skill id="2331" level="1" /> <!-- Wind Stone -->
+		</skills>
 	</item>
 	<item id="34794" name="Dark Stone" additionalName="Event" type="EtcItem">
 		<!-- Dark attack attribute increases by 5 when bestowed on a weapon. Holy Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
@@ -1784,12 +1860,14 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="2334-1" /> <!-- Dark Stone -->
+		<skills>
+			<skill id="2334" level="1" /> <!-- Dark Stone -->
+		</skills>
 	</item>
 	<item id="34795" name="Holy Stone" additionalName="Event" type="EtcItem">
 		<!-- Holy attack attribute increases by 5 when bestowed on a weapon. Dark Resistance increases by 6 when bestowed on an armor. Attribute Stones can be used up to attribute level 3. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
@@ -1801,63 +1879,73 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="2333-1" /> <!-- Holy Stone -->
+		<skills>
+			<skill id="2333" level="1" /> <!-- Holy Stone -->
+		</skills>
 	</item>
 	<item id="34796" name="Fire Crystal" additionalName="Event" type="EtcItem">
 		<!-- Fire attack attribute increases by 5 when bestowed on a weapon. Water Resistance increases by 6 when bestowed on an armor. Attribute Crystals can be used up to attribute level 6. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_fire_crystal_i00" />
 		<set name="weight" val="1" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
 		<set name="handler" val="EnchantAttribute" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2329-2" /> <!-- Fire Crystal -->
+		<skills>
+			<skill id="2329" level="2" /> <!-- Fire Crystal -->
+		</skills>
 	</item>
 	<item id="34797" name="Water Crystal" additionalName="Event" type="EtcItem">
 		<!-- Water attack attribute increases by 5 when bestowed on a weapon. Fire Resistance increases by 6 when bestowed on an armor. Attribute Crystals can be used up to attribute level 6. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_water_crystal_i00" />
 		<set name="weight" val="1" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
 		<set name="handler" val="EnchantAttribute" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2330-2" /> <!-- Water Crystal -->
+		<skills>
+			<skill id="2330" level="2" /> <!-- Water Crystal -->
+		</skills>
 	</item>
 	<item id="34798" name="Earth Crystal" additionalName="Event" type="EtcItem">
 		<!-- Earth attack attribute increases by 5 when bestowed on a weapon. Wind Resistance increases by 6 when bestowed on an armor. Attribute Crystals can be used up to attribute level 6. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_earth_crystal_i00" />
 		<set name="weight" val="1" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
 		<set name="handler" val="EnchantAttribute" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2332-2" /> <!-- Earth Crystal -->
+		<skills>
+			<skill id="2332" level="2" /> <!-- Earth Crystal -->
+		</skills>
 	</item>
 	<item id="34799" name="Wind Crystal" additionalName="Event" type="EtcItem">
 		<!-- Wind attack attribute increases by 5 when bestowed on a weapon. Earth Resistance increases by 6 when bestowed on an armor. Attribute Crystals can be used up to attribute level 6. Additionally, a maximum of three types of Elemental Resistance can be bestowed, and one type of Elemental attack attribute. Opposite attributes cannot be bestowed together. -->
 		<set name="icon" val="icon.etc_wind_crystal_i00" />
 		<set name="weight" val="1" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
 		<set name="handler" val="EnchantAttribute" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="2331-2" /> <!-- Wind Crystal -->
+		<skills>
+			<skill id="2331" level="2" /> <!-- Wind Crystal -->
+		</skills>
 	</item>
 </list>

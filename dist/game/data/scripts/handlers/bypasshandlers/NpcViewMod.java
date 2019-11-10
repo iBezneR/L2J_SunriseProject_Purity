@@ -255,14 +255,14 @@ public class NpcViewMod implements IBypassHandler
 
             if (dropLists.containsKey(DropListScope.DEATH))
             {
-                sb.append("<td align=center><button value=\"Show Drop\" width=100 height=25 action=\"bypass NpcViewMod dropList DEATH " + npc.getObjectId() + "\" back=\"L2UI_CT1.Button_DF_Calculator_Down\" fore=\"L2UI_CT1.Button_DF_Calculator\"></td>");
+                sb.append("<td align=center><button value=\"Show Drop\" width=100 height=25 action=\"bypass NpcViewMod dropList DEATH " + npc.getObjectId() + "\" back=\"L2UI_CT1.Button_DF_Calculator_Down\" fore=\"L2UI_CT1.Button_DF_Calculator\"></button></td>");
             }
 
             sb.append("<td align=center><button action=\"bypass player_help tutorial/5588-5.htm\" width=32 height=32 back=\"L2UI_CT1.SystemMenuWnd.SystemMenuWnd_df_Help\" fore=\"L2UI_CT1.SystemMenuWnd.SystemMenuWnd_df_Help\"/></td>");
 
             if (dropLists.containsKey(DropListScope.CORPSE))
             {
-                sb.append("<td align=center><button value=\"Show Spoil\" width=100 height=25 action=\"bypass NpcViewMod dropList CORPSE " + npc.getObjectId() + "\" back=\"L2UI_CT1.Button_DF_Calculator_Down\" fore=\"L2UI_CT1.Button_DF_Calculator\"></td>");
+                sb.append("<td align=center><button value=\"Show Spoil\" width=100 height=25 action=\"bypass NpcViewMod dropList CORPSE " + npc.getObjectId() + "\" back=\"L2UI_CT1.Button_DF_Calculator_Down\" fore=\"L2UI_CT1.Button_DF_Calculator\"></button></td>");
             }
             sb.append("</tr></table>");
         }
@@ -376,7 +376,7 @@ public class NpcViewMod implements IBypassHandler
                             icon = "icon.etc_question_mark_i00";
                         }
                         sb.append("<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background=" + icon + ">");
-                        sb.append("<tr><td width=32 height=32 align=center valign=top><button value=. action=\"bypass -h _bbssearchdropItemsByName_ " + item.getName() + "\" width=32 height=32 back=\"L2UI_CT1.ItemWindow_DF_Frame_Down\" fore=\"L2UI_CT1.ItemWindow_DF_Frame\"/></td></tr></table>");
+                        sb.append("<tr><td width=32 height=32 align=center valign=top><button value=\"\" action=\"bypass -h _bbssearchdropItemsByName_ " + item.getName() + "\"width=32 height=32 itemtooltip=\"" + item.getId() + "\" back=\"L2UI_CH3.aboutotpicon\" fore=\"L2UI_CH3.aboutotpicon\"></button></td></tr></table>");
                         sb.append("</td><td fixwidth=259 align=center><font name=\"hs9\" color=\"CD9000\">");
                         sb.append(item.getName());
                         sb.append("</font></td></tr><tr><td width=32></td><td width=259><table width=253 cellpadding=0 cellspacing=0>");
@@ -455,7 +455,7 @@ public class NpcViewMod implements IBypassHandler
         sb.append("<table width=332 cellpadding=2 cellspacing=0 background=\"L2UI_CT1.Windows.Windows_DF_TooltipBG\">");
         sb.append("<tr><td width=32 valign=top>");
         sb.append("<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background=" + item.getIcon() + ">");
-        sb.append("<tr><td width=32 height=32 align=center valign=top><button value=. action=\"bypass -h _bbssearchdropItemsByName_ " + item.getName() + "\" width=32 height=32 back=\"L2UI_CT1.ItemWindow_DF_Frame_Down\" fore=\"L2UI_CT1.ItemWindow_DF_Frame\"/></td></tr></table>");
+        sb.append("<tr><td width=32 height=32 align=center valign=top><button value=\"\" action=\"bypass -h _bbssearchdropItemsByName_ " + item.getName() + "\"width=32 height=32 itemtooltip=\"" + item.getId() + "\" back=\"L2UI_CH3.aboutotpicon\" fore=\"L2UI_CH3.aboutotpicon\"></button></td></tr></table>");
         sb.append("</td><td fixwidth=259 align=center><font name=\"hs9\" color=\"CD9000\">");
         sb.append(item.getName());
         sb.append("</font></td></tr><tr><td width=32></td><td width=300><table width=295 cellpadding=0 cellspacing=0>");

@@ -11,27 +11,27 @@
 		<set name="weight" val="1090" />
 		<set name="price" val="165215" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-		<for>
-			<set stat="pAtk" val="111" />
-			<set stat="mAtk" val="101" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">111</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31301" name="Bound Mace of Underworld - Mana Up" type="Weapon">
 		<!-- <Special Option>. Increases Max MP by 30%. No Soul Crystal option. -->
@@ -44,27 +44,29 @@
 		<set name="weight" val="1090" />
 		<set name="price" val="165215" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-        <set name="item_skill" val="3014-1" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="111" />
-			<set stat="mAtk" val="101" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3014" level="1" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">111</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31302" name="Bound Mace of Underworld - Magic Silence" type="Weapon">
 		<!-- <Special Option>. Has a 10% chance of casting Silence on the target during magic use. No Soul Crystal option. -->
@@ -77,12 +79,12 @@
 		<set name="weight" val="1090" />
 		<set name="price" val="165215" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -91,15 +93,15 @@
 		<skills>
 			<skill id="3078" level="3" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Silence -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="111" />
-			<set stat="mAtk" val="101" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">111</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31303" name="Bound Mace of Underworld - Conversion" type="Weapon">
 		<!-- <Special Option>. Increases Max MP by 60% and decreases Max HP by 40%. No Soul Crystal option. -->
@@ -112,27 +114,29 @@
 		<set name="weight" val="1090" />
 		<set name="price" val="165215" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-        <set name="item_skill" val="3048-1" /> <!-- Special Ability: Conversion -->
-		<for>
-			<set stat="pAtk" val="111" />
-			<set stat="mAtk" val="101" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3048" level="1" /> <!-- Special Ability: Conversion -->
+		</skills>
+		<stats>
+			<stat type="pAtk">111</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31304" name="Bound Manticore Skin Gloves" type="Armor">
 		<!-- Bound Manticore Skin Gloves. -->
@@ -142,20 +146,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="4" />
 		<set name="weight" val="630" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2870" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+		</stats>
 	</item>
 	<item id="31305" name="Bound Manticore Skin Shirt" type="Armor">
 		<!-- Bound Manticore Skin Shirt. -->
@@ -166,20 +170,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="13" />
 		<set name="weight" val="4520" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="8600" />
-		<for>
-			<add order="0" stat="pDef" val="77" />
-		</for>
+		<stats>
+			<stat type="pDef">77</stat>
+		</stats>
 	</item>
 	<item id="31306" name="Bound Manticore Skin Boots" type="Armor">
 		<!-- Bound Manticore Skin Boots. -->
@@ -189,20 +193,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="4" />
 		<set name="weight" val="1260" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2870" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+		</stats>
 	</item>
 	<item id="31307" name="Bound Manticore Skin Gaiters" type="Armor">
 		<!-- Bound Manticore Skin Gaiters. -->
@@ -213,20 +217,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="8" />
 		<set name="weight" val="1550" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="5385" />
-		<for>
-			<add order="0" stat="pDef" val="48" />
-		</for>
+		<stats>
+			<stat type="pDef">48</stat>
+		</stats>
 	</item>
 	<item id="31308" name="Bound Deadman's Staff" type="Weapon">
 		<!-- Bound Deadman's Staff. No Soul Crystal option. -->
@@ -239,27 +243,27 @@
 		<set name="weight" val="1010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31309" name="Bound Deadman's Staff - Magic Regeneration" type="Weapon">
 		<!-- <Special Option>. Has a 30% chance of casting Regeneration on the target during magic use. No Soul Crystal option. -->
@@ -272,12 +276,12 @@
 		<set name="weight" val="1010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
@@ -286,15 +290,15 @@
 		<skills>
 			<skill id="1044" level="2" type_chance="30" type="ON_MAGIC_SKILL" /> <!-- Regeneration -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31310" name="Bound Deadman's Staff - Magic Mental Shield" type="Weapon">
 		<!-- <Special Option>. Has a 50% chance of casting Mental Shield on the target during magic use. No Soul Crystal option. -->
@@ -307,12 +311,12 @@
 		<set name="weight" val="1010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
@@ -321,15 +325,15 @@
 		<skills>
 			<skill id="1035" level="3" type_chance="50" type="ON_MAGIC_SKILL" /> <!-- Mental Shield -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31311" name="Bound Deadman's Staff - Magic Hold" type="Weapon">
 		<!-- <Special Option>. Has a 6% chance of casting Dryad Root on the target during magic use. No Soul Crystal option. -->
@@ -342,12 +346,12 @@
 		<set name="weight" val="1010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
@@ -356,15 +360,15 @@
 		<skills>
 			<skill id="1201" level="23" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Dryad Root -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31312" name="Bound Majestic Plate Armor" type="Armor">
 		<!-- Full body armor. -->
@@ -374,20 +378,20 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="23" />
 		<set name="weight" val="9200" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="onepiece" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="440200" />
-		<for>
-			<add order="0" stat="pDef" val="293" />
-		</for>
+		<stats>
+			<stat type="pDef">293</stat>
+		</stats>
 	</item>
 	<item id="31313" name="Bound Majestic Earring" type="Armor">
 		<!-- Majestic Earring Has the effect of MP + 25. -->
@@ -397,18 +401,18 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="74900" />
-		<for>
-			<set stat="mDef" val="63" />
-		</for>
+		<stats>
+			<stat type="mDef">63</stat>
+		</stats>
 	</item>
 	<item id="31314" name="Bound Majestic Circlet" type="Armor">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
@@ -417,18 +421,18 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="5" />
 		<set name="weight" val="550" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="101600" />
-		<for>
-			<add order="0" stat="pDef" val="73" />
-		</for>
+		<stats>
+			<stat type="pDef">73</stat>
+		</stats>
 	</item>
 	<item id="31315" name="Bound Majestic Boots" additionalName="Heavy Armor" type="Armor">
 		<!-- Part of the Heavy Majestic set. -->
@@ -437,20 +441,20 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="1110" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="feet" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67750" />
-		<for>
-			<add order="0" stat="pDef" val="49" />
-		</for>
+		<stats>
+			<stat type="pDef">49</stat>
+		</stats>
 	</item>
 	<item id="31316" name="Bound Majestic Boots" additionalName="Light Armor" type="Armor">
 		<!-- Part of the Light Majestic set. -->
@@ -460,19 +464,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="1110" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67750" />
-		<for>
-			<add order="0" stat="pDef" val="49" />
-		</for>
+		<stats>
+			<stat type="pDef">49</stat>
+		</stats>
 	</item>
 	<item id="31317" name="Bound Majestic Boots" additionalName="Robe" type="Armor">
 		<!-- Part of the Majestic Robe set. -->
@@ -482,19 +486,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="1110" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67750" />
-		<for>
-			<add order="0" stat="pDef" val="49" />
-		</for>
+		<stats>
+			<stat type="pDef">49</stat>
+		</stats>
 	</item>
 	<item id="31318" name="Bound Majestic Ring" type="Armor">
 		<!-- Majestic Ring Has the effect of MP + 17. -->
@@ -504,18 +508,18 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="49950" />
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="31319" name="Bound Majestic Robe" type="Armor">
 		<!-- Full body armor. -->
@@ -526,19 +530,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="17" />
 		<set name="weight" val="2330" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="330150" />
-		<for>
-			<add order="0" stat="pDef" val="147" />
-		</for>
+		<stats>
+			<stat type="pDef">147</stat>
+		</stats>
 	</item>
 	<item id="31320" name="Bound Majestic Leather Armor" type="Armor">
 		<!-- Full body armor. -->
@@ -549,19 +553,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="17" />
 		<set name="weight" val="5350" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="330150" />
-		<for>
-			<add order="0" stat="pDef" val="220" />
-		</for>
+		<stats>
+			<stat type="pDef">220</stat>
+		</stats>
 	</item>
 	<item id="31321" name="Bound Majestic Necklace" type="Armor">
 		<!-- Majestic Necklace. Has the effect of MP + 33. -->
@@ -571,18 +575,18 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="5" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="99900" />
-		<for>
-			<set stat="mDef" val="85" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+		</stats>
 	</item>
 	<item id="31322" name="Bound Majestic Gauntlets" additionalName="Heavy Armor" type="Armor">
 		<!-- Part of the Heavy Majestic set. -->
@@ -592,19 +596,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="540" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67750" />
-		<for>
-			<add order="0" stat="pDef" val="49" />
-		</for>
+		<stats>
+			<stat type="pDef">49</stat>
+		</stats>
 	</item>
 	<item id="31323" name="Bound Majestic Gauntlets" additionalName="Light Armor" type="Armor">
 		<!-- Part of the Light Majestic set. -->
@@ -614,19 +618,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="540" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67750" />
-		<for>
-			<add order="0" stat="pDef" val="49" />
-		</for>
+		<stats>
+			<stat type="pDef">49</stat>
+		</stats>
 	</item>
 	<item id="31324" name="Bound Majestic Gauntlets" additionalName="Robe" type="Armor">
 		<!-- Part of the Majestic Robe set. -->
@@ -636,19 +640,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="540" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67750" />
-		<for>
-			<add order="0" stat="pDef" val="49" />
-		</for>
+		<stats>
+			<stat type="pDef">49</stat>
+		</stats>
 	</item>
 	<item id="31325" name="Bound Soulfire Dirk" type="Weapon">
 		<!-- Bound Soulfire Dirk. No Soul Crystal option. -->
@@ -661,27 +665,27 @@
 		<set name="weight" val="750" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="86" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">86</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31326" name="Bound Soulfire Dirk - Mana Up" type="Weapon">
 		<!-- <Special Option>. Increases Max MP by 30%. No Soul Crystal option. -->
@@ -694,27 +698,29 @@
 		<set name="weight" val="750" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3014-1" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="86" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3014" level="1" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">86</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31327" name="Bound Soulfire Dirk - Magic Hold" type="Weapon">
 		<!-- <Special Option>. Has a 6% chance of casting Dryad Root on the target during magic use. No Soul Crystal option. -->
@@ -727,12 +733,12 @@
 		<set name="weight" val="750" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -741,15 +747,15 @@
 		<skills>
 			<skill id="1201" level="18" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Dryad Root -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="86" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">86</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31328" name="Bound Soulfire Dirk - Magic Silence" type="Weapon">
 		<!-- <Special Option>. Has a 10% chance of casting Silence on the target during magic use. No Soul Crystal option. -->
@@ -762,12 +768,12 @@
 		<set name="weight" val="750" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -776,15 +782,15 @@
 		<skills>
 			<skill id="3074" level="2" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Silence -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="86" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">86</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31329" name="Bound Wizard Stockings" type="Armor">
 		<!-- Bound Wizard Stockings. -->
@@ -795,20 +801,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="990" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2400" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+		</stats>
 	</item>
 	<item id="31330" name="Bound Wizard Tunic" type="Armor">
 		<!-- Bound Wizard Tunic. -->
@@ -819,20 +825,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="5" />
 		<set name="weight" val="2030" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="3845" />
-		<for>
-			<add order="0" stat="pDef" val="43" />
-		</for>
+		<stats>
+			<stat type="pDef">43</stat>
+		</stats>
 	</item>
 	<item id="31331" name="Bound Staff of Magic" type="Weapon">
 		<!-- Bound Staff of Magic. -->
@@ -845,27 +851,27 @@
 		<set name="weight" val="1020" />
 		<set name="price" val="37175" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="62" />
-			<set stat="mAtk" val="57" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">62</stat>
+			<stat type="mAtk">57</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31332" name="Bound Ring of Magic" type="Armor">
 		<!-- Bound Ring of Magic. -->
@@ -875,19 +881,19 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="1" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1090" />
-		<for>
-			<set stat="mDef" val="18" />
-		</for>
+		<stats>
+			<stat type="mDef">18</stat>
+		</stats>
 	</item>
 	<item id="31333" name="Bound Ring of Magic" type="Armor">
 		<set name="icon" val="icon.accessary_enchanted_ring_i00" />
@@ -896,18 +902,18 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="1" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1090" />
-		<for>
-			<set stat="mDef" val="18" />
-		</for>
+		<stats>
+			<stat type="mDef">18</stat>
+		</stats>
 	</item>
 	<item id="31334" name="Bound Magic Necklace" type="Armor">
 		<!-- Bound Magic Necklace. -->
@@ -917,19 +923,19 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2185" />
-		<for>
-			<set stat="mDef" val="36" />
-		</for>
+		<stats>
+			<stat type="mDef">36</stat>
+		</stats>
 	</item>
 	<item id="31335" name="Bound Magic Necklace" type="Armor">
 		<set name="icon" val="icon.accessary_enchanted_necklace_i00" />
@@ -938,18 +944,18 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="2185" />
-		<for>
-			<set stat="mDef" val="36" />
-		</for>
+		<stats>
+			<stat type="mDef">36</stat>
+		</stats>
 	</item>
 	<item id="31336" name="Bound Earring of Magic" type="Armor">
 		<!-- Bound Earring of Magic. -->
@@ -959,19 +965,19 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1640" />
-		<for>
-			<set stat="mDef" val="27" />
-		</for>
+		<stats>
+			<stat type="mDef">27</stat>
+		</stats>
 	</item>
 	<item id="31337" name="Bound Earring of Magic" type="Armor">
 		<set name="icon" val="icon.accessary_enchanted_earing_i00" />
@@ -980,18 +986,18 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1640" />
-		<for>
-			<set stat="mDef" val="27" />
-		</for>
+		<stats>
+			<stat type="mDef">27</stat>
+		</stats>
 	</item>
 	<item id="31338" name="Bound Staff of Mana" type="Weapon">
 		<!-- Bound Staff of Mana. -->
@@ -1004,27 +1010,27 @@
 		<set name="weight" val="1040" />
 		<set name="price" val="24775" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="50" />
-			<set stat="mAtk" val="47" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">50</stat>
+			<stat type="mAtk">47</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31339" name="Bound Dagger of Mana" type="Weapon">
 		<!-- Bound Dagger of Mana. -->
@@ -1037,27 +1043,27 @@
 		<set name="weight" val="750" />
 		<set name="price" val="37175" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="45" />
-			<set stat="mAtk" val="52" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">45</stat>
+			<stat type="mAtk">52</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31340" name="Bound Ring Breastplate" type="Armor">
 		<!-- Bound Ring Breastplate. -->
@@ -1068,20 +1074,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="4" />
 		<set name="weight" val="8820" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="3210" />
-		<for>
-			<add order="0" stat="pDef" val="77" />
-		</for>
+		<stats>
+			<stat type="pDef">77</stat>
+		</stats>
 	</item>
 	<item id="31341" name="Bound Longbow" type="Weapon">
 		<!-- Bound Longbow. -->
@@ -1094,12 +1100,12 @@
 		<set name="weight" val="1830" />
 		<set name="price" val="24775" />
 		<set name="soulshots" val="6" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="reuse_delay" val="820" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
@@ -1107,15 +1113,15 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="114" />
-			<set stat="mAtk" val="35" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">114</stat>
+			<stat type="mAtk">35</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="31342" name="Bound Rapier" type="Weapon">
 		<!-- Kamael-exclusive Weapon: Saber conversion, Bound Rapier. -->
@@ -1128,12 +1134,12 @@
 		<set name="weight" val="1520" />
 		<set name="price" val="15750" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1143,15 +1149,15 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="36" />
-			<set stat="mAtk" val="26" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">36</stat>
+			<stat type="mAtk">26</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31343" name="Bound Raid Sword*Raid Sword" type="Weapon">
 		<!-- Bound Raid Sword*Raid Sword. No Soul Crystal option. -->
@@ -1164,12 +1170,12 @@
 		<set name="weight" val="2250" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1179,14 +1185,14 @@
 		<skills>
 			<skill id="3045" level="8" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31344" name="Bound Raid Sword" type="Weapon">
 		<!-- Bound Raid Sword. No Soul Crystal option. -->
@@ -1199,26 +1205,26 @@
 		<set name="weight" val="1420" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31345" name="Bound Raid Sword - Focus" type="Weapon">
 		<!-- <Special Option>. Increases Critical by 82. No Soul Crystal option. -->
@@ -1231,26 +1237,28 @@
 		<set name="weight" val="1420" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3010-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3010" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31346" name="Bound Raid Sword - Critical Drain" type="Weapon">
 		<!-- <Special Option>. Absorbs 9 HP from the target during a Critical Attack. No Soul Crystal option. -->
@@ -1263,12 +1271,12 @@
 		<set name="weight" val="1420" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1277,14 +1285,14 @@
 		<skills>
 			<skill id="3022" level="2" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Drain -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31347" name="Bound Raid Sword - Critical Poison" type="Weapon">
 		<!-- <Special Option>. Has a 15% chance of casting Poison on the target during a standard Critical Attack. No Soul Crystal option. -->
@@ -1297,12 +1305,12 @@
 		<set name="weight" val="1420" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1311,14 +1319,14 @@
 		<skills>
 			<skill id="3024" level="2" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Poison -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31348" name="Bound Laevateinn" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -1331,12 +1339,12 @@
 		<set name="weight" val="1300" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1346,15 +1354,15 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="255" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">255</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31349" name="Bound Laevateinn - Haste" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Forgotten Blade Conversion. <Special Option>. Increases Atk. Spd. by about 7%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
@@ -1367,12 +1375,12 @@
 		<set name="weight" val="1300" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1383,15 +1391,15 @@
 			<skill id="3564" level="1" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="255" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">255</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31350" name="Bound Laevateinn - Health" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Forgotten Blade Conversion. <Special Option>. Increases Max HP by about 25%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
@@ -1404,12 +1412,12 @@
 		<set name="weight" val="1300" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1420,15 +1428,15 @@
 			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="255" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">255</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31351" name="Bound Laevateinn - Focus" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Forgotten Blade Conversion. <Special Option>. Increases Critical by 84. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
@@ -1441,12 +1449,12 @@
 		<set name="weight" val="1300" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
@@ -1457,15 +1465,15 @@
 			<skill id="3566" level="1" /> <!-- Special Ability: Focus -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="255" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">255</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31352" name="Bound Red Crescent" type="Armor">
 		<!-- Bound Red Crescent. -->
@@ -1475,19 +1483,19 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="1" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="1035" />
-		<for>
-			<set stat="mDef" val="24" />
-		</for>
+		<stats>
+			<stat type="mDef">24</stat>
+		</stats>
 	</item>
 	<item id="31353" name="Bound Leather Armor of Doom" type="Armor">
 		<!-- Full body armor. -->
@@ -1498,19 +1506,19 @@
 		<set name="crystal_type" val="B" />
 		<set name="crystal_count" val="16" />
 		<set name="weight" val="5500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="150850" />
-		<for>
-			<add order="0" stat="pDef" val="202" />
-		</for>
+		<stats>
+			<stat type="pDef">202</stat>
+		</stats>
 	</item>
 	<item id="31354" name="Bound Dark Crystal Leggings" type="Armor">
 		<set name="icon" val="icon.armor_t75_l_i00" />
@@ -1520,19 +1528,19 @@
 		<set name="crystal_type" val="A" />
 		<set name="crystal_count" val="4" />
 		<set name="weight" val="1480" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="83500" />
-		<for>
-			<add order="0" stat="pDef" val="80" />
-		</for>
+		<stats>
+			<stat type="pDef">80</stat>
+		</stats>
 	</item>
 	<item id="31355" name="Bound Lance" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -1545,27 +1553,29 @@
 		<set name="weight" val="1920" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="194" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">194</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="31356" name="Bound Lance - Anger" type="Weapon">
 		<!-- Bound Item. <Special Option>. Decreases Max HP by 15%. P. Atk. + 30. No Soul Crystal option. -->
@@ -1578,27 +1588,29 @@
 		<set name="weight" val="1920" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3600-6" /> <!-- Special Ability: Anger -->
-		<for>
-			<set stat="pAtk" val="194" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3600" level="6" /> <!-- Special Ability: Anger -->
+		</skills>
+		<stats>
+			<stat type="pAtk">194</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="31357" name="Bound Lance - Critical Stun" type="Weapon">
 		<!-- Bound Item. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. No Soul Crystal option. -->
@@ -1611,12 +1623,12 @@
 		<set name="weight" val="1920" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
@@ -1626,15 +1638,15 @@
 			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
 			<skill id="3016" level="6" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="194" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<stats>
+			<stat type="pAtk">194</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="31358" name="Bound Lance - Long Blow" type="Weapon">
 		<!-- Bound Item. <Special Option>. Increases range. No Soul Crystal option. -->
@@ -1647,27 +1659,29 @@
 		<set name="weight" val="1920" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;80;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="194" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">194</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="31359" name="Bound Rind Leather Boots" type="Armor">
 		<!-- Bound rind leather Boots. -->
@@ -1677,20 +1691,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="1220" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="6195" />
-		<for>
-			<add order="0" stat="pDef" val="34" />
-		</for>
+		<stats>
+			<stat type="pDef">34</stat>
+		</stats>
 	</item>
 	<item id="31360" name="Bound Rind Leather Armor" type="Armor">
 		<!-- Bound rind leather armor. -->
@@ -1701,20 +1715,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="6" />
 		<set name="weight" val="4420" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="18600" />
-		<for>
-			<add order="0" stat="pDef" val="97" />
-		</for>
+		<stats>
+			<stat type="pDef">97</stat>
+		</stats>
 	</item>
 	<item id="31361" name="Bound Rind Leather Gloves" type="Armor">
 		<!-- Bound rind leather Gloves. -->
@@ -1724,20 +1738,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="600" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="6195" />
-		<for>
-			<add order="0" stat="pDef" val="34" />
-		</for>
+		<stats>
+			<stat type="pDef">34</stat>
+		</stats>
 	</item>
 	<item id="31362" name="Bound Rind Leather Gaiters" type="Armor">
 		<!-- Bound rind leather Gaiters. -->
@@ -1748,20 +1762,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="3" />
 		<set name="weight" val="1550" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="11615" />
-		<for>
-			<add order="0" stat="pDef" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">60</stat>
+		</stats>
 	</item>
 	<item id="31363" name="Bound White Lightning" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -1774,12 +1788,12 @@
 		<set name="weight" val="1330" />
 		<set name="price" val="704900" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1788,15 +1802,15 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="193" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">193</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31364" name="Bound White Lightning - Critical Poison" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Tallum Sword Conversion. <Special Option>. Has a 10% chance of casting Poison on the target during a standard Critical Attack. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
@@ -1809,12 +1823,12 @@
 		<set name="weight" val="1330" />
 		<set name="price" val="704900" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1825,15 +1839,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="193" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">193</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31365" name="Bound White Lightning - Haste" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Tallum Blade Conversion. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
@@ -1846,12 +1860,12 @@
 		<set name="weight" val="1330" />
 		<set name="price" val="704900" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1861,15 +1875,15 @@
 			<skill id="3068" level="2" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="193" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">193</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31366" name="Bound White Lightning - Anger" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Tallum Blade Conversion. <Special Option>. P. Atk. + 31 and decreases Max HP by 15%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. No Soul Crystal option. -->
@@ -1882,12 +1896,12 @@
 		<set name="weight" val="1330" />
 		<set name="price" val="704900" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1897,15 +1911,15 @@
 			<skill id="3057" level="1" /> <!-- Special Ability: Anger -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="193" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">193</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31367" name="Bound Dismantler" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -1918,26 +1932,26 @@
 		<set name="weight" val="1930" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="210" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">210</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31368" name="Bound Dismantler - Critical Drain" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Guardian's Sword Conversion. <Special Option>. Absorbs 8 HP from the target during a Critical Attack. No Soul Crystal option. -->
@@ -1950,12 +1964,12 @@
 		<set name="weight" val="1930" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -1964,15 +1978,15 @@
 		<skills>
 			<skill id="3022" level="6" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Drain -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="210" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">210</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31369" name="Bound Dismantler - Health" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Guardian's Sword Conversion. <Special Option>. Increases Max HP by 25%. No Soul Crystal option. -->
@@ -1985,27 +1999,29 @@
 		<set name="weight" val="1930" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3013-1" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="210" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3013" level="1" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">210</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31370" name="Bound Dismantler - Critical Bleed" type="Weapon">
 		<!-- Bound Item. Kamael-exclusive Weapon: Guardian's Sword Conversion. <Special Option>. Has a 24% chance of casting Bleed on the target during a standard Critical Attack. No Soul Crystal option. -->
@@ -2018,12 +2034,12 @@
 		<set name="weight" val="1930" />
 		<set name="price" val="504570" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -2032,15 +2048,15 @@
 		<skills>
 			<skill id="3055" level="1" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Bleed -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="210" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">210</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31371" name="Bound Dwarven Trident" type="Weapon">
 		<!-- Bound Dwarven Trident. -->
@@ -2053,28 +2069,30 @@
 		<set name="weight" val="2090" />
 		<set name="price" val="24775" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="51" />
-			<set stat="mAtk" val="32" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">51</stat>
+			<stat type="mAtk">32</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="31372" name="Bound Dwarven Hammer" type="Weapon">
 		<!-- Bound Dwarven Hammer. No Soul Crystal option. -->
@@ -2087,27 +2105,27 @@
 		<set name="weight" val="2010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31373" name="Bound Dwarven Hammer - Health" type="Weapon">
 		<!-- <Special Option>. Increases Max HP by 25%. No Soul Crystal option. -->
@@ -2120,27 +2138,29 @@
 		<set name="weight" val="2010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-        <set name="item_skill" val="3013-1" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3013" level="1" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31374" name="Bound Dwarven Hammer - Anger" type="Weapon">
 		<!-- <Special Option>. P. Atk. + 26 and decreases Max HP by 15%. No Soul Crystal option. -->
@@ -2153,27 +2173,29 @@
 		<set name="weight" val="2010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="3" />
-        <set name="item_skill" val="3012-4" /> <!-- Special Ability: Anger -->
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3012" level="4" /> <!-- Special Ability: Anger -->
+		</skills>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31375" name="Bound Dwarven Hammer - Critical Bleed" type="Weapon">
 		<!-- <Special Option>. Has a 42% chance of casting Bleed on the target during a standard Critical Attack. No Soul Crystal option. -->
@@ -2186,12 +2208,12 @@
 		<set name="weight" val="2010" />
 		<set name="price" val="235675" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
@@ -2200,15 +2222,15 @@
 		<skills>
 			<skill id="3021" level="4" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Bleed -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31376" name="Bound Dwarven Pike" type="Weapon">
 		<!-- Bound Dwarven Pike. -->
@@ -2221,28 +2243,30 @@
 		<set name="weight" val="2070" />
 		<set name="price" val="37175" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="64" />
-			<set stat="mAtk" val="39" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">64</stat>
+			<stat type="mAtk">39</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="31377" name="Bound Dwarven Chain Mail Shirt" type="Armor">
 		<!-- Bound Dwarven Chain Mail Shirt. -->
@@ -2253,20 +2277,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="8" />
 		<set name="weight" val="8070" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="24775" />
-		<for>
-			<add order="0" stat="pDef" val="129" />
-		</for>
+		<stats>
+			<stat type="pDef">129</stat>
+		</stats>
 	</item>
 	<item id="31378" name="Bound Dwarven Chain Gaiters" type="Armor">
 		<!-- Bound Dwarven Chain Gaiters. -->
@@ -2277,20 +2301,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="5" />
 		<set name="weight" val="3620" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="15485" />
-		<for>
-			<add order="0" stat="pDef" val="80" />
-		</for>
+		<stats>
+			<stat type="pDef">80</stat>
+		</stats>
 	</item>
 	<item id="31379" name="Bound Dwarven Chain Shield" type="Armor">
 		<!-- Bound Dwarven Chain Shield. -->
@@ -2300,21 +2324,21 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="1280" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="6005" />
-		<for>
-			<set stat="sDef" val="174" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<stats>
+			<stat type="sDef">174</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="31380" name="Bound Dwarven Chain Boots" type="Armor">
 		<!-- Bound dwarven chain Boots. -->
@@ -2324,20 +2348,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="1" />
 		<set name="weight" val="1210" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="4855" />
-		<for>
-			<add order="0" stat="pDef" val="32" />
-		</for>
+		<stats>
+			<stat type="pDef">32</stat>
+		</stats>
 	</item>
 	<item id="31381" name="Bound Dwarven Chain Gloves" type="Armor">
 		<!-- Bound Dwarven Chain Gloves. -->
@@ -2347,20 +2371,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="2" />
 		<set name="weight" val="600" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="6195" />
-		<for>
-			<add order="0" stat="pDef" val="34" />
-		</for>
+		<stats>
+			<stat type="pDef">34</stat>
+		</stats>
 	</item>
 	<item id="31382" name="Bound Dwarven War Hammer" type="Weapon">
 		<!-- Bound Dwarven War Hammer. No Soul Crystal option. -->
@@ -2373,27 +2397,27 @@
 		<set name="weight" val="1670" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31383" name="Bound Dwarven War Hammer - Anger" type="Weapon">
 		<!-- <Special Option>. P. Atk. + 22 and decreases Max HP by 15%. No Soul Crystal option. -->
@@ -2406,27 +2430,29 @@
 		<set name="weight" val="1670" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3012-2" /> <!-- Special Ability: Anger -->
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3012" level="2" /> <!-- Special Ability: Anger -->
+		</skills>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31384" name="Bound Dwarven War Hammer - Health" type="Weapon">
 		<!-- <Special Option>. Increases Max HP by 25%. No Soul Crystal option. -->
@@ -2439,27 +2465,29 @@
 		<set name="weight" val="1670" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3013-1" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3013" level="1" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31385" name="Bound Dwarven War Hammer - Haste" type="Weapon">
 		<!-- <Special Option>. Increases Atk. Spd. by about 7%. No Soul Crystal option. -->
@@ -2472,27 +2500,29 @@
 		<set name="weight" val="1670" />
 		<set name="price" val="110485" />
 		<set name="soulshots" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="2" />
-        <set name="item_skill" val="3036-2" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="68" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3036" level="2" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">68</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31386" name="Bound Dwarven Scale Mail" type="Armor">
 		<!-- Bound Dwarven Scale Mail. -->
@@ -2503,20 +2533,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="10" />
 		<set name="weight" val="8540" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="7055" />
-		<for>
-			<add order="0" stat="pDef" val="95" />
-		</for>
+		<stats>
+			<stat type="pDef">95</stat>
+		</stats>
 	</item>
 	<item id="31387" name="Bound Dwarven Scale Gaiters" type="Armor">
 		<!-- Bound Dwarven Scale Gaiters. -->
@@ -2527,20 +2557,20 @@
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="7" />
 		<set name="weight" val="3840" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="4880" />
-		<for>
-			<add order="0" stat="pDef" val="61" />
-		</for>
+		<stats>
+			<stat type="pDef">61</stat>
+		</stats>
 	</item>
 	<item id="31388" name="Bound Drake Leather Boots" type="Armor">
 		<!-- Bound drake leather Boots. -->
@@ -2550,20 +2580,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="4" />
 		<set name="weight" val="1210" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13755" />
-		<for>
-			<add order="0" stat="pDef" val="39" />
-		</for>
+		<stats>
+			<stat type="pDef">39</stat>
+		</stats>
 	</item>
 	<item id="31389" name="Bound Drake Leather Armor" type="Armor">
 		<!-- Bound drake leather armor. -->
@@ -2574,20 +2604,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="22" />
 		<set name="weight" val="5800" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="67050" />
-		<for>
-			<add order="0" stat="pDef" val="179" />
-		</for>
+		<stats>
+			<stat type="pDef">179</stat>
+		</stats>
 	</item>
 	<item id="31390" name="Bound Drake Leather Gloves" type="Armor">
 		<!-- Bound drake leather Gloves. -->
@@ -2597,20 +2627,20 @@
 		<set name="crystal_type" val="C" />
 		<set name="crystal_count" val="4" />
 		<set name="weight" val="600" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="13755" />
-		<for>
-			<add order="0" stat="pDef" val="39" />
-		</for>
+		<stats>
+			<stat type="pDef">39</stat>
+		</stats>
 	</item>
 	<item id="31391" name="Bound Dragon Hunter Axe" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -2623,27 +2653,27 @@
 		<set name="weight" val="1820" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31392" name="Bound Dragon Hunter Axe - HP Regeneration" type="Weapon">
 		<!-- Bound Item. <Special Option>. Increases MP Recovery Rate. Increases damage inflicted during PvP. No Soul Crystal option. -->
@@ -2656,28 +2686,30 @@
 		<set name="weight" val="1820" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3569-1" /> <!-- Special Ability: HP Regeneration -->
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3569" level="1" /> <!-- Special Ability: HP Regeneration -->
+		</skills>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31393" name="Bound Dragon Hunter Axe - Health" type="Weapon">
 		<!-- Bound Item. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. No Soul Crystal option. -->
@@ -2690,28 +2722,30 @@
 		<set name="weight" val="1820" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3013-3" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3013" level="3" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31394" name="Bound Dragon Hunter Axe - HP Drain" type="Weapon">
 		<!-- Bound Item. <Special Option>. Absorbs 3% of standard melee damage inflicted upon the enemy as HP. Increases damage inflicted during PvP. Cannot be exchanged or dropped. No Soul Crystal option. -->
@@ -2724,28 +2758,30 @@
 		<set name="weight" val="1820" />
 		<set name="price" val="2137970" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3568-1" /> <!-- Special Ability: HP Drain -->
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3568" level="1" /> <!-- Special Ability: HP Drain -->
+		</skills>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31395" name="Bound Flaming Dragon Skull" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -2758,26 +2794,26 @@
 		<set name="weight" val="1530" />
 		<set name="price" val="1037050" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="186" />
-			<set stat="mAtk" val="152" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">186</stat>
+			<stat type="mAtk">152</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31396" name="Bound Flaming Dragon Skull - Acumen" type="Weapon">
 		<!-- Bound Item. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. No Soul Crystal option. -->
@@ -2790,27 +2826,29 @@
 		<set name="weight" val="1530" />
 		<set name="price" val="1037050" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3047-2" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="186" />
-			<set stat="mAtk" val="152" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3047" level="2" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">186</stat>
+			<stat type="mAtk">152</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31397" name="Bound Flaming Dragon Skull - M. Atk." type="Weapon">
 		<!-- Bound Item. <Special Option>. Increases MP consumption by 15% and M. Atk. by 167 during magic use. Increases damage inflicted during PvP. No Soul Crystal option. -->
@@ -2823,27 +2861,29 @@
 		<set name="weight" val="1530" />
 		<set name="price" val="1037050" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-        <set name="item_skill" val="3073-2" /> <!-- Special Ability: M. Atk. -->
-		<for>
-			<set stat="pAtk" val="186" />
-			<set stat="mAtk" val="152" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="3073" level="2" /> <!-- Special Ability: M. Atk. -->
+		</skills>
+		<stats>
+			<stat type="pAtk">186</stat>
+			<stat type="mAtk">152</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31398" name="Bound Flaming Dragon Skull - Magic Silence" type="Weapon">
 		<!-- Bound Item. <Special Option>. Has a 10% chance of casting Silence on the target during magic use. Increases damage inflicted during PvP. No Soul Crystal option. -->
@@ -2856,12 +2896,12 @@
 		<set name="weight" val="1530" />
 		<set name="price" val="1037050" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
@@ -2871,15 +2911,15 @@
 			<skill id="3074" level="2" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Silence -->
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="186" />
-			<set stat="mAtk" val="152" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">186</stat>
+			<stat type="mAtk">152</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="31399" name="Bound Dragon Slayer" type="Weapon">
 		<!-- Bound Item. No Soul Crystal option. -->
@@ -2892,24 +2932,24 @@
 		<set name="weight" val="1840" />
 		<set name="price" val="1037050" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="isAppearanceable" val="true" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="282" />
-			<set stat="mAtk" val="114" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">282</stat>
+			<stat type="mAtk">114</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 </list>

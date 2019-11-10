@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="20400" name="Laborer Hat" additionalName="Blessed Soul (7-day)" type="Armor">
-		<!-- Hat that was worn by Reipung. -->
+	<item id="20400" type="Armor" name="Laborer Hat - Blessed Soul - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_people_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -13,17 +12,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21053-4" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21053" level="1" /> <!-- Blessed Soul -->
-		</skills>
 	</item>
-	<item id="20401" name="Laborer Hat" type="Armor">
-		<!-- Hat that was worn by Reipung. -->
+	<item id="20401" type="Armor" name="Laborer Hat">
 		<set name="icon" val="BranchSys.icon.br_people_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -34,16 +26,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<set name="enchant_enabled" val="7" />
-		<set name="isAppearanceable" val="true" />
-		<set name="is_mailable" val="false" />
 	</item>
-	<item id="20402" name="Laborer Hat Pack (7-day)" additionalName="Blessed Body" type="EtcItem">
-		<!-- Wrapped Pack containing Laborer Hat (7-day). -->
+	<item id="20402" type="EtcItem" name="Laborer Hat 7-Day Pack - Bless the Body">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -52,20 +37,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20399" min="1" max="1" chance="100" /> <!-- Laborer Hat - Blessed Body (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20399,1,1,100" />
 	</item>
-	<item id="20403" name="Laborer Hat Pack (7-day)" additionalName="Blessed Soul" type="EtcItem">
-		<!-- Wrapped Pack containing Laborer Hat (7-day). -->
+	<item id="20403" type="EtcItem" name="Laborer Hat 7-Day Pack - Bless the Soul">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -74,20 +53,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20400" min="1" max="1" chance="100" /> <!-- Laborer Hat - Blessed Soul (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20400,1,1,100" />
 	</item>
-	<item id="20404" name="Laborer Hat Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Laborer Hat. -->
+	<item id="20404" type="EtcItem" name="Laborer Hat Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -96,20 +69,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20401" min="1" max="1" chance="100" /> <!-- Laborer Hat -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20401,1,1,100" />
 	</item>
-	<item id="20405" name="Agathion - Majo" additionalName="Big Head (7-day)" type="Armor">
-		<!-- Bracelet that summons an Agathion - Majo. -->
+	<item id="20405" type="Armor" name="Agathion Seal Bracelet - Majo - Big Head - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -119,22 +86,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21000-1;23000-1;23000-1;23004-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21000" level="1" /> <!-- Release Agathion's Seal - Majo -->
-			<skill id="23000" level="1" /> <!-- Majo Agathion Cute Trick -->
-			<skill id="23004" level="1" /> <!-- Majo Agathion Special Skill: Mysterious Power -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20406" name="Agathion - Gold Majo" additionalName="Resurrection (7-day)" type="Armor">
-		<!-- Bracelet that summons an Agathion - Gold Majo. -->
+	<item id="20406" type="Armor" name="Agathion Seal Bracelet - Gold Crown Majo - Resurrection - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -144,22 +103,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21001-1;23001-1;23001-1;23005-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21001" level="1" /> <!-- Release Agathion's Seal - Gold Majo -->
-			<skill id="23001" level="1" /> <!-- Gold Majo Agathion Cute Trick -->
-			<skill id="23005" level="1" /> <!-- Gold Majo Agathion Special Skill: Blessed Resurrection -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20407" name="Agathion - Black Majo" additionalName="Escape (7-day)" type="Armor">
-		<!-- Bracelet that summons an Agathion - Black Majo. -->
+	<item id="20407" type="Armor" name="Agathion Seal Bracelet - Black Crown Majo - Escape - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_mazu_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -169,22 +120,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21002-1;23002-1;23002-1;23006-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21002" level="1" /> <!-- Release Agathion's Seal - Black Majo -->
-			<skill id="23002" level="1" /> <!-- Black Majo Agathion Cute Trick -->
-			<skill id="23006" level="1" /> <!-- Black Majo Agathion Special Skill: Blessed Escape -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20408" name="Agathion - Plaipitak" additionalName="Big Head (7-day)" type="Armor">
-		<!-- Bracelet that summons an Agathion - Plaipitak. -->
+	<item id="20408" type="Armor" name="Agathion Seal Bracelet - Plaipitak - Big Head - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -194,22 +137,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21003-1;23003-1;23007-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21003" level="1" /> <!-- Release Agathion's Seal - Plaipitak -->
-			<skill id="23003" level="1" /> <!-- Plaipitak Agathion Cute Trick -->
-			<skill id="23007" level="1" /> <!-- Plaipitak Agathion Special Skill: Mysterious Power -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20409" name="Agathion - Plaipitak" additionalName="Resurrection (7-day)" type="Armor">
-		<!-- Bracelet that summons an Agathion - Plaipitak. -->
+	<item id="20409" type="Armor" name="Agathion Seal Bracelet - Plaipitak - Resurrection - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -219,22 +154,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21003-1;23003-1;23009-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21003" level="1" /> <!-- Release Agathion's Seal - Plaipitak -->
-			<skill id="23003" level="1" /> <!-- Plaipitak Agathion Cute Trick -->
-			<skill id="23009" level="1" /> <!-- Plaipitak Agathion Special Skill: Blessed Resurrection -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20410" name="Agathion - Plaipitak" additionalName="Escape (7-day)" type="Armor">
-		<!-- Bracelet that summons an Agathion - Plaipitak. -->
+	<item id="20410" type="Armor" name="Agathion Seal Bracelet - Plaipitak - Escape - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_bracelet_aga_pitak_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -244,22 +171,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21003-1;23003-1;23008-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21003" level="1" /> <!-- Release Agathion's Seal - Plaipitak -->
-			<skill id="23003" level="1" /> <!-- Plaipitak Agathion Cute Trick -->
-			<skill id="23008" level="1" /> <!-- Plaipitak Agathion Special Skill: Blessed Escape -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20411" name="Agathion - Baby Panda" additionalName="Big Head (7-day)" type="Armor">
-		<!-- Can summon an Agathion - Baby Panda when equipped. 7-day. Cooldown is 1 hour. -->
+	<item id="20411" type="Armor" name="Agathion Seal Bracelet - Baby Panda - Big Head - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_baby_panda_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -269,21 +188,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21008-1;23013-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21008" level="1" /> <!-- Release Agathion's Seal - Baby Panda -->
-			<skill id="23013" level="1" /> <!-- Baby Panda Agathion Special Skill: Mysterious Power -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20412" name="Agathion - Bamboo Panda" additionalName="Resurrection (7-day)" type="Armor">
-		<!-- Bracelet that summons a Bamboo Panda. -->
+	<item id="20412" type="Armor" name="Agathion Seal Bracelet - Bamboo Panda - Resurrection - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_kunfu_panda_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -293,21 +205,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21009-1;23014-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21009" level="1" /> <!-- Release Agathion's Seal - Bamboo Panda -->
-			<skill id="23014" level="1" /> <!-- Bamboo Panda Agathion Special Skill: Blessed Resurrection -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20413" name="Agathion - Sexy Panda" additionalName="Escape (7-day)" type="Armor">
-		<!-- Bracelet that summons the Sexy Panda. -->
+	<item id="20413" type="Armor" name="Agathion Seal Bracelet - Sexy Panda - Escape - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_sexy_panda_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -317,21 +222,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21010-1;23015-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21010" level="1" /> <!-- Release Agathion's Seal - Sexy Panda -->
-			<skill id="23015" level="1" /> <!-- Sexy Panda Agathion Special Skill: Blessed Escape -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20414" name="Horn-rimmed Glasses" additionalName="Agility (7-day)" type="Armor">
-		<!-- Magic horn-rimmed glasses with mysterious power. -->
+	<item id="20414" type="Armor" name="Horn Rimmed Glasses - Agility - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_Eye_Glasses_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -341,19 +239,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21005-3" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21005" level="1" /> <!-- Agility -->
-		</skills>
 	</item>
-	<item id="20415" name="Afro Hair" additionalName="Big Head, Firework (7-day)" type="Armor">
-		<!-- Afro style hair. Uses 2 hair accessory slots. -->
+	<item id="20415" type="Armor" name="Afro Hair - Big Head, Firework - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -363,20 +255,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21006-1;21007-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21007" level="1" /> <!-- Mysterious Ability -->
-			<skill id="21006" level="1" /> <!-- Large Firecracker's Ability -->
-		</skills>
 	</item>
-	<item id="20416" name="Afro Hair" additionalName="Wind Walk (7-day)" type="Armor">
-		<!-- Afro style hair. Uses 2 hair accessory slots. -->
+	<item id="20416" type="Armor" name="Afro Hair - Wind Walk - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -386,19 +271,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21004-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21004" level="1" /> <!-- Wind Walk -->
-		</skills>
 	</item>
-	<item id="20417" name="Uniform Hat" additionalName="Blessed Resurrection (7-day)" type="Armor">
-		<!-- A cool uniform hat. Uses 2 hair accessory slots. 7-day. -->
+	<item id="20417" type="Armor" name="Uniform Hat - Blessed Resurrection - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_Uniform_Hat_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -408,19 +287,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21054-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21054" level="1" /> <!-- Blessed Resurrection -->
-		</skills>
 	</item>
-	<item id="20418" name="Assassin's Bamboo Hat" additionalName="Wind Walk (7-day)" type="Armor">
-		<!-- Wide brimmed hat made of bamboo. Uses 2 hair accessory slots. Cooldown is 18m. -->
+	<item id="20418" type="Armor" name="Assassin's Bamboo Hat - Wind Walk - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_Bamboo_Hat_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -430,19 +303,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21055-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21055" level="1" /> <!-- Wind Walk -->
-		</skills>
 	</item>
-	<item id="20419" name="Ruthless Tribe Mask" additionalName="Agility (7-day)" type="Armor">
-		<!-- Mask worn by the reckless tribe. -->
+	<item id="20419" type="Armor" name="Ruthless Tribe Mask - Agility - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_mask_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -452,19 +319,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21056-3" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21056" level="1" /> <!-- Agility -->
-		</skills>
 	</item>
-	<item id="20420" name="Ribbon Hairband" additionalName="Reflect Damage (7-day)" type="Armor">
-		<!-- Large ribbon hair accessory. Females only. -->
+	<item id="20420" type="Armor" name="Ribbon Hairband - Reflect Damage - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_Ribbon_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -474,22 +335,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21057-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-		<skills>
-			<skill id="21057" level="1" /> <!-- Reflect -->
-		</skills>
 	</item>
-	<item id="20421" name="Visor" additionalName="Mana Regeneration (7-day)" type="Armor">
-		<!-- Accessory that stylishly covers the eye area. Males only. -->
+	<item id="20421" type="Armor" name="Visor - Mana Regeneration - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_Eye_Visor_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -499,22 +354,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21058-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player sex="0" />
 		</cond>
-		<skills>
-			<skill id="21058" level="1" /> <!-- Mana Regeneration -->
-		</skills>
 	</item>
-	<item id="20422" name="Kat the Cat Hat" additionalName="Greater Heal (7-day)" type="Armor">
-		<!-- Hat that looks like Kat the Cat. Uses 2 hair accessory slots. -->
+	<item id="20422" type="Armor" name="Kat the Cat Hat - Greater Heal - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -524,19 +373,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21059-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21059" level="1" /> <!-- Greater Heal -->
-		</skills>
 	</item>
-	<item id="20423" name="Skull Hat" additionalName="Death Whisper (7-day)" type="Armor">
-		<!-- Hat that looks like a skull. Uses 2 hair accessory slots. -->
+	<item id="20423" type="Armor" name="Skull Hat - Death Whisper - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -546,19 +389,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21060-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21060" level="1" /> <!-- Death Whisper -->
-		</skills>
 	</item>
-	<item id="20424" name="Gold Afro" additionalName="Agility (7-day)" type="Armor">
-		<!-- Afro style hair in gold. Uses 2 hair accessory slots. -->
+	<item id="20424" type="Armor" name="Afro Hair - Gold - Agility - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -568,19 +405,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21061-3" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21061" level="1" /> <!-- Agility -->
-		</skills>
 	</item>
-	<item id="20425" name="Pink Afro" additionalName="Wild Magic (7-day)" type="Armor">
-		<!-- Afro style hair in pink. Uses 2 hair accessory slots. -->
+	<item id="20425" type="Armor" name="Afro Hair - Pink - Wild Magic - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -590,19 +421,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21062-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21062" level="1" /> <!-- Wild Magic -->
-		</skills>
 	</item>
-	<item id="20426" name="Goggles" additionalName="Wind Walk (7-day)" type="Armor">
-		<!-- Stylish goggle accessory with a fine silver decoration. -->
+	<item id="20426" type="Armor" name="Goggles - Wind Walk - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_goggles_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -612,19 +437,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21063-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21063" level="1" /> <!-- Wind Walk -->
-		</skills>
 	</item>
-	<item id="20427" name="Napoleon Hat" additionalName="Mana Regeneration (7-day)" type="Armor">
-		<!-- A Napoleon Hat accessory that has world conquering energy. -->
+	<item id="20427" type="Armor" name="Napoleon Hat - Mana Regeneration - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_napoleonic_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -634,19 +453,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21064-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21064" level="1" /> <!-- Mana Regeneration -->
-		</skills>
 	</item>
-	<item id="20428" name="Horn Hairband" additionalName="Reflect Damage (7-day)" type="Armor">
-		<!-- Pink hairband accessory with a cute horn dangling. Females only. -->
+	<item id="20428" type="Armor" name="Horn Hairband - Reflect Damage - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_horn_hairband_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -656,22 +469,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21065-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-		<skills>
-			<skill id="21065" level="1" /> <!-- Reflect -->
-		</skills>
 	</item>
-	<item id="20429" name="Black Gem Mask" additionalName="Vitality (7-day)" type="Armor">
-		<!-- Black gem mask accessory made of luxurious metal material. When equipped, grants a Vitality Maintaining skill that can be used every hour. 7-day. -->
+	<item id="20429" type="Armor" name="Black Gem Mask - Vitality - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_black_gem_mask_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -683,17 +490,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21066-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21066" level="1" /> <!-- Vitality Recovery -->
-		</skills>
 	</item>
-	<item id="20430" name="Plastic Hair" additionalName="Blessed Escape (7-day)" type="Armor">
-		<!-- Plastic Hair. It changes to an attractive pink wig for female/blue wig for male. Uses 2 accessory slots. -->
+	<item id="20430" type="Armor" name="Plastic Hair - Blessed Escape - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_plastic_hair_f_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -703,19 +503,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21067-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21067" level="1" /> <!-- Blessed Escape -->
-		</skills>
 	</item>
-	<item id="20431" name="Daisy Hairpin" additionalName="Dark Resistance (7-day)" type="Armor">
-		<!-- Daisy shaped hairpin. Females only. -->
+	<item id="20431" type="Armor" name="Daisy Hairpin - Resist Unholy - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -725,22 +519,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21068-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-		<skills>
-			<skill id="21068" level="1" /> <!-- Dark Resistance -->
-		</skills>
 	</item>
-	<item id="20432" name="Forget-me-not Hairpin" additionalName="Wind Walk (7-day)" type="Armor">
-		<!-- Forget-me-not shaped hairpin. Females only. -->
+	<item id="20432" type="Armor" name="Forget-me-not Hairpin - Wind Walk - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_forget_me_not_hairpin_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -750,22 +538,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21069-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-		<skills>
-			<skill id="21069" level="1" /> <!-- Wind Walk -->
-		</skills>
 	</item>
-	<item id="20433" name="Outlaw's Eyepatch" additionalName="Death Whisper (7-day)" type="Armor">
-		<!-- Purple eyepatch accessory. -->
+	<item id="20433" type="Armor" name="Outlaw's Eyepatch - Death Whisper - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -775,19 +557,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21070-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21070" level="1" /> <!-- Death Whisper -->
-		</skills>
 	</item>
-	<item id="20434" name="Pirate's Eyepatch" additionalName="Agility (7-day)" type="Armor">
-		<!-- Eyepatch accessory. -->
+	<item id="20434" type="Armor" name="Pirate's Eyepatch - Agility - 7-day limited period">
 		<set name="icon" val="icon.accessory_eye_bandage_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -797,19 +573,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21071-3" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21071" level="1" /> <!-- Agility -->
-		</skills>
 	</item>
-	<item id="20435" name="Monocle" additionalName="Wild Magic (7-day)" type="Armor">
-		<!-- Monocle accessory. -->
+	<item id="20435" type="Armor" name="Monocle - Wild Magic - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_glasses_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -819,19 +589,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21072-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21072" level="1" /> <!-- Wild Magic -->
-		</skills>
 	</item>
-	<item id="20436" name="Red Mask of Victory" additionalName="Mana Regeneration (7-day)" type="Armor">
-		<!-- Hair accessory for World Cup Events. -->
+	<item id="20436" type="Armor" name="Red Mask of Victory - Mana Regeneration - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_worldcup_mask_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -841,19 +605,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21073-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21073" level="1" /> <!-- Mana Regeneration -->
-		</skills>
 	</item>
-	<item id="20437" name="Red Horn of Victory" additionalName="Reflect Damage (7-day)" type="Armor">
-		<!-- Hair accessory for World Cup Events. -->
+	<item id="20437" type="Armor" name="Red Horn of Victory - Reflect Damage - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_hair_cornu_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -863,19 +621,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21074-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21074" level="1" /> <!-- Reflect -->
-		</skills>
 	</item>
-	<item id="20438" name="Party Mask" additionalName="Greater Heal (7-day)" type="Armor">
-		<!-- Fashion item which creates an unique taste. -->
+	<item id="20438" type="Armor" name="Party Mask - Greater Heal - 7-Day Limited Period">
 		<set name="icon" val="icon.etc_party_mask_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -885,19 +637,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21075-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21075" level="1" /> <!-- Greater Heal -->
-		</skills>
 	</item>
-	<item id="20439" name="Red Party Mask" additionalName="Dark Resistance (7-day)" type="Armor">
-		<!-- Fashion item which creates an unique taste. -->
+	<item id="20439" type="Armor" name="Red Party Mask - Resist Unholy - 7-Day Limited Period">
 		<set name="icon" val="icon.etc_party_mask_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair" />
@@ -906,19 +652,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21076-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21076" level="1" /> <!-- Dark Resistance -->
-		</skills>
 	</item>
-	<item id="20440" name="Cat Ears" additionalName="Wind Walk (7-day)" type="Armor">
-		<!-- Cat ear shaped hair accessory. -->
+	<item id="20440" type="Armor" name="Cat Ears - Wind Walk - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_cat_ear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -928,19 +668,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21077-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21077" level="1" /> <!-- Wind Walk -->
-		</skills>
 	</item>
-	<item id="20441" name="Lady's Hairpin" additionalName="Death Whisper (7-day)" type="Armor">
-		<!-- Hair accessory exclusive to female. -->
+	<item id="20441" type="Armor" name="Lady's Hair Pin - Death Whisper - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_hairpin_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -950,22 +684,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21078-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-		<skills>
-			<skill id="21078" level="1" /> <!-- Death Whisper -->
-		</skills>
 	</item>
-	<item id="20442" name="Raccoon Ears" additionalName="Agility (7-day)" type="Armor">
-		<!-- Raccoon ear shaped hair accessory. -->
+	<item id="20442" type="Armor" name="Raccoon Ears - Agility - 7-day limited period">
 		<set name="icon" val="icon.accessory_racoon_ear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -975,19 +703,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21079-3" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21079" level="1" /> <!-- Agility -->
-		</skills>
 	</item>
-	<item id="20443" name="Rabbit Ears" additionalName="Wild Magic (7-day)" type="Armor">
-		<!-- Bunny Girls Rabbit Ears shaped hair accessory. -->
+	<item id="20443" type="Armor" name="Rabbit Ear - Wild Magic - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -997,19 +719,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21080-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21080" level="1" /> <!-- Wild Magic -->
-		</skills>
 	</item>
-	<item id="20444" name="Little Angel Wings" additionalName="Mana Regeneration (7-day)" type="Armor">
-		<!-- Wings shaped hair accessory. -->
+	<item id="20444" type="Armor" name="Little Angel Wings - Mana Regeneration - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_hair_ring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -1019,19 +735,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21081-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21081" level="1" /> <!-- Mana Regeneration -->
-		</skills>
 	</item>
-	<item id="20445" name="Fairy Antennae" additionalName="Reflect Damage (7-day)" type="Armor">
-		<!-- Stars attached cute tentacle hair accessory. -->
+	<item id="20445" type="Armor" name="Fairy's Tentacle - Reflect Damage - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_hair_feeler_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
@@ -1041,19 +751,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21082-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21082" level="1" /> <!-- Reflect -->
-		</skills>
 	</item>
-	<item id="20446" name="Chapeau" additionalName="Greater Heal (7-day)" type="Armor">
-		<!-- Feather attached nice poke bonnet. Uses 2 accessory slots. -->
+	<item id="20446" type="Armor" name="Dandy's Chapeau - Greater Heal - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_archer_hat_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -1063,19 +767,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21083-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21083" level="1" /> <!-- Greater Heal -->
-		</skills>
 	</item>
-	<item id="20447" name="Artisan's Goggles" additionalName="Vitality (7-day)" type="Armor">
-		<!-- Large goggles which protect eyes. Uses 2 accessory slots. -->
+	<item id="20447" type="Armor" name="Artisan's Goggles - Energy - 7-Day Limited Period">
 		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -1087,17 +785,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21084-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21084" level="1" /> <!-- Vitality Recovery -->
-		</skills>
 	</item>
-	<item id="20448" name="Mount - Darkmane Pacer" additionalName="7-day" type="Armor">
-		<!-- Can mount a Darkmane Pacer when equipped. 7-day. -->
+	<item id="20448" type="Armor" name="Darkmane Pacer Mount Bracelet - 7-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1107,20 +798,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="619-1" />
+		<set name="item_skill" val="8247-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="839" level="1" type="ON_UNEQUIP" /> <!-- Dismount -->
-			<skill id="8247" level="1" /> <!-- Ride Darkmane Pacer -->
-		</skills>
 	</item>
-	<item id="20449" name="Mount - Steam Beetle" additionalName="7-day" type="Armor">
-		<!-- Can mount a Steam Beetle when equipped. 7-day. -->
+	<item id="20449" type="Armor" name="Steam Beatle Mount Bracelet - 7-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1130,20 +815,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="839-1" />
+		<set name="item_skill" val="21051-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="839" level="1" type="ON_UNEQUIP" /> <!-- Dismount -->
-			<skill id="21051" level="1" /> <!-- Ride Steam Beetle -->
-		</skills>
 	</item>
-	<item id="20450" name="Agathion - Majo Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Majo (7-day). -->
+	<item id="20450" type="EtcItem" name="Majo Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1152,20 +831,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20405" min="1" max="1" chance="100" /> <!-- Agathion - Majo - Big Head (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20405,1,1,100" />
 	</item>
-	<item id="20451" name="Agathion - Gold Majo Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Gold Crown Agathion (7-day). -->
+	<item id="20451" type="EtcItem" name="Gold Crown Majo Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1174,20 +847,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20406" min="1" max="1" chance="100" /> <!-- Agathion - Gold Majo - Resurrection (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20406,1,1,100" />
 	</item>
-	<item id="20452" name="Agathion - Black Majo Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Black Majo (7-day). -->
+	<item id="20452" type="EtcItem" name="Black Crown Majo Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1196,20 +863,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20407" min="1" max="1" chance="100" /> <!-- Agathion - Black Majo - Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20407,1,1,100" />
 	</item>
-	<item id="20453" name="Agathion - Plaipitak Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Plaipitak (7-day). -->
+	<item id="20453" type="EtcItem" name="Plaipitak Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1218,20 +879,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20408" min="1" max="1" chance="100" /> <!-- Agathion - Plaipitak - Big Head (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20408,1,1,100" />
 	</item>
-	<item id="20454" name="Agathion - Plaipitak Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Plaipitak (7-day). -->
+	<item id="20454" type="EtcItem" name="Plaipitak Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1240,20 +895,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20409" min="1" max="1" chance="100" /> <!-- Agathion - Plaipitak - Resurrection (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20409,1,1,100" />
 	</item>
-	<item id="20455" name="Agathion - Plaipitak Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Plaipitak (7-day). -->
+	<item id="20455" type="EtcItem" name="Plaipitak Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1262,20 +911,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20410" min="1" max="1" chance="100" /> <!-- Agathion - Plaipitak - Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20410,1,1,100" />
 	</item>
-	<item id="20456" name="Agathion - Baby Panda Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Baby Panda (7-day). -->
+	<item id="20456" type="EtcItem" name="Agathion of Baby Panda 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1284,20 +927,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20411" min="1" max="1" chance="100" /> <!-- Agathion - Baby Panda - Big Head (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20411,1,1,100" />
 	</item>
-	<item id="20457" name="Agathion - Bamboo Panda Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Bamboo Panda (7-day). -->
+	<item id="20457" type="EtcItem" name="Bamboo Panda Agathion 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1306,20 +943,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20412" min="1" max="1" chance="100" /> <!-- Agathion - Bamboo Panda - Resurrection (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20412,1,1,100" />
 	</item>
-	<item id="20458" name="Agathion - Sexy Panda Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Sexy Pandan (7-day). -->
+	<item id="20458" type="EtcItem" name="Agathion of Sexy Panda 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1328,20 +959,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20413" min="1" max="1" chance="100" /> <!-- Agathion - Sexy Panda - Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20413,1,1,100" />
 	</item>
-	<item id="20459" name="Horn-rimmed Glasses Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Horn-rimmed Glasses (7-day). -->
+	<item id="20459" type="EtcItem" name="Horn Rimmed Glasses 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1350,20 +975,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20414" min="1" max="1" chance="100" /> <!-- Horn-rimmed Glasses - Agility (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20414,1,1,100" />
 	</item>
-	<item id="20460" name="Afro Hair Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Afro Hair (7-day). -->
+	<item id="20460" type="EtcItem" name="Afro Hair 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1372,20 +991,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20415" min="1" max="1" chance="100" /> <!-- Afro Hair - Big Head, Firework (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20415,1,1,100" />
 	</item>
-	<item id="20461" name="Afro Hair Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Afro Hair (7-day). -->
+	<item id="20461" type="EtcItem" name="Afro Hair 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1394,20 +1007,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20416" min="1" max="1" chance="100" /> <!-- Afro Hair - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20416,1,1,100" />
 	</item>
-	<item id="20462" name="Uniform Hat Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Uniform Hat (7-day). -->
+	<item id="20462" type="EtcItem" name="Uniform Hat 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1416,20 +1023,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20417" min="1" max="1" chance="100" /> <!-- Uniform Hat - Blessed Resurrection (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20417,1,1,100" />
 	</item>
-	<item id="20463" name="Assassin's Bamboo Hat Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Assassin's Bamboo Hat (7-day). -->
+	<item id="20463" type="EtcItem" name="Assassin's Bamboo Hat 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1438,20 +1039,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20418" min="1" max="1" chance="100" /> <!-- Assassin's Bamboo Hat - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20418,1,1,100" />
 	</item>
-	<item id="20464" name="Ruthless Tribe Mask Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Ruthless Tribe Mask (7-day). -->
+	<item id="20464" type="EtcItem" name="Ruthless Tribe Mask 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1460,20 +1055,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20419" min="1" max="1" chance="100" /> <!-- Ruthless Tribe Mask - Agility (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20419,1,1,100" />
 	</item>
-	<item id="20465" name="Ribbon Hairband Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Ribbon Hairband (7-day). -->
+	<item id="20465" type="EtcItem" name="Ribbon Hairband 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1482,20 +1071,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20420" min="1" max="1" chance="100" /> <!-- Ribbon Hairband - Reflect Damage (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20420,1,1,100" />
 	</item>
-	<item id="20466" name="Visor Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Visor (7-day). -->
+	<item id="20466" type="EtcItem" name="Visor 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1504,20 +1087,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20421" min="1" max="1" chance="100" /> <!-- Visor - Mana Regeneration (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20421,1,1,100" />
 	</item>
-	<item id="20467" name="Kat the Cat Hat Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Kat the Cat Hat (7-day). -->
+	<item id="20467" type="EtcItem" name="Kat the Cat Hat 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1526,20 +1103,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20422" min="1" max="1" chance="100" /> <!-- Kat the Cat Hat - Greater Heal (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20422,1,1,100" />
 	</item>
-	<item id="20468" name="Skull Hat Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Skull Hat (7-day). -->
+	<item id="20468" type="EtcItem" name="Skull Hat 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1548,20 +1119,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20423" min="1" max="1" chance="100" /> <!-- Skull Hat - Death Whisper (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20423,1,1,100" />
 	</item>
-	<item id="20469" name="Gold Afro Hair Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Gold Afro Hair (7-day). -->
+	<item id="20469" type="EtcItem" name="Gold Afro Hair 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1570,20 +1135,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20424" min="1" max="1" chance="100" /> <!-- Gold Afro - Agility (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20424,1,1,100" />
 	</item>
-	<item id="20470" name="Pink Afro Hair Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Pink Afro Hair (7-day). -->
+	<item id="20470" type="EtcItem" name="Pink Afro Hair 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1592,20 +1151,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20425" min="1" max="1" chance="100" /> <!-- Pink Afro - Wild Magic (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20425,1,1,100" />
 	</item>
-	<item id="20471" name="Goggles Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Goggles (7-day). -->
+	<item id="20471" type="EtcItem" name="Goggle 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1614,20 +1167,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20426" min="1" max="1" chance="100" /> <!-- Goggles - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20426,1,1,100" />
 	</item>
-	<item id="20472" name="Napoleon Hat Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Napoleon Hat (7-day). -->
+	<item id="20472" type="EtcItem" name="Napoleon Hat 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1636,20 +1183,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20427" min="1" max="1" chance="100" /> <!-- Napoleon Hat - Mana Regeneration (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20427,1,1,100" />
 	</item>
-	<item id="20473" name="Horn Hairband Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Horn Hairband (7-day). -->
+	<item id="20473" type="EtcItem" name="Horn Hairband 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1658,20 +1199,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20428" min="1" max="1" chance="100" /> <!-- Horn Hairband - Reflect Damage (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20428,1,1,100" />
 	</item>
-	<item id="20474" name="Black Gem Mask Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Black Gem Mask (7-day). -->
+	<item id="20474" type="EtcItem" name="Black Gem Mask 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1680,20 +1215,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20429" min="1" max="1" chance="100" /> <!-- Black Gem Mask - Vitality (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20429,1,1,100" />
 	</item>
-	<item id="20475" name="Plastic Hair Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Plastic Hair (7-day). -->
+	<item id="20475" type="EtcItem" name="Plastic Hair 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1702,20 +1231,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20430" min="1" max="1" chance="100" /> <!-- Plastic Hair - Blessed Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20430,1,1,100" />
 	</item>
-	<item id="20476" name="Daisy Hairpin Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Daisy Hairpin (7-day). -->
+	<item id="20476" type="EtcItem" name="Daisy Hairpin 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1724,20 +1247,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20431" min="1" max="1" chance="100" /> <!-- Daisy Hairpin - Dark Resistance (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20431,1,1,100" />
 	</item>
-	<item id="20477" name="Forget-me-not Hairpin Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Forget-me-not Hairpin (7-day). -->
+	<item id="20477" type="EtcItem" name="Forget-me-not Hairpin 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1746,20 +1263,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20432" min="1" max="1" chance="100" /> <!-- Forget-me-not Hairpin - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20432,1,1,100" />
 	</item>
-	<item id="20478" name="Outlaw's Eyepatch Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Outlaw's Eyepatch (7-day). -->
+	<item id="20478" type="EtcItem" name="Outlaw's Eyepatch 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1768,20 +1279,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20433" min="1" max="1" chance="100" /> <!-- Outlaw's Eyepatch - Death Whisper (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20433,1,1,100" />
 	</item>
-	<item id="20479" name="Pirate's Eyepatch Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Pirate's Eyepatch (7-day). -->
+	<item id="20479" type="EtcItem" name="Pirate's Eyepatch 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1790,20 +1295,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20434" min="1" max="1" chance="100" /> <!-- Pirate's Eyepatch - Agility (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20434,1,1,100" />
 	</item>
-	<item id="20480" name="Monocle Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Monocle (7-day). -->
+	<item id="20480" type="EtcItem" name="Monocle 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1812,20 +1311,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20435" min="1" max="1" chance="100" /> <!-- Monocle - Wild Magic (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20435,1,1,100" />
 	</item>
-	<item id="20481" name="Red Mask of Victory Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Red Mask of Victory (7-day). -->
+	<item id="20481" type="EtcItem" name="Red Mask of Victory 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1834,20 +1327,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20436" min="1" max="1" chance="100" /> <!-- Red Mask of Victory - Mana Regeneration (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20436,1,1,100" />
 	</item>
-	<item id="20482" name="Red Horn of Victory Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Red Horn of Victory (7-day). -->
+	<item id="20482" type="EtcItem" name="Red Horn of Victory 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1856,20 +1343,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20437" min="1" max="1" chance="100" /> <!-- Red Horn of Victory - Reflect Damage (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20437,1,1,100" />
 	</item>
-	<item id="20483" name="Party Mask Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Party Mask (7-day). -->
+	<item id="20483" type="EtcItem" name="Party Mask 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1878,20 +1359,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20438" min="1" max="1" chance="100" /> <!-- Party Mask - Greater Heal (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20438,1,1,100" />
 	</item>
-	<item id="20484" name="Red Party Mask Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Red Party Mask (7-day). -->
+	<item id="20484" type="EtcItem" name="Red Party Mask 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1900,20 +1375,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20439" min="1" max="1" chance="100" /> <!-- Red Party Mask - Dark Resistance (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20439,1,1,100" />
 	</item>
-	<item id="20485" name="Cat Ears Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Cat Ears (7-day). -->
+	<item id="20485" type="EtcItem" name="Cat Ears 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1922,20 +1391,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20440" min="1" max="1" chance="100" /> <!-- Cat Ears - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20440,1,1,100" />
 	</item>
-	<item id="20486" name="Lady's Hairpin Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Lady's Hairpin (7-day). -->
+	<item id="20486" type="EtcItem" name="Lady's Hair Pin 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1944,20 +1407,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20441" min="1" max="1" chance="100" /> <!-- Lady's Hairpin - Death Whisper (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20441,1,1,100" />
 	</item>
-	<item id="20487" name="Raccoon Ears Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Raccoon Ears (7-day). -->
+	<item id="20487" type="EtcItem" name="Raccoon Ears 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1966,20 +1423,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20442" min="1" max="1" chance="100" /> <!-- Raccoon Ears - Agility (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20442,1,1,100" />
 	</item>
-	<item id="20488" name="Rabbit Ears Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Rabbit Ears (7-day). -->
+	<item id="20488" type="EtcItem" name="Rabbit Ears 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1988,20 +1439,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20443" min="1" max="1" chance="100" /> <!-- Rabbit Ears - Wild Magic (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20443,1,1,100" />
 	</item>
-	<item id="20489" name="Little Angel Wings Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Little Angel Wings (7-day). -->
+	<item id="20489" type="EtcItem" name="Little Angel's Wings 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2010,20 +1455,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20444" min="1" max="1" chance="100" /> <!-- Little Angel Wings - Mana Regeneration (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20444,1,1,100" />
 	</item>
-	<item id="20490" name="Fairy Antennae Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Fairy Antennae (7-day). -->
+	<item id="20490" type="EtcItem" name="Fairy's Tentacle 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2032,20 +1471,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20445" min="1" max="1" chance="100" /> <!-- Fairy Antennae - Reflect Damage (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20445,1,1,100" />
 	</item>
-	<item id="20491" name="Chapeau Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Chapeau (7-day). -->
+	<item id="20491" type="EtcItem" name="Dandy's Chapeau 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2054,20 +1487,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20446" min="1" max="1" chance="100" /> <!-- Chapeau - Greater Heal (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20446,1,1,100" />
 	</item>
-	<item id="20492" name="Artisan's Goggles Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Artisan's Goggles (7-day). -->
+	<item id="20492" type="EtcItem" name="Artisan's Goggles 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2076,20 +1503,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20447" min="1" max="1" chance="100" /> <!-- Artisan's Goggles - Vitality (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20447,1,1,100" />
 	</item>
-	<item id="20493" name="Mount - Darkmane Pacer Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Mount - Darkmane Pacer (7-day). -->
+	<item id="20493" type="EtcItem" name="Darkmane Pacer Mount Bracelet 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2098,20 +1519,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20448" min="1" max="1" chance="100" /> <!-- Mount - Darkmane Pacer - 7-day -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20448,1,1,100" />
 	</item>
-	<item id="20494" name="Mount - Steam Beetle Pack (7-day)" type="EtcItem">
-		<!-- Wrapped Pack containing Mount - Steam Beetle (7-day). -->
+	<item id="20494" type="EtcItem" name="Steam Beatle Mount Bracelet 7-Day Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2120,20 +1535,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20449" min="1" max="1" chance="100" /> <!-- Mount - Steam Beetle - 7-day -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20449,1,1,100" />
 	</item>
-	<item id="20495" name="Agathion - Pomona" type="Armor">
-		<!-- Can summon Agathion - Pomona when equipped. -->
+	<item id="20495" type="Armor" name="Agathion Seal Bracelet - Live Event Souvenir">
 		<set name="icon" val="BranchSys.icon.br_aga_pomona_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -2143,21 +1552,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21085" level="1" /> <!-- Release Agathion's Seal - Pomona -->
-			<skill id="23067" level="1" /> <!-- Agathion Cute Trick - Pomona -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="item_skill" val="3267-1;21085-1;23067-1" />
 	</item>
-	<item id="20496" name="Agathion - Pomona" additionalName="Mental Shield (7-day)" type="Armor">
-		<!-- Can summon Agathion - Pomona when equipped. -->
+	<item id="20496" type="Armor" name="Agathion Seal Bracelet - Pomona - Mental Shield - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_aga_pomona_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -2167,21 +1569,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21085-1;23068-4" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21085" level="1" /> <!-- Release Agathion's Seal - Pomona -->
-			<skill id="23068" level="1" /> <!-- Pomona Agathion Special Skill: Mental Shield -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20497" name="Mother's Wreath (Event)" additionalName="Blessing of Love (24-hour)" type="EtcItem">
-		<!-- For events. Wreath containing mother's love. -->
+	<item id="20497" type="EtcItem" name="Mother's Wreath (Event) - Blessing of Love - 24-hour limited period">
 		<set name="icon" val="BranchSys.icon.br_garland_i00" />
 		<set name="default_action" val="CALL_SKILL" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -2190,20 +1585,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21086-1" />
 		<set name="time" val="1440" />
-		<skills>
-			<skill id="21086" level="1" /> <!-- Blessing of Love -->
-		</skills>
 	</item>
-	<item id="20498" name="Mother's Wreath" additionalName="Blessing of Love (3-day)" type="EtcItem">
-		<!-- Wreath containing mother's love. -->
+	<item id="20498" type="EtcItem" name="Mother's Wreath - Blessing of Love - 3-day limited period">
 		<set name="icon" val="BranchSys.icon.br_garland_i00" />
 		<set name="default_action" val="CALL_SKILL" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -2212,20 +1601,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21086-1" />
 		<set name="time" val="4320" />
-		<skills>
-			<skill id="21086" level="1" /> <!-- Blessing of Love -->
-		</skills>
 	</item>
-	<item id="20499" name="Feline Queen Hat" type="Armor">
-		<!-- Hat that looks like the Feline Queen. -->
+	<item id="20499" type="Armor" name="Feline Queen Hat">
 		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -2235,14 +1618,9 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<set name="enchant_enabled" val="7" />
-		<set name="isAppearanceable" val="true" />
-		<set name="is_mailable" val="false" />
 	</item>
 </list>

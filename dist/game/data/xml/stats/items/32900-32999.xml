@@ -8,29 +8,29 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="32901" name="Bastard Sword of Destiny*Crimson Sword (Fire)" type="Weapon">
 		<!-- Bastard Sword*Crimson Sword of Destiny (Fire) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -40,28 +40,28 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="32902" name="Mithril Dagger of Destiny (Water)" type="Weapon">
 		<!-- Mithril Dagger (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -71,29 +71,29 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="80" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">80</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32903" name="Elven Long Sword of Destiny (Water)" type="Weapon">
 		<!-- Elven Long Sword (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -103,44 +103,44 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="144" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32904" name="Grand Épée of Destiny (Water)" type="Weapon">
-		<!-- Grand ?p?e (Water) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+		<!-- Grand Épée (Water) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
@@ -150,16 +150,16 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="83" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">83</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32905" name="Claymore of Destiny (Water)" type="Weapon">
 		<!-- Claymore of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -169,28 +169,28 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="209" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32906" name="General's Katzbalger of Destiny (Water)" type="Weapon">
 		<!-- General's Katzbalger of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -200,29 +200,29 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32907" name="Light Crossbow of Destiny (Water)" type="Weapon">
 		<!-- Light Crossbow of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -232,13 +232,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="1500" />
@@ -246,16 +246,16 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="191" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32908" name="Cranequin of Destiny (Water)" type="Weapon">
 		<!-- Cranequin of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -265,13 +265,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="400" />
@@ -279,16 +279,16 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="117" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">117</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32909" name="Bonebreaker of Destiny (Water)" type="Weapon">
 		<!-- Bonebreaker of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -298,29 +298,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="172" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32910" name="Staff of Life of Destiny (Water)" type="Weapon">
 		<!-- Staff of Life of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -330,29 +330,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="118" />
-		<for>
-			<set stat="pAtk" val="74" />
-			<set stat="mAtk" val="72" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">74</stat>
+			<stat type="mAtk">72</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32911" name="Atuba Hammer of Destiny (Water)" type="Weapon">
 		<!-- Atuba Hammer of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -362,29 +362,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32912" name="Glaive of Destiny (Water)" type="Weapon">
 		<!-- Glaive of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -394,30 +394,32 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="205" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32913" name="Scallop Jamadhr of Destiny (Water)" type="Weapon">
 		<!-- Scallop Jamadhr of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -427,29 +429,29 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32914" name="Bastard Sword of Destiny*Crimson Sword (Water)" type="Weapon">
 		<!-- Bastard Sword*Crimson Sword of Destiny (Water) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -459,28 +461,28 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="32915" name="Mithril Dagger of Destiny (Wind)" type="Weapon">
 		<!-- Mithril Dagger (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -490,29 +492,29 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="80" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">80</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32916" name="Elven Long Sword of Destiny (Wind)" type="Weapon">
 		<!-- Elven Long Sword (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -522,44 +524,44 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="144" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32917" name="Grand Épée of Destiny (Wind)" type="Weapon">
-		<!-- Grand ?p?e (Wind) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+		<!-- Grand Épée (Wind) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
@@ -569,16 +571,16 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="83" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">83</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32918" name="Claymore of Destiny (Wind)" type="Weapon">
 		<!-- Claymore of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -588,28 +590,28 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="209" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32919" name="General's Katzbalger of Destiny (Wind)" type="Weapon">
 		<!-- General's Katzbalger of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -619,29 +621,29 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32920" name="Light Crossbow of Destiny (Wind)" type="Weapon">
 		<!-- Light Crossbow of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -651,13 +653,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="1500" />
@@ -665,16 +667,16 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="191" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32921" name="Cranequin of Destiny (Wind)" type="Weapon">
 		<!-- Cranequin of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -684,13 +686,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="400" />
@@ -698,16 +700,16 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="117" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">117</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32922" name="Bonebreaker of Destiny (Wind)" type="Weapon">
 		<!-- Bonebreaker of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -717,29 +719,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="172" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32923" name="Staff of Life of Destiny (Wind)" type="Weapon">
 		<!-- Staff of Life of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -749,29 +751,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="118" />
-		<for>
-			<set stat="pAtk" val="74" />
-			<set stat="mAtk" val="72" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">74</stat>
+			<stat type="mAtk">72</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32924" name="Atuba Hammer of Destiny (Wind)" type="Weapon">
 		<!-- Atuba Hammer of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -781,29 +783,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32925" name="Glaive of Destiny (Wind)" type="Weapon">
 		<!-- Glaive of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -813,30 +815,32 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="205" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32926" name="Scallop Jamadhr of Destiny (Wind)" type="Weapon">
 		<!-- Scallop Jamadhr of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -846,29 +850,29 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32927" name="Bastard Sword of Destiny*Crimson Sword (Wind)" type="Weapon">
 		<!-- Bastard Sword*Crimson Sword of Destiny (Wind) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -878,28 +882,28 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="32928" name="Mithril Dagger of Destiny (Earth)" type="Weapon">
 		<!-- Mithril Dagger (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -909,29 +913,29 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="80" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">80</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32929" name="Elven Long Sword of Destiny (Earth)" type="Weapon">
 		<!-- Elven Long Sword (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -941,44 +945,44 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="144" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32930" name="Grand Épée of Destiny (Earth)" type="Weapon">
-		<!-- Grand ?p?e (Earth) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+		<!-- Grand Épée (Earth) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
@@ -988,16 +992,16 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="83" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">83</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32931" name="Claymore of Destiny (Earth)" type="Weapon">
 		<!-- Claymore of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1007,28 +1011,28 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="209" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32932" name="General's Katzbalger of Destiny (Earth)" type="Weapon">
 		<!-- General's Katzbalger of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1038,29 +1042,29 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32933" name="Light Crossbow of Destiny (Earth)" type="Weapon">
 		<!-- Light Crossbow of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1070,13 +1074,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="1500" />
@@ -1084,16 +1088,16 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="191" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32934" name="Cranequin of Destiny (Earth)" type="Weapon">
 		<!-- Cranequin of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1103,13 +1107,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="400" />
@@ -1117,16 +1121,16 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="117" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">117</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32935" name="Bonebreaker of Destiny (Earth)" type="Weapon">
 		<!-- Bonebreaker of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1136,29 +1140,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="172" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32936" name="Staff of Life of Destiny (Earth)" type="Weapon">
 		<!-- Staff of Life of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1168,29 +1172,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="118" />
-		<for>
-			<set stat="pAtk" val="74" />
-			<set stat="mAtk" val="72" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">74</stat>
+			<stat type="mAtk">72</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32937" name="Atuba Hammer of Destiny (Earth)" type="Weapon">
 		<!-- Atuba Hammer of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1200,29 +1204,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32938" name="Glaive of Destiny (Earth)" type="Weapon">
 		<!-- Glaive of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1232,30 +1236,32 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="205" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32939" name="Scallop Jamadhr of Destiny (Earth)" type="Weapon">
 		<!-- Scallop Jamadhr of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1265,29 +1271,29 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32940" name="Bastard Sword of Destiny*Crimson Sword (Earth)" type="Weapon">
 		<!-- Bastard Sword*Crimson Sword of Destiny (Earth) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1297,28 +1303,28 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="32941" name="Mithril Dagger of Destiny (Holy)" type="Weapon">
 		<!-- Mithril Dagger (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1328,29 +1334,29 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="80" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">80</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32942" name="Elven Long Sword of Destiny (Holy)" type="Weapon">
 		<!-- Elven Long Sword (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1360,44 +1366,44 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="144" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32943" name="Grand Épée of Destiny (Holy)" type="Weapon">
-		<!-- Grand ?p?e (Holy) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+		<!-- Grand Épée (Holy) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
@@ -1407,16 +1413,16 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="83" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">83</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32944" name="Claymore of Destiny (Holy)" type="Weapon">
 		<!-- Claymore of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1426,28 +1432,28 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="209" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32945" name="General's Katzbalger of Destiny (Holy)" type="Weapon">
 		<!-- General's Katzbalger of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1457,29 +1463,29 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32946" name="Light Crossbow of Destiny (Holy)" type="Weapon">
 		<!-- Light Crossbow of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1489,13 +1495,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="1500" />
@@ -1503,16 +1509,16 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="191" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32947" name="Cranequin of Destiny (Holy)" type="Weapon">
 		<!-- Cranequin of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1522,13 +1528,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="400" />
@@ -1536,16 +1542,16 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="117" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">117</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32948" name="Bonebreaker of Destiny (Holy)" type="Weapon">
 		<!-- Bonebreaker of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1555,29 +1561,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="172" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32949" name="Staff of Life of Destiny (Holy)" type="Weapon">
 		<!-- Staff of Life of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1587,29 +1593,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="118" />
-		<for>
-			<set stat="pAtk" val="74" />
-			<set stat="mAtk" val="72" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">74</stat>
+			<stat type="mAtk">72</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32950" name="Atuba Hammer of Destiny (Holy)" type="Weapon">
 		<!-- Atuba Hammer of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1619,29 +1625,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32951" name="Glaive of Destiny (Holy)" type="Weapon">
 		<!-- Glaive of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1651,30 +1657,32 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="205" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32952" name="Scallop Jamadhr of Destiny (Holy)" type="Weapon">
 		<!-- Scallop Jamadhr of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1684,29 +1692,29 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32953" name="Bastard Sword of Destiny*Crimson Sword (Holy)" type="Weapon">
 		<!-- Bastard Sword*Crimson Sword of Destiny (Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1716,28 +1724,28 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="32954" name="Mithril Dagger of Destiny (Dark)" type="Weapon">
 		<!-- Mithril Dagger (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1747,29 +1755,29 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="80" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">80</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32955" name="Elven Long Sword of Destiny (Dark)" type="Weapon">
 		<!-- Elven Long Sword (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1779,44 +1787,44 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="144" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32956" name="Grand Épée of Destiny (Dark)" type="Weapon">
-		<!-- Grand ?p?e (Dark) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
+		<!-- Grand Épée (Dark) with limited ability enhancement. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
 		<set name="icon" val="icon.weapon_rapier_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
@@ -1826,16 +1834,16 @@
 		<skills>
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="83" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">83</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32957" name="Claymore of Destiny (Dark)" type="Weapon">
 		<!-- Claymore of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1845,28 +1853,28 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="209" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32958" name="General's Katzbalger of Destiny (Dark)" type="Weapon">
 		<!-- General's Katzbalger of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1876,29 +1884,29 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<set stat="pAtk" val="100" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">100</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32959" name="Light Crossbow of Destiny (Dark)" type="Weapon">
 		<!-- Light Crossbow of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1908,13 +1916,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="10" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="1500" />
@@ -1922,16 +1930,16 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="191" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32960" name="Cranequin of Destiny (Dark)" type="Weapon">
 		<!-- Cranequin of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1941,13 +1949,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="reuse_delay" val="400" />
@@ -1955,16 +1963,16 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="117" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">117</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32961" name="Bonebreaker of Destiny (Dark)" type="Weapon">
 		<!-- Bonebreaker of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1974,29 +1982,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="172" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32962" name="Staff of Life of Destiny (Dark)" type="Weapon">
 		<!-- Staff of Life of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2006,29 +2014,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="118" />
-		<for>
-			<set stat="pAtk" val="74" />
-			<set stat="mAtk" val="72" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">74</stat>
+			<stat type="mAtk">72</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32963" name="Atuba Hammer of Destiny (Dark)" type="Weapon">
 		<!-- Atuba Hammer of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2038,29 +2046,29 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="90" />
-			<set stat="mAtk" val="79" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32964" name="Glaive of Destiny (Dark)" type="Weapon">
 		<!-- Glaive of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2070,30 +2078,32 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="205" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32965" name="Scallop Jamadhr of Destiny (Dark)" type="Weapon">
 		<!-- Scallop Jamadhr of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2103,29 +2113,29 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32966" name="Bastard Sword of Destiny*Crimson Sword (Dark)" type="Weapon">
 		<!-- Bastard Sword*Crimson Sword of Destiny (Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2135,28 +2145,28 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="32967" name="Brigandine Helmet of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Brigandine Helmet of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2165,22 +2175,22 @@
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="63" />
-		<for>
-			<add order="0" stat="pDef" val="41" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">41</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32968" name="Brigandine of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Brigandine of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2190,23 +2200,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="832" />
-		<for>
-			<add order="0" stat="pDef" val="103" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">103</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32969" name="Brigandine Gaiters of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Brigandine Gaiters of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2216,23 +2226,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="382" />
-		<for>
-			<add order="0" stat="pDef" val="64" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">64</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32970" name="Brigandine Shield of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Brigandine Shield of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2241,25 +2251,25 @@
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="132" />
-		<for>
-			<set stat="sDef" val="142" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="sDef">142</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32971" name="Brigandine Boots of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Brigandine Boots of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2268,23 +2278,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="125" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32972" name="Brigandine Gauntlets of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Brigandine Gauntlets of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2293,23 +2303,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="63" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32973" name="Manticore Skin Shirt of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Manticore Skin Shirt of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2319,23 +2329,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="452" />
-		<for>
-			<add order="0" stat="pDef" val="77" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">77</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32974" name="Manticore Skin Gaiters of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Manticore Skin Gaiters of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2345,23 +2355,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-		<for>
-			<add order="0" stat="pDef" val="48" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">48</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32975" name="Manticore Skin Boots of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Manticore Skin Boots of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2370,23 +2380,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="126" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32976" name="Manticore Skin Gloves of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Manticore Skin Gloves of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2395,23 +2405,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="63" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32977" name="Mithril Tunic of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Mithril Tunic of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2421,23 +2431,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<add order="0" stat="pDef" val="52" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">52</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32978" name="Mithril Stockings of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Mithril Stockings of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2447,23 +2457,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="98" />
-		<for>
-			<add order="0" stat="pDef" val="32" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">32</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32979" name="Elven Mithril Gloves of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Elven Mithril Gloves of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2472,23 +2482,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="64" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32980" name="Elven Mithril Boots of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Elven Mithril Boots of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2497,23 +2507,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="125" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 	<item id="32981" name="Brigandine Helmet of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Brigandine Helmet of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2522,22 +2532,22 @@
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="63" />
-		<for>
-			<add order="0" stat="pDef" val="41" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">41</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32982" name="Brigandine of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Brigandine of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2547,23 +2557,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="832" />
-		<for>
-			<add order="0" stat="pDef" val="103" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">103</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32983" name="Brigandine Gaiters of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Brigandine Gaiters of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2573,23 +2583,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="382" />
-		<for>
-			<add order="0" stat="pDef" val="64" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">64</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32984" name="Brigandine Shield of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Brigandine Shield of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2598,25 +2608,25 @@
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="132" />
-		<for>
-			<set stat="sDef" val="142" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="sDef">142</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32985" name="Brigandine Boots of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Brigandine Boots of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2625,23 +2635,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="125" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32986" name="Brigandine Gauntlets of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Brigandine Gauntlets of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2650,23 +2660,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="63" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32987" name="Manticore Skin Shirt of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Manticore Skin Shirt of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2676,23 +2686,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="452" />
-		<for>
-			<add order="0" stat="pDef" val="77" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">77</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32988" name="Manticore Skin Gaiters of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Manticore Skin Gaiters of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2702,23 +2712,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-		<for>
-			<add order="0" stat="pDef" val="48" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">48</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32989" name="Manticore Skin Boots of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Manticore Skin Boots of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2727,23 +2737,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="126" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32990" name="Manticore Skin Gloves of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Manticore Skin Gloves of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2752,23 +2762,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="63" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32991" name="Mithril Tunic of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Mithril Tunic of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2778,23 +2788,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="201" />
-		<for>
-			<add order="0" stat="pDef" val="52" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">52</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32992" name="Mithril Stockings of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Mithril Stockings of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2804,23 +2814,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="98" />
-		<for>
-			<add order="0" stat="pDef" val="32" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">32</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32993" name="Elven Mithril Gloves of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Elven Mithril Gloves of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2829,23 +2839,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="64" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32994" name="Elven Mithril Boots of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Elven Mithril Boots of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2854,23 +2864,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="125" />
-		<for>
-			<add order="0" stat="pDef" val="27" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">27</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="32995" name="Crystal Dagger of Destiny (Fire) - Critical Damage" type="Weapon">
 		<!-- Crystal Dagger of Destiny (Fire) with limited ability enhancement. <Special Option>. P. Atk. + 140 during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2880,30 +2890,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="C" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="100" />
-        <set name="item_skill" val="3043-4" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="136" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3043" level="4" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">136</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="32996" name="Samurai Long Sword of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Samurai Long Sword of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 73. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2913,29 +2925,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="C" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="138" />
-        <set name="item_skill" val="3010-4" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="156" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3010" level="4" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">156</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="32997" name="Admiral's Estoc of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Admiral's Estoc of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 73. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2945,13 +2959,13 @@
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="C" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
@@ -2962,16 +2976,16 @@
 			<skill id="3010" level="4" /> <!-- Special Ability: Focus -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="141" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">141</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="32998" name="Berserker Blade of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Berserker Blade of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 73. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2981,29 +2995,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="C" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="138" />
-        <set name="item_skill" val="3010-4" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3010" level="4" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="32999" name="Saber Tooth of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Saber Tooth of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 73. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3013,29 +3029,31 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="C" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="195" />
-        <set name="item_skill" val="3010-4" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="169" />
-			<set stat="mAtk" val="83" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3010" level="4" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">169</stat>
+			<stat type="mAtk">83</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 </list>

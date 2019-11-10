@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="35500" name="Recipe: Blessed Seraph Leather Armor (60%)" type="EtcItem">
+	<item id="35500" name="Recipe:Blessed Seraph Leather Armor (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Leather Armor. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="19163600" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -13,12 +13,12 @@
 		<set name="recipe_id" val="1246" /> <!-- mk_blessed_R95_light_upbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35501" name="Recipe: Blessed Seraph Leather Leggings (60%)" type="EtcItem">
+	<item id="35501" name="Recipe:Blessed Seraph Leather Leggings (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Seraph Leather Leggings. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="17965800" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -26,12 +26,12 @@
 		<set name="recipe_id" val="1247" /> <!-- mk_blessed_R95_light_downbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35502" name="Recipe: Blessed Seraph Leather Gloves (60%)" type="EtcItem">
+	<item id="35502" name="Recipe:Blessed Seraph Leather Gloves (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Seraph Leather Gloves. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="7186350" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -39,12 +39,12 @@
 		<set name="recipe_id" val="1248" /> <!-- mk_blessed_R95_light_gloves -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35503" name="Recipe: Blessed Seraph Leather Boots (60%)" type="EtcItem">
+	<item id="35503" name="Recipe:Blessed Seraph Leather Boots (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Seraph Leather Boots. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="4790900" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -52,12 +52,12 @@
 		<set name="recipe_id" val="1249" /> <!-- mk_blessed_R95_light_shoes -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35504" name="Recipe: Blessed Seraph Circlet (60%)" type="EtcItem">
+	<item id="35504" name="Recipe:Blessed Seraph Circlet (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Circlet. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="7186300" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -65,12 +65,12 @@
 		<set name="recipe_id" val="1250" /> <!-- mk_blessed_R95_robe_helmet -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35505" name="Recipe: Blessed Seraph Tunic (60%)" type="EtcItem">
+	<item id="35505" name="Recipe:Blessed Seraph Tunic (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Tunic. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="19163600" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -78,12 +78,12 @@
 		<set name="recipe_id" val="1251" /> <!-- mk_blessed_R95_robe_upbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35506" name="Recipe: Blessed Seraph Stockings (60%)" type="EtcItem">
+	<item id="35506" name="Recipe:Blessed Seraph Stockings (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Seraph Stockings. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="17965800" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -91,12 +91,12 @@
 		<set name="recipe_id" val="1252" /> <!-- mk_blessed_R95_robe_downbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35507" name="Recipe: Blessed Seraph Gloves (60%)" type="EtcItem">
+	<item id="35507" name="Recipe:Blessed Seraph Gloves (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Seraph Gloves. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="7186350" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -104,12 +104,12 @@
 		<set name="recipe_id" val="1253" /> <!-- mk_blessed_R95_robe_gloves -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35508" name="Recipe: Blessed Seraph Shoes (60%)" type="EtcItem">
+	<item id="35508" name="Recipe:Blessed Seraph Shoes (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Seraph Shoes. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="4790900" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -117,12 +117,12 @@
 		<set name="recipe_id" val="1254" /> <!-- mk_blessed_R95_robe_shoes -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35509" name="Recipe: Blessed Seraph Sigil (60%)" type="EtcItem">
+	<item id="35509" name="Recipe:Blessed Seraph Sigil (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Sigil. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="5030400" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -130,12 +130,12 @@
 		<set name="recipe_id" val="1255" /> <!-- mk_blessed_R95_robe_sigil -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35510" name="Recipe: Blessed Seraph Necklace (60%)" type="EtcItem">
+	<item id="35510" name="Recipe:Blessed Seraph Necklace (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Necklace. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="4990500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -143,12 +143,12 @@
 		<set name="recipe_id" val="1256" /> <!-- mk_blessed_R95_necklace -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35511" name="Recipe: Blessed Seraph Earring (60%)" type="EtcItem">
+	<item id="35511" name="Recipe:Blessed Seraph Earring (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Earring. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="3742800" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -156,12 +156,12 @@
 		<set name="recipe_id" val="1257" /> <!-- mk_blessed_R95_earring -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35512" name="Recipe: Blessed Seraph Ring (60%)" type="EtcItem">
+	<item id="35512" name="Recipe:Blessed Seraph Ring (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Seraph Ring. Requires Create Item - Skill Lv. 13. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="2495200" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -169,12 +169,12 @@
 		<set name="recipe_id" val="1258" /> <!-- mk_blessed_R95_ring -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35513" name="Recipe: Blessed Amaranthine Shaper (60%)" type="EtcItem">
+	<item id="35513" name="Recipe:Blessed Amaranthine Shaper (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Shaper. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -182,12 +182,12 @@
 		<set name="recipe_id" val="1259" /> <!-- mk_blessed_R99_1_dagger -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35514" name="Recipe: Blessed Amaranthine Cutter (60%)" type="EtcItem">
+	<item id="35514" name="Recipe:Blessed Amaranthine Cutter (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Cutter. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -195,12 +195,12 @@
 		<set name="recipe_id" val="1260" /> <!-- mk_blessed_R99_1_onehand_sword -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35515" name="Recipe: Blessed Amaranthine Slasher (60%)" type="EtcItem">
+	<item id="35515" name="Recipe:Blessed Amaranthine Slasher (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Slasher. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -208,12 +208,12 @@
 		<set name="recipe_id" val="1261" /> <!-- mk_blessed_R99_1_twohand_sword -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35516" name="Recipe: Blessed Amaranthine Avenger (60%)" type="EtcItem">
+	<item id="35516" name="Recipe:Blessed Amaranthine Avenger (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Avenger. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -221,12 +221,12 @@
 		<set name="recipe_id" val="1262" /> <!-- mk_blessed_R99_1_onehand_blunt -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35517" name="Recipe: Blessed Amaranthine Fighter (60%)" type="EtcItem">
+	<item id="35517" name="Recipe:Blessed Amaranthine Fighter (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Fighter. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -234,12 +234,12 @@
 		<set name="recipe_id" val="1263" /> <!-- mk_blessed_R99_1_fist -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35518" name="Recipe: Blessed Amaranthine Stormer (60%)" type="EtcItem">
+	<item id="35518" name="Recipe:Blessed Amaranthine Stormer (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Stormer. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -247,12 +247,12 @@
 		<set name="recipe_id" val="1264" /> <!-- mk_blessed_R99_1_spear -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35519" name="Recipe: Blessed Amaranthine Thrower (60%)" type="EtcItem">
+	<item id="35519" name="Recipe:Blessed Amaranthine Thrower (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Thrower. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -260,12 +260,12 @@
 		<set name="recipe_id" val="1265" /> <!-- mk_blessed_R99_1_bow -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35520" name="Recipe: Blessed Amaranthine Shooter (60%)" type="EtcItem">
+	<item id="35520" name="Recipe:Blessed Amaranthine Shooter (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Shooter. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -273,12 +273,12 @@
 		<set name="recipe_id" val="1266" /> <!-- mk_blessed_R99_1_crossbow -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35521" name="Recipe: Blessed Amaranthine Buster (60%)" type="EtcItem">
+	<item id="35521" name="Recipe:Blessed Amaranthine Buster (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Buster. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -286,12 +286,12 @@
 		<set name="recipe_id" val="1267" /> <!-- mk_blessed_R99_1_onehand_magic_sword -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35522" name="Recipe: Blessed Amaranthine Caster (60%)" type="EtcItem">
+	<item id="35522" name="Recipe:Blessed Amaranthine Caster (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Caster. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -299,12 +299,12 @@
 		<set name="recipe_id" val="1268" /> <!-- mk_blessed_R99_1_onehand_magic_blunt -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35523" name="Recipe: Blessed Amaranthine Retributer (60%)" type="EtcItem">
+	<item id="35523" name="Recipe:Blessed Amaranthine Retributer (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Amaranthine Retributer. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="80829500" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -312,12 +312,12 @@
 		<set name="recipe_id" val="1269" /> <!-- mk_blessed_R99_1_twohand_magic_blunt -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35524" name="Recipe: Blessed Eternal Helmet (60%)" type="EtcItem">
+	<item id="35524" name="Recipe:Blessed Eternal Helmet (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Helmet. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="15835900" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -325,12 +325,12 @@
 		<set name="recipe_id" val="1270" /> <!-- mk_blessed_R99_1_heavy_helmet -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35525" name="Recipe: Blessed Eternal Breastplate (60%)" type="EtcItem">
+	<item id="35525" name="Recipe:Blessed Eternal Breastplate (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Breastplate. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="42229200" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -338,12 +338,12 @@
 		<set name="recipe_id" val="1271" /> <!-- mk_blessed_R99_1_heavy_upbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35526" name="Recipe: Blessed Eternal Gaiters (60%)" type="EtcItem">
+	<item id="35526" name="Recipe:Blessed Eternal Gaiters (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Gaiters. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="39589950" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -351,12 +351,12 @@
 		<set name="recipe_id" val="1272" /> <!-- mk_blessed_R99_1_heavy_downbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35527" name="Recipe: Blessed Eternal Gauntlets (60%)" type="EtcItem">
+	<item id="35527" name="Recipe:Blessed Eternal Gauntlets (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Gauntlets. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="15835950" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -364,12 +364,12 @@
 		<set name="recipe_id" val="1273" /> <!-- mk_blessed_R99_1_heavy_gloves -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35528" name="Recipe: Blessed Eternal Boots (60%)" type="EtcItem">
+	<item id="35528" name="Recipe:Blessed Eternal Boots (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Boots. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="10557300" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -377,12 +377,12 @@
 		<set name="recipe_id" val="1274" /> <!-- mk_blessed_R99_1_heavy_shoes -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35529" name="Recipe: Blessed Eternal Shield (60%)" type="EtcItem">
+	<item id="35529" name="Recipe:Blessed Eternal Shield (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Shield. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="11085100" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -390,12 +390,12 @@
 		<set name="recipe_id" val="1275" /> <!-- mk_blessed_R99_1_heavy_shield -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35530" name="Recipe: Blessed Eternal Leather Helmet (60%)" type="EtcItem">
+	<item id="35530" name="Recipe:Blessed Eternal Leather Helmet (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Leather Helmet. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="15835900" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -403,12 +403,12 @@
 		<set name="recipe_id" val="1276" /> <!-- mk_blessed_R99_1_light_helmet -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35531" name="Recipe: Blessed Eternal Leather Armor (60%)" type="EtcItem">
+	<item id="35531" name="Recipe:Blessed Eternal Leather Armor (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Leather Armor. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="42229200" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -416,12 +416,12 @@
 		<set name="recipe_id" val="1277" /> <!-- mk_blessed_R99_1_light_upbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35532" name="Recipe: Blessed Eternal Leather Leggings (60%)" type="EtcItem">
+	<item id="35532" name="Recipe:Blessed Eternal Leather Leggings (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Leather Leggings. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="39589950" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -429,12 +429,12 @@
 		<set name="recipe_id" val="1278" /> <!-- mk_blessed_R99_1_light_downbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35533" name="Recipe: Blessed Eternal Leather Gloves (60%)" type="EtcItem">
+	<item id="35533" name="Recipe:Blessed Eternal Leather Gloves (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Leather Gloves. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="15835950" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -442,12 +442,12 @@
 		<set name="recipe_id" val="1279" /> <!-- mk_blessed_R99_1_light_gloves -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35534" name="Recipe: Blessed Eternal Leather Boots (60%)" type="EtcItem">
+	<item id="35534" name="Recipe:Blessed Eternal Leather Boots (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Leather Boots. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="10557300" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -455,12 +455,12 @@
 		<set name="recipe_id" val="1280" /> <!-- mk_blessed_R99_1_light_shoes -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35535" name="Recipe: Blessed Eternal Circlet (60%)" type="EtcItem">
+	<item id="35535" name="Recipe:Blessed Eternal Circlet (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Circlet. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="15835900" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -468,12 +468,12 @@
 		<set name="recipe_id" val="1281" /> <!-- mk_blessed_R99_1_robe_helmet -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35536" name="Recipe: Blessed Eternal Tunic (60%)" type="EtcItem">
+	<item id="35536" name="Recipe:Blessed Eternal Tunic (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Tunic. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="42229200" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -481,12 +481,12 @@
 		<set name="recipe_id" val="1282" /> <!-- mk_blessed_R99_1_robe_upbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35537" name="Recipe: Blessed Eternal Stockings (60%)" type="EtcItem">
+	<item id="35537" name="Recipe:Blessed Eternal Stockings (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Stockings. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="39589950" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -494,12 +494,12 @@
 		<set name="recipe_id" val="1283" /> <!-- mk_blessed_R99_1_robe_downbody -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35538" name="Recipe: Blessed Eternal Gloves (60%)" type="EtcItem">
+	<item id="35538" name="Recipe:Blessed Eternal Gloves (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Gloves. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="15835950" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -507,12 +507,12 @@
 		<set name="recipe_id" val="1284" /> <!-- mk_blessed_R99_1_robe_gloves -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35539" name="Recipe: Blessed Eternal Shoes (60%)" type="EtcItem">
+	<item id="35539" name="Recipe:Blessed Eternal Shoes (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for Blessed Eternal Shoes. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="10557300" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -520,12 +520,12 @@
 		<set name="recipe_id" val="1285" /> <!-- mk_blessed_R99_1_robe_shoes -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35540" name="Recipe: Blessed Eternal Sigil (60%)" type="EtcItem">
+	<item id="35540" name="Recipe:Blessed Eternal Sigil (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Sigil. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="11085100" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -533,12 +533,12 @@
 		<set name="recipe_id" val="1286" /> <!-- mk_blessed_R99_1_robe_sigil -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35541" name="Recipe: Blessed Eternal Necklace (60%)" type="EtcItem">
+	<item id="35541" name="Recipe:Blessed Eternal Necklace (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Necklace. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="10997200" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -546,12 +546,12 @@
 		<set name="recipe_id" val="1287" /> <!-- mk_blessed_R99_1_necklace -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35542" name="Recipe: Blessed Eternal Earring (60%)" type="EtcItem">
+	<item id="35542" name="Recipe:Blessed Eternal Earring (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Earring. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="8247900" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -559,12 +559,12 @@
 		<set name="recipe_id" val="1288" /> <!-- mk_blessed_R99_1_earring -->
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="35543" name="Recipe: Blessed Eternal Ring (60%)" type="EtcItem">
+	<item id="35543" name="Recipe:Blessed Eternal Ring (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Blessed Eternal Ring. Requires Create Item - Skill Lv. 14. The success rate is 60%. -->
 		<set name="icon" val="icon.etc_recipe_gold_i00" />
 		<set name="weight" val="30" />
 		<set name="price" val="5498600" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="immediate_effect" val="true" />
@@ -575,13 +575,13 @@
 	<item id="35544" name="Tournament Remnants I" type="EtcItem">
 		<!-- A mysterious mark. It is used at the Mysterious Mansion in the Mysterious Suggestion quest as proof of participation in the tournament. -->
 		<set name="icon" val="icon.etc_badge_silver_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -590,107 +590,117 @@
 		<!-- Box obtained after consoling the soul of the dead wandering in the Guillotine Fortress. Double-click to check for more information. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9473-1" /> <!-- Deadman's Chest -->
+		<skills>
+			<skill id="9473" level="1" /> <!-- Deadman's Chest -->
+		</skills>
 	</item>
 	<item id="35547" name="Deadman's Chest" type="EtcItem">
 		<!-- Box obtained after consoling the soul of the dead wandering in the Guillotine Fortress. Double-click to check for more information. -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9474-1" /> <!-- Deadman's Chest -->
+		<skills>
+			<skill id="9474" level="1" /> <!-- Deadman's Chest -->
+		</skills>
 	</item>
 	<item id="35548" name="Engineer Zofan's Supply Box" type="EtcItem">
 		<!-- Box obtaining after completing the Destroy the Machine Device mission on the 2nd floor of the Seed of Hellfire. Double-click to check for more information. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i01" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9475-1" /> <!-- Engineer Zofan's Supply Box -->
+		<skills>
+			<skill id="9475" level="1" /> <!-- Engineer Zofan's Supply Box -->
+		</skills>
 	</item>
 	<item id="35549" name="Rebel's Supply Box" type="EtcItem">
 		<!-- Box obtained after helping the resistances forces in the Seed of Hellfire. Double-click to check for more information. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9476-1" /> <!-- Rebel's Supply Box -->
+		<skills>
+			<skill id="9476" level="1" /> <!-- Rebel's Supply Box -->
+		</skills>
 	</item>
 	<item id="35550" name="Aku's Supply Box" type="EtcItem">
 		<!-- Box obtained after helping Aku in the Seed of Hellfire. Double-click to check for more information. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9477-1" /> <!-- Aku's Supply Box -->
+		<skills>
+			<skill id="9477" level="1" /> <!-- Aku's Supply Box -->
+		</skills>
 	</item>
 	<item id="35551" name="Tournament Remnants II" type="EtcItem">
 		<!-- A mysterious mark. It is used at the Mysterious Mansion in the Mysterious Suggestion quest as proof of participation in the tournament. -->
 		<set name="icon" val="icon.etc_badge_silver_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -698,13 +708,13 @@
 	<item id="35552" name="Einhasad's Superior Medal" type="EtcItem">
 		<!-- Einhasad's Superior Medal obtained after defeating the Chamberlain of Darkness. Exchange it for a reward from the Captain of the Revolutionaries. -->
 		<set name="icon" val="icon.etc_badge_gold_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -712,13 +722,13 @@
 	<item id="35553" name="Einhasad's Medal" type="EtcItem">
 		<!-- Einhasad's Medal obtained after defeating the Chamberlain of Darkness. Exchange it for a reward from the Captain of the Revolutionaries. -->
 		<set name="icon" val="icon.etc_badge_black_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -726,13 +736,13 @@
 	<item id="35554" name="Revolutionaries' Superior Medal" type="EtcItem">
 		<!-- Revolutionaries' Superior Medal obtained after defeating the Chamberlain of Darkness. Exchange it for a reward from the Captain of the Revolutionaries. -->
 		<set name="icon" val="icon.etc_badge_gold_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -740,13 +750,13 @@
 	<item id="35555" name="Revolutionaries' Medal" type="EtcItem">
 		<!-- Revolutionaries' Medal obtained after defeating the Chamberlain of Darkness. Exchange it for a reward from the Captain of the Revolutionaries. -->
 		<set name="icon" val="icon.etc_badge_black_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -754,103 +764,115 @@
 	<item id="35556" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Solo" additionalName="1-day" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset your return to the level 85 solo dungeon using the pass. Cannot be used if you are not in an Instanced Zone. Can be used only once outside an Instanced Zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9479-1" /> <!-- Extra Pass -->
+		<skills>
+			<skill id="9479" level="1" /> <!-- Extra Pass -->
+		</skills>
 	</item>
 	<item id="35557" name="Entrance Pass: Kartia's Labyrinth Lv. 90 Solo" additionalName="1-day" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset your return to the level 90 solo dungeon using the pass. Cannot be used if you are not in an Instanced Zone. Can be used only once outside an Instanced Zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9480-1" /> <!-- Extra Pass -->
+		<skills>
+			<skill id="9480" level="1" /> <!-- Extra Pass -->
+		</skills>
 	</item>
 	<item id="35558" name="Entrance Pass: Kartia's Labyrinth Lv. 95 Solo" additionalName="1-day" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset your return to the level 95 solo dungeon using the pass. Cannot be used if you are not in an Instanced Zone. Can be used only once outside an Instanced Zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9481-1" /> <!-- Extra Pass -->
+		<skills>
+			<skill id="9481" level="1" /> <!-- Extra Pass -->
+		</skills>
 	</item>
 	<item id="35559" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Party" additionalName="1-day" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset your return to the level 85 party dungeon using the pass. Cannot be used if you are not in an Instanced Zone. Can be used only once outside an Instanced Zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9482-1" /> <!-- Extra Pass -->
+		<skills>
+			<skill id="9482" level="1" /> <!-- Extra Pass -->
+		</skills>
 	</item>
 	<item id="35560" name="Entrance Pass: Kartia's Labyrinth Lv. 90 Party" additionalName="1-day" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset your return to the level 90 party dungeon using the pass. Cannot be used if you are not in an Instanced Zone. Can be used only once outside an Instanced Zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9483-1" /> <!-- Extra Pass -->
+		<skills>
+			<skill id="9483" level="1" /> <!-- Extra Pass -->
+		</skills>
 	</item>
 	<item id="35561" name="Entrance Pass: Kartia's Labyrinth Lv. 95 Party" additionalName="1-day" type="EtcItem">
 		<!-- Kartia's Labyrinth Entrance Pass given to adventurers by Kartia Research Center. You can reset your return to the level 95 party dungeon using the pass. Cannot be used if you are not in an Instanced Zone. Can be used only once outside an Instanced Zone. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="9484-1" /> <!-- Extra Pass -->
+		<skills>
+			<skill id="9484" level="1" /> <!-- Extra Pass -->
+		</skills>
 	</item>
 	<item id="35562" name="Energy of Destruction" type="EtcItem">
 		<!-- Use to exchange or enhance special items. -->
 		<set name="icon" val="icon.etc_talisman_beads_i01" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -863,7 +885,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="35564" name="Ruler's Authority" type="Armor">
 		<!-- Item given to the winner of the Ceremony of Chaos that takes place in the Mysterious Mansion. When equipped, increases Max HP, MP, and CP by 1000, weight by 25600, and damage by 8%. Decreases received damage by 9% and Damage Reflect Resistance by 5%. Increases the number of inventory slots by 36, and Attribute Resistance by 15. -->
@@ -876,17 +898,19 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="BELT" /> -->
-        <set name="item_skill" val="15145-1" /> <!-- Ruler's Authority -->
-		<for>
-			<add order="0" stat="pDef" val="50" />
-			<set stat="fireRes" val="15" />
-			<set stat="waterRes" val="15" />
-			<set stat="windRes" val="15" />
-			<set stat="earthRes" val="15" />
-			<set stat="holyRes" val="15" />
-			<set stat="darkRes" val="15" />
-		</for>
+		<set name="commissionItemType" val="BELT" />
+		<skills>
+			<skill id="15145" level="1" /> <!-- Ruler's Authority -->
+		</skills>
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="fireRes">15</stat>
+			<stat type="waterRes">15</stat>
+			<stat type="windRes">15</stat>
+			<stat type="earthRes">15</stat>
+			<stat type="holyRes">15</stat>
+			<stat type="darkRes">15</stat>
+		</stats>
 	</item>
 	<item id="35565" name="Mysterious Belt" additionalName="3-day" type="Armor">
 		<!-- Item acquired after winning the Ceremony of Chaos Tournament in the Mysterious Mansion. When equipped, increases Max HP, MP, and CP by 500, PvP damage by 6%, and Damage Reflect Resistance by 5%. Decreases damage received during PvP by 7%. -->
@@ -896,19 +920,21 @@
 		<set name="bodypart" val="waist" />
 		<set name="crystal_type" val="S" />
 		<set name="weight" val="440" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="time" val="4320" />
-        <set name="item_skill" val="15146-1" /> <!-- Mysterious Belt -->
-		<for>
-			<add order="0" stat="pDef" val="50" />
-		</for>
+		<skills>
+			<skill id="15146" level="1" /> <!-- Mysterious Belt -->
+		</skills>
+		<stats>
+			<stat type="pDef">50</stat>
+		</stats>
 	</item>
 	<item id="35566" name="Dark Amaranthine Enhancement Stone" type="EtcItem">
 		<!-- Bestows the PvP option on an Amaranthine weapon through the blacksmith. When the option is bestowed, Energy of Destruction and Giant's Energy, as well as an additional fee are required. -->
@@ -916,7 +942,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="35567" name="Dark Eternal Enhancement Stone" type="EtcItem">
 		<!-- Bestows the PvP option on Eternal armor through the blacksmith. When the option is bestowed, Energy of Destruction and Giant's Energy, as well as an additional fee are required. -->
@@ -924,7 +950,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="35568" name="Bloody Amaranthine Enhancement Stone" type="EtcItem">
 		<!-- Bestows the PvE option on an Amaranthine weapon through the blacksmith. When the option is bestowed, Energy of Destruction and Giant's Energy, as well as an additional fee are required. -->
@@ -932,7 +958,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="35569" name="Bloody Eternal Enhancement Stone" type="EtcItem">
 		<!-- Bestows the PvE option on Eternal armor through the blacksmith. When the option is bestowed, Energy of Destruction and Giant's Energy, as well as an additional fee are required. -->
@@ -940,7 +966,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="35570" name="Tauti's Ring" type="Armor">
 		<!-- Tauti's Ring. Fire/Dark Resistance + 25, MP + 38, Critical Damage + 15%, Skill Power + 5%, PvP damage + 5%, Paralysis/Binding/Banishment Resistance + 10, Damage Reflect Resistance + 5, Absorption Resistance + 5, received PvP damage - 5%, and critical + 54 when a blunt is equipped. Even if you wear two identical rings, only the effects of one apply (excluding attributes/M. Def.). -->
@@ -951,16 +977,18 @@
 		<set name="crystal_count" val="324" />
 		<set name="weight" val="150" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="price" val="15192000" />
-        <set name="item_skill" val="8870-1" /> <!-- Tauti's Ring -->
-		<for>
-			<set stat="mDef" val="108" />
-			<set stat="fireRes" val="25" />
-			<set stat="darkRes" val="25" />
-			<set stat="maxMp" val="38" />
-		</for>
+		<skills>
+			<skill id="8870" level="1" /> <!-- Tauti's Ring -->
+		</skills>
+		<stats>
+			<stat type="mDef">108</stat>
+			<stat type="fireRes">25</stat>
+			<stat type="darkRes">25</stat>
+			<stat type="maxMp">38</stat>
+		</stats>
 	</item>
 	<item id="35571" name="Water Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Water Resistance + 26, MP + 33. -->
@@ -970,13 +998,13 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="waterRes" val="26" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="waterRes">26</stat>
+		</stats>
 	</item>
 	<item id="35572" name="Holy Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Holy Resistance + 26, MP + 33. -->
@@ -986,13 +1014,13 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="holyRes" val="26" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="holyRes">26</stat>
+		</stats>
 	</item>
 	<item id="35573" name="Wind Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Wind Resistance + 26, MP + 33. -->
@@ -1002,13 +1030,13 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="windRes" val="26" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="windRes">26</stat>
+		</stats>
 	</item>
 	<item id="35574" name="Dark Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Dark Resistance + 26, MP + 33. -->
@@ -1018,13 +1046,13 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="darkRes" val="26" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="darkRes">26</stat>
+		</stats>
 	</item>
 	<item id="35575" name="Earth Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Earth Resistance + 26, MP + 33. -->
@@ -1034,13 +1062,13 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="earthRes" val="26" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="earthRes">26</stat>
+		</stats>
 	</item>
 	<item id="35576" name="Fire Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Fire Resistance + 26, MP + 33. -->
@@ -1050,13 +1078,13 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="85" />
-			<set stat="fireRes" val="26" />
-		</for>
+		<stats>
+			<stat type="mDef">85</stat>
+			<stat type="fireRes">26</stat>
+		</stats>
 	</item>
 	<item id="35577" name="Top-grade Water Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Water Resistance + 30, MP + 62. -->
@@ -1066,13 +1094,13 @@
 		<set name="crystal_type" val="R" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="158" />
-			<set stat="waterRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">158</stat>
+			<stat type="waterRes">30</stat>
+		</stats>
 	</item>
 	<item id="35578" name="Top-grade Fire Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Fire Resistance + 30, MP + 62. -->
@@ -1082,13 +1110,13 @@
 		<set name="crystal_type" val="R" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="158" />
-			<set stat="fireRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">158</stat>
+			<stat type="fireRes">30</stat>
+		</stats>
 	</item>
 	<item id="35579" name="Top-grade Holy Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Holy Resistance + 30, MP + 62. -->
@@ -1098,13 +1126,13 @@
 		<set name="crystal_type" val="R" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="158" />
-			<set stat="holyRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">158</stat>
+			<stat type="holyRes">30</stat>
+		</stats>
 	</item>
 	<item id="35580" name="Top-grade Dark Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Dark Resistance + 30, MP + 62. -->
@@ -1116,11 +1144,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
-		<for>
-			<set stat="mDef" val="158" />
-			<set stat="darkRes" val="30" />
-		</for>
+		<set name="commissionItemType" val="NECKLACE" />
+		<stats>
+			<stat type="mDef">158</stat>
+			<stat type="darkRes">30</stat>
+		</stats>
 	</item>
 	<item id="35581" name="Top-grade Wind Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Wind Resistance + 30, MP + 62. -->
@@ -1130,13 +1158,13 @@
 		<set name="crystal_type" val="R" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="158" />
-			<set stat="windRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">158</stat>
+			<stat type="windRes">30</stat>
+		</stats>
 	</item>
 	<item id="35582" name="Top-grade Earth Resistance Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Earth Resistance + 30, MP + 62. -->
@@ -1146,13 +1174,13 @@
 		<set name="crystal_type" val="R" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="158" />
-			<set stat="earthRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">158</stat>
+			<stat type="earthRes">30</stat>
+		</stats>
 	</item>
 	<item id="35583" name="Earth Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Earth Resistance + 12, MP + 17. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1162,13 +1190,15 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="8379-1" /> <!-- Protection Ring - Gludio -->
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<skills>
+			<skill id="8379" level="1" /> <!-- Protection Ring - Gludio -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="35584" name="Water Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Water Resistance + 12, MP + 17. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1178,13 +1208,15 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="8380-1" /> <!-- Protection Ring - Dion -->
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<skills>
+			<skill id="8380" level="1" /> <!-- Protection Ring - Dion -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="35585" name="Fire Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Fire Resistance + 12, MP + 17. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1194,13 +1226,15 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="8381-1" /> <!-- Protection Ring - Giran -->
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<skills>
+			<skill id="8381" level="1" /> <!-- Protection Ring - Giran -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="35586" name="Holy Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Holy Resistance + 12, MP + 17. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1210,13 +1244,15 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="8383-1" /> <!-- Protection Ring - Aden -->
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<skills>
+			<skill id="8383" level="1" /> <!-- Protection Ring - Aden -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="35587" name="Dark Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Dark Resistance + 12, MP + 17. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1226,13 +1262,15 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="8385-1" /> <!-- Protection Ring - Goddard -->
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<skills>
+			<skill id="8385" level="1" /> <!-- Protection Ring - Goddard -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="35588" name="Wind Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Wind Resistance + 12, MP + 17. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1242,13 +1280,15 @@
 		<set name="crystal_type" val="A" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
+		<set name="commissionItemType" val="RING" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="8386-1" /> <!-- Protection Ring - Rune -->
-		<for>
-			<set stat="mDef" val="42" />
-		</for>
+		<skills>
+			<skill id="8386" level="1" /> <!-- Protection Ring - Rune -->
+		</skills>
+		<stats>
+			<stat type="mDef">42</stat>
+		</stats>
 	</item>
 	<item id="35589" name="Top-grade Earth Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Earth Resistance + 15, MP + 31. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1260,11 +1300,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
-        <set name="item_skill" val="8795-1" /> <!-- Top-grade Royal Guard Ring - Gludio -->
-		<for>
-			<set stat="mDef" val="79" />
-		</for>
+		<set name="commissionItemType" val="RING" />
+		<skills>
+			<skill id="8795" level="1" /> <!-- Top-grade Royal Guard Ring - Gludio -->
+		</skills>
+		<stats>
+			<stat type="mDef">79</stat>
+		</stats>
 	</item>
 	<item id="35590" name="Top-grade Water Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Water Resistance + 15, MP + 31. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1276,11 +1318,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
-        <set name="item_skill" val="8796-1" /> <!-- Top-grade Royal Guard Ring - Dion -->
-		<for>
-			<set stat="mDef" val="79" />
-		</for>
+		<set name="commissionItemType" val="RING" />
+		<skills>
+			<skill id="8796" level="1" /> <!-- Top-grade Royal Guard Ring - Dion -->
+		</skills>
+		<stats>
+			<stat type="mDef">79</stat>
+		</stats>
 	</item>
 	<item id="35591" name="Top-grade Fire Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Fire Resistance + 15, MP + 31. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1292,11 +1336,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
-        <set name="item_skill" val="8797-1" /> <!-- Top-grade Royal Guard Ring - Giran -->
-		<for>
-			<set stat="mDef" val="79" />
-		</for>
+		<set name="commissionItemType" val="RING" />
+		<skills>
+			<skill id="8797" level="1" /> <!-- Top-grade Royal Guard Ring - Giran -->
+		</skills>
+		<stats>
+			<stat type="mDef">79</stat>
+		</stats>
 	</item>
 	<item id="35592" name="Top-grade Holy Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Holy Resistance + 15, MP + 31. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1308,11 +1354,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
-        <set name="item_skill" val="8799-1" /> <!-- Top-grade Royal Guard Ring - Aden -->
-		<for>
-			<set stat="mDef" val="79" />
-		</for>
+		<set name="commissionItemType" val="RING" />
+		<skills>
+			<skill id="8799" level="1" /> <!-- Top-grade Royal Guard Ring - Aden -->
+		</skills>
+		<stats>
+			<stat type="mDef">79</stat>
+		</stats>
 	</item>
 	<item id="35593" name="Top-grade Dark Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Dark Resistance + 15, MP + 31. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1324,11 +1372,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
-        <set name="item_skill" val="8801-1" /> <!-- Top-grade Royal Guard Ring - Goddard -->
-		<for>
-			<set stat="mDef" val="79" />
-		</for>
+		<set name="commissionItemType" val="RING" />
+		<skills>
+			<skill id="8801" level="1" /> <!-- Top-grade Royal Guard Ring - Goddard -->
+		</skills>
+		<stats>
+			<stat type="mDef">79</stat>
+		</stats>
 	</item>
 	<item id="35594" name="Top-grade Wind Resistance Ring" type="Armor">
 		<!-- Ring purchased at the Mysterious Mansion. Wind Resistance + 15, MP + 31. Only one effect is applied when two rings with the same effect are equipped. -->
@@ -1340,11 +1390,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="RING" /> -->
-        <set name="item_skill" val="8802-1" /> <!-- Top-grade Royal Guard Ring - Rune -->
-		<for>
-			<set stat="mDef" val="79" />
-		</for>
+		<set name="commissionItemType" val="RING" />
+		<skills>
+			<skill id="8802" level="1" /> <!-- Top-grade Royal Guard Ring - Rune -->
+		</skills>
+		<stats>
+			<stat type="mDef">79</stat>
+		</stats>
 	</item>
 	<item id="35595" name="Water Royal Guard Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Water Resistance + 30, MP + 46. -->
@@ -1354,13 +1406,13 @@
 		<set name="crystal_type" val="S80" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="106" />
-			<set stat="waterRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">106</stat>
+			<stat type="waterRes">30</stat>
+		</stats>
 	</item>
 	<item id="35596" name="Earth Royal Guard Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Earth Resistance + 30, MP + 46. -->
@@ -1370,13 +1422,13 @@
 		<set name="crystal_type" val="S80" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="106" />
-			<set stat="earthRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">106</stat>
+			<stat type="earthRes">30</stat>
+		</stats>
 	</item>
 	<item id="35597" name="Fire Royal Guard Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Fire Resistance + 30, MP + 46. -->
@@ -1386,13 +1438,13 @@
 		<set name="crystal_type" val="S80" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="106" />
-			<set stat="fireRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">106</stat>
+			<stat type="fireRes">30</stat>
+		</stats>
 	</item>
 	<item id="35598" name="Holy Royal Guard Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Holy Resistance + 30, MP + 46. -->
@@ -1402,13 +1454,13 @@
 		<set name="crystal_type" val="S80" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="106" />
-			<set stat="holyRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">106</stat>
+			<stat type="holyRes">30</stat>
+		</stats>
 	</item>
 	<item id="35599" name="Dark Royal Guard Necklace" type="Armor">
 		<!-- Necklace purchased at the Mysterious Mansion. Dark Resistance + 30, MP + 46. -->
@@ -1418,12 +1470,12 @@
 		<set name="crystal_type" val="S80" />
 		<set name="is_sellable" val="false" />
 		<set name="enchant_enabled" val="1" />
-		<!-- <set name="commissionItemType" val="NECKLACE" /> -->
+		<set name="commissionItemType" val="NECKLACE" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-		<for>
-			<set stat="mDef" val="106" />
-			<set stat="darkRes" val="30" />
-		</for>
+		<stats>
+			<stat type="mDef">106</stat>
+			<stat type="darkRes">30</stat>
+		</stats>
 	</item>
 </list>

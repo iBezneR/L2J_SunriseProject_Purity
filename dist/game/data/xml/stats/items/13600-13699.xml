@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="13600" name="Transformation Scroll: Giran Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Giran Territory. -->
+	<item id="13600" type="EtcItem" name="Transformation Scroll: Giran Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -9,20 +8,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2703-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2703" level="1" /> <!-- Giran Archer Captain -->
-		</skills>
 	</item>
-	<item id="13601" name="Transformation Scroll: Giran Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Giran Territory. -->
+	<item id="13601" type="EtcItem" name="Transformation Scroll: Giran Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -30,20 +25,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2704-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2704" level="1" /> <!-- Giran Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13602" name="Transformation Scroll: Giran Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Giran Territory. -->
+	<item id="13602" type="EtcItem" name="Transformation Scroll: Giran Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -51,20 +42,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2705-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2705" level="1" /> <!-- Giran Kamael Guard Captain -->
-		</skills>
 	</item>
-	<item id="13603" name="Transformation Scroll: Giran Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Giran Territory. -->
+	<item id="13603" type="EtcItem" name="Transformation Scroll: Giran Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -72,20 +59,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2706-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2706" level="1" /> <!-- Giran Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13604" name="Transformation Scroll: Giran Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Giran Territory. -->
+	<item id="13604" type="EtcItem" name="Transformation Scroll: Giran Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -93,20 +76,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2707-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2707" level="1" /> <!-- Giran Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13605" name="Transformation Scroll: Oren Human Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Human mercenary. Can only be used by an ordinary mercenary in Oren Territory. -->
+	<item id="13605" type="EtcItem" name="Transformation Scroll: Oren Human Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -114,20 +93,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2708-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2708" level="1" /> <!-- Oren Human Mercenary -->
-		</skills>
 	</item>
-	<item id="13606" name="Transformation Scroll: Oren Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Elven mercenary. Can only be used by an ordinary mercenary in Oren Territory. -->
+	<item id="13606" type="EtcItem" name="Transformation Scroll: Oren Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -135,20 +110,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2709-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2709" level="1" /> <!-- Oren Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13607" name="Transformation Scroll: Oren Dark Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dark Elven mercenary. Can only be used by an ordinary mercenary in Oren Territory. -->
+	<item id="13607" type="EtcItem" name="Transformation Scroll: Oren Dark Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -156,20 +127,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2710-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2710" level="1" /> <!-- Oren Dark Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13608" name="Transformation Scroll: Oren Orc Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Orc mercenary. Can only be used by an ordinary mercenary in Oren Territory. -->
+	<item id="13608" type="EtcItem" name="Transformation Scroll: Oren Orc Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -177,20 +144,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2711-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2711" level="1" /> <!-- Oren Orc Mercenary -->
-		</skills>
 	</item>
-	<item id="13609" name="Transformation Scroll: Oren Dwarf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dwarven mercenary. Can only be used by an ordinary mercenary in Oren Territory. -->
+	<item id="13609" type="EtcItem" name="Transformation Scroll: Oren Dwarf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -198,20 +161,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2712-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2712" level="1" /> <!-- Oren Dwarf Mercenary -->
-		</skills>
 	</item>
-	<item id="13610" name="Transformation Scroll: Oren Kamael Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Kamael mercenary. Can only be used by an ordinary mercenary in Oren Territory. -->
+	<item id="13610" type="EtcItem" name="Transformation Scroll: Oren Kamael Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -219,20 +178,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2713-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2713" level="1" /> <!-- Oren Kamael Mercenary -->
-		</skills>
 	</item>
-	<item id="13611" name="Transformation Scroll: Oren Knight Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight mercenary. Can only be used by an elite mercenary in Oren Territory. -->
+	<item id="13611" type="EtcItem" name="Transformation Scroll: Oren Knight Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -240,20 +195,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2714-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2714" level="1" /> <!-- Oren Royal Guard Captain -->
-		</skills>
 	</item>
-	<item id="13612" name="Transformation Scroll: Oren Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Oren Territory. -->
+	<item id="13612" type="EtcItem" name="Transformation Scroll: Oren Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -261,20 +212,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2715-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2715" level="1" /> <!-- Oren Archer Captain -->
-		</skills>
 	</item>
-	<item id="13613" name="Transformation Scroll: Oren Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Oren Territory. -->
+	<item id="13613" type="EtcItem" name="Transformation Scroll: Oren Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -282,20 +229,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2716-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2716" level="1" /> <!-- Oren Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13614" name="Transformation Scroll: Oren Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Oren Territory. -->
+	<item id="13614" type="EtcItem" name="Transformation Scroll: Oren Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -303,20 +246,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2717-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2717" level="1" /> <!-- Oren Kamael Guard Captain -->
-		</skills>
 	</item>
-	<item id="13615" name="Transformation Scroll: Oren Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Oren Territory. -->
+	<item id="13615" type="EtcItem" name="Transformation Scroll: Oren Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -324,20 +263,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2718-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2718" level="1" /> <!-- Oren Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13616" name="Transformation Scroll: Oren Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Oren Territory. -->
+	<item id="13616" type="EtcItem" name="Transformation Scroll: Oren Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -345,20 +280,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2719-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2719" level="1" /> <!-- Oren Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13617" name="Transformation Scroll: Aden Human Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Human mercenary. Can only be used by an ordinary mercenary in Aden Territory. -->
+	<item id="13617" type="EtcItem" name="Transformation Scroll: Aden Human Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -366,20 +297,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2720-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2720" level="1" /> <!-- Aden Human Mercenary -->
-		</skills>
 	</item>
-	<item id="13618" name="Transformation Scroll: Aden Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Elven mercenary. Can only be used by an ordinary mercenary in Aden Territory. -->
+	<item id="13618" type="EtcItem" name="Transformation Scroll: Aden Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -387,20 +314,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2721-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2721" level="1" /> <!-- Aden Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13619" name="Transformation Scroll: Aden Dark Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dark Elven mercenary. Can only be used by an ordinary mercenary in Aden Territory. -->
+	<item id="13619" type="EtcItem" name="Transformation Scroll: Aden Dark Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -408,20 +331,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2722-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2722" level="1" /> <!-- Aden Dark Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13620" name="Transformation Scroll: Aden Orc Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Orc mercenary. Can only be used by an ordinary mercenary in Aden Territory. -->
+	<item id="13620" type="EtcItem" name="Transformation Scroll: Aden Orc Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -429,20 +348,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2723-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2723" level="1" /> <!-- Aden Orc Mercenary -->
-		</skills>
 	</item>
-	<item id="13621" name="Transformation Scroll: Aden Dwarf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dwarven mercenary. Can only be used by an ordinary mercenary in Aden Territory. -->
+	<item id="13621" type="EtcItem" name="Transformation Scroll: Aden Dwarf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -450,20 +365,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2724-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2724" level="1" /> <!-- Aden Dwarf Mercenary -->
-		</skills>
 	</item>
-	<item id="13622" name="Transformation Scroll: Aden Kamael Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Kamael mercenary. Can only be used by an ordinary mercenary in Aden Territory. -->
+	<item id="13622" type="EtcItem" name="Transformation Scroll: Aden Kamael Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -471,20 +382,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2725-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2725" level="1" /> <!-- Aden Kamael Mercenary -->
-		</skills>
 	</item>
-	<item id="13623" name="Transformation Scroll: Aden Knight Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight mercenary. Can only be used by an elite mercenary in Aden Territory. -->
+	<item id="13623" type="EtcItem" name="Transformation Scroll: Aden Knight Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -492,20 +399,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2726-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2726" level="1" /> <!-- Aden Royal Guard Captain -->
-		</skills>
 	</item>
-	<item id="13624" name="Transformation Scroll: Aden Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Aden Territory. -->
+	<item id="13624" type="EtcItem" name="Transformation Scroll: Aden Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -513,20 +416,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2727-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2727" level="1" /> <!-- Aden Archer Captain -->
-		</skills>
 	</item>
-	<item id="13625" name="Transformation Scroll: Aden Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Aden Territory. -->
+	<item id="13625" type="EtcItem" name="Transformation Scroll: Aden Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -534,20 +433,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2728-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2728" level="1" /> <!-- Aden Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13626" name="Transformation Scroll: Aden Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Aden Territory. -->
+	<item id="13626" type="EtcItem" name="Transformation Scroll: Aden Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -555,20 +450,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2729-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2729" level="1" /> <!-- Aden Kamael Guard Captain -->
-		</skills>
 	</item>
-	<item id="13627" name="Transformation Scroll: Aden Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Aden Territory. -->
+	<item id="13627" type="EtcItem" name="Transformation Scroll: Aden Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -576,20 +467,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2730-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2730" level="1" /> <!-- Aden Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13628" name="Transformation Scroll: Aden Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Aden Territory. -->
+	<item id="13628" type="EtcItem" name="Transformation Scroll: Aden Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -597,20 +484,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2731-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2731" level="1" /> <!-- Aden Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13629" name="Transformation Scroll: Innadril Human Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Human mercenary. Can only be used by an ordinary mercenary in Innadril Territory. -->
+	<item id="13629" type="EtcItem" name="Transformation Scroll: Innadril Human Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -618,20 +501,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2732-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2732" level="1" /> <!-- Innadril Human Mercenary -->
-		</skills>
 	</item>
-	<item id="13630" name="Transformation Scroll: Innadril Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Elven mercenary. Can only be used by an ordinary mercenary in Innadril Territory. -->
+	<item id="13630" type="EtcItem" name="Transformation Scroll: Innadril Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -639,20 +518,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2733-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2733" level="1" /> <!-- Innadril Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13631" name="Transformation Scroll: Innadril Dark Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dark Elven mercenary. Can only be used by an ordinary mercenary in Innadril Territory. -->
+	<item id="13631" type="EtcItem" name="Transformation Scroll: Innadril Dark Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -660,20 +535,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2734-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2734" level="1" /> <!-- Innadril Dark Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13632" name="Transformation Scroll: Innadril Orc Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Orc mercenary. Can only be used by an ordinary mercenary in Innadril Territory. -->
+	<item id="13632" type="EtcItem" name="Transformation Scroll: Innadril Orc Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -681,20 +552,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2735-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2735" level="1" /> <!-- Innadril Orc Mercenary -->
-		</skills>
 	</item>
-	<item id="13633" name="Transformation Scroll: Innadril Dwarf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dwarven mercenary. Can only be used by an ordinary mercenary in Innadril Territory. -->
+	<item id="13633" type="EtcItem" name="Transformation Scroll: Innadril Dwarf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -702,20 +569,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2736-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2736" level="1" /> <!-- Innadril Dwarf Mercenary -->
-		</skills>
 	</item>
-	<item id="13634" name="Transformation Scroll: Innadril Kamael Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Kamael mercenary. Can only be used by an ordinary mercenary in Innadril Territory. -->
+	<item id="13634" type="EtcItem" name="Transformation Scroll: Innadril Kamael Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -723,20 +586,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2737-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2737" level="1" /> <!-- Innadril Kamael Mercenary -->
-		</skills>
 	</item>
-	<item id="13635" name="Transformation Scroll: Innadril Knight Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight mercenary. Can only be used by an elite mercenary in Innadril Territory. -->
+	<item id="13635" type="EtcItem" name="Transformation Scroll: Innadril Knight Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -744,20 +603,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2738-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2738" level="1" /> <!-- Innadril Royal Guard Captain -->
-		</skills>
 	</item>
-	<item id="13636" name="Transformation Scroll: Innadril Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Innadril Territory. -->
+	<item id="13636" type="EtcItem" name="Transformation Scroll: Innadril Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -765,20 +620,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2739-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2739" level="1" /> <!-- Innadril Archer Captain -->
-		</skills>
 	</item>
-	<item id="13637" name="Transformation Scroll: Innadril Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Innadril Territory. -->
+	<item id="13637" type="EtcItem" name="Transformation Scroll: Innadril Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -786,20 +637,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2740-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2740" level="1" /> <!-- Innadril Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13638" name="Transformation Scroll: Innadril Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Innadril Territory. -->
+	<item id="13638" type="EtcItem" name="Transformation Scroll: Innadril Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -807,20 +654,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2741-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2741" level="1" /> <!-- Innadril Kamael Guard Captain -->
-		</skills>
 	</item>
-	<item id="13639" name="Transformation Scroll: Innadril Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Innadril Territory. -->
+	<item id="13639" type="EtcItem" name="Transformation Scroll: Innadril Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -828,20 +671,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2742-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2742" level="1" /> <!-- Innadril Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13640" name="Transformation Scroll: Innadril Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Innadril Territory. -->
+	<item id="13640" type="EtcItem" name="Transformation Scroll: Innadril Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -849,20 +688,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2743-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2743" level="1" /> <!-- Innadril Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13641" name="Transformation Scroll: Goddard Human Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Human mercenary. Can only be used by an ordinary mercenary in Goddard Territory. -->
+	<item id="13641" type="EtcItem" name="Transformation Scroll: Goddard Human Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -870,20 +705,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2744-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2744" level="1" /> <!-- Goddard Human Mercenary -->
-		</skills>
 	</item>
-	<item id="13642" name="Transformation Scroll: Goddard Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Elven mercenary. Can only be used by an ordinary mercenary in Goddard Territory. -->
+	<item id="13642" type="EtcItem" name="Transformation Scroll: Goddard Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -891,20 +722,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2745-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2745" level="1" /> <!-- Goddard Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13643" name="Transformation Scroll: Goddard Dark Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dark Elven mercenary. Can only be used by an ordinary mercenary in Goddard Territory. -->
+	<item id="13643" type="EtcItem" name="Transformation Scroll: Goddard Dark Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -912,20 +739,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2746-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2746" level="1" /> <!-- Goddard Dark Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13644" name="Transformation Scroll: Goddard Orc Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Orc mercenary. Can only be used by an ordinary mercenary in Goddard Territory. -->
+	<item id="13644" type="EtcItem" name="Transformation Scroll: Goddard Orc Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -933,20 +756,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2747-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2747" level="1" /> <!-- Goddard Orc Mercenary -->
-		</skills>
 	</item>
-	<item id="13645" name="Transformation Scroll: Goddard Dwarf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dwarven mercenary. Can only be used by an ordinary mercenary in Goddard Territory. -->
+	<item id="13645" type="EtcItem" name="Transformation Scroll: Goddard Dwarf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -954,20 +773,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2748-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2748" level="1" /> <!-- Goddard Dwarf Mercenary -->
-		</skills>
 	</item>
-	<item id="13646" name="Transformation Scroll: Goddard Kamael Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Kamael mercenary. Can only be used by an ordinary mercenary in Goddard Territory. -->
+	<item id="13646" type="EtcItem" name="Transformation Scroll: Goddard Kamael Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -975,20 +790,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2749-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2749" level="1" /> <!-- Goddard Kamael Mercenary -->
-		</skills>
 	</item>
-	<item id="13647" name="Transformation Scroll: Goddard Knight Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight mercenary. Can only be used by an elite mercenary in Goddard Territory. -->
+	<item id="13647" type="EtcItem" name="Transformation Scroll: Goddard Knight Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -996,20 +807,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2750-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2750" level="1" /> <!-- Goddard Royal Guard Captain -->
-		</skills>
 	</item>
-	<item id="13648" name="Transformation Scroll: Goddard Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Goddard Territory. -->
+	<item id="13648" type="EtcItem" name="Transformation Scroll: Goddard Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1017,20 +824,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2751-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2751" level="1" /> <!-- Goddard Archer Captain -->
-		</skills>
 	</item>
-	<item id="13649" name="Transformation Scroll: Goddard Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Goddard Territory. -->
+	<item id="13649" type="EtcItem" name="Transformation Scroll: Goddard Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1038,20 +841,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2752-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2752" level="1" /> <!-- Goddard Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13650" name="Transformation Scroll: Goddard Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Goddard Territory. -->
+	<item id="13650" type="EtcItem" name="Transformation Scroll: Goddard Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1059,20 +858,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2753-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2753" level="1" /> <!-- Goddard Kamael Gauard Captain -->
-		</skills>
 	</item>
-	<item id="13651" name="Transformation Scroll: Goddard Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Goddard Territory. -->
+	<item id="13651" type="EtcItem" name="Transformation Scroll: Goddard Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1080,20 +875,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2754-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2754" level="1" /> <!-- Goddard Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13652" name="Transformation Scroll: Goddard Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Goddard Territory. -->
+	<item id="13652" type="EtcItem" name="Transformation Scroll: Goddard Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1101,20 +892,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2755-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2755" level="1" /> <!-- Goddard Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13653" name="Transformation Scroll: Rune Human Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Human mercenary. Can only be used by an ordinary mercenary in Rune Territory. -->
+	<item id="13653" type="EtcItem" name="Transformation Scroll: Rune Human Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1122,20 +909,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2756-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2756" level="1" /> <!-- Rune Human Mercenary -->
-		</skills>
 	</item>
-	<item id="13654" name="Transformation Scroll: Rune Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Elven mercenary. Can only be used by an ordinary mercenary in Rune Territory. -->
+	<item id="13654" type="EtcItem" name="Transformation Scroll: Rune Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1143,20 +926,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2757-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2757" level="1" /> <!-- Rune Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13655" name="Transformation Scroll: Rune Dark Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dark Elven mercenary. Can only be used by an ordinary mercenary in Rune Territory. -->
+	<item id="13655" type="EtcItem" name="Transformation Scroll: Rune Dark Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1164,20 +943,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2758-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2758" level="1" /> <!-- Rune Dark Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13656" name="Transformation Scroll: Rune Orc Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Orc mercenary. Can only be used by an ordinary mercenary in Rune Territory. -->
+	<item id="13656" type="EtcItem" name="Transformation Scroll: Rune Orc Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1185,20 +960,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2759-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2759" level="1" /> <!-- Rune Orc Mercenary -->
-		</skills>
 	</item>
-	<item id="13657" name="Transformation Scroll: Rune Dwarf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dwarven mercenary. Can only be used by an ordinary mercenary in Rune Territory. -->
+	<item id="13657" type="EtcItem" name="Transformation Scroll: Rune Dwarf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1206,20 +977,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2760-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2760" level="1" /> <!-- Rune Dwarf Mercenary -->
-		</skills>
 	</item>
-	<item id="13658" name="Transformation Scroll: Rune Kamael Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Kamael mercenary. Can only be used by an ordinary mercenary in Rune Territory. -->
+	<item id="13658" type="EtcItem" name="Transformation Scroll: Rune Kamael Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1227,20 +994,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2761-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2761" level="1" /> <!-- Rune Kamael Mercenary -->
-		</skills>
 	</item>
-	<item id="13659" name="Transformation Scroll: Rune Knight Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight mercenary. Can only be used by an elite mercenary in Rune Territory. -->
+	<item id="13659" type="EtcItem" name="Transformation Scroll: Rune Knight Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1248,20 +1011,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2762-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2762" level="1" /> <!-- Rune Royal Guard Captain -->
-		</skills>
 	</item>
-	<item id="13660" name="Transformation Scroll: Rune Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Rune Territory. -->
+	<item id="13660" type="EtcItem" name="Transformation Scroll: Rune Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1269,20 +1028,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2763-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2763" level="1" /> <!-- Rune Archer Captain -->
-		</skills>
 	</item>
-	<item id="13661" name="Transformation Scroll: Rune Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Rune Territory. -->
+	<item id="13661" type="EtcItem" name="Transformation Scroll: Rune Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1290,20 +1045,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2764-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2764" level="1" /> <!-- Rune Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13662" name="Transformation Scroll: Rune Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Rune Territory. -->
+	<item id="13662" type="EtcItem" name="Transformation Scroll: Rune Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1311,20 +1062,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2765-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2765" level="1" /> <!-- Rune Kamael Guard Captain -->
-		</skills>
 	</item>
-	<item id="13663" name="Transformation Scroll: Rune Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Rune Territory. -->
+	<item id="13663" type="EtcItem" name="Transformation Scroll: Rune Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1332,20 +1079,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2766-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2766" level="1" /> <!-- Rune Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13664" name="Transformation Scroll: Rune Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Rune Territory. -->
+	<item id="13664" type="EtcItem" name="Transformation Scroll: Rune Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1353,20 +1096,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2767-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2767" level="1" /> <!-- Rune Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13665" name="Transformation Scroll: Schuttgart Human Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Human mercenary. Can only be used by an ordinary mercenary in Schuttgart Territory. -->
+	<item id="13665" type="EtcItem" name="Transformation Scroll: Schuttgart Human Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1374,20 +1113,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2768-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2768" level="1" /> <!-- Schuttgart Human Mercenary -->
-		</skills>
 	</item>
-	<item id="13666" name="Transformation Scroll: Schuttgart Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Elven mercenary. Can only be used by an ordinary mercenary in Schuttgart Territory. -->
+	<item id="13666" type="EtcItem" name="Transformation Scroll: Schuttgart Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1395,20 +1130,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2769-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2769" level="1" /> <!-- Schuttgart Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13667" name="Transformation Scroll: Schuttgart Dark Elf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dark Elven mercenary. Can only be used by an ordinary mercenary in Schuttgart Territory. -->
+	<item id="13667" type="EtcItem" name="Transformation Scroll: Schuttgart Dark Elf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1416,20 +1147,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2770-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2770" level="1" /> <!-- Schuttgart Dark Elf Mercenary -->
-		</skills>
 	</item>
-	<item id="13668" name="Transformation Scroll: Schuttgart Orc Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Orc mercenary. Can only be used by an ordinary mercenary in Schuttgart Territory. -->
+	<item id="13668" type="EtcItem" name="Transformation Scroll: Schuttgart Orc Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1437,20 +1164,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2771-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2771" level="1" /> <!-- Schuttgart Orc Mercenary -->
-		</skills>
 	</item>
-	<item id="13669" name="Transformation Scroll: Schuttgart Dwarf Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Dwarven mercenary. Can only be used by an ordinary mercenary in Schuttgart Territory. -->
+	<item id="13669" type="EtcItem" name="Transformation Scroll: Schuttgart Dwarf Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1458,20 +1181,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2772-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2772" level="1" /> <!-- Schuttgart Dwarf Mercenary -->
-		</skills>
 	</item>
-	<item id="13670" name="Transformation Scroll: Schuttgart Kamael Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Kamael mercenary. Can only be used by an ordinary mercenary in Schuttgart Territory. -->
+	<item id="13670" type="EtcItem" name="Transformation Scroll: Schuttgart Kamael Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1479,20 +1198,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2773-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2773" level="1" /> <!-- Schuttgart Kamael Mercenary -->
-		</skills>
 	</item>
-	<item id="13671" name="Transformation Scroll: Schuttgart Knight Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight mercenary. Can only be used by an elite mercenary in Schuttgart Territory. -->
+	<item id="13671" type="EtcItem" name="Transformation Scroll: Schuttgart Knight Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1500,20 +1215,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2774-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2774" level="1" /> <!-- Schuttgart Royal Guard Captain -->
-		</skills>
 	</item>
-	<item id="13672" name="Transformation Scroll: Schuttgart Archer Mercenary" type="EtcItem">
-		<!-- Allows you to transform into an Archer mercenary. Can only be used by an elite mercenary in Schuttgart Territory. -->
+	<item id="13672" type="EtcItem" name="Transformation Scroll: Schuttgart Archer Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1521,20 +1232,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2775-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2775" level="1" /> <!-- Schuttgart Archer Captain -->
-		</skills>
 	</item>
-	<item id="13673" name="Transformation Scroll: Schuttgart Wizard Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Wizard mercenary. Can only be used by an elite mercenary in Schuttgart Territory. -->
+	<item id="13673" type="EtcItem" name="Transformation Scroll: Schuttgart Wizard Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1542,20 +1249,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2776-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2776" level="1" /> <!-- Schuttgart Wizard Captain -->
-		</skills>
 	</item>
-	<item id="13674" name="Transformation Scroll: Schuttgart Centurion Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Centurion Mercenary. Can only be used by an elite mercenary in Schuttgart Territory. -->
+	<item id="13674" type="EtcItem" name="Transformation Scroll: Schuttgart Kamael Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1563,20 +1266,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2777-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2777" level="1" /> <!-- Schuttgart Kamael Guard Captain -->
-		</skills>
 	</item>
-	<item id="13675" name="Transformation Scroll: Schuttgart Knight Captain Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Knight Captain mercenary. Can only be used by an Exalted Mercenary in Schuttgart Territory. -->
+	<item id="13675" type="EtcItem" name="Transformation Scroll: Schuttgart Knight Captain Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1584,20 +1283,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2778-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2778" level="1" /> <!-- Schuttgart Knight of Dawn -->
-		</skills>
 	</item>
-	<item id="13676" name="Transformation Scroll: Schuttgart Commander Mercenary" type="EtcItem">
-		<!-- Allows you to transform into a Commander mercenary. Can only be used by an Exalted Mercenary in Schuttgart Territory. -->
+	<item id="13676" type="EtcItem" name="Transformation Scroll: Schuttgart Commander Mercenary">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1605,20 +1300,16 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2779-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2779" level="1" /> <!-- Schuttgart Fortress Commander -->
-		</skills>
 	</item>
-	<item id="13677" name="Gludio Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Gludio Territory. -->
+	<item id="13677" type="EtcItem" name="Gludio Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1626,13 +1317,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13678" name="Dion Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Dion Territory. -->
+	<item id="13678" type="EtcItem" name="Dion Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1640,13 +1330,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13679" name="Giran Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Giran Territory. -->
+	<item id="13679" type="EtcItem" name="Giran Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1654,13 +1343,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13680" name="Oren Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Oren Territory. -->
+	<item id="13680" type="EtcItem" name="Oren Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1668,13 +1356,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13681" name="Aden Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Aden Territory. -->
+	<item id="13681" type="EtcItem" name="Aden Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1682,13 +1369,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13682" name="Innadril Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Innadril Territory. -->
+	<item id="13682" type="EtcItem" name="Innadril Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1696,13 +1382,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13683" name="Goddard Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Goddard Territory. -->
+	<item id="13683" type="EtcItem" name="Goddard Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1710,13 +1395,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13684" name="Rune Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Rune Territory. -->
+	<item id="13684" type="EtcItem" name="Rune Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1724,13 +1408,12 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13685" name="Schuttgart Disguise Scroll" type="EtcItem">
-		<!-- Allows you to hide your name when participating in a battle in Schuttgart Territory. -->
+	<item id="13685" type="EtcItem" name="Schuttgart Disguise Scroll">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="default_action" val="HIDE_NAME" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1738,182 +1421,135 @@
 		<set name="weight" val="120" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="Disguise" />
 	</item>
-	<item id="13686" name="Sealed Knight's Cloak" type="EtcItem">
-		<!-- Cloak with luxurious embroidery. When the seal is cancelled, it'll have Dark Resistance + 30 effect. The seal can be cancelled through the weaver Olf Kanore and Olf Adams. It cannot be worn before the seal cancellation. Cannot be enchanted, augmented, or assigned an attribute. Cannot be transferred between servers. -->
+	<item id="13686" type="EtcItem" name="Sealed Knight's Cloak">
 		<set name="icon" val="icon.sealed_vesper_cloack_i01" />
 		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S84" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
 		<set name="price" val="28671000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="crystal_type" val="S80" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="2453">
 			<and>
-				<player castle="-1" />
-				<!-- owns a castle -->
-				<player pledgeClass="5" />
-				<!-- Baron -->
+				<player castle="-1" /> <!-- owns a castle -->
+				<player pledgeClass="5" /> <!-- Baron -->
 				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 				<player cloakStatus="true" />
 			</and>
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<stats>
-			<stat type="pDef">20</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="20" />
+		</for>
 	</item>
-	<item id="13687" name="Knight's Cloak" type="Armor">
-		<!-- Cloak with luxurious embroidery. Dark Resistance + 30. Can be worn by Barons or higher ranks of the clan that owns a castle. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Cannot be enchanted, augmented, or assigned an attribute. Cannot be transferred between servers. -->
+	<item id="13687" type="Armor" name="Knight's Cloak">
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_type" val="S84" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
+		<set name="price" val="28671000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="2453">
 			<and>
-				<player castle="-1" />
-				<!-- owns a castle -->
-				<player pledgeClass="5" />
-				<!-- Baron -->
+				<player castle="-1" /> <!-- owns a castle -->
+				<player pledgeClass="5" /> <!-- Baron -->
 				<player cloakStatus="true" />
 			</and>
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<stats>
-			<stat type="pDef">20</stat>
-			<stat type="darkRes">30</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="20" />
+			<add stat="darkRes" val="30" />
+		</for>
 	</item>
-	<item id="13688" name="Knight's Cloak (Light Armor)" type="Armor">
-		<!-- Cloak with luxurious embroidery. Dark Resistance + 30, and Can be worn by Barons or higher ranks of the clan that owns a castle. When the entire Vesper Noble or Dynasty set is worn, the Sealed Cloak Slot will be open and one can now wear the cloak. The cloak is exclusively for Bow Masters and Dagger Masters excluding Kamaels. Cannot be enchanted, augmented, or assigned an attribute. Cannot be transferred between servers. -->
+	<item id="13688" type="Armor" name="Knight's Cloak - Light Armor exclusive">
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_type" val="S84" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
+		<set name="price" val="28671000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="2453">
 			<and>
-				<player castle="-1" />
-				<!-- owns a castle -->
+				<player castle="-1" /> <!-- owns a castle -->
 				<player categoryType="ROGUE_CLOACK" />
-				<player pledgeClass="5" />
-				<!-- Baron -->
+				<player pledgeClass="5" /> <!-- Baron -->
 				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 				<player cloakStatus="true" />
 			</and>
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<stats>
-			<stat type="pDef">20</stat>
-			<stat type="darkRes">30</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="20" />
+			<add stat="darkRes" val="30" />
+		</for>
 	</item>
-	<item id="13689" name="Knight's Cloak (Robe)" type="Armor">
-		<!-- Cloak with luxurious embroidery. Dark Resistance + 30, and Can be worn by Barons or higher ranks of the clan that owns a castle. When the entire Vesper Noble or Dynasty set is worn, the Sealed Cloak Slot will be open and one can now wear the cloak. The cloak is exclusively for Healer, Enchanter, Summoner and Wizard excluding Kamaels. Cannot be enchanted, augmented, or assigned an attribute. Cannot be transferred between servers. -->
+	<item id="13689" type="Armor" name="Knight's Cloak - Robe exclusive">
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_type" val="S84" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
+		<set name="price" val="28671000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="2453">
 			<and>
-				<player castle="-1" />
-				<!-- owns a castle -->
+				<player castle="-1" /> <!-- owns a castle -->
 				<player categoryType="MAGE_CLOACK" />
-				<player pledgeClass="5" />
-				<!-- Baron -->
+				<player pledgeClass="5" /> <!-- Baron -->
 				<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
 				<player cloakStatus="true" />
 			</and>
 		</cond>
-		<cond>
-<player level="80" />
-</cond>
-		<stats>
-			<stat type="pDef">20</stat>
-			<stat type="darkRes">30</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="20" />
+			<add stat="darkRes" val="30" />
+		</for>
 	</item>
-	<item id="13690" name="Knight's Cloak (Kamael)" type="Armor">
-		<!-- Cloak with luxurious embroidery. Dark Resistance + 30, and Can be worn by Barons or higher ranks of the clan that owns a castle. When the entire Vesper Noble or Dynasty set is worn, the Sealed Cloak Slot will be open and one can now wear the cloak. Kamael-exclusive cloak. Cannot be enchanted, augmented, or assigned an attribute. Cannot be transferred between servers. -->
+	<item id="13690" type="Armor" name="Knight's Cloak - Kamael exclusive">
 		<set name="icon" val="icon.vesper_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="S80" />
+		<set name="crystal_type" val="S84" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="220" />
+		<set name="price" val="28671000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
 		<cond msgId="2453">
 			<and>
-				<player castle="-1" />
-				<!-- owns a castle -->
-				<player pledgeClass="5" />
-				<!-- Baron -->
+				<player castle="-1" /> <!-- owns a castle -->
+				<player pledgeClass="5" /> <!-- Baron -->
 				<player races="KAMAEL" />
 				<player cloakStatus="true" />
 			</and>
 		</cond>
-		<cond>
-			<player level="80" />
-		</cond>
-		<stats>
-			<stat type="pDef">20</stat>
-			<stat type="darkRes">30</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="20" />
+			<add stat="darkRes" val="30" />
+		</for>
 	</item>
-	<item id="13691" name="Mark of Keucereus - Stage 1" type="EtcItem">
-		<!-- Mark given to an adventurer who successfully completes Keucereus' order to break through to the Hall of Suffering. This mark is required for taking on higher level missions. -->
+	<item id="13691" type="EtcItem" name="Mark of Keucereus - Stage 1">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -1922,15 +1558,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13692" name="Mark of Keucereus - Stage 2" type="EtcItem">
-		<!-- Mark given to an adventurer who successfully completes Kucereus' order to conquer the Hall of Erosion. Mark given to prove heroic achievements at the Seed of Infinity. -->
+	<item id="13692" type="EtcItem" name="Mark of Keucereus - Stage 2">
 		<set name="icon" val="icon.etc_badge_silver_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
@@ -1939,15 +1569,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13693" name="Gracian Anniversary Coins" type="EtcItem">
-		<!-- Gracian Anniversary Coins. When possessed, a reward can be acquired. -->
+	<item id="13693" type="EtcItem" name="Gracian Anniversary Coins">
 		<set name="icon" val="icon.etc_coins_silver_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
@@ -1955,15 +1579,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13694" name="Gracia Key" type="EtcItem">
-		<!-- You can acquire Gracia Anniversary Coins by using a Gracian treasure chest. Cooldown is 10 min. -->
+	<item id="13694" type="EtcItem" name="Gracia Key">
 		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -1973,17 +1591,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2837" level="1" /> <!-- Gracia Key -->
-		</skills>
+		<set name="item_skill" val="2837-1" />
 	</item>
-	<item id="13695" name="Gludio Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Gludio. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13695" type="EtcItem" name="Gludio Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1994,16 +1604,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2921" level="1" /> <!-- Gludio Supply Box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2921-1" />
 	</item>
-	<item id="13696" name="Dion Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Dion. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13696" type="EtcItem" name="Dion Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -2014,16 +1617,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2922" level="1" /> <!-- Dion supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2922-1" />
 	</item>
-	<item id="13697" name="Giran Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Giran. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13697" type="EtcItem" name="Giran Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -2034,16 +1630,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2923" level="1" /> <!-- Giran supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2923-1" />
 	</item>
-	<item id="13698" name="Oren Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Oren. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13698" type="EtcItem" name="Oren Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -2054,16 +1643,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2924" level="1" /> <!-- Oren supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2924-1" />
 	</item>
-	<item id="13699" name="Aden Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Aden. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13699" type="EtcItem" name="Aden Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -2074,12 +1656,6 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2925" level="1" /> <!-- Aden supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2925-1" />
 	</item>
 </list>

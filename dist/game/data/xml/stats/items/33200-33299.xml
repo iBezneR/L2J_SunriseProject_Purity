@@ -7,22 +7,22 @@
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="58" />
-		<for>
-			<add order="0" stat="pDef" val="66" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">66</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33201" name="Blue Wolf Leather Armor of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Blue Wolf Leather Armor of Destiny (Water, Earth, Holy) with limited ability enhancement. Full body armor. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -32,23 +32,23 @@
 		<set name="bodypart" val="onepiece" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="550" />
-		<for>
-			<add order="0" stat="pDef" val="202" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">202</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33202" name="Blue Wolf Gloves of Destiny (Water, Earth, Holy)" additionalName="Light Armor" type="Armor">
 		<!-- Blue Wolf Gloves of Destiny (Water, Earth, Holy) with limited ability enhancement. Part of the light blue wolf set. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -57,23 +57,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="59" />
-		<for>
-			<add order="0" stat="pDef" val="44" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">44</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33203" name="Blue Wolf Boots of Destiny (Water, Earth, Holy)" additionalName="Light Armor" type="Armor">
 		<!-- Blue Wolf Boots of Destiny (Water, Earth, Holy) with limited ability enhancement. Part of the light blue wolf set. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -82,23 +82,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="113" />
-		<for>
-			<add order="0" stat="pDef" val="44" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">44</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33204" name="Blue Wolf Helmet of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Blue Wolf Helmet of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -107,22 +107,22 @@
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="58" />
-		<for>
-			<add order="0" stat="pDef" val="66" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">66</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33205" name="Blue Wolf Tunic of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Blue Wolf Tunic of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -132,23 +132,23 @@
 		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="192" />
-		<for>
-			<add order="0" stat="pDef" val="83" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">83</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33206" name="Blue Wolf Stockings of Destiny (Water, Earth, Holy)" type="Armor">
 		<!-- Blue Wolf Stockings of Destiny (Water, Earth, Holy) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -158,23 +158,23 @@
 		<set name="bodypart" val="legs" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="92" />
-		<for>
-			<add order="0" stat="pDef" val="52" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">52</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33207" name="Blue Wolf Gloves of Destiny (Water, Earth, Holy)" additionalName="Robe" type="Armor">
 		<!-- Blue Wolf Gloves of Destiny (Water, Earth, Holy) with limited ability enhancement. Part of the blue wolf robe set. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -183,23 +183,23 @@
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="59" />
-		<for>
-			<add order="0" stat="pDef" val="44" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">44</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33208" name="Blue Wolf Boots of Destiny (Water, Earth, Holy)" additionalName="Robe" type="Armor">
 		<!-- Blue Wolf Boots of Destiny (Water, Earth, Holy) with limited ability enhancement. Part of the blue wolf robe set. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -208,23 +208,23 @@
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="B" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="113" />
-		<for>
-			<add order="0" stat="pDef" val="44" />
-			<set stat="fireRes" val="60" />
-			<set stat="windRes" val="60" />
-			<set stat="darkRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">44</stat>
+			<stat type="fireRes">60</stat>
+			<stat type="windRes">60</stat>
+			<stat type="darkRes">60</stat>
+		</stats>
 	</item>
 	<item id="33209" name="Naga Storm of Destiny (Fire) - Critical Damage" type="Weapon">
 		<!-- Naga Storm of Destiny (Fire) with limited ability enhancement. <Special Option>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -234,30 +234,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="93" />
-        <set name="item_skill" val="3066-2" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="220" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">220</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33210" name="Sirra's Blade of Destiny (Fire) - Haste" type="Weapon">
 		<!-- Sirra's Blade of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -267,29 +269,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33211" name="Themis' Tongue of Destiny (Fire) - Mana Up" type="Weapon">
 		<!-- Themis' Tongue of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -299,45 +303,47 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="82" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33212" name="Éclair Bijou of Destiny (Fire) - Haste" type="Weapon">
-		<!-- ?clair Bijou of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
+		<!-- Éclair Bijou of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -348,16 +354,16 @@
 			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="228" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">228</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33213" name="Sword of Ipos of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Sword of Ipos of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -367,29 +373,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33214" name="Durendal of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Durendal of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -399,30 +407,32 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="272" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">272</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33215" name="Shyeed's Bow of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Shyeed's Bow of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -432,13 +442,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="820" />
@@ -446,17 +456,19 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="570" />
-			<set stat="mAtk" val="133" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">570</stat>
+			<stat type="mAtk">133</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33216" name="Screaming Vengeance of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Screaming Vengeance of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -466,13 +478,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -480,17 +492,19 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="318" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33217" name="Barakiel's Axe of Destiny (Fire) - Focus" type="Weapon">
 		<!-- Barakiel's Axe of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -500,30 +514,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33218" name="Cabrio's Hand of Destiny (Fire) - Mana Up" type="Weapon">
 		<!-- Cabrio's Hand of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -533,30 +549,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="151" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33219" name="Behemoth' Tuning Fork of Destiny (Fire) - Health" type="Weapon">
 		<!-- Behemoth' Tuning Fork of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -566,30 +584,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="189" />
-        <set name="item_skill" val="3013-5" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3013" level="5" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33220" name="Daimon Crystal of Destiny (Fire) - Acumen" type="Weapon">
 		<!-- Daimon Crystal of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -599,30 +619,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="88" />
-        <set name="item_skill" val="3047-3" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="177" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">177</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33221" name="Tiphon's Spear of Destiny (Fire) - Critical Stun" type="Weapon">
 		<!-- Tiphon's Spear of Destiny (Fire) with limited ability enhancement. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -632,13 +654,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -649,16 +671,16 @@
 			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33222" name="Sobekk's Hurricane of Destiny (Fire) - Haste" type="Weapon">
 		<!-- Sobekk's Hurricane of Destiny (Fire) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -668,30 +690,32 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="133" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33223" name="Tallum Blade*Damascus of Destiny (Fire)" type="Weapon">
 		<!-- Talum Blade*Damascus Sword of Destiny (Fire) with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -701,13 +725,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -718,15 +742,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="firePower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="firePower">150</stat>
+		</stats>
 	</item>
 	<item id="33224" name="Naga Storm of Destiny (Water) - Critical Damage" type="Weapon">
 		<!-- Naga Storm of Destiny (Water) with limited ability enhancement. <Special Option>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -736,30 +760,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="93" />
-        <set name="item_skill" val="3066-2" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="220" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">220</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33225" name="Sirra's Blade of Destiny (Water) - Haste" type="Weapon">
 		<!-- Sirra's Blade of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -769,29 +795,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33226" name="Themis' Tongue of Destiny (Water) - Mana Up" type="Weapon">
 		<!-- Themis' Tongue of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -801,45 +829,47 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="82" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33227" name="Éclair Bijou of Destiny (Water) - Haste" type="Weapon">
-		<!-- ?clair Bijou of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
+		<!-- Éclair Bijou of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -850,16 +880,16 @@
 			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="228" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">228</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33228" name="Sword of Ipos of Destiny (Water) - Focus" type="Weapon">
 		<!-- Sword of Ipos of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -869,29 +899,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33229" name="Durendal of Destiny (Water) - Focus" type="Weapon">
 		<!-- Durendal of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -901,30 +933,32 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="272" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">272</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33230" name="Shyeed's Bow of Destiny (Water) - Focus" type="Weapon">
 		<!-- Shyeed's Bow of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -934,13 +968,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="820" />
@@ -948,17 +982,19 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="570" />
-			<set stat="mAtk" val="133" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">570</stat>
+			<stat type="mAtk">133</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33231" name="Screaming Vengeance of Destiny (Water) - Focus" type="Weapon">
 		<!-- Screaming Vengeance of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -968,13 +1004,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -982,17 +1018,19 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="318" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33232" name="Barakiel's Axe of Destiny (Water) - Focus" type="Weapon">
 		<!-- Barakiel's Axe of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1002,30 +1040,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33233" name="Cabrio's Hand of Destiny (Water) - Mana Up" type="Weapon">
 		<!-- Cabrio's Hand of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1035,30 +1075,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="151" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33234" name="Behemoth' Tuning Fork of Destiny (Water) - Health" type="Weapon">
 		<!-- Behemoth' Tuning Fork of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1068,30 +1110,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="189" />
-        <set name="item_skill" val="3013-5" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3013" level="5" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33235" name="Daimon Crystal of Destiny (Water) - Acumen" type="Weapon">
 		<!-- Daimon Crystal of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1101,30 +1145,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="88" />
-        <set name="item_skill" val="3047-3" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="177" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">177</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33236" name="Tiphon's Spear of Destiny (Water) - Critical Stun" type="Weapon">
 		<!-- Tiphon's Spear of Destiny (Water) with limited ability enhancement. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1134,13 +1180,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -1151,16 +1197,16 @@
 			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33237" name="Sobekk's Hurricane of Destiny (Water) - Haste" type="Weapon">
 		<!-- Sobekk's Hurricane of Destiny (Water) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1170,30 +1216,32 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="133" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33238" name="Tallum Blade*Damascus of Destiny (Water)" type="Weapon">
 		<!-- Talum Blade*Damascus Sword of Destiny (Water) with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1203,13 +1251,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -1220,15 +1268,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="waterPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">150</stat>
+		</stats>
 	</item>
 	<item id="33239" name="Naga Storm of Destiny (Wind) - Critical Damage" type="Weapon">
 		<!-- Naga Storm of Destiny (Wind) with limited ability enhancement. <Special Option>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1238,30 +1286,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="93" />
-        <set name="item_skill" val="3066-2" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="220" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">220</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33240" name="Sirra's Blade of Destiny (Wind) - Haste" type="Weapon">
 		<!-- Sirra's Blade of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1271,29 +1321,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33241" name="Themis' Tongue of Destiny (Wind) - Mana Up" type="Weapon">
 		<!-- Themis' Tongue of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1303,45 +1355,47 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="82" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33242" name="Éclair Bijou of Destiny (Wind) - Haste" type="Weapon">
-		<!-- ?clair Bijou of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
+		<!-- Éclair Bijou of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -1352,16 +1406,16 @@
 			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="228" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">228</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33243" name="Sword of Ipos of Destiny (Wind) - Focus" type="Weapon">
 		<!-- Sword of Ipos of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1371,29 +1425,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33244" name="Durendal of Destiny (Wind) - Focus" type="Weapon">
 		<!-- Durendal of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1403,30 +1459,32 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="272" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">272</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33245" name="Shyeed's Bow of Destiny (Wind) - Focus" type="Weapon">
 		<!-- Shyeed's Bow of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1436,13 +1494,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="820" />
@@ -1450,17 +1508,19 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="570" />
-			<set stat="mAtk" val="133" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">570</stat>
+			<stat type="mAtk">133</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33246" name="Screaming Vengeance of Destiny (Wind) - Focus" type="Weapon">
 		<!-- Screaming Vengeance of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1470,13 +1530,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -1484,17 +1544,19 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="318" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33247" name="Barakiel's Axe of Destiny (Wind) - Focus" type="Weapon">
 		<!-- Barakiel's Axe of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1504,30 +1566,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33248" name="Cabrio's Hand of Destiny (Wind) - Mana Up" type="Weapon">
 		<!-- Cabrio's Hand of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1537,30 +1601,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="151" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33249" name="Behemoth' Tuning Fork of Destiny (Wind) - Health" type="Weapon">
 		<!-- Behemoth' Tuning Fork of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1570,30 +1636,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="189" />
-        <set name="item_skill" val="3013-5" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3013" level="5" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33250" name="Daimon Crystal of Destiny (Wind) - Acumen" type="Weapon">
 		<!-- Daimon Crystal of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1603,30 +1671,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="88" />
-        <set name="item_skill" val="3047-3" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="177" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">177</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33251" name="Tiphon's Spear of Destiny (Wind) - Critical Stun" type="Weapon">
 		<!-- Tiphon's Spear of Destiny (Wind) with limited ability enhancement. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1636,13 +1706,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -1653,16 +1723,16 @@
 			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33252" name="Sobekk's Hurricane of Destiny (Wind) - Haste" type="Weapon">
 		<!-- Sobekk's Hurricane of Destiny (Wind) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1672,30 +1742,32 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="133" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33253" name="Tallum Blade*Damascus of Destiny (Wind)" type="Weapon">
 		<!-- Talum Blade*Damascus Sword of Destiny (Wind) with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -1705,13 +1777,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -1722,15 +1794,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="windPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="windPower">150</stat>
+		</stats>
 	</item>
 	<item id="33254" name="Naga Storm of Destiny (Earth) - Critical Damage" type="Weapon">
 		<!-- Naga Storm of Destiny (Earth) with limited ability enhancement. <Special Option>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1740,30 +1812,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="93" />
-        <set name="item_skill" val="3066-2" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="220" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">220</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33255" name="Sirra's Blade of Destiny (Earth) - Haste" type="Weapon">
 		<!-- Sirra's Blade of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1773,29 +1847,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33256" name="Themis' Tongue of Destiny (Earth) - Mana Up" type="Weapon">
 		<!-- Themis' Tongue of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1805,45 +1881,47 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="82" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33257" name="Éclair Bijou of Destiny (Earth) - Haste" type="Weapon">
-		<!-- ?clair Bijou of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
+		<!-- Éclair Bijou of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -1854,16 +1932,16 @@
 			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="228" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">228</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33258" name="Sword of Ipos of Destiny (Earth) - Focus" type="Weapon">
 		<!-- Sword of Ipos of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1873,29 +1951,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33259" name="Durendal of Destiny (Earth) - Focus" type="Weapon">
 		<!-- Durendal of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1905,30 +1985,32 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="272" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">272</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33260" name="Shyeed's Bow of Destiny (Earth) - Focus" type="Weapon">
 		<!-- Shyeed's Bow of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1938,13 +2020,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="820" />
@@ -1952,17 +2034,19 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="570" />
-			<set stat="mAtk" val="133" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">570</stat>
+			<stat type="mAtk">133</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33261" name="Screaming Vengeance of Destiny (Earth) - Focus" type="Weapon">
 		<!-- Screaming Vengeance of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -1972,13 +2056,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -1986,17 +2070,19 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="318" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33262" name="Barakiel's Axe of Destiny (Earth) - Focus" type="Weapon">
 		<!-- Barakiel's Axe of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2006,30 +2092,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33263" name="Cabrio's Hand of Destiny (Earth) - Mana Up" type="Weapon">
 		<!-- Cabrio's Hand of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2039,30 +2127,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="151" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33264" name="Behemoth' Tuning Fork of Destiny (Earth) - Health" type="Weapon">
 		<!-- Behemoth' Tuning Fork of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2072,30 +2162,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="189" />
-        <set name="item_skill" val="3013-5" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3013" level="5" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33265" name="Daimon Crystal of Destiny (Earth) - Acumen" type="Weapon">
 		<!-- Daimon Crystal of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2105,30 +2197,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="88" />
-        <set name="item_skill" val="3047-3" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="177" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">177</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33266" name="Tiphon's Spear of Destiny (Earth) - Critical Stun" type="Weapon">
 		<!-- Tiphon's Spear of Destiny (Earth) with limited ability enhancement. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2138,13 +2232,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -2155,16 +2249,16 @@
 			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33267" name="Sobekk's Hurricane of Destiny (Earth) - Haste" type="Weapon">
 		<!-- Sobekk's Hurricane of Destiny (Earth) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2174,30 +2268,32 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="133" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33268" name="Tallum Blade*Damascus of Destiny (Earth)" type="Weapon">
 		<!-- Talum Blade*Damascus Sword of Destiny (Earth) with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2207,13 +2303,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -2224,15 +2320,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="earthPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="earthPower">150</stat>
+		</stats>
 	</item>
 	<item id="33269" name="Naga Storm of Destiny (Holy) - Critical Damage" type="Weapon">
 		<!-- Naga Storm of Destiny (Holy) with limited ability enhancement. <Special Option>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2242,30 +2338,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="93" />
-        <set name="item_skill" val="3066-2" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="220" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">220</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33270" name="Sirra's Blade of Destiny (Holy) - Haste" type="Weapon">
 		<!-- Sirra's Blade of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2275,29 +2373,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33271" name="Themis' Tongue of Destiny (Holy) - Mana Up" type="Weapon">
 		<!-- Themis' Tongue of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2307,45 +2407,47 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="82" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33272" name="Éclair Bijou of Destiny (Holy) - Haste" type="Weapon">
-		<!-- ?clair Bijou of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
+		<!-- Éclair Bijou of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -2356,16 +2458,16 @@
 			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="228" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">228</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33273" name="Sword of Ipos of Destiny (Holy) - Focus" type="Weapon">
 		<!-- Sword of Ipos of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2375,29 +2477,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33274" name="Durendal of Destiny (Holy) - Focus" type="Weapon">
 		<!-- Durendal of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2407,30 +2511,32 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="272" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">272</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33275" name="Shyeed's Bow of Destiny (Holy) - Focus" type="Weapon">
 		<!-- Shyeed's Bow of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2440,13 +2546,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="820" />
@@ -2454,17 +2560,19 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="570" />
-			<set stat="mAtk" val="133" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">570</stat>
+			<stat type="mAtk">133</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33276" name="Screaming Vengeance of Destiny (Holy) - Focus" type="Weapon">
 		<!-- Screaming Vengeance of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2474,13 +2582,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -2488,17 +2596,19 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="318" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33277" name="Barakiel's Axe of Destiny (Holy) - Focus" type="Weapon">
 		<!-- Barakiel's Axe of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2508,30 +2618,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33278" name="Cabrio's Hand of Destiny (Holy) - Mana Up" type="Weapon">
 		<!-- Cabrio's Hand of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2541,30 +2653,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="151" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33279" name="Behemoth' Tuning Fork of Destiny (Holy) - Health" type="Weapon">
 		<!-- Behemoth' Tuning Fork of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2574,30 +2688,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="189" />
-        <set name="item_skill" val="3013-5" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3013" level="5" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33280" name="Daimon Crystal of Destiny (Holy) - Acumen" type="Weapon">
 		<!-- Daimon Crystal of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2607,30 +2723,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="88" />
-        <set name="item_skill" val="3047-3" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="177" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">177</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33281" name="Tiphon's Spear of Destiny (Holy) - Critical Stun" type="Weapon">
 		<!-- Tiphon's Spear of Destiny (Holy) with limited ability enhancement. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2640,13 +2758,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -2657,16 +2775,16 @@
 			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33282" name="Sobekk's Hurricane of Destiny (Holy) - Haste" type="Weapon">
 		<!-- Sobekk's Hurricane of Destiny (Holy) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2676,30 +2794,32 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="133" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33283" name="Tallum Blade*Damascus of Destiny (Holy)" type="Weapon">
 		<!-- Talum Blade*Damascus Sword of Destiny (Holy) with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -2709,13 +2829,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -2726,15 +2846,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="holyPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
 	</item>
 	<item id="33284" name="Naga Storm of Destiny (Dark) - Critical Damage" type="Weapon">
 		<!-- Naga Storm of Destiny (Dark) with limited ability enhancement. <Special Option>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2744,30 +2864,32 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="93" />
-        <set name="item_skill" val="3066-2" /> <!-- Special Ability: Critical Damage -->
-		<for>
-			<set stat="pAtk" val="220" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
+		</skills>
+		<stats>
+			<stat type="pAtk">220</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33285" name="Sirra's Blade of Destiny (Dark) - Haste" type="Weapon">
 		<!-- Sirra's Blade of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2777,29 +2899,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="130" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33286" name="Themis' Tongue of Destiny (Dark) - Mana Up" type="Weapon">
 		<!-- Themis' Tongue of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2809,45 +2933,47 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="82" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33287" name="Éclair Bijou of Destiny (Dark) - Haste" type="Weapon">
-		<!-- ?clair Bijou of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
+		<!-- Éclair Bijou of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. When enchanted to 4 or more, it Has a chance of increasing P. Atk., M. Atk., and healing power, and decreasing MP consumption for skill use for you and your party members during a Critical Attack. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
 		<set name="icon" val="icon.weapon_greed_stinger_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -2858,16 +2984,16 @@
 			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
 			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="228" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="40" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">228</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33288" name="Sword of Ipos of Destiny (Dark) - Focus" type="Weapon">
 		<!-- Sword of Ipos of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2877,29 +3003,31 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33289" name="Durendal of Destiny (Dark) - Focus" type="Weapon">
 		<!-- Durendal of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2909,30 +3037,32 @@
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="182" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="272" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="15" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">272</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33290" name="Shyeed's Bow of Destiny (Dark) - Focus" type="Weapon">
 		<!-- Shyeed's Bow of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2942,13 +3072,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="820" />
@@ -2956,17 +3086,19 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="570" />
-			<set stat="mAtk" val="133" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">570</stat>
+			<stat type="mAtk">133</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33291" name="Screaming Vengeance of Destiny (Dark) - Focus" type="Weapon">
 		<!-- Screaming Vengeance of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -2976,13 +3108,13 @@
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="reuse_delay" val="400" />
@@ -2990,17 +3122,19 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="164" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="318" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33292" name="Barakiel's Axe of Destiny (Dark) - Focus" type="Weapon">
 		<!-- Barakiel's Axe of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Critical by 61. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3010,30 +3144,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="155" />
-        <set name="item_skill" val="3050-2" /> <!-- Special Ability: Focus -->
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
+		</skills>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33293" name="Cabrio's Hand of Destiny (Dark) - Mana Up" type="Weapon">
 		<!-- Cabrio's Hand of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Max MP by 30%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3043,30 +3179,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="151" />
-        <set name="item_skill" val="3014-3" /> <!-- Special Ability: Mana Up -->
-		<for>
-			<set stat="pAtk" val="202" />
-			<set stat="mAtk" val="161" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
+		</skills>
+		<stats>
+			<stat type="pAtk">202</stat>
+			<stat type="mAtk">161</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33294" name="Behemoth' Tuning Fork of Destiny (Dark) - Health" type="Weapon">
 		<!-- Behemoth' Tuning Fork of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Max HP by 25%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3076,30 +3214,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="189" />
-        <set name="item_skill" val="3013-5" /> <!-- Special Ability: Health -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3013" level="5" /> <!-- Special Ability: Health -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33295" name="Daimon Crystal of Destiny (Dark) - Acumen" type="Weapon">
 		<!-- Daimon Crystal of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3109,30 +3249,32 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="88" />
-        <set name="item_skill" val="3047-3" /> <!-- Special Ability: Acumen -->
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="177" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
+		</skills>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">177</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33296" name="Tiphon's Spear of Destiny (Dark) - Critical Stun" type="Weapon">
 		<!-- Tiphon's Spear of Destiny (Dark) with limited ability enhancement. <Special Option>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3142,13 +3284,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -3159,16 +3301,16 @@
 			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="251" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">251</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33297" name="Sobekk's Hurricane of Destiny (Dark) - Haste" type="Weapon">
 		<!-- Sobekk's Hurricane of Destiny (Dark) with limited ability enhancement. <Special Option>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. No Soul Crystal option. -->
@@ -3178,30 +3320,32 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="133" />
-        <set name="item_skill" val="3068-3" /> <!-- Special Ability: Haste -->
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<skills>
+			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
+		</skills>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33298" name="Tallum Blade*Damascus of Destiny (Dark)" type="Weapon">
 		<!-- Talum Blade*Damascus Sword of Destiny (Dark) with limited ability enhancement. When enchanted, P. Atk. of a dualsword increases more significantly than that of a one-handed or fist weapon. When enchanted to 4 or more, Atk. Spd. Increases by 8%. Inflicts additional damage to target during PvP. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -3211,13 +3355,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="6" />
@@ -3228,15 +3372,15 @@
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
 			<skill id="3045" level="17" type="ON_ENCHANT" type_value="4" /> <!-- Special Ability: Haste -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="305" />
-			<set stat="mAtk" val="121" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-			<set stat="pAtkRange" val="40" />
-			<set stat="darkPower" val="150" />
-		</for>
+		<stats>
+			<stat type="pAtk">305</stat>
+			<stat type="mAtk">121</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="darkPower">150</stat>
+		</stats>
 	</item>
 	<item id="33299" name="Majestic Circlet of Destiny (Fire, Wind, Dark)" type="Armor">
 		<!-- Majestic Circlet of Destiny (Fire, Wind, Dark) with limited ability enhancement. This item cannot be enhanced except with Destiny Enchant Scrolls. -->
@@ -3245,21 +3389,21 @@
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="A" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="enchant_enabled" val="6" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="55" />
-		<for>
-			<add order="0" stat="pDef" val="73" />
-			<set stat="waterRes" val="60" />
-			<set stat="earthRes" val="60" />
-			<set stat="holyRes" val="60" />
-		</for>
+		<stats>
+			<stat type="pDef">73</stat>
+			<stat type="waterRes">60</stat>
+			<stat type="earthRes">60</stat>
+			<stat type="holyRes">60</stat>
+		</stats>
 	</item>
 </list>

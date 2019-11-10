@@ -122,7 +122,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="time" val="43200" />
 	</item>
-	<item id="47914" name="Advanced RedandBlue Cat's Eye Treasure Chest" additionalName="30-day" type="EtcItem">
+	<item id="47914" name="Advanced Red and Blue Cat's Eye Treasure Chest" additionalName="30-day" type="EtcItem">
 		<!-- Double-click to obtain a Greater Vital Stone (30-day fixed term) and a Blue Cat's Eye (30-day fixed term). -->
 		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
 		<set name="default_action" val="PEEL" />
@@ -165,21 +165,23 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="time" val="43200" />
-		<set name="item_skill" val="13975-1" /> <!-- Nevit's Cloak of Light -->
 		<cond msgId="2453">
 			<player cloakStatus="true" />
 		</cond>
 		<cond>
 			<player level="80" />
 		</cond>
-		<for>
-			<set stat="mDef" val="80" />
-			<add order="0" stat="pDef" val="100" />
-		</for>
+		<skills>
+			<skill id="13975" level="1" /> <!-- Nevit's Cloak of Light -->
+		</skills>
+		<stats>
+			<stat type="mDef">80</stat>
+			<stat type="pDef">100</stat>
+		</stats>
 	</item>
 	<item id="47918" name="Nevit's Gold Hourglass" type="EtcItem">
 		<!-- When used, increases EXP/SP from hunting by 50%, and every 5 billion EXP, a Stand of Shining Growth is obtained for 30 minutes. Cannot be used with Fall of the Dragon, Dandy's Home Run Ball, and Agathion - EXP Bottle. Cooldown 5 minutes. -->
@@ -210,7 +212,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47921" name="Greater Red Cat's Eye" additionalName="30-day" type="Armor">
 		<!-- Increases P. Critical Damage by 12%, P. Skill Critical Damage by 12%, and P. Skill Power by 5%. When you wear the same type of gemstone, only the effect of the highest level gem is applied. -->
@@ -225,7 +227,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47922" name="Greater Blue Cat's Eye" additionalName="30-day" type="Armor">
 		<!-- Increases Magic Critical Damage by 12%, M. Skill Power by 5%. When you wear the same type of gemstone, only the effect of the highest level gem is applied. -->
@@ -240,7 +242,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47923" name="Greater Tanzanite" additionalName="30-day" type="Armor">
 		<!-- When used, it creates a shield that absorbs 50,000 damage for 15 seconds and recovers 15% of maximum HP immediately after use. When you wear the same type of gemstone, only the effect of the highest level gem is applied. -->
@@ -255,7 +257,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47924" name="Coin of Light" type="EtcItem">
 		<!-- A special coin obtained using Shiny Magic Bait. Can be used with the Dimensional Merchant. -->
@@ -266,7 +268,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47925" name="Red Libra Request - Altar of Shilen" type="EtcItem">
@@ -280,7 +282,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47926" name="Red Libra Request - Altar of Shilen" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Altar of Shilen. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -291,7 +293,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47927" name="Magic Fan - Blue" type="Weapon">
 		<!-- Within the swift breezes you can feel a magic energy. This magic fan is given out to commemorate the 13th anniversary of Lineage 2. -->
@@ -310,15 +312,15 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="is_freightable" val="true" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="47928" name="Magic Woodpile" type="EtcItem">
 		<!-- Double-click to use a magic woodpile for one player. If you have the Magic Fan equipped, you can use the skills Breeze and Gust to set fire to the woodpile. Will be deleted when the event has concluded. -->
@@ -498,15 +500,15 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
 		<set name="is_freightable" val="true" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="critRate" val="6" />
-			<set stat="accCombat" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="critRate">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="47946" name="Magic Flame" type="EtcItem">
 		<!-- Double-click to send the Magic Flame towards heaven and receive a reward. Many people send their hopes and wishes towards heaven with this flame for luck. It is said that the wishes will come true if the flame reaches the sky without extinguishing. Maybe you will receive a reward if you send it up with a wish. Will be deleted when the event has concluded. -->

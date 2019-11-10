@@ -6,18 +6,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26880-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26880" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25701" name="Maid Costume Appearance Stone" additionalName="Top-grade / Damage Reflect Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect Resistance + 15%. -->
@@ -25,18 +27,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26881-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26881" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25702" name="Maid Costume Appearance Stone" additionalName="Top-grade / Ranged Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Bow/Crossbow Resistance + 10%. -->
@@ -44,18 +48,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26882-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26882" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25703" name="Maid Costume Appearance Stone" additionalName="Top-grade / P. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P. Def. + 10%. -->
@@ -63,18 +69,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26883-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26883" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25704" name="Maid Costume Appearance Stone" additionalName="Top-grade / M. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, M. Def. + 10%. -->
@@ -82,18 +90,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26884-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26884" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25705" name="Maid Costume Appearance Stone" additionalName="Top-grade / Attribute Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Attribute Resistance + 15. -->
@@ -101,18 +111,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26885-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26885" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25706" name="Maid Costume Appearance Stone" additionalName="Top-grade / Received Heal Amount Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Received Heal Amount + 15%. -->
@@ -120,18 +132,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26886-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26886" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25707" name="Maid Costume Appearance Stone" additionalName="Top-grade / Max. HP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. HP + 15%. -->
@@ -139,18 +153,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26887-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26887" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25708" name="Maid Costume Appearance Stone" additionalName="Top-grade / Max. MP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. MP + 10%. -->
@@ -158,18 +174,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26888-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26888" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25709" name="Maid Costume Appearance Stone" additionalName="Top-grade / Max CP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. CP + 15%. -->
@@ -177,18 +195,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26889-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26889" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25710" name="Maid Costume Appearance Stone" additionalName="Top-grade / Speed Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Speed + 15. -->
@@ -196,18 +216,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26890-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26890" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25711" name="Maid Costume Appearance Stone" additionalName="Top-grade / HP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, HP Recovery Bonus + 16. -->
@@ -215,18 +237,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26891-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26891" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25712" name="Maid Costume Appearance Stone" additionalName="Top-grade / MP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, MP Recovery Bonus + 8. -->
@@ -234,18 +258,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26892-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26892" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25713" name="Maid Costume Appearance Stone" additionalName="Top-grade / Evasion Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P./M. Evasion + 8. -->
@@ -253,18 +279,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26893-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26893" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25714" name="Maid Costume Appearance Stone" additionalName="Top-grade / Option 15" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 15. -->
@@ -272,18 +300,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26894-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26894" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25715" name="Maid Costume Appearance Stone" additionalName="Top-grade / Option 16" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 16. -->
@@ -291,18 +321,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26895-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26895" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25716" name="Maid Costume Appearance Stone" additionalName="Top-grade / Option 17" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 17. -->
@@ -310,18 +342,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26896-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26896" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25717" name="Maid Costume Appearance Stone" additionalName="Top-grade / Option 18" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 18. -->
@@ -329,18 +363,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26897-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26897" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25718" name="Maid Costume Appearance Stone" additionalName="Top-grade / Option 19" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 19. -->
@@ -348,18 +384,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26898-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26898" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25719" name="Maid Costume Appearance Stone" additionalName="Top-grade / Option 20" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Maid Costume. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 20. -->
@@ -367,18 +405,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26899-1" /> <!-- Maid Costume Appearance Stone -->
+		<skills>
+			<skill id="26899" level="1" /> <!-- Maid Costume Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25720" name="Visual Enchant Stone" additionalName="Low-grade / Debuff Reflect" type="EtcItem">
 		<!-- Talk to the Fantasy Isle Paddy to trade Male/Female Swimsuit, Formal Wear, Santa Outfit, Beach/Alluring/Seductive Swimsuit, and Maid Costume into Debuff Reflect + 3% Appearance Stone. -->
@@ -832,10 +872,10 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<capsuled_items>
 			<item id="37868" min="1" max="1" chance="100" /> <!-- Hero's Weapon: Dagger - 15-day -->
 			<item id="37869" min="1" max="1" chance="100" /> <!-- Hero's Weapon: One-handed Sword - 15-day -->
@@ -857,13 +897,13 @@
 		<!-- Has a chance of obtaining a Mysterious Soulshot, Mysterious Blessed Spiritshot, Gemstone (R-grade), Crystal (R-grade), Large Firecracker, Attribute Crystal, Attribute Stone, Scroll: PK, Blessed Scroll of Resurrection, Superior Giant's Codex, croll: Enchant Armor (R-grade), Riding Manual: Lyn Draco, Rare Soul Crystal Pack (R-grade), Kaliel's Energy Box, Dark/Blood Amaranthine Enhancement Stone, Elcyum, Elcyum Powder/Crystal, Life Stone Instilled with Giants' Power, Giant's Energy, or 1 of the 3 Energy of Destruction boxes. -->
 		<set name="icon" val="icon.present_of_destination_event" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="CAPSULE" />
@@ -878,8 +918,10 @@
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
-        <set name="item_skill" val="9396-1" /> <!-- Scroll: Enchant Elemental Shirt -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9396" level="1" /> <!-- Scroll: Enchant Elemental Shirt -->
+		</skills>
 	</item>
 	<item id="25793" name="Blessed Scroll: Enchant Elemental Shirt" type="EtcItem">
 		<!-- Enchant Scroll exclusive to Pa'agrio, Sayha, Maphr and Eva Shirts. When enchanted, increases P. Def. and M. Def. by 1. From +3, Elemental defense increases by 3, and from +4, P. Def. Increases by 3. Can be safely enchanted up to +3 and can be enchanted up to a max of +10. Basic stats (CON, MEN, STR, INT, DEX, WIT) are gradually increased with each enchant level starting from +4. At +5, +6, +7, +8, +9, and +10, additional bonuses are also applied. If enchanting fails, the enchant value will be reset to 0. -->
@@ -890,20 +932,22 @@
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
-        <set name="item_skill" val="9397-1" /> <!-- Blessed Scroll: Enchant Elemental Shirt -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9397" level="1" /> <!-- Blessed Scroll: Enchant Elemental Shirt -->
+		</skills>
 	</item>
 	<item id="25794" name="Transformation Scroll: Priestess Tsubaki" type="EtcItem">
 		<!-- For 30 min., Priestess Tsubaki's spirit stays with you, increasing your Speed. Cannot be exchanged, dropped, or sold. Can be stored in the private warehouse. -->
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="is_stackable" val="true" />
@@ -913,66 +957,68 @@
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="26917-1" /> <!-- Transformation Scroll: Priestess Tsubaki -->
+		<skills>
+			<skill id="26917" level="1" /> <!-- Transformation Scroll: Priestess Tsubaki -->
+		</skills>
 	</item>
 	<item id="25795" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Solo" type="EtcItem">
 		<!-- Kartia's Labyrinth Extra Pass delivered to adventurers from the Kartia Research Center. When used, you can reset your instance timer for the level 85 solo dungeon. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="25796" name="Entrance Pass: Kartia's Labyrinth Lv. 90 Solo" type="EtcItem">
 		<!-- Kartia's Labyrinth Extra Pass delivered to adventurers from the Kartia Research Center. When used, you can reset your instance timer for the level 90 solo dungeon. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="25797" name="Entrance Pass: Kartia's Labyrinth Lv. 95 Solo" type="EtcItem">
 		<!-- Kartia's Labyrinth Extra Pass delivered to adventurers from the Kartia Research Center. When used, you can reset your instance timer for the level 95 solo dungeon. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="25798" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Party" type="EtcItem">
 		<!-- Kartia's Labyrinth Extra Pass delivered to adventurers from the Kartia Research Center. When used, you can reset your instance timer for the level 85 party dungeon. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="25799" name="Entrance Pass: Kartia's Labyrinth Lv. 90 Party" type="EtcItem">
 		<!-- Kartia's Labyrinth Extra Pass delivered to adventurers from the Kartia Research Center. When used, you can reset your instance timer for the level 90 party dungeon. -->
 		<set name="icon" val="icon.etc_ticket_red_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 </list>

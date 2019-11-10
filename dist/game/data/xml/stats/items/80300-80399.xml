@@ -160,10 +160,14 @@
 		<!-- A fragment of the Fafurion Dual Dagger. Can be upgraded through Lionel Hunter the Fafurion s Watcher. Enchantment, Soul Crystal, Augment, Crystallization, Appearance Modification, Attribute Assignment allowed. -->
 		<set name="icon" val="icon.fafurion_dual_dagger_i00" />
 		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
 		<stats>
 			<stat type="pAtk">1039</stat>
 			<stat type="mAtk">517</stat>
@@ -171,27 +175,25 @@
 			<stat type="accCombat">-3.75</stat>
 			<stat type="pAtkSpd">433</stat>
 			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
+			<stat type="pAtkRange">40</stat>
 		</stats>
 	</item>
 	<item id="80316" name="Fafurion Dual Dagger" additionalName="Standard" type="Weapon">
 		<!-- A weapon bestowed with the dragon s power. When equipped, PvP Damage +30%, Max HP/ MP/ CP +30%, Atk. Spd. +30%, P. Critical Rate +100, P. Skill Critical Rate +30%, P. Skill Critical Damage +30%, and Damage to Dragons +100%. Can be upgraded through Lionel Hunter the Fafurion s Watcher. No Enchantment Augment, Crystallization, Appearance Modification, or Attribute Assignment allowed. Can bestow 1 special Soul Crystal. -->
 		<set name="icon" val="icon.fafurion_dual_dagger_i01" />
-		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_destroyable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="bodypart" val="lrhand" />
-		<set name="weight" val="2050" />
-		<set name="immediate_effect" val="true" />
-		<set name="damage_range" val="0;0;44;120" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
+		<skills>
+			<skill id="8900" level="1" /> <!-- Dragon Fighter -->
+			<skill id="8890" level="1" /> <!-- Dignity -->
+		</skills>
 		<stats>
 			<stat type="pAtk">1877</stat>
 			<stat type="mAtk">935</stat>
@@ -199,17 +201,27 @@
 			<stat type="accCombat">-3.75</stat>
 			<stat type="pAtkSpd">433</stat>
 			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">500</stat>
 		</stats>
 	</item>
 	<item id="80317" name="Fafurion Dual Dagger" additionalName="High-Grade" type="Weapon">
 		<!-- A weapon bestowed with the dragon s power. When equipped, PvP Damage +30%, Max HP/ MP/ CP +30%, Atk. Spd. +30%, P. Critical Rate +100, P. Skill Critical Rate +30%, P. Skill Critical Damage +30%, and Damage to Dragons +100%. Additionally enables active skills Dignity and Fafurion Rising Wave. Can be upgraded through Lionel Hunter the Fafurion s Watcher. No Enchantment Augment, Crystallization, Appearance Modification, or Attribute Assignment allowed. Can bestow 1 special Soul Crystal. -->
 		<set name="icon" val="icon.fafurion_dual_dagger_i01" />
 		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
+		<skills>
+			<skill id="8900" level="1" /> <!-- Dragon Fighter -->
+			<skill id="8890" level="1" /> <!-- Dignity -->
+			<skill id="35272" level="1" /> <!-- Fafurion Raging Waves -->
+		</skills>
 		<stats>
 			<stat type="pAtk">2177</stat>
 			<stat type="mAtk">1084</stat>
@@ -217,17 +229,28 @@
 			<stat type="accCombat">-3.75</stat>
 			<stat type="pAtkSpd">433</stat>
 			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">999</stat>
 		</stats>
 	</item>
 	<item id="80318" name="Fafurion Dual Dagger" additionalName="Top-grade" type="Weapon">
 		<!-- A weapon bestowed with the dragon s power. When equipped, PvP Damage +50%, Max HP/ MP/ CP +100%, Atk. Spd. +100%, P. Critical Rate +500, P. Skill Critical Rate +50%, P. Skill Critical Damage +50%, and Damage to Dragons +300%. Additionally enables active skills Dignity, Fafurion Rising Wave, and Fafurion s Breath. Enchantment Augment, Crystallization, Appearance Modification, Attribute Assignment allowed. Can bestow 1 special Soul Crystal. -->
 		<set name="icon" val="icon.fafurion_dual_dagger_i01" />
 		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
+		<skills>
+			<skill id="8901" level="1" /> <!-- Dragon Knight -->
+			<skill id="8890" level="1" /> <!-- Dignity -->
+			<skill id="35272" level="1" /> <!-- Fafurion Raging Waves -->
+			<skill id="35271" level="1" /> <!-- Fafurion's Breath -->
+		</skills>
 		<stats>
 			<stat type="pAtk">2523</stat>
 			<stat type="mAtk">1257</stat>
@@ -235,7 +258,8 @@
 			<stat type="accCombat">-3.75</stat>
 			<stat type="pAtkSpd">433</stat>
 			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="waterPower">999</stat>
 		</stats>
 	</item>
 	<item id="80319" name="Enchanted Leviathan Sigil" additionalName="Robe" type="Armor">
@@ -245,11 +269,14 @@
 		<set name="armor_type" val="SIGIL" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="R" />
+		<set name="crystal_type" val="R110" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="920" />
 		<set name="price" val="88681000" />
 		<set name="enchant_enabled" val="1" />
+		<skills>
+			<skill id="35295" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Leviathan Sigil Enchantment Effect -->
+		</skills>
 		<stats>
 			<stat type="pDef">59</stat>
 			<stat type="pAtkRange">40</stat>
@@ -269,6 +296,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="BRACELET" />
+		<skills>
+			<skill id="35352" level="1" /> <!-- Paulina Twilight Bracelet -->
+		</skills>
 	</item>
 	<item id="80321" name="Bloody Cloak" type="Armor">
 		<!-- A limited-edition cloak that a Dwarf Artisan has stitched with great care to celebrate the opening of the Bloody Server. Can be used only in the Bloody Server. <Additional option>. All stats +1, all Attribute Resistance +5 -->
@@ -306,6 +337,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
 	</item>
 	<item id="80324" name="Fragment of Power" type="EtcItem">
 		<!-- A Fragment of Power obtained by defeating Fafurion s minions. It still contains the power that Fafurion bestowed upon his men guarding his temple. Gather the fragments and take them to Lupicia at the entrance of Fafurion Temple. -->
@@ -317,6 +349,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
 	</item>
 	<item id="80325" name="Deformed Claw" type="EtcItem">
 		<!-- Proof of the secret relationship between Krofins and Fafurion. The deformed claws indicate that Fafurion has bestowed some of his power upon the Krofins. Gather the claws and take them to Lionel Hunter in Heine. -->
@@ -328,6 +361,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
 	</item>
 	<item id="80326" name="Broken Contract Fragments" type="EtcItem">
 		<!-- Proof that the contract between the priestess kin and Fafurion is weakening after the death of Priestess Parme. This fragment of the contract may lead you to find clues to Fafurion. Gather them and take them to Lionel Hunter in Heine. -->
@@ -339,6 +373,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
 	</item>
 	<item id="80327" name="Recipe: Krishna Dual Sword (60%)" type="EtcItem">
 		<!-- For Dwarves only. Recipe for a Krishna Dual Sword. Requires Create Item - Skill Level 15. The success rate is 60%. -->
@@ -412,10 +447,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="R" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="8" />
 		<stats>
 			<stat type="mDef">292</stat>
 		</stats>
@@ -426,10 +460,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="R" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="8" />
 		<stats>
 			<stat type="mDef">219</stat>
 		</stats>
@@ -440,10 +473,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_type" val="R" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="8" />
 		<stats>
 			<stat type="mDef">146</stat>
 		</stats>
@@ -459,7 +491,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases P. Critical Damage. -->
 		<set name="icon" val="icon.weapon_R99_dagger_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="DUAL" />
+		<set name="weapon_type" val="DAGGER" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
 		<set name="material" val="STEEL" />
@@ -469,6 +501,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="DAGGER" />
 		<stats>
 			<stat type="pAtk">629</stat>
 			<stat type="mAtk">313</stat>
@@ -493,6 +526,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="ONE_HAND_SWORD" />
 		<stats>
 			<stat type="pAtk">719</stat>
 			<stat type="mAtk">313</stat>
@@ -506,7 +540,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases Atk. Spd additionally. -->
 		<set name="icon" val="icon.weapon_R99_twohand_sword_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="BLUNT" />
+		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -517,6 +551,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="TWO_HAND_SWORD" />
 		<stats>
 			<stat type="pAtk">875</stat>
 			<stat type="mAtk">313</stat>
@@ -530,7 +565,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases P. Critical Damage. -->
 		<set name="icon" val="icon.weapon_R99_onehand_blunt_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="POLE" />
+		<set name="weapon_type" val="BLUNT" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
 		<set name="material" val="FINE_STEEL" />
@@ -540,6 +575,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="BLUNT_WEAPON" />
 		<skills>
 			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
 		</skills>
@@ -556,7 +592,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases Atk. Spd and Atk. Spd additionally. -->
 		<set name="icon" val="icon.weapon_R99_fist_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="FISHINGROD" />
+		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -567,6 +603,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
 		<stats>
 			<stat type="pAtk">875</stat>
 			<stat type="mAtk">313</stat>
@@ -581,7 +618,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases Multi Attack additionally. -->
 		<set name="icon" val="icon.weapon_R99_spear_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="ETC" />
+		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -592,6 +629,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="SPEAR" />
 		<stats>
 			<stat type="pAtk">719</stat>
 			<stat type="mAtk">313</stat>
@@ -606,7 +644,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases P. Skill Power. -->
 		<set name="icon" val="icon.weapon_R99_bow_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="RAPIER" />
+		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -617,6 +655,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="BOW" />
 		<stats>
 			<stat type="pAtk">1415</stat>
 			<stat type="mAtk">313</stat>
@@ -631,6 +670,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases Atk. Spd. -->
 		<set name="icon" val="icon.weapon_R99_crossbow_pve_i00" />
 		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -639,6 +679,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="CROSSBOW" />
 		<stats>
 			<stat type="pAtk">1274</stat>
 			<stat type="mAtk">313</stat>
@@ -653,7 +694,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, M. Accuracy and M. Critical Rate increase. -->
 		<set name="icon" val="icon.weapon_R99_onehand_magic_sword_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="DAGGER" />
+		<set name="weapon_type" val="SWORD" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
 		<set name="material" val="STEEL" />
@@ -663,6 +704,8 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
+		<set name="is_magic_weapon" val="true" />
 		<stats>
 			<stat type="pAtk">575</stat>
 			<stat type="mAtk">417</stat>
@@ -675,7 +718,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, M. Accuracy and M. Critical Damage increase. -->
 		<set name="icon" val="icon.weapon_R99_onehand_magic_blunt_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="BOW" />
+		<set name="weapon_type" val="BLUNT" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
 		<set name="material" val="WOOD" />
@@ -685,6 +728,8 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="is_magic_weapon" val="true" />
 		<stats>
 			<stat type="pAtk">575</stat>
 			<stat type="mAtk">417</stat>
@@ -699,7 +744,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases M. Atk., M. Critical Damage, and Casting Spd. -->
 		<set name="icon" val="icon.weapon_R99_twohand_magic_blunt_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="ETC" />
+		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -710,6 +755,8 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="is_magic_weapon" val="true" />
 		<stats>
 			<stat type="pAtk">700</stat>
 			<stat type="mAtk">459</stat>
@@ -724,7 +771,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases P. Critical Rate and P. Atk. additionally. -->
 		<set name="icon" val="icon.weapon_R99_dual_sword_pve_i00" />
 		<set name="default_action" val="EQUIP" />
-		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -735,6 +782,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="DUALSWORD" />
 		<stats>
 			<stat type="pAtk">875</stat>
 			<stat type="mAtk">313</stat>
@@ -748,6 +796,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases P. Critical Damage and P. Atk. additionally. -->
 		<set name="icon" val="icon.weapon_R99_dual_dagger_pve_i00" />
 		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -756,6 +805,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="DUAL_DAGGER" />
 		<stats>
 			<stat type="pAtk">719</stat>
 			<stat type="mAtk">313</stat>
@@ -770,6 +820,7 @@
 		<!-- PvE enchant type item. When equipped, Damage to NPC +15% and Max HP/ MP/ CP +10%. Can bestow 2 regular Soul Crystals and 1 special Soul Crystal. When +4 enchanted, increases P. Skill Power and P. Atk. additionally. -->
 		<set name="icon" val="icon.weapon_R99_dual_blunt_pve_i00" />
 		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALBLUNT" />
 		<set name="bodypart" val="lrhand" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="R" />
@@ -778,6 +829,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
 		<stats>
 			<stat type="pAtk">875</stat>
 			<stat type="mAtk">313</stat>

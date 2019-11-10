@@ -1,14 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="8800" name="Naga Storm" additionalName="Focus" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Critical by 67. Increases damage inflicted during PvP. -->
+	<item id="8800" type="Weapon" name="Naga Storm - Focus">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
@@ -16,30 +17,27 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="DAGGER" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3051" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">220</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3051-2" />
+		<for>
+			<set stat="pAtk" val="220" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8801" name="Naga Storm" additionalName="Critical Damage" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. P. Atk. + 200 during a Critical Attack. Increases damage inflicted during PvP. -->
+	<item id="8801" type="Weapon" name="Naga Storm - Critical Damage">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
@@ -47,30 +45,27 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="DAGGER" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3066" level="2" /> <!-- Special Ability: Critical Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">220</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3066-2" />
+		<for>
+			<set stat="pAtk" val="220" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8802" name="Naga Storm" additionalName="Back Blow" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases P. Critical Rate by 37 when attacking the target from behind. Increases damage inflicted during PvP. -->
+	<item id="8802" type="Weapon" name="Naga Storm - Back Blow">
 		<set name="icon" val="icon.weapon_naga_storm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="930" />
@@ -78,30 +73,27 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="DAGGER" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3063" level="1" /> <!-- Special Ability: Back Blow -->
-		</skills>
-		<stats>
-			<stat type="pAtk">220</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3063-1" />
+		<for>
+			<set stat="pAtk" val="220" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8803" name="Tiphon's Spear" additionalName="Critical Stun" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has about a 25% chance of casting Stun on the target during a Critical Attack. Increases damage inflicted during PvP. -->
+	<item id="8803" type="Weapon" name="Tiphon's Spear - Critical Stun">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
@@ -109,31 +101,29 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3070" level="3" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Stun -->
-		</skills>
-		<stats>
-			<stat type="pAtk">251</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="oncrit_chance" val="25" />
+		<set name="oncrit_skill" val="3070-3" />
+		<set name="item_skill" val="3552-2" />
+		<for>
+			<set stat="pAtk" val="251" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8804" name="Tiphon's Spear" additionalName="Long Blow" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases the attack range. Increases damage inflicted during PvP. -->
+	<item id="8804" type="Weapon" name="Tiphon's Spear - Towering Blow">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;80;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
@@ -141,31 +131,28 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">251</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="pAtkRange">80</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="item_skill" val="3552-2" />
+		<for>
+			<set stat="pAtk" val="251" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<set val="80" stat="pAtkRange" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8805" name="Tiphon's Spear" additionalName="Wild Blow" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Broadens the angle of attack. Increases damage inflicted during PvP. -->
+	<item id="8805" type="Weapon" name="Tiphon's Spear - Wild Blow">
 		<set name="icon" val="icon.weapon_tiphon_spear_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;180" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CHRYSOLITE" />
 		<set name="weight" val="1820" />
@@ -173,30 +160,27 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="SPEAR" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="2" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">251</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<set name="item_skill" val="3552-2" />
+		<for>
+			<set stat="pAtk" val="251" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8806" name="Shyeed's Bow" additionalName="Cheap Shot" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has a 30% chance of decreasing MP consumption to 1 during a standard attack. Increases damage inflicted during PvP. -->
+	<item id="8806" type="Weapon" name="Shyeed's Bow - Cheap Shot">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
@@ -207,31 +191,28 @@
 		<set name="mp_consume" val="5" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="820" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
+		<set name="item_skill" val="3552-1" />
 		<set name="reduced_mp_consume" val="30,1" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">570</stat>
-			<stat type="mAtk">133</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="570" />
+			<set stat="mAtk" val="133" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8807" name="Shyeed's Bow" additionalName="Focus" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Critical by 61. Increases damage inflicted during PvP. -->
+	<item id="8807" type="Weapon" name="Shyeed's Bow - Focus">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
@@ -242,30 +223,27 @@
 		<set name="mp_consume" val="5" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="820" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3050" level="2" /> <!-- Special Ability: Focus -->
-		</skills>
-		<stats>
-			<stat type="pAtk">570</stat>
-			<stat type="mAtk">133</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<set name="item_skill" val="3050-2" />
+		<for>
+			<set stat="pAtk" val="570" />
+			<set stat="mAtk" val="133" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8808" name="Shyeed's Bow" additionalName="Quick Recovery" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Decreases cooldown by about 17%. Increases damage inflicted during PvP. -->
+	<item id="8808" type="Weapon" name="Shyeed's Bow - Quick Recovery">
 		<set name="icon" val="icon.weapon_shyid_bow_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ORIHARUKON" />
 		<set name="weight" val="1640" />
@@ -276,30 +254,27 @@
 		<set name="mp_consume" val="5" />
 		<set name="enchant_enabled" val="1" />
 		<set name="reuse_delay" val="639" />
-		<set name="commissionItemType" val="BOW" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">570</stat>
-			<stat type="mAtk">133</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="570" />
+			<set stat="mAtk" val="133" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8809" name="Sobekk's Hurricane" additionalName="Rsk. Haste" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Atk. Spd. by 11% when HP drops to 60% or below. Increases damage inflicted during PvP. -->
+	<item id="8809" type="Weapon" name="Sobekk's Hurricane - Rsk. Haste">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
@@ -307,30 +282,27 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3056" level="3" /> <!-- Special Ability: Rsk. Haste -->
-		</skills>
-		<stats>
-			<stat type="pAtk">305</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3056-3" />
+		<for>
+			<set stat="pAtk" val="305" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8810" name="Sobekk's Hurricane" additionalName="Haste" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Atk. Spd. by about 6%. Increases damage inflicted during PvP. -->
+	<item id="8810" type="Weapon" name="Sobekk's Hurricane - Haste">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
@@ -338,30 +310,27 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3068" level="3" /> <!-- Special Ability: Haste -->
-		</skills>
-		<stats>
-			<stat type="pAtk">305</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3068-3" />
+		<for>
+			<set stat="pAtk" val="305" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8811" name="Sobekk's Hurricane" additionalName="Critical Drain" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has a chance to absorb 14 HP from the target during a critical attack. Increases damage inflicted during PvP. -->
+	<item id="8811" type="Weapon" name="Sobekk's Hurricane - Critical Drain">
 		<set name="icon" val="icon.weapon_sobekk_hurricane_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="1330" />
@@ -369,31 +338,29 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FIST_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3039" level="7" type="ON_CRITICAL_SKILL" /> <!-- Special Ability: Critical Drain -->
-		</skills>
-		<stats>
-			<stat type="pAtk">305</stat>
-			<stat type="mAtk">121</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="oncrit_chance" val="10" />
+		<set name="oncrit_skill" val="3039-7" />
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="305" />
+			<set stat="mAtk" val="121" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8812" name="Themis' Tongue" additionalName="Mana Up" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Max MP by 30%. Increases damage inflicted during PvP. -->
+	<item id="8812" type="Weapon" name="Themis' Tongue - Mana Up">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="820" />
@@ -402,29 +369,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
-		</skills>
-		<stats>
-			<stat type="pAtk">202</stat>
-			<stat type="mAtk">161</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3014-3" />
+		<for>
+			<set stat="pAtk" val="202" />
+			<set stat="mAtk" val="161" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8813" name="Themis' Tongue" additionalName="Magic Mental Shield" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has a 50% chance of casting Mental Shield on the target during magic use. Increases damage inflicted during PvP. -->
+	<item id="8813" type="Weapon" name="Themis' Tongue - Mental Shield">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="820" />
@@ -433,30 +397,28 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="1035" level="4" type_chance="50" type="ON_MAGIC_SKILL" /> <!-- Mental Shield -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">202</stat>
-			<stat type="mAtk">161</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="onmagic_chance" val="50" />
+		<set name="onmagic_skill" val="1035-4" />
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="202" />
+			<set stat="mAtk" val="161" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8814" name="Themis' Tongue" additionalName="Magic Focus" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has a 20% chance of casting Focus on the target during magic use. Increases damage inflicted during PvP. -->
+	<item id="8814" type="Weapon" name="Themis' Tongue - Magic Focus">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="ADAMANTAITE" />
 		<set name="weight" val="820" />
@@ -465,30 +427,28 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="1077" level="3" type_chance="20" type="ON_MAGIC_SKILL" /> <!-- Focus -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">202</stat>
-			<stat type="mAtk">161</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="onmagic_chance" val="20" />
+		<set name="onmagic_skill" val="1077-3" />
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="202" />
+			<set stat="mAtk" val="161" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8815" name="Cabrio's Hand" additionalName="Conversion" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Max MP by 60% and decreases Max HP by 40%. Increases damage inflicted during PvP. -->
+	<item id="8815" type="Weapon" name="Cabrio's Hand - Conversion">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
@@ -497,30 +457,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3048" level="3" /> <!-- Special Ability: Conversion -->
-		</skills>
-		<stats>
-			<stat type="pAtk">202</stat>
-			<stat type="mAtk">161</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3048-3" />
+		<for>
+			<set stat="pAtk" val="202" />
+			<set stat="mAtk" val="161" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8816" name="Cabrio's Hand" additionalName="Mana Up" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Max MP by 30%. Increases damage inflicted during PvP. -->
+	<item id="8816" type="Weapon" name="Cabrio's Hand - Mana Up">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
@@ -529,30 +486,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
-		</skills>
-		<stats>
-			<stat type="pAtk">202</stat>
-			<stat type="mAtk">161</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3014-3" />
+		<for>
+			<set stat="pAtk" val="202" />
+			<set stat="mAtk" val="161" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8817" name="Cabrio's Hand" additionalName="Magic Silence" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has a 10% chance of casting Silence on the target during magic use. Increases damage inflicted during PvP. -->
+	<item id="8817" type="Weapon" name="Cabrio's Hand - Magic Silence">
 		<set name="icon" val="icon.weapon_hand_of_cabrio_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1510" />
@@ -561,31 +515,29 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3074" level="2" type_chance="10" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Silence -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">202</stat>
-			<stat type="mAtk">161</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="onmagic_chance" val="10" />
+		<set name="onmagic_skill" val="3074-2" />
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="202" />
+			<set stat="mAtk" val="161" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8818" name="Daimon Crystal" additionalName="Mana Up" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Max MP by 30%. Increases damage inflicted during PvP. -->
+	<item id="8818" type="Weapon" name="Daimon Crystal - Mana Up">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="880" />
@@ -594,30 +546,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3014" level="3" /> <!-- Special Ability: Mana Up -->
-		</skills>
-		<stats>
-			<stat type="pAtk">245</stat>
-			<stat type="mAtk">177</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3014-3" />
+		<for>
+			<set stat="pAtk" val="245" />
+			<set stat="mAtk" val="177" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8819" name="Daimon Crystal" additionalName="Acumen" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Increases Casting Spd. by 15%. Increases damage inflicted during PvP. -->
+	<item id="8819" type="Weapon" name="Daimon Crystal - Acumen">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="880" />
@@ -626,30 +575,27 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="isAppearanceable" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<skills>
-			<skill id="3047" level="3" /> <!-- Special Ability: Acumen -->
-		</skills>
-		<stats>
-			<stat type="pAtk">245</stat>
-			<stat type="mAtk">177</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="3047-3" />
+		<for>
+			<set stat="pAtk" val="245" />
+			<set stat="mAtk" val="177" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8820" name="Daimon Crystal" additionalName="Magic Mental Shield" type="Weapon">
-		<!-- <Soul Crystal Enhancement>. Has a 50% chance of casting Mental Shield on the target during magic use. Increases damage inflicted during PvP. -->
+	<item id="8820" type="Weapon" name="Daimon Crystal - Mental Shield">
 		<set name="icon" val="icon.weapon_crystal_of_deamon_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1438" />
+		<set name="crystal_count" val="2157" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="880" />
@@ -658,28 +604,26 @@
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="1035" level="4" type_chance="50" type="ON_MAGIC_SKILL" /> <!-- Mental Shield -->
-			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-		</skills>
-		<stats>
-			<stat type="pAtk">245</stat>
-			<stat type="mAtk">177</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="onmagic_chance" val="50" />
+		<set name="onmagic_skill" val="1035-4" />
+		<set name="item_skill" val="3552-1" />
+		<for>
+			<set stat="pAtk" val="245" />
+			<set stat="mAtk" val="177" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="8821" name="Shadow Item: Two-handed Sword" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Two-handed Sword. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8821" type="Weapon" name="Shadow Item: Two Handed Sword">
 		<set name="icon" val="icon.weapon_two_handed_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -690,26 +634,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">78</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="78" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8822" name="Shadow Item: Crimson Sword" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Crimson Sword. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8822" type="Weapon" name="Shadow Item: Crimson Sword">
 		<set name="icon" val="icon.time_weapon_crimson_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -720,26 +659,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">64</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="64" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8823" name="Shadow Item: Spiked Club" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Spiked Club. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8823" type="Weapon" name="Shadow Item: Spiked Club">
 		<set name="icon" val="icon.time_weapon_spike_club_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -750,27 +684,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">64</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="64" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8824" name="Shadow Item: Staff of Magic" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Staff of Magic. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8824" type="Weapon" name="Shadow Item: Staff of Magic">
 		<set name="icon" val="icon.time_weapon_staff_of_magicpower_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -782,27 +711,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">62</stat>
-			<stat type="mAtk">57</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="62" />
+			<set stat="mAtk" val="57" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8825" name="Shadow Item: Kukuri" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Kukuri. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8825" type="Weapon" name="Shadow Item: Kukuri">
 		<set name="icon" val="icon.time_weapon_kukuri_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -813,27 +737,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">56</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="56" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8826" name="Shadow Item: Dagger of Mana" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Dagger of Mana. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8826" type="Weapon" name="Shadow Item: Dagger of Mana">
 		<set name="icon" val="icon.time_weapon_dagger_of_mana_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -845,27 +764,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">45</stat>
-			<stat type="mAtk">52</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="45" />
+			<set stat="mAtk" val="52" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8827" name="Shadow Item: Triple-Edged Jamadhr" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Triple-Edged Jamadhr. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8827" type="Weapon" name="Shadow Item: Triple-Edged Jamadhr">
 		<set name="icon" val="icon.time_weapon_triple_edged_jamadhr_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -876,27 +790,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">78</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="78" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8828" name="Shadow Item: Gastraphetes" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Gastraphetes. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8828" type="Weapon" name="Shadow Item: Gastraphetes">
 		<set name="icon" val="icon.time_weapon_gastraphetes_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -909,27 +818,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="90" />
-		<stats>
-			<stat type="pAtk">132</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="132" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+		</for>
 	</item>
-	<item id="8829" name="Shadow Item: War Hammer" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a War Hammer. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8829" type="Weapon" name="Shadow Item: War Hammer">
 		<set name="icon" val="icon.time_weapon_war_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="D" />
@@ -940,30 +844,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3599-1" />
 		<set name="duration" val="90" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">64</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="64" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8830" name="Shadow Item: Katana" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Katana. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8830" type="Weapon" name="Shadow Item: Katana">
 		<set name="icon" val="icon.time_weapon_katana_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -974,26 +871,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">122</stat>
-			<stat type="mAtk">68</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8831" name="Shadow Item: Bec de Corbin" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Bec de Corbin. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8831" type="Weapon" name="Shadow Item: Bec de Corbin">
 		<set name="icon" val="icon.time_weapon_bech_de_corbin_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1004,30 +896,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3599-1" />
 		<set name="duration" val="300" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">122</stat>
-			<stat type="mAtk">68</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8832" name="Shadow Item: Cursed Staff" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Cursed Staff. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8832" type="Weapon" name="Shadow Item: Cursed Staff">
 		<set name="icon" val="icon.time_weapon_cursed_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1039,27 +924,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">119</stat>
-			<stat type="mAtk">100</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="119" />
+			<set stat="mAtk" val="100" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8833" name="Shadow Item: Stiletto" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Stiletto. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8833" type="Weapon" name="Shadow Item: Stiletto">
 		<set name="icon" val="icon.time_weapon_stiletto_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1070,27 +950,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">107</stat>
-			<stat type="mAtk">68</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="68" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8834" name="Shadow Item: Soulfire Dirk" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Soulfire Dirk. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8834" type="Weapon" name="Shadow Item: Soulfire Dirk">
 		<set name="icon" val="icon.time_weapon_dagger_of_magicflame_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1102,27 +977,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">86</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="86" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8835" name="Shadow Item: Elemental Bow" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of an Elemental Bow. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8835" type="Weapon" name="Shadow Item: Elemental Bow">
 		<set name="icon" val="icon.time_weapon_elemental_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1135,27 +1005,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">277</stat>
-			<stat type="mAtk">75</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="277" />
+			<set stat="mAtk" val="75" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+		</for>
 	</item>
-	<item id="8836" name="Shadow Item: Dwarven War Hammer" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Dwarven War Hammer. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8836" type="Weapon" name="Shadow Item: Dwarven War Hammer">
 		<set name="icon" val="icon.time_weapon_dwarven_warhammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1166,27 +1031,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">122</stat>
-			<stat type="mAtk">68</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="68" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8837" name="Shadow Item: Sword of Revolution*Sword of Revolution" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Sword of Revolution. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8837" type="Weapon" name="Shadow Item: Sword of Revolution">
 		<set name="icon" val="icon.time_weapon_two_handed_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1197,26 +1057,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">148</stat>
-			<stat type="mAtk">68</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="148" />
+			<set stat="mAtk" val="68" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8838" name="Shadow Item: Knuckle Duster" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Knuckle Duster. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8838" type="Weapon" name="Shadow Item: Knuckle Duster">
 		<set name="icon" val="icon.time_weapon_knuckle_dust_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1227,27 +1082,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">148</stat>
-			<stat type="mAtk">68</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="148" />
+			<set stat="mAtk" val="68" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8839" name="Shadow Item: Sword of Delusion" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Sword of Delusion. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8839" type="Weapon" name="Shadow Item: Sword of Delusion">
 		<set name="icon" val="icon.time_weapon_sword_of_delusion_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1258,26 +1108,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">139</stat>
-			<stat type="mAtk">76</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="139" />
+			<set stat="mAtk" val="76" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8840" name="Shadow Item: Poleaxe" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Poleaxe. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8840" type="Weapon" name="Shadow Item: Poleaxe">
 		<set name="icon" val="icon.time_weapon_poleaxe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1288,30 +1133,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3599-1" />
 		<set name="duration" val="300" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">139</stat>
-			<stat type="mAtk">76</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="139" />
+			<set stat="mAtk" val="76" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8841" name="Shadow Item: Stick of Eternity" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Stick of Eternity. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8841" type="Weapon" name="Shadow Item: Stick of Eternity">
 		<set name="icon" val="icon.time_weapon_stick_of_eternity_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1323,27 +1161,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">111</stat>
-			<stat type="mAtk">101</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="111" />
+			<set stat="mAtk" val="101" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8842" name="Shadow Item: Inferno Staff" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of an Inferno Staff. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8842" type="Weapon" name="Shadow Item: Inferno Staff">
 		<set name="icon" val="icon.time_weapon_inferno_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1355,27 +1188,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">135</stat>
-			<stat type="mAtk">111</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="135" />
+			<set stat="mAtk" val="111" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8843" name="Shadow Item: Pa'agrio Hammer" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Pa'agrio Hammer. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8843" type="Weapon" name="Shadow Item: Pa'agrian Hammer">
 		<set name="icon" val="icon.time_weapon_paagrio_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1387,27 +1215,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">135</stat>
-			<stat type="mAtk">111</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="135" />
+			<set stat="mAtk" val="111" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8844" name="Shadow Item: Dark Screamer" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Dark Screamer. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8844" type="Weapon" name="Shadow Item: Dark Screamer">
 		<set name="icon" val="icon.time_weapon_dark_screamer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1418,27 +1241,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">122</stat>
-			<stat type="mAtk">76</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="122" />
+			<set stat="mAtk" val="76" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8845" name="Shadow Item: Akat Longbow" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of an Akat Longbow. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8845" type="Weapon" name="Shadow Item: Akat Long Bow">
 		<set name="icon" val="icon.time_weapon_akat_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1451,27 +1269,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">316</stat>
-			<stat type="mAtk">84</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="316" />
+			<set stat="mAtk" val="84" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+		</for>
 	</item>
-	<item id="8846" name="Shadow Item: Pa'agrian Sword" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Pa'agrian Sword. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8846" type="Weapon" name="Shadow Item: Pa'agrian Sword">
 		<set name="icon" val="icon.time_weapon_sword_of_paagrio_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1482,26 +1295,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">169</stat>
-			<stat type="mAtk">76</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="169" />
+			<set stat="mAtk" val="76" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8847" name="Shadow Item: Fisted Blade" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Fisted Blade. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8847" type="Weapon" name="Shadow Item: Fisted Blade">
 		<set name="icon" val="icon.time_weapon_fist_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;90" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1512,27 +1320,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">169</stat>
-			<stat type="mAtk">76</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="169" />
+			<set stat="mAtk" val="76" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8848" name="Shadow Item: StormBringer*StormBringer" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a StormBringer. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8848" type="Weapon" name="Shadow Item: Stormbringer">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
@@ -1543,26 +1346,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">175</stat>
-			<stat type="mAtk">78</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="78" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8849" name="Shadow Item: Great Sword" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Great Sword. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8849" type="Weapon" name="Shadow Item: Great Sword">
 		<set name="icon" val="icon.time_weapon_great_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1573,26 +1371,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8850" name="Shadow Item: Heavy War Axe" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Heavy War Axe. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8850" type="Weapon" name="Shadow Item: Heavy War Axe">
 		<set name="icon" val="icon.time_weapon_heavy_war_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1603,27 +1396,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">175</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8851" name="Shadow Item: Spirit's Staff" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Spirit's Staff. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8851" type="Weapon" name="Shadow Item: Sprite's Staff">
 		<set name="icon" val="icon.time_weapon_sprites_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1635,27 +1423,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">170</stat>
-			<stat type="mAtk">134</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="170" />
+			<set stat="mAtk" val="134" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8852" name="Shadow Item: Keshanberk" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Keshanberk. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8852" type="Weapon" name="Shadow Item: Keshanberk">
 		<set name="icon" val="icon.time_weapon_kshanberk_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1666,26 +1449,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">175</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8853" name="Shadow Item: Sword of Valhalla" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Sword of Valhalla. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8853" type="Weapon" name="Shadow Item: Sword of Valhalla">
 		<set name="icon" val="icon.time_weapon_sword_of_valhalla_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1697,26 +1475,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">140</stat>
-			<stat type="mAtk">122</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="140" />
+			<set stat="mAtk" val="122" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8854" name="Shadow Item: Kris" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Kris. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8854" type="Weapon" name="Shadow Item: Kris">
 		<set name="icon" val="icon.time_weapon_kris_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1727,27 +1500,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">153</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="153" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8855" name="Shadow Item: Arthro Nail" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of an Arthro Nail. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8855" type="Weapon" name="Shadow Item: Arthro Nail">
 		<set name="icon" val="icon.time_weapon_arthro_nail_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;52;90" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1758,27 +1526,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8856" name="Shadow Item: Dark Elven Longbow" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Dark Elven Longbow. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8856" type="Weapon" name="Shadow Item: Dark Elven Long Bow">
 		<set name="icon" val="icon.time_weapon_dark_elven_long_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1791,27 +1554,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">397</stat>
-			<stat type="mAtk">100</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="397" />
+			<set stat="mAtk" val="100" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+		</for>
 	</item>
-	<item id="8857" name="Shadow Item: Sword of Delusion*Sword of Delusion" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of Swords of Delusion. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8857" type="Weapon" name="Shadow Item: Sword of Delusion*Sword of Delusion">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1822,26 +1580,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8858" name="Shadow Item: Great Axe" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Great Axe. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8858" type="Weapon" name="Shadow Item: Great Axe">
 		<set name="icon" val="icon.time_weapon_great_axe_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
@@ -1852,30 +1605,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3599-1" />
 		<set name="duration" val="300" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">175</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="175" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8859" name="Shadow Item: Tallum Blade" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Tallum Blade. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8859" type="Weapon" name="Shadow Item: Tallum Blade">
 		<set name="icon" val="icon.time_weapon_tallum_blade_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -1886,26 +1632,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8860" name="Shadow Item: Halberd" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Halberd. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8860" type="Weapon" name="Shadow Item: Halberd">
 		<set name="icon" val="icon.time_weapon_halbard_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -1916,30 +1657,23 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3599-1" />
 		<set name="duration" val="300" />
-		<skills>
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8861" name="Shadow Item: Dasparion's Staff" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Dasparion's Staff. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8861" type="Weapon" name="Shadow Item: Dasparion's Staff">
 		<set name="icon" val="icon.time_weapon_dasparions_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -1951,27 +1685,22 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">207</stat>
-			<stat type="mAtk">157</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="207" />
+			<set stat="mAtk" val="157" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8862" name="Shadow Item: Bloody Orchid" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Bloody Orchid. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8862" type="Weapon" name="Shadow Item: Bloody Orchid">
 		<set name="icon" val="icon.time_weapon_bloody_orchid_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -1982,27 +1711,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">186</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="186" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="8863" name="Shadow Item: Blood Tornado" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Blood Tornado. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8863" type="Weapon" name="Shadow Item: Blood Tornado">
 		<set name="icon" val="icon.time_weapon_blood_tornado_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -2013,27 +1737,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">259</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="259" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8864" name="Shadow Item: Carnage Bow" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Carnage Bow. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8864" type="Weapon" name="Shadow Item: Carnage Bow">
 		<set name="icon" val="icon.time_weapon_carnium_bow_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -2046,27 +1765,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">440</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">293</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="440" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="293" />
+		</for>
 	</item>
-	<item id="8865" name="Shadow Item: Keshanberk*Keshanberk" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of Dual Keshanberks. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8865" type="Weapon" name="Shadow Item: Keshanberk*Keshanberk">
 		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -2077,26 +1791,21 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">259</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="259" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8866" name="Shadow Item: Meteor Shower" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of a Meteor Shower. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8866" type="Weapon" name="Shadow Item: Meteor Shower">
 		<set name="icon" val="icon.time_weapon_meteor_shower_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -2107,27 +1816,22 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="8867" name="Shadow Item: Infernal Master" type="Weapon">
-		<!-- This Shadow Item contains the mirrored power of an Infernal Master. It cannot be crystallized or granted functions besides enchantment. -->
+	<item id="8867" type="Weapon" name="Shadow Item: Inferno Master">
 		<set name="icon" val="icon.time_weapon_inferno_master_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
@@ -2138,348 +1842,272 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="duration" val="300" />
-		<stats>
-			<stat type="pAtk">259</stat>
-			<stat type="mAtk">107</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="259" />
+			<set stat="mAtk" val="107" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="8868" name="Ziggo's Jewel" type="EtcItem">
-		<!-- This bright, shiny gemstone looks as though it would fetch a good price if you sold it at the shop. -->
+	<item id="8868" type="EtcItem" name="Ziggo's Gemstone">
 		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="price" val="200000000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8869" name="Shadow Item Coupon (D-grade)" type="EtcItem">
-		<!-- This coupon allows you to obtain a D-grade Shadow Item. Take it to a Grand Master of your class to exchange it for a shadow item. -->
+	<item id="8869" type="EtcItem" name="Shadow Item Exchange Coupon (D-Grade)">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8870" name="Shadow Item Coupon (C-grade)" type="EtcItem">
-		<!-- This coupon allows you to obtain a C-grade Shadow Item. Take it to a Grand Master of your class to exchange it for a shadow item. -->
+	<item id="8870" type="EtcItem" name="Shadow Item Exchange Coupon (C-Grade)">
 		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8871" name="Strategy Guide" type="EtcItem">
-		<!-- This book contains information about the methods and strategies used to lead a Command Channel. Use it to create a Command Channel. -->
+	<item id="8871" type="EtcItem" name="Strategy Guide">
 		<set name="icon" val="icon.etc_paper_black_i00" />
 		<set name="default_action" val="CREATE_MPCC" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="20" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="price" val="45000" />
 		<cond msgId="113">
 			<player level="20" />
 		</cond>
 	</item>
-	<item id="8872" name="Flash Gunpowder" type="EtcItem">
-		<!-- This specially processed gunpowder doesn't create smoke. It is consumed while using the swoop cannon skill. -->
+	<item id="8872" type="EtcItem" name="Flash Gunpowder">
 		<set name="icon" val="icon.etc_powder_gray_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="20" />
 		<set name="price" val="1500" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8873" name="Phoenix Blood" type="EtcItem">
-		<!-- Consumption item for using Soul of the Phoenix. -->
+	<item id="8873" type="EtcItem" name="Phoenix Blood">
 		<set name="icon" val="icon.etc_feather_gold_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="20" />
 		<set name="price" val="20000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8874" name="Einhasad's Holy Water" type="EtcItem">
-		<!-- Consumption item for using Cleanse or Salvation. -->
+	<item id="8874" type="EtcItem" name="Einhasad's Holy Water">
 		<set name="icon" val="icon.etc_holy_grail_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="20" />
 		<set name="price" val="20000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8875" name="Battle Symbol" type="EtcItem">
-		<!-- Consumption item for using the skill learned with the Ancient Tactical Manual. -->
+	<item id="8875" type="EtcItem" name="Battle Symbol">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="20" />
 		<set name="price" val="20000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8876" name="Magic Symbol" type="EtcItem">
-		<!-- Consumption item for using the skill learned with the ancient spellbook. -->
+	<item id="8876" type="EtcItem" name="Magic Symbol">
 		<set name="icon" val="icon.etc_dragon_egg_i02" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="20" />
 		<set name="price" val="20000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8877" name="Spellbook: Soul of the Phoenix" type="EtcItem">
-		<!-- Spellbook needed to learn Soul of the Phoenix. Used by a Phoenix Knight. -->
+	<item id="8877" type="EtcItem" name="Spellbook: Soul of the Phoenix">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8878" name="Spellbook: Summon Feline King" type="EtcItem">
-		<!-- Spellbook needed to learn Summon Feline King. Used by an Arcana Lord. -->
+	<item id="8878" type="EtcItem" name="Spellbook: Summon Feline King">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8879" name="Spellbook: Summon Magnus the Unicorn" type="EtcItem">
-		<!-- Spellbook needed to learn Summon Magnus the Unicorn. Used by an Elemental Master. -->
+	<item id="8879" type="EtcItem" name="Spellbook: Summon Magnus the Unicorn">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8880" name="Spellbook: Summon Spectral Lord" type="EtcItem">
-		<!-- Spellbook needed to learn Summon Spectral Lord. Used by a Spectral Master. -->
+	<item id="8880" type="EtcItem" name="Spellbook: Summon Spectral Knight">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8881" name="Spellbook: Cleanse" type="EtcItem">
-		<!-- Spellbook needed to learn Cleanse. Used by a Cardinal. -->
+	<item id="8881" type="EtcItem" name="Spellbook: Cleanse">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8882" name="Spellbook: Salvation" type="EtcItem">
-		<!-- Spellbook needed to learn Salvation. Used by a Cardinal. -->
+	<item id="8882" type="EtcItem" name="Spellbook: Salvation">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8883" name="Spellbook: Mystic Immunity" type="EtcItem">
-		<!-- Spellbook needed to learn Mystic Immunity. Used by a Hierophant. -->
+	<item id="8883" type="EtcItem" name="Spellbook: Mystic Immunity">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8884" name="Spellbook: Spell Turning" type="EtcItem">
-		<!-- Spellbook needed to learn Spell Turning. Used by a Hierophant. -->
+	<item id="8884" type="EtcItem" name="Spellbook: Spell Turning">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8885" name="Amulet: Chant of Magnus" type="EtcItem">
-		<!-- Amulet needed to learn Chant of Magnus. Used by Doomcryers. -->
+	<item id="8885" type="EtcItem" name="Amulet: Magnus' Chant">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8886" name="Amulet: Victories of Pa'agrio" type="EtcItem">
-		<!-- Amulet needed to learn Victories of Pa'agrio. Used by Dominators. -->
+	<item id="8886" type="EtcItem" name="Amulet: Victories of Pa'agrio">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8887" name="Amulet: Pa'agrio's Emblem" type="EtcItem">
-		<!-- Amulet needed to learn Pa'agrio's Emblem. Used by Dominators. -->
+	<item id="8887" type="EtcItem" name="Amulet: Pa'agrio's Emblem">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8888" name="Amulet: Pa'agrio's Fist" type="EtcItem">
-		<!-- Amulet needed to learn Pa'agrio's Fist. Used by Dominators. -->
+	<item id="8888" type="EtcItem" name="Amulet: Pa'agrio's Fist">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8889" name="Amulet: Chant of Gate" type="EtcItem">
-		<!-- Amulet needed to learn Chant of Gate. Used by Doomcryers. -->
+	<item id="8889" type="EtcItem" name="Amulet: Gate Chant">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="30000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8890" name="Spellbook: Summon Attractive Cubic" type="EtcItem">
-		<!-- Spellbook needed to learn Summon Attractive Cubic. Used by a Temple Knight. Required level: 62 -->
+	<item id="8890" type="EtcItem" name="Spellbook: Summon Attractive Cubic">
 		<set name="icon" val="icon.etc_spell_books_summon_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="7700" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8891" name="Spellbook: Aura Flash" type="EtcItem">
-		<!-- Spellbook needed to learn Aura Flash. Used by a Sorcerer, Spellsinger, and Spellhowler. Required level: 58 -->
+	<item id="8891" type="EtcItem" name="Spellbook: Aura Flash">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="6750" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8892" name="Ancient Tactical Manual: Symbol of Defense" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of Defense. Can be used by a Phoenix Knight, Hell Knight, Eva's Templar, and Shillien Templar. -->
+	<item id="8892" type="EtcItem" name="Ancient Tactical Manual: Symbol of Defense">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8893" name="Ancient Tactical Manual: Symbol of Noise" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of Noise. Can be used by a Sword Muse and Spectral Dancer. -->
+	<item id="8893" type="EtcItem" name="Ancient Tactical Manual: Symbol of Noise">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8894" name="Ancient Tactical Manual: Symbol of Resistance" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of Resistance. Can be used by a Titan and Fortune Seeker. -->
+	<item id="8894" type="EtcItem" name="Ancient Tactical Manual: Symbol of Resistance">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8895" name="Ancient Tactical Manual: Symbol of Honor" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of Honor. Can be used by a Dreadnought and Maestro. -->
+	<item id="8895" type="EtcItem" name="Ancient Tactical Manual: Symbol of Honor">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8896" name="Ancient Tactical Manual: Symbol of Energy" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of Energy. Can be used by a Duelist and Grand Khavatari. -->
+	<item id="8896" type="EtcItem" name="Ancient Tactical Manual: Symbol of Energy">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8897" name="Ancient Tactical Manual: Symbol of the Sniper" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of the Sniper. Can be used by a Sagittarius, Ghost Sentinel, and Moonlight Sentinel. -->
+	<item id="8897" type="EtcItem" name="Ancient Tactical Manual: Symbol of the Sniper">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8898" name="Ancient Tactical Manual: Symbol of the Assassin" type="EtcItem">
-		<!-- Ancient Tactical Manual needed to master the Symbol of Assassin. Can be used by an Adventurer and a Windrider. -->
+	<item id="8898" type="EtcItem" name="Ancient Tactical Manual: Symbol of the Assassin">
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8899" name="Ancient Spellbook: Volcano" type="EtcItem">
-		<!-- Ancient Spellbook needed to learn Volcano. Can be used by an Archmage. -->
+	<item id="8899" type="EtcItem" name="Ancient Spellbook: Volcano">
 		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="40000" />
-		<set name="commissionItemType" val="SPELLBOOK" />
 		<set name="is_stackable" val="true" />
 	</item>
 </list>

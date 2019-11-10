@@ -563,6 +563,9 @@ public class AuctionHouseManager
 				case "Etc":
 					catName += "          ";
 					break;
+				case "Pets":
+					catName += "        ";
+					break;
 				case "Supplies":
 					catName += "   ";
 					break;

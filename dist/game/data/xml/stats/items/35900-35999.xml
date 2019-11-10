@@ -6,109 +6,209 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9564-1" /> <!-- Hair Accessory: Evasion -->
+		<skills>
+			<skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+		</skills>
 	</item>
 	<item id="35901" name="STR Pendant" type="EtcItem">
 		<!-- You can bestow STR + 3 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9554" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35902" name="DEX Pendant" type="EtcItem">
 		<!-- You can bestow DEX + 3 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<set name="immediate_effect" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9555" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35903" name="CON Pendant" type="EtcItem">
 		<!-- You can bestow CON + 3 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9556" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35904" name="MEN Pendant" type="EtcItem">
 		<!-- You can bestow MEN + 3 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9557" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35905" name="INT Pendant" type="EtcItem">
 		<!-- You can bestow INT + 3 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9558" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35906" name="WIT Pendant" type="EtcItem">
 		<!-- You can bestow WIT + 3 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<set name="immediate_effect" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9559" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35907" name="Critical Rate Pendant" type="EtcItem">
 		<!-- You can bestow Critical Rate + 50 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<set name="immediate_effect" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9560" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35908" name="Critical Damage Pendant" type="EtcItem">
 		<!-- You can bestow Critical Damage + 90 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<set name="immediate_effect" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9561" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35909" name="P. Def. Pendant" type="EtcItem">
 		<!-- You can bestow P. Def. + 5% when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<set name="immediate_effect" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9562" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35910" name="M. Def. Pendant" type="EtcItem">
 		<!-- You can bestow M. Def. + 5% when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9563" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35911" name="Evasion Pendant" type="EtcItem">
 		<!-- You can bestow Evasion + 5 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9564" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35912" name="P. Atk. Pendant" type="EtcItem">
 		<!-- You can bestow P. Atk. + 5% when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
-		<set name="immediate_effect" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9565" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35913" name="M. Atk. Pendant" type="EtcItem">
 		<!-- You can bestow M. Atk. + 10% when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9566" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35914" name="Accuracy Pendant" type="EtcItem">
 		<!-- You can bestow Accuracy + 5 when one of the following are equipped:Rabbit Ears, Raccoon Ears, Cat Ears, Lady's Hairpin, Party Mask, Monocle, Maiden's Hairpin, Forget-me-not Hairpin, Daisy Hairpin, Little Angel Wings, Fairy Antennae, Artisan's Goggles, Arrow-pierced Apple, Chapeau, Romantic Chapeau, Angel Circlet, Demon Circlet, Pirate's Eyepatch, Outlaw's Eyepatch, Eyepatch, Party Hat, Refined Angel Ring, Refined Devil Horn, Red Horns, or 9th Anniversary Rocket Gun Hat. -->
 		<set name="icon" val="icon.etc_hairacc_pandent_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair2" />
+		<set name="enchant_enabled" val="7" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="10" />
-		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9567" level="1" /> <!-- skill -->
+		</skills>
 	</item>
 	<item id="35915" name="Draco's Hat" additionalName="STR (Event)" type="Armor">
 		<!-- STR + 3 when equipped. -->
@@ -120,8 +220,10 @@
 		<set name="enchant_enabled" val="7" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9554-1" /> <!-- Hair Accessory: STR -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
+		</skills>
 	</item>
 	<item id="35916" name="Draco's Hat" additionalName="DEX (Event)" type="Armor">
 		<!-- DEX + 3 when equipped. -->
@@ -133,8 +235,10 @@
 		<set name="enchant_enabled" val="7" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9555-1" /> <!-- Hair Accessory: DEX -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
+		</skills>
 	</item>
 	<item id="35917" name="Draco's Hat" additionalName="CON (Event)" type="Armor">
 		<!-- CON + 3 when equipped. -->
@@ -143,11 +247,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9556-1" /> <!-- Hair Accessory: CON -->
+		<skills>
+			<skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
+		</skills>
 	</item>
 	<item id="35918" name="Draco's Hat" additionalName="MEN (Event)" type="Armor">
 		<!-- MEN + 3 when equipped. -->
@@ -156,11 +262,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9557-1" /> <!-- Hair Accessory: MEN -->
+		<skills>
+			<skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
+		</skills>
 	</item>
 	<item id="35919" name="Draco's Hat" additionalName="INT (Event)" type="Armor">
 		<!-- INT + 3 when equipped. -->
@@ -172,8 +280,10 @@
 		<set name="enchant_enabled" val="7" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="9558-1" /> <!-- Hair Accessory: INT -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
+		</skills>
 	</item>
 	<item id="35920" name="Draco's Hat" additionalName="WIT (Event)" type="Armor">
 		<!-- WIT + 3 when equipped. -->
@@ -182,11 +292,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9559-1" /> <!-- Hair Accessory: WIT -->
+		<skills>
+			<skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
+		</skills>
 	</item>
 	<item id="35921" name="Draco's Hat" additionalName="Critical Rate (Event)" type="Armor">
 		<!-- P. Critical Rate + 50 when equipped. -->
@@ -195,11 +307,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9560-1" /> <!-- Hair Accessory: Critical Rate -->
+		<skills>
+			<skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
+		</skills>
 	</item>
 	<item id="35922" name="Draco's Hat" additionalName="Critical Damage (Event)" type="Armor">
 		<!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
@@ -208,11 +322,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9561-1" /> <!-- Hair Accessory: Critical Damage -->
+		<skills>
+			<skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
+		</skills>
 	</item>
 	<item id="35923" name="Draco's Hat" additionalName="P. Def. (Event)" type="Armor">
 		<!-- P. Def. + 5% when equipped. -->
@@ -221,11 +337,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9562-1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		<skills>
+			<skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		</skills>
 	</item>
 	<item id="35924" name="Draco's Hat" additionalName="M. Def. (Event)" type="Armor">
 		<!-- M. Def. + 5% when equipped. -->
@@ -234,11 +352,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9563-1" /> <!-- Hair Accessory: M. Def. -->
+		<skills>
+			<skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
+		</skills>
 	</item>
 	<item id="35925" name="Draco's Hat" additionalName="Evasion (Event)" type="Armor">
 		<!-- Evasion + 5 when equipped. -->
@@ -247,11 +367,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9564-1" /> <!-- Hair Accessory: Evasion -->
+		<skills>
+			<skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+		</skills>
 	</item>
 	<item id="35926" name="Draco's Hat" additionalName="P. Atk. (Event)" type="Armor">
 		<!-- P. Atk. + 5% when equipped. -->
@@ -260,11 +382,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9565-1" /> <!-- Hair Accessory: P. Atk. -->
+		<skills>
+			<skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
+		</skills>
 	</item>
 	<item id="35927" name="Draco's Hat" additionalName="M. Atk. (Event)" type="Armor">
 		<!-- M. Atk. + 10% when equipped. -->
@@ -273,11 +397,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9566-1" /> <!-- Hair Accessory: M. Atk. -->
+		<skills>
+			<skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
+		</skills>
 	</item>
 	<item id="35928" name="Draco's Hat" additionalName="Accuracy (Event)" type="Armor">
 		<!-- Accuracy + 5 when equipped. -->
@@ -286,29 +412,33 @@
 		<set name="is_sellable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="enchant_enabled" val="7" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<set name="isAppearanceable" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="9567-1" /> <!-- Hair Accessory: Accuracy -->
+		<skills>
+			<skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
+		</skills>
 	</item>
 	<item id="35929" name="Mysterious Ring" type="Armor">
 		<!-- Ring purchased using Mark of Battle. Can be used for 60 days. It summons the selected clan member to your location. Cooldown is 1 hour. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.accessory_shiny_couple_ring" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="86400" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="9522-1" /> <!-- Summon Clan Member -->
+		<skills>
+			<skill id="9522" level="1" /> <!-- Summon Clan Member -->
+		</skills>
 	</item>
 	<item id="35930" name="Chaos's Recovery Potion" type="EtcItem">
 		<!-- Recovery Potion purchased using Mark of Battle. Upon use, it restores 2500 HP and the remaining power restores CP. Instant effect with no duration. -->
@@ -323,37 +453,41 @@
 		<set name="etcitem_type" val="POTION" />
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
-        <set name="item_skill" val="9524-1" /> <!-- Healing Potion of Chaos -->
+		<set name="commissionItemType" val="POTION" />
+		<skills>
+			<skill id="9524" level="1" /> <!-- Healing Potion of Chaos -->
+		</skills>
 	</item>
 	<item id="35931" name="Mysterious Scroll" type="EtcItem">
 		<!-- Scroll purchased using Mark of Battle. You can faintly feel the power of darkness. It can only be used on chaotic characters. It makes the selected chaotic character Escape. Cooldown is 30 minutes. -->
 		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9523-1" /> <!-- Mysterious Incantation -->
+		<skills>
+			<skill id="9523" level="1" /> <!-- Mysterious Incantation -->
+		</skills>
 	</item>
 	<item id="35932" name="Dragon Vitality Replenishing Potion" type="EtcItem">
 		<!-- Replenishes some vitality upon use. Cooldown is 60 min. For 1 week, up to 5 uses do not apply to the limit. -->
 		<set name="icon" val="icon.etc_potion_of_energy_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="shared_reuse_group" val="106" />
@@ -361,18 +495,20 @@
 		<set name="etcitem_type" val="POTION" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9528-1" /> <!-- Dragon Vitality Replenishing Potion -->
+		<skills>
+			<skill id="9528" level="1" /> <!-- Dragon Vitality Replenishing Potion -->
+		</skills>
 	</item>
 	<item id="35933" name="XP Rune II (Lv. 1-95) 100% Pack (7-day)" type="EtcItem">
 		<!-- Wrapped Pack containing XP Rune II (Lv. 1-95) 100%7-day. Can only be used by characters level 95 or below. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="reuse_delay" val="60000" />
@@ -387,43 +523,47 @@
 	<item id="35934" name="XP Rune II (Lv. 1-95) 100%" additionalName="7-day" type="EtcItem">
 		<!-- When possessed in the inventory, increases XP and SP acquired through hunting by 100%. The effect only applies to characters level 95 or below. 7-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
 		<set name="time" val="10080" />
-        <set name="item_skill" val="9529-1" /> <!-- XP Rune II (Lv. 1-95) 100% -->
+		<skills>
+			<skill id="9529" level="1" /> <!-- XP Rune II (Lv. 1-95) 100% -->
+		</skills>
 	</item>
 	<item id="35935" name="Verdof's Vitality Replenishing Herb" type="EtcItem">
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="ex_immediate_effect" val="true" />
-        <set name="item_skill" val="9527-1" /> <!-- Verdof's Vitality Replenishing Herb -->
+		<skills>
+			<skill id="9527" level="1" /> <!-- Verdof's Vitality Replenishing Herb -->
+		</skills>
 	</item>
 	<item id="35936" name="Star Agathion - Heejin Jang" additionalName="15-day" type="Armor">
 		<!-- 15-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, M. Def. 5%, Max HP 5%, and Attribute Resistance + 10. Used skill:Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -435,28 +575,28 @@
 			<skill id="9531" level="1" /> <!-- Jang Heejin Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35937" name="Star Agathion - Hyuk Jang" additionalName="15-day" type="Armor">
 		<!-- 15-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, P. Def. 5%, and Attribute Resistance + 10. Used skill:Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -468,28 +608,28 @@
 			<skill id="9533" level="1" /> <!-- Jang Hyuk Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35938" name="Star Agathion - Sooro Kim" additionalName="15-day" type="Armor">
 		<!-- 15-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, P. Def. 5%, Max HP 5%, and Attribute Resistance + 10. Used skill:Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -501,28 +641,28 @@
 			<skill id="9535" level="1" /> <!-- Kim Sooro Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35939" name="Star Agathion - Jaebum Park" additionalName="15-day" type="Armor">
 		<!-- 15-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, P. Atk. 6%, and Attribute Resistance + 10. Used skill:Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -534,28 +674,28 @@
 			<skill id="9537" level="1" /> <!-- Park Jaebum Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35940" name="Star Agathion - Shin-young Kim" additionalName="15-day" type="Armor">
 		<!-- 15-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, and Attribute Resistance + 10. Skill cooldown 3% and skill MP consumption - 3%. Used skill:Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -567,28 +707,28 @@
 			<skill id="9539" level="1" /> <!-- Kim Shinyoung Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35941" name="Star Agathion - Heejin Jang" additionalName="30-day" type="Armor">
 		<!-- 30-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, M. Def. 5%, Max HP 5%, and Attribute Resistance + 10. Used skill: Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -600,28 +740,28 @@
 			<skill id="9531" level="1" /> <!-- Jang Heejin Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35942" name="Star Agathion - Hyuk Jang" additionalName="30-day" type="Armor">
 		<!-- 30-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, P. Def. 5%, and Attribute Resistance + 10. Used skill: Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -633,28 +773,28 @@
 			<skill id="9533" level="1" /> <!-- Jang Hyuk Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35943" name="Star Agathion - Sooro Kim" additionalName="30-day" type="Armor">
 		<!-- 30-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, P. Def. 5%, Max HP 5%, and Attribute Resistance + 10. Used skill: Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -666,28 +806,28 @@
 			<skill id="9535" level="1" /> <!-- Kim Sooro Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35944" name="Star Agathion - Jaebum Park" additionalName="30-day" type="Armor">
 		<!-- 30-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, P. Atk. 6%, and Attribute Resistance + 10. Used skill: Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -699,28 +839,28 @@
 			<skill id="9537" level="1" /> <!-- Park Jaebum Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35945" name="Star Agathion - Shin-young Kim" additionalName="30-day" type="Armor">
 		<!-- 30-day. When equipped, it increases CON + 3, MEN + 3, weight gauge + 10000, Max HP, MP, and CP 300, and Attribute Resistance+ 10. Skill cooldown 3% and skill MP consumption - 3%. Used skill: Blessed Escape ability. -->
 		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lbracelet" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -732,26 +872,26 @@
 			<skill id="9539" level="1" /> <!-- Kim Shinyoung Agathion's Blessed Escape -->
 			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
 		</skills>
-		<for>
-			<set stat="fireRes" val="10" />
-			<set stat="waterRes" val="10" />
-			<set stat="windRes" val="10" />
-			<set stat="earthRes" val="10" />
-			<set stat="holyRes" val="10" />
-			<set stat="darkRes" val="10" />
-		</for>
+		<stats>
+			<stat type="fireRes">10</stat>
+			<stat type="waterRes">10</stat>
+			<stat type="windRes">10</stat>
+			<stat type="earthRes">10</stat>
+			<stat type="holyRes">10</stat>
+			<stat type="darkRes">10</stat>
+		</stats>
 	</item>
 	<item id="35946" name="Agathion - Heejin Jang Pack (7-day)" type="EtcItem">
 		<!-- Box containing Agathion - Heejin Jang (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -766,13 +906,13 @@
 		<!-- Box containing Agathion - Hyuk Jang (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -787,13 +927,13 @@
 		<!-- Box containing Agathion - Sooro Kim (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -808,13 +948,13 @@
 		<!-- Box containing Agathion - Jaebum Park (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -829,13 +969,13 @@
 		<!-- Box containing Agathion - Shin-young Kim (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -850,13 +990,13 @@
 		<!-- Box containing Agathion - Heejin Jang (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -871,13 +1011,13 @@
 		<!-- Box containing Agathion - Hyuk Jang (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -892,13 +1032,13 @@
 		<!-- Box containing Agathion - Sooro Kim (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -913,13 +1053,13 @@
 		<!-- Box containing Agathion - Jaebum Park (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -934,13 +1074,13 @@
 		<!-- Box containing Agathion - Shin-young Kim (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -955,13 +1095,13 @@
 		<!-- Box containing Agathion - Heejin Jang (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -976,13 +1116,13 @@
 		<!-- Box containing Agathion - Hyuk Jang (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -997,13 +1137,13 @@
 		<!-- Box containing Agathion - Sooro Kim (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1018,13 +1158,13 @@
 		<!-- Box containing Agathion - Jaebum Park (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1039,13 +1179,13 @@
 		<!-- Box containing Agathion - Shin-young Kim (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1060,13 +1200,13 @@
 		<!-- Box containing Agathion - Heejin Jang (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1081,13 +1221,13 @@
 		<!-- Box containing Agathion - Hyuk Jang (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1102,13 +1242,13 @@
 		<!-- Box containing Agathion - Sooro Kim (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1123,13 +1263,13 @@
 		<!-- Box containing Agathion - Jaebum Park (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1144,13 +1284,13 @@
 		<!-- Box containing Agathion - Shin-young Kim (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1165,13 +1305,13 @@
 		<!-- Box containing Agathion - Heejin Jang (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1186,13 +1326,13 @@
 		<!-- Box containing Agathion - Hyuk Jang (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1207,13 +1347,13 @@
 		<!-- Box containing Agathion - Sooro Kim (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1228,13 +1368,13 @@
 		<!-- Box containing Agathion - Jaebum Park (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1249,13 +1389,13 @@
 		<!-- Box containing Agathion - Shin-young Kim (15-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1270,13 +1410,13 @@
 		<!-- Box containing Agathion - Heejin Jang (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1291,13 +1431,13 @@
 		<!-- Box containing Agathion - Hyuk Jang (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1312,13 +1452,13 @@
 		<!-- Box containing Agathion - Sooro Kim (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1333,13 +1473,13 @@
 		<!-- Box containing Agathion - Jaebum Park (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1354,13 +1494,13 @@
 		<!-- Box containing Agathion - Shin-young Kim (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -1374,13 +1514,13 @@
 	<item id="35976" name="Dragon Vitality Replenishing Potion" additionalName="Event" type="EtcItem">
 		<!-- Replenishes some vitality upon use. Cooldown is 60 min. For 1 week, up to 5 uses do not apply to the limit. -->
 		<set name="icon" val="icon.etc_potion_of_energy_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="shared_reuse_group" val="106" />
@@ -1388,19 +1528,21 @@
 		<set name="etcitem_type" val="POTION" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9752-1" /> <!-- Dragon Vitality Replenishing Potion -->
+		<skills>
+			<skill id="9752" level="1" /> <!-- Dragon Vitality Replenishing Potion -->
+		</skills>
 	</item>
 	<item id="35977" name="XP Rune II (Lv. 1-95) 100% Pack (7-day)" additionalName="Event" type="EtcItem">
 		<!-- Wrapped Pack containing XP Rune II (Lv. 1-95) 100% (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="reuse_delay" val="60000" />
@@ -1416,31 +1558,33 @@
 		<!-- Mysterious Ring. 7-day. It summons the selected clan member to your location. Cooldown is 1 hour. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.accessory_shiny_couple_ring" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="10080" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="9522-1" /> <!-- Summon Clan Member -->
+		<skills>
+			<skill id="9522" level="1" /> <!-- Summon Clan Member -->
+		</skills>
 	</item>
 	<item id="35979" name="Mysterious Ring Pack" additionalName="Event" type="EtcItem">
 		<!-- Box containing Mysterious Ring: 7-day. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1455,14 +1599,14 @@
 		<set name="icon" val="icon.accessory_extermination_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="deco1" />
 		<set name="immediate_effect" val="true" />
 		<set name="time" val="4320" />
@@ -1477,14 +1621,14 @@
 		<set name="icon" val="icon.accessory_extermination_talisman_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="deco1" />
 		<set name="immediate_effect" val="true" />
 		<set name="time" val="10080" />
@@ -1498,13 +1642,13 @@
 		<!-- A pouch given to those who fought bravely in the Ceremony of Chaos but were unable to succeed. When Double Clicked, a Victory or Scroll: Enchant Weapon (R-grade) can be obtained. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1525,69 +1669,77 @@
 	</item>
 	<item id="35983" name="HP Recovery Herb" type="EtcItem">
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="for_npc" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="9543-1" /> <!-- HP Recovery Herb -->
+		<skills>
+			<skill id="9543" level="1" /> <!-- HP Recovery Herb -->
+		</skills>
 	</item>
 	<item id="35984" name="Power Herb" type="EtcItem">
 		<set name="icon" val="icon.etc_warrior_set_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="for_npc" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="9544-1" /> <!-- Power Herb -->
+		<skills>
+			<skill id="9544" level="1" /> <!-- Power Herb -->
+		</skills>
 	</item>
 	<item id="35985" name="XP Rune I (Lv. 1-85) 100% (1-hour)" additionalName="Event" type="EtcItem">
 		<!-- Increases XP and SP acquired in hunt by 100%. The effect only applies to characters Lv. 86 or below. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="60" />
  		<set name="handler" val="ItemSkills" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="9240-1" /> <!-- XP Rune I (Lv. 1-85) -->
+		<skills>
+			<skill id="9240" level="1" /> <!-- XP Rune I (Lv. 1-85) -->
+		</skills>
 	</item>
 	<item id="35986" name="XP Rune I (Lv. 1-85) 200% (1-hour)" additionalName="Event" type="EtcItem">
 		<!-- Increases XP and SP acquired in hunt by 200%. The effect only applies to characters Lv. 86 or below. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="60" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
-        <set name="item_skill" val="9240-2" /> <!-- XP Rune I (Lv. 1-85) -->
+		<skills>
+			<skill id="9240" level="2" /> <!-- XP Rune I (Lv. 1-85) -->
+		</skills>
 	</item>
 	<item id="35987" name="XP Rune I (Lv. 1-85) 100% Pack (1-hour)" additionalName="Event" type="EtcItem">
 		<!-- Double-click on the box to acquire 1 XP Rune I (Lv. 1-85) 100% (1-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="reuse_delay" val="60000" />
 		<set name="default_action" val="PEEL" />
@@ -1602,13 +1754,13 @@
 		<!-- Double-click on the box to acquire 1 XP Rune I (Lv. 1-85) 200% (1-hour). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i00" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="reuse_delay" val="60000" />
 		<set name="default_action" val="PEEL" />
@@ -1622,13 +1774,13 @@
 	<item id="35989" name="Festival's Cloak" additionalName="Ceremony of Chaos" type="Armor">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="back" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1643,13 +1795,13 @@
 	<item id="35990" name="Circlet of Ice" additionalName="Ceremony of Chaos" type="Armor">
 		<set name="icon" val="icon.accessory_ice_circlet_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="hairall" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="immediate_effect" val="true" />
@@ -1659,13 +1811,13 @@
 		<!-- Item that can be used at the Ceremony of Chaos Arena but nowhere else. For 7 minutes, provides the effects of Horn Melody, Guitar Melody, Pipe Organ Melody, Lute Melody, Harp Melody, Drum Melody, and Warrior's Harmony Lv. 1. -->
 		<set name="icon" val="icon.etc_super_potion_i03" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="1000" />
 		<set name="shared_reuse_group" val="7" />
@@ -1674,6 +1826,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
+		<cond addName="1" msgId="113">
+			<player instanceId="224,225,226,227" />
+		</cond>
 		<skills>
 			<skill id="9546" level="1" /> <!-- Ceremony of Chaos - Drum Melody -->
 			<skill id="9547" level="1" /> <!-- Ceremony of Chaos - Pipe Organ Melody -->
@@ -1688,13 +1843,13 @@
 		<!-- Item that can be used at the Ceremony of Chaos Arena but nowhere else. For 7 minutes, provides the effects of Horn Melody, Guitar Melody, Pipe Organ Melody, Lute Melody, Harp Melody, Drum Melody, and Wizard's Harmony Lv. 1. -->
 		<set name="icon" val="icon.etc_super_potion_i03" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="1000" />
 		<set name="shared_reuse_group" val="7" />
@@ -1703,6 +1858,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
+		<cond addName="1" msgId="113">
+			<player instanceId="224,225,226,227" />
+		</cond>
 		<skills>
 			<skill id="9546" level="1" /> <!-- Ceremony of Chaos - Drum Melody -->
 			<skill id="9547" level="1" /> <!-- Ceremony of Chaos - Pipe Organ Melody -->
@@ -1717,13 +1875,13 @@
 		<!-- Item that can be used at the Ceremony of Chaos Arena but nowhere else. For 7 minutes, provides the effects of Horn Melody, Guitar Melody, Pipe Organ Melody, Lute Melody, Harp Melody, Drum Melody, and Knight's Harmony Lv. 1. -->
 		<set name="icon" val="icon.etc_super_potion_i03" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="1000" />
 		<set name="shared_reuse_group" val="7" />
@@ -1732,6 +1890,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
+		<cond addName="1" msgId="113">
+			<player instanceId="224,225,226,227" />
+		</cond>
 		<skills>
 			<skill id="9546" level="1" /> <!-- Ceremony of Chaos - Drum Melody -->
 			<skill id="9547" level="1" /> <!-- Ceremony of Chaos - Pipe Organ Melody -->
@@ -1745,24 +1906,26 @@
 	<item id="35994" name="Tauti's Treasure Chest" additionalName="Event" type="EtcItem">
 		<!-- Double-click to receive a reward. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9568-1" /> <!-- Tauti's Treasure Chest -->
+		<skills>
+			<skill id="9568" level="1" /> <!-- Tauti's Treasure Chest -->
+		</skills>
 	</item>
 	<item id="35995" name="Gemstone" additionalName="Not in Use" type="EtcItem">
 		<!-- Not in Use -->
 		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
 		<set name="price" val="100" />
-		<!-- <set name="commissionItemType" val="GEMSTONE" /> -->
+		<set name="commissionItemType" val="GEMSTONE" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
@@ -1779,7 +1942,7 @@
 		<set name="reuse_delay" val="1350" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="CROSSBOW" /> -->
+		<set name="commissionItemType" val="CROSSBOW" />
 		<set name="blessed" val="true" />
 		<set name="damage_range" val="0;0;200;500" />
 		<set name="immediate_effect" val="true" />
@@ -1788,15 +1951,15 @@
 			<skill id="8856" level="1" /> <!-- PvE Damage Increase -->
 			<skill id="13294" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Crossbow Special Ability -->
 		</skills>
-		<for>
-			<set stat="pAtk" val="1067" />
-			<set stat="mAtk" val="298" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="12" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">1067</stat>
+			<stat type="mAtk">298</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="35997" name="Test - M. Accuracy Heavy Armor" type="Armor">
 		<!-- Rough stat data inserted -->
@@ -1807,7 +1970,7 @@
 		<set name="crystal_type" val="R99" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="100" />
@@ -1816,10 +1979,10 @@
 			<skill id="8806" level="1" /> <!-- PvP Defense -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="385" />
-			<set stat="accMagic" val="10" />
-		</for>
+		<stats>
+			<stat type="pDef">385</stat>
+			<stat type="accMagic">10</stat>
+		</stats>
 	</item>
 	<item id="35998" name="Test - M. Evasion Heavy Armor" type="Armor">
 		<!-- Rough stat data inserted -->
@@ -1830,7 +1993,7 @@
 		<set name="crystal_type" val="R99" />
 		<set name="enchant_enabled" val="1" />
 		<set name="element_enabled" val="true" />
-		<!-- <set name="commissionItemType" val="ARMOR_TOP" /> -->
+		<set name="commissionItemType" val="ARMOR_TOP" />
 		<set name="blessed" val="true" />
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="100" />
@@ -1839,17 +2002,17 @@
 			<skill id="8806" level="1" /> <!-- PvP Defense -->
 			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Heavy Armor Top Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="385" />
-			<set stat="mEvas" val="11" />
-		</for>
+		<stats>
+			<stat type="pDef">385</stat>
+			<stat type="mEvas">11</stat>
+		</stats>
 	</item>
 	<item id="35999" name="Heavenly P. Atk. Cookie" type="EtcItem">
 		<!-- For 1 hour, increases Atk. by 35%, P. Critical Damage by 35%, P. Critical Rate by 100%, Atk. Spd. by 8%, M. Atk. by 16%, Casting Spd. by 8%, and Speed by 8. Cooldown 60 min. Buff does not get deleted even after death. Cannot use Olympiad. -->
 		<set name="icon" val="icon.etc_bm_attack_cookie" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_oly_restricted" val="true" />
@@ -1858,6 +2021,8 @@
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="9569-1" /> <!-- Heavenly P. Atk. Cookie -->
+		<skills>
+			<skill id="9569" level="1" /> <!-- Heavenly P. Atk. Cookie -->
+		</skills>
 	</item>
 </list>

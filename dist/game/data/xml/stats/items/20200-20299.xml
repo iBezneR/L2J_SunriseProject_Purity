@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="20200" name="Agathion - Love" additionalName="Vitality (3-day)" type="Armor">
-		<!-- This bracelet summons an Love Agathion. Agathion skill cooldown is 12 hours. -->
+	<item id="20200" type="Armor" name="Agathion of Love - 3-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -12,19 +11,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;8245-1;23024-1" />
 		<set name="time" val="4320" />
-		<skills>
-			<skill id="8245" level="1" /> <!-- Release Agathion's Seal - Love -->
-			<skill id="23024" level="1" /> <!-- Love Agathion Special Skill: Vitality Recovery Ability -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20201" name="Agathion - Love" additionalName="Vitality (7-day)" type="Armor">
-		<!-- This bracelet summons an Love Agathion. Agathion skill cooldown is 12 hours. -->
+	<item id="20201" type="Armor" name="Agathion of Love - 7-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -35,19 +26,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;8245-1;23024-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="8245" level="1" /> <!-- Release Agathion's Seal - Love -->
-			<skill id="23024" level="1" /> <!-- Love Agathion Special Skill: Vitality Recovery Ability -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20202" name="Agathion - Love" additionalName="Vitality (15-day)" type="Armor">
-		<!-- This bracelet summons an Love Agathion. Agathion skill cooldown is 12 hours. -->
+	<item id="20202" type="Armor" name="Agathion of Love - 15-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -58,19 +41,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;8245-1;23024-1" />
 		<set name="time" val="21600" />
-		<skills>
-			<skill id="8245" level="1" /> <!-- Release Agathion's Seal - Love -->
-			<skill id="23024" level="1" /> <!-- Love Agathion Special Skill: Vitality Recovery Ability -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20203" name="Agathion - Love" additionalName="Vitality (30-day)" type="Armor">
-		<!-- This bracelet summons an Love Agathion. Agathion skill cooldown is 12 hours. -->
+	<item id="20203" type="Armor" name="Agathion of Love - 30-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -81,19 +56,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;8245-1;23024-1" />
 		<set name="time" val="43200" />
-		<skills>
-			<skill id="8245" level="1" /> <!-- Release Agathion's Seal - Love -->
-			<skill id="23024" level="1" /> <!-- Love Agathion Special Skill: Vitality Recovery Ability -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20204" name="Queen Ant's Ring (Event)" additionalName="3-day" type="Armor">
-		<!-- Event Queen Ant's Ring. MP+ 21, Poison Resistance + 30%, Poison Atk. Rate + 30%, Accuracy increase, P. Critical Damage increase, hold tolerance + 20%, and hold Atk. Rate + 20%. Only one effect is applied even when the two identical rings are worn. -->
+	<item id="20204" type="Armor" name="Queen Ant's Ring (Event) - 3-day limited period">
 		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -105,21 +72,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3562-1" />
 		<set name="time" val="4320" />
-		<skills>
-			<skill id="3562" level="1" /> <!-- Queen Ant's Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">48</stat>
-			<stat type="maxMp">21</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="20205" name="Queen Ant's Ring (Event)" additionalName="7-day" type="Armor">
-		<!-- Event Queen Ant's Ring. MP+ 21, Poison Resistance + 30%, Poison Atk. Rate + 30%, Accuracy increase, P. Critical Damage increase, hold tolerance + 20%, and hold Atk. Rate + 20%. Only one effect is applied even when the two identical rings are worn. -->
+	<item id="20205" type="Armor" name="Queen Ant's Ring (Event) - 7-day limited period">
 		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -131,21 +92,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3562-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="3562" level="1" /> <!-- Queen Ant's Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">48</stat>
-			<stat type="maxMp">21</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="20206" name="Queen Ant's Ring (Event)" additionalName="15-day" type="Armor">
-		<!-- Event Queen Ant's Ring. MP+ 21, Poison Resistance + 30%, Poison Atk. Rate + 30%, Accuracy increase, P. Critical Damage increase, hold tolerance + 20%, and hold Atk. Rate + 20%. Only one effect is applied even when the two identical rings are worn. -->
+	<item id="20206" type="Armor" name="Queen Ant's Ring (Event) - 15-day limited period">
 		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -157,21 +112,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3562-1" />
 		<set name="time" val="21600" />
-		<skills>
-			<skill id="3562" level="1" /> <!-- Queen Ant's Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">48</stat>
-			<stat type="maxMp">21</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="20207" name="Zaken's Earring (Event)" additionalName="3-day" type="Armor">
-		<!-- Event Zaken's Earring. MP+ 31, Bleed Resistance + 30%, Bleed Atk. Rate + 30%, Heal Amount increase, Vampiric Rage Effect, Stun/Mental Attack Resistance + 20%, and Stun/Mental Atk. Rate + 20%. Only one effect is applied even when the two identical earrings are worn. -->
+	<item id="20207" type="Armor" name="Earring of Zaken (Event) - 3-day limited period">
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -183,21 +132,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3559-1" />
 		<set name="time" val="4320" />
-		<skills>
-			<skill id="3559" level="1" /> <!-- Zaken's Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">71</stat>
-			<stat type="maxMp">31</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="20208" name="Zaken's Earring (Event)" additionalName="7-day" type="Armor">
-		<!-- Event Zaken's Earring. MP+ 31, Bleed Resistance + 30%, Bleed Atk. Rate + 30%, Heal Amount increase, Vampiric Rage Effect, Stun/Mental Attack Resistance + 20%, and Stun/Mental Atk. Rate + 20%. Only one effect is applied even when the two identical earrings are worn. -->
+	<item id="20208" type="Armor" name="Earring of Zaken (Event) - 7-day limited period">
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -209,21 +152,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3559-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="3559" level="1" /> <!-- Zaken's Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">71</stat>
-			<stat type="maxMp">31</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="20209" name="Zaken's Earring (Event)" additionalName="15-day" type="Armor">
-		<!-- Event Zaken's Earring. MP+ 31, Bleed Resistance + 30%, Bleed Atk. Rate + 30%, Heal Amount increase, Vampiric Rage Effect, Stun/Mental Attack Resistance + 20%, and Stun/Mental Atk. Rate + 20%. Only one effect is applied even when the two identical earrings are worn. -->
+	<item id="20209" type="Armor" name="Earring of Zaken (Event) - 15-day limited period">
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -235,21 +172,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="3559-1" />
 		<set name="time" val="21600" />
-		<skills>
-			<skill id="3559" level="1" /> <!-- Zaken's Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">71</stat>
-			<stat type="maxMp">31</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="20210" name="Charming Valentine Gift Set" type="EtcItem">
-		<!-- Wrapped Pack containing Charming Cupid Agathion and some scrumptious Chocolate Cookies. -->
+	<item id="20210" type="EtcItem" name="Charming Valentine Gift Set">
 		<set name="icon" val="BranchSys.icon.br_valentine_agathion_pack_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -262,17 +193,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20212" min="1" max="1" chance="100" /> <!-- Agathion - Charming Cupid -->
-			<item id="20214" min="15" max="15" chance="100" /> <!-- Chocolate Cookie -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20212,1,1,100;20214,15,15,100" />
 	</item>
-	<item id="20211" name="Naughty Valentine Gift Set" type="EtcItem">
-		<!-- Wrapped Pack containing Naughty Cupid Agathion and some scrumptious Chocolate Cookies. -->
+	<item id="20211" type="EtcItem" name="Naughty Valentine Gift Set">
 		<set name="icon" val="BranchSys.icon.br_valentine_agathion_pack_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -285,17 +208,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20213" min="1" max="1" chance="100" /> <!-- Agathion - Naughty Cupid -->
-			<item id="20214" min="15" max="15" chance="100" /> <!-- Chocolate Cookie -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20213,1,1,100;20214,15,15,100" />
 	</item>
-	<item id="20212" name="Agathion - Charming Cupid" type="Armor">
-		<!-- Bracelet that summons a Charming Cupid Agathion. -->
+	<item id="20212" type="Armor" name="Agathion Seal Bracelet - Charming Cupid">
 		<set name="icon" val="BranchSys.icon.br_aga_cupid_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -306,19 +221,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21031" level="1" /> <!-- Release Agathion's Seal - Charming Cupid -->
-			<skill id="23025" level="1" /> <!-- Charming Cupid Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21031-1;23025-1" />
 	</item>
-	<item id="20213" name="Agathion - Naughty Cupid" type="Armor">
-		<!-- Bracelet that summons a Naughty Cupid Agathion. -->
+	<item id="20213" type="Armor" name="Agathion Seal Bracelet - Naughty Cupid">
 		<set name="icon" val="BranchSys.icon.br_aga_cupid_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -329,23 +236,18 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21032" level="1" /> <!-- Release Agathion's Seal - Naughty Cupid -->
-			<skill id="23026" level="1" /> <!-- Naughty Cupid Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21032-1;23026-1" />
 	</item>
-	<item id="20214" name="Chocolate Cookie" type="EtcItem">
-		<!-- Replenishes Vitality to a certain degree. Cooldown is 60 min. Vitality item with limited usage. -->
+	<item id="20214" type="EtcItem" name="Chocolate Cookie">
 		<set name="icon" val="BranchSys.icon.br_valentine_cookie_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="3000" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
@@ -353,17 +255,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="shared_reuse_group" val="106" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="22028" level="1" /> <!-- Chocolate Cookie -->
-		</skills>
+		<set name="item_skill" val="22028-1" />
 	</item>
-	<item id="20215" name="Agathion - White Maneki Neko Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - White Maneki Neko. -->
+	<item id="20215" type="EtcItem" name="White Maneki Neko Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -376,16 +270,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20221" min="1" max="1" chance="100" /> <!-- Agathion - White Maneki Neko -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20221,1,1,100" />
 	</item>
-	<item id="20216" name="Agathion - Black Maneki Neko Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Black Maneki Neko. -->
+	<item id="20216" type="EtcItem" name="Black Maneki Neko Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -398,16 +285,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20222" min="1" max="1" chance="100" /> <!-- Agathion - Black Maneki Neko -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20222,1,1,100" />
 	</item>
-	<item id="20217" name="Agathion - Brown Maneki Neko Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Brown Maneki Neko. -->
+	<item id="20217" type="EtcItem" name="Brown Maneki Neko Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -420,16 +300,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20223" min="1" max="1" chance="100" /> <!-- Agathion - Brown Maneki Neko -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20223,1,1,100" />
 	</item>
-	<item id="20218" name="Agathion - White Maneki Neko Pack (7-day)" additionalName="Resurrection" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - White Maneki Neko (7-day). -->
+	<item id="20218" type="EtcItem" name="White Maneki Neko Agathion 7-Day Pack - Resurrection">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -442,16 +315,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20224" min="1" max="1" chance="100" /> <!-- Agathion - White Maneki Neko - Resurrection (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20224,1,1,100" />
 	</item>
-	<item id="20219" name="Agathion - Black Maneki Neko Pack (7-day)" additionalName="Escape" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Black Maneki Neko (7-day limit). -->
+	<item id="20219" type="EtcItem" name="Black Maneki Neko Agathion 7-Day Pack - Blessed Escape">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -464,16 +330,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20225" min="1" max="1" chance="100" /> <!-- Agathion - Black Maneki Neko - Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20225,1,1,100" />
 	</item>
-	<item id="20220" name="Agathion - Brown Maneki Neko Pack (7-day)" additionalName="Vitality" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Brown Maneki Neko (7-day limit). -->
+	<item id="20220" type="EtcItem" name="Brown Maneki Neko Agathion 7-Day Pack - Vitality">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -486,16 +345,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20226" min="1" max="1" chance="100" /> <!-- Agathion - Brown Maneki Neko - Vitality (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20226,1,1,100" />
 	</item>
-	<item id="20221" name="Agathion - White Maneki Neko" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - White Maneki Neko. -->
+	<item id="20221" type="Armor" name="Agathion Seal Bracelet - White Maneki Neko">
 		<set name="icon" val="BranchSys.icon.br_aga_maneki_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -506,20 +358,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21033" level="1" /> <!-- Release Agathion's Seal - White Maneki Neko -->
-			<skill id="23027" level="1" /> <!-- White Maneki Neko Agathion Cute Trick I -->
-			<skill id="23046" level="1" /> <!-- White Maneki Neko Agathion Cute Trick II -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21033-1;23027-1;23046-1" />
 	</item>
-	<item id="20222" name="Agathion - Black Maneki Neko" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Black Maneki Neko. -->
+	<item id="20222" type="Armor" name="Agathion Seal Bracelet - Black Maneki Neko">
 		<set name="icon" val="BranchSys.icon.br_aga_maneki_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -530,20 +373,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21034" level="1" /> <!-- Release Agathion's Seal - Black Maneki Neko -->
-			<skill id="23028" level="1" /> <!-- Black Maneki Neko Agathion Cute Trick I -->
-			<skill id="23047" level="1" /> <!-- Black Maneki Neko Agathion Cute Trick II -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21034-1;23028-1;23047-1" />
 	</item>
-	<item id="20223" name="Agathion - Brown Maneki Neko" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Brown Maneki Neko. -->
+	<item id="20223" type="Armor" name="Agathion Seal Bracelet - Brown Maneki Neko">
 		<set name="icon" val="BranchSys.icon.br_aga_maneki_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -554,20 +388,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21035" level="1" /> <!-- Release Agathion's Seal - Brown Maneki Neko -->
-			<skill id="23029" level="1" /> <!-- Brown Maneki Neko Agathion Cute Trick I -->
-			<skill id="23048" level="1" /> <!-- Brown Maneki Neko Agathion Cute Trick II -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21035-1;23029-1;23048-1" />
 	</item>
-	<item id="20224" name="Agathion - White Maneki Neko" additionalName="Resurrection (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - White Maneki Neko. Cooldown is 12 hours. -->
+	<item id="20224" type="Armor" name="Agathion Seal Bracelet - White Maneki Neko - Resurrection - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_maneki_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -579,19 +404,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21033-1;23030-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21033" level="1" /> <!-- Release Agathion's Seal - White Maneki Neko -->
-			<skill id="23030" level="1" /> <!-- White Maneki Neko Agathion Special Skill: Ability of Blessed Resurrection -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20225" name="Agathion - Black Maneki Neko" additionalName="Escape (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Black Maneki Neko. Cooldown is 12 hours. -->
+	<item id="20225" type="Armor" name="Agathion Seal Bracelet - Black Maneki Neko - Escape - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_maneki_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -603,19 +420,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21034-1;23031-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21034" level="1" /> <!-- Release Agathion's Seal - Black Maneki Neko -->
-			<skill id="23031" level="1" /> <!-- Black Maneki Neko Agathion Special Skill: Ability of Blessed Escape -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20226" name="Agathion - Brown Maneki Neko" additionalName="Vitality (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Brown Maneki Neko. Cooldown is 1 hour. -->
+	<item id="20226" type="Armor" name="Agathion Seal Bracelet - Brown Maneki Neko - Vitality - 7-day limited time">
 		<set name="icon" val="BranchSys.icon.br_aga_maneki_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -627,19 +436,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21035-1;23032-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21035" level="1" /> <!-- Release Agathion's Seal - Brown Maneki Neko -->
-			<skill id="23032" level="1" /> <!-- Brown Maneki Neko Agathion Special Skill: Ability of Vitality Recovery -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20227" name="Agathion - One-eyed Bat Drove Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - One-eyed Bat Drove. -->
+	<item id="20227" type="EtcItem" name="One-Eyed Bat Drove Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -652,16 +453,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20230" min="1" max="1" chance="100" /> <!-- Agathion - One-eyed Bat Drove -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20230,1,1,100" />
 	</item>
-	<item id="20228" name="Agathion - One-eyed Bat Drove Pack (7-day)" additionalName="Dark Resistance" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - One-eyed Bat Drove (7-day limit). Cooldown is 1 hour. -->
+	<item id="20228" type="EtcItem" name="One-Eyed Bat Drove Agathion 7-Day Pack - Resist Unholy">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -674,16 +468,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20231" min="1" max="1" chance="100" /> <!-- Agathion - One-eyed Bat Drove - Dark Resistance (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20231,1,1,100" />
 	</item>
-	<item id="20229" name="Agathion - One-eyed Bat Drove Pack (7-day)" additionalName="Vitality" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - One-eyed Bat Drove (7-day limit). Cooldown is 1 hour. -->
+	<item id="20229" type="EtcItem" name="One-Eyed Bat Drove Agathion 7-Day Pack - Vitality">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -696,16 +483,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20232" min="1" max="1" chance="100" /> <!-- Agathion - One-eyed Bat Drove - Vitality (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20232,1,1,100" />
 	</item>
-	<item id="20230" name="Agathion - One-eyed Bat Drove" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - One-eyed Bat Drove. -->
+	<item id="20230" type="Armor" name="Agathion Seal Bracelet - One-Eyed Bat Drove">
 		<set name="icon" val="BranchSys.icon.br_aga_bat_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -716,19 +496,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21036" level="1" /> <!-- Release Agathion's Seal - One-eyed Bat Drove -->
-			<skill id="23033" level="1" /> <!-- One-eyed Bat Drove Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21036-1;23033-1" />
 	</item>
-	<item id="20231" name="Agathion - One-eyed Bat Drove" additionalName="Dark Resistance (7-day)" type="Armor">
-		<!-- Can summon an Agathion - One-eyed Bat Drove when equipped. 7-day. Cooldown is 1 hour. -->
+	<item id="20231" type="Armor" name="Agathion Seal Bracelet - One-Eyed Bat Drove - Resist Unholy - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_bat_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -740,19 +512,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21036-1;23034-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21036" level="1" /> <!-- Release Agathion's Seal - One-eyed Bat Drove -->
-			<skill id="23034" level="1" /> <!-- One-eyed Bat Drove Agathion Special Skill: Ability of Dark Attack Resistance -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20232" name="Agathion - One-eyed Bat Drove" additionalName="Vitality (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - One-eyed Bat Drove. Cooldown is 1 hour. -->
+	<item id="20232" type="Armor" name="Agathion Seal Bracelet - One-Eyed Bat Drove - Vitality - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_bat_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -764,19 +528,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21036-1;23035-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21036" level="1" /> <!-- Release Agathion's Seal - One-eyed Bat Drove -->
-			<skill id="23035" level="1" /> <!-- One-eyed Bat Drove Agathion Special Skill: Ability of Vitality Recovery -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20233" name="Agathion - Pegasus Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Pegasus. -->
+	<item id="20233" type="EtcItem" name="Pegasus Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -789,16 +545,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20236" min="1" max="1" chance="100" /> <!-- Agathion - Pegasus -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20236,1,1,100" />
 	</item>
-	<item id="20234" name="Agathion - Pegasus Pack (7-day)" additionalName="Wind Walk" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Pegasus (7-day limit). -->
+	<item id="20234" type="EtcItem" name="Pegasus Agathion 7-Day Pack - Wind Walk">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -811,16 +560,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20237" min="1" max="1" chance="100" /> <!-- Agathion - Pegasus - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20237,1,1,100" />
 	</item>
-	<item id="20235" name="Agathion - Pegasus Pack (7-day)" additionalName="Escape" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Pegasus (7-day limit). -->
+	<item id="20235" type="EtcItem" name="Pegasus Agathion 7-Day Pack - Blessed Escape">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -833,16 +575,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20238" min="1" max="1" chance="100" /> <!-- Agathion - Pegasus - Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20238,1,1,100" />
 	</item>
-	<item id="20236" name="Agathion - Pegasus" type="Armor">
-		<!-- Bracelet that summons an Agathion - Pegasus. -->
+	<item id="20236" type="Armor" name="Agathion Seal Bracelet - Pegasus">
 		<set name="icon" val="BranchSys.icon.br_aga_pegasus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -853,19 +588,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21037" level="1" /> <!-- Release Agathion's Seal - Pegasus -->
-			<skill id="23036" level="1" /> <!-- Pegasus Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21037-1;23036-1" />
 	</item>
-	<item id="20237" name="Agathion - Pegasus" additionalName="Wind Walk (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Pegasus. Cooldown is 4 hours. -->
+	<item id="20237" type="Armor" name="Agathion Seal Bracelet - Pegasus - Wind Walk - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_pegasus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -877,19 +604,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21037-1;23037-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21037" level="1" /> <!-- Release Agathion's Seal - Pegasus -->
-			<skill id="23037" level="1" /> <!-- Pegasus Agathion Special Skill: Ability of Wind Walk -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20238" name="Agathion - Pegasus" additionalName="Escape (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Pegasus. Cooldown is 12 hours. -->
+	<item id="20238" type="Armor" name="Agathion Seal Bracelet - Pegasus - Escape - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_pegasus_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -901,19 +620,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21037-1;23038-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21037" level="1" /> <!-- Release Agathion's Seal - Pegasus -->
-			<skill id="23038" level="1" /> <!-- Pegasus Agathion Special Skill: Ability of Blessed Escape -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20239" name="Yellow-robed Tojigong Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Yellow-robed Tojigong. -->
+	<item id="20239" type="EtcItem" name="Yellow-Robed Tojigong Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -926,16 +637,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20245" min="1" max="1" chance="100" /> <!-- Agathion - Yellow-robed Tojigong -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20245,1,1,100" />
 	</item>
-	<item id="20240" name="Blue-robed Tojigong Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Blue-robed Tojigong. -->
+	<item id="20240" type="EtcItem" name="Blue-Robed Tojigong Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -948,16 +652,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20246" min="1" max="1" chance="100" /> <!-- Agathion - Blue-robed Tojigong -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20246,1,1,100" />
 	</item>
-	<item id="20241" name="Green-robed Tojigong Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Green-robed Tojigong. -->
+	<item id="20241" type="EtcItem" name="Green-Robed Tojigong Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -970,16 +667,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20247" min="1" max="1" chance="100" /> <!-- Agathion - Green-robed Tojigong -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20247,1,1,100" />
 	</item>
-	<item id="20242" name="Yellow-robed Tojigong Pack (7-day)" additionalName="Greater Heal" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Yellow-robed Tojigong (7-day limit). -->
+	<item id="20242" type="EtcItem" name="Yellow-Robed Tojigong 7-Day Pack - Greater Heal">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -992,16 +682,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20248" min="1" max="1" chance="100" /> <!-- Agathion - Yellow-robed Tojigong - Greater Heal (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20248,1,1,100" />
 	</item>
-	<item id="20243" name="Blue-robed Tojigong Pack (7-day)" additionalName="Reflect Damage" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Blue-robed Tojigong (7-day limit). -->
+	<item id="20243" type="EtcItem" name="Blue-Robed Tojigong 7-Day Pack - Reflect Damage">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1014,16 +697,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20249" min="1" max="1" chance="100" /> <!-- Agathion - Blue-robed Tojigong - Reflect Damage (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20249,1,1,100" />
 	</item>
-	<item id="20244" name="Green-robed Tojigong Pack (7-day)" additionalName="Mana Regeneration" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Green-robed Tojigong (7-day limit). -->
+	<item id="20244" type="EtcItem" name="Green-Robed Tojigong 7-Day Pack - Mana Regeneration">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1036,16 +712,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20250" min="1" max="1" chance="100" /> <!-- Agathion - Green-robed Tojigong - Mana Regeneration (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20250,1,1,100" />
 	</item>
-	<item id="20245" name="Agathion - Yellow-robed Tojigong" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Yellow-robed Tojigong. -->
+	<item id="20245" type="Armor" name="Agathion Seal Bracelet - Yellow-Robed Tojigong">
 		<set name="icon" val="BranchSys.icon.br_aga_tozi_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1056,19 +725,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21038" level="1" /> <!-- Release Agathion's Seal - Yellow-robed Tojigong -->
-			<skill id="23039" level="1" /> <!-- Yellow-robed Tojigong Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21038-1;23039-1" />
 	</item>
-	<item id="20246" name="Agathion - Blue-robed Tojigong" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Blue-robed Tojigong. -->
+	<item id="20246" type="Armor" name="Agathion Seal Bracelet - Blue-Robed Tojigong">
 		<set name="icon" val="BranchSys.icon.br_aga_tozi_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1079,19 +740,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21039" level="1" /> <!-- Release Agathion's Seal - Blue-robed Tojigong -->
-			<skill id="23040" level="1" /> <!-- Blue-robed Tojigong Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21039-1;23040-1" />
 	</item>
-	<item id="20247" name="Agathion - Green-robed Tojigong" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Green-robed Tojigong. -->
+	<item id="20247" type="Armor" name="Agathion Seal Bracelet - Green-Robed Tojigong">
 		<set name="icon" val="BranchSys.icon.br_aga_tozi_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1102,19 +755,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21040" level="1" /> <!-- Release Agathion's Seal - Green-robed Tojigong -->
-			<skill id="23041" level="1" /> <!-- Green-robed Tojigong Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21040-1;23041-1" />
 	</item>
-	<item id="20248" name="Agathion - Yellow-robed Tojigong" additionalName="Greater Heal (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Yellow-robed Tojigong. Cooldown is 4 hours. -->
+	<item id="20248" type="Armor" name="Agathion Seal Bracelet - Yellow-Robed Tojigong - Greater Heal - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_tozi_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1126,19 +771,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21038-1;23042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21038" level="1" /> <!-- Release Agathion's Seal - Yellow-robed Tojigong -->
-			<skill id="23042" level="1" /> <!-- Yellow-robed Tojigong Agathion Special Skill: Ability of Greater Heal -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20249" name="Agathion - Blue-robed Tojigong" additionalName="Reflect Damage (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Blue-robed Tojigong. Cooldown is 1 hour. -->
+	<item id="20249" type="Armor" name="Agathion Seal Bracelet - Blue-Robed Tojigong - Reflect Damage - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_tozi_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1150,19 +787,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21039-1;23043-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21039" level="1" /> <!-- Release Agathion's Seal - Blue-robed Tojigong -->
-			<skill id="23043" level="1" /> <!-- Blue-robed Tojigong Agathion Special Skill: Ability of Reflect Damage -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20250" name="Agathion - Green-robed Tojigong" additionalName="Mana Regeneration (7-day)" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Green-robed Tojigong. Cooldown is 1 hour. -->
+	<item id="20250" type="Armor" name="Agathion Seal Bracelet - Green-Robed Tojigong - Mana Regeneration - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_tozi_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1174,19 +803,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21040-1;23044-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21040" level="1" /> <!-- Release Agathion's Seal - Green-robed Tojigong -->
-			<skill id="23044" level="1" /> <!-- Green-robed Tojigong Agathion Special Skill: Ability of Mana Regeneration -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20251" name="Agathion - Bugbear Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Bugbear. -->
+	<item id="20251" type="EtcItem" name="Bugbear Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1199,16 +820,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20252" min="1" max="1" chance="100" /> <!-- Agathion - Bugbear -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20252,1,1,100" />
 	</item>
-	<item id="20252" name="Agathion - Bugbear" type="Armor">
-		<!-- Bracelet capable of summoning an Agathion - Bugbear. -->
+	<item id="20252" type="Armor" name="Agathion Seal Bracelet - Bugbear">
 		<set name="icon" val="BranchSys.icon.br_aga_bugbear_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1219,19 +833,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21041" level="1" /> <!-- Release Agathion's Seal - Bugbear -->
-			<skill id="23045" level="1" /> <!-- Bugbear Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21041-1;23045-1" />
 	</item>
-	<item id="20253" name="Agathion - Love (Event)" type="Armor">
-		<!-- Capable of summoning an Love Agathion. -->
+	<item id="20253" type="Armor" name="Agathion of Love (Event)">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1241,18 +847,10 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="5763" level="1" /> <!-- Wink -->
-			<skill id="8245" level="1" /> <!-- Release Agathion's Seal - Love -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5763-1;8245-1;3267-1" />
 	</item>
-	<item id="20254" name="Love Agathion Pack (Event)" type="EtcItem">
-		<!-- Wrapped Pack containing Love Agathion Seal Bracelet. -->
+	<item id="20254" type="EtcItem" name="Agathion of Love Pack (Event)">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1263,20 +861,15 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20253" min="1" max="1" chance="100" /> <!-- Agathion - Love (Event) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20253,1,1,100" />
 	</item>
-	<item id="20255" name="Baguette Sword" additionalName="7-day" type="Weapon">
-		<!-- Sword made of bread. Fills you with the joy of a buttery Baguette. -->
+	<item id="20255" type="Weapon" name="Baguette Sword - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_sword_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1288,29 +881,22 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="20256" name="Baguette Dagger" additionalName="7-day" type="Weapon">
-		<!-- Dagger made of bread. Fills you with the tears of a moldy Baguette. -->
+	<item id="20256" type="Weapon" name="Baguette Dagger - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_dagger_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1322,30 +908,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">433</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="433" />
+		</for>
 	</item>
-	<item id="20257" name="Baguette Dualsword" additionalName="7-day" type="Weapon">
-		<!-- Dualsword made of bread. Fills you with the passion of a cinnamon Baguette. -->
+	<item id="20257" type="Weapon" name="Baguette Dual Sword - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_2h_sword_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1357,29 +936,22 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="20258" name="Baguette Mace" additionalName="7-day" type="Weapon">
-		<!-- Mace made of bread. Fills you with the pain of a spicy Baguette. -->
+	<item id="20258" type="Weapon" name="Baguette Mace - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_blunt_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1391,30 +963,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="20259" name="Baguette Heavy Hammer" additionalName="7-day" type="Weapon">
-		<!-- Hammer made of bread. Fills you with the melancholy of a half-eaten Baguette. -->
+	<item id="20259" type="Weapon" name="Baguette Heavy Hammer - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_2h_blunt_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1426,30 +991,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="20260" name="Baguette Spear" additionalName="7-day" type="Weapon">
-		<!-- Spear made of bread. Fills you with the solitude of an uneaten Baguette. -->
+	<item id="20260" type="Weapon" name="Baguette Spear - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_pole_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1461,31 +1019,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1;3599-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">80</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="20261" name="Baguette Bow" additionalName="7-day" type="Weapon">
-		<!-- Bow made of bread. Fills you with the lively energy of a fresh baked Baguette. -->
+	<item id="20261" type="Weapon" name="Baguette Bow - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_bow_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1499,30 +1049,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">3</stat>
-			<stat type="critRate">12</stat>
-			<stat type="accCombat">-3.75</stat>
-			<stat type="pAtkSpd">227</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">500</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="3" />
+			<set stat="critRate" val="12" />
+			<add stat="accCombat" val="-3.75" />
+			<set stat="pAtkSpd" val="227" />
+		</for>
 	</item>
-	<item id="20262" name="Baguette Fist" additionalName="7-day" type="Weapon">
-		<!-- Fist weapon made of bread. Fills you with the tenacious nature of a three-day-old Baguette. -->
+	<item id="20262" type="Weapon" name="Baguette Fist - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_dualfist_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;32;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1534,30 +1077,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">5</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="20263" name="Baguette Magic Sword" additionalName="7-day" type="Weapon">
-		<!-- Magic sword made of bread. Fills you with the madness of a burnt Baguette. -->
+	<item id="20263" type="Weapon" name="Baguette Magic Sword - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_mage_sword_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1569,29 +1105,22 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="20264" name="Baguette Staff" additionalName="7-day" type="Weapon">
-		<!-- Staff made of bread. Fills you with the wisdom of a health-conscious Baguette. -->
+	<item id="20264" type="Weapon" name="Baguette Staff - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_1h_mage_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1603,30 +1132,23 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="20265" name="Baguette Great Staff" additionalName="7-day" type="Weapon">
-		<!-- Two-handed staff made of bread. Fills you with the tears of a soggy Baguette. -->
+	<item id="20265" type="Weapon" name="Baguette Great Staff - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_2h_mage_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;46;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="WOOD" />
@@ -1638,26 +1160,17 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="20266" name="Baguette Shield" additionalName="7-day" type="Armor">
-		<!-- Shield made of bread. Fills you with the sorrow of a wasted Baguette. -->
+	<item id="20266" type="Armor" name="Baguette Shield - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_shield_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
@@ -1667,67 +1180,59 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">5</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="5" />
+		</for>
 	</item>
-	<item id="20267" name="Baguette Rapier" additionalName="7-day" type="Weapon">
-		<!-- Rapier made of bread. Fills you with the relief of a toasty Baguette. -->
+	<item id="20267" type="Weapon" name="Baguette Rapier - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_rapier_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="RAPIER" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="500" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-			<skill id="3426" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Maximum Ability -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">3</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">406</stat>
-			<stat type="randomDamage">40</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="3" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="406" />
+		</for>
 	</item>
-	<item id="20268" name="Baguette Ancient Sword" additionalName="7-day" type="Weapon">
-		<!-- Ancient Sword made of bread. Fills you with the regret of eating too many Baguettes. -->
+	<item id="20268" type="Weapon" name="Baguette Ancient Sword - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_ancientsword_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="ANCIENTSWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1739,33 +1244,26 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">3</stat>
-			<stat type="critRate">8</stat>
-			<stat type="accCombat">2</stat>
-			<stat type="pAtkSpd">350</stat>
-			<stat type="randomDamage">15</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="3" />
+			<set stat="critRate" val="8" />
+			<add stat="accCombat" val="2" />
+			<set stat="pAtkSpd" val="350" />
+		</for>
 	</item>
-	<item id="20269" name="Baguette Crossbow" additionalName="7-day" type="Weapon">
-		<!-- Crossbow made of bread. Fills you with the rage of not having enough Baguette. -->
+	<item id="20269" type="Weapon" name="Baguette Crossbow - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_crossbow_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1778,33 +1276,26 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">3</stat>
-			<stat type="critRate">10</stat>
-			<stat type="accCombat">-1.5</stat>
-			<stat type="pAtkSpd">303</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">400</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="3" />
+			<set stat="critRate" val="10" />
+			<add stat="accCombat" val="-1.5" />
+			<set stat="pAtkSpd" val="303" />
+		</for>
 	</item>
-	<item id="20270" name="Baguette's Dualsword" additionalName="7-day" type="Weapon">
-		<!-- Dualsword containing the great power of Baguette. -->
+	<item id="20270" type="Weapon" name="Baguette's Dualsword - 7-day limited period">
 		<set name="icon" val="BranchSys.icon.br_dual_bread_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1816,25 +1307,16 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="21042-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21042" level="1" /> <!-- Blessing of Baguette -->
-		</skills>
-		<stats>
-			<stat type="pAtk">1</stat>
-			<stat type="mAtk">2</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="1" />
+			<set stat="mAtk" val="2" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="20271" name="Baguette Legacy" type="EtcItem">
-		<!-- Binds the intense emotions of Baguette. -->
+	<item id="20271" type="EtcItem" name="Baguette Legacy">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1848,64 +1330,36 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="22032" level="1" /> <!-- Baguette Legacy -->
-		</skills>
+		<set name="item_skill" val="22032-1" />
 	</item>
-	<item id="20272" name="Baguette's Herb" type="EtcItem">
-		<!-- Event item. Mysterious herb that increases Atk. Spd. -->
+	<item id="20272" type="EtcItem" name="Baguette Herb">
 		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22029" level="1" /> <!-- Baguette's Herb -->
-		</skills>
+		<set name="item_skill" val="22029-1" />
 	</item>
-	<item id="20273" name="Cream Puff Herb" type="EtcItem">
-		<!-- Event item. Mysterious herb that recovers Vitality upon acquiring XP. -->
+	<item id="20273" type="EtcItem" name="Cream Puff Herb">
 		<set name="icon" val="BranchSys.icon.br_herb_of_cream_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22030" level="1" /> <!-- Cream Puff Herb -->
-		</skills>
+		<set name="item_skill" val="22030-1" />
 	</item>
-	<item id="20274" name="Cheesecake Herb" type="EtcItem">
-		<!-- Event item. Mysterious herb that increases Casting Spd. -->
+	<item id="20274" type="EtcItem" name="Cheesecake Herb">
 		<set name="icon" val="BranchSys.icon.br_herb_of_cheesecake_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="ex_immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="22031" level="1" /> <!-- Cheesecake Herb -->
-		</skills>
+		<set name="item_skill" val="22031-1" />
 	</item>
-	<item id="20275" name="Gold Afro" type="Armor">
-		<!-- Gold Afro. Uses 2 hair accessory slots. -->
+	<item id="20275" type="Armor" name="Gold Afro">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -1916,17 +1370,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<set name="enchant_enabled" val="7" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20276" name="Pink Afro" type="Armor">
-		<!-- Pink Afro. Uses 2 hair accessory slots. -->
+	<item id="20276" type="Armor" name="Pink Afro">
 		<set name="icon" val="BranchSys.icon.br_Afro_hair_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hairall" />
@@ -1937,17 +1384,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<set name="enchant_enabled" val="7" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 	</item>
-	<item id="20277" name="Baguette Legacy - Kamael" type="EtcItem">
-		<!-- Binds the intense emotions of Baguette. For Kamael use only. -->
+	<item id="20277" type="EtcItem" name="Baguette Legacy - Kamael">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1961,16 +1401,9 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="22033" level="1" /> <!-- Baguette Legacy - Kamael -->
-		</skills>
+		<set name="item_skill" val="22033-1" />
 	</item>
-	<item id="20278" name="Gold Afro Hair Pack" type="EtcItem">
-		<!-- Pack with Gold Afro. Uses 2 hair accessory slots. -->
+	<item id="20278" type="EtcItem" name="Gold Afro Hair Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -1984,16 +1417,9 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20275" min="1" max="1" chance="100" /> <!-- Gold Afro -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20275,1,1,100" />
 	</item>
-	<item id="20279" name="Pink Afro Hair Pack" type="EtcItem">
-		<!-- Pack with Pink Afro. Uses 2 hair accessory slots. -->
+	<item id="20279" type="EtcItem" name="Pink Afro Hair Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2007,16 +1433,9 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20276" min="1" max="1" chance="100" /> <!-- Pink Afro -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20276,1,1,100" />
 	</item>
-	<item id="20280" name="Agathion - Red Sumo Wrestler Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Red Sumo Wrestler. -->
+	<item id="20280" type="EtcItem" name="Red Sumo Wrestler Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2029,16 +1448,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20297" min="1" max="1" chance="100" /> <!-- Agathion - Red Sumo Wrestler -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20297,1,1,100" />
 	</item>
-	<item id="20281" name="Agathion - Red Sumo Wrestler Pack (7-day)" additionalName="Death Whisper" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Red Sumo Wrestler (7-day). -->
+	<item id="20281" type="EtcItem" name="Red Sumo Wrestler Agathion 7-Day Pack - Death Whisper">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2051,16 +1463,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20298" min="1" max="1" chance="100" /> <!-- Agathion - Red Sumo Wrestler - Death Whisper (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20298,1,1,100" />
 	</item>
-	<item id="20282" name="Agathion - Blue Sumo Wrestler Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Blue Sumo Wrestler. -->
+	<item id="20282" type="EtcItem" name="Blue Sumo Wrestler Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2073,16 +1478,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20299" min="1" max="1" chance="100" /> <!-- Agathion - Blue Sumo Wrestler -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20299,1,1,100" />
 	</item>
-	<item id="20283" name="Agathion - Blue Sumo Wrestler Pack (7-day)" additionalName="Wild Magic" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Blue Sumo Wrestler (7-day). -->
+	<item id="20283" type="EtcItem" name="Blue Sumo Wrestler Agathion 7-Day Pack - Wild Magic">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2095,16 +1493,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20300" min="1" max="1" chance="100" /> <!-- Agathion - Blue Sumo Wrestler - Wild Magic (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20300,1,1,100" />
 	</item>
-	<item id="20284" name="Agathion - Great Sumo Match Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Great Sumo Match. -->
+	<item id="20284" type="EtcItem" name="Great Sumo Match Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2117,16 +1508,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20301" min="1" max="1" chance="100" /> <!-- Agathion - Great Sumo Match -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20301,1,1,100" />
 	</item>
-	<item id="20285" name="Agathion - Great Sumo Match Pack (7-day)" additionalName="Big Head / Firework" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Great Sumo Match (7-day). -->
+	<item id="20285" type="EtcItem" name="Great Sumo Match Agathion 7-Day Pack - Big Head / Firework">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2139,16 +1523,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20302" min="1" max="1" chance="100" /> <!-- Agathion - Great Sumo Match - Big Head / Firework (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20302,1,1,100" />
 	</item>
-	<item id="20286" name="Agathion - Button-eyed Bear Doll Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Button-eyed Bear Doll. -->
+	<item id="20286" type="EtcItem" name="Button-Eyed Bear Doll Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2161,16 +1538,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20303" min="1" max="1" chance="100" /> <!-- Agathion - Button-eyed Bear Doll -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20303,1,1,100" />
 	</item>
-	<item id="20287" name="Agathion - Button-eyed Bear Doll Pack (7-day)" additionalName="Escape" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Button-eyed Bear Doll (7-day). -->
+	<item id="20287" type="EtcItem" name="Button-Eyed Bear Doll Agathion 7-Day Pack - Blessed Escape">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2183,16 +1553,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20304" min="1" max="1" chance="100" /> <!-- Agathion - Button-eyed Bear Doll - Escape (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20304,1,1,100" />
 	</item>
-	<item id="20288" name="Agathion - Button-eyed Bear Doll Pack (7-day)" additionalName="Resurrection" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Button-eyed Bear Doll (7-day). -->
+	<item id="20288" type="EtcItem" name="Button-Eyed Bear Doll Agathion 7-Day Pack - Resurrection">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2205,16 +1568,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20305" min="1" max="1" chance="100" /> <!-- Agathion - Button-eyed Bear Doll - Resurrection (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20305,1,1,100" />
 	</item>
-	<item id="20289" name="Agathion - Button-eyed Bear Doll Pack (7-day)" additionalName="Vitality" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Button-eyed Bear Doll (7-day). -->
+	<item id="20289" type="EtcItem" name="Button-Eyed Bear Doll Agathion 7-Day Pack - Energy">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2227,16 +1583,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20306" min="1" max="1" chance="100" /> <!-- Agathion - Button-eyed Bear Doll - Vitality (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20306,1,1,100" />
 	</item>
-	<item id="20290" name="Agathion - God of Fortune Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - God of Fortune. -->
+	<item id="20290" type="EtcItem" name="God of Fortune Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2249,16 +1598,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20307" min="1" max="1" chance="100" /> <!-- Agathion - God of Fortune -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20307,1,1,100" />
 	</item>
-	<item id="20291" name="Agathion - God of Fortune Pack (7-day)" additionalName="Vitality" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - God of Fortune (7-day). -->
+	<item id="20291" type="EtcItem" name="God of Fortune Agathion 7-Day Pack - Energy">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2271,16 +1613,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20308" min="1" max="1" chance="100" /> <!-- Agathion - God of Fortune - Vitality (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20308,1,1,100" />
 	</item>
-	<item id="20292" name="Agathion - Dryad Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Dryad. -->
+	<item id="20292" type="EtcItem" name="Dryad Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2293,16 +1628,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20309" min="1" max="1" chance="100" /> <!-- Agathion - Dryad -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20309,1,1,100" />
 	</item>
-	<item id="20293" name="Agathion - Wonboso Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Wonboso. -->
+	<item id="20293" type="EtcItem" name="Wonboso Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2315,16 +1643,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20310" min="1" max="1" chance="100" /> <!-- Agathion - Wonboso -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20310,1,1,100" />
 	</item>
-	<item id="20294" name="Agathion - Wonboso Pack (7-day)" additionalName="Wind Walk" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Wonboso (7-day). -->
+	<item id="20294" type="EtcItem" name="Wonboso Agathion 7-Day Pack - Wind Walk">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2337,16 +1658,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20311" min="1" max="1" chance="100" /> <!-- Agathion - Wonboso - Wind Walk (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20311,1,1,100" />
 	</item>
-	<item id="20295" name="Agathion - Daewoonso Pack" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Daewoonso. -->
+	<item id="20295" type="EtcItem" name="Daewoonso Agathion Pack">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2359,16 +1673,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20312" min="1" max="1" chance="100" /> <!-- Agathion - Daewoonso -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20312,1,1,100" />
 	</item>
-	<item id="20296" name="Agathion - Daewoonso Pack (7-day)" additionalName="New Year's Gift" type="EtcItem">
-		<!-- Wrapped Pack containing Agathion - Daewoonso (7-day). -->
+	<item id="20296" type="EtcItem" name="Daewoonso Agathion 7-Day Pack - New Year's Gift">
 		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -2381,16 +1688,9 @@
 		<set name="is_premium" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<capsuled_items>
-			<item id="20313" min="1" max="1" chance="100" /> <!-- Agathion - Daewoonso - New Year's Gift (7-day) -->
-		</capsuled_items>
+		<set name="capsuled_items" val="20313,1,1,100" />
 	</item>
-	<item id="20297" name="Agathion - Red Sumo Wrestler" type="Armor">
-		<!-- Bracelet that summons Agathion - Red Sumo Wrestler. -->
+	<item id="20297" type="Armor" name="Agathion Seal Bracelet - Red Sumo Wrestler">
 		<set name="icon" val="BranchSys.icon.br_aga_sumo_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -2402,19 +1702,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21043" level="1" /> <!-- Release Agathion's Seal - Red Sumo Wrestler -->
-			<skill id="23049" level="1" /> <!-- Red Sumo Wrestler Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21043-1;23049-1" />
 	</item>
-	<item id="20298" name="Agathion - Red Sumo Wrestler" additionalName="Death Whisper (7-day)" type="Armor">
-		<!-- Bracelet that summons Agathion - Red Sumo Wrestler. Cooldown is 1 hour. -->
+	<item id="20298" type="Armor" name="Agathion Seal Bracelet - Red Sumo Wrestler - Death Whisper - 7-Day Limited Period">
 		<set name="icon" val="BranchSys.icon.br_aga_sumo_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -2426,19 +1718,11 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21043-1;23057-1" />
 		<set name="time" val="10080" />
-		<skills>
-			<skill id="21043" level="1" /> <!-- Release Agathion's Seal - Red Sumo Wrestler -->
-			<skill id="23057" level="1" /> <!-- Red Sumo Wrestler Agathion Special Skill: Death Whisper Ability -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
 	</item>
-	<item id="20299" name="Agathion - Blue Sumo Wrestler" type="Armor">
-		<!-- Bracelet that summons Agathion - Blue Sumo Wrestler. -->
+	<item id="20299" type="Armor" name="Agathion Seal Bracelet - Blue Sumo Wrestler">
 		<set name="icon" val="BranchSys.icon.br_aga_sumo_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -2450,15 +1734,8 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="is_oly_restricted" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<skills>
-			<skill id="21044" level="1" /> <!-- Release Agathion's Seal - Blue Sumo Wrestler Agathion -->
-			<skill id="23050" level="1" /> <!-- Blue Sumo Wrestler Agathion Cute Trick -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21044-1;23050-1" />
 	</item>
 </list>

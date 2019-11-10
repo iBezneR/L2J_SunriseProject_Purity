@@ -6,16 +6,18 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1" /> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40001" name="Dimensional Bracelet - Stage 6" additionalName="STR+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the STR+1 function. -->
@@ -23,16 +25,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18058-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18058" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40002" name="Dimensional Bracelet - Stage 6" additionalName="STR+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the STR+2 function. -->
@@ -40,16 +45,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18059-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18059" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40003" name="Dimensional Bracelet - Stage 6" additionalName="STR+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the STR+3 function. -->
@@ -57,16 +65,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18060-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18060" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40004" name="Dimensional Bracelet - Stage 6" additionalName="STR+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the STR+4 function. -->
@@ -74,16 +85,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18061-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18061" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40005" name="Dimensional Bracelet - Stage 6" additionalName="STR+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the STR+5 function. -->
@@ -91,16 +105,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18062-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18062" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40006" name="Dimensional Bracelet - Stage 6" additionalName="DEX+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the DEX+1 function. -->
@@ -108,16 +125,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18063-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18063" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40007" name="Dimensional Bracelet - Stage 6" additionalName="DEX+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the DEX+2 function. -->
@@ -125,16 +145,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18064-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18064" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40008" name="Dimensional Bracelet - Stage 6" additionalName="DEX+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the DEX+3 function. -->
@@ -142,16 +165,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18065-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18065" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40009" name="Dimensional Bracelet - Stage 6" additionalName="DEX+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the DEX+4 function. -->
@@ -159,16 +185,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18066-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18066" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40010" name="Dimensional Bracelet - Stage 6" additionalName="DEX+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the DEX+5 function. -->
@@ -176,16 +205,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18067-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18067" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40011" name="Dimensional Bracelet - Stage 6" additionalName="CON+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CON+1 function. -->
@@ -193,16 +225,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18068-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18068" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40012" name="Dimensional Bracelet - Stage 6" additionalName="CON+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CON+2 function. -->
@@ -210,16 +245,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18069-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18069" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40013" name="Dimensional Bracelet - Stage 6" additionalName="CON+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CON+3 function. -->
@@ -227,16 +265,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18070-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18070" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40014" name="Dimensional Bracelet - Stage 6" additionalName="CON+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CON+4 function. -->
@@ -244,16 +285,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18071-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18071" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40015" name="Dimensional Bracelet - Stage 6" additionalName="CON+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CON+5 function. -->
@@ -261,16 +305,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18072-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18072" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40016" name="Dimensional Bracelet - Stage 6" additionalName="INT+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the INT+1 function. -->
@@ -278,16 +325,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18073-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18073" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40017" name="Dimensional Bracelet - Stage 6" additionalName="INT+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the INT+2 function. -->
@@ -295,16 +345,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18074-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18074" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40018" name="Dimensional Bracelet - Stage 6" additionalName="INT+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the INT+3 function. -->
@@ -312,16 +365,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18075-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18075" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40019" name="Dimensional Bracelet - Stage 6" additionalName="INT+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the INT+4 function. -->
@@ -329,16 +385,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18076-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18076" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40020" name="Dimensional Bracelet - Stage 6" additionalName="INT+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the INT+5 function. -->
@@ -346,16 +405,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18077-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18077" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40021" name="Dimensional Bracelet - Stage 6" additionalName="MEN+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the MEN+1 function. -->
@@ -363,16 +425,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18078-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18078" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40022" name="Dimensional Bracelet - Stage 6" additionalName="MEN+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the MEN+2 function. -->
@@ -380,16 +445,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18079-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18079" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40023" name="Dimensional Bracelet - Stage 6" additionalName="MEN+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the MEN+3 function. -->
@@ -397,16 +465,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18080-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18080" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40024" name="Dimensional Bracelet - Stage 6" additionalName="MEN+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the MEN+4 function. -->
@@ -414,16 +485,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18081-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18081" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40025" name="Dimensional Bracelet - Stage 6" additionalName="MEN+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the MEN+5 function. -->
@@ -431,16 +505,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18082-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18082" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40026" name="Dimensional Bracelet - Stage 6" additionalName="WIT+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the WIT+1 function. -->
@@ -448,16 +525,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18083-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18083" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40027" name="Dimensional Bracelet - Stage 6" additionalName="WIT+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the WIT+2 function. -->
@@ -465,16 +545,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18084-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18084" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40028" name="Dimensional Bracelet - Stage 6" additionalName="WIT+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the WIT+3 function. -->
@@ -482,16 +565,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18085-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18085" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40029" name="Dimensional Bracelet - Stage 6" additionalName="WIT+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the WIT+4 function. -->
@@ -499,16 +585,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18086-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18086" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40030" name="Dimensional Bracelet - Stage 6" additionalName="WIT+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the WIT+5 function. -->
@@ -516,16 +605,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18087-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18087" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40031" name="Dimensional Bracelet - Stage 6" additionalName="LUC+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the LUC+1 function. -->
@@ -533,16 +625,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18088-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18088" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40032" name="Dimensional Bracelet - Stage 6" additionalName="LUC+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the LUC+2 function. -->
@@ -550,16 +645,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18089-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18089" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40033" name="Dimensional Bracelet - Stage 6" additionalName="LUC+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the LUC+3 function. -->
@@ -567,16 +665,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18090-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18090" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40034" name="Dimensional Bracelet - Stage 6" additionalName="LUC+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the LUC+4 function. -->
@@ -584,16 +685,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18091-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18091" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40035" name="Dimensional Bracelet - Stage 6" additionalName="LUC+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the LUC+5 function. -->
@@ -601,16 +705,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18092-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18092" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40036" name="Dimensional Bracelet - Stage 6" additionalName="CHA+1" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CHA+1 function. -->
@@ -618,16 +725,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18093-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18093" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40037" name="Dimensional Bracelet - Stage 6" additionalName="CHA+2" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CHA+2 function. -->
@@ -635,16 +745,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18094-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18094" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40038" name="Dimensional Bracelet - Stage 6" additionalName="CHA+3" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CHA+3 function. -->
@@ -652,16 +765,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18095-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18095" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40039" name="Dimensional Bracelet - Stage 6" additionalName="CHA+4" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CHA+4 function. -->
@@ -669,16 +785,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18096-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18096" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40040" name="Dimensional Bracelet - Stage 6" additionalName="CHA+5" type="Armor">
 		<!-- Activates 6 talisman slots when equipped. Has the CHA+5 function. -->
@@ -686,72 +805,75 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="18057-1;18097-1" /> <!-- Dimensional Bracelet --> <!-- Dimensional Bracelet -->
+		<skills>
+			<skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
+			<skill id="18097" level="1" /> <!-- Dimensional Bracelet -->
+		</skills>
 	</item>
 	<item id="40041" name="Dimensional Bracelet Enhancement Stone" additionalName="STR" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in STR + 1, and failure results in disappearance of the bestowed STR. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40042" name="Dimensional Bracelet Enhancement Stone" additionalName="DEX" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in DEX + 1, and failure results in disappearance of the bestowed DEX. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40043" name="Dimensional Bracelet Enhancement Stone" additionalName="CON" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in CON + 1, and failure results in disappearance of the bestowed CON. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40044" name="Dimensional Bracelet Enhancement Stone" additionalName="INT" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in INT + 1, and failure results in disappearance of the bestowed INT. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40045" name="Dimensional Bracelet Enhancement Stone" additionalName="MEN" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in MEN + 1, and failure results in disappearance of the bestowed MEN. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40046" name="Dimensional Bracelet Enhancement Stone" additionalName="WIT" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in WIT + 1, and failure results in disappearance of the bestowed WIT. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40047" name="Dimensional Bracelet Enhancement Stone" additionalName="LUC" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in LUC + 1, and failure results in disappearance of the bestowed LUC. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40048" name="Dimensional Bracelet Enhancement Stone" additionalName="CHA" type="EtcItem">
 		<!-- Can be combined with Dimensional Bracelet. Successful combination results in CHA + 1, and failure results in disappearance of the bestowed CHA. Stats can be bestowed to + 5. -->
 		<set name="icon" val="icon.etc_crystal_ball_red_i00" />
 		<set name="weight" val="10" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
 	<item id="40049" name="Scroll: 1,000 SP" type="EtcItem">
 		<!-- Restores 1,000 SP. -->
@@ -763,8 +885,10 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="18098-1" /> <!-- Scroll: 1,000 SP -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="18098" level="1" /> <!-- Scroll: 1,000 SP -->
+		</skills>
 	</item>
 	<item id="40050" name="Scroll: 10,000 SP" type="EtcItem">
 		<!-- Restores 10,000 SP. -->
@@ -776,8 +900,10 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="18099-1" /> <!-- Scroll: 10,000 SP -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="18099" level="1" /> <!-- Scroll: 10,000 SP -->
+		</skills>
 	</item>
 	<item id="40051" name="Scroll: 100,000 SP" type="EtcItem">
 		<!-- Restores 100,000 SP. -->
@@ -789,8 +915,10 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="18100-1" /> <!-- Scroll: 100,000 SP -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="18100" level="1" /> <!-- Scroll: 100,000 SP -->
+		</skills>
 	</item>
 	<item id="40052" name="Scroll: 1,000,000 SP" type="EtcItem">
 		<!-- Restores 1,000,000 SP. -->
@@ -802,8 +930,10 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="18101-1" /> <!-- Scroll: 1,000,000 SP -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="18101" level="1" /> <!-- Scroll: 1,000,000 SP -->
+		</skills>
 	</item>
 	<item id="40053" name="Scroll: 10,000,000 SP" type="EtcItem">
 		<!-- Restores 10,000,000 SP. -->
@@ -815,21 +945,23 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
-        <set name="item_skill" val="18102-1" /> <!-- Scroll: 10,000,000 SP -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<skills>
+			<skill id="18102" level="1" /> <!-- Scroll: 10,000,000 SP -->
+		</skills>
 	</item>
 	<item id="40054" name="Rune of Bountiful Growth Pack" type="EtcItem">
 		<!-- Wrapped Pack containing a Rune of Bountiful Growth (30-day). -->
 		<set name="icon" val="icon.ev_charge_box" />
 		<set name="weight" val="100" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -837,29 +969,38 @@
 	<item id="40055" name="Rune of Bountiful Growth (30-day)" type="EtcItem">
 		<!-- When possessed in the inventory, XP/SP acquisition + 20% while hunting. Lv. 99 or below. Can be stacked with XP Rune I (Lv. 1-85) and XP Rune II (Lv. 1-95) 100%. If used with the Emperor's Rune, only the Emperor's Rune will take effect. -->
 		<set name="icon" val="icon.ev_charge_run" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE" />
 	</item>
 	<item id="40056" name="Mysterious Wind Scroll" type="EtcItem">
 		<!-- For 60 min., Max HP/MP/CP + 30%, P./M. Def. + 30%, P. Atk. + 10%, M. Atk. + 20%, Wind Atk./Resistance + 20. Skill Cooldown - 10%. Cannot be used in the Olympiad. Does not stack with Art of Seduction. -->
 		<set name="icon" val="icon.ev_charge_scroll" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<set name="etcitem_type" val="SCROLL" />
-		<set name="is_stackable" val="true" />
+		<set name="is_private_storeable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="reuse_delay" val="500" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="is_coc_restricted" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<skills>
+			<skill id="17898" level="1" /> <!-- Mysterious Wind Scroll -->
+		</skills>
 	</item>
 	<item id="40057" name="Magic Broom" type="Weapon">
 		<!-- A basic for appearance modification. -->
@@ -868,24 +1009,24 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="40058" name="Cat Staff" type="Weapon">
 		<!-- A basic for appearance modification. -->
@@ -894,37 +1035,37 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="40059" name="Counterfeit Atelia" type="EtcItem">
 		<!-- A fake gem being sold in the Material Realm as a gem of the the Wind Spirit Realm. -->
 		<set name="icon" val="icon.etc_ertheia_astatine_fake" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -932,14 +1073,14 @@
 		<!-- An ingredient for making a jewel of the Wind Spirit Realm. Take them all to the Blacksmith of Mammon. -->
 		<set name="icon" val="icon.etc_black_freezing_core_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -955,23 +1096,23 @@
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_magic_weapon" val="true" />
-		<for>
-			<set stat="pAtk" val="6" />
-			<set stat="mAtk" val="8" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">6</stat>
+			<stat type="mAtk">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="40062" name="Recipe: Pendant (100%)" type="EtcItem">
 		<!-- Recipe for crafting a pendant. Requires Create Item Lv. 14. 100% success rate. Can obtain a pendant with stats if successful. Tyrr Maestros only. -->

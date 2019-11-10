@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="13700" name="Innadril Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Innadril. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13700" type="EtcItem" name="Innadril Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -12,16 +11,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2926" level="1" /> <!-- Innadril supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2926-1" />
 	</item>
-	<item id="13701" name="Goddard Supply Box: Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Goddard. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13701" type="EtcItem" name="Goddard Supply Box: Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -32,16 +24,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2927" level="1" /> <!-- Goddard Supply Box: magic pin -->
-		</skills>
+		<set name="item_skill" val="2927-1" />
 	</item>
-	<item id="13702" name="Rune Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Rune. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13702" type="EtcItem" name="Rune Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -52,16 +37,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2928" level="1" /> <!-- Rune supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2928-1" />
 	</item>
-	<item id="13703" name="Schuttgart Supply Box - Magic Pin" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Schuttgart. Low grade magic pin that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13703" type="EtcItem" name="Schuttgart Supply Box - Magic Pin - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -72,16 +50,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2929" level="1" /> <!-- Schuttgart supply box - magic pin -->
-		</skills>
+		<set name="item_skill" val="2929-1" />
 	</item>
-	<item id="13704" name="Gludio Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Gludio. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13704" type="EtcItem" name="Gludio Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -92,16 +63,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2930" level="1" /> <!-- Gludio supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2930-1" />
 	</item>
-	<item id="13705" name="Dion Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Dion. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13705" type="EtcItem" name="Dion Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -112,16 +76,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2931" level="1" /> <!-- Dion supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2931-1" />
 	</item>
-	<item id="13706" name="Giran Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Giran. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13706" type="EtcItem" name="Giran Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -132,16 +89,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2932" level="1" /> <!-- Giran supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2932-1" />
 	</item>
-	<item id="13707" name="Oren Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Oren. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13707" type="EtcItem" name="Oren Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -152,16 +102,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2933" level="1" /> <!-- Oren supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2933-1" />
 	</item>
-	<item id="13708" name="Aden Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Aden. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13708" type="EtcItem" name="Aden Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -172,16 +115,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2934" level="1" /> <!-- Aden supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2934-1" />
 	</item>
-	<item id="13709" name="Innadril Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Innadril. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13709" type="EtcItem" name="Innadril Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -192,16 +128,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2935" level="1" /> <!-- Innadril supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2935-1" />
 	</item>
-	<item id="13710" name="Goddard Supply Box: Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Goddard. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13710" type="EtcItem" name="Goddard Supply Box: Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -212,16 +141,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2936" level="1" /> <!-- Goddard Supply Box: magic pouch -->
-		</skills>
+		<set name="item_skill" val="2936-1" />
 	</item>
-	<item id="13711" name="Rune Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Rune. Low grade magic Pouch that's attached to the belt can be acquired at a certain rate. -->
+	<item id="13711" type="EtcItem" name="Rune Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -232,16 +154,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2937" level="1" /> <!-- Rune supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2937-1" />
 	</item>
-	<item id="13712" name="Schuttgart Supply Box - Magic Pouch" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Schuttgart. A-grade , S magic pouch that can be attached to the belt is packaged. -->
+	<item id="13712" type="EtcItem" name="Schuttgart Supply Box - Magic Pouch - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -252,16 +167,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2938" level="1" /> <!-- Schuttgart supply box - magic pouch -->
-		</skills>
+		<set name="item_skill" val="2938-1" />
 	</item>
-	<item id="13713" name="Gludio Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Gludio. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13713" type="EtcItem" name="Gludio Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -272,16 +180,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2939" level="1" /> <!-- Gludio supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2939-1" />
 	</item>
-	<item id="13714" name="Dion Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Dion. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13714" type="EtcItem" name="Dion Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -292,16 +193,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2940" level="1" /> <!-- Dion supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2940-1" />
 	</item>
-	<item id="13715" name="Giran Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Giran. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13715" type="EtcItem" name="Giran Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -312,16 +206,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2941" level="1" /> <!-- Giran supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2941-1" />
 	</item>
-	<item id="13716" name="Oren Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Oren. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13716" type="EtcItem" name="Oren Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -332,16 +219,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2942" level="1" /> <!-- Oren supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2942-1" />
 	</item>
-	<item id="13717" name="Aden Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Aden. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13717" type="EtcItem" name="Aden Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -352,16 +232,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2943" level="1" /> <!-- Aden supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2943-1" />
 	</item>
-	<item id="13718" name="Innadril Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Innadril. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13718" type="EtcItem" name="Innadril Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -372,16 +245,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2944" level="1" /> <!-- Innadril supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2944-1" />
 	</item>
-	<item id="13719" name="Goddard Supply Box: Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Goddard. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13719" type="EtcItem" name="Goddard Supply Box: Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -392,16 +258,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2945" level="1" /> <!-- Goddard Supply Box: belt -->
-		</skills>
+		<set name="item_skill" val="2945-1" />
 	</item>
-	<item id="13720" name="Rune Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Rune. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13720" type="EtcItem" name="Rune Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -412,16 +271,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2946" level="1" /> <!-- Rune supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2946-1" />
 	</item>
-	<item id="13721" name="Schuttgart Supply Box - Belt" additionalName="B-/C-grade" type="EtcItem">
-		<!-- Box that has the symbol of Schuttgart. At a certain rate, a low grade belt can be acquired. -->
+	<item id="13721" type="EtcItem" name="Schuttgart Supply Box - Belt - Grade B, C">
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -432,16 +284,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2947" level="1" /> <!-- Schuttgart supply box - belt -->
-		</skills>
+		<set name="item_skill" val="2947-1" />
 	</item>
-	<item id="13722" name="Olympiad Token" type="EtcItem">
-		<!-- Marks of Battle can be exchanged through the Olympiad Manager Mysterious Butler located in each village. -->
+	<item id="13722" type="EtcItem" name="Olympiad Token">
 		<set name="icon" val="icon.scroll_of_verification_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -451,14 +296,9 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_questitem" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="handler" val="Recipes" />
-		<set name="recipe_id" val="924" /> <!-- mk_star_stone_high_hp_potion -->
 	</item>
-	<item id="13723" name="Design: High-quality MP Recovery Stone" type="EtcItem">
+	<item id="13723" type="EtcItem" name="Design: High Quality MP Recovery Stone">
 		<set name="icon" val="icon.scroll_of_verification_i01" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
@@ -468,10 +308,9 @@
 		<set name="price" val="600" />
 		<set name="recipe_id" val="925" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="RECIPE" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="13724" name="Design: High-quality HP MP Recovery Stone" type="EtcItem">
+	<item id="13724" type="EtcItem" name="Design: High Quality HP MP Recovery Stone">
 		<set name="icon" val="icon.scroll_of_verification_i02" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
@@ -481,10 +320,9 @@
 		<set name="price" val="600" />
 		<set name="recipe_id" val="926" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="RECIPE" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="13725" name="Design: Recovery Stone" type="EtcItem">
+	<item id="13725" type="EtcItem" name="Design: Recovery Stone">
 		<set name="icon" val="icon.scroll_of_verification_i03" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
@@ -494,11 +332,9 @@
 		<set name="price" val="600" />
 		<set name="recipe_id" val="927" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="RECIPE" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="13726" name="Design: Energy Star Stone" type="EtcItem">
-		<!-- Design for making an Energy Star Stone. Requires Create Common item level 9. Success rate is 100%. -->
+	<item id="13726" type="EtcItem" name="Design: Energy Star Stone">
 		<set name="icon" val="icon.scroll_of_verification_i04" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
@@ -508,11 +344,9 @@
 		<set name="price" val="600" />
 		<set name="recipe_id" val="928" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="RECIPE" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="13727" name="Design: High-quality Energy Star Stone" type="EtcItem">
-		<!-- Design for making a High-quality Energy Star Stone. Requires Create Common item level 9. Success rate is 100%. -->
+	<item id="13727" type="EtcItem" name="Design: Greater Quality Energy Star Stone">
 		<set name="icon" val="icon.scroll_of_verification_i05" />
 		<set name="default_action" val="RECIPE" />
 		<set name="etcitem_type" val="RECIPE" />
@@ -522,11 +356,9 @@
 		<set name="price" val="600" />
 		<set name="recipe_id" val="929" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="RECIPE" />
 		<set name="handler" val="Recipes" />
 	</item>
-	<item id="13728" name="Expert Text - Star Stone Extraction Skill. Lv. 1" type="EtcItem">
-		<!-- When Double-clicked, the Star Stone Extraction skill level 1 can be learned. Can be acquired by level 75 or above. -->
+	<item id="13728" type="EtcItem" name="Expert Text - Star Stone Extraction Skill. Level 1">
 		<set name="icon" val="icon.etc_magic_book_black_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
@@ -536,32 +368,21 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2840" level="1" /> <!-- Star Stone Gathering -->
-		</skills>
+		<set name="item_skill" val="2840-1" />
 	</item>
-	<item id="13729" name="Expert Text - Star Stone Extraction Skill. Lv. 2" type="EtcItem">
-		<!-- Expert Text that teaches the Star Stone Collection skill. Lv. 2 Expert Text. -->
+	<item id="13729" type="EtcItem" name="Expert Text - Star Stone Extraction Skill. Level 2">
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
-		<set name="is_commissionable" val="false" />
 		<set name="weight" val="20" />
 	</item>
-	<item id="13730" name="Expert Text - Star Stone Extraction Skill. Lv. 3" type="EtcItem">
-		<!-- Expert Text that teaches the Star Stone Collection skill. Lv. 3 Expert Text. -->
+	<item id="13730" type="EtcItem" name="Expert Text - Star Stone Extraction Skill. Level 3">
 		<set name="icon" val="icon.etc_magic_book_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
-		<set name="is_commissionable" val="false" />
 		<set name="weight" val="20" />
 	</item>
-	<item id="13731" name="Blessed Scroll of Escape: Gludio" type="EtcItem">
-		<!-- Magically teleports you to the Town of Gludio. -->
+	<item id="13731" type="EtcItem" name="Blessed Scroll of Escape: Gludio">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -569,17 +390,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-1" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="9621" level="1" /> <!-- Blessed Scroll of Escape: Gludio -->
-		</skills>
 	</item>
-	<item id="13732" name="Blessed Scroll of Escape: Dion" type="EtcItem">
-		<!-- Magically teleports you to the Town of Dion. -->
+	<item id="13732" type="EtcItem" name="Blessed Scroll of Escape: Dion">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -587,17 +403,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-2" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="2" /> <!-- Scroll of Escape: Town of Dion -->
-		</skills>
 	</item>
-	<item id="13733" name="Blessed Scroll of Escape: Giran" type="EtcItem">
-		<!-- Magically teleports you to the Town of Giran. -->
+	<item id="13733" type="EtcItem" name="Blessed Scroll of Escape: Giran">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -605,17 +416,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-3" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="3" /> <!-- Scroll of Escape: Town of Giran -->
-		</skills>
 	</item>
-	<item id="13734" name="Blessed Scroll of Escape: Oren" type="EtcItem">
-		<!-- Magically teleports you to the Town of Oren. -->
+	<item id="13734" type="EtcItem" name="Blessed Scroll of Escape: Oren">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -623,17 +429,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-5" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="5" /> <!-- Scroll of Escape: Town of Oren -->
-		</skills>
 	</item>
-	<item id="13735" name="Blessed Scroll of Escape: Aden" type="EtcItem">
-		<!-- Magically teleports you to the Town of Aden. -->
+	<item id="13735" type="EtcItem" name="Blessed Scroll of Escape: Aden">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -641,17 +442,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-6" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="6" /> <!-- Scroll of Escape: Town of Aden -->
-		</skills>
 	</item>
-	<item id="13736" name="Blessed Scroll of Escape: Innadril" type="EtcItem">
-		<!-- Magically teleports you to the Town of Innadril. -->
+	<item id="13736" type="EtcItem" name="Blessed Scroll of Escape: Innadril">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -659,17 +455,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-4" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="4" /> <!-- Scroll of Escape: Heine -->
-		</skills>
 	</item>
-	<item id="13737" name="Blessed Scroll of Escape: Goddard" type="EtcItem">
-		<!-- Magically teleports you to the Town of Goddard. -->
+	<item id="13737" type="EtcItem" name="Blessed Scroll of Escape: Goddard">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -677,17 +468,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-7" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="7" /> <!-- Scroll of Escape: Town of Goddard -->
-		</skills>
 	</item>
-	<item id="13738" name="Blessed Scroll of Escape: Rune" type="EtcItem">
-		<!-- Magically teleports you to the Town of Rune. -->
+	<item id="13738" type="EtcItem" name="Blessed Scroll of Escape: Rune">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -695,17 +481,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-8" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="8" /> <!-- Scroll of Escape: Town of Rune -->
-		</skills>
 	</item>
-	<item id="13739" name="Blessed Scroll of Escape: Schuttgart" type="EtcItem">
-		<!-- Magically teleports you to the Town of Schuttgart. -->
+	<item id="13739" type="EtcItem" name="Blessed Scroll of Escape: Schuttgart">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -713,17 +494,12 @@
 		<set name="weight" val="120" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_oly_restricted" val="true" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2649-9" />
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2649" level="9" /> <!-- Scroll of Escape: Town of Schuttgart -->
-		</skills>
 	</item>
-	<item id="13740" name="Gludio Water Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Gludio territory. Water Resistance + 26. -->
+	<item id="13740" type="Armor" name="Gludio Water Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -734,19 +510,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="waterRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="waterRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13741" name="Dion Holy Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Dion territory. Holy Resistance + 26. -->
+	<item id="13741" type="Armor" name="Dion Holy Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -757,19 +529,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="holyRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="holyRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13742" name="Giran Wind Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Giran territory. Wind Resistance + 26. -->
+	<item id="13742" type="Armor" name="Giran Wind Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -780,19 +548,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="windRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="windRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13743" name="Oren Dark Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Oren territory. Dark Resistance + 26. -->
+	<item id="13743" type="Armor" name="Oren Dark Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -803,19 +567,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="darkRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="darkRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13744" name="Aden Earth Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Aden territory. Earth Resistance + 26. -->
+	<item id="13744" type="Armor" name="Aden Earth Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -826,19 +586,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="earthRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="earthRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13745" name="Innadril Water Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Innadril territory. Water Resistance + 26. -->
+	<item id="13745" type="Armor" name="Innadril Water Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -849,19 +605,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="waterRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="waterRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13746" name="Goddard Fire Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Goddard territory. Fire Resistance + 26. -->
+	<item id="13746" type="Armor" name="Goddard Fire Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -872,19 +624,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="fireRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="fireRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13747" name="Rune Fire Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Rune territory. Fire Resistance + 26. -->
+	<item id="13747" type="Armor" name="Rune Fire Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -895,19 +643,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="fireRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="fireRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13748" name="Schuttgart Wind Resistance Necklace" type="Armor">
-		<!-- Necklace given to the guardian of Schuttgart territory. Wind Resistance + 26. -->
+	<item id="13748" type="Armor" name="Schuttgart Wind Resistance Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -918,19 +662,15 @@
 		<set name="enchant_enabled" val="1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-			<stat type="windRes">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<add stat="windRes" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="13749" name="Emery Piece" type="EtcItem">
-		<!-- Small piece obtained on the Aerial Cleft battleground. Though weak, it seems as if a great amount of energy is condensed into a it. -->
+	<item id="13749" type="EtcItem" name="Emery Piece">
 		<set name="icon" val="icon.piece_of_emery_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -938,14 +678,9 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13750" name="Warrior's Recovery Potion" type="EtcItem">
-		<!-- Restores 5000 HP, and the remaining power restores CP. Instant effect with no duration. -->
+	<item id="13750" type="EtcItem" name="Warrior's Temporary Healing Potion">
 		<set name="icon" val="icon.etc_potion_gold_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -959,21 +694,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_coc_restricted" val="true" />
+		<set name="item_skill" val="2592-1" />
 		<set name="for_npc" val="true" />
-		<cond addName="1" msgId="113">
+		<cond msgId="113" addName="1">
 			<player flyMounted="false" />
 		</cond>
-		<skills>
-			<skill id="2592" level="1" /> <!-- Quick Healing Potion -->
-		</skills>
 	</item>
-	<item id="13751" name="Warrior's T-shirt" type="Armor">
-		<!-- Olympiad Warrior's T-shirt. Bestows an option that increases Max CP by 672 when enchanted by 4 or more. -->
+	<item id="13751" type="Armor" name="Warrior's T-shirt">
 		<set name="icon" val="icon.etc_shirts_a_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
@@ -982,22 +709,16 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="8324-1" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-		<skills>
-			<skill id="8324" level="1" type="ON_ENCHANT" type_value="4" /> <!-- Warrior's Shirt -->
-		</skills>
-		<stats>
-			<stat type="pDef">28</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="28" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="13752" name="Olympiad Warrior's Ring" type="Armor">
-		<!-- MP+ 21, increased Accuracy, increased P. Critical Damage, Hold Resistance + 30%, and Hold Atk. Rate + 30%. 60-day. Only one effect is applied even when two identical rings are worn. -->
+	<item id="13752" type="Armor" name="Olympiad Warrior's Ring">
 		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -1008,21 +729,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="8292-1" />
 		<set name="time" val="86400" />
-		<skills>
-			<skill id="8292" level="1" /> <!-- Olympiad Warrior's Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">42</stat>
-			<stat type="maxMp">21</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="42" />
+			<add stat="maxMp" val="21" />
+		</for>
 	</item>
-	<item id="13753" name="Olympiad Warrior's Necklace" type="Armor">
-		<!-- MP+ 42, Sleep/Paralysis/Stun Resistance + 15%. Sleep/Paralysis/Stun Atk. Rate + 15%. Damage Shield effect. Decreased skill cooldown. 60-day. -->
+	<item id="13753" type="Armor" name="Olympiad Warrior's Necklace">
 		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
@@ -1033,21 +747,14 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="8294-1" />
 		<set name="time" val="86400" />
-		<skills>
-			<skill id="8294" level="1" /> <!-- Olympiad Warrior's Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">26</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="26" />
+		</for>
 	</item>
-	<item id="13754" name="Olympiad Warrior's Earring" type="Armor">
-		<!-- MP + 31, Stun/Mental Resistance + 20%, Stun/Mental Atk. Rate + 20%, and Vampiric Rage. 60-day. When equipped with two identical earrings, the effect of only one earring will be applied. -->
+	<item id="13754" type="Armor" name="Olympiad Warrior's Earring">
 		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -1058,25 +765,20 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="item_skill" val="8293-1" />
 		<set name="time" val="86400" />
-		<skills>
-			<skill id="8293" level="1" /> <!-- Olympiad Warrior's Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">63</stat>
-			<stat type="maxMp">31</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="63" />
+			<add stat="maxMp" val="31" />
+		</for>
 	</item>
-	<item id="13755" name="Olympiad Warrior's Weapon (undetermined)" type="Weapon">
-		<!-- (Not Determined) -->
+	<item id="13755" type="Weapon" name="Olympiad Warrior's Weapon (undetermined)">
 		<set name="icon" val="icon.weapon_mon_gracia_soldier_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
@@ -1085,23 +787,15 @@
 		<set name="spiritshots" val="2" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="isAppearanceable" val="true" />
 		<set name="is_sellable" val="false" />
-		<stats>
-			<stat type="pAtk">24</stat>
-			<stat type="mAtk">17</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="24" />
+			<set stat="mAtk" val="17" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="379" />
+		</for>
 	</item>
-	<item id="13756" name="Agathion - Knight" type="Armor">
-		<!-- Summons an Agathion. -->
+	<item id="13756" type="Armor" name="Agathion Summon Bracelet - Knight">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -1111,152 +805,109 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="8275" level="1" /> <!-- Release Agathion's Seal - Knight -->
-			<skill id="3267" level="1" type="ON_UNEQUIP" /> <!-- Seal Agathion -->
-		</skills>
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8275-1;3267-1" />
 	</item>
-	<item id="13757" name="Gludio Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Gludio territory. -->
+	<item id="13757" type="EtcItem" name="Gludio Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13758" name="Dion Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Dion territory. -->
+	<item id="13758" type="EtcItem" name="Dion Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13759" name="Giran Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Giran territory. -->
+	<item id="13759" type="EtcItem" name="Giran Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13760" name="Oren Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Oren territory. -->
+	<item id="13760" type="EtcItem" name="Oren Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13761" name="Aden Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Aden territory. -->
+	<item id="13761" type="EtcItem" name="Aden Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13762" name="Innadril Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Innadril territory. -->
+	<item id="13762" type="EtcItem" name="Innadril Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13763" name="Goddard Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Goddard territory. -->
+	<item id="13763" type="EtcItem" name="Goddard Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13764" name="Rune Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Rune territory. -->
+	<item id="13764" type="EtcItem" name="Rune Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13765" name="Schuttgart Territory Badge" type="EtcItem">
-		<!-- Badge bearing the mark of Schuttgart territory. -->
+	<item id="13765" type="EtcItem" name="Schuttgart Territory Badge">
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13766" name="Ordinary Mercenary Certificate" type="EtcItem">
-		<!-- Certificate showing your qualification as a mercenary. -->
+	<item id="13766" type="EtcItem" name="Ordinary Mercenary Certificate">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1264,14 +915,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13767" name="Elite Mercenary Certificate" type="EtcItem">
-		<!-- Certificate showing your qualification as a mercenary. -->
+	<item id="13767" type="EtcItem" name="Elite Mercenary Certificate">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1279,14 +925,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13768" name="Exalted Mercenary Certificate" type="EtcItem">
-		<!-- Certificate showing your qualification as a mercenary. -->
+	<item id="13768" type="EtcItem" name="Top Elite Mercenary Certificate">
 		<set name="icon" val="icon.etc_scroll_of_return_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -1294,14 +935,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="13769" name="Artificial Regeneration Incubator" type="EtcItem">
-		<!-- By putting catalyzer inside Seed of Infinity, the device creates artificial tissue to eliminate the monsters that attack the Seed of Life. Can be used only to defend the instant dungeon Hall of Erosion in the Seed of Infinity. Exclusively used by Dwarf Fighters, Artisans, Warsmiths, and Maestros. -->
+	<item id="13769" type="EtcItem" name="Artificial Regeneration Incubator">
 		<set name="icon" val="icon.immo_lifeseed_decoy_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="immediate_effect" val="true" />
@@ -1312,22 +948,15 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2622-1" />
+		<cond msgId="113" addName="1">
 			<and>
 				<player instanceId="120" />
 				<player categoryType="WARSMITH_GROUP" />
 			</and>
 		</cond>
-		<skills>
-			<skill id="2622" level="1" /> <!-- Summon Life-size Decoy -->
-		</skills>
 	</item>
-	<item id="13770" name="Shadow Item: Shield of Yehan Miakesh" type="Armor">
-		<!-- Shield type shadow item that bears the crest of last hero of Ancient Gracian Kingdom. The user of this item will have the powerful skill against some monsters inside Tumor of Death and Seed of Infinity. Cannot be exchanged, dropped, or crystallized. Cannot be granted additional functions. Can be used only in the instant dungeons of the Seed of Infinity. Exclusively for Phoenix Knight, Hell Knight, Eva's Templar and Shillien Templar. -->
+	<item id="13770" type="Armor" name="Shadow Item - Shield of Yehan Miakesh">
 		<set name="icon" val="icon.immo_branded_shield_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
@@ -1338,11 +967,8 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8276-1" />
 		<set name="duration" val="60" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="useSkillDisTime" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1350,17 +976,13 @@
 				<player categoryType="SHIELD_MASTER" />
 			</and>
 		</cond>
-		<skills>
-			<skill id="8276" level="1" /> <!-- Shield Branding -->
-		</skills>
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">101</stat>
-		</stats>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="101" />
+		</for>
 	</item>
-	<item id="13771" name="Strong Alkaline Ointment" type="EtcItem">
-		<!-- It's an ointment that's made of the ingredients easily found in daily life and almost completely blocks the skin oxidation. It lessens the effects of lethal de-buff skills inside the Hall of Erosion. Can be used only inside Hall of Erosion instant dungeons. -->
+	<item id="13771" type="EtcItem" name="Strong Alkaline Ointment">
 		<set name="icon" val="icon.etc_potion_of_acumen2_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1370,17 +992,13 @@
 		<set name="reuse_delay" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="item_skill" val="2623-1" />
 		<set name="for_npc" val="true" />
-		<cond addName="1" msgId="113">
+		<cond msgId="113" addName="1">
 			<player instanceId="119,120" />
 		</cond>
-		<skills>
-			<skill id="2623" level="1" /> <!-- Alkaline Therapy -->
-		</skills>
 	</item>
-	<item id="13772" name="Life Aid Bandage" type="EtcItem">
-		<!-- Mysterious curative cloth that almost completely blocks the foreign contagion, which is the true nature of the Seed of Infinity, when you adhere it to your body. It increases Bleed/Poison Resistance, and Netherworld's Magyun induced special de-buff skills that the monsters use inside Seed of Infinity. Can be used only inside Seed of Infinity instant dungeons. -->
+	<item id="13772" type="EtcItem" name="Life Aid Bandage">
 		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1390,17 +1008,13 @@
 		<set name="reuse_delay" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="item_skill" val="2624-1" />
 		<set name="for_npc" val="true" />
-		<cond addName="1" msgId="113">
+		<cond msgId="113" addName="1">
 			<player instanceId="115,116,119,120,121,122" />
 		</cond>
-		<skills>
-			<skill id="2624" level="1" /> <!-- Life Aid Banding -->
-		</skills>
 	</item>
-	<item id="13773" name="Scent of Preservation" type="EtcItem">
-		<!-- Ancient Gracian scent used to keep a body from decaying. It stops severe Bleeding up to the maximum effect 8 caused by the monsters inside Seed of Infinity. Can be used only inside Seed of Infinity instant dungeons. -->
+	<item id="13773" type="EtcItem" name="Scent of Preservation">
 		<set name="icon" val="icon.etc_potion_red_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1410,16 +1024,12 @@
 		<set name="reuse_delay" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2625-1" />
+		<cond msgId="113" addName="1">
 			<player instanceId="115,116,119,120,121,122" />
 		</cond>
-		<skills>
-			<skill id="2625" level="1" /> <!-- Embalming -->
-		</skills>
 	</item>
-	<item id="13774" name="Scent of Exorcism" type="EtcItem">
-		<!-- Ancient Gracian scent used to cure people who are possessed by ghosts. It neutralizes the powerful Poison up to the maximum effect 8 caused by the monsters inside Seed of Infinity. Can be used only inside Seed of Infinity instant dungeons. -->
+	<item id="13774" type="EtcItem" name="Scent of Exorcism">
 		<set name="icon" val="icon.etc_holy_grail_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="ELIXIR" />
@@ -1429,16 +1039,12 @@
 		<set name="reuse_delay" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2626-1" />
+		<cond msgId="113" addName="1">
 			<player instanceId="115,116,119,120,121,122" />
 		</cond>
-		<skills>
-			<skill id="2626" level="1" /> <!-- Lighting Incense -->
-		</skills>
 	</item>
-	<item id="13775" name="Miracle Cure of Resuscitation" type="EtcItem">
-		<!-- Mysterious drug that seems to have been used in ancient Gracian sacrificial rituals. It cancels the effect of Bleeding and Poison caused by the monsters inside Seed of Infinity up to the maximum effect 8 or Netherworld's Magyun induced special de-buff up to the maximum effect 4. Can be used only inside Seed of Infinity instant dungeons. -->
+	<item id="13775" type="EtcItem" name="Miracle Cure of Resuscitation">
 		<set name="icon" val="icon.etc_cp_potion_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1448,16 +1054,12 @@
 		<set name="reuse_delay" val="500" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2627-1" />
+		<cond msgId="113" addName="1">
 			<player instanceId="115,116,119,120,121,122" />
 		</cond>
-		<skills>
-			<skill id="2627" level="1" /> <!-- Elixir Miracle -->
-		</skills>
 	</item>
-	<item id="13776" name="Structure Scarab" type="EtcItem">
-		<!-- Amulet frequently used by ancient Gracian nobles. It gives the ability to resurrect and protection against death. Can be used only inside Seed of Infinity instant dungeons. -->
+	<item id="13776" type="EtcItem" name="Structure Scarab">
 		<set name="icon" val="icon.etc_beetle_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1469,19 +1071,12 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<cond addName="1" msgId="113">
+		<set name="item_skill" val="2628-1" />
+		<cond msgId="113" addName="1">
 			<player instanceId="115,116,119,120,121,122" />
 		</cond>
-		<skills>
-			<skill id="2628" level="1" /> <!-- Structure Scarab -->
-		</skills>
 	</item>
-	<item id="13777" name="Jewel Ornamented Duel Supplies" type="EtcItem">
-		<!-- Lavishly adorned with jewels, this box looks like contains items of exceeding value. -->
+	<item id="13777" type="EtcItem" name="Jewel Ornamented Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1492,16 +1087,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2842" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2842-1" />
 	</item>
-	<item id="13778" name="Mother-of-Pearl Ornamented Duel Supplies" type="EtcItem">
-		<!-- Covered in opaque multi-colored mother-of-pearl, just looking at this box fills you with expectation. -->
+	<item id="13778" type="EtcItem" name="Mother-of-Pearl Ornamented Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1512,16 +1100,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2843" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2843-1" />
 	</item>
-	<item id="13779" name="Gold-ornamented Duel Supplies" type="EtcItem">
-		<!-- Covered in gold, this box looks like it would fetch a hefty sum in any market. -->
+	<item id="13779" type="EtcItem" name="Gold-Ornamented Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1532,16 +1113,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2844" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2844-1" />
 	</item>
-	<item id="13780" name="Silver-ornamented Duel Supplies" type="EtcItem">
-		<!-- Covered in silver, this box shines like a mirror. -->
+	<item id="13780" type="EtcItem" name="Silver-Ornamented Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1552,16 +1126,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2845" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2845-1" />
 	</item>
-	<item id="13781" name="Bronze-ornamented Duel Supplies" type="EtcItem">
-		<!-- This utilitarian box looks like it might contain some useful items. -->
+	<item id="13781" type="EtcItem" name="Bronze-Ornamented Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1572,16 +1139,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2846" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2846-1" />
 	</item>
-	<item id="13782" name="Non-ornamented Duel Supplies" type="EtcItem">
-		<!-- This plain box makes you curious to look inside. -->
+	<item id="13782" type="EtcItem" name="Non-Ornamented Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1592,16 +1152,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2847" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2847-1" />
 	</item>
-	<item id="13783" name="Weak-looking Duel Supplies" type="EtcItem">
-		<!-- This small box can't hold anything of value. Can it? -->
+	<item id="13783" type="EtcItem" name="Weak-Looking Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1612,16 +1165,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2848" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2848-1" />
 	</item>
-	<item id="13784" name="Sad-looking Duel Supplies" type="EtcItem">
-		<!-- This small, battered-looking box probably isn't worth your time. -->
+	<item id="13784" type="EtcItem" name="Sad-Looking Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1632,16 +1178,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2849" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2849-1" />
 	</item>
-	<item id="13785" name="Poor-looking Duel Supplies" type="EtcItem">
-		<!-- This old, dust-covered box looks fairly worthless. -->
+	<item id="13785" type="EtcItem" name="Poor-Looking Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1652,16 +1191,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2850" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2850-1" />
 	</item>
-	<item id="13786" name="Worthless Duel Supplies" type="EtcItem">
-		<!-- This box looks like it's falling apart. -->
+	<item id="13786" type="EtcItem" name="Worthless Duel Supplies">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
@@ -1672,16 +1204,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2851" level="1" /> <!-- Duel Supplies -->
-		</skills>
+		<set name="item_skill" val="2851-1" />
 	</item>
-	<item id="13787" name="Bond" type="EtcItem">
-		<!-- Item can be useful in Handy's Block Checker matches. Used in the blocks. -->
+	<item id="13787" type="EtcItem" name="Bond">
 		<set name="icon" val="icon.block_bond" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1690,13 +1215,9 @@
 		<set name="weight" val="180" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<skills>
-			<skill id="2616" level="1" /> <!-- Bond Sealant -->
-		</skills>
+		<set name="item_skill" val="2616-1" />
 	</item>
-	<item id="13788" name="Land Mine" type="EtcItem">
-		<!-- Item can be useful in Handy's Block Checker matches. Used in the blocks. -->
+	<item id="13788" type="EtcItem" name="Land Mine">
 		<set name="icon" val="icon.block_boom" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="POTION" />
@@ -1705,17 +1226,15 @@
 		<set name="weight" val="180" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="SCROLL_OTHER" />
-		<skills>
-			<skill id="2617" level="1" /> <!-- Stun Planter -->
-		</skills>
+		<set name="item_skill" val="2617-1" />
 	</item>
-	<item id="13789" name="Red Boing Hammer" type="Weapon">
-		<!-- Used during the block-flipping match, it is needed to attach the block to the floor. -->
+	<item id="13789" type="Weapon" name="Red Boing Hammer">
 		<set name="icon" val="icon.weapon_bbyong_hammer_a_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="705" />
@@ -1725,27 +1244,24 @@
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="5852" level="1" /> <!-- Flip Block -->
-		</skills>
-		<stats>
-			<stat type="pAtk">107</stat>
-			<stat type="mAtk">61</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="5852-1" />
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="13790" name="Blue Boing Hammer" type="Weapon">
-		<!-- Used during the block-flipping match, it is needed to attach the block to the floor. -->
+	<item id="13790" type="Weapon" name="Blue Boing Hammer">
 		<set name="icon" val="icon.weapon_bbyong_hammer_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="705" />
@@ -1755,27 +1271,24 @@
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="5853" level="1" /> <!-- Flip Block -->
-		</skills>
-		<stats>
-			<stat type="pAtk">107</stat>
-			<stat type="mAtk">61</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<set name="item_skill" val="5853-1" />
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="13791" name="Small Red Boing Hammer" type="Weapon">
-		<!-- Used during the block-flipping match. -->
+	<item id="13791" type="Weapon" name="Small Red Boing Hammer">
 		<set name="icon" val="icon.weapon_bbyong_hammer_c_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="705" />
@@ -1784,25 +1297,24 @@
 		<set name="weight" val="1710" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">107</stat>
-			<stat type="mAtk">61</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="13792" name="Small Blue Boing Hammer" type="Weapon">
-		<!-- Used during the block-flipping match. -->
+	<item id="13792" type="Weapon" name="Small Blue Boing Hammer">
 		<set name="icon" val="icon.weapon_bbyong_hammer_d_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_count" val="705" />
@@ -1811,21 +1323,18 @@
 		<set name="weight" val="1710" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
-		<set name="commissionItemType" val="BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">107</stat>
-			<stat type="mAtk">61</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">379</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="107" />
+			<set stat="mAtk" val="61" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="379" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="13793" name="Scroll: Hide Kratei's Cube Name" type="EtcItem">
-		<!-- Used to hide your name in Kratei's Cube. -->
+	<item id="13793" type="EtcItem" name="Kratei's Cube Name Hiding Scroll">
 		<set name="icon" val="icon.transform_towu_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1836,14 +1345,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2371" level="1" /> <!-- Transformation Scroll: Onyx Beast -->
-		</skills>
+		<set name="item_skill" val="2371-1" />
 	</item>
-	<item id="13794" name="Transformed Object: Handy's Block Checker Transformation Scroll Blue" type="EtcItem">
-		<!-- Transformed Object: Block-Flipping Transformation Scroll -->
+	<item id="13794" type="EtcItem" name="Transformed Object: Handy's Block Checker Transformation Scroll Blue">
 		<set name="icon" val="icon.block_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1854,14 +1358,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2671" level="1" /> <!-- Transformation Scroll: Blue -->
-		</skills>
+		<set name="item_skill" val="2671-1" />
 	</item>
-	<item id="13795" name="Transformed Object: Handy's Block Checker Transformation Scroll Red" type="EtcItem">
-		<!-- Transformed Object: Block-Flipping Transformation Scroll -->
+	<item id="13795" type="EtcItem" name="Transformed Object: Handy's Block Checker Transformation Scroll Red">
 		<set name="icon" val="icon.block_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCROLL" />
@@ -1872,38 +1371,27 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2670" level="1" /> <!-- Transformation Scroll: Red -->
-		</skills>
+		<set name="item_skill" val="2670-1" />
 	</item>
-	<item id="13796" name="Freed Soul" type="EtcItem">
-		<!-- Energy from ghosts that flow through the Seed of Infinity reside within this item. Can be used at Special Product Broker Kirklan. -->
+	<item id="13796" type="EtcItem" name="Freed Soul">
 		<set name="icon" val="icon.freed_soul_essense_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13797" name="Tear of a Freed Soul" type="EtcItem">
-		<!-- Container having a ghosts being flown out of the Seed of Infinity. Seed of Infinity attack/defend reward -->
+	<item id="13797" type="EtcItem" name="Tear of a Freed Soul">
 		<set name="icon" val="icon.etc_madicine_bottle_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13798" name="Restless Soul" type="EtcItem">
-		<!-- The ruin left when the ghosts have run out of their energy while being flown in the Seed of Infinity. Seed of Infinity collection additional reward -->
+	<item id="13798" type="EtcItem" name="Portion of a Soul">
 		<set name="icon" val="icon.soul_facet_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="immediate_effect" val="true" />
@@ -1912,25 +1400,16 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
+		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="13799" name="Treasure Sack of Ancient Times" type="EtcItem">
-		<!-- Contains the treasure of the ancient Giants. Double-click to open it. -->
+	<item id="13799" type="EtcItem" name="Treasure Sack of the Ancient Giants">
 		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<capsuled_items>
-			<item id="9628" min="1" max="2" chance="60" /> <!-- Corroded Leonard -->
-			<item id="9629" min="1" max="2" chance="30" /> <!-- Corroded Adamantine -->
-			<item id="9630" min="1" max="2" chance="35" /> <!-- Corroded Orichalcum -->
-		</capsuled_items>
+		<set name="capsuled_items" val="9628,1,2,60;9629,1,2,30;9630,1,2,35" />
 	</item>
 </list>

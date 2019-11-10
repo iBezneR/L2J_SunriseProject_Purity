@@ -150,7 +150,7 @@
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="RECIPE" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="recipe_id" val="4122" /> <!-- mk_weapon_fragment_lv2 -->
 		<set name="handler" val="Recipes" />
 	</item>
@@ -241,7 +241,7 @@
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="RECIPE" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="recipe_id" val="4132" /> <!-- mk_armor_fragment_lv3 -->
 		<set name="handler" val="Recipes" />
 	</item>
@@ -314,7 +314,7 @@
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="RECIPE" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="recipe_id" val="4140" /> <!-- mk_acc_fragment_lv3 -->
 		<set name="handler" val="Recipes" />
 	</item>
@@ -333,7 +333,7 @@
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="RECIPE" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="recipe_id" val="4142" /> <!-- mk_acc_fragment_lv4 -->
 		<set name="handler" val="Recipes" />
 	</item>
@@ -388,7 +388,7 @@
 		<set name="weight" val="30" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="RECIPE" />
-		<!-- <set name="commissionItemType" val="RECIPE" /> -->
+		<set name="commissionItemType" val="RECIPE" />
 		<set name="recipe_id" val="4148" /> <!-- mk_cokes_lv3 -->
 		<set name="handler" val="Recipes" />
 	</item>
@@ -430,10 +430,13 @@
 		<set name="price" val="192622000" />
 		<set name="immediate_effect" val="true" />
 		<set name="enchant_enabled" val="1" />
-        <set name="item_skill" val="13524-1;13542-1" /> <!-- Lindvior's Earring --> <!-- Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-		</for>
+		<skills>
+			<skill id="13524" level="1" /> <!-- Lindvior's Earring -->
+			<skill id="13542" level="1" /> <!-- Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
 	</item>
 	<item id="36947" name="Bottle of Lindvior's Soul" type="EtcItem">
 		<!-- No longer provided -->
@@ -449,36 +452,39 @@
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="R" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13525-1;13526-1" /> <!-- Blessed Lindvior's Earring --> <!-- Blessed Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-		</for>
+		<skills>
+			<skill id="13525" level="1" /> <!-- Blessed Lindvior's Earring -->
+			<skill id="13526" level="1" /> <!-- Blessed Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
 	</item>
 	<item id="36949" name="Chaos Essence" type="EtcItem">
 		<!-- Mysterious essence with the power of chaos. Take it to Hardin at the Reliquary of the Giants to change your specialized awakened class. Cannot be used by Ertheia. Can be used only by the main class. 30-day. -->
 		<set name="icon" val="icon.etc_water_of_silen_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="36950" name="Toma's Living Guide" type="EtcItem">
 		<!-- Lineage II Living Guide written by Master Toma with great efforts. -->
 		<set name="icon" val="icon.etc_letter_in_bottle_white_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="Book" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="10" />
 	</item>
@@ -486,133 +492,135 @@
 		<!-- Instrument to commemorate the 9th anniversary of Lineage II. You can play great music with it. -->
 		<set name="icon" val="icon.ev_9th_celebration_bonus_gift" />
 		<set name="weapon_type" val="BLUNT" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="36952" name="Air Bike" type="EtcItem">
 		<!-- Masterpiece perfected by a Dwarven Artisan after long hours of work. Double-click the Spellbook to learn the skill of getting on the Air Bike. Can be used only by characters who belong to a clan of level 5 or higher. Can be obtained in the main class status. -->
 		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="20" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="7116-1" /> <!-- Air Bike -->
+		<skills>
+			<skill id="7116" level="1" /> <!-- Air Bike -->
+		</skills>
 	</item>
 	<item id="36953" name="Support Box" type="EtcItem">
 		<!-- Box that helps new/dormant heroes. Double-click to receive an item appropriate for the PC's class/level. -->
 		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36954" name="No-grade" type="EtcItem">
 		<!-- Double-click to receive a box with a no-grade item and a D-grade item. Items are provided according to the PC's level and class. The box whose level does not match the PC's level cannot be used. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36955" name="D-grade" type="EtcItem">
 		<!-- Double-click to receive a box with a D-grade item and a C-grade item. Items are provided according to the PC's level and class. The box whose level does not match the PC's level cannot be used. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36956" name="C-grade" type="EtcItem">
 		<!-- Double-click to receive a box with a C-grade item and a B-grade item. Items are provided according to the PC's level and class. The box whose level does not match the PC's level cannot be used. -->
 		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36957" name="B-grade" type="EtcItem">
 		<!-- Double-click to receive a box with a B-grade item and an A-grade item. Items are provided according to the PC's level and class. The box whose level does not match the PC's level cannot be used. -->
 		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36958" name="A-grade" type="EtcItem">
 		<!-- Double-click to receive a box with an A-grade item and an S-grade item. Items are provided according to the PC's level and class. The box whose level does not match the PC's level cannot be used. -->
 		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="36959" name="S-grade" type="EtcItem">
 		<!-- Double-click to receive an S-grade item. Items are provided according to the PC's level and class. The box whose level does not match the PC's level cannot be used. -->
 		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -626,11 +634,13 @@
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12875-3" /> <!-- Fire Stone -->
+		<skills>
+			<skill id="12875" level="3" /> <!-- Fire Stone -->
+		</skills>
 	</item>
 	<item id="36961" name="Water Stone (+ 60)" type="EtcItem">
 		<!-- Can bestow water attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -642,11 +652,13 @@
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12876-3" /> <!-- Water Stone -->
+		<skills>
+			<skill id="12876" level="3" /> <!-- Water Stone -->
+		</skills>
 	</item>
 	<item id="36962" name="Earth Stone (+ 60)" type="EtcItem">
 		<!-- Can bestow earth attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -658,11 +670,13 @@
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12878-3" /> <!-- Earth Stone -->
+		<skills>
+			<skill id="12878" level="3" /> <!-- Earth Stone -->
+		</skills>
 	</item>
 	<item id="36963" name="Wind Stone (+ 60)" type="EtcItem">
 		<!-- Can bestow wind attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -674,11 +688,13 @@
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12877-3" /> <!-- Wind Stone -->
+		<skills>
+			<skill id="12877" level="3" /> <!-- Wind Stone -->
+		</skills>
 	</item>
 	<item id="36964" name="Dark Stone (+ 60)" type="EtcItem">
 		<!-- Can bestow dark attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -690,11 +706,13 @@
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12880-3" /> <!-- Dark Stone -->
+		<skills>
+			<skill id="12880" level="3" /> <!-- Dark Stone -->
+		</skills>
 	</item>
 	<item id="36965" name="Holy Stone (+ 60)" type="EtcItem">
 		<!-- Can bestow holy attribute up to 60 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -706,11 +724,13 @@
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12879-3" /> <!-- Holy Stone -->
+		<skills>
+			<skill id="12879" level="3" /> <!-- Holy Stone -->
+		</skills>
 	</item>
 	<item id="36966" name="Fire Stone (+ 150)" type="EtcItem">
 		<!-- Can bestow fire attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -722,11 +742,13 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12875-1" /> <!-- Fire Stone -->
+		<skills>
+			<skill id="12875" level="1" /> <!-- Fire Stone -->
+		</skills>
 	</item>
 	<item id="36967" name="Water Stone (+ 150)" type="EtcItem">
 		<!-- Can bestow water attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -738,11 +760,13 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12876-1" /> <!-- Water Stone -->
+		<skills>
+			<skill id="12876" level="1" /> <!-- Water Stone -->
+		</skills>
 	</item>
 	<item id="36968" name="Earth Stone (+ 150)" type="EtcItem">
 		<!-- Can bestow earth attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -754,11 +778,13 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12878-1" /> <!-- Earth Stone -->
+		<skills>
+			<skill id="12878" level="1" /> <!-- Earth Stone -->
+		</skills>
 	</item>
 	<item id="36969" name="Wind Stone (+ 150)" type="EtcItem">
 		<!-- Can bestow wind attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -770,11 +796,13 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12877-1" /> <!-- Wind Stone -->
+		<skills>
+			<skill id="12877" level="1" /> <!-- Wind Stone -->
+		</skills>
 	</item>
 	<item id="36970" name="Dark Stone (+ 150)" type="EtcItem">
 		<!-- Can bestow dark attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -786,11 +814,13 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12880-1" /> <!-- Dark Stone -->
+		<skills>
+			<skill id="12880" level="1" /> <!-- Dark Stone -->
+		</skills>
 	</item>
 	<item id="36971" name="Holy Stone (+ 150)" type="EtcItem">
 		<!-- Can bestow holy attribute up to level 3 at one time. Additional Elemental attributes cannot be bestowed. Up to 3 types of attributes can be enchanted for armor. Opposite attributes cannot be bestowed at the same time. -->
@@ -802,53 +832,121 @@
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantAttribute" />
-		<!-- <set name="commissionItemType" val="ATTRIBUTE_STONE" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="12879-1" /> <!-- Holy Stone -->
+		<skills>
+			<skill id="12879" level="1" /> <!-- Holy Stone -->
+		</skills>
 	</item>
 	<item id="36972" name="Fire Crystal - Super" type="EtcItem">
 		<!-- Fire attribute from level 3 to level 6 can be bestowed at the same time. The crystal's power is destroyed when additional attributes are bestowed. Also, armor can be enchanted up to 3 attributes. Opposite attributes cannot be bestowed. -->
 		<set name="icon" val="icon.etc_fire_crystal_i00" />
-		<set name="weight" val="1" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<skills>
+			<skill id="12875" level="2" /> <!-- Fire Crystal -->
+		</skills>
 	</item>
 	<item id="36973" name="Water Crystal - Super" type="EtcItem">
 		<!-- Water attribute from level 3 to level 6 can be bestowed at the same time. The crystal's power is destroyed when additional attributes are bestowed. Also, armor can be enchanted up to 3 attributes. Opposite attributes cannot be bestowed. -->
 		<set name="icon" val="icon.etc_water_crystal_i00" />
-		<set name="weight" val="1" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<skills>
+			<skill id="12876" level="2" /> <!-- Water Crystal -->
+		</skills>
 	</item>
 	<item id="36974" name="Earth Crystal - Super" type="EtcItem">
 		<!-- Earth attribute from level 3 to level 6 can be bestowed at the same time. The crystal's power is destroyed when additional attributes are bestowed. Also, armor can be enchanted up to 3 attributes. Opposite attributes cannot be bestowed. -->
 		<set name="icon" val="icon.etc_earth_crystal_i00" />
-		<set name="weight" val="1" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<skills>
+			<skill id="12878" level="2" /> <!-- Earth Crystal -->
+		</skills>
 	</item>
 	<item id="36975" name="Wind Crystal - Super" type="EtcItem">
 		<!-- Wind attribute from level 3 to level 6 can be bestowed at the same time. The crystal's power is destroyed when additional attributes are bestowed. Also, armor can be enchanted up to 3 attributes. Opposite attributes cannot be bestowed. -->
 		<set name="icon" val="icon.etc_wind_crystal_i00" />
-		<set name="weight" val="1" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<skills>
+			<skill id="12877" level="2" /> <!-- Wind Crystal -->
+		</skills>
 	</item>
 	<item id="36976" name="Dark Crystal - Super" type="EtcItem">
 		<!-- Dark attribute from level 3 to level 6 can be bestowed at the same time. The crystal's power is destroyed when additional attributes are bestowed. Also, armor can be enchanted up to 3 attributes. Opposite attributes cannot be bestowed. -->
 		<set name="icon" val="icon.etc_unholy_crystal_i00" />
-		<set name="weight" val="1" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<skills>
+			<skill id="12880" level="2" /> <!-- Dark Crystal -->
+		</skills>
 	</item>
 	<item id="36977" name="Holy Crystal - Super" type="EtcItem">
 		<!-- Holy attribute from level 3 to level 6 can be bestowed at the same time. The crystal's power is destroyed when additional attributes are bestowed. Also, armor can be enchanted up to 3 attributes. Opposite attributes cannot be bestowed. -->
 		<set name="icon" val="icon.etc_holy_crystal_i00" />
-		<set name="weight" val="1" />
+		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SCRL_ENCHANT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_commissionable" val="false" />
+		<skills>
+			<skill id="12879" level="2" /> <!-- Holy Crystal -->
+		</skills>
 	</item>
 	<item id="36978" name="Scroll: Enchant Hair Accessory" type="EtcItem">
 		<!-- Increases M. Def. of hair accessories by 2. It is greatly increased starting at + 4. Can be safely enchanted to + 3. -->
@@ -859,15 +957,17 @@
 		<set name="etcitem_type" val="SCRL_ENCHANT_AM" />
 		<set name="handler" val="EnchantScrolls" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" /> -->
-        <set name="item_skill" val="9234-1" /> <!-- Scroll: Enchant Hair Accessory -->
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9234" level="1" /> <!-- Scroll: Enchant Hair Accessory -->
+		</skills>
 	</item>
 	<item id="36979" name="Life Stone: Hair Accessory" type="EtcItem">
 		<!-- Life Stone for Hair Accessories. -->
 		<set name="icon" val="icon.life_dust_hairacc_general" />
 		<set name="weight" val="100" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="LIFE_STONE" /> -->
+		<set name="commissionItemType" val="LIFE_STONE" />
 	</item>
 	<item id="36980" name="9th Anniversary Rocket Gun Hat: Chain Fireworks" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. -->
@@ -875,7 +975,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1" /> <!-- Chain Fireworks -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+		</skills>
 	</item>
 	<item id="36981" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - STR" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. STR + 3 when equipped. -->
@@ -883,7 +985,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9554-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: STR -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
+		</skills>
 	</item>
 	<item id="36982" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - DEX" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. DEX + 3 when equipped. -->
@@ -891,7 +996,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9555-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: DEX -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
+		</skills>
 	</item>
 	<item id="36983" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - CON" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. CON + 3 when equipped. -->
@@ -899,7 +1007,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9556-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: CON -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
+		</skills>
 	</item>
 	<item id="36984" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - MEN" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. MEN + 3 when equipped. -->
@@ -907,7 +1018,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9557-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: MEN -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
+		</skills>
 	</item>
 	<item id="36985" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - INT" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. INT + 3 when equipped. -->
@@ -915,7 +1029,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9558-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: INT -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
+		</skills>
 	</item>
 	<item id="36986" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - WIT" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. WIT + 3 when equipped. -->
@@ -923,7 +1040,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9559-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: WIT -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
+		</skills>
 	</item>
 	<item id="36987" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - Critical Rate" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. P. Critical Rate + 50 when equipped. -->
@@ -931,7 +1051,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9560-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: Critical Rate -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
+		</skills>
 	</item>
 	<item id="36988" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - Critical Damage" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
@@ -939,7 +1062,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9561-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: Critical Damage -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
+		</skills>
 	</item>
 	<item id="36989" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - P. Def." type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. P. Def. + 5% when equipped. -->
@@ -947,7 +1073,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9562-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory Circlet: P. Def. -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
+		</skills>
 	</item>
 	<item id="36990" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - M. Def." type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. M. Def. + 5% when equipped. -->
@@ -955,7 +1084,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9563-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: M. Def. -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
+		</skills>
 	</item>
 	<item id="36991" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - Evasion" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. Evasion + 5 when equipped. -->
@@ -963,7 +1095,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9564-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: Evasion -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+		</skills>
 	</item>
 	<item id="36992" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - P. Atk." type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. P. Atk. + 5% when equipped. -->
@@ -971,7 +1106,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9565-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: P. Atk. -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
+		</skills>
 	</item>
 	<item id="36993" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - M. Atk." type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. M. Atk. + 10% when equipped. -->
@@ -979,7 +1117,10 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9566-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: M. Atk. -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
+		</skills>
 	</item>
 	<item id="36994" name="9th Anniversary Rocket Gun Hat: Chain Fireworks - Accuracy" type="Armor">
 		<!-- Item to commemorate the 9th anniversary. Hat shaped like a rocket gun. Enables the Chain Fireworks skill. Accuracy + 5 when equipped. -->
@@ -987,75 +1128,78 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="is_sellable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13493-1;9567-1" /> <!-- Chain Fireworks --> <!-- Hair Accessory: Accuracy -->
+		<skills>
+			<skill id="13493" level="1" /> <!-- Chain Fireworks -->
+			<skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
+		</skills>
 	</item>
 	<item id="36995" name="9th Anniversary Gift Box" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Gift Box that contains 9th Anniversary Rocket Gun Hat: Chain Fireworks and 9th Anniversary Cube (30-day) (Event). -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="43200" />
 	</item>
 	<item id="36996" name="9th Anniversary Gift Box" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Gift Box that contains 9th Anniversary Rocket Gun Hat: Chain Fireworks and 9th Anniversary Cube (20-day) (Event). -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="28800" />
 	</item>
 	<item id="36997" name="9th Anniversary Gift Box" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Gift Box that contains 9th Anniversary Rocket Gun Hat: Chain Fireworks and 9th Anniversary Cube (10-day) (Event). -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="14400" />
 	</item>
 	<item id="36998" name="9th Anniversary Gift Box" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Gift Box that contains 9th Anniversary Rocket Gun Hat: Chain Fireworks and 9th Anniversary Cube (5-day) (Event). -->
 		<set name="icon" val="icon.etc_pi_box_belief_pack" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="time" val="7200" />
 	</item>
 	<item id="36999" name="9th Anniversary Cube (30-day) (Event)" type="EtcItem">
 		<!-- Lineage II's 9th Anniversary Cube. Double-click to obtain one of the following: Kaliel's Energy (Annihilation/Hellfire/Desire), Honey Wheat Cake, Honey Rice Cake, and Blessed Scroll of Resurrection. Can be used once a day. -->
 		<set name="icon" val="icon.special_cube_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="ELIXIR" />
 		<set name="time" val="43200" />
 	</item>

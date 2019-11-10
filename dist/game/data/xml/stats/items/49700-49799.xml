@@ -22,15 +22,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<for>
-			<set stat="pAtk" val="12" />
-			<set stat="mAtk" val="12" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="200" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">12</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">200</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 </list>

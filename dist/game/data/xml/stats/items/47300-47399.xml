@@ -14,8 +14,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16738-10" /> <!-- Inherent Abilities - Unworldly Visitors Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16738" level="10" /> <!-- Inherent Abilities - Unworldly Visitors Talisman -->
+		</skills>
 	</item>
 	<item id="47301" name="Giant Trackers Talisman Stage 1" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -1%. -->
@@ -31,8 +33,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-1" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="1" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47302" name="Giant Trackers Talisman Stage 2" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -2%. -->
@@ -48,8 +52,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-2" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="2" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47303" name="Giant Trackers Talisman Stage 3" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -3%. -->
@@ -65,8 +71,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-3" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="3" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47304" name="Giant Trackers Talisman Stage 4" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -4%. -->
@@ -82,8 +90,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-4" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="4" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47305" name="Giant Trackers Talisman Stage 5" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -5%. -->
@@ -99,8 +109,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-5" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="5" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47306" name="Giant Trackers Talisman Stage 6" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -6%, P. Atk. against Giants +1%. -->
@@ -116,8 +128,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-6" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="6" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47307" name="Giant Trackers Talisman Stage 7" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -7%, P. Atk. against Giants +2%. -->
@@ -133,8 +147,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-7" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="7" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47308" name="Giant Trackers Talisman Stage 8" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -8%, P. Atk. against Giants +3%, P. Critical Damage +1%. -->
@@ -150,8 +166,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-8" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="8" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47309" name="Giant Trackers Talisman Stage 9" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -9%, P. Atk. against Giants +4%, P. Critical Damage +2%. -->
@@ -167,8 +185,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-9" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="9" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47310" name="Giant Trackers Talisman Stage 10" type="Armor">
 		<!-- A talisman created by the Giant Trackers based on their research into Giant evolution. When equipped, damage received from Giants -10%, P. Atk. against Giants +5%, P. Critical Damage +3%. -->
@@ -184,8 +204,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="16739-10" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="16739" level="10" /> <!-- Inherent Abilities - Giant Trackers Talisman -->
+		</skills>
 	</item>
 	<item id="47311" name="Aromatic Spice" type="EtcItem">
 		<!-- A spice that can be bought through the chefs at each dwelling. Take Fish Stew and the Aromatic Spice to a chef to create a more advanced dish. -->
@@ -212,9 +234,9 @@
 		<set name="weight" val="530" />
 		<set name="price" val="158359000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="162" />
-		</for>
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
 	</item>
 	<item id="47314" name="Bloody Eternal Breastplate" additionalName="Attack Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -8%, P. Atk. +1%, M. Atk. +2%. When enchanted to +4, P. Critical Damage decreased and P. Def increased additionally. Tyrr, Sigel and Iss classes only. -->
@@ -228,9 +250,9 @@
 		<set name="weight" val="7520" />
 		<set name="price" val="422292000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="433" />
-		</for>
+		<stats>
+			<stat type="pDef">433</stat>
+		</stats>
 	</item>
 	<item id="47315" name="Bloody Eternal Gaiters" additionalName="Attack Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -5%, P. Atk. +1%, M. Atk. +2%. Tyrr, Sigel and Iss classes only. -->
@@ -244,9 +266,9 @@
 		<set name="weight" val="3170" />
 		<set name="price" val="263933000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="270" />
-		</for>
+		<stats>
+			<stat type="pDef">270</stat>
+		</stats>
 	</item>
 	<item id="47316" name="Bloody Eternal Gauntlets" additionalName="Attack Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Tyrr, Sigel and Iss classes only. -->
@@ -259,9 +281,9 @@
 		<set name="weight" val="510" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47317" name="Bloody Eternal Boots" additionalName="Attack Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Tyrr, Sigel and Iss classes only. -->
@@ -274,9 +296,9 @@
 		<set name="weight" val="1070" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47318" name="Blessed Eternal Shield" additionalName="Attack Type / Heavy Armor" type="Armor">
 		<!-- Additionally increases Shield Defense. -->
@@ -289,11 +311,11 @@
 		<set name="weight" val="1130" />
 		<set name="price" val="110851000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="557" />
-		</for>
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">557</stat>
+		</stats>
 	</item>
 	<item id="47319" name="Bloody Eternal Leather Helmet" additionalName="Assassin Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -3%, P. Atk. +1%, M. Atk. +2%. Othell and Yul classes only. -->
@@ -306,9 +328,9 @@
 		<set name="weight" val="530" />
 		<set name="price" val="158359000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="162" />
-		</for>
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
 	</item>
 	<item id="47320" name="Bloody Eternal Leather Armor" additionalName="Assassin Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -8%, P. Atk. +1%, M. Atk. +2%. When enchanted to +4, Evasion and Movement Speed increased, P. Critical Rate Received decreased, and Physical Attack Resistance increased. Othell and Yul classes only. -->
@@ -322,10 +344,10 @@
 		<set name="weight" val="4140" />
 		<set name="price" val="422292000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="346" />
-			<set stat="rEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">346</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
 	</item>
 	<item id="47321" name="Bloody Eternal Leather Leggings" additionalName="Assassin Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -5%, P. Atk. +1%, M. Atk. +2%. Othell and Yul classes only. -->
@@ -339,10 +361,10 @@
 		<set name="weight" val="1320" />
 		<set name="price" val="263933000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="216" />
-			<set stat="rEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">216</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
 	</item>
 	<item id="47322" name="Bloody Eternal Leather Gloves" additionalName="Assassin Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Othell and Yul classes only. -->
@@ -355,9 +377,9 @@
 		<set name="weight" val="510" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47323" name="Bloody Eternal Leather Boots" additionalName="Assassin Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Othell and Yul classes only. -->
@@ -370,9 +392,9 @@
 		<set name="weight" val="1070" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47324" name="Bloody Eternal Circlet" additionalName="Magic Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -3%, P. Atk. +1%, M. Atk. +2%. Aeore, Feoh, Wynn, Iss classes and Sayha's Seer only. -->
@@ -385,9 +407,9 @@
 		<set name="weight" val="530" />
 		<set name="price" val="158359000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="162" />
-		</for>
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
 	</item>
 	<item id="47325" name="Bloody Eternal Tunic" additionalName="Magic Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -8%, P. Atk. +1%, M. Atk. +2%. When enchanted to +4, M. Evasion and Mental Attack Resistance increased, P. Critical Rate/Damage Received decreased. Aeore, Feoh, Wynn, Iss classes and Sayha's Seer only. -->
@@ -407,11 +429,11 @@
 			<skill id="13812" level="1" /> <!-- Additional Ability Might -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="238" />
-			<set stat="mDef" val="56" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">238</stat>
+			<stat type="mDef">56</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="47326" name="Bloody Eternal Stockings" additionalName="Magic Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -5%, P. Atk. +1%, M. Atk. +2%. Aeore, Feoh, Wynn, Iss classes and Sayha's Seer only. -->
@@ -425,11 +447,11 @@
 		<set name="weight" val="850" />
 		<set name="price" val="263933000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<set stat="mDef" val="37" />
-			<add order="0" stat="pDef" val="148" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">148</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="47327" name="Bloody Eternal Gloves" additionalName="Magic Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Aeore, Feoh, Wynn, Iss classes and Sayha's Seer only. -->
@@ -442,9 +464,9 @@
 		<set name="weight" val="510" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47328" name="Bloody Eternal Shoes" additionalName="Magic Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Aeore, Feoh, Wynn, Iss classes and Sayha's Seer only. -->
@@ -457,9 +479,9 @@
 		<set name="weight" val="1070" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47329" name="Bloody Eternal Helmet" additionalName="Defense Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -3%, P. Atk. +1%, M. Atk. +2%. Sigel classes only. -->
@@ -472,9 +494,9 @@
 		<set name="weight" val="530" />
 		<set name="price" val="158359000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="162" />
-		</for>
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
 	</item>
 	<item id="47330" name="Bloody Eternal Breastplate" additionalName="Defense Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -8%, P. Atk. +1%, M. Atk. +2%. When enchanted to +4, P. Critical Damage decreased and P. Def increased additionally. Sigel classes only. -->
@@ -488,9 +510,9 @@
 		<set name="weight" val="7520" />
 		<set name="price" val="422292000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="433" />
-		</for>
+		<stats>
+			<stat type="pDef">433</stat>
+		</stats>
 	</item>
 	<item id="47331" name="Bloody Eternal Gaiters" additionalName="Defense Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -5%, P. Atk. +1%, M. Atk. +2%. Sigel classes only. -->
@@ -504,9 +526,9 @@
 		<set name="weight" val="3170" />
 		<set name="price" val="263933000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="270" />
-		</for>
+		<stats>
+			<stat type="pDef">270</stat>
+		</stats>
 	</item>
 	<item id="47332" name="Bloody Eternal Gauntlets" additionalName="Defense Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Sigel classes only. -->
@@ -519,9 +541,9 @@
 		<set name="weight" val="510" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47333" name="Bloody Eternal Boots" additionalName="Defense Type / Heavy Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Sigel classes only. -->
@@ -534,9 +556,9 @@
 		<set name="weight" val="1070" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47334" name="Blessed Eternal Shield" additionalName="Defense Type / Heavy Armor" type="Armor">
 		<!-- Additionally increases Shield Defense. -->
@@ -549,11 +571,11 @@
 		<set name="weight" val="1130" />
 		<set name="price" val="110851000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<set stat="rEvas" val="-8" />
-			<set stat="rShld" val="20" />
-			<set stat="sDef" val="557" />
-		</for>
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">557</stat>
+		</stats>
 	</item>
 	<item id="47335" name="Bloody Eternal Leather Helmet" additionalName="Enchant Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -3%, P. Atk. +1%, M. Atk. +2%. Othell, Yul, Iss, Aeore, Wynn, Tyrr classes and Eviscerator only. -->
@@ -566,9 +588,9 @@
 		<set name="weight" val="530" />
 		<set name="price" val="158359000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="162" />
-		</for>
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
 	</item>
 	<item id="47336" name="Bloody Eternal Leather Armor" additionalName="Enchant Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -8%, P. Atk. +1%, M. Atk. +2%. When enchanted to +4, Evasion and Movement Speed increased, P. Critical Rate Received decreased, and Physical Attack Resistance increased. Othell, Yul, Iss, Aeore, Wynn, Tyrr classes and Eviscerator only. -->
@@ -582,10 +604,10 @@
 		<set name="weight" val="4140" />
 		<set name="price" val="422292000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="346" />
-			<set stat="rEvas" val="5" />
-		</for>
+		<stats>
+			<stat type="pDef">346</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
 	</item>
 	<item id="47337" name="Bloody Eternal Leather Leggings" additionalName="Enchant Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -5%, P. Atk. +1%, M. Atk. +2%. Othell, Yul, Iss, Aeore, Wynn, Tyrr classes and Eviscerator only. -->
@@ -599,10 +621,10 @@
 		<set name="weight" val="1320" />
 		<set name="price" val="263933000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="216" />
-			<set stat="rEvas" val="3" />
-		</for>
+		<stats>
+			<stat type="pDef">216</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
 	</item>
 	<item id="47338" name="Bloody Eternal Leather Gloves" additionalName="Enchant Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Othell, Yul, Iss, Aeore, Wynn, Tyrr classes and Eviscerator only. -->
@@ -615,9 +637,9 @@
 		<set name="weight" val="510" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47339" name="Bloody Eternal Leather Boots" additionalName="Enchant Type / Light Armor" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Othell, Yul, Iss, Aeore, Wynn, Tyrr classes and Eviscerator only. -->
@@ -630,9 +652,9 @@
 		<set name="weight" val="1070" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47340" name="Bloody Eternal Circlet" additionalName="Recovery Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -3%, P. Atk. +1%, M. Atk. +2%. Aeore classes only. -->
@@ -645,9 +667,9 @@
 		<set name="weight" val="530" />
 		<set name="price" val="158359000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="162" />
-		</for>
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
 	</item>
 	<item id="47341" name="Bloody Eternal Tunic" additionalName="Recovery Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -8%, P. Atk. +1%, M. Atk. +2%. When enchanted to +4, M. Evasion and Mental Attack Resistance increased, P. Critical Rate/Damage Received decreased. Aeore classes only. -->
@@ -667,11 +689,11 @@
 			<skill id="13812" level="1" /> <!-- Additional Ability Might -->
 			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> <!-- Robe Upper Special Ability -->
 		</skills>
-		<for>
-			<add order="0" stat="pDef" val="238" />
-			<set stat="mDef" val="56" />
-			<set stat="maxMp" val="649" />
-		</for>
+		<stats>
+			<stat type="pDef">238</stat>
+			<stat type="mDef">56</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
 	</item>
 	<item id="47342" name="Bloody Eternal Stockings" additionalName="Recovery Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -5%, P. Atk. +1%, M. Atk. +2%. Aeore classes only. -->
@@ -685,11 +707,11 @@
 		<set name="weight" val="850" />
 		<set name="price" val="263933000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<set stat="mDef" val="37" />
-			<add order="0" stat="pDef" val="148" />
-			<set stat="maxMp" val="427" />
-		</for>
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">148</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
 	</item>
 	<item id="47343" name="Bloody Eternal Gloves" additionalName="Recovery Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Aeore classes only. -->
@@ -702,9 +724,9 @@
 		<set name="weight" val="510" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47344" name="Bloody Eternal Shoes" additionalName="Recovery Type / Robe" type="Armor">
 		<!-- PvE enchant type item. Damage received from an NPC -2%, P. Atk. +1%, M. Atk. +2%. Aeore classes only. -->
@@ -717,9 +739,9 @@
 		<set name="weight" val="1070" />
 		<set name="price" val="105573000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="108" />
-		</for>
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
 	</item>
 	<item id="47345" name="Blessed Eternal Sigil" additionalName="Robe" type="Armor">
 		<set name="icon" val="icon.elos_i00" />
@@ -732,11 +754,11 @@
 		<set name="weight" val="920" />
 		<set name="price" val="110851000" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="51" />
-			<set stat="pAtkRange" val="40" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<stats>
+			<stat type="pDef">51</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="47346" name="+8 Bloody Eternal Set Pack" additionalName="Attack Type / Heavy Armor" type="EtcItem">
 		<!-- Double click to obtain a +8 enchanted Bloody Eternal Attack Type Heavy Armor Set. -->
@@ -748,7 +770,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47347" name="+8 Bloody Eternal Set Pack" additionalName="Assassin Type / Light Armor" type="EtcItem">
 		<!-- Double click to obtain a +8 enchanted Bloody Eternal Assassin Type Light Armor Set. -->
@@ -760,7 +782,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47348" name="+8 Bloody Eternal Set Pack" additionalName="Magic Type / Robe" type="EtcItem">
 		<!-- Double click to obtain a +8 enchanted Bloody Eternal Magic Type Robe Set. -->
@@ -772,7 +794,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47349" name="+8 Bloody Eternal Set Pack" additionalName="Defense Type / Heavy Armor" type="EtcItem">
 		<!-- Double click to obtain a +8 enchanted Bloody Eternal Defense Type Heavy Armor Set. -->
@@ -784,7 +806,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47350" name="+8 Bloody Eternal Set Pack" additionalName="Enchant Type / Light Armor" type="EtcItem">
 		<!-- Double click to obtain a +8 enchanted Bloody Eternal Enchant Type Light Armor Set. -->
@@ -796,7 +818,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47351" name="+8 Bloody Eternal Set Pack" additionalName="Recovery Type / Robe" type="EtcItem">
 		<!-- Double click to obtain a +8 enchanted Bloody Eternal Recovery Type Robe Set. -->
@@ -808,7 +830,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47352" name="+8 Bloody Eternal Pack" type="EtcItem">
 		<!-- Double click to obtain a +8 Eternal Enchant Type Set Pack. -->
@@ -819,7 +841,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47353" name="Rare Accessory Pack" type="EtcItem">
 		<!-- Double click to obtain the Blessed Lindvior's Earring, Antharas' Earring, Blessed Valakas' Necklace, Tauti's Ring, and Earth Wyrm Heart Ring. -->
@@ -830,7 +852,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
@@ -849,7 +871,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
@@ -878,7 +900,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ExtractableItems" />
 	</item>
@@ -886,85 +908,97 @@
 		<!-- A basic supply box received in exchange for helping the Blackbird Clan with their mission in the Phantasmal Ridge's Magic Circle area. Double click to view the item. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18619-1" /> <!-- Basic Supply Box -->
+		<skills>
+			<skill id="18619" level="1" /> <!-- Basic Supply Box -->
+		</skills>
 	</item>
 	<item id="47357" name="Intermediate Supply Box" additionalName="Blackbird Clan" type="EtcItem">
 		<!-- An intermediate supply box received in exchange for helping the Blackbird Clan with their mission at the Phantasmal Ridge. Double click to view the item. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18619-2" /> <!-- Intermediate Supply Box -->
+		<skills>
+			<skill id="18619" level="2" /> <!-- Intermediate Supply Box -->
+		</skills>
 	</item>
 	<item id="47358" name="Advanced Supply Box" additionalName="Blackbird Clan" type="EtcItem">
 		<!-- An advanced supply box received in exchange for helping the Blackbird Clan with their mission at the Phantasmal Ridge. Double click to view the item. -->
 		<set name="icon" val="icon.etc_readybox_gold" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18619-3" /> <!-- Advanced Supply Box -->
+		<skills>
+			<skill id="18619" level="3" /> <!-- Advanced Supply Box -->
+		</skills>
 	</item>
 	<item id="47359" name="Basic Supply Box" additionalName="Giant Trackers" type="EtcItem">
 		<!-- A basic supply box received in exchange for helping the Giant Trackers with their mission in the lower level of the Giant's Cave. Double click to view the item. -->
 		<set name="icon" val="icon.etc_readybox_bronze" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18620-1" /> <!-- Basic Supply Box -->
+		<skills>
+			<skill id="18620" level="1" /> <!-- Basic Supply Box -->
+		</skills>
 	</item>
 	<item id="47360" name="Intermediate Supply Box" additionalName="Giant Trackers" type="EtcItem">
 		<!-- An intermediate supply box received in exchange for helping the Giant Trackers with their mission in the lower level of the Giant's Cave. Double click to view the item. -->
 		<set name="icon" val="icon.etc_readybox_silver" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18620-2" /> <!-- Basic Supply Box -->
+		<skills>
+			<skill id="18620" level="2" /> <!-- Basic Supply Box -->
+		</skills>
 	</item>
 	<item id="47361" name="Advanced Supply Box" additionalName="Giant Trackers" type="EtcItem">
 		<!-- An advanced supply box received in exchange for helping the Giant Trackers with their mission in the lower level of the Giant's Cave. Double click to view the item. -->
 		<set name="icon" val="icon.etc_readybox_gold" />
 		<set name="default_action" val="SKILL_REDUCE" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18620-3" /> <!-- Basic Supply Box -->
+		<skills>
+			<skill id="18620" level="3" /> <!-- Basic Supply Box -->
+		</skills>
 	</item>
 	<item id="47362" name="Supply Box" additionalName="Kingdom's Royal Guard" type="EtcItem">
 		<!-- A supply box received in exchange for helping the Kingdom's Royal Guard with their mission at Atelia Fortress. Double click to view the item. -->
@@ -974,11 +1008,13 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18621-1" /> <!-- Supply Box -->
+		<skills>
+			<skill id="18621" level="1" /> <!-- Supply Box -->
+		</skills>
 	</item>
 	<item id="47363" name="Red Noblesse Appearance Stone" type="EtcItem">
 		<!-- Use to change the appearance of your upper or full-bod armor into a Red Noblesse Garment. The stone modifies the appearance of all armor, and all armor appears as a Red Noblesse Outfit. -->
@@ -1066,11 +1102,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13959-1" /> <!-- Mammon's Talisman - Skill Power -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13959" level="1" /> <!-- Mammon's Talisman - Skill Power -->
+		</skills>
 	</item>
 	<item id="47373" name="Mammon's Talisman" additionalName="Attack Attribute" type="Armor">
 		<!-- When equipped, Attack Attribute Bonus +40. -->
@@ -1083,11 +1121,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13960-1" /> <!-- Mammon's Talisman - Attack Attribute -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13960" level="1" /> <!-- Mammon's Talisman - Attack Attribute -->
+		</skills>
 	</item>
 	<item id="47374" name="Mammon's Talisman" additionalName="Skill Cooldown" type="Armor">
 		<!-- When equipped, Skill Cooldown -4%. -->
@@ -1100,11 +1140,13 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13961-1" /> <!-- Mammon's Talisman - Skill Cooldown -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13961" level="1" /> <!-- Mammon's Talisman - Skill Cooldown -->
+		</skills>
 	</item>
 	<item id="47375" name="Mammon's Talisman Box - Skill Power" additionalName="30-day" type="EtcItem">
 		<!-- Double click to obtain Mammon's Talisman - Skill Power 30-day. -->
@@ -1165,8 +1207,8 @@
 	<item id="47382" name="Freya's Wind Scroll (High-grade)" additionalName="Temporary Name" type="EtcItem">
 		<!-- Vitality consumption +150%, XP/SP acquisition +150% while hunting. Remains after death. Duration is 10 min. Cooldown is 10 min. Only usable when 1 or more Vitality slot is full. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.freya_scroll" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_oly_restricted" val="true" />
@@ -1179,7 +1221,9 @@
 		<cond>
 			<player MinimumVitalityPoints="35000" />
 		</cond>
-        <set name="item_skill" val="27629-1" /> <!-- Freya's Scroll of Storm -->
+		<skills>
+			<skill id="27629" level="1" /> <!-- Freya's Scroll of Storm -->
+		</skills>
 	</item>
 	<item id="47383" name="Red Libra Supplies Lv. 5" additionalName="Event" type="EtcItem">
 		<!-- Red Libra-only Item. A box obtained with Bodyguard Blue's help. A random item can be obtained by double clicking it. It will be deleted after the regular maintenance on Wednesday, March 9, 2016 when the Red Libra merchants leave. -->
@@ -1190,7 +1234,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47384" name="Express Bus Pass Card" type="EtcItem">
 		<!-- A bus card that can be used to get on the Express Bus. Use to acquire 100,000,000,000 EXP and 240,000,000 SP. Characters with Lv. 99 or higher only. -->
@@ -1200,12 +1244,14 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="ItemSkills" />
 		<cond msgId="1902">
 			<player levelRange="99;255" />
 		</cond>
-        <set name="item_skill" val="18628-1" /> <!-- Express Bus Pass Card -->
+		<skills>
+			<skill id="18628" level="1" /> <!-- Express Bus Pass Card -->
+		</skills>
 	</item>
 	<item id="47385" name="Balthus Knight Mark" type="EtcItem">
 		<!-- Makes you eligible to receive a Member of the Balthus Knight disguise for 1 hour. Can be used only by characters of Level 85 or higher. Buff gets deleted upon Subclass/Dual Class change. To be deleted on Wednesday June 15th, 2016 after regular maintenance. -->
@@ -1216,7 +1262,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47386" name="Sibis' Letter" additionalName="Event" type="EtcItem">
@@ -1229,7 +1275,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47387" name="Balthus Knights Supply Items" type="EtcItem">
 		<!-- Double click to receive 3 Marks of the Balthus Knights. (Can be used once per day.) Cannot be exchanged/dropped/sold in a personal store, but can be kept in personal storage. Will be deleted on June 15th, 2016, when the Balthus Knight event ends after regular maintenance. -->
@@ -1242,7 +1288,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="reuse_delay" val="86400000" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
@@ -1257,7 +1303,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47389" name="12th Anniversary Supply Item" type="EtcItem">
 		<!-- Top-grade Balthus Knight Supply Item. Use to obtain 12th Anniversary Souvenir x10. Will be deleted when the event ends. -->
@@ -1269,7 +1315,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47390" name="Forever/Longing Talisman/Energy of Longing Supply Items" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, a Forever Talisman/Longing Talisman/Energy of Longing can be obtained. Will be deleted on June 15th, 2016, after regular maintenance. -->
@@ -1281,7 +1327,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="34987" min="1" max="1" chance="25" /> <!-- Talisman - Hellfire -->
@@ -1298,7 +1344,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<set name="handler" val="ExtractableItems" />
@@ -1324,7 +1370,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<set name="handler" val="ExtractableItems" />
@@ -1342,7 +1388,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47395" name="Bottle of Antharas/Valakas/Baium's Soul Supply Item" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, an Antharas/Valakas/Baium Soul Bottle can be obtained. Will be deleted on June 15th, 2016, after regular maintenance. -->
@@ -1353,7 +1399,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<set name="handler" val="ExtractableItems" />
@@ -1372,7 +1418,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47397" name="Seven Signs/Anakim/Lilith Talisman Supply Item" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, a Seven Signs/Anakim/Lilith's Talisman can be obtained. Will be deleted on June 15th, 2016, after regular maintenance. -->
@@ -1383,7 +1429,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
 		<set name="handler" val="ExtractableItems" />
@@ -1402,7 +1448,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="35569" min="2" max="2" chance="75" /> <!-- Bloody Eternal Enhancement Stone -->
@@ -1418,8 +1464,8 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_private_storeable" val="true" />
+		<set name="is_clan_depositable" val="false" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="49783" min="1500" max="1500" chance="75" /> <!-- Sibis Coin Box -->

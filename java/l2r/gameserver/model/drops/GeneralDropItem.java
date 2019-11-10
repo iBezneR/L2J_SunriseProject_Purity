@@ -34,11 +34,11 @@ public final class GeneralDropItem implements IDropItem
 	private final long _max;
 	private final double _chance;
 	
-	protected final IAmountMultiplierStrategy _amountStrategy;
-	protected final IChanceMultiplierStrategy _chanceStrategy;
-	protected final IPreciseDeterminationStrategy _preciseStrategy;
-	protected final INonGroupedKillerChanceModifierStrategy _killerStrategy;
-	protected final IDropCalculationStrategy _dropCalculationStrategy;
+	private final IAmountMultiplierStrategy _amountStrategy;
+	private final IChanceMultiplierStrategy _chanceStrategy;
+	private final IPreciseDeterminationStrategy _preciseStrategy;
+	private final INonGroupedKillerChanceModifierStrategy _killerStrategy;
+	private final IDropCalculationStrategy _dropCalculationStrategy;
 	
 	/**
 	 * @param itemId the item id

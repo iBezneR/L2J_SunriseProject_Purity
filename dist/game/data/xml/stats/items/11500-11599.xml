@@ -1,452 +1,426 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="11500" name="Sealed Imperial Crusader Gauntlets" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11500" type="Armor" name="Sealed Imperial Crusader Gauntlet">
 		<set name="icon" val="icon.armor_t88_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="102" />
+		<set name="crystal_count" val="153" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="3195000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11501" name="Sealed Imperial Crusader Boots" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11501" type="Armor" name="Sealed Imperial Crusader Boots">
 		<set name="icon" val="icon.armor_t88_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="102" />
+		<set name="crystal_count" val="153" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="price" val="3195000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11502" name="Sealed Imperial Crusader Shield" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11502" type="Armor" name="Sealed Imperial Crusader Shield">
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="107" />
+		<set name="crystal_count" val="161" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1170" />
 		<set name="price" val="3355000" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="SHIELD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">276</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="276" />
+			<enchant val="0" stat="sDef" />
+		</for>
 	</item>
-	<item id="11503" name="Sealed Imperial Crusader Helmet" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11503" type="Armor" name="Sealed Imperial Crusader Helmet">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="153" />
+		<set name="crystal_count" val="230" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="550" />
 		<set name="price" val="4793000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="HELMET" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">83</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11504" name="Sealed Imperial Crusader Breastplate" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11504" type="Armor" name="Sealed Imperial Crusader Breastplate">
 		<set name="icon" val="icon.armor_t88_u_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="408" />
+		<set name="crystal_count" val="613" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7620" />
 		<set name="price" val="12781000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">193</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="193" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11505" name="Imperial Crusader Gaiters" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP, and Sleep/Hold Resistance. -->
+	<item id="11505" type="Armor" name="Imperial Crusader Gaiters">
 		<set name="icon" val="icon.armor_t88_l_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="255" />
+		<set name="crystal_count" val="383" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="3260" />
 		<set name="price" val="7988000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3783" level="1" /> <!-- Imperial Crusader Gaiters -->
-		</skills>
-		<stats>
-			<stat type="pDef">128</stat>
-		</stats>
+		<set name="item_skill" val="3783-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="128" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11506" name="Imperial Crusader Gauntlets" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP, and Sleep/Hold Resistance. -->
+	<item id="11506" type="Armor" name="Imperial Crusader Gauntlet">
 		<set name="icon" val="icon.armor_t88_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="102" />
+		<set name="crystal_count" val="153" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="540" />
 		<set name="price" val="3195000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3784" level="1" /> <!-- Imperial Crusader Gauntlets -->
-		</skills>
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<set name="item_skill" val="3784-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11507" name="Imperial Crusader Boots" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP, and Sleep/Hold Resistance. -->
+	<item id="11507" type="Armor" name="Imperial Crusader Boots">
 		<set name="icon" val="icon.armor_t88_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="102" />
+		<set name="crystal_count" val="153" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1110" />
 		<set name="price" val="3195000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3785" level="1" /> <!-- Imperial Crusader Boots -->
-		</skills>
-		<stats>
-			<stat type="pDef">55</stat>
-		</stats>
+		<set name="item_skill" val="3785-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="55" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11508" name="Imperial Crusader Shield" type="Armor">
-		<!-- Masterwork Item that increases M. Def. -->
+	<item id="11508" type="Armor" name="Imperial Crusader Shield">
 		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="107" />
+		<set name="crystal_count" val="161" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="1170" />
 		<set name="price" val="3355000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="SHIELD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3786" level="1" /> <!-- Imperial Crusader Shield -->
-		</skills>
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">290</stat>
-		</stats>
+		<set name="item_skill" val="3786-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="290" />
+			<enchant val="0" stat="sDef" />
+		</for>
 	</item>
-	<item id="11509" name="Imperial Crusader Helmet" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP, and Sleep/Hold Resistance. -->
+	<item id="11509" type="Armor" name="Imperial Crusader Helmet">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="153" />
+		<set name="crystal_count" val="230" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="550" />
 		<set name="price" val="4793000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="HELMET" />
-		<skills>
-			<skill id="3787" level="1" /> <!-- Imperial Crusader Helmet -->
-		</skills>
-		<stats>
-			<stat type="pDef">83</stat>
-		</stats>
+		<set name="item_skill" val="3787-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="83" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11510" name="Imperial Crusader Breastplate" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP, and Sleep/Hold Resistance. -->
+	<item id="11510" type="Armor" name="Imperial Crusader Breastplate">
 		<set name="icon" val="icon.armor_t88_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="408" />
+		<set name="crystal_count" val="613" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7620" />
 		<set name="price" val="12781000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3788" level="1" /> <!-- Imperial Crusader Breastplate -->
-		</skills>
-		<stats>
-			<stat type="pDef">205</stat>
-		</stats>
+		<set name="item_skill" val="3788-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="205" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11511" name="Great Wolf Orichalcum Armor" type="Armor">
-		<!-- A Masterwork Item. -->
+	<item id="11511" type="Armor" name="Great Wolf Orichalcum Armor">
 		<set name="icon" val="icon.etc_wolf_r_a_01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="LEATHER" />
-		<set name="commissionItemType" val="PET_EQUIPMENT" />
-		<set name="isAppearanceable" val="true" />
 		<set name="weight" val="160" />
 		<cond msgId="1518">
 			<player categoryType="GROWN_UP_WOLF_GROUP" />
 		</cond>
-		<stats>
-			<stat type="mDef">14</stat>
-			<stat type="pDef">171</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="14" />
+			<add order="0" stat="pDef" val="171" />
+		</for>
 	</item>
-	<item id="11512" name="Dynasty Gaiters" type="Armor">
-		<!-- Masterwork Item that increases P. Def./Max HP/Dark Resistance -->
+	<item id="11512" type="Armor" name="Dynasty Gaiters">
 		<set name="icon" val="icon.armor_t91_l_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="487" />
+		<set name="crystal_count" val="732" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="3210" />
 		<set name="price" val="15248000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3790" level="1" /> <!-- Dynasty Gaiters -->
-		</skills>
-		<stats>
-			<stat type="pDef">141</stat>
-		</stats>
+		<set name="item_skill" val="3790-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="141" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11513" name="Dynasty Gauntlets" type="Armor">
-		<!-- Masterwork Item that increases P. Def./Max HP/Dark Resistance -->
+	<item id="11513" type="Armor" name="Dynasty Gauntlet">
 		<set name="icon" val="icon.armor_t91_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="520" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3791" level="1" /> <!-- Dynasty Gauntlets -->
-		</skills>
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<set name="item_skill" val="3791-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11514" name="Dynasty Gloves" type="Armor">
-		<!-- Masterwork Item that increases Max MP/M. Atk./Dark Resistance -->
+	<item id="11514" type="Armor" name="Dynasty Gloves">
 		<set name="icon" val="icon.armor_t93_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="520" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3801" level="1" /> <!-- Dynasty Gloves -->
-		</skills>
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<set name="item_skill" val="3801-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11515" name="Dynasty Leather Gloves" type="Armor">
-		<!-- Masterwork Item that increases Accuracy/Evasion/Max HP/Atk. Spd./Dark Resistance -->
+	<item id="11515" type="Armor" name="Dynasty Leather Gloves">
 		<set name="icon" val="icon.armor_t92_g_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="520" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3866" level="1" /> <!-- Dynasty Leather Gloves -->
-		</skills>
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<set name="item_skill" val="3866-1" />
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11516" name="Dynasty Leather Leggings" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11516" type="Armor" name="Dynasty Leather Leggings">
 		<set name="icon" val="icon.armor_t92_l_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="365" />
+		<set name="crystal_count" val="549" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1370" />
 		<set name="price" val="11436000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3796" level="1" /> <!-- Dynasty Leather Leggings -->
-		</skills>
-		<stats>
-			<stat type="pDef">106</stat>
-		</stats>
+		<set name="item_skill" val="3796-1" />
+		<for>
+			<add order="0" stat="pDef" val="106" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11517" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy/Evasion/Max HP/Atk. Spd./Dark Resistance -->
+	<item id="11517" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3795" level="1" /> <!-- Dynasty Leather Armor -->
-		</skills>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<set name="item_skill" val="3795-1" />
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11518" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11518" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="DAGGER_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11519" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11519" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_ub_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="BOW_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11520" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11520" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -454,25 +428,23 @@
 				<player categoryType="FORCE_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11521" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11521" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_ub_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -480,159 +452,144 @@
 				<player categoryType="WEAPON_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11522" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11522" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="BUFF_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11523" name="Dynasty Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11523" type="Armor" name="Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="SUMMON_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11524" name="Dynasty Leather Boots" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11524" type="Armor" name="Dynasty Leather Boots">
 		<set name="icon" val="icon.armor_t92_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1090" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3797" level="1" /> <!-- Dynasty Leather Boots -->
-		</skills>
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<set name="item_skill" val="3797-1" />
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11525" name="Dynasty Leather Helmet" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11525" type="Armor" name="Dynasty Leather Helmet">
 		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="292" />
+		<set name="crystal_count" val="439" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="530" />
 		<set name="price" val="9149000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="HELMET" />
-		<skills>
-			<skill id="3798" level="1" /> <!-- Dynasty Leather Helmet -->
-		</skills>
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<set name="item_skill" val="3798-1" />
+		<for>
+			<add order="0" stat="pDef" val="92" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11526" name="Dynasty Boots" type="Armor">
-		<!-- Masterwork Item that increases P. Def./Max HP/Dark Resistance -->
+	<item id="11526" type="Armor" name="Dynasty Boots">
 		<set name="icon" val="icon.armor_t91_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1090" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3792" level="1" /> <!-- Dynasty Boots -->
-		</skills>
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<set name="item_skill" val="3792-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11527" name="Dynasty Breastplate" type="Armor">
-		<!-- Masterwork Item that increases P. Def./Max HP/Dark Resistance -->
+	<item id="11527" type="Armor" name="Dynasty Breastplate">
 		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="780" />
+		<set name="crystal_count" val="1171" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="24398000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3789" level="1" /> <!-- Dynasty Breastplate -->
-		</skills>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<set name="item_skill" val="3789-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11528" name="Dynasty Breastplate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11528" type="Armor" name="Dynasty Breastplate">
 		<set name="icon" val="icon.armor_t91_uk_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="780" />
+		<set name="crystal_count" val="1171" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="24398000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -640,25 +597,23 @@
 				<player categoryType="SHIELD_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11529" name="Dynasty Breastplate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11529" type="Armor" name="Dynasty Breastplate">
 		<set name="icon" val="icon.armor_t91_uw_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="780" />
+		<set name="crystal_count" val="1171" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="24398000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -666,25 +621,23 @@
 				<player categoryType="WEAPON_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11530" name="Dynasty Breastplate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11530" type="Armor" name="Dynasty Breastplate">
 		<set name="icon" val="icon.armor_t91_uf_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="780" />
+		<set name="crystal_count" val="1171" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="24398000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -692,25 +645,23 @@
 				<player categoryType="FORCE_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11531" name="Dynasty Breastplate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11531" type="Armor" name="Dynasty Breastplate">
 		<set name="icon" val="icon.armor_t91_uke_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="780" />
+		<set name="crystal_count" val="1171" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="24398000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -718,95 +669,89 @@
 				<player categoryType="BARD" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11532" name="Dynasty Shield" type="Armor">
-		<!-- Masterwork Item with a M. Def. effect -->
+	<item id="11532" type="Armor" name="Dynasty Shield">
 		<set name="icon" val="icon.shield_dynasty_shield_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="204" />
+		<set name="crystal_count" val="307" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1390" />
 		<set name="price" val="6404000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="SHIELD" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3793" level="1" /> <!-- Dynasty Shield -->
-		</skills>
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">321</stat>
-		</stats>
+		<set name="item_skill" val="3793-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="321" />
+			<enchant val="0" stat="sDef" />
+		</for>
 	</item>
-	<item id="11533" name="Dynasty Shoes" type="Armor">
-		<!-- Masterwork Item that increases Max MP, Dark Resistance, and M. Atk. -->
+	<item id="11533" type="Armor" name="Dynasty Shoes">
 		<set name="icon" val="icon.armor_t93_b_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1090" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3802" level="1" /> <!-- Dynasty Shoes -->
-		</skills>
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<set name="item_skill" val="3802-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11534" name="Dynasty Silver Satin Tunic" type="Armor">
-		<!-- Masterwork Item that has increased Casting Spd. effect -->
+	<item id="11534" type="Armor" name="Dynasty Silver Satin Tunic">
 		<set name="icon" val="icon.armor_t93_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3804" level="1" /> <!-- Dynasty Silver Satin Tunic -->
-		</skills>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<set name="item_skill" val="3804-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11535" name="Dynasty Silver Satin Tunic" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP and Dark Resistance, and decreases MP consumption rate. -->
+	<item id="11535" type="Armor" name="Dynasty Silver Satin Tunic">
 		<set name="icon" val="icon.armor_t93_uh_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -814,26 +759,24 @@
 				<player categoryType="HEAL_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11536" name="Dynasty Silver Satin Tunic" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP and Dark Resistance, and decreases MP consumption rate. -->
+	<item id="11536" type="Armor" name="Dynasty Silver Satin Tunic">
 		<set name="icon" val="icon.armor_t93_ue_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -841,26 +784,24 @@
 				<player categoryType="BUFF_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11537" name="Dynasty Silver Satin Tunic" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP and Dark Resistance, and decreases MP consumption rate. -->
+	<item id="11537" type="Armor" name="Dynasty Silver Satin Tunic">
 		<set name="icon" val="icon.armor_t93_us_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -868,26 +809,24 @@
 				<player categoryType="SUMMON_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11538" name="Dynasty Silver Satin Tunic" type="Armor">
-		<!-- Masterwork Item that increases P. Def., Max HP and Dark Resistance, and decreases MP consumption rate. -->
+	<item id="11538" type="Armor" name="Dynasty Silver Satin Tunic">
 		<set name="icon" val="icon.armor_t93_uw_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -895,231 +834,213 @@
 				<player categoryType="WIZARD_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11539" name="Dynasty Circlet" type="Armor">
-		<!-- Masterwork Item that increases Max MP, Dark Resistance, and M. Atk. -->
+	<item id="11539" type="Armor" name="Dynasty Circlet">
 		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="292" />
+		<set name="crystal_count" val="439" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="530" />
 		<set name="price" val="9149000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="HELMET" />
-		<skills>
-			<skill id="3803" level="1" /> <!-- Dynasty Circlet -->
-		</skills>
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<set name="item_skill" val="3803-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="92" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11540" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max MP, Dark Resistance, and Atk. Spd. -->
+	<item id="11540" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3805" level="1" /> <!-- Dynasty Jewel Leather Armor -->
-		</skills>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<set name="item_skill" val="3805-1" />
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11541" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11541" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_ud_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="DAGGER_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11542" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11542" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_ub_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="BOW_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11543" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11543" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="FORCE_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11544" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11544" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="WEAPON_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11545" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11545" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="BUFF_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11546" name="Dynasty Jewel Leather Armor" type="Armor">
-		<!-- Masterwork Item that increases Accuracy, Evasion, Max HP, Dark Resistance and Atk. Spd. -->
+	<item id="11546" type="Armor" name="Dynasty Jewel Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="808" />
+		<set name="crystal_count" val="1212" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="25255000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<player categoryType="SUMMON_MASTER" />
 		</cond>
-		<stats>
-			<stat type="pDef">170</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="170" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11547" name="Dynasty Tunic" type="Armor">
-		<!-- Masterwork Item that has increased Casting Spd. effect -->
+	<item id="11547" type="Armor" name="Dynasty Tunic">
 		<set name="icon" val="icon.armor_t93_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3799" level="1" /> <!-- Dynasty Tunic -->
-		</skills>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<set name="item_skill" val="3799-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11548" name="Dynasty Tunic" type="Armor">
+	<item id="11548" type="Armor" name="Dynasty Tunic">
 		<set name="icon" val="icon.armor_t93_uh_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1127,25 +1048,24 @@
 				<player categoryType="HEAL_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11549" name="Dynasty Tunic" type="Armor">
+	<item id="11549" type="Armor" name="Dynasty Tunic">
 		<set name="icon" val="icon.armor_t93_ue_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1153,25 +1073,24 @@
 				<player categoryType="BUFF_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11550" name="Dynasty Tunic" type="Armor">
+	<item id="11550" type="Armor" name="Dynasty Tunic">
 		<set name="icon" val="icon.armor_t93_us_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1179,25 +1098,24 @@
 				<player categoryType="SUMMON_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11551" name="Dynasty Tunic" type="Armor">
+	<item id="11551" type="Armor" name="Dynasty Tunic">
 		<set name="icon" val="icon.armor_t93_uw_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1205,49 +1123,46 @@
 				<player categoryType="WIZARD_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">113</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="113" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11552" name="Dynasty Platinum Plate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11552" type="Armor" name="Dynasty Platinum Plate">
 		<set name="icon" val="icon.armor_t91_u_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1077" />
+		<set name="crystal_count" val="1616" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="33673000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3806" level="1" /> <!-- Dynasty Platinum Plate -->
-		</skills>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<set name="item_skill" val="3806-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11553" name="Dynasty Platinum Plate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11553" type="Armor" name="Dynasty Platinum Plate">
 		<set name="icon" val="icon.armor_t91_uk_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1077" />
+		<set name="crystal_count" val="1616" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="33673000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1255,25 +1170,23 @@
 				<player categoryType="SHIELD_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11554" name="Dynasty Platinum Plate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11554" type="Armor" name="Dynasty Platinum Plate">
 		<set name="icon" val="icon.armor_t91_uw_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1077" />
+		<set name="crystal_count" val="1616" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="33673000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1281,25 +1194,23 @@
 				<player categoryType="WEAPON_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11555" name="Dynasty Platinum Plate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11555" type="Armor" name="Dynasty Platinum Plate">
 		<set name="icon" val="icon.armor_t91_uf_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1077" />
+		<set name="crystal_count" val="1616" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="33673000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1307,25 +1218,23 @@
 				<player categoryType="FORCE_MASTER" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11556" name="Dynasty Platinum Plate" type="Armor">
-		<!-- Masterwork Item that has the effect of increased P. Def., increased Max HP, increased Dark Resistance, and decreased MP consumption upon skill use -->
+	<item id="11556" type="Armor" name="Dynasty Platinum Plate">
 		<set name="icon" val="icon.armor_t91_uke_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1077" />
+		<set name="crystal_count" val="1616" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="33673000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<cond msgId="1518">
 			<and>
@@ -1333,847 +1242,793 @@
 				<player categoryType="BARD" />
 			</and>
 		</cond>
-		<stats>
-			<stat type="pDef">226</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="226" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11557" name="Dynasty Helmet" type="Armor">
-		<!-- Masterwork Item that increases P. Def./Max HP/Dark Resistance -->
+	<item id="11557" type="Armor" name="Dynasty Helmet">
 		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="292" />
+		<set name="crystal_count" val="439" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="530" />
 		<set name="price" val="9149000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="HELMET" />
-		<skills>
-			<skill id="3794" level="1" /> <!-- Dynasty Helmet -->
-		</skills>
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<set name="item_skill" val="3794-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="92" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11558" name="Dynasty Stockings" type="Armor">
-		<!-- Masterwork Item that increases Max MP/M. Atk./Dark Resistance -->
+	<item id="11558" type="Armor" name="Dynasty Stockings">
 		<set name="icon" val="icon.armor_t93_l_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="365" />
+		<set name="crystal_count" val="549" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="860" />
 		<set name="price" val="11436000" />
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
-		<skills>
-			<skill id="3800" level="1" /> <!-- Dynasty Stockings -->
-		</skills>
-		<stats>
-			<stat type="pDef">71</stat>
-			<stat type="maxMp">370</stat>
-		</stats>
+		<set name="item_skill" val="3800-1" />
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="71" />
+			<add stat="maxMp" val="370" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11559" name="Sealed Dynasty Gaiters" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11559" type="Armor" name="Sealed Dynasty Gaiters">
 		<set name="icon" val="icon.armor_t91_l_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="487" />
+		<set name="crystal_count" val="732" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="3210" />
 		<set name="price" val="15248000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">134</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="134" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11560" name="Sealed Dynasty Gauntlets" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11560" type="Armor" name="Sealed Dynasty Gauntlet">
 		<set name="icon" val="icon.armor_t91_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="520" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11561" name="Sealed Dynasty Gloves" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11561" type="Armor" name="Sealed Dynasty Gloves">
 		<set name="icon" val="icon.armor_t93_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="520" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11562" name="Sealed Dynasty Leather Gloves" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11562" type="Armor" name="Sealed Dynasty Leather Gloves">
 		<set name="icon" val="icon.armor_t92_g_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="gloves" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="520" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="GLOVES" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11563" name="Sealed Dynasty Leather Leggings" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11563" type="Armor" name="Sealed Dynasty Leather Leggings">
 		<set name="icon" val="icon.armor_t92_l_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="365" />
+		<set name="crystal_count" val="549" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1370" />
 		<set name="price" val="11436000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">100</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="100" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11564" name="Sealed Dynasty Leather Armor" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11564" type="Armor" name="Sealed Dynasty Leather Armor">
 		<set name="icon" val="icon.armor_t92_u_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="4180" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">161</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="161" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11565" name="Sealed Dynasty Leather Boots" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11565" type="Armor" name="Sealed Dynasty Leather Boots">
 		<set name="icon" val="icon.armor_t92_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1090" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11566" name="Sealed Dynasty Leather Helmet" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11566" type="Armor" name="Sealed Dynasty Leather Helmet">
 		<set name="icon" val="icon.armor_leather_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="292" />
+		<set name="crystal_count" val="439" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="530" />
 		<set name="price" val="9149000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="HELMET" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<for>
+			<add order="0" stat="pDef" val="92" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11567" name="Sealed Dynasty Boots" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11567" type="Armor" name="Sealed Dynasty Boots">
 		<set name="icon" val="icon.armor_t91_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1090" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11568" name="Sealed Dynasty Breastplate" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11568" type="Armor" name="Sealed Dynasty Breastplate">
 		<set name="icon" val="icon.armor_t91_u_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="780" />
+		<set name="crystal_count" val="1171" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="7570" />
 		<set name="price" val="24398000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">214</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="214" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11569" name="Sealed Dynasty Shield" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11569" type="Armor" name="Sealed Dynasty Shield">
 		<set name="icon" val="icon.shield_dynasty_shield_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="204" />
+		<set name="crystal_count" val="307" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="1370" />
 		<set name="price" val="6404000" />
-		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="SHIELD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="rEvas">-8</stat>
-			<stat type="rShld">20</stat>
-			<stat type="sDef">305</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<sub stat="rEvas" val="8" />
+			<set stat="rShld" val="20" />
+			<set stat="sDef" val="305" />
+			<enchant val="0" stat="sDef" />
+		</for>
 	</item>
-	<item id="11570" name="Sealed Dynasty Shoes" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11570" type="Armor" name="Sealed Dynasty Shoes">
 		<set name="icon" val="icon.armor_t93_b_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="feet" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="195" />
+		<set name="crystal_count" val="293" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="LEATHER" />
 		<set name="weight" val="1090" />
 		<set name="price" val="6099000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="FEET" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">61</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="61" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11571" name="Sealed Dynasty Circlet" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11571" type="Armor" name="Sealed Dynasty Circlet">
 		<set name="icon" val="icon.armor_circlet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="292" />
+		<set name="crystal_count" val="439" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="530" />
 		<set name="price" val="9149000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="HELMET" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="92" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11572" name="Sealed Dynasty Tunic" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11572" type="Armor" name="Sealed Dynasty Tunic">
 		<set name="icon" val="icon.armor_t93_u_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="585" />
+		<set name="crystal_count" val="878" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="1780" />
 		<set name="price" val="18298000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_TOP" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">107</stat>
-			<stat type="maxMp">592</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="107" />
+			<add stat="maxMp" val="592" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11573" name="Sealed Dynasty Helmet" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11573" type="Armor" name="Sealed Dynasty Helmet">
 		<set name="icon" val="icon.armor_helmet_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="head" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="292" />
+		<set name="crystal_count" val="439" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="BONE" />
 		<set name="weight" val="530" />
 		<set name="price" val="9149000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="HELMET" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">92</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="92" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11574" name="Sealed Dynasty Stockings" type="Armor">
-		<!-- Sealed Masterwork Item -->
+	<item id="11574" type="Armor" name="Sealed Dynasty Stockings">
 		<set name="icon" val="icon.armor_t93_l_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="365" />
+		<set name="crystal_count" val="549" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SCALE_OF_DRAGON" />
 		<set name="weight" val="860" />
 		<set name="price" val="11436000" />
 		<set name="element_enabled" val="true" />
-		<set name="commissionItemType" val="ARMOR_PANTS" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pDef">67</stat>
-			<stat type="maxMp">370</stat>
-		</stats>
+		<cond msgId="1518">
+			<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+		</cond>
+		<for>
+			<add order="0" stat="pDef" val="67" />
+			<add stat="maxMp" val="370" />
+			<enchant stat="pDef" val="0" />
+		</for>
 	</item>
-	<item id="11575" name="Adamantite Earring" type="Armor">
-		<!-- Masterwork Item that increases Max MP. -->
+	<item id="11575" type="Armor" name="Adamantite Earring">
 		<set name="icon" val="icon.accessary_adamantite_earing_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="9" />
+		<set name="crystal_count" val="62" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="93180" />
+		<set name="price" val="465900" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="EARRING" />
-		<skills>
-			<skill id="3807" level="1" /> <!-- Adamantite Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">51</stat>
-		</stats>
+		<set name="item_skill" val="3807-1" />
+		<for>
+			<add order="0" stat="mDef" val="51" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11576" name="Adamantite Necklace" type="Armor">
-		<!-- Masterwork Item that increases Stun Resistance. -->
+	<item id="11576" type="Armor" name="Adamantite Necklace">
 		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="12" />
+		<set name="crystal_count" val="83" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="124240" />
+		<set name="price" val="621200" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="NECKLACE" />
-		<skills>
-			<skill id="3808" level="1" /> <!-- Adamantite Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">68</stat>
-		</stats>
+		<set name="item_skill" val="3808-1" />
+		<for>
+			<add order="0" stat="mDef" val="68" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11577" name="Adamantite Ring" type="Armor">
-		<!-- Masterwork Item that increases MP Recovery Rate. -->
+	<item id="11577" type="Armor" name="Adamantite Ring">
 		<set name="icon" val="icon.accessary_adamantite_ring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="6" />
+		<set name="crystal_count" val="41" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
-		<set name="price" val="62120" />
+		<set name="price" val="310600" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RING" />
-		<skills>
-			<skill id="3809" level="1" /> <!-- Adamantite Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">34</stat>
-		</stats>
+		<set name="item_skill" val="3809-1" />
+		<for>
+			<add order="0" stat="mDef" val="34" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11578" name="Black Ore Earring" type="Armor">
-		<!-- Masterwork Item that increases Dark Resistance. -->
+	<item id="11578" type="Armor" name="Earring of Black Ore">
 		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="13" />
+		<set name="crystal_count" val="95" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="142200" />
+		<set name="price" val="711000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="EARRING" />
-		<skills>
-			<skill id="3810" level="1" /> <!-- Black Ore Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">54</stat>
-		</stats>
+		<set name="item_skill" val="3810-1" />
+		<for>
+			<add order="0" stat="mDef" val="54" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11579" name="Black Ore Necklace" type="Armor">
-		<!-- Masterwork Item that increases Stun Resistance. -->
+	<item id="11579" type="Armor" name="Necklace of Black Ore">
 		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="17" />
+		<set name="crystal_count" val="126" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
-		<set name="price" val="189600" />
+		<set name="price" val="948000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="NECKLACE" />
-		<skills>
-			<skill id="3811" level="1" /> <!-- Black Ore Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">72</stat>
-		</stats>
+		<set name="item_skill" val="3811-1" />
+		<for>
+			<add order="0" stat="mDef" val="72" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11580" name="Black Ore Ring" type="Armor">
-		<!-- Masterwork Item that increases Max MP. -->
+	<item id="11580" type="Armor" name="Ring of Black Ore">
 		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="9" />
+		<set name="crystal_count" val="63" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
-		<set name="price" val="94800" />
+		<set name="price" val="474000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RING" />
-		<skills>
-			<skill id="3812" level="1" /> <!-- Black Ore Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">36</stat>
-		</stats>
+		<set name="item_skill" val="3812-1" />
+		<for>
+			<add order="0" stat="mDef" val="36" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11581" name="Sealed Phoenix Necklace" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 26 and Max MP + 21 when the seal is broken. The blacksmith in a village can release the seal on this item. -->
+	<item id="11581" type="Armor" name="Sealed Phoenix Necklace">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="71" />
+		<set name="crystal_count" val="107" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1340000" />
-		<set name="commissionItemType" val="NECKLACE" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">76</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="76" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11582" name="Sealed Phoenix Ring" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP + 13 and MP Recovery Rate + 0.71% when the seal is broken. The blacksmith in a village can release the seal on this item. -->
+	<item id="11582" type="Armor" name="Sealed Phoenix Ring">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="35" />
+		<set name="crystal_count" val="54" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="670000" />
-		<set name="commissionItemType" val="RING" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">38</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="38" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11583" name="Sealed Phoenix Earring" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP + 20 and M. Def. + 1% when the seal is broken. The blacksmith in a village can release the seal on this item. -->
+	<item id="11583" type="Armor" name="Sealed Phoenix Earring">
 		<set name="icon" val="icon.accessary_phoenixs_earing_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="53" />
+		<set name="crystal_count" val="80" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1005000" />
-		<set name="commissionItemType" val="EARRING" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">57</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="57" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11584" name="Phoenix Necklace" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 26 and Max MP + 21 -->
+	<item id="11584" type="Armor" name="Phoenix Necklace">
 		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="71" />
+		<set name="crystal_count" val="107" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1340000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="NECKLACE" />
-		<skills>
-			<skill id="3813" level="1" /> <!-- Phoenix Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">80</stat>
-			<stat type="maxMp">26</stat>
-		</stats>
+		<set name="item_skill" val="3813-1" />
+		<for>
+			<add order="0" stat="mDef" val="80" />
+			<add stat="maxMp" val="26" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11585" name="Phoenix Ring" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 13 and MP Recovery Rate + 0.71% -->
+	<item id="11585" type="Armor" name="Phoenix Ring">
 		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="35" />
+		<set name="crystal_count" val="54" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="670000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RING" />
-		<skills>
-			<skill id="3814" level="1" /> <!-- Phoenix Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">40</stat>
-			<stat type="maxMp">13</stat>
-		</stats>
+		<set name="item_skill" val="3814-1" />
+		<for>
+			<add order="0" stat="mDef" val="40" />
+			<add stat="maxMp" val="13" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11586" name="Phoenix Earring" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 20 and M. Def. + 1% -->
+	<item id="11586" type="Armor" name="Phoenix Earring">
 		<set name="icon" val="icon.accessary_phoenixs_earing_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="53" />
+		<set name="crystal_count" val="80" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1005000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="EARRING" />
-		<skills>
-			<skill id="3815" level="1" /> <!-- Phoenix Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">60</stat>
-			<stat type="maxMp">20</stat>
-		</stats>
+		<set name="item_skill" val="3815-1" />
+		<for>
+			<add order="0" stat="mDef" val="60" />
+			<add stat="maxMp" val="20" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11587" name="Majestic Necklace" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 33 and M. Def. + 1% -->
+	<item id="11587" type="Armor" name="Majestic Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="106" />
+		<set name="crystal_count" val="160" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1998000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="NECKLACE" />
-		<skills>
-			<skill id="3816" level="1" /> <!-- Majestic Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">85</stat>
-			<stat type="maxMp">33</stat>
-		</stats>
+		<set name="item_skill" val="3816-1" />
+		<for>
+			<add order="0" stat="mDef" val="85" />
+			<add stat="maxMp" val="33" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11588" name="Majestic Ring" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 17 and Max MP + 11 -->
+	<item id="11588" type="Armor" name="Majestic Ring">
 		<set name="icon" val="icon.accessary_inferno_ring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="53" />
+		<set name="crystal_count" val="80" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="999000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RING" />
-		<skills>
-			<skill id="3817" level="1" /> <!-- Majestic Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">42</stat>
-			<stat type="maxMp">17</stat>
-		</stats>
+		<set name="item_skill" val="3817-1" />
+		<for>
+			<add order="0" stat="mDef" val="42" />
+			<add stat="maxMp" val="17" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11589" name="Majestic Earring" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 25 and Poison Resistance + 5.71. -->
+	<item id="11589" type="Armor" name="Majestic Earring">
 		<set name="icon" val="icon.accessary_inferno_earing_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="79" />
+		<set name="crystal_count" val="120" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1498000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="EARRING" />
-		<skills>
-			<skill id="3818" level="1" /> <!-- Majestic Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">63</stat>
-			<stat type="maxMp">25</stat>
-		</stats>
+		<set name="item_skill" val="3818-1" />
+		<for>
+			<add order="0" stat="mDef" val="63" />
+			<add stat="maxMp" val="25" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11590" name="Sealed Majestic Necklace" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 33 and M. Def. + 1% when the seal is broken. The blacksmith in a village can release the seal on this item. -->
+	<item id="11590" type="Armor" name="Sealed Majestic Necklace">
 		<set name="icon" val="icon.accessary_inferno_necklace_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="106" />
+		<set name="crystal_count" val="160" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1998000" />
-		<set name="commissionItemType" val="NECKLACE" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">80</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="80" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11591" name="Sealed Majestic Ring" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 17 and Max MP + 11 when the seal is broken. The blacksmith in a village can release the seal on this item. -->
+	<item id="11591" type="Armor" name="Sealed Majestic Ring">
 		<set name="icon" val="icon.accessary_inferno_ring_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="53" />
+		<set name="crystal_count" val="80" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="999000" />
-		<set name="commissionItemType" val="RING" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">40</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="40" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11592" name="Sealed Majestic Earring" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 25 and Poison Resistance + 5.71 when the seal is broken. The blacksmith in a village can release the seal on this item. -->
+	<item id="11592" type="Armor" name="Sealed Majestic Earring">
 		<set name="icon" val="icon.accessary_inferno_earing_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="79" />
+		<set name="crystal_count" val="120" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="1498000" />
-		<set name="commissionItemType" val="EARRING" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">60</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="60" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11593" name="Sealed Tateossian Necklace" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 42 and Poison Resistance + 7.61 when the seal is broken. -->
+	<item id="11593" type="Armor" name="Sealed Tateossian Necklace">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="139" />
+		<set name="crystal_count" val="209" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="4361000" />
-		<set name="commissionItemType" val="NECKLACE" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">91</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="91" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11594" name="Sealed Tateossian Ring" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 21 and Terrain Resistance + 1.14 when the seal is broken. -->
+	<item id="11594" type="Armor" name="Sealed Tateossian Ring">
 		<set name="icon" val="icon.accessory_tateossian_ring_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="69" />
+		<set name="crystal_count" val="105" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="2180000" />
-		<set name="commissionItemType" val="RING" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">46</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="46" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11595" name="Sealed Tateossian Earring" type="Armor">
-		<!-- Sealed Masterwork Item that has the effect of MP+ 31 and Max MP + 20 when seal is broken. -->
+	<item id="11595" type="Armor" name="Sealed Tateossian Earring">
 		<set name="icon" val="icon.accessory_tateossian_earring_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="104" />
+		<set name="crystal_count" val="157" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="3270000" />
-		<set name="commissionItemType" val="EARRING" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="mDef">68</stat>
-		</stats>
+		<for>
+			<add order="0" stat="mDef" val="68" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11596" name="Tateossian Necklace" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 42 and Bleed Resistance + 7.61. -->
+	<item id="11596" type="Armor" name="Tateossian Necklace">
 		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="139" />
+		<set name="crystal_count" val="209" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="4361000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="NECKLACE" />
-		<skills>
-			<skill id="3819" level="1" /> <!-- Tateossian Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">95</stat>
-			<stat type="maxMp">42</stat>
-		</stats>
+		<set name="item_skill" val="3819-1" />
+		<for>
+			<add order="0" stat="mDef" val="95" />
+			<add stat="maxMp" val="42" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11597" name="Tateossian Ring" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 21 and Earth Resistance + 1.14. -->
+	<item id="11597" type="Armor" name="Tateossian Ring">
 		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="69" />
+		<set name="crystal_count" val="105" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="GOLD" />
 		<set name="weight" val="150" />
 		<set name="price" val="2180000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="RING" />
-		<skills>
-			<skill id="3820" level="1" /> <!-- Tateossian Ring -->
-		</skills>
-		<stats>
-			<stat type="mDef">48</stat>
-			<stat type="maxMp">21</stat>
-		</stats>
+		<set name="item_skill" val="3820-1" />
+		<for>
+			<add order="0" stat="mDef" val="48" />
+			<add stat="maxMp" val="21" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11598" name="Tateossian Earring" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 31 and Max MP + 20 -->
+	<item id="11598" type="Armor" name="Tateossian Earring">
 		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="104" />
+		<set name="crystal_count" val="157" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="3270000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="EARRING" />
-		<skills>
-			<skill id="3821" level="1" /> <!-- Tateossian Earring -->
-		</skills>
-		<stats>
-			<stat type="mDef">71</stat>
-			<stat type="maxMp">31</stat>
-		</stats>
+		<set name="item_skill" val="3821-1" />
+		<for>
+			<add order="0" stat="mDef" val="71" />
+			<add stat="maxMp" val="31" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
-	<item id="11599" name="Dynasty Necklace" type="Armor">
-		<!-- Masterwork Item that has the effect of MP + 46 and Max MP + 30 -->
+	<item id="11599" type="Armor" name="Dynasty Necklace">
 		<set name="icon" val="icon.accessary_dynasty_necklace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="neck" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="254" />
+		<set name="crystal_count" val="381" />
 		<set name="crystal_type" val="S" />
 		<set name="material" val="SILVER" />
 		<set name="weight" val="150" />
 		<set name="price" val="7942000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="commissionItemType" val="NECKLACE" />
-		<skills>
-			<skill id="3822" level="1" /> <!-- Dynasty Necklace -->
-		</skills>
-		<stats>
-			<stat type="mDef">106</stat>
-			<stat type="maxMp">46</stat>
-		</stats>
+		<set name="item_skill" val="3822-1" />
+		<for>
+			<add order="0" stat="mDef" val="106" />
+			<add stat="maxMp" val="46" />
+			<enchant stat="mDef" val="0" />
+		</for>
 	</item>
 </list>

@@ -8,7 +8,9 @@
 		<set name="immediate_effect" val="true" />
 		<set name="weight" val="5" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18714-6" />
+		<skills>
+			<skill id="18714" level="6" /> <!-- Blue Cat's Eye -->
+		</skills>
 	</item>
 	<item id="47701" name="La Vie En Rose's Red Cat's Eye Chest" type="EtcItem">
 		<!-- Double-click to obtain a Red Cat's Eye Lv. 1. -->
@@ -20,8 +22,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="47677" min="1" max="1" chance="100" /> <!-- Red Cat's Eye - Lv. 1 -->
@@ -37,8 +39,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="47682" min="1" max="1" chance="100" /> <!-- Blue Cat's Eye - Lv. 1 -->
@@ -54,8 +56,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="47679" min="1" max="1" chance="100" /> <!-- Red Cat's Eye - Lv. 3 -->
@@ -71,8 +73,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="47680" min="1" max="1" chance="100" /> <!-- Red Cat's Eye - Lv. 4 -->
@@ -88,8 +90,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="47684" min="1" max="1" chance="100" /> <!-- Blue Cat's Eye - Lv. 3 -->
@@ -105,8 +107,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="47685" min="1" max="1" chance="100" /> <!-- Blue Cat's Eye - Lv. 4 -->
@@ -162,7 +164,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47714" name="Rare Accessory Spirit Stone" type="EtcItem">
@@ -183,7 +185,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47716" name="Monster Only: Hand Axe" type="Weapon">
 		<!-- Monsters Weapon. Hand Axe -->
@@ -200,16 +202,16 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkSpd" val="379" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="47717" name="Assassin's Remnant" type="EtcItem">
 		<!-- Signs of Embryo assassins entering to interfere with the production of defensive batteries. After Ishuma finishes building the defensive batteries, prove that she was protected by taking it to her. -->
@@ -220,7 +222,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47718" name="Defensive Battery Bolt" type="EtcItem">
 		<!-- A bolt specifically for use in defensive batteries, received as a prize for successfully defending Ishuma while the batteries were constructed. -->
@@ -231,7 +233,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47719" name="Defensive Battery Nut" type="EtcItem">
 		<!-- A nut specifically for use in defensive batteries, received as a prize for successfully defending Ishuma while the batteries were constructed. -->
@@ -242,7 +244,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47720" name="Defensive Battery Cannonball" type="EtcItem">
 		<!-- A cannonball for use in Keucereus defensive batteries. Only people who possess this cannonball are qualified to operate the Keucereus defensive batteries. -->
@@ -253,7 +255,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47721" name="Wounded Soldier Relief Goods" type="EtcItem">
 		<!-- Relief material taken from Embryo. It will be collected and used as a relief material for the military base defense group. -->
@@ -265,7 +267,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47722" name="Certification of War" type="EtcItem">
 		<!-- Obtained by defeating the Embryo attacking the Keucereus Corps base. It is evidence of the successful Stage 2 defense. -->
@@ -276,7 +278,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47723" name="Victory's Badge" type="EtcItem">
 		<!-- Obtained by defeating the Embryo attacking the Keucereus Corps base. It is evidence of the successful Stage 2 defense. -->
@@ -287,7 +289,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47724" name="Mark of Embryo." type="EtcItem">
 		<!-- Obtained by defeating the Embryo attacking the Keucereus Corps base. It is evidence of the successful Stage 3 defense. -->
@@ -298,7 +300,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47725" name="Proof of Leadership" type="EtcItem">
 		<!-- Obtained by defeating the Embryo attacking the Keucereus Corps base. It is evidence of the successful Stage 3 defense. -->
@@ -309,7 +311,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47726" name="Defense Battery Gunpowder" type="EtcItem">
 		<!-- The gunpowder used in the production of shells for the Keucereus Corps base. It is a necessary material to make shells. -->
@@ -321,7 +323,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47727" name="Temporary Bandage" type="EtcItem">
 		<!-- A popular bandage taken from the Embryo. This can be used in Gracia to heal injuries. -->
@@ -333,7 +335,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47728" name="Defense Battery drive system" type="EtcItem">
 		<!-- Needed to drive the Keucereus defense battery. Be careful while using this device to drive your defenses, as it will be the main target of the Embryo. -->
@@ -345,7 +347,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47729" name="Low-grade Keucereus Defense Supply Box" type="EtcItem">
 		<!-- Compensation for participation in the Keucereus Union Base defense. Double-click to acquire an item. -->
@@ -360,8 +362,10 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18732-1" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18732" level="1" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		</skills>
 	</item>
 	<item id="47730" name="High-grade Keucereus Defense Supply Box" type="EtcItem">
 		<!-- Compensation for participation in the Keucereus Union Base defense. Double-click to acquire an item. -->
@@ -376,8 +380,10 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18732-2" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18732" level="2" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		</skills>
 	</item>
 	<item id="47731" name="Low-grade Keucereus Defense Success Reward Box" type="EtcItem">
 		<!-- Compensation for participation in the Keucereus Union Base defense. Double-click to acquire an item. -->
@@ -392,8 +398,10 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18732-3" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18732" level="3" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		</skills>
 	</item>
 	<item id="47732" name="High-grade Keucereus Defense Success Reward Box" type="EtcItem">
 		<!-- Compensation for participation in the Keucereus Union Base defense. Double-click to acquire an item. -->
@@ -408,8 +416,10 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="18732-4" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="18732" level="4" /> <!-- Low-grade Keucereus Defense Supply Box -->
+		</skills>
 	</item>
 	<item id="47733" name="Guardian Captain Isberg Elimination Commemorative Supply Items" type="EtcItem">
 		<!-- A commemorative gift for defeating Isberg, the guardian guarding the fortress of Mesia. Double-click to acquire an item. Will be deleted on June 22, 2016 (Wed) after regular maintenance. -->
@@ -422,7 +432,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47734" name="Freya's Art of Seduction - Barrier" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 30%, P. Atk. 10%, M. Atk. 20%, P. Def/M. Def 30%, and Movement Speed by 20, and reduces Skill MP Consumption by 15% for 30 minutes. Additionally reduces damage taken by 10%, and increases all property Defense by 100. Buff effect persists through death. Cooldown: 5 minutes. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on June 15, 2016 (Wed) after regular maintenance. -->
@@ -431,18 +441,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18741-1" /> <!-- Art of Seduction -->
+		<skills>
+			<skill id="18741" level="1" /> <!-- Art of Seduction -->
+		</skills>
 	</item>
 	<item id="47735" name="Freya's Art of Seduction - EXP" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 30%, P. Atk. 10%, M. Atk. 20%, P. Def/M. Def 30%, and Movement Speed by 20, and reduces Skill MP Consumption by 15% for 30 minutes. Additionally Increases XP by 30%, and grants 12% bonus Vitality. Buff effect persists through death. Cooldown: 5 minutes. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on June 15, 2016 (Wed) after regular maintenance. -->
@@ -451,18 +463,20 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18742-1" /> <!-- Art of Seduction -->
+		<skills>
+			<skill id="18742" level="1" /> <!-- Art of Seduction -->
+		</skills>
 	</item>
 	<item id="47736" name="Pa'agrio's Blessing - Might" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 10%, P. Atk. 20%, M. Atk. 30%, P. Def/M. Def 10%, and Accuracy by 4, Magic Accuracy by 4, P. Atk./Casting Spd. by 10%, Movement Speed by 10, Attack Attribute by 100, and reduces Skill MP Consumption by 10% for 30 minutes. Additionally Increases Damage by 10%, and grants 10% Skill Power. Buff effect persists through death. Cooldown Time 5min. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on June 15, 2016 (Wed) after regular maintenance. -->
@@ -471,15 +485,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18727-1" /> <!-- Pa'agrio's Blessing - Might -->
+		<skills>
+			<skill id="18727" level="1" /> <!-- Pa'agrio's Blessing - Might -->
+		</skills>
 	</item>
 	<item id="47737" name="Pa'agrio's Blessing - EXP" additionalName="Event" type="EtcItem">
 		<!-- When used, increases Max HP/MP/CP 10%, P. Atk. 20%, M. Atk. 30%, P. Def/M. Def 10%, and Accuracy by 4, Magic Accuracy by 4, P. Atk./Casting Spd. by 10%, Movement Speed by 10, Attack Attribute by 100, and reduces Skill MP Consumption by 10% for 30 minutes. Additionally Increases XP by 30%, and grants 12% bonus Vitality. Buff effect persists through death. Cooldown Time 5min. Cannot be stacked with 'Art of Seduction'. Cannot be used in the Olympiad. Will be deleted on June 15, 2016 (Wed) after regular maintenance. -->
@@ -488,15 +504,17 @@
 		<set name="immediate_effect" val="true" />
 		<set name="reuse_delay" val="300000" />
 		<set name="weight" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18728-1" /> <!-- Pa'agrio's Blessing - EXP -->
+		<skills>
+			<skill id="18728" level="1" /> <!-- Pa'agrio's Blessing - EXP -->
+		</skills>
 	</item>
 	<item id="47738" name="Test Fishing Rod" type="Weapon">
 		<!-- Fishing Time Reduction: 60s. A fast fishing rod for test purposes. Fishing Shot: 1 -->
@@ -511,15 +529,15 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<for>
-			<set stat="pAtk" val="1" />
-			<set stat="mAtk" val="1" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkSpd" val="325" />
-			<!-- <set stat="randomDamage" val="1" /> -->
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="47739" name="Hunter's Amulet" type="EtcItem">
 		<!-- Can be purchased with Raid Points from Black Cat NPC in Hunter's Village by members of Hunter's Guild Faction - Level 2 and above. Can be exchanged with a Faction NPC when upgrading a Faction Talisman. The Hunter's Amulet adds an alternative upgrade path which keeps the current Faction Talisman stage even if the exchange fails. -->
@@ -530,7 +548,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47740" name="Advanced Aria's Bracelet" additionalName="CON+4" type="Armor">
 		<!-- Advanced Aria's Bracelet. Activates 5 talisman slots when equipped. Has the HP+531 CON+4 functions. -->
@@ -546,8 +564,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13584-2" /> <!-- Advanced Aria's Bracelet CON -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13584" level="2" /> <!-- Advanced Aria's Bracelet CON -->
+		</skills>
 	</item>
 	<item id="47741" name="Advanced Aria's Bracelet" additionalName="MEN+4" type="Armor">
 		<!-- Advanced Aria's Bracelet. Activates 5 talisman slots when equipped. Has the HP+531 MEN+4 functions. -->
@@ -563,8 +583,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13585-2" /> <!-- Advanced Aria's Bracelet MEN -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13585" level="2" /> <!-- Advanced Aria's Bracelet MEN -->
+		</skills>
 	</item>
 	<item id="47742" name="Advanced Aria's Bracelet" additionalName="DEX+4" type="Armor">
 		<!-- Advanced Aria's Bracelet. Activates 5 talisman slots when equipped. Has the HP+531 DEX+4 functions. -->
@@ -580,8 +602,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13586-2" /> <!-- Advanced Aria's Bracelet DEX -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13586" level="2" /> <!-- Advanced Aria's Bracelet DEX -->
+		</skills>
 	</item>
 	<item id="47743" name="Advanced Aria's Bracelet" additionalName="WIT+4" type="Armor">
 		<!-- Advanced Aria's Bracelet. Activates 5 talisman slots when equipped. Has the HP+531 WIT+4 functions. -->
@@ -597,8 +621,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13587-2" /> <!-- Advanced Aria's Bracelet WIT -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13587" level="2" /> <!-- Advanced Aria's Bracelet WIT -->
+		</skills>
 	</item>
 	<item id="47744" name="Advanced Aria's Bracelet" additionalName="STR+4" type="Armor">
 		<!-- Advanced Aria's Bracelet. Activates 5 talisman slots when equipped. Has the HP+531 STR+4 functions. -->
@@ -614,8 +640,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13588-2" /> <!-- Advanced Aria's Bracelet STR -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13588" level="2" /> <!-- Advanced Aria's Bracelet STR -->
+		</skills>
 	</item>
 	<item id="47745" name="Advanced Aria's Bracelet" additionalName="INT+4" type="Armor">
 		<!-- Advanced Aria's Bracelet. Activates 5 talisman slots when equipped. Has the HP+531 INT+4 functions. -->
@@ -631,8 +659,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13589-2" /> <!-- Advanced Aria's Bracelet INT -->
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13589" level="2" /> <!-- Advanced Aria's Bracelet INT -->
+		</skills>
 	</item>
 	<item id="47746" name="+10 Blessed Amaranthine Weapon Supply Items" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, a +10 Blessed Amaranthine Weapon can be obtained. Will be deleted on June 15, 2016, after regular maintenance. -->
@@ -645,9 +675,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18738-1" /> <!-- +10 Blessed Amaranthine Weapon -->
+		<skills>
+			<skill id="18738" level="1" /> <!-- +10 Blessed Amaranthine Weapon -->
+		</skills>
 	</item>
 	<item id="47747" name="+8 Blessed Eternal Armor Supply Items" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, a +8 Blessed Eternal Armor item can be obtained. Will be deleted on June 15, 2016, after regular maintenance. -->
@@ -660,9 +692,11 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="18740-1" /> <!-- +8 Blessed Eternal Armor -->
+		<skills>
+			<skill id="18740" level="1" /> <!-- +8 Blessed Eternal Armor -->
+		</skills>
 	</item>
 	<item id="47748" name="Rare Weapon Fragment Supply Items" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, a Shadow Ingot/Tauti's Fragment/Kelbim's Atelia Fragment can be obtained. Will be deleted on June 15, 2016, after regular maintenance. -->
@@ -675,8 +709,8 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_mailable" val="false" /> -->
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_mailable" val="false" />
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
@@ -696,7 +730,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<capsuled_items>
 			<item id="35567" min="2" max="2" chance="75" /> <!-- Dark Eternal Enhancement Stone -->
@@ -713,8 +747,8 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_mailable" val="false" /> -->
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_mailable" val="false" />
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ExtractableItems" />
 		<set name="extractableCountMin" val="1" />
 		<set name="extractableCountMax" val="1" />
@@ -783,7 +817,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47752" name="+8 Blessed Eternal Armor Greaves Capsules" additionalName="Event" type="EtcItem">
 		<!-- Double click to obtain a +8 Blessed Eternal Armor Greaves Set. Will be deleted on June 15, 2016, after regular maintenance. -->
@@ -796,7 +830,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47753" name="+8 Blessed Eternal Armor Robe Capsule" additionalName="Event" type="EtcItem">
 		<!-- Double click to obtain a +8 Blessed Eternal Armor Robe Set. Will be deleted on June 15, 2016, after regular maintenance. -->
@@ -809,7 +843,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47754" name="Dragon's Treasure Chest" type="EtcItem">
 		<!-- Double click to receive a random item. -->
@@ -854,7 +888,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47759" name="Dragon's Gold Key" type="EtcItem">
@@ -866,7 +900,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="47760" name="Dragon's Rare Accessory Pack" type="EtcItem">
@@ -900,12 +934,15 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="time" val="10080" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-        <set name="item_skill" val="13524-1;13542-1" /> <!-- Lindvior's Earring --> <!-- Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-			<set stat="maxMp" val="59" />
-		</for>
+		<set name="is_private_storeable" val="false" />
+		<skills>
+			<skill id="13524" level="1" /> <!-- Lindvior's Earring -->
+			<skill id="13542" level="1" /> <!-- Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+			<stat type="maxMp">59</stat>
+		</stats>
 	</item>
 	<item id="47763" name="Dragon's Treasure Chest - 10" type="EtcItem">
 		<!-- Top-grade Balthus Knights Supply Items. When used, 10 Dragon's Treasure Chests can be obtained. Will be deleted on June 15, 2016, after regular maintenance. -->
@@ -918,7 +955,7 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47764" name="Red Libra Request - Altar of Evil" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Altar of Evil and Bloody Swampland. A character of level 85 to level 95 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -931,7 +968,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47765" name="Red Libra Request - Fairy Settlement" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Fairy Settlement. A character of level 85 to level 95 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -944,7 +981,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47766" name="Red Libra Request - Isle of Souls" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Isle of Souls. A character of level 90 to level 99 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -957,7 +994,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47767" name="Red Libra Request - Seal of Shilen" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Seal of Shilen. A character of level 90 to level 99 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -970,7 +1007,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47768" name="Red Libra Request - Monsters from Three Areas" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Cemetery, Pagan Temple, and Blazing Swamp. A character of level 95 to level 101 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -983,7 +1020,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47769" name="Red Libra Request - Raider's Crossroads" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Raider's Crossroads. A character of level 95 to level 101 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -996,7 +1033,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47770" name="Red Libra Request - Hellbound" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in Hellbound. A character of level 97 to level 103 can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -1009,7 +1046,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47771" name="Red Libra Request - Enchanted Valley" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Enchanted Valley. A character of level 100 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -1022,7 +1059,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47772" name="Red Libra Request - Giant's Cave" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Giant's Cave. A character of level 100 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -1035,7 +1072,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47773" name="Red Libra Request - Garden of Spirits" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Garden of Spirits. A character of level 100 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -1048,7 +1085,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47774" name="Red Libra Request - Atelia Fortress" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Atelia Fortress. A character of level 100 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -1061,7 +1098,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47775" name="Red Libra Request - Superion" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in Superion. A character of level 100 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed once a day. -->
@@ -1074,7 +1111,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47776" name="Red Libra Request - Altar of Evil" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Altar of Evil and Bloody Swampland. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1085,7 +1122,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47777" name="Red Libra Request - Fairy Settlement" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Fairy Settlement. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1096,7 +1133,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47778" name="Red Libra Request - Isle of Souls" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Isle of Souls. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1107,7 +1144,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47779" name="Red Libra Request - Seal of Shilen" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Seal of Shilen. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1118,7 +1155,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47780" name="Red Libra Request - Monsters from Three Areas" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Cemetery, Pagan Temple, and Blazing Swamp. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1129,7 +1166,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47781" name="Red Libra Request - Raider's Crossroads" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Raider's Crossroads. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1140,7 +1177,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47782" name="Red Libra Request - Hellbound" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in Hellbound. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1151,7 +1188,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47783" name="Red Libra Request - Enchanted Valley" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Enchanted Valley. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1162,7 +1199,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47784" name="Red Libra Request - Giant's Cave" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Giant's Cave. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1173,7 +1210,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47785" name="Red Libra Request - Garden of Spirits" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Garden of Spirits. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1184,7 +1221,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47786" name="Red Libra Request - Atelia Fortress" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in the Atelia Fortress. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1195,7 +1232,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47787" name="Red Libra Request - Superion" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to hunt monsters in Superion. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1206,7 +1243,7 @@
 		<set name="is_destroyable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47788" name="Pink's Style Potion - Kelbim Light Armor" type="EtcItem">
 		<!-- Pink style potion. Use to wear Kelbim Light armor for 1 hour. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. -->
@@ -1283,7 +1320,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47797" name="Red Libra Request - Crystal Prison (Baylor)" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to kill Warden Baylor in the Crystal Prison. A character of level 97 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed twice a day. -->
@@ -1296,7 +1333,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47798" name="Red Libra Request - Nightmare Kamaloka" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to kill the lead Dark Rider in Nightmare Kamaloka. A character of level 99 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed twice a day. -->
@@ -1309,7 +1346,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="47799" name="Red Libra Request - Embryo Command Post" type="EtcItem">
 		<!-- A request letter from the Red Libra merchants to kill Commander Burnstein in the Embryo Command Post. A character of level 100 or over can receive the request by double-clicking the item. Event items will deleted once the event concludes, visit the Lineage II Official Website for more information. Can be performed twice a day. -->
@@ -1322,6 +1359,6 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 </list>

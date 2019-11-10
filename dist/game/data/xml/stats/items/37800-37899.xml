@@ -6,7 +6,14 @@
 		<set name="weight" val="10" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="POTION" />
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_oly_restricted" val="true" />
+		<skills>
+			<skill id="17203" level="1" /> <!-- Potion of Protection: Aerial Yoke -->
+		</skills>
 	</item>
 	<item id="37801" name="Bloody Eternal Enhancement Stone Fragment" type="EtcItem">
 		<!-- Bring 10 fragments to the Black of mammon to obtain a Bloody Eternal Enhancement Stone. -->
@@ -21,8 +28,8 @@
 	<item id="37803" name="Master Yogi's Special Scroll: Enchant Weapon" type="EtcItem">
 		<!-- Special weapon enchant scroll containing Master Yogi's power, only usable on Master Yogi's Staff. The item and the enchant value remain intact when enchanting fails. Cannot be used on a Staff enchanted to + 15 or above. Lucky Enchant Stones cannot be used with this item. -->
 		<set name="icon" val="icon.yogi_scroll_of_enchant_weapon_grade_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
@@ -32,23 +39,25 @@
 		<set name="icon" val="icon.accessory_noblesse2_tiara_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="hair2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13772-1" /> <!-- Replica Tiara -->
-		<for>
-			<set stat="fireRes" val="15" />
-			<set stat="waterRes" val="15" />
-			<set stat="windRes" val="15" />
-			<set stat="earthRes" val="15" />
-			<set stat="holyRes" val="15" />
-			<set stat="darkRes" val="15" />
-		</for>
+		<skills>
+			<skill id="13772" level="1" /> <!-- Replica Tiara -->
+		</skills>
+		<stats>
+			<stat type="fireRes">15</stat>
+			<stat type="waterRes">15</stat>
+			<stat type="windRes">15</stat>
+			<stat type="earthRes">15</stat>
+			<stat type="holyRes">15</stat>
+			<stat type="darkRes">15</stat>
+		</stats>
 	</item>
 	<item id="37805" name="Master Yogi's Staff" type="Weapon">
 		<!-- Test your luck! A good reward is waiting. -->
@@ -57,18 +66,18 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="EVENT" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="weight" val="10" />
-		<for>
-			<set stat="pAtk" val="11" />
-			<set stat="mAtk" val="12" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">11</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37806" name="Master Yogi's Staff" type="Weapon">
 		<!-- Test your luck! A good reward is waiting. -->
@@ -77,18 +86,18 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="EVENT" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="weight" val="10" />
-		<for>
-			<set stat="pAtk" val="11" />
-			<set stat="mAtk" val="12" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">11</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37807" name="Master Yogi's Staff" type="Weapon">
 		<!-- Test your luck! A good reward is waiting. -->
@@ -97,18 +106,18 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="EVENT" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="weight" val="10" />
-		<for>
-			<set stat="pAtk" val="11" />
-			<set stat="mAtk" val="12" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">11</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37808" name="Master Yogi's Staff" type="Weapon">
 		<!-- Test your luck! A good reward is waiting. -->
@@ -117,63 +126,63 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="EVENT" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="weight" val="10" />
-		<for>
-			<set stat="pAtk" val="11" />
-			<set stat="mAtk" val="12" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">11</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37809" name="Mysterious Crystal" type="EtcItem">
 		<!-- Master Yogi's power assembly. Bring it to Master Yogi with a +15 ~ +17 Master Yogi's Staff to increase the Staff' enchant level by 1. -->
 		<set name="icon" val="icon.etc_unholy_crystal_1_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="37810" name="Metal Suit Hair Accessory" type="Armor">
 		<!-- Metal Suit Hair Accessory. Part of a costume. -->
 		<set name="icon" val="BranchSys3.icon1.g_co_sf_hair" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="EQUIP" />
 	</item>
 	<item id="37811" name="Metal Suit Breastplate" type="Armor">
 		<!-- Metal Suit Breastplate. Part of a costume. -->
 		<set name="icon" val="BranchSys3.icon1.g_co_sf_u" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="EQUIP" />
 	</item>
 	<item id="37812" name="Metal Suit Gaiters" type="Armor">
 		<!-- Metal Suit Gaiters. Part of a costume. -->
 		<set name="icon" val="BranchSys3.icon1.g_co_sf_l" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="EQUIP" />
 	</item>
 	<item id="37813" name="Metal Suit Gloves" type="Armor">
 		<!-- Metal Suit Gloves. Part of a costume. -->
 		<set name="icon" val="BranchSys3.icon1.g_co_sf_g" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="EQUIP" />
 	</item>
 	<item id="37814" name="Metal Suit Boots" type="Armor">
 		<!-- Metal Suit Boots. Part of a costume. -->
 		<set name="icon" val="BranchSys3.icon1.g_co_sf_b" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="default_action" val="EQUIP" />
 	</item>
@@ -181,9 +190,9 @@
 		<!-- Mysterious box containing 30-day limit appearance stone for Metal Shoot hair accessory, breastplate, gaiters, boots, and gloves. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="PEEL" />
 	</item>
 	<item id="37816" name="Metal Suit Hair Accessory Appearance Stone" additionalName="30-day" type="EtcItem">
@@ -193,10 +202,10 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37817" name="Metal Suit Breastplate Appearance Stone" additionalName="30-day" type="EtcItem">
@@ -206,10 +215,10 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37818" name="Metal Suit Gaiters Appearance Stone" additionalName="30-day" type="EtcItem">
@@ -219,10 +228,10 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37819" name="Metal Suit Gloves Appearance Stone" additionalName="30-day" type="EtcItem">
@@ -232,10 +241,10 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37820" name="Metal Suit Boots Appearance Stone" additionalName="30-day" type="EtcItem">
@@ -245,18 +254,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="time" val="43200" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="37821" name="Transformation Potion: Metal Suit" type="EtcItem">
 		<!-- Modifies your appearance into that of a Metal Suit for 1 hr. -->
 		<set name="icon" val="icon.etc_whiteday_herb" />
 		<set name="weight" val="5" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
@@ -271,11 +280,11 @@
 		<!-- Blackbird's present that is given to the heroes who help in defeating the evil on Hellbound. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="CAPSULE" />
@@ -364,7 +373,7 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 	</item>
 	<item id="37832" name="Valentine Appearance Stone: Dagger" additionalName="15-day" type="EtcItem">
 		<!-- Changes the appearance of a dagger to that of a Valentine's Day weapon.15-day. -->
@@ -752,13 +761,15 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="material" val="PAPER" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="17220-1" /> <!-- Valiant Scroll -->
+		<skills>
+			<skill id="17220" level="1" /> <!-- Valiant Scroll -->
+		</skills>
 	</item>
 	<item id="37868" name="Hero's Weapon: Dagger" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -766,13 +777,13 @@
 		<set name="weapon_type" val="DAGGER" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -780,16 +791,18 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13570-1" /> <!-- Hero's Weapon: Dagger -->
-		<for>
-			<set stat="pAtk" val="881" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<skills>
+			<skill id="13570" level="1" /> <!-- Hero's Weapon: Dagger -->
+		</skills>
+		<stats>
+			<stat type="pAtk">881</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37869" name="Hero's Weapon: One-handed Sword" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -797,13 +810,13 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -811,15 +824,17 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13571-1" /> <!-- Hero's Weapon: One-handed Sword -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13571" level="1" /> <!-- Hero's Weapon: One-handed Sword -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37870" name="Hero's Weapon: Two-handed Sword" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -827,13 +842,13 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -841,15 +856,17 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13572-1" /> <!-- Hero's Weapon: Two-handed Sword -->
-		<for>
-			<set stat="pAtk" val="1225" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13572" level="1" /> <!-- Hero's Weapon: Two-handed Sword -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1225</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37871" name="Hero's Weapon: One-handed Blunt Weapon" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -857,13 +874,13 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -871,16 +888,18 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13573-1" /> <!-- Hero's Weapon: One-handed Blunt Weapon -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<skills>
+			<skill id="13573" level="1" /> <!-- Hero's Weapon: One-handed Blunt Weapon -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37872" name="Hero's Weapon: Fist Weapon" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -888,13 +907,13 @@
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -902,16 +921,18 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13574-1" /> <!-- Hero's Weapon: Fist Weapon -->
-		<for>
-			<set stat="pAtk" val="1225" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<skills>
+			<skill id="13574" level="1" /> <!-- Hero's Weapon: Fist Weapon -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1225</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37873" name="Hero's Weapon: Spear" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -919,13 +940,13 @@
 		<set name="weapon_type" val="POLE" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
@@ -933,16 +954,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13115-1;13575-1" /> <!-- Polearm Multi-attack --> <!-- Hero's Weapon: Spear -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13115" level="1" /> <!-- Polearm Multi-attack -->
+			<skill id="13575" level="1" /> <!-- Hero's Weapon: Spear -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37874" name="Hero's Weapon: Bow" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -950,13 +974,13 @@
 		<set name="weapon_type" val="BOW" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
@@ -964,16 +988,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13576-1" /> <!-- Hero's Weapon: Bow -->
-		<for>
-			<set stat="pAtk" val="1983" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<set name="reuse_delay" val="1500" />
+		<skills>
+			<skill id="13576" level="1" /> <!-- Hero's Weapon: Bow -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1983</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37875" name="Hero's Weapon: Crossbow" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -981,13 +1008,13 @@
 		<set name="weapon_type" val="TWOHANDCROSSBOW" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -995,16 +1022,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13577-1" /> <!-- Hero's Weapon: Crossbow -->
-		<for>
-			<set stat="pAtk" val="1786" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="400" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<set name="reuse_delay" val="1350" />
+		<skills>
+			<skill id="13577" level="1" /> <!-- Hero's Weapon: Crossbow -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1786</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="37876" name="Hero's Weapon: One-handed Magic Sword" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -1012,13 +1042,13 @@
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1026,15 +1056,18 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13578-1" /> <!-- Hero's Weapon: One-handed Magic Sword -->
-		<for>
-			<set stat="pAtk" val="805" />
-			<set stat="mAtk" val="696" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<set name="is_magic_weapon" val="true" />
+		<skills>
+			<skill id="13578" level="1" /> <!-- Hero's Weapon: One-handed Magic Sword -->
+		</skills>
+		<stats>
+			<stat type="pAtk">805</stat>
+			<stat type="mAtk">696</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37877" name="Hero's Weapon: One-handed Magic Blunt Weapon" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -1042,13 +1075,13 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1056,16 +1089,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13579-1" /> <!-- Hero's Weapon: One-handed Magic Blunt Weapon -->
-		<for>
-			<set stat="pAtk" val="805" />
-			<set stat="mAtk" val="696" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<set name="is_magic_weapon" val="true" />
+		<skills>
+			<skill id="13579" level="1" /> <!-- Hero's Weapon: One-handed Magic Blunt Weapon -->
+		</skills>
+		<stats>
+			<stat type="pAtk">805</stat>
+			<stat type="mAtk">696</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37878" name="Hero's Weapon: Two-handed Magic Blunt Weapon" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -1073,13 +1109,13 @@
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1087,16 +1123,19 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13580-1" /> <!-- Hero's Weapon: Two-handed Magic Blunt Weapon -->
-		<for>
-			<set stat="pAtk" val="981" />
-			<set stat="mAtk" val="765" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<set name="is_magic_weapon" val="true" />
+		<skills>
+			<skill id="13580" level="1" /> <!-- Hero's Weapon: Two-handed Magic Blunt Weapon -->
+		</skills>
+		<stats>
+			<stat type="pAtk">981</stat>
+			<stat type="mAtk">765</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37879" name="Hero's Weapon: Dualsword" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -1104,13 +1143,13 @@
 		<set name="weapon_type" val="DUAL" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1118,15 +1157,17 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13581-1" /> <!-- Hero's Weapon: Dualsword -->
-		<for>
-			<set stat="pAtk" val="1225" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13581" level="1" /> <!-- Hero's Weapon: Dualsword -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1225</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37880" name="Hero's Weapon: Dual Dagger" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -1134,13 +1175,13 @@
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
@@ -1148,16 +1189,18 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13582-1" /> <!-- Hero's Weapon: Dual Dagger -->
-		<for>
-			<set stat="pAtk" val="1007" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13582" level="1" /> <!-- Hero's Weapon: Dual Dagger -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1007</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="37881" name="Hero's Weapon: Dual Blunt Weapon" additionalName="15-day" type="Weapon">
 		<!-- Weapon infused with heroes' power. Must use No-grade Soulshot/Spiritshot/Blessed Spiritshot. All levels. 15-day. Cannot be used in the Olympiad. -->
@@ -1165,13 +1208,13 @@
 		<set name="weapon_type" val="DUALBLUNT" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="500" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
@@ -1179,28 +1222,30 @@
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="time" val="21600" />
-        <set name="item_skill" val="13583-1" /> <!-- Hero's Weapon: Dual Blunt Weapon -->
-		<for>
-			<set stat="pAtk" val="1225" />
-			<set stat="mAtk" val="521" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<skills>
+			<skill id="13583" level="1" /> <!-- Hero's Weapon: Dual Blunt Weapon -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1225</stat>
+			<stat type="mAtk">521</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="37882" name="Hero's Weapon Coupon" additionalName="15-day" type="EtcItem">
 		<!-- Item that can be exchanged for a hero's weapon (15-day). The exchange can be done through the Adventurers' Guide. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.etc_exchange_ticket_i00" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="21600" />
 	</item>
 	<item id="37883" name="Valiant Chest" type="EtcItem">
@@ -1213,38 +1258,38 @@
 	<item id="37884" name="Hero's Badge" type="EtcItem">
 		<!-- Hero's episode event item. After the event ends, characters will receive a reward according to the acquired quantity on the live server. -->
 		<set name="icon" val="icon.tiat_seal_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="37885" name="Hero's Energy" type="EtcItem">
 		<!-- Hero's episode event item. After the event ends, characters will be allowed to exchange them for XP scrolls and SP runes through the Adventurers' Guide on the live server. -->
 		<set name="icon" val="icon.tersi_specter_seed" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="37886" name="Hero's XP Scroll" type="EtcItem">
 		<!-- Scroll the replenishes 100,000,000 XP. Can only be used by characters above level 85. When used by characters below level 98, the XP is only replenished by 30%. Cannot be used by chaotic characters. Cannot be used in the Olympiad. -->
 		<set name="icon" val="icon.exp_bottle_scroll" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
@@ -1252,13 +1297,13 @@
 	<item id="37887" name="Hero's SP Rune" additionalName="1-day" type="EtcItem">
 		<!-- When held in the inventory, it increases SP acquired through hunting by 10%. 1-day item. Cannot be used in the Olympiad. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="time" val="1440" />
 	</item>
@@ -1272,37 +1317,61 @@
 	<item id="37889" name="Herb of Growth" type="EtcItem">
 		<!-- For 10 min., XP/SP obtained through hunting + 50%. -->
 		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ItemSkills" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
-		<set name="is_commissionable" val="false" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="for_npc" val="true" />
+		<skills>
+			<skill id="16174" level="1" /> <!-- Superior Herb of Growth -->
+		</skills>
 	</item>
 	<item id="37890" name="Major Herb of Growth" type="EtcItem">
 		<!-- For 10 min., XP/SP obtained through hunting + 100%. -->
 		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ItemSkills" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
-		<set name="is_commissionable" val="false" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="for_npc" val="true" />
+		<skills>
+			<skill id="16175" level="1" /> <!-- Major Herb of Growth -->
+		</skills>
 	</item>
 	<item id="37891" name="Superior Herb of Growth" type="EtcItem">
 		<!-- For 5 min., XP/SP obtained through hunting + 200%. -->
 		<set name="icon" val="BranchSys.icon.br_herb_of_baguette_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ItemSkills" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
-		<set name="is_commissionable" val="false" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="for_npc" val="true" />
+		<skills>
+			<skill id="16176" level="1" /> <!-- Superior Herb of Growth -->
+		</skills>
 	</item>
 	<item id="37892" name="Leona's Reward Box" type="EtcItem">
 		<!-- Reward box given by Leona Blackbird of Hellbound for your help. Double click to acquire the item. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="CAPSULE" />
 	</item>
@@ -1310,13 +1379,13 @@
 		<!-- Ancient book of the demon stained with the blood of the caravan. The ancient book managing caravan Budenka is collecting it in the Refugee Village. -->
 		<set name="icon" val="icon.etc_codex_of_giant_i03" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -1324,22 +1393,30 @@
 		<!-- When used, recovers 5000 HP and the remaining power is recovered as CP. But, there is no duration. -->
 		<set name="icon" val="icon.etc_potion_gold_i00" />
 		<set name="weight" val="180" />
-		<set name="is_stackable" val="true" />
-		<set name="etcitem_type" val="POTION" />
-		<!-- <set name="commissionItemType" val="POTION" /> -->
 		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="commissionItemType" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<skills>
+			<skill id="17913" level="1" /> <!-- Supreme Windy Quick Healing Potion -->
+		</skills>
 	</item>
 	<item id="37895" name="SP Rune (Low-grade)" additionalName="7-day" type="EtcItem">
 		<!-- When held in the inventory, it increases SP acquired through hunting by 10%. 7-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE_SELECT" />
 		<set name="time" val="10080" />
 	</item>
@@ -1347,13 +1424,13 @@
 		<!-- When held in the inventory, it increases SP acquired through hunting by 20%. 7-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
 		<set name="weight" val="120" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE_SELECT" />
 		<set name="time" val="10080" />
 	</item>
@@ -1369,13 +1446,15 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="time" val="10080" />
-        <set name="item_skill" val="22040-1" /> <!-- SP Rune 30% -->
+		<skills>
+			<skill id="22040" level="1" /> <!-- SP Rune 30% -->
+		</skills>
 	</item>
 	<item id="37898" name="SP Rune Pack (Low-grade) (1-day)" type="EtcItem">
 		<!-- Box containing Kat the Cat's gift. Double click to acquire 1 of the following at random: 150 Heavenly Recovery Potions, 1 Kat the Cat's Box of Roses, or 1 Emperor's Rune Box. Cannot be exchanged, dropped, sold in a private store, or used in an auction house. Can be shared within the same account through the Dimensional Merchant. Can be stored in a private warehouse. To be deleted on 30.10.13. -->

@@ -9,6 +9,7 @@ import custom.RaidbossInfo.RaidbossInfo;
 import custom.ShadowWeapons.ShadowWeapons;
 import custom.Validators.SubClassSkills;
 import custom.erengine.ErUtils;
+import custom.events.Rabbits.Rabbits;
 import custom.events.Wedding.Wedding;
 import gr.sr.handler.ABLoader;
 import handlers.custom.CustomAnnouncePkPvP;
@@ -29,6 +30,7 @@ public final class CustomsLoader extends ABLoader
 		NewbieCoupons.class,
 		NpcLocationInfo.class,
 		PinsAndPouchUnseal.class,
+		Rabbits.class,
 		RaidbossInfo.class,
 		ShadowWeapons.class,
 		SubClassSkills.class,

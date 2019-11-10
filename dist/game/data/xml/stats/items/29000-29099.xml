@@ -261,10 +261,18 @@
 	<item id="29077" name="Talisman - Abundance Pack" type="EtcItem">
 		<!-- Double-click to get a Talisman - Abundance (War, Tactics, Morale, or Physique.) -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
 		<set name="material" val="LEATHER" />
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
+		<set name="is_freightable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="28154" level="1" /> <!-- Talisman - Abundance Pack -->
+		</skills>
 	</item>
 	<item id="29080" name="Wondrous Jewelry Box" additionalName="Event" type="EtcItem">
 		<!-- Double-click to obtain 1 of the following types of items randomly: Lv. 1 La Vie En Rose? Jewelry Box, Radiant Gemstone Fragment, La Vie En Rose's Radiant Brooch Chest, or a very small chance to win a Lv. 3 Jewelry Box. -->

@@ -38,7 +38,7 @@
 			<height normal="18" />
 		</collision>
 	</npc>
-	<npc id="23702" level="101" type="Npc" name="L2Monster" title="Dragonclaw Royal Guard">
+	<npc id="23702" level="101" type="L2Npc" name="L2Monster" title="Dragonclaw Royal Guard">
 		<race>HUMAN</race>
 		<sex>MALE</sex>
 		<acquire expRate="946520799" sp="1893101" />
@@ -140,7 +140,7 @@
 			</death>
 		</dropLists>
 	</npc>
-	<npc id="23705" level="101" type="Npc" name="L2Monster" title="Master of Flames">
+	<npc id="23705" level="101" type="L2Npc" name="L2Monster" title="Master of Flames">
 		<race>DEMONIC</race>
 		<sex>MALE</sex>
 		<acquire expRate="1019330130" sp="2038669" />
@@ -334,7 +334,7 @@
 			<height normal="22.5" />
 		</collision>
 	</npc>
-	<npc id="23714" level="85" type="Npc" name="Cyclone" title="Typhoon's Guardian">
+	<npc id="23714" level="85" type="L2Npc" name="Cyclone" title="Typhoon's Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -351,7 +351,7 @@
 			<height normal="25" />
 		</collision>
 	</npc>
-	<npc id="23715" level="85" type="Npc" name="Hurricane" title="Typhoon's Guardian">
+	<npc id="23715" level="85" type="L2Npc" name="Hurricane" title="Typhoon's Guardian">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -495,7 +495,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="23721" level="100" type="Npc" name="Maze Buffalo">
+	<npc id="23721" level="100" type="L2Npc" name="Maze Buffalo">
 		<parameters>
 			<param name="MoveAroundSocial" value="120" />
 			<param name="MoveAroundSocial1" value="30" />
@@ -564,7 +564,7 @@
 			<height normal="34.7" />
 		</collision>
 	</npc>
-	<npc id="23723" level="100" type="Npc" name="Frost Ursus">
+	<npc id="23723" level="100" type="L2Npc" name="Frost Ursus">
 		<parameters>
 			<param name="MoveAroundSocial" value="120" />
 			<param name="MoveAroundSocial1" value="30" />
@@ -2063,7 +2063,7 @@
 
 		</dropLists>
 	</npc>
-	<npc id="23762" level="85" type="Npc" name="Fairy Knight">
+	<npc id="23762" level="85" type="L2Npc" name="Fairy Knight">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2082,7 +2082,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="23763" level="85" type="Npc" name="Fairy Knight" title="Enraged">
+	<npc id="23763" level="85" type="L2Npc" name="Fairy Knight" title="Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2101,7 +2101,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="23764" level="85" type="Npc" name="Fairy Rogue">
+	<npc id="23764" level="85" type="L2Npc" name="Fairy Rogue">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2120,7 +2120,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="23765" level="85" type="Npc" name="Fairy Rogue" title="Enraged">
+	<npc id="23765" level="85" type="L2Npc" name="Fairy Rogue" title="Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2139,7 +2139,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="23766" level="85" type="Npc" name="Fairy Warrior">
+	<npc id="23766" level="85" type="L2Npc" name="Fairy Warrior">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2158,7 +2158,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="23767" level="85" type="Npc" name="Fairy Warrior" title="Enraged">
+	<npc id="23767" level="85" type="L2Npc" name="Fairy Warrior" title="Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2177,7 +2177,7 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-	<npc id="23768" level="85" type="Npc" name="Satyr Summoner">
+	<npc id="23768" level="85" type="L2Npc" name="Satyr Summoner">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2196,7 +2196,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="23769" level="85" type="Npc" name="Satyr Summoner" title="Enraged">
+	<npc id="23769" level="85" type="L2Npc" name="Satyr Summoner" title="Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2215,7 +2215,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="23770" level="85" type="Npc" name="Satyr Witch">
+	<npc id="23770" level="85" type="L2Npc" name="Satyr Witch">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2234,7 +2234,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="23771" level="85" type="Npc" name="Satyr Witch" title="Enraged">
+	<npc id="23771" level="85" type="L2Npc" name="Satyr Witch" title="Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2253,7 +2253,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="23772" level="85" type="Npc" name="Satyr Wizard">
+	<npc id="23772" level="85" type="L2Npc" name="Satyr Wizard">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -2272,7 +2272,7 @@
 			<height normal="28" />
 		</collision>
 	</npc>
-	<npc id="23773" level="85" type="Npc" name="Satyr Wizard" title="Enraged">
+	<npc id="23773" level="85" type="L2Npc" name="Satyr Wizard" title="Enraged">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>ETC</race>
 		<sex>FEMALE</sex>
@@ -3113,7 +3113,7 @@
 
 		</dropLists>
 	</npc>
-	<npc id="23790" level="85" type="Npc" name="Kimerian's Shadows" title="Fairy Leader">
+	<npc id="23790" level="85" type="L2Npc" name="Kimerian's Shadows" title="Fairy Leader">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3130,7 +3130,7 @@
 			<height normal="52" />
 		</collision>
 	</npc>
-	<npc id="23791" level="85" type="Npc" name="Bathus" title="Marred">
+	<npc id="23791" level="85" type="L2Npc" name="Bathus" title="Marred">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3147,7 +3147,7 @@
 			<height normal="46" />
 		</collision>
 	</npc>
-	<npc id="23792" level="85" type="Npc" name="Carcass" title="Marred">
+	<npc id="23792" level="85" type="L2Npc" name="Carcass" title="Marred">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3165,7 +3165,7 @@
 			<height normal="42.5" />
 		</collision>
 	</npc>
-	<npc id="23793" level="85" type="Npc" name="Kshana" title="Marred">
+	<npc id="23793" level="85" type="L2Npc" name="Kshana" title="Marred">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3182,7 +3182,7 @@
 			<height normal="47.5" />
 		</collision>
 	</npc>
-	<npc id="23794" level="85" type="Npc" name="Lucas" title="Marred">
+	<npc id="23794" level="85" type="L2Npc" name="Lucas" title="Marred">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3200,7 +3200,7 @@
 			<height normal="42.5" />
 		</collision>
 	</npc>
-	<npc id="23795" level="85" type="Npc" name="Viper Cherkia" title="Oasis Mirage">
+	<npc id="23795" level="85" type="L2Npc" name="Viper Cherkia" title="Oasis Mirage">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3217,7 +3217,7 @@
 			<height normal="97" />
 		</collision>
 	</npc>
-	<npc id="23796" level="85" type="Npc" name="Viper Cherkia" title="Oasis Mirage">
+	<npc id="23796" level="85" type="L2Npc" name="Viper Cherkia" title="Oasis Mirage">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>
@@ -3234,7 +3234,7 @@
 			<height normal="97" />
 		</collision>
 	</npc>
-	<npc id="23797" level="85" type="Npc" name="El Fera">
+	<npc id="23797" level="85" type="L2Npc" name="El Fera">
 		<!-- AUTO GENERATED NPC TODO: FIX IT -->
 		<race>HUMAN</race>
 		<sex>FEMALE</sex>

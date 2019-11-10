@@ -170,11 +170,11 @@ public class DropInfoBBSManager extends BaseBBSManager
 			newHtml = newHtml.replace("<?name_" + i + "?>", npc != null ? DropInfoFunctions.getName(npc.getName()) : "...");
 			newHtml = newHtml.replace("<?drop_" + i + "?>", npc != null ? String.valueOf(DropInfoFunctions.getDropsCount(npc, false)) : "...");
 			newHtml = newHtml.replace("<?spoil_" + i + "?>", npc != null ? String.valueOf(DropInfoFunctions.getDropsCount(npc, true)) : "...");
-			newHtml = newHtml.replace("<?bp_" + i + "?>", npc != null ? "<button value=\"show\" action=\"bypass _bbssearchdropMonsterDetailsByName_" + npc.getId() + "\" width=40 height=12 back=\"L2UI_CT1.ListCTRL_DF_Title_Down\" fore=\"L2UI_CT1.ListCTRL_DF_Title\">" : "...");
+			newHtml = newHtml.replace("<?bp_" + i + "?>", npc != null ? "<button value=\"show\" action=\"bypass _bbssearchdropMonsterDetailsByName_" + npc.getId() + "\" width=40 height=12 back=\"L2UI_CT1.ListCTRL_DF_Title_Down\" fore=\"L2UI_CT1.ListCTRL_DF_Title\"></button>" : "...");
 		}
 		
-		newHtml = newHtml.replace("<?previous?>", page > 1 ? "<button action=\"bypass _bbssearchdropMonstersByName_" + monsterName + "_" + (page - 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\">" : "<br>");
-		newHtml = newHtml.replace("<?next?>", npcTemplates.size() > (npcIndex + 1) ? "<button action=\"bypass _bbssearchdropMonstersByName_" + monsterName + "_" + (page + 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\">" : "<br>");
+		newHtml = newHtml.replace("<?previous?>", page > 1 ? "<button action=\"bypass _bbssearchdropMonstersByName_" + monsterName + "_" + (page - 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\"></button>" : "<br>");
+		newHtml = newHtml.replace("<?next?>", npcTemplates.size() > (npcIndex + 1) ? "<button action=\"bypass _bbssearchdropMonstersByName_" + monsterName + "_" + (page + 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\"></button>" : "<br>");
 		
 		newHtml = newHtml.replace("<?search?>", monsterName);
 		newHtml = newHtml.replace("<?size?>", Util.formatAdena(npcTemplates.size()));

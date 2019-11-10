@@ -9,27 +9,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="weight" val="477" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="97" />
-			<set stat="mAtk" val="61" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">97</stat>
+			<stat type="mAtk">61</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38701" name="Steel Arbalest" type="Weapon">
 		<!-- <Special Option>. Accuracy + 5. Cannot augment or bestow a Soul Crystal option. -->
@@ -40,27 +40,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="4" />
 		<set name="spiritshots" val="2" />
 		<set name="weight" val="597" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="135" />
-			<set stat="mAtk" val="61" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">61</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="38702" name="Steel Flamberge" type="Weapon">
 		<!-- <Special Option>. Critical + 86. Cannot augment or bestow a Soul Crystal option. -->
@@ -71,23 +71,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="weight" val="670" />
-		<for>
-			<set stat="pAtk" val="130" />
-			<set stat="mAtk" val="61" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">130</stat>
+			<stat type="mAtk">61</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38703" name="Steel Chakram" type="Weapon">
 		<!-- <Special Option>. When HP drops to 60% or below, Atk. Spd. + 13%. Cannot augment or bestow a Soul Crystal option. -->
@@ -98,24 +98,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="C" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
 		<set name="weight" val="497" />
-		<for>
-			<set stat="pAtk" val="130" />
-			<set stat="mAtk" val="61" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">130</stat>
+			<stat type="mAtk">61</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38704" name="Steel Sword of Valhalla" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Cannot augment or bestow a Soul Crystal option. -->
@@ -126,23 +126,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="300" />
-		<for>
-			<set stat="pAtk" val="140" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">140</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38705" name="Steel Spell Breaker" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Cannot augment or bestow a Soul Crystal option. -->
@@ -153,24 +153,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="540" />
-		<for>
-			<set stat="pAtk" val="140" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">140</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38706" name="Steel StormBringer*Ultimate Sword" type="Weapon">
 		<!-- Cannot augment. As with two-handed swords/blunts and fist weapons, dualswords have a greater increase in P. Atk. when enchanted than one-handed swords. When enchanted to + 4 or above, P. Atk. + 166 in a Critical Attack. -->
@@ -181,23 +181,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="747" />
-		<for>
-			<set stat="pAtk" val="197" />
-			<set stat="mAtk" val="86" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">197</stat>
+			<stat type="mAtk">86</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38707" name="Steel Wizard's Tear" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Cannot augment or bestow a Soul Crystal option. -->
@@ -208,23 +208,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="450" />
-		<for>
-			<set stat="pAtk" val="155" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">155</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38708" name="Steel Great Axe" type="Weapon">
 		<!-- <Special Option>. In a Critical attack, 27% chance of inflicting Stun. Cannot augment or bestow a Soul Crystal option. -->
@@ -235,25 +235,27 @@
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="647" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="175" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">175</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="38709" name="Steel Twilight Knife" type="Weapon">
 		<!-- <Special Option>. Critical + 71. Cannot augment or bestow a Soul Crystal option. -->
@@ -264,24 +266,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="122" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">122</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38710" name="Steel Dark Elven Longbow" type="Weapon">
 		<!-- <Special Option>. In a normal Critical Attack, 41% chance of inflicting Bleed. Cannot augment or bestow a Soul Crystal option. -->
@@ -292,24 +294,24 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="573" />
-		<for>
-			<set stat="pAtk" val="397" />
-			<set stat="mAtk" val="100" />
-			<set stat="pAtkSpd" val="227" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">397</stat>
+			<stat type="mAtk">100</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38711" name="Steel Innominate Victory" type="Weapon">
 		<!-- <Special Option>. Critical + 68. Cannot augment or bestow a Soul Crystal option. -->
@@ -320,27 +322,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="643" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="190" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">190</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38712" name="Steel Military Fleuret" type="Weapon">
 		<!-- <Special Option>. Critical + 68. When enchanted to + 4 or above, has a chance during a Critical to increase entire party's P./M. Atk. and received Heal, and decrease Skill MP Consumption. Cannot augment or bestow a Soul Crystal option. -->
@@ -351,27 +353,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="457" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="159" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">159</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38713" name="Steel Hell Hound" type="Weapon">
 		<!-- <Special Option>. Skill MP Consumption - 12%. Cannot augment or bestow a Soul Crystal option. -->
@@ -382,27 +384,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="567" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="245" />
-			<set stat="mAtk" val="99" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">99</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="38714" name="Steel Great Sword" type="Weapon">
 		<!-- <Special Option>. Critical + 68. Cannot augment or bestow a Soul Crystal option. -->
@@ -413,23 +415,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="643" />
-		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">213</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38715" name="Steel Arthro Nail" type="Weapon">
 		<!-- <Special Option>. When HP drops to 60% or below, Atk. Spd. + 10%. Cannot augment or bestow a Soul Crystal option. -->
@@ -440,24 +442,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="B" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="473" />
-		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="91" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">213</stat>
+			<stat type="mAtk">91</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38716" name="Steel Elemental Sword" type="Weapon">
 		<!-- <Special Option>. Curing magic use, MP Consumption + 15% and M. Atk. + 153. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -468,23 +470,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="277" />
-		<for>
-			<set stat="pAtk" val="170" />
-			<set stat="mAtk" val="143" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">170</stat>
+			<stat type="mAtk">143</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38717" name="Steel Spiritual Eye" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -495,24 +497,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="517" />
-		<for>
-			<set stat="pAtk" val="170" />
-			<set stat="mAtk" val="143" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">170</stat>
+			<stat type="mAtk">143</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38718" name="Steel Keshanberk*Keshanberk" type="Weapon">
 		<!-- Cannot augment. As with two-handed swords/blunts and fist weapons, dualswords have a greater increase in P. Atk. when enchanted than one-handed swords. When enchanted to + 4 or above, Atk. Spd. + 8%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -523,23 +525,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="693" />
-		<for>
-			<set stat="pAtk" val="259" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">259</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38719" name="Steel Sword of Miracles" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -550,23 +552,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="280" />
-		<for>
-			<set stat="pAtk" val="186" />
-			<set stat="mAtk" val="152" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">186</stat>
+			<stat type="mAtk">152</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38720" name="Steel Halberd" type="Weapon">
 		<!-- <Special Option>. In a Critical attack, 25% chance of inflicting Stun.Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -577,25 +579,27 @@
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="633" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="213" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">213</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="38721" name="Steel Bloody Orchid" type="Weapon">
 		<!-- <Special Option>. Critical + 67. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -606,24 +610,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="320" />
-		<for>
-			<set stat="pAtk" val="186" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">186</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38722" name="Steel Carnage Bow" type="Weapon">
 		<!-- <Special Option>. In a normal Critical Attack, 35% chance of inflicting Bleed. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -634,24 +638,24 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="557" />
-		<for>
-			<set stat="pAtk" val="440" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">440</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38723" name="Steel White Lightning" type="Weapon">
 		<!-- <Special Option>. Atk. Spd. + 6%. Additional damage during PvP. When enchanted to + 4 or above, has a chance during a Critical to increase entire party's P./M. Atk. and received Heal, and decrease Skill MP Consumption. Cannot augment or bestow a Soul Crystal option. -->
@@ -662,27 +666,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="443" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="193" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">193</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38724" name="Steel Doomchanter" type="Weapon">
 		<!-- <Special Option>. In a normal Critical Attack, 35% chance of inflicting Bleed. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -693,27 +697,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="557" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="270" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<stats>
+			<stat type="pAtk">270</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="38725" name="Steel Divine Pain" type="Weapon">
 		<!-- <Special Option>. Critical + 61. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -724,27 +728,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="633" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="231" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">231</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38726" name="Steel Infernal Master" type="Weapon">
 		<!-- <Special Option>. Critical + 61. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -755,23 +759,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="633" />
-		<for>
-			<set stat="pAtk" val="259" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">259</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38727" name="Steel Blood Tornado" type="Weapon">
 		<!-- <Special Option>. Critical + 61. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -782,24 +786,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="A" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="457" />
-		<for>
-			<set stat="pAtk" val="259" />
-			<set stat="mAtk" val="107" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">259</stat>
+			<stat type="mAtk">107</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38728" name="Steel Forgotten Blade" type="Weapon">
 		<!-- <Special Option>. Critical + 84. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -810,23 +814,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="433" />
-		<for>
-			<set stat="pAtk" val="281" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">281</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38729" name="Steel Basalt Battlehammer" type="Weapon">
 		<!-- <Special Option>. Max HP + 25%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -837,24 +841,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="523" />
-		<for>
-			<set stat="pAtk" val="281" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">281</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38730" name="Steel Tallum Blade*Dark Legion's Edge" type="Weapon">
 		<!-- Cannot augment. As with two-handed swords/blunts and fist weapons, dualswords have a greater increase in P. Atk. when enchanted than one-handed swords. When enchanted to + 4 or above, Max HP + 15%, Max MP + 20%, Max CP + 30%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -865,23 +869,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="693" />
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38731" name="Steel Arcana Mace" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -892,24 +896,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="433" />
-		<for>
-			<set stat="pAtk" val="225" />
-			<set stat="mAtk" val="175" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">225</stat>
+			<stat type="mAtk">175</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38732" name="Steel Saint Spear" type="Weapon">
 		<!-- <Special Option>. Atk. Spd. + 7%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -920,25 +924,27 @@
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="600" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="281" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">281</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="38733" name="Steel Angel Slayer" type="Weapon">
 		<!-- <Special Option>. Atk. Spd. + 7%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -949,24 +955,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="317" />
-		<for>
-			<set stat="pAtk" val="246" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">246</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38734" name="Steel Gram" type="Weapon">
 		<!-- <Special Option>. Critical + 84. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -977,27 +983,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="600" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="304" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">304</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38735" name="Steel Laevateinn" type="Weapon">
 		<!-- <Special Option>. Critical + 84. Additional damage during PvP. When enchanted to + 4 or above, has a chance during a Critical to increase entire party's P./M. Atk. and received Heal, and decrease Skill MP Consumption. Cannot augment or bestow a Soul Crystal option. -->
@@ -1008,27 +1014,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="433" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="255" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">255</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38736" name="Steel Sarunga" type="Weapon">
 		<!-- <Special Option>. Critical + 88. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1039,27 +1045,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="533" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="356" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<stats>
+			<stat type="pAtk">356</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="38737" name="Steel Heaven's Divider" type="Weapon">
 		<!-- <Special Option>. Critical + 84. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1070,23 +1076,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="460" />
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38738" name="Steel Demon Splinter" type="Weapon">
 		<!-- <Special Option>. Critical + 80. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1097,24 +1103,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="450" />
-		<for>
-			<set stat="pAtk" val="342" />
-			<set stat="mAtk" val="132" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">342</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38739" name="Steel Dynasty Phantom" type="Weapon">
 		<!-- <Special Option>. Casting Spd. + 15%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1125,23 +1131,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="510" />
-		<for>
-			<set stat="pAtk" val="267" />
-			<set stat="mAtk" val="202" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">267</stat>
+			<stat type="mAtk">202</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38740" name="Steel Dynasty Cudgel" type="Weapon">
 		<!-- <Special Option>. Max HP + 25%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1152,24 +1158,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="580" />
-		<for>
-			<set stat="pAtk" val="333" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">333</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38741" name="Steel Dynasty Dualsword" type="Weapon">
 		<!-- Cannot augment. As with two-handed swords/blunts and fist weapons, dualswords have a greater increase in P. Atk. when enchanted than one-handed swords. When enchanted to + 4 or above, Critical + 109, Max HP + 10%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1180,23 +1186,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="510" />
-		<for>
-			<set stat="pAtk" val="405" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">405</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38742" name="Steel Dynasty Halberd" type="Weapon">
 		<!-- <Special Option>. In a Critical Attack, 48% chance of inflicting Stun. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1207,25 +1213,27 @@
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="670" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="333" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">333</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="38743" name="Steel Dynasty Knife" type="Weapon">
 		<!-- <Special Option>. Critical + 116. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1236,24 +1244,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="510" />
-		<for>
-			<set stat="pAtk" val="291" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">291</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38744" name="Steel Dynasty Crossbow" type="Weapon">
 		<!-- <Special Option>. Critical + 116. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1264,27 +1272,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="530" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="401" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<stats>
+			<stat type="pAtk">401</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="38745" name="Steel Dynasty Ancient Sword" type="Weapon">
 		<!-- <Special Option>. Critical + 111. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1295,27 +1303,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="600" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="361" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="350" />
-			<set stat="accCombat" val="2" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">361</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38746" name="Steel Dynasty Rapier" type="Weapon">
 		<!-- <Special Option>. Critical + 111. Additional damage during PvP. When enchanted to + 4 or above, has a chance during a Critical to increase entire party's P./M. Atk. and received Heal, and decrease Skill MP Consumption. Cannot augment or bestow a Soul Crystal option. -->
@@ -1326,27 +1334,27 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="430" />
 		<cond msgId="1518">
 			<player races="KAMAEL" />
 		</cond>
-		<for>
-			<set stat="pAtk" val="302" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="406" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">302</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38747" name="Steel Dynasty Blade" type="Weapon">
 		<!-- <Special Option>. Critical + 111. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1357,23 +1365,23 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="580" />
-		<for>
-			<set stat="pAtk" val="405" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">405</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38748" name="Steel Dynasty Bagh-Nakh" type="Weapon">
 		<!-- <Special Option>. Atk. Spd. + 10%. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1384,24 +1392,24 @@
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="520" />
-		<for>
-			<set stat="pAtk" val="405" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<stats>
+			<stat type="pAtk">405</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38749" name="Steel Dynasty Bow" type="Weapon">
 		<!-- <Special Option>. Critical + 116. Additional damage during PvP. Cannot augment or bestow a Soul Crystal option. -->
@@ -1412,50 +1420,50 @@
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="immediate_effect" val="true" />
 		<set name="crystal_type" val="S" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="510" />
-		<for>
-			<set stat="pAtk" val="654" />
-			<set stat="mAtk" val="151" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<stats>
+			<stat type="pAtk">654</stat>
+			<stat type="mAtk">151</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38750" name="Lara's Card Key" type="EtcItem">
 		<!-- You need this to receive buffs from Lara. Temporary event item. -->
 		<set name="icon" val="icon.cardkey_raracat" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="38751" name="Lara's Business Card" type="EtcItem">
 		<!-- Prizes will be given out to players that collect 6 or more of Lara's business cards, depending on how many you have. Keep them just in case. -->
 		<set name="icon" val="icon.namecard_raracat" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -1493,13 +1501,13 @@
 		<!-- Double-click to obtain a Chaos Essence (30-day). -->
 		<set name="icon" val="icon.etc_exchange_box_i00" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 		<set name="handler" val="ExtractableItems" />
 			<capsuled_items>
@@ -1516,7 +1524,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="17691-1" /> <!-- Blessed High-grade Lucky Enchant Stone: Weapon (R-grade) -->
+		<skills>
+			<skill id="17691" level="1" /> <!-- Blessed High-grade Lucky Enchant Stone: Weapon (R-grade) -->
+		</skills>
 	</item>
 	<item id="38758" name="Blessed High-grade Lucky Enchant Stone: Armor (R-grade)" type="EtcItem">
 		<!-- Success rate + 30% for enchanting R-grade armor with Blessed Scroll: Enchant Armor. Only for items enchanted between + 3 and + 9. One-piece armor must be enchanted between + 4 and + 9. -->
@@ -1528,7 +1538,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="17692-1" /> <!-- Blessed High-grade Lucky Enchant Stone: Armor (R-grade) -->
+		<skills>
+			<skill id="17692" level="1" /> <!-- Blessed High-grade Lucky Enchant Stone: Armor (R-grade) -->
+		</skills>
 	</item>
 	<item id="38759" name="Blessed High-grade Lucky Enchant Stone: Weapon (S-grade)" type="EtcItem">
 		<!-- Success rate + 20% for enchanting S-grade weapons with Blessed Scroll: Enchant Weapon. Only for items enchanted between + 3 and + 9. -->
@@ -1540,7 +1552,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="17693-1" /> <!-- Blessed High-grade Lucky Enchant Stone: Weapon (S-grade) -->
+		<skills>
+			<skill id="17693" level="1" /> <!-- Blessed High-grade Lucky Enchant Stone: Weapon (S-grade) -->
+		</skills>
 	</item>
 	<item id="38760" name="Blessed High-grade Lucky Enchant Stone: Armor (S-grade)" type="EtcItem">
 		<!-- Success rate + 30% for enchanting S-grade armor with Blessed Scroll: Enchant Armor. Only for items enchanted between + 3 and + 9. One-piece armor must be enchanted between + 4 and + 9. -->
@@ -1552,7 +1566,9 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_stackable" val="true" />
-        <set name="item_skill" val="17694-1" /> <!-- Blessed High-grade Lucky Enchant Stone: Armor (S-grade) -->
+		<skills>
+			<skill id="17694" level="1" /> <!-- Blessed High-grade Lucky Enchant Stone: Armor (S-grade) -->
+		</skills>
 	</item>
 	<item id="38761" name="Energy of Destruction 3-unit Pack" type="EtcItem">
 		<!-- Double-click to obtain Energy of Destruction x 3. -->
@@ -1603,14 +1619,14 @@
 	<item id="38765" name="Lara's Key Card Pack" additionalName="Luxury" type="EtcItem">
 		<!-- Double-click to obtain Lara's Key Card and Lara's Gift. Temporary event item. -->
 		<set name="icon" val="icon.etc_pouch_yellow_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="38766" name="La Vie En Rose's Brooch" type="Armor">
@@ -1621,15 +1637,17 @@
 		<set name="weight" val="10" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="13656-1" /> <!-- La Vie En Rose's Brooch -->
-		<for>
-			<set stat="mDef" val="17" />
-		</for>
+		<skills>
+			<skill id="13656" level="1" /> <!-- La Vie En Rose's Brooch -->
+		</skills>
+		<stats>
+			<stat type="mDef">17</stat>
+		</stats>
 	</item>
 	<item id="38767" name="La Vie En Rose's Noble Brooch" type="Armor">
 		<!-- Activates 3 jewel slots when equipped. -->
@@ -1639,15 +1657,17 @@
 		<set name="weight" val="10" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="13657-1" /> <!-- La Vie En Rose's Noble Brooch -->
-		<for>
-			<set stat="mDef" val="43" />
-		</for>
+		<skills>
+			<skill id="13657" level="1" /> <!-- La Vie En Rose's Noble Brooch -->
+		</skills>
+		<stats>
+			<stat type="mDef">43</stat>
+		</stats>
 	</item>
 	<item id="38768" name="La Vie En Rose's Brilliant Brooch" type="Armor">
 		<!-- Activates 4 jewel slots when equipped. Inventory Slot + 12. -->
@@ -1657,15 +1677,18 @@
 		<set name="weight" val="10" />
 		<set name="is_dropable" val="false" />
 		<set name="is_tradable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="13658-1;13661-1" /> <!-- La Vie En Rose's Brilliant Brooch --> <!-- La Vie En Rose's Brilliant Brooch -->
-		<for>
-			<set stat="mDef" val="87" />
-		</for>
+		<skills>
+			<skill id="13658" level="1" /> <!-- La Vie En Rose's Brilliant Brooch -->
+			<skill id="13661" level="1" /> <!-- La Vie En Rose's Brilliant Brooch -->
+		</skills>
+		<stats>
+			<stat type="mDef">87</stat>
+		</stats>
 	</item>
 	<item id="38769" name="Test: Jewel Lv.1" additionalName="1" type="Armor">
 		<!-- Test Jewel -->
@@ -1720,651 +1743,700 @@
 		<set name="icon" val="icon.weapon_antaras_dagger_i00" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17742-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="574" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17742" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">574</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38776" name="Sealed Antharas Slasher Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_twohand_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17743-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="798" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17743" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">798</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38777" name="Sealed Antharas Thrower Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_bow_i00" />
 		<set name="weapon_type" val="BOW" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17744-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="1291" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<skills>
+			<skill id="17744" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1291</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38778" name="Sealed Antharas Buster Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Casting Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17745-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="524" />
-			<set stat="mAtk" val="339" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17745" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">524</stat>
+			<stat type="mAtk">339</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38779" name="Sealed Antharas Cutter Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_onehand_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17746-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="656" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17746" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">656</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38780" name="Sealed Antharas Stormer Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_spear_i00" />
 		<set name="weapon_type" val="POLE" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="13115-1;17747-1" /> <!-- Polearm Multi-attack --> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="656" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-		</for>
+		<skills>
+			<skill id="13115" level="1" /> <!-- Polearm Multi-attack -->
+			<skill id="17747" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">656</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
 	</item>
 	<item id="38781" name="Sealed Antharas Fighter Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_fist_i00" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17748-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="798" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17748" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">798</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38782" name="Sealed Antharas Avenger Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17749-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="656" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17749" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">656</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38783" name="Sealed Antharas Dual Blunt Weapon Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_dual_blunt_i00" />
 		<set name="weapon_type" val="DUALBLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17750-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="798" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17750" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">798</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38784" name="Sealed Antharas Dualsword Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_dual_sword_i00" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17751-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="798" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17751" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">798</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38785" name="Sealed Valakas Shaper Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_dagger_i00" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17752-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="574" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17752" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">574</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38786" name="Sealed Valakas Cutter Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17753-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="656" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17753" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">656</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38787" name="Sealed Valakas Slasher Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17754-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="798" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17754" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">798</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38788" name="Sealed Valakas Thrower Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_bow_i00" />
 		<set name="weapon_type" val="BOW" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17755-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="1291" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<skills>
+			<skill id="17755" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1291</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38789" name="Sealed Valakas Buster Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Casting Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17756-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="524" />
-			<set stat="mAtk" val="339" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17756" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">524</stat>
+			<stat type="mAtk">339</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38790" name="Sealed Valakas Caster Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Casting Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17757-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="524" />
-			<set stat="mAtk" val="339" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17757" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">524</stat>
+			<stat type="mAtk">339</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38791" name="Sealed Valakas Retributer Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Valakas lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Casting Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17758-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="638" />
-			<set stat="mAtk" val="372" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="accMagic" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17758" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">638</stat>
+			<stat type="mAtk">372</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="accMagic">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38792" name="Sealed Lindvior Shaper Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_dagger_i00" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17759-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="574" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17759" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">574</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38793" name="Sealed Lindvior Thrower Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_bow_i00" />
 		<set name="weapon_type" val="BOW" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;10;0" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17760-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="1291" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-		</for>
+		<skills>
+			<skill id="17760" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1291</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
 	</item>
 	<item id="38794" name="Sealed Lindvior Slasher Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_twohand_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17761-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="798" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17761" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">798</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38795" name="Sealed Lindvior Caster Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Casting Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i00" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17762-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="524" />
-			<set stat="mAtk" val="339" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17762" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">524</stat>
+			<stat type="mAtk">339</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38796" name="Sealed Lindvior Cutter Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_onehand_sword_i00" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17763-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="656" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17763" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">656</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38797" name="Sealed Lindvior Shooter Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_crossbow_i00" />
 		<set name="weapon_type" val="TWOHANDCROSSBOW" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17764-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="1163" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="400" />
-		</for>
+		<skills>
+			<skill id="17764" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">1163</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
 	</item>
 	<item id="38798" name="Sealed Lindvior Dual Dagger Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Lindvior lent to Dandy. Use the Dandy's Breath skill while possessing Dandy's Scroll: Release Seal to acquire Dandy's borrowed dragon weapon. Bring Dandy the Dragon Scroll: Boost Weapon to exchange it for a Genuine dragon weapon. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. <Passive: Dandy's Strength>. PvP damage + 5%, Max HP + 15%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_lind_dual_dagger_i00" />
 		<set name="weapon_type" val="DUALDAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="bodypart" val="lrhand" />
 		<set name="weight" val="500" />
-        <set name="item_skill" val="17765-1" /> <!-- Dandy's Strength -->
-		<for>
-			<set stat="pAtk" val="656" />
-			<set stat="mAtk" val="254" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17765" level="1" /> <!-- Dandy's Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">656</stat>
+			<stat type="mAtk">254</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 	<item id="38799" name="Antharas Shaper Borrowed by Dandy" type="Weapon">
 		<!-- Dragon weapon that Antharas lent to Dandy. No-grade Soulshot, Spiritshot, and Blessed Spiritshot must be used. 1 hour limit. <Passive: Assisting Strength>. PvP damage + 10%, Max HP/MP/CP + 20%, Atk. Spd. + 15%. Cannot be used in the Olympiad or Ceremony of of Chaos. Cannot enchant, crystallize, modify, or assign an attribute. -->
 		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="damage_range" val="0;0;40;120" />
 		<set name="soulshots" val="1" />
@@ -2372,14 +2444,16 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weight" val="500" />
 		<set name="time" val="60" />
-        <set name="item_skill" val="17766-1" /> <!-- Assisting Strength -->
-		<for>
-			<set stat="pAtk" val="673" />
-			<set stat="mAtk" val="360" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-		</for>
+		<skills>
+			<skill id="17766" level="1" /> <!-- Assisting Strength -->
+		</skills>
+		<stats>
+			<stat type="pAtk">673</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
 	</item>
 </list>

@@ -1,136 +1,125 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="7900" name="Ice Storm Hammer" type="Weapon">
-		<!-- Can bestow 1 regular Soul Crystal and 1 Special Soul Crystal. -->
+	<item id="7900" type="Weapon" name="Ice Storm Hammer">
 		<set name="icon" val="icon.weapon_ice_storm_hammer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="119" />
+		<set name="crystal_count" val="891" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1950" />
-		<set name="price" val="1336100" />
+		<set name="price" val="6680500" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="isAppearanceable" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
-		<stats>
-			<stat type="pAtk">213</stat>
-			<stat type="mAtk">91</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="213" />
+			<set stat="mAtk" val="91" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="7901" name="Star Buster" type="Weapon">
-		<!-- Can bestow 1 regular Soul Crystal and 1 Special Soul Crystal. -->
+	<item id="7901" type="Weapon" name="Star Buster">
 		<set name="icon" val="icon.weapon_star_buster_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="180" />
+		<set name="crystal_count" val="1346" />
 		<set name="crystal_type" val="B" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1930" />
-		<set name="price" val="2018280" />
+		<set name="price" val="10091400" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="enchant_enabled" val="1" />
-		<set name="isAppearanceable" val="true" />
-		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
-		<stats>
-			<stat type="pAtk">236</stat>
-			<stat type="mAtk">99</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="236" />
+			<set stat="mAtk" val="99" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="7902" name="Doom Crusher" type="Weapon">
-		<!-- Can bestow 1 regular Soul Crystal and 1 Special Soul Crystal. -->
+	<item id="7902" type="Weapon" name="Doom Crusher">
 		<set name="icon" val="icon.weapon_doom_crusher_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="1106" />
+		<set name="crystal_count" val="1659" />
 		<set name="crystal_type" val="A" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="1900" />
 		<set name="price" val="20741000" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
-		<set name="commissionItemType" val="TWO_HAND_BLUNT_WEAPON" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">282</stat>
-			<stat type="mAtk">114</stat>
-			<stat type="critRate">6</stat>
-			<stat type="accCombat">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">20</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="282" />
+			<set stat="mAtk" val="114" />
+			<set stat="critRate" val="4" />
+			<add stat="accCombat" val="4.75" />
+			<set stat="pAtkSpd" val="325" />
+			<enchant val="0" stat="pAtk" />
+			<enchant val="0" stat="mAtk" />
+		</for>
 	</item>
-	<item id="7903" name="Frintezza's Sword" type="Weapon">
-		<!-- Frintezza's sword of transformation. -->
+	<item id="7903" type="Weapon" name="Frintezza's Sword">
 		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="FINE_STEEL" />
 		<set name="weight" val="2180" />
-		<set name="price" val="193400" />
+		<set name="price" val="967000" />
 		<set name="soulshots" val="2" />
 		<set name="spiritshots" val="2" />
-		<set name="commissionItemType" val="TWO_HAND_SWORD" />
-		<set name="isAppearanceable" val="true" />
 		<set name="enchant_enabled" val="1" />
-		<stats>
-			<stat type="pAtk">78</stat>
-			<stat type="mAtk">39</stat>
-			<stat type="critRate">8</stat>
-			<stat type="pAtkSpd">325</stat>
-			<stat type="randomDamage">10</stat>
-			<stat type="pAtkRange">40</stat>
-		</stats>
+		<for>
+			<set stat="pAtk" val="78" />
+			<set stat="mAtk" val="39" />
+			<set stat="critRate" val="8" />
+			<set stat="pAtkSpd" val="325" />
+		</for>
 	</item>
-	<item id="7904" name="Boat Ticket: Rune to Gludin" type="EtcItem">
-		<!-- Boat Ticket: Depart Rune - Arrive Gludin -->
+	<item id="7904" type="EtcItem" name="Boat Ticket: Rune to Gludin">
 		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="20" />
 		<set name="price" val="5000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="7905" name="Boat Ticket: Gludin to Rune" type="EtcItem">
-		<!-- Boat Ticket: Depart Gludin - Arrive Rune -->
+	<item id="7905" type="EtcItem" name="Boat Ticket: Gludin to Rune">
 		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="20" />
 		<set name="price" val="5000" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="7906" name="Blessing of Fire" type="EtcItem">
-		<!-- Bestows fire attack attribute while engaged in a physical attack. -->
+	<item id="7906" type="EtcItem" name="Fire Blessing">
 		<set name="icon" val="icon.etc_fire_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -139,13 +128,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2248" level="1" /> <!-- Blessing of Fire -->
-		</skills>
+		<set name="item_skill" val="2248-1" />
 	</item>
-	<item id="7907" name="Blessing of Water" type="EtcItem">
-		<!-- Bestows water attack attribute while engaged in a physical attack. -->
+	<item id="7907" type="EtcItem" name="Water Blessing">
 		<set name="icon" val="icon.etc_water_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -154,13 +139,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2249" level="1" /> <!-- Blessing of Water -->
-		</skills>
+		<set name="item_skill" val="2249-1" />
 	</item>
-	<item id="7908" name="Blessing of Wind" type="EtcItem">
-		<!-- Bestows wind attack attribute while engaged in a physical attack. -->
+	<item id="7908" type="EtcItem" name="Wind Blessing">
 		<set name="icon" val="icon.etc_wind_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -169,13 +150,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2250" level="1" /> <!-- Blessing of Wind -->
-		</skills>
+		<set name="item_skill" val="2250-1" />
 	</item>
-	<item id="7909" name="Blessing of Earth" type="EtcItem">
-		<!-- Bestows earth attack attribute while engaged in a physical attack. -->
+	<item id="7909" type="EtcItem" name="Earth Blessing">
 		<set name="icon" val="icon.etc_earth_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -184,13 +161,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2251" level="1" /> <!-- Blessing of Earth -->
-		</skills>
+		<set name="item_skill" val="2251-1" />
 	</item>
-	<item id="7910" name="Blessing of Dark" type="EtcItem">
-		<!-- Bestows Dark attack attribute while engaged in a physical attack. -->
+	<item id="7910" type="EtcItem" name="Dark Blessing">
 		<set name="icon" val="icon.etc_unholy_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -199,13 +172,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2252" level="1" /> <!-- Blessing of Dark -->
-		</skills>
+		<set name="item_skill" val="2252-1" />
 	</item>
-	<item id="7911" name="Holy Blessing" type="EtcItem">
-		<!-- Bestows Holy attack attribute while engaged in a physical attack. -->
+	<item id="7911" type="EtcItem" name="Holy Blessing">
 		<set name="icon" val="icon.etc_holy_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -214,13 +183,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2253" level="1" /> <!-- Holy Blessing -->
-		</skills>
+		<set name="item_skill" val="2253-1" />
 	</item>
-	<item id="7912" name="Fire Crystal" type="EtcItem">
-		<!-- Eliminates vulnerability to fire attacks. -->
+	<item id="7912" type="EtcItem" name="Fire Shard">
 		<set name="icon" val="icon.etc_fire_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -229,13 +194,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2254" level="3" /> <!-- Fire Crystal -->
-		</skills>
+		<set name="item_skill" val="2254-3" />
 	</item>
-	<item id="7913" name="Water Crystal" type="EtcItem">
-		<!-- Eliminates vulnerability to water attacks. -->
+	<item id="7913" type="EtcItem" name="Water Shard">
 		<set name="icon" val="icon.etc_water_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -244,13 +205,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2255" level="3" /> <!-- Water Crystal -->
-		</skills>
+		<set name="item_skill" val="2255-3" />
 	</item>
-	<item id="7914" name="Wind Crystal" type="EtcItem">
-		<!-- Eliminates vulnerability to wind attacks. -->
+	<item id="7914" type="EtcItem" name="Wind Shard">
 		<set name="icon" val="icon.etc_wind_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -259,13 +216,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2256" level="3" /> <!-- Wind Crystal -->
-		</skills>
+		<set name="item_skill" val="2256-3" />
 	</item>
-	<item id="7915" name="Earth Crystal" type="EtcItem">
-		<!-- Eliminates vulnerability to earth attacks. -->
+	<item id="7915" type="EtcItem" name="Earth Shard">
 		<set name="icon" val="icon.etc_earth_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -274,13 +227,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2257" level="3" /> <!-- Earth Crystal -->
-		</skills>
+		<set name="item_skill" val="2257-3" />
 	</item>
-	<item id="7916" name="Dark Shard" type="EtcItem">
-		<!-- Eliminates vulnerability to Dark attacks. -->
+	<item id="7916" type="EtcItem" name="Dark Shard">
 		<set name="icon" val="icon.etc_unholy_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -289,13 +238,9 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2258" level="3" /> <!-- Dark Shard -->
-		</skills>
+		<set name="item_skill" val="2258-3" />
 	</item>
-	<item id="7917" name="Holy Crystal" type="EtcItem">
-		<!-- Eliminates vulnerability to Holy attacks. -->
+	<item id="7917" type="EtcItem" name="Holy Shard">
 		<set name="icon" val="icon.etc_holy_crystal_1_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="LIQUID" />
@@ -304,911 +249,744 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2259" level="3" /> <!-- Holy Crystal -->
-		</skills>
+		<set name="item_skill" val="2259-3" />
 	</item>
-	<item id="7918" name="Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Sword/Stationary -->
+	<item id="7918" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7919" name="Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Spear/Stationary -->
+	<item id="7919" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7920" name="Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Bow/Stationary -->
+	<item id="7920" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7921" name="Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Stationary -->
+	<item id="7921" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7922" name="Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Stationary -->
+	<item id="7922" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7923" name="Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Sword/Mobile -->
+	<item id="7923" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7924" name="Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Spear/Mobile -->
+	<item id="7924" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7925" name="Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Bow/Mobile -->
+	<item id="7925" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7926" name="Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Mobile -->
+	<item id="7926" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7927" name="Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Mobile -->
+	<item id="7927" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7928" name="Mercenary Posting Ticket (Teleporter1)" type="EtcItem">
-		<!-- Placed in Schuttgart, at the Teleporter or inside the castle, this ticket allows teleportation to the inner castle or the guardian's location. -->
+	<item id="7928" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7929" name="Mercenary Posting Ticket (Teleporter2)" type="EtcItem">
-		<!-- Placed in Schuttgart, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle or the guardian's location. -->
+	<item id="7929" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7930" name="Mercenary Posting Ticket (Teleporter3)" type="EtcItem">
-		<!-- Placed in Schuttgart, at the Teleporter or inside the castle, this ticket allows teleportation to the inner or outer castle. -->
+	<item id="7930" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7931" name="Greater Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Sword/Stationary. -->
+	<item id="7931" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="80000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7932" name="Greater Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Spear/Stationary. -->
+	<item id="7932" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7933" name="Greater Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Bow/Stationary. -->
+	<item id="7933" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="120000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7934" name="Greater Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Stationary. -->
+	<item id="7934" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7935" name="Greater Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Stationary. -->
+	<item id="7935" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7936" name="Greater Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Sword/Mobile. -->
+	<item id="7936" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="80000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7937" name="Greater Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Spear/Mobile. -->
+	<item id="7937" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7938" name="Greater Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Bow/Mobile. -->
+	<item id="7938" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="120000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7939" name="Greater Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Mobile. -->
+	<item id="7939" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7940" name="Greater Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Mobile. -->
+	<item id="7940" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7941" name="Dawn Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Sword/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7941" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="140000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7942" name="Dawn Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Spear/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7942" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7943" name="Dawn Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Bow/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7943" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="200000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7944" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7944" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7945" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7945" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7946" name="Dawn Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7946" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="140000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7947" name="Dawn Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Spear/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7947" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7948" name="Dawn Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Bow/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7948" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="200000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7949" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7949" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7950" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7950" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7951" name="Greater Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Sword/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7951" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7952" name="Greater Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Spear/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7952" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7953" name="Greater Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Bow/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7953" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7954" name="Greater Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7954" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7955" name="Greater Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7955" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7956" name="Greater Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7956" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7957" name="Greater Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Spear/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7957" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7958" name="Greater Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Bow/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7958" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7959" name="Greater Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7959" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7960" name="Greater Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7960" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7961" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Sword/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7961" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7962" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Spear/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7962" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7963" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Bow/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7963" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7964" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7964" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7965" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7965" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7966" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7966" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7967" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Spear/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7967" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7968" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Bow/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7968" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7969" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Cleric/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7969" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7970" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Schuttgart/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="7970" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7971" name="Nephilim Warrior Posting Ticket" type="EtcItem">
-		<!-- Schuttgart/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7971" type="EtcItem" name="Nephilim Warrior Posting Ticket">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="2500000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7972" name="Nephilim Shaman Posting Ticket" type="EtcItem">
-		<!-- Schuttgart/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7972" type="EtcItem" name="Nephilim Shaman Posting Ticket">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="5000000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7973" name="Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Rune/Sword/Stationary -->
+	<item id="7973" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7974" name="Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Rune/Spear/Stationary -->
+	<item id="7974" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7975" name="Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Rune/Bow/Stationary -->
+	<item id="7975" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7976" name="Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Rune/Cleric/Stationary -->
+	<item id="7976" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7977" name="Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Rune/Wizard/Stationary -->
+	<item id="7977" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7978" name="Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Rune/Sword/Mobile -->
+	<item id="7978" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7979" name="Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Rune/Spear/Mobile -->
+	<item id="7979" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7980" name="Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Rune/Bow/Mobile -->
+	<item id="7980" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7981" name="Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Rune/Cleric/Mobile -->
+	<item id="7981" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7982" name="Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Rune/Wizard/Mobile -->
+	<item id="7982" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7983" name="Mercenary Posting Ticket (Teleporter1)" type="EtcItem">
-		<!-- Placed in Rune, at the Teleporter or inside the castle, this ticket allows teleportation to the East Gate of the inner castle, the western section of the outer castle, the Plaza or the guardian's location. -->
+	<item id="7983" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7984" name="Mercenary Posting Ticket (Teleporter2)" type="EtcItem">
-		<!-- Placed in Rune, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the East Gate of the inner castle, the Plaza or the guardian's location. -->
+	<item id="7984" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7985" name="Mercenary Posting Ticket (Teleporter3)" type="EtcItem">
-		<!-- Placed in Rune, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the West Gate of the outer castle, the Plaza or the guardian's location. -->
+	<item id="7985" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7986" name="Mercenary Posting Ticket (Teleporter4)" type="EtcItem">
-		<!-- Placed in Rune, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the western section of the outer castle, the East Gate of the outer castle or the guardian's location. -->
+	<item id="7986" type="EtcItem" name="Mercenary Posting Ticket (Teleporter4)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7987" name="Mercenary Posting Ticket (Teleporter5)" type="EtcItem">
-		<!-- Placed in Rune, at the Teleporter or inside the castle, this ticket allows teleportation to the outer castle, the western section of the outer castle, the East Gate of the outer castle or to the Plaza. -->
+	<item id="7987" type="EtcItem" name="Mercenary Posting Ticket (Teleporter5)">
 		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7988" name="Greater Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Rune/Sword/Stationary. -->
+	<item id="7988" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="120000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7989" name="Greater Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Rune/Spear/Stationary. -->
+	<item id="7989" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7990" name="Greater Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Rune/Bow/Stationary. -->
+	<item id="7990" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7991" name="Greater Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Rune/Cleric/Stationary. -->
+	<item id="7991" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="80000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7992" name="Greater Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Rune/Wizard/Stationary. -->
+	<item id="7992" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="100000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7993" name="Greater Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Rune/Sword/Mobile. -->
+	<item id="7993" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Mobale)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="120000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7994" name="Greater Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Rune/Spear/Mobile. -->
+	<item id="7994" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7995" name="Greater Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Rune/Bow/Mobile. -->
+	<item id="7995" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="250000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7996" name="Greater Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Rune/Cleric/Mobile. -->
+	<item id="7996" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="140000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7997" name="Greater Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Rune/Wizard/Mobile. -->
+	<item id="7997" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7998" name="Dawn Mercenary Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Rune/Sword/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7998" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="200000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="7999" name="Dawn Mercenary Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Rune/Spear/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="7999" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
 </list>

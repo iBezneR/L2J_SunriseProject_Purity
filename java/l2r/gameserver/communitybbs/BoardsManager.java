@@ -44,6 +44,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class BoardsManager
 {
+
 	public void handleCommands(L2GameClient client, String command)
 	{
 		L2PcInstance activeChar = client.getActiveChar();
@@ -51,8 +52,6 @@ public class BoardsManager
 		{
 			return;
 		}
-
-		String content = "";
 
 		if (SunriseEvents.cbBypass(activeChar, command))
 		{
@@ -177,8 +176,9 @@ public class BoardsManager
 			activeChar.sendPacket(new ShowBoard(null, "102"));
 			activeChar.sendPacket(new ShowBoard(null, "103"));
 		}
+
 	}
-	
+
 	public void handleWriteCommands(L2GameClient client, String url, String arg1, String arg2, String arg3, String arg4, String arg5)
 	{
 		L2PcInstance activeChar = client.getActiveChar();

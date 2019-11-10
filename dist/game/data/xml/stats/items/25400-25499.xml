@@ -6,11 +6,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26580-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26580" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25401" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Damage Reflect Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect Resistance + 15%. -->
@@ -18,11 +20,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26581-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26581" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25402" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Ranged Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Bow/Crossbow Resistance + 10%. -->
@@ -30,11 +34,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26582-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26582" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25403" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / P. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P. Def. + 10%. -->
@@ -42,11 +48,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26583-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26583" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25404" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / M. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, M. Def. + 10%. -->
@@ -54,11 +62,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26584-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26584" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25405" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Attribute Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Attribute Resistance + 15. -->
@@ -66,11 +76,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26585-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26585" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25406" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Received Heal Amount Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Received Heal Amount + 15%. -->
@@ -78,11 +90,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26586-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26586" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25407" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Max. HP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. HP + 15%. -->
@@ -90,11 +104,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26587-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26587" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25408" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Max. MP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. MP + 10%. -->
@@ -102,11 +118,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26588-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26588" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25409" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Max CP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. CP + 15%. -->
@@ -114,11 +132,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26589-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26589" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25410" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Speed Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Speed + 15. -->
@@ -126,11 +146,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26590-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26590" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25411" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / HP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, HP Recovery Bonus + 16. -->
@@ -138,11 +160,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26591-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26591" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25412" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / MP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, MP Recovery Bonus + 8. -->
@@ -150,11 +174,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26592-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26592" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25413" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Evasion Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P./M. Evasion + 8. -->
@@ -162,11 +188,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26593-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26593" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25414" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Option 15" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 15. -->
@@ -174,11 +202,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26594-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26594" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25415" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Option 16" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 16. -->
@@ -186,11 +216,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26595-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26595" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25416" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Option 17" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 17. -->
@@ -198,11 +230,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26596-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26596" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25417" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Option 18" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 18. -->
@@ -210,11 +244,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26597-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26597" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25418" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Option 19" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 19. -->
@@ -222,11 +258,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26598-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26598" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25419" name="Appearance Stone: Santa Outfit" additionalName="Top-grade / Option 20" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of Santa Outfit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 20. -->
@@ -234,11 +272,13 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="26599-1" /> <!-- Appearance Stone: Santa Outfit -->
+		<skills>
+			<skill id="26599" level="1" /> <!-- Appearance Stone: Santa Outfit -->
+		</skills>
 	</item>
 	<item id="25420" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Debuff Reflect" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect + 3%. -->
@@ -246,17 +286,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26600-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26600" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25421" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Damage Reflect Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect Resistance + 5%. -->
@@ -264,17 +306,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26601-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26601" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25422" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Ranged Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Bow/Crossbow Resistance + 3%. -->
@@ -282,17 +326,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26602-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26602" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25423" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / P. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P. Def. + 3%. -->
@@ -300,17 +346,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26603-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26603" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25424" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / M. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, M. Def. + 3%. -->
@@ -318,17 +366,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26604-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26604" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25425" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Attribute Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Attribute Resistance + 5. -->
@@ -336,17 +386,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26605-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26605" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25426" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Received Heal Amount Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Received Heal Amount + 3%. -->
@@ -354,17 +406,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26606-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26606" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25427" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Max. HP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. HP + 3%. -->
@@ -372,17 +426,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26607-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26607" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25428" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Max. MP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. MP + 3%. -->
@@ -390,17 +446,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26608-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26608" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25429" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Max CP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. CP + 3%. -->
@@ -408,17 +466,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26609-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26609" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25430" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Speed Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Speed + 3. -->
@@ -426,17 +486,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26610-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26610" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25431" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / HP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, HP Recovery Bonus + 5. -->
@@ -444,17 +506,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26611-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26611" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25432" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / MP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, MP Recovery Bonus + 3. -->
@@ -462,17 +526,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26612-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26612" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25433" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Evasion Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P./M. Evasion + 3. -->
@@ -480,17 +546,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26613-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26613" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25434" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Option 15" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 15. -->
@@ -498,17 +566,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26614-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26614" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25435" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Option 16" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 16. -->
@@ -516,17 +586,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26615-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26615" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25436" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Option 17" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 17. -->
@@ -534,17 +606,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26616-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26616" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25437" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Option 18" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 18. -->
@@ -552,17 +626,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26617-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26617" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25438" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Option 19" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 19. -->
@@ -570,17 +646,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26618-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26618" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25439" name="Beach Swimsuit Appearance Stone" additionalName="Low-grade / Option 20" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 20. -->
@@ -588,17 +666,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26619-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26619" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25440" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Debuff Reflect" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect + 5%. -->
@@ -606,17 +686,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26620-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26620" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25441" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Damage Reflect Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect Resistance + 7%. -->
@@ -624,17 +706,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26621-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26621" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25442" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Ranged Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Bow/Crossbow Resistance + 5%. -->
@@ -642,17 +726,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26622-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26622" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25443" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / P. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P. Def. + 5%. -->
@@ -660,17 +746,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26623-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26623" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25444" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / M. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, M. Def. + 5%. -->
@@ -678,17 +766,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26624-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26624" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25445" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Attribute Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Attribute Resistance + 7. -->
@@ -696,17 +786,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26625-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26625" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25446" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Received Heal Amount Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Received Heal Amount + 7%. -->
@@ -714,17 +806,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26626-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26626" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25447" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Max. HP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. HP + 7%. -->
@@ -732,17 +826,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26627-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26627" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25448" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Max. MP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. MP + 5%. -->
@@ -750,17 +846,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26628-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26628" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25449" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Max CP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. CP + 7%. -->
@@ -768,17 +866,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26629-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26629" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25450" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Speed Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Speed + 7. -->
@@ -786,17 +886,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26630-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26630" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25451" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / HP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, HP Recovery Bonus + 8. -->
@@ -804,17 +906,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26631-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26631" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25452" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / MP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, MP Recovery Bonus + 4. -->
@@ -822,17 +926,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26632-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26632" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25453" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Evasion Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P./M. Evasion + 4. -->
@@ -840,17 +946,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26633-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26633" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25454" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Option 15" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Mid-grade / Option + 15. -->
@@ -858,17 +966,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26634-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26634" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25455" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Option 16" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Mid-grade / Option + 16. -->
@@ -876,17 +986,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26635-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26635" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25456" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Option 17" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Mid-grade / Option + 17. -->
@@ -894,17 +1006,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26636-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26636" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25457" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Option 18" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Mid-grade / Option + 18. -->
@@ -912,17 +1026,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26637-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26637" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25458" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Option 19" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Mid-grade / Option + 19. -->
@@ -930,17 +1046,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26638-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26638" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25459" name="Beach Swimsuit Appearance Stone" additionalName="Mid-grade / Option 20" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Mid-grade / Option + 20. -->
@@ -948,17 +1066,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26639-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26639" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25460" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Debuff Reflect" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect + 10%. -->
@@ -966,17 +1086,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26640-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26640" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25461" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Damage Reflect Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect Resistance + 15%. -->
@@ -984,17 +1106,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26641-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26641" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25462" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Ranged Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Bow/Crossbow Resistance + 10%. -->
@@ -1002,17 +1126,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26642-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26642" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25463" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / P. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P. Def. + 10%. -->
@@ -1020,17 +1146,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26643-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26643" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25464" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / M. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, M. Def. + 10%. -->
@@ -1038,17 +1166,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26644-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26644" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25465" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Attribute Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Attribute Resistance + 15. -->
@@ -1056,17 +1186,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26645-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26645" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25466" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Received Heal Amount Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Received Heal Amount + 15%. -->
@@ -1074,17 +1206,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26646-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26646" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25467" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Max. HP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. HP + 15%. -->
@@ -1092,17 +1226,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26647-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26647" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25468" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Max. MP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. MP + 10%. -->
@@ -1110,17 +1246,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26648-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26648" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25469" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Max CP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. CP + 15%. -->
@@ -1128,17 +1266,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26649-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26649" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25470" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Speed Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Speed + 15. -->
@@ -1146,17 +1286,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26650-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26650" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25471" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / HP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, HP Recovery Bonus + 16. -->
@@ -1164,17 +1306,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26651-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26651" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25472" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / MP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, MP Recovery Bonus + 8. -->
@@ -1182,17 +1326,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26652-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26652" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25473" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Evasion Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P./M. Evasion + 8. -->
@@ -1200,17 +1346,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26653-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26653" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25474" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Option 15" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 15. -->
@@ -1218,17 +1366,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26654-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26654" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25475" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Option 16" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 16. -->
@@ -1236,17 +1386,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26655-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26655" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25476" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Option 17" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 17. -->
@@ -1254,17 +1406,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26656-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26656" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25477" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Option 18" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 18. -->
@@ -1272,17 +1426,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26657-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26657" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25478" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Option 19" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 19. -->
@@ -1290,17 +1446,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26658-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26658" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25479" name="Beach Swimsuit Appearance Stone" additionalName="Top-grade / Option 20" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of a Beach Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Top-grade / Option + 20. -->
@@ -1308,17 +1466,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26659-1" /> <!-- Beach Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26659" level="1" /> <!-- Beach Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25480" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Debuff Reflect" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect + 3%. -->
@@ -1326,17 +1486,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26660-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26660" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25481" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Damage Reflect Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Debuff Reflect Resistance + 5%. -->
@@ -1344,17 +1506,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26661-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26661" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25482" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Ranged Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Bow/Crossbow Resistance + 3%. -->
@@ -1362,17 +1526,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26662-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26662" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25483" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / P. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P. Def. + 3%. -->
@@ -1380,17 +1546,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26663-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26663" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25484" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / M. Def. Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, M. Def. + 3%. -->
@@ -1398,17 +1566,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26664-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26664" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25485" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Attribute Resistance" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Attribute Resistance + 5. -->
@@ -1416,17 +1586,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26665-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26665" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25486" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Received Heal Amount Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Received Heal Amount + 3%. -->
@@ -1434,17 +1606,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26666-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26666" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25487" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Max. HP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. HP + 3%. -->
@@ -1452,17 +1626,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26667-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26667" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25488" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Max. MP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. MP + 3%. -->
@@ -1470,17 +1646,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26668-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26668" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25489" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Max CP Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Max. CP + 3%. -->
@@ -1488,17 +1666,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26669-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26669" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25490" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Speed Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Speed + 3. -->
@@ -1506,17 +1686,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26670-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26670" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25491" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / HP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, HP Recovery Bonus + 5. -->
@@ -1524,17 +1706,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26671-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26671" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25492" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / MP Recovery Bonus Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, MP Recovery Bonus + 3. -->
@@ -1542,17 +1726,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26672-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26672" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25493" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Evasion Increase" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, P./M. Evasion + 3. -->
@@ -1560,17 +1746,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26673-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26673" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25494" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Option 15" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 15. -->
@@ -1578,17 +1766,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26674-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26674" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25495" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Option 16" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 16. -->
@@ -1596,17 +1786,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26675-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26675" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25496" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Option 17" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 17. -->
@@ -1614,17 +1806,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26676-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26676" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25497" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Option 18" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 18. -->
@@ -1632,17 +1826,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26677-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26677" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25498" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Option 19" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 19. -->
@@ -1650,17 +1846,19 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26678-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26678" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 	<item id="25499" name="Alluring Swimsuit Appearance Stone" additionalName="Low-grade / Option 20" type="EtcItem">
 		<!-- Changes the appearance of the entire armor into that of an Alluring Swimsuit. Tops and one-pieces only. Modified armor can be restored to their original appearance with a Restoration Stone. When modified, Low-grade / Option + 20. -->
@@ -1668,16 +1866,18 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="is_private_storeable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
-        <set name="item_skill" val="26679-1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		<skills>
+			<skill id="26679" level="1" /> <!-- Alluring Swimsuit Appearance Stone -->
+		</skills>
 	</item>
 </list>

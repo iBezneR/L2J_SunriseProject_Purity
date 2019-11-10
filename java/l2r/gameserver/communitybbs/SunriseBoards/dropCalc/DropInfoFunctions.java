@@ -132,17 +132,16 @@ public class DropInfoFunctions
 			activeChar.sendMessage("Unknown npc template id " + npcId);
 			return;
 		}
-		
+
 		final StringBuilder replyMSG = new StringBuilder(2900);
-		replyMSG.append("<html><title>Show droplist page ");
-		replyMSG.append(page);
+		replyMSG.append("<html><title>Show Drop (Page" + page + ")");
 		replyMSG.append("</title><body><br1><center><font color=\"LEVEL\">");
 		replyMSG.append(npcData.getName());
 		replyMSG.append(" (");
 		replyMSG.append(npcId);
 		replyMSG.append(")<br>");
-		replyMSG.append(dropType.equals("CORPSE") ? "<button value=. value=\"Show Drops\" action=\"bypass -h _bbssearchNpcDropList_DEATH_" + npcId + "_" + 1 + "\" width=280 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>" : "<td width=120><button value=\"Show Spoils\" action=\"bypass -h _bbssearchNpcDropList_CORPSE_" + npcId + "_" + 1 + "\" width=280 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\">");
-		
+		replyMSG.append(dropType.equals("CORPSE") ? "<button value=\"Show Drops\" action=\"bypass -h _bbssearchNpcDropList_DEATH_" + npcId + "_" + 1 + "\" width=280 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></button></td>" : "<td width=120><button value=\"Show Spoils\" action=\"bypass -h _bbssearchNpcDropList_CORPSE_" + npcId + "_" + 1 + "\" width=280 height=20 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></button>");
+
 		int myPage = 1;
 		int i = 0;
 		int shown = 0;
@@ -152,18 +151,16 @@ public class DropInfoFunctions
 			GeneralDropItem generalDrop;
 			GroupedGeneralDropItem groupDrop;
 			List<IDropItem> cat = npcData.getDropList(DropListScope.valueOf(dropType));
-			int category = 0;
 			if (cat != null)
 			{
-				for (int list = 0; list < cat.size(); list++)
+				for (IDropItem drop : cat)
 				{
-					IDropItem drop = cat.get(list);
 					if (shown == 10)
 					{
 						hasMore = true;
 						break;
 					}
-					
+
 					if (drop instanceof GeneralDropItem)
 					{
 						generalDrop = (GeneralDropItem) drop;
@@ -171,7 +168,7 @@ public class DropInfoFunctions
 						{
 							continue;
 						}
-						
+
 						if (myPage != page)
 						{
 							i++;
@@ -182,24 +179,19 @@ public class DropInfoFunctions
 							}
 							continue;
 						}
-						if (shown == 10)
-						{
-							hasMore = true;
-							break;
-						}
-						
+						// Single Drop
 						final L2Item item = ItemData.getInstance().getTemplate(generalDrop.getItemId());
-						replyMSG.append("<br><center><img src=\"l2ui.squaregray\" width=\"280\" height=\"2\"></center>");
-						replyMSG.append("<center><table border=0 cellpadding=0 cellspacing=0 width=\"280\" height=\"40\" bgcolor=\"2E2E2E\">");
+						replyMSG.append("<br>");
+						replyMSG.append("<center><table border=0 cellpadding=0 cellspacing=0 width=\"280\" height=\"40\" background=\"L2UI_CT1.Windows_DF_TooltipBG\">");
 						replyMSG.append("<tr>");
-						replyMSG.append("<td FIXWIDTH=32>");
-						replyMSG.append("<table");
+						replyMSG.append("<td>");
+						replyMSG.append("<table>");
 						replyMSG.append("<tr>");
 						replyMSG.append("<td width=32 align=right valign=top>");
-						replyMSG.append("<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background=\"" + item.getIcon() + "\">");
+						replyMSG.append("<table border=0 cellspacing=0 cellpadding=0");
 						replyMSG.append("<tr>");
 						replyMSG.append("<td width=32 height=32 align=center valign=top>");
-						replyMSG.append("<button value=. action=\"bypass -h _bbssearchdropMonstersByItem_" + item.getId() + "_" + 1 + "\" width=32 height=32 back=\"L2UI_CT1.ItemWindow_DF_Frame_Down\" fore=\"L2UI_CT1.ItemWindow_DF_Frame\">");
+						replyMSG.append("<button value=\"\" action=\"bypass -h _bbssearchdropMonstersByItem_" + item.getId() + "_" + 1 + "\"width=32 height=32 itemtooltip=" + item.getId() + " back=\"L2UI_CH3.aboutotpicon\" fore=\"L2UI_CH3.aboutotpicon\"></button>");
 						replyMSG.append("</td>");
 						replyMSG.append("</tr>");
 						replyMSG.append("</table>");
@@ -209,7 +201,7 @@ public class DropInfoFunctions
 						replyMSG.append("</td>");
 						replyMSG.append("<td FIXWIDTH=200 align=center valign=top>");
 						replyMSG.append("<font color=\"F4FA58\" name=\"hs9\">" + getNameLong(item.getName()) + "</font>");
-						replyMSG.append("<br1><font color=\"5882FA\">Chances " + (dropType.equals("DEATH") ? "Drop" : "Spoil") + ": " + Util.formatDouble(generalDrop.getChance(), "#.##") + "% Group: N/A ID: N/A");
+						replyMSG.append("<br1><font color=\"5882FA\" name=\"hs9\">Chances " + (dropType.equals("DEATH") ? "Drop" : "Spoil") + ": " + Util.formatDouble(generalDrop.getChance(), "#.##") + "%");
 						replyMSG.append("</td>");
 						replyMSG.append("</tr>");
 						replyMSG.append("</table>");
@@ -218,7 +210,6 @@ public class DropInfoFunctions
 					}
 					else
 					{
-						category++;
 						groupDrop = (GroupedGeneralDropItem) drop;
 						for (GeneralDropItem items : groupDrop.getItems())
 						{
@@ -226,7 +217,7 @@ public class DropInfoFunctions
 							{
 								continue;
 							}
-							
+
 							if (myPage != page)
 							{
 								i++;
@@ -240,21 +231,21 @@ public class DropInfoFunctions
 							if (shown == 10)
 							{
 								hasMore = true;
-								break;
+								continue;
 							}
-							
+							// Group Drop
 							final L2Item item = ItemData.getInstance().getTemplate(items.getItemId());
-							replyMSG.append("<br><center><img src=\"l2ui.squaregray\" width=\"280\" height=\"2\"></center>");
-							replyMSG.append("<center><table border=0 cellpadding=0 cellspacing=0 width=\"280\" height=\"40\" bgcolor=\"2E2E2E\">");
+							replyMSG.append("<br>");
+							replyMSG.append("<center><table border=0 cellpadding=0 cellspacing=0 width=\"280\" height=\"40\" background=\"L2UI_CT1.Windows_DF_TooltipBG\">");
 							replyMSG.append("<tr>");
 							replyMSG.append("<td FIXWIDTH=32>");
-							replyMSG.append("<table");
+							replyMSG.append("<table>");
 							replyMSG.append("<tr>");
 							replyMSG.append("<td width=32 align=right valign=top>");
-							replyMSG.append("<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background=\"" + item.getIcon() + "\">");
+							replyMSG.append("<table border=0 cellspacing=0 cellpadding=0");
 							replyMSG.append("<tr>");
 							replyMSG.append("<td width=32 height=32 align=center valign=top>");
-							replyMSG.append("<button value=. action=\"bypass -h _bbssearchdropMonstersByItem_" + item.getId() + "_" + 1 + "\" width=32 height=32 back=\"L2UI_CT1.ItemWindow_DF_Frame_Down\" fore=\"L2UI_CT1.ItemWindow_DF_Frame\">");
+							replyMSG.append("<button value=\"\" action=\"bypass -h _bbssearchdropMonstersByItem_" + item.getId() + "_" + 1 + "\"width=32 height=32 itemtooltip=" + item.getId() + " back=\"L2UI_CH3.aboutotpicon\" fore=\"L2UI_CH3.aboutotpicon\"></button>");
 							replyMSG.append("</td>");
 							replyMSG.append("</tr>");
 							replyMSG.append("</table>");
@@ -264,7 +255,7 @@ public class DropInfoFunctions
 							replyMSG.append("</td>");
 							replyMSG.append("<td FIXWIDTH=200 align=center valign=top>");
 							replyMSG.append("<font color=\"F4FA58\" name=\"hs9\">" + getNameLong(item.getName()) + "</font>");
-							replyMSG.append("<br1><font color=\"5882FA\">Chances " + (dropType.equals("DEATH") ? "Drop" : "Spoil") + ": " + Util.formatDouble(items.getChance(), "#.##") + "% Group: " + Util.formatDouble(groupDrop.getChance(), "#.##") + "% ID: " + category);
+							replyMSG.append("<br1><font color=\"5882FA\" name=\"hs9\">Chances " + (dropType.equals("DEATH") ? "Drop" : "Spoil") + ": " + Util.formatDouble(items.getChance(), "#.##") + "% Group: " + Util.formatDouble(groupDrop.getChance(), "#.##") + "%");
 							replyMSG.append("</td>");
 							replyMSG.append("</tr>");
 							replyMSG.append("</table>");
@@ -275,35 +266,36 @@ public class DropInfoFunctions
 				}
 			}
 		}
-		
-		replyMSG.append("<br><table width=280 bgcolor=666666 border=0><tr>");
-		
-		if (page > 1)
+		// Bottom Page Navigation
+		// Works but not perfect
+		if (page == 1 && (shown == 10))
 		{
-			replyMSG.append("<td width=120><button action=\"bypass -h _bbssearchNpcDropList_" + activeChar.getQuickVar("DCDropType", "DEATH") + "_" + npcId + "_" + (page - 1) + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\"></td>");
-			
-			if (!hasMore)
-			{
-				replyMSG.append("<td width=100 align=center>Page ");
-				replyMSG.append(page);
-				replyMSG.append("</td><td width=70></td></tr>");
-			}
-		}
-		if (hasMore)
-		{
-			if (page <= 1)
-			{
-				replyMSG.append("<td width=120></td>");
-			}
-			
-			replyMSG.append("<td width=100 align=center>Page ");
-			replyMSG.append(page);
-			replyMSG.append("</td>");
-			
-			replyMSG.append("<td width=120 align=right><button action=\"bypass -h _bbssearchNpcDropList_" + activeChar.getQuickVar("DCDropType", "DEATH") + "_" + npcId + "_" + (page + 1) + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\"></td></tr>");
-		}
+		replyMSG.append("<table width=280 background=\"L2UI_CT1.Windows_DF_TooltipBG\" border=0><tr>");
+		replyMSG.append("<td width=90></td>");
+		replyMSG.append("<td width=100 align=center>Page " + page + "</td>");
+		replyMSG.append("<td width=90 align=right><button action=\"bypass -h _bbssearchNpcDropList_" + activeChar.getQuickVar("DCDropType", "DEATH") + "_" + npcId + "_" + (page + 1) + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\"></button></td></tr>");
 		replyMSG.append("</table>");
-		
+		}
+		if (page > 1 && (shown == 10))
+		{
+			replyMSG.append("<table width=280 background=\"L2UI_CT1.Windows_DF_TooltipBG\" border=0><tr>");
+			replyMSG.append("<td width=90><button action=\"bypass -h _bbssearchNpcDropList_" + activeChar.getQuickVar("DCDropType", "DEATH") + "_" + npcId + "_" + (page - 1) + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\"></button></td>");
+			replyMSG.append("<td width=90></td>");
+			replyMSG.append("<td width=100 align=center>Page " + page + "</td>");
+			replyMSG.append("<td width=90 align=right><button action=\"bypass -h _bbssearchNpcDropList_" + activeChar.getQuickVar("DCDropType", "DEATH") + "_" + npcId + "_" + (page + 1) + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\"></button></td>");
+
+			replyMSG.append("</tr></table>");
+		}
+		if (page > 1 && (shown < 10))
+		{
+			replyMSG.append("<table width=280 background=\"L2UI_CT1.Windows_DF_TooltipBG\" border=0><tr>");
+			replyMSG.append("<td width=90><button action=\"bypass -h _bbssearchNpcDropList_" + activeChar.getQuickVar("DCDropType", "DEATH") + "_" + npcId + "_" + (page - 1) + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\"></button></td>");
+			replyMSG.append("<td width=90></td>");
+			replyMSG.append("<td width=100 align=center>Page " + page + "</td>");
+			replyMSG.append("<td width=90></td>");
+			replyMSG.append("</tr></table>");
+		}
+
 		NpcHtmlMessage adminReply = new NpcHtmlMessage();
 		adminReply.setHtml(replyMSG.toString());
 		activeChar.sendPacket(adminReply);

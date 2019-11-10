@@ -8,7 +8,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27323-1" />
+		<skills>
+			<skill id="27323" level="1" /> <!-- + 9 Blessed Apocalypse Retributer Pack -->
+		</skills>
 	</item>
 	<item id="26201" name="+ 10 Blessed Apocalypse Retributer Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -18,7 +20,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27324-1" />
+		<skills>
+			<skill id="27324" level="1" /> <!-- + 10 Blessed Apocalypse Retributer Pack -->
+		</skills>
 	</item>
 	<item id="26202" name="+ 4 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -28,7 +32,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27325-1" />
+		<skills>
+			<skill id="27325" level="1" /> <!-- + 4 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26203" name="+ 5 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -38,7 +44,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27326-1" />
+		<skills>
+			<skill id="27326" level="1" /> <!-- + 5 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26204" name="+ 6 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -48,7 +56,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27327-1" />
+		<skills>
+			<skill id="27327" level="1" /> <!-- + 6 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26205" name="+ 7 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -58,7 +68,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27328-1" />
+		<skills>
+			<skill id="27328" level="1" /> <!-- + 7 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26206" name="+ 8 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -68,7 +80,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27329-1" />
+		<skills>
+			<skill id="27329" level="1" /> <!-- + 8 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26207" name="+ 9 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -78,7 +92,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27330-1" />
+		<skills>
+			<skill id="27330" level="1" /> <!-- + 9 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26208" name="+ 10 Blessed Apocalypse Dualsword Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -88,7 +104,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27331-1" />
+		<skills>
+			<skill id="27331" level="1" /> <!-- + 10 Blessed Apocalypse Dualsword Pack -->
+		</skills>
 	</item>
 	<item id="26209" name="+ 4 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -98,7 +116,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27332-1" />
+		<skills>
+			<skill id="27332" level="1" /> <!-- + 4 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26210" name="+ 5 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -108,7 +128,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27333-1" />
+		<skills>
+			<skill id="27333" level="1" /> <!-- + 5 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26211" name="+ 6 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -118,7 +140,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27334-1" />
+		<skills>
+			<skill id="27334" level="1" /> <!-- + 6 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26212" name="+ 7 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -128,7 +152,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27335-1" />
+		<skills>
+			<skill id="27335" level="1" /> <!-- + 7 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26213" name="+ 8 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -138,7 +164,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27336-1" />
+		<skills>
+			<skill id="27336" level="1" /> <!-- + 8 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26214" name="+ 9 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -148,7 +176,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27337-1" />
+		<skills>
+			<skill id="27337" level="1" /> <!-- + 9 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26215" name="+ 10 Blessed Apocalypse Dual Dagger Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -158,7 +188,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27338-1" />
+		<skills>
+			<skill id="27338" level="1" /> <!-- + 10 Blessed Apocalypse Dual Dagger Pack -->
+		</skills>
 	</item>
 	<item id="26216" name="+ 4 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -168,7 +200,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27339-1" />
+		<skills>
+			<skill id="27339" level="1" /> <!-- + 4 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26217" name="+ 5 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -178,7 +212,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27340-1" />
+		<skills>
+			<skill id="27340" level="1" /> <!-- + 5 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26218" name="+ 6 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -188,7 +224,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27341-1" />
+		<skills>
+			<skill id="27341" level="1" /> <!-- + 6 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26219" name="+ 7 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -198,7 +236,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27342-1" />
+		<skills>
+			<skill id="27342" level="1" /> <!-- + 7 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26220" name="+ 8 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -208,7 +248,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27343-1" />
+		<skills>
+			<skill id="27343" level="1" /> <!-- + 8 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26221" name="+ 9 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -218,7 +260,9 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27344-1" />
+		<skills>
+			<skill id="27344" level="1" /> <!-- + 9 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26222" name="+ 10 Blessed Apocalypse Dual Blunt Weapon Pack" type="EtcItem">
 		<!-- Double-click to obtain the item as described in the pack name. -->
@@ -228,20 +272,22 @@
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27345-1" />
+		<skills>
+			<skill id="27345" level="1" /> <!-- + 10 Blessed Apocalypse Dual Blunt Weapon Pack -->
+		</skills>
 	</item>
 	<item id="26223" name="Steel Support Box" type="EtcItem">
 		<!-- Double-click to obtain 500 Steel Door Guild Coins. Lv. 40 or above. -->
 		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="weight" val="2" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -259,23 +305,23 @@
 		<set name="crystal_type" val="C" />
 		<set name="weight" val="990" />
 		<set name="soulshots" val="3" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="spiritshots" val="3" />
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26225" name="Steel Spirit's Staff (60-day)" type="Weapon">
 		<!-- Cannot enchant, augment, or enchant with a soul crystal. 60-day. -->
@@ -286,23 +332,23 @@
 		<set name="crystal_type" val="B" />
 		<set name="weight" val="960" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="170" />
-			<set stat="mAtk" val="134" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">170</stat>
+			<stat type="mAtk">134</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26226" name="Steel Dasparion's Staff (60-day)" type="Weapon">
 		<!-- Cannot enchant, augment, or enchant with a soul crystal. 60-day. -->
@@ -313,23 +359,23 @@
 		<set name="crystal_type" val="A" />
 		<set name="weight" val="920" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="207" />
-			<set stat="mAtk" val="157" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">207</stat>
+			<stat type="mAtk">157</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26227" name="Steel Imperial Staff (60-day)" type="Weapon">
 		<!-- Cannot enchant, augment, or enchant with a soul crystal. 60-day. -->
@@ -340,23 +386,23 @@
 		<set name="crystal_type" val="S" />
 		<set name="weight" val="910" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="274" />
-			<set stat="mAtk" val="193" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26228" name="Steel Dynasty Staff (60-day)" type="Weapon">
 		<!-- Cannot enchant, augment, or enchant with a soul crystal. 60-day. -->
@@ -367,35 +413,35 @@
 		<set name="crystal_type" val="S" />
 		<set name="weight" val="1080" />
 		<set name="soulshots" val="1" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="spiritshots" val="1" />
-		<for>
-			<set stat="pAtk" val="325" />
-			<set stat="mAtk" val="222" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26229" name="Fated Support Box: Ertheia Wizard (C-grade)" type="EtcItem">
 		<!-- Double-click to receive C-grade equipment items necessary for Ertheia wizard-type characters. Can be used by characters Lv. 40 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -418,14 +464,14 @@
 	<item id="26230" name="Fated Support Box: Ertheia Fighter (C-grade)" type="EtcItem">
 		<!-- Double-click to receive C-grade equipment items necessary for Ertheia fighter-type characters. Can be used by characters Lv. 40 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -449,14 +495,14 @@
 	<item id="26231" name="Fated Support Box: Ertheia Wizard (B-grade)" type="EtcItem">
 		<!-- Double-click to receive B-grade equipment items necessary for Ertheia wizard-type characters. Can be used by characters Lv. 52 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -479,14 +525,14 @@
 	<item id="26232" name="Fated Support Box: Ertheia Fighter (B-grade)" type="EtcItem">
 		<!-- Double-click to receive B-grade equipment items necessary for Ertheia fighter-type characters. Can be used by characters Lv. 52 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -509,14 +555,14 @@
 	<item id="26233" name="Fated Support Box: Ertheia Wizard (A-grade)" type="EtcItem">
 		<!-- Double-click to receive A-grade equipment items necessary for Ertheia wizard-type characters. Can be used by characters Lv. 61 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -539,14 +585,14 @@
 	<item id="26234" name="Fated Support Box: Ertheia Fighter (A-grade)" type="EtcItem">
 		<!-- Double-click to receive A-grade equipment items necessary for Ertheia fighter-type characters. Can be used by characters Lv. 61 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -570,14 +616,14 @@
 	<item id="26235" name="Fated Support Box: Ertheia Wizard - Stage 1 (S-grade)" type="EtcItem">
 		<!-- Double-click to receive S-grade equipment items necessary for Ertheia wizard-type characters. Can be used by characters Lv. 76 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -600,14 +646,14 @@
 	<item id="26236" name="Fated Support Box: Ertheia Fighter - Stage 1 (S-grade)" type="EtcItem">
 		<!-- Double-click to receive S-grade equipment items necessary for Ertheia fighter-type characters. Can be used by characters Lv. 76 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -631,14 +677,14 @@
 	<item id="26237" name="Fated Support Box: Ertheia Wizard - Stage 2 (S-grade)" type="EtcItem">
 		<!-- Double-click to receive S-grade equipment items necessary for Ertheia wizard-type characters. Can be used by characters Lv. 81 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -662,14 +708,14 @@
 	<item id="26238" name="Fated Support Box: Ertheia Fighter - Stage 2 (S-grade)" type="EtcItem">
 		<!-- Double-click to receive S-grade equipment items necessary for Ertheia fighter-type characters. Can be used by characters Lv. 81 - 84. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -693,14 +739,14 @@
 	<item id="26239" name="Fated Support Box: Sayha's Seer (R-grade)" type="EtcItem">
 		<!-- Double-click to receive equipment items necessary for Sayha's Seer characters. Can be used by characters Lv. 85 - 99. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -725,14 +771,14 @@
 	<item id="26240" name="Fated Support Box: Eviscerator (R-grade)" type="EtcItem">
 		<!-- Double-click to receive equipment items necessary for Eviscerator characters. Can be used by characters Lv. 85 - 99. -->
 		<set name="icon" val="icon.etc_equip_item_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="PEEL" />
 		<set name="immediate_effect" val="true" />
@@ -756,14 +802,14 @@
 		<!-- Lost gloves. -->
 		<set name="icon" val="icon.armor_t32_g_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -771,14 +817,14 @@
 		<!-- Lost boots. -->
 		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -786,14 +832,14 @@
 		<!-- Lost armor. -->
 		<set name="icon" val="icon.armor_t01_u_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -801,14 +847,14 @@
 		<!-- Symbol of courage. -->
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
@@ -816,28 +862,28 @@
 		<!-- Symbol of courage. -->
 		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="26246" name="Returning Hero's Support Box" type="EtcItem">
 		<!-- Double-click to get an XP Rune 50% (7-day), Prestine Rune 100%(7-day), Superior Minion Coupon (5-hr), Returning Hero's Vitality Replenishing Juice x5, Heavenly Cocktail x10, My Teleport Book (Event) x1, My Teleport Scroll (Event) x10, Returning Hero's Mark x250, Returning Hero's High-grade Support Box x1. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -857,14 +903,14 @@
 	<item id="26247" name="Returning Hero's High-grade Support Box" type="EtcItem">
 		<!-- Double-click to get Scroll: Enchant Weapon (R-grade) x4, Blessed Lucky Enchant Stone: Armor (R-grade) x5, Blessed Lucky Enchant Stone: Weapon Pack (R-grade) x1, Returning Hero's Vitality Replenishing Juice (1-hr) x5, Returning Hero's Support Cube x1, Top-grade Returning Hero's Support Box x1. Lv. 85 or above. -->
 		<set name="icon" val="icon.event_hero_treasure_box_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="PEEL" />
@@ -883,18 +929,20 @@
 		<!-- Double-click to get a Blessed Antharas' Earring Pack (7-day), Blessed Valakas' Necklace Pack (7-day), Tauti's Ring Pack (7-day), Earth Wyrm Heart Ring Pack (7-day), Blessed Zaken's Earring (7-day), Luxury Fortune Reading Coupon, Returning Hero's Vitality Replenishing Juice (1-hr), High-grade Love Potion, Mysterious Wind Scroll, Blessed Scroll: Enchant Weapon (R-grade) x1, or a Blessed Scroll: Enchant Armor (R-grade) x3. All levels. Once a day. -->
 		<set name="icon" val="icon.cube_upgrade" />
 		<set name="is_depositable" val="false" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="CAPSULE" />
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27346-1" /> <!-- Returning Hero's Support Cube -->
+		<skills>
+			<skill id="27346" level="1" /> <!-- Returning Hero's Support Cube -->
+		</skills>
 	</item>
 	<item id="26249" name="Cloak of Light for the Chosen" type="Armor">
 		<!-- Cloak of Light for those who have proven themselves as testers in Lineage II. P. Def. + 100, M. Def. + 80, and STR/MEN/DEX/WIT/INT/CON +2. Damage received during PvP decreases by 5%. Can use Blessed Escape. -->
@@ -902,13 +950,13 @@
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<cond msgId="2453">
@@ -917,11 +965,14 @@
 		<cond>
 			<player level="80" />
 		</cond>
-        <set name="item_skill" val="21476-1;21410-1" /> <!-- Cloak of the Chosen --> <!-- Cloak of the Chosen: Blessed Escape -->
-		<for>
-			<add order="0" stat="pDef" val="100" />
-			<set stat="mDef" val="80" />
-		</for>
+		<skills>
+			<skill id="21476" level="1" /> <!-- Cloak of the Chosen -->
+			<skill id="21410" level="1" /> <!-- Cloak of the Chosen: Blessed Escape -->
+		</skills>
+		<stats>
+			<stat type="pDef">100</stat>
+			<stat type="mDef">80</stat>
+		</stats>
 	</item>
 	<item id="26250" name="Cloak of Darkness for the Chosen" type="Armor">
 		<!-- Cloak of Darkness for those who have proven themselves as testers in Lineage II. P. Def. + 100, M. Def. + 80, and STR/MEN/DEX/WIT/INT/CON +2. Damage received during PvP decreases by 5%. Can use Blessed Escape. -->
@@ -929,13 +980,13 @@
 		<set name="bodypart" val="back" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="default_action" val="EQUIP" />
 		<cond msgId="2453">
@@ -944,23 +995,26 @@
 		<cond>
 			<player level="80" />
 		</cond>
-        <set name="item_skill" val="21476-1;21410-1" /> <!-- Cloak of the Chosen --> <!-- Cloak of the Chosen: Blessed Escape -->
-		<for>
-			<add order="0" stat="pDef" val="100" />
-			<set stat="mDef" val="80" />
-		</for>
+		<skills>
+			<skill id="21476" level="1" /> <!-- Cloak of the Chosen -->
+			<skill id="21410" level="1" /> <!-- Cloak of the Chosen: Blessed Escape -->
+		</skills>
+		<stats>
+			<stat type="pDef">100</stat>
+			<stat type="mDef">80</stat>
+		</stats>
 	</item>
 	<item id="26251" name="Lilith Server Mask" type="Armor">
 		<!-- Mask for players who came from the Lilith server. Uses 2 hair accessory slots. -->
 		<set name="icon" val="icon.accessory_middle_age_party_mask2_i00" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="26252" name="Halloween Outfit Appearance Stone" type="EtcItem">
@@ -990,7 +1044,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="default_action" val="EQUIP" />
 	</item>
 	<item id="26255" name="Halloween Outfit" type="Armor">
@@ -1009,21 +1063,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="685" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">685</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26257" name="Halloween Cutter" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1033,20 +1087,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26258" name="Halloween Slasher" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1056,20 +1110,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26259" name="Halloween Avenger" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1079,21 +1133,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26260" name="Halloween Fighter" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1103,21 +1157,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26261" name="Halloween Stormer" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1127,23 +1181,25 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
 		<set name="damage_range" val="0;0;66;120" />
-        <set name="item_skill" val="13115-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13115" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26262" name="Halloween Thrower" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1153,21 +1209,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1481" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1481</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26263" name="Halloween Shooter" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1177,20 +1233,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1333" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="400" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1333</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26264" name="Halloween Buster" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1200,20 +1256,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="602" />
-			<set stat="mAtk" val="486" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">486</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26265" name="Halloween Caster" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1223,21 +1279,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="602" />
-			<set stat="mAtk" val="486" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">486</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26266" name="Halloween Retributer" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1247,21 +1303,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="733" />
-			<set stat="mAtk" val="535" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">733</stat>
+			<stat type="mAtk">535</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26267" name="Halloween Dualsword" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1271,20 +1327,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26268" name="Halloween Dual Dagger" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1296,21 +1352,21 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26269" name="Halloween Dual Blunt Weapon" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1320,21 +1376,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26270" name="Halloween Shield" type="Armor">
 		<!-- Halloween shield. -->
@@ -1343,14 +1399,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="bodypart" val="lhand" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="1130" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="sDef" val="546" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<stats>
+			<stat type="sDef">546</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="26271" name="Halloween Sigil" type="Armor">
 		<!-- Halloween sigil. -->
@@ -1361,11 +1417,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lhand" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="920" />
-		<for>
-			<add order="0" stat="pDef" val="150" />
-		</for>
+		<stats>
+			<stat type="pDef">150</stat>
+		</stats>
 	</item>
 	<item id="26272" name="Mysterious Halloween Potion" type="EtcItem">
 		<!-- Mysterious potion that changes the appearance into that of a Halloween weapon and outfit for 1 hour. -->
@@ -1404,21 +1460,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="685" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">685</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26276" name="Halloween Cutter" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1428,20 +1484,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26277" name="Halloween Slasher" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1451,20 +1507,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26278" name="Halloween Avenger" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1474,21 +1530,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26279" name="Halloween Fighter" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1498,21 +1554,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26280" name="Halloween Stormer" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1522,23 +1578,25 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
 		<set name="damage_range" val="0;0;66;120" />
-        <set name="item_skill" val="13115-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="13115" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26281" name="Halloween Thrower" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1548,21 +1606,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1481" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1481</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26282" name="Halloween Shooter" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1572,20 +1630,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="1333" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="400" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">1333</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="26283" name="Halloween Buster" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1595,20 +1653,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="602" />
-			<set stat="mAtk" val="486" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">486</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26284" name="Halloween Caster" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1618,21 +1676,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="rhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="602" />
-			<set stat="mAtk" val="486" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">486</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26285" name="Halloween Retributer" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1642,21 +1700,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="733" />
-			<set stat="mAtk" val="535" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">733</stat>
+			<stat type="mAtk">535</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26286" name="Halloween Dualsword" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1666,20 +1724,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26287" name="Halloween Dual Dagger" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1691,21 +1749,21 @@
 		<set name="damage_range" val="0;0;44;120" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="752" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">752</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="26288" name="Halloween Dual Blunt Weapon" type="Weapon">
 		<!-- Halloween weapon. -->
@@ -1715,21 +1773,21 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="soulshots" val="1" />
 		<set name="spiritshots" val="1" />
 		<set name="weight" val="500" />
 		<set name="bodypart" val="lrhand" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="pAtk" val="916" />
-			<set stat="mAtk" val="414" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">916</stat>
+			<stat type="mAtk">414</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="26289" name="Halloween Shield" type="Armor">
 		<!-- Halloween shield. -->
@@ -1738,14 +1796,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lhand" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="1130" />
 		<set name="default_action" val="EQUIP" />
-		<for>
-			<set stat="sDef" val="546" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<stats>
+			<stat type="sDef">546</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="26290" name="Halloween Sigil" type="Armor">
 		<!-- Halloween sigil. -->
@@ -1756,11 +1814,11 @@
 		<set name="is_dropable" val="false" />
 		<set name="bodypart" val="lhand" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="920" />
-		<for>
-			<add order="0" stat="pDef" val="150" />
-		</for>
+		<stats>
+			<stat type="pDef">150</stat>
+		</stats>
 	</item>
 	<item id="26291" name="Kaliel's Energy" additionalName="Longing" type="EtcItem">
 		<!-- Use Kaliel's Energy to enchant a Talisman - Desire into a Talisman - Insanity. The Talisman - Desire will remain intact even if it fails. -->
@@ -1773,13 +1831,13 @@
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="604800" />
 	</item>
 	<item id="26293" name="Agathion - Matryoshka" additionalName="7-day" type="Armor">
@@ -1787,13 +1845,13 @@
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="2592000" />
 	</item>
 	<item id="26294" name="Agathion - Minion Eye" additionalName="30-day" type="Armor">
@@ -1801,13 +1859,13 @@
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="604800" />
 	</item>
 	<item id="26295" name="Agathion - Matryoshka" additionalName="30-day" type="Armor">
@@ -1815,13 +1873,13 @@
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weight" val="150" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="2592000" />
 	</item>
 	<item id="26296" name="La Vie En Rose's Jewelry Box" type="EtcItem">
@@ -1834,10 +1892,12 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="17824-1" /> <!-- La Vie En Rose's Jewelry Box -->
+		<skills>
+			<skill id="17824" level="1" /> <!-- La Vie En Rose's Jewelry Box -->
+		</skills>
 	</item>
 	<item id="26297" name="La Vie En Rose's Jewelry Pack" type="EtcItem">
 		<!-- Double-click to acquire 10 La Vie En Rose's Jewelry Boxes. Cannot be used in the auction house. -->
@@ -1849,8 +1909,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="38941" min="10" max="10" chance="100" /> <!-- La Vie En Rose's Jewelry Box -->
@@ -1866,8 +1926,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="38767" min="1" max="1" chance="100" /> <!-- La Vie En Rose's Noble Brooch -->
@@ -1883,8 +1943,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="38768" min="1" max="1" chance="100" /> <!-- La Vie En Rose's Brilliant Brooch -->

@@ -903,65 +903,65 @@
 	<item id="40190" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Solo" type="EtcItem">
 		<!-- Double-click to reset cooldown to Lv. 85 Kartia's Labyrinth solo dungeon. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="40191" name="Entrance Pass: Kartia's Labyrinth Lv. 85 Party" type="EtcItem">
 		<!-- Double-click to reset cooldown to Lv. 85 Kartia's Labyrinth party dungeon. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="40192" name="Entrance Pass: Fortuna" type="EtcItem">
 		<!-- Double-click to reset cooldown to Fortuna's dungeon. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="40193" name="Entrance Pass: Nornil's Garden" type="EtcItem">
 		<!-- Double-click to reset cooldown to Nornil's Garden. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="40194" name="Entrance Pass: Octavis (Normal)" type="EtcItem">
 		<!-- Double-click to reset cooldown to Octavis' (normal) dungeon. Usable once a day outside instances while on a cooldown. -->
 		<set name="icon" val="icon.etc_kalie_instantzone_re" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
@@ -971,19 +971,21 @@
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="is_stackable" val="true" />
 		<cond addName="1" msgId="113">
 			<player flyMounted="false" />
 		</cond>
-        <set name="item_skill" val="18105-1" /> <!-- Scroll of Escape: Faeron Village -->
+		<skills>
+			<skill id="18105" level="1" /> <!-- Scroll of Escape: Faeron Village -->
+		</skills>
 	</item>
 	<item id="40196" name="Ertheia Bracelet" type="Armor">
 		<!-- Activates 5 Talisman Slots. MP + 216, STR + 1, and INT + 1. -->
@@ -991,13 +993,15 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rbracelet" />
 		<set name="immediate_effect" val="true" />
-		<!-- <set name="commissionItemType" val="BRACELET" /> -->
+		<set name="commissionItemType" val="BRACELET" />
 		<set name="weight" val="150" />
 		<set name="is_sellable" val="false" />
-        <set name="item_skill" val="18106-1" /> <!-- Ertheia Bracelet -->
-		<for>
-			<set stat="maxMp" val="216" />
-		</for>
+		<skills>
+			<skill id="18106" level="1" /> <!-- Ertheia Bracelet -->
+		</skills>
+		<stats>
+			<stat type="maxMp">216</stat>
+		</stats>
 	</item>
 	<item id="40197" name="Ertheia's Soul Bottle Pack" type="EtcItem">
 		<!-- Double-click to obtain either a bottle of Orfen's Soul, Frintezza's Soul, Queen Ant's Soul, Baium's Soul, Antharas' Soul, or Valakas' Soul. -->

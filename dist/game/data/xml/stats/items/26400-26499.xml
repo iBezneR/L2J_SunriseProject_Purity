@@ -45,57 +45,65 @@
 	<item id="26406" name="XP Rune IV (Lv. 1-99) 100% Pack (1-hr)" type="EtcItem">
 		<!-- Wrapped Pack containing XP Rune IV (Lv. 1-99) 100% (1-hr). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="26407" name="XP Rune IV (Lv. 1-99) 100% Pack (1-hr)" type="EtcItem">
 		<!-- Wrapped Pack containing 1 XP Rune IV (Lv. 1-99) 100% (1-hr). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item chance="100.0" id="26408" max="1" min="1" /> <!-- XP Rune IV (Lv. 1-99) 100% (1-hr) -->
+		</capsuled_items>
 	</item>
 	<item id="26408" name="XP Rune IV (Lv. 1-99) 100%" additionalName="1-hr" type="EtcItem">
 		<!-- When possessed in inventory, increases XP and SP acquired through hunting by 100%. The effect only applies to characters Lv. 99 or below. 1-hr. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="RUNE" />
-        <set name="item_skill" val="27422-1" /> <!-- Dragon's Ascension -->
+		<skills>
+			<skill id="27422" level="1" /> <!-- Dragon's Ascension -->
+		</skills>
 	</item>
 	<item id="26409" name="XP Rune IV (Lv. 1-99) 100% Pack (1-day)" type="EtcItem">
 		<!-- Wrapped Pack containing XP Rune IV (Lv. 1-99) 100% (1-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="26410" name="XP Rune IV (Lv. 1-99) 100% Pack (1-day)" type="EtcItem">
 		<!-- Wrapped Pack containing 1 XP Rune IV (Lv. 1-99) 100% (1-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -103,35 +111,37 @@
 		<!-- When possessed in inventory, increases XP and SP acquired through hunting by 100%. The effect only applies to characters Lv. 99 or below. 1-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
 		<set name="etcitem_type" val="RUNE" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="1440" />
-        <set name="item_skill" val="27422-1" /> <!-- Dragon's Ascension -->
+		<skills>
+			<skill id="27422" level="1" /> <!-- Dragon's Ascension -->
+		</skills>
 	</item>
 	<item id="26412" name="XP Rune IV (Lv. 1-99) 100% Pack (7-day)" type="EtcItem">
 		<!-- Wrapped Pack containing XP Rune IV (Lv. 1-99) 100% (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="26413" name="XP Rune IV (Lv. 1-99) 100% Pack (7-day)" type="EtcItem">
 		<!-- Wrapped Pack containing 1 XP Rune IV (Lv. 1-99) 100% (7-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -139,35 +149,37 @@
 		<!-- When possessed in inventory, increases XP and SP acquired through hunting by 100%. The effect only applies to characters Lv. 99 or below. 7-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
 		<set name="etcitem_type" val="RUNE" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="10080" />
-        <set name="item_skill" val="27422-1" /> <!-- Dragon's Ascension -->
+		<skills>
+			<skill id="27422" level="1" /> <!-- Dragon's Ascension -->
+		</skills>
 	</item>
 	<item id="26415" name="XP Rune IV (Lv. 1-99) 100% Pack (30-day)" type="EtcItem">
 		<!-- Wrapped Pack containing XP Rune IV (Lv. 1-99) 100% (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="26416" name="XP Rune IV (Lv. 1-99) 100% Pack (30-day)" type="EtcItem">
 		<!-- Wrapped Pack containing 1 XP Rune IV (Lv. 1-99) 100% (30-day). -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -175,15 +187,17 @@
 		<!-- When possessed in inventory, increases XP and SP acquired through hunting by 100%. The effect only applies to characters Lv. 99 or below. 30-day. -->
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
 		<set name="etcitem_type" val="RUNE" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
-        <set name="item_skill" val="27422-1" /> <!-- Dragon's Ascension -->
+		<skills>
+			<skill id="27422" level="1" /> <!-- Dragon's Ascension -->
+		</skills>
 	</item>
 	<item id="26418" name="Recipe: Talisman - Abundance Lv. 1 (High-grade)" type="EtcItem">
 		<!-- For 4th class only. Recipe for Talisman - Abundance (High-grade) Lv. 1. Requires Create Common Item - Skill Lv. 10. The success rate is 25%. Use offerings to increase the success rate to 100%. -->
@@ -257,65 +271,65 @@
 	<item id="26425" name="Talisman - Annihilation Crafting Pack" type="EtcItem">
 		<!-- Wrapped Pack containing Energy of Destruction that allows one to craft up to a Talisman - Annihilation. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="26426" name="Talisman - Hellfire Upgrade Pack" type="EtcItem">
 		<!-- Wrapped Pack containing Energy of Destruction and Kaliel's Energy that allows one to upgrade a Talisman - Annihilation up to a Talisman - Hellfire. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="26427" name="Talisman - Desire Upgrade Pack" type="EtcItem">
 		<!-- Wrapped Pack containing Energy of Destruction and Kaliel's Energy that allows one to upgrade a Talisman - Hellfire up to a Talisman - Desire. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="26428" name="Talisman - Longing Upgrade Pack" type="EtcItem">
 		<!-- Wrapped Pack containing Energy of Destruction and Kaliel's Energy that allows one to upgrade a Talisman - Desire up to a Talisman - Longing. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
 	<item id="26429" name="Talisman - Insanity Upgrade Pack" type="EtcItem">
 		<!-- Wrapped Pack containing Energy of Destruction and Kaliel's Energy that allows one to upgrade a Talisman - Longing up to a Talisman - Insanity. -->
 		<set name="icon" val="icon.etc_pi_gift_box_i04" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
@@ -347,26 +361,26 @@
 		<!-- For testing. -->
 		<set name="icon" val="BranchIcon.Icon.etc_sign_agathion_feed_yellow_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="26434" name="Test Card - Talisman" type="Armor">
 		<set name="icon" val="icon.card2_event_giyotine" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="150" />
 	</item>
 	<item id="26435" name="Test Card - Bracelet" type="Armor">
@@ -378,13 +392,13 @@
 	</item>
 	<item id="26436" name="Test Card - Rune" type="EtcItem">
 		<set name="icon" val="icon.card2_event_giyotine" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="etcitem_type" val="CARD_EVENT" />
 	</item>
 	<item id="26437" name="Shadow Shaper Box" type="EtcItem">
@@ -396,12 +410,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27426-1" /> <!-- Shadow Shaper +1 ~+9 -->
+		<skills>
+			<skill id="27426" level="1" /> <!-- Shadow Shaper +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26438" name="Shadow Cutter Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Cutter. -->
@@ -412,12 +428,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27427-1" /> <!-- Shadow Cutter +1 ~+9 -->
+		<skills>
+			<skill id="27427" level="1" /> <!-- Shadow Cutter +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26439" name="Shadow Slasher Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Slasher. -->
@@ -428,12 +446,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27428-1" /> <!-- Shadow Slasher +1 ~+9 -->
+		<skills>
+			<skill id="27428" level="1" /> <!-- Shadow Slasher +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26440" name="Shadow Fighter Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Fighter. -->
@@ -444,12 +464,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27429-1" /> <!-- Shadow Fighter +1 ~+9 -->
+		<skills>
+			<skill id="27429" level="1" /> <!-- Shadow Fighter +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26441" name="Shadow Stormer Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Stormer. -->
@@ -460,12 +482,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27430-1" /> <!-- Shadow Stormer +1 ~+9 -->
+		<skills>
+			<skill id="27430" level="1" /> <!-- Shadow Stormer +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26442" name="Shadow Thrower Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Thrower. -->
@@ -476,12 +500,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27431-1" /> <!-- Shadow Thrower +1 ~+9 -->
+		<skills>
+			<skill id="27431" level="1" /> <!-- Shadow Thrower +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26443" name="Shadow Shooter Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Shooter. -->
@@ -492,12 +518,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27432-1" /> <!-- Shadow Shooter +1 ~+9 -->
+		<skills>
+			<skill id="27432" level="1" /> <!-- Shadow Shooter +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26444" name="Shadow Buster Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Buster. -->
@@ -508,12 +536,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27433-1" /> <!-- Shadow Buster +1 ~+9 -->
+		<skills>
+			<skill id="27433" level="1" /> <!-- Shadow Buster +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26445" name="Shadow Retributer Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Retributer. -->
@@ -524,12 +554,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27434-1" /> <!-- Shadow Retributer +1 ~+9 -->
+		<skills>
+			<skill id="27434" level="1" /> <!-- Shadow Retributer +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26446" name="Shadow Dualsword Box" type="EtcItem">
 		<!-- Double-click to get a + 1 ~ + 9 Shadow Dualsword. -->
@@ -540,12 +572,14 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="true" />
 		<set name="is_stackable" val="true" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="true" /> -->
+		<set name="is_private_storeable" val="true" />
 		<set name="handler" val="ItemSkills" />
-        <set name="item_skill" val="27435-1" /> <!-- Shadow Dualsword +1 ~+9 -->
+		<skills>
+			<skill id="27435" level="1" /> <!-- Shadow Dualsword +1 ~+9 -->
+		</skills>
 	</item>
 	<item id="26447" name="Talisman - Abundance" additionalName="War" type="Armor">
 		<!-- P. Atk. + 154, M. Atk. + 181, and P. Evasion/M. Evasion + 4. Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -556,7 +590,9 @@
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
-        <set name="item_skill" val="21364-1" />
+		<skills>
+			<skill id="21364" level="1" /> <!-- Talisman - Abundance -->
+		</skills>
 	</item>
 	<item id="26448" name="Talisman - Abundance" additionalName="Tactics" type="Armor">
 		<!-- Attribute Resistance + 10 and Debuff Resistance + 10%. Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -567,7 +603,9 @@
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
-        <set name="item_skill" val="21364-2" />
+		<skills>
+			<skill id="21364" level="2" /> <!-- Talisman - Abundance -->
+		</skills>
 	</item>
 	<item id="26449" name="Talisman - Abundance" additionalName="Morale" type="Armor">
 		<!-- P./M. Critical Rate + 8%, Received P. Critical Damage - 10%, Received Skill Damage in PvP - 10%. Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -578,7 +616,9 @@
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
-        <set name="item_skill" val="21364-3" />
+		<skills>
+			<skill id="21364" level="3" /> <!-- Talisman - Abundance -->
+		</skills>
 	</item>
 	<item id="26450" name="Talisman - Abundance" additionalName="Physique" type="Armor">
 		<!-- Max HP/MP/CP + 325 and HP/MP/CP Recovery Rate + 5. Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -589,7 +629,9 @@
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
-        <set name="item_skill" val="21364-4" />
+		<skills>
+			<skill id="21364" level="4" /> <!-- Talisman - Abundance -->
+		</skills>
 	</item>
 	<item id="26451" name="Talisman - Abundance" additionalName="Hunter" type="Armor">
 		<!-- P. Atk. + 231, M. Atk. 271, P. Evasion/M. Evasion + 7, Attribute Resistance + 15, Debuff Resistance + 13%, P./M. Critical Rate + 13%. Received P. Critical Damage - 15%, Received Skill Damage in PvP - 15%. Additionally, received damage in PvP is reduced. Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -601,9 +643,9 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
 		<skills>
-			<skill id="21364" level="5" />
-			<skill id="21365" level="1" type="ON_EQUIP" />
-			<skill id="21373" level="1" type="ON_UNEQUIP" />
+			<skill id="21364" level="5" /> <!-- Talisman - Abundance -->
+			<skill id="21365" level="1" type="ON_EQUIP" /> <!-- Talisman - Hunter -->
+			<skill id="21373" level="1" type="ON_UNEQUIP" /> <!-- Unequip Talisman - Hunter -->
 		</skills>
 	</item>
 	<item id="26452" name="Talisman - Abundance" additionalName="Slaughterer" type="Armor">
@@ -616,9 +658,9 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
 		<skills>
-			<skill id="21364" level="6" />
-			<skill id="21370" level="1" type="ON_EQUIP" />
-			<skill id="21374" level="1" type="ON_UNEQUIP" />
+			<skill id="21364" level="6" /> <!-- Talisman - Abundance -->
+			<skill id="21370" level="1" type="ON_EQUIP" /> <!-- Talisman - Slaughterer -->
+			<skill id="21374" level="1" type="ON_UNEQUIP" /> <!-- Unequip Talisman - Slaughterer -->
 		</skills>
 	</item>
 	<item id="26453" name="Talisman - Abundance" additionalName="Conquerer" type="Armor">
@@ -631,9 +673,9 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
 		<skills>
-			<skill id="21364" level="7" />
-			<skill id="21371" level="1" type="ON_EQUIP" />
-			<skill id="21375" level="1" type="ON_UNEQUIP" />
+			<skill id="21364" level="7" /> <!-- Talisman - Abundance -->
+			<skill id="21371" level="1" type="ON_EQUIP" /> <!-- Talisman - Conquerer -->
+			<skill id="21375" level="1" type="ON_UNEQUIP" /> <!-- Unequip Talisman - Conquerer -->
 		</skills>
 	</item>
 	<item id="26454" name="Talisman - Abundance" additionalName="Outlaw" type="Armor">
@@ -646,9 +688,9 @@
 		<set name="is_commissionable" val="false" />
 		<set name="is_freightable" val="true" />
 		<skills>
-			<skill id="21364" level="8" />
-			<skill id="21372" level="1" type="ON_EQUIP" />
-			<skill id="21376" level="1" type="ON_UNEQUIP" />
+			<skill id="21364" level="8" /> <!-- Talisman - Abundance -->
+			<skill id="21372" level="1" type="ON_EQUIP" /> <!-- Talisman - Outlaw -->
+			<skill id="21376" level="1" type="ON_UNEQUIP" /> <!-- Unequip Talisman - Outlaw -->
 		</skills>
 	</item>
 	<item id="26455" name="Talisman - Abundance Lv. 1 (High-grade)" type="Armor">
@@ -659,7 +701,10 @@
 		<set name="bodypart" val="deco1" />
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="21364-9;21477-1" />
+		<skills>
+			<skill id="21364" level="9" /> <!-- Talisman - Abundance -->
+			<skill id="21477" level="1" /> <!-- Power of Abundance -->
+		</skills>
 	</item>
 	<item id="26456" name="Talisman - Abundance Lv. 2 (High-grade)" type="Armor">
 		<!-- HP/MP/CP + 531, P. Def. + 1051, M. Def. + 609, P. Evasion/M. Evasion + 8, Attribute Resistance + 17, Debuff Resistance + 15%, Received P. Critical Damage - 15%, PVP Damage - 15% when equipped. Can use the Power of Abundance skill. (P. Atk. + 16%, M. Atk. + 16%, Skill Power + 16%, Skill Critical Rate + 16%. Duration 1 minute. Cooldown 10 minutes.). Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -669,7 +714,10 @@
 		<set name="bodypart" val="deco1" />
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="21364-10;21477-2" />
+		<skills>
+			<skill id="21364" level="10" /> <!-- Talisman - Abundance -->
+			<skill id="21477" level="2" /> <!-- Power of Abundance -->
+		</skills>
 	</item>
 	<item id="26457" name="Talisman - Abundance Lv. 3 (High-grade)" type="Armor">
 		<!-- Max HP/MP/CP + 563, P. Def. + 1184, M. Def. + 706, P. Evasion/M. Evasion + 9, Attribute Resistance + 20, Debuff Resistance + 15%, Received P. Critical Damage - 15%, PVP Damage - 15% when equipped. Can use the Power of Abundance skill. (P. Atk. + 17%, M. Atk. + 17%, Skill Power + 17%, Skill Critical Rate + 17%. Duration 1 minute. Cooldown 10 minutes.). Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -679,7 +727,10 @@
 		<set name="bodypart" val="deco1" />
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="21364-11;21477-3" />
+		<skills>
+			<skill id="21364" level="11" /> <!-- Talisman - Abundance -->
+			<skill id="21477" level="3" /> <!-- Power of Abundance -->
+		</skills>
 	</item>
 	<item id="26458" name="Talisman - Abundance Lv. 4 (High-grade)" type="Armor">
 		<!-- HP/MP/CP + 591, P. Def. + 1307, M. Def. + 799, P. Evasion/M. Evasion + 10, Attribute Resistance + 25, Debuff Resistance + 15%, Received P. Critical Damage - 15%, PVP Damage - 15% when equipped. Can use the Power of Abundance skill. (P. Atk. + 20%, M. Atk. + 20%, Skill Power + 20%, Skill Critical Rate + 20%. Duration 1 minute. Cooldown 10 minutes.). Note: Effect for the Talisman of Abundance does not stack even when 2 or more are equipped. -->
@@ -689,7 +740,10 @@
 		<set name="bodypart" val="deco1" />
 		<set name="weight" val="150" />
 		<set name="is_commissionable" val="false" />
-        <set name="item_skill" val="21364-12;21477-4" />
+		<skills>
+			<skill id="21364" level="12" /> <!-- Talisman - Abundance -->
+			<skill id="21477" level="4" /> <!-- Power of Abundance -->
+		</skills>
 	</item>
 	<item id="26459" name="Recipe: Talisman - Abundance Lv. 1 (High-grade)" type="EtcItem">
 		<!-- For 4th class only. Recipe for Talisman - Abundance (High-grade) Lv. 1. Requires Create Common Item - Skill Lv. 10. The success rate is 25%. Use offerings to increase the success rate to 100%. -->
@@ -799,20 +853,23 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="4320" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13524-1;13542-1" /> <!-- Lindvior's Earring --> <!-- Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-		</for>
+		<skills>
+			<skill id="13524" level="1" /> <!-- Lindvior's Earring -->
+			<skill id="13542" level="1" /> <!-- Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
 	</item>
 	<item id="26469" name="Lindvior's Earring" additionalName="7-day" type="Armor">
 		<!-- MP + 59, Petrification and Resistance to it + 50%, Knock Back/Knock Down and Resistance to it + 40%, Pulling and Resistance to it + 40%, P. Critical Damage + 10%, M. Critical Damage + 10%, P./M. Abnormal Status Reflection + 10%. Reflect damage magic back to the attacker with the probability of 10%. Movement Speed + 5, DEX + 3, and WIT + 3. Increases Wind/Dark Resistance. Enables the skill of cancelling Knock Back/Knock Down and increases Knock Back/Knock Down Resistance to 100% instantly. When two identical earrings are equipped, only one effect is applied. -->
@@ -820,20 +877,23 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="10080" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13524-1;13542-1" /> <!-- Lindvior's Earring --> <!-- Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-		</for>
+		<skills>
+			<skill id="13524" level="1" /> <!-- Lindvior's Earring -->
+			<skill id="13542" level="1" /> <!-- Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
 	</item>
 	<item id="26470" name="Lindvior's Earring" additionalName="15-day" type="Armor">
 		<!-- MP + 59, Petrification and Resistance to it + 50%, Knock Back/Knock Down and Resistance to it + 40%, Pulling and Resistance to it + 40%, P. Critical Damage + 10%, M. Critical Damage + 10%, P./M. Abnormal Status Reflection + 10%. Reflect damage magic back to the attacker with the probability of 10%. Movement Speed + 5, DEX + 3, and WIT + 3. Increases Wind/Dark Resistance. Enables the skill of cancelling Knock Back/Knock Down and increases Knock Back/Knock Down Resistance to 100% instantly. When two identical earrings are equipped, only one effect is applied. -->
@@ -841,20 +901,23 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="21600" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13524-1;13542-1" /> <!-- Lindvior's Earring --> <!-- Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-		</for>
+		<skills>
+			<skill id="13524" level="1" /> <!-- Lindvior's Earring -->
+			<skill id="13542" level="1" /> <!-- Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
 	</item>
 	<item id="26471" name="Lindvior's Earring" additionalName="30-day" type="Armor">
 		<!-- MP + 59, Petrification and Resistance to it + 50%, Knock Back/Knock Down and Resistance to it + 40%, Pulling and Resistance to it + 40%, P. Critical Damage + 10%, M. Critical Damage + 10%, P./M. Abnormal Status Reflection + 10%. Reflect damage magic back to the attacker with the probability of 10%. Movement Speed + 5, DEX + 3, and WIT + 3. Increases Wind/Dark Resistance. Enables the skill of cancelling Knock Back/Knock Down and increases Knock Back/Knock Down Resistance to 100% instantly. When two identical earrings are equipped, only one effect is applied. -->
@@ -862,31 +925,34 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="R" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="immediate_effect" val="true" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="time" val="43200" />
 		<set name="weight" val="150" />
-        <set name="item_skill" val="13524-1;13542-1" /> <!-- Lindvior's Earring --> <!-- Lindvior's Earring -->
-		<for>
-			<set stat="mDef" val="170" />
-		</for>
+		<skills>
+			<skill id="13524" level="1" /> <!-- Lindvior's Earring -->
+			<skill id="13542" level="1" /> <!-- Lindvior's Earring -->
+		</skills>
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
 	</item>
 	<item id="26472" name="Lindvior's Earring Random Box" type="EtcItem">
 		<!-- Get 1 of the following: Lindvior's Earring (3-day, 7-day, 15-day, or 30-day). -->
 		<set name="icon" val="icon.event_big_july_seven_park_i00" />
 		<set name="weight" val="10" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 		<set name="time" val="4320" />
@@ -904,18 +970,21 @@
 		<set name="icon" val="icon.etc_bm_brooch_lavianrose_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="brooch" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="10" />
-        <set name="item_skill" val="13659-1;13924-1" /> <!-- La Vie En Rose's Radiant Brooch --> <!-- La Vie En Rose's Radiant Brooch -->
-		<for>
-			<set stat="mDef" val="101" />
-		</for>
+		<skills>
+			<skill id="13659" level="1" /> <!-- La Vie En Rose's Radiant Brooch -->
+			<skill id="13924" level="1" /> <!-- La Vie En Rose's Radiant Brooch -->
+		</skills>
+		<stats>
+			<stat type="mDef">101</stat>
+		</stats>
 	</item>
 	<item id="26475" name="Radiant Gemstone Fragment" type="EtcItem">
 		<!-- Main ingredient for making a La Vie En Rose's Radiant Brooch. -->
@@ -929,132 +998,153 @@
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18568-1" /> <!-- Vital Stone -->
+		<skills>
+			<skill id="18568" level="1" /> <!-- Vital Stone -->
+		</skills>
 	</item>
 	<item id="26477" name="Vital Stone" additionalName="Lv. 2" type="Armor">
 		<!-- Increases Vitality Status Bonus EXP by 6%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18568-2" /> <!-- Vital Stone -->
+		<skills>
+			<skill id="18568" level="2" /> <!-- Vital Stone -->
+		</skills>
 	</item>
 	<item id="26478" name="Vital Stone" additionalName="Lv. 3" type="Armor">
 		<!-- Increases Vitality Status Bonus EXP by 12%. Can use Vital Wind skill. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18568-3;27439-1" /> <!-- Vital Stone --> <!-- Vital Stone - Vital Wind -->
+		<skills>
+			<skill id="18568" level="3" /> <!-- Vital Stone -->
+			<skill id="27439" level="1" /> <!-- Vital Stone - Vital Wind -->
+		</skills>
 	</item>
 	<item id="26479" name="Vital Stone" additionalName="Lv. 4" type="Armor">
 		<!-- Increases Vitality Status Bonus EXP by 20% and decreases Vitality Point Consumption Speed by 7%. Can use Vital Wind skill. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18568-4;27439-2" /> <!-- Vital Stone --> <!-- Vital Stone - Vital Wind -->
+		<skills>
+			<skill id="18568" level="4" /> <!-- Vital Stone -->
+			<skill id="27439" level="2" /> <!-- Vital Stone - Vital Wind -->
+		</skills>
 	</item>
 	<item id="26480" name="Vital Stone" additionalName="Lv. 5" type="Armor">
 		<!-- Increases Vitality Status Bonus EXP by 30% and decreases Vitality Point Consumption Speed by 15%. Can use Vital Wind skill. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_vital" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18568-5;27439-3" /> <!-- Vital Stone --> <!-- Vital Stone - Vital Wind -->
+		<skills>
+			<skill id="18568" level="5" /> <!-- Vital Stone -->
+			<skill id="27439" level="3" /> <!-- Vital Stone - Vital Wind -->
+		</skills>
 	</item>
 	<item id="26481" name="Garnet" additionalName="Lv. 1" type="Armor">
 		<!-- Resistance to Debuffs + 3%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-1" />
+		<skills>
+			<skill id="18566" level="1" /> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="26482" name="Garnet" additionalName="Lv. 2" type="Armor">
 		<!-- Resistance to Debuffs + 6%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-2" />
+		<skills>
+			<skill id="18566" level="2" /> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="26483" name="Garnet" additionalName="Lv. 3" type="Armor">
 		<!-- Resistance to Debuffs + 12%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-3" />
+		<skills>
+			<skill id="18566" level="3" /> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="26484" name="Garnet" additionalName="Lv. 4" type="Armor">
 		<!-- Resistance to Debuffs + 20%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_garnet" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-4" />
+		<skills>
+			<skill id="18566" level="4" /> <!-- Garnet -->
+		</skills>
 	</item>
 	<item id="26485" name="Garnet" additionalName="Lv. 5" type="Armor">
 		<!-- Resistance to Debuffs + 30%. Adds the Purge skill to remove debuffs. Effect does not stack with additional jewels of the same type. -->
@@ -1064,67 +1154,78 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18566-5;18567-1" />
+		<skills>
+			<skill id="18566" level="5" /> <!-- Garnet -->
+			<skill id="18567" level="1" /> <!-- Garnet - Purge -->
+		</skills>
 	</item>
 	<item id="26486" name="Tanzanite" additionalName="Lv. 1" type="Armor">
 		<!-- Creates a protection shield that absorbs 5,000 damage for 5 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-1" />
+		<skills>
+			<skill id="18565" level="1"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="26487" name="Tanzanite" additionalName="Lv. 2" type="Armor">
 		<!-- Creates a protection shield that absorbs 10,000 damage for 5 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-2" />
+		<skills>
+			<skill id="18565" level="2"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="26488" name="Tanzanite" additionalName="Lv. 3" type="Armor">
 		<!-- Creates a protection shield that absorbs 15,000 damage for 10 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-3" />
+		<skills>
+			<skill id="18565" level="3"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="26489" name="Tanzanite" additionalName="Lv. 4" type="Armor">
 		<!-- Creates a protection shield that absorbs 30,000 damage for 10 seconds. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="icon.etc_bm_jewel_tanzanite" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-4" />
+		<skills>
+			<skill id="18565" level="4"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="26490" name="Tanzanite" additionalName="Lv. 5" type="Armor">
 		<!-- Creates a protection shield that absorbs 50,000 damage for 15 seconds. Effect does not stack with additional jewels of the same type. -->
@@ -1134,7 +1235,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="18565-5" />
+		<skills>
+			<skill id="18565" level="5"/> <!-- Tanzanite - Barrier -->
+		</skills>
 	</item>
 	<item id="26491" name="La Vie En Rose's Vital Stone Chest" type="EtcItem">
 		<!-- Double-click to acquire a Lv. 1 Vital Stone. -->
@@ -1146,8 +1249,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26476" min="1" max="1" chance="100" /> <!-- Vital Stone - Lv. 1 -->
@@ -1163,8 +1266,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26481" min="1" max="1" chance="100" /> <!-- Garnet - Lv. 1 -->
@@ -1180,8 +1283,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26486" min="1" max="1" chance="100" /> <!-- Tanzanite - Lv. 1 -->
@@ -1197,8 +1300,8 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<!-- <set name="is_clan_depositable" val="true" /> -->
-		<!-- <set name="is_mailable" val="true" /> -->
+		<set name="is_clan_depositable" val="true" />
+		<set name="is_mailable" val="true" />
 		<set name="is_commissionable" val="false" />
 		<capsuled_items>
 			<item id="26474" min="1" max="1" chance="100" /> <!-- La Vie En Rose's Radiant Brooch -->
@@ -1223,44 +1326,50 @@
 		<set name="icon" val="BranchIcon.Icon.etc_bm_jewel_catseye_i00" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="27440-1" />
+		<skills>
+			<skill id="27440" level="1"/> <!-- Cat's Eye -->
+		</skills>
 	</item>
 	<item id="26498" name="Cat's Eye" additionalName="Lv. 2" type="Armor">
 		<!-- Decreases damage received from Reflect Damage by 20%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="BranchIcon.Icon.etc_bm_jewel_catseye_i00" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="27440-2" />
+		<skills>
+			<skill id="27440" level="2"/> <!-- Cat's Eye -->
+		</skills>
 	</item>
 	<item id="26499" name="Cat's Eye" additionalName="Lv. 3" type="Armor">
 		<!-- Decreases damage received from Reflect Damage by 30%. Effect does not stack with additional jewels of the same type. -->
 		<set name="icon" val="BranchIcon.Icon.etc_bm_jewel_catseye_i00" />
 		<set name="bodypart" val="brooch_jewel" />
 		<set name="default_action" val="EQUIP" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="weight" val="5" />
-        <set name="item_skill" val="27440-3" />
+		<skills>
+			<skill id="27440" level="3"/> <!-- Cat's Eye -->
+		</skills>
 	</item>
 </list>

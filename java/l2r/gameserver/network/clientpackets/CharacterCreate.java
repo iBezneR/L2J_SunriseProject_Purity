@@ -182,7 +182,7 @@ public final class CharacterCreate extends L2GameClientPacket
 				sendPacket(new CharCreateFail(CharCreateFail.REASON_NAME_ALREADY_EXISTS));
 				return;
 			}
-			
+
 			template = PlayerTemplateData.getInstance().getTemplate(_classId);
 			if ((template == null) || (ClassId.getClassId(_classId).level() > 0))
 			{

@@ -1,337 +1,276 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-	<item id="8000" name="Dawn Mercenary Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Rune/Bow/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8000" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8001" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Rune/Cleric/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8001" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="140000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8002" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Rune/Wizard/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8002" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="170000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8003" name="Dawn Mercenary Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Rune/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8003" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="200000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8004" name="Dawn Mercenary Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Rune/Spear/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8004" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8005" name="Dawn Mercenary Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Rune/Bow/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8005" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="350000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8006" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Rune/Cleric/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8006" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8007" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Rune/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8007" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8008" name="Greater Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Rune/Sword/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8008" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8009" name="Greater Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Rune/Spear/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8009" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8010" name="Greater Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Rune/Bow/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8010" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8011" name="Greater Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Rune/Cleric/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8011" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="70000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8012" name="Greater Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Rune/Wizard/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8012" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="90000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8013" name="Greater Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Rune/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8013" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="110000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8014" name="Greater Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Rune/Spear/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8014" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8015" name="Greater Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Rune/Bow/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8015" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="230000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8016" name="Greater Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Rune/Cleric/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8016" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8017" name="Greater Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Rune/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8017" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8018" name="Recruit Posting Ticket (Sword/Stationary)" type="EtcItem">
-		<!-- Rune/Sword/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8018" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
 		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8019" name="Recruit Posting Ticket (Spear/Stationary)" type="EtcItem">
-		<!-- Rune/Spear/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8019" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
 		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8020" name="Recruit Posting Ticket (Bow/Stationary)" type="EtcItem">
-		<!-- Rune/Bow/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8020" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
 		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8021" name="Recruit Posting Ticket (Cleric/Stationary)" type="EtcItem">
-		<!-- Rune/Cleric/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8021" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
 		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="40000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8022" name="Recruit Posting Ticket (Wizard/Stationary)" type="EtcItem">
-		<!-- Rune/Wizard/Stationary. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8022" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
 		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="50000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8023" name="Recruit Posting Ticket (Sword/Mobile)" type="EtcItem">
-		<!-- Rune/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8023" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="60000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8024" name="Recruit Posting Ticket (Spear/Mobile)" type="EtcItem">
-		<!-- Rune/Spear/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8024" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
 		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8025" name="Recruit Posting Ticket (Bow/Mobile)" type="EtcItem">
-		<!-- Rune/Bow/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8025" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
 		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="150000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8026" name="Recruit Posting Ticket (Cleric/Mobile)" type="EtcItem">
-		<!-- Rune/Cleric/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8026" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
 		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="2500000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8027" name="Recruit Posting Ticket (Wizard/Mobile)" type="EtcItem">
-		<!-- Rune/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Revolutionaries of Dusk. -->
+	<item id="8027" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="5000000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8028" name="Nephilim Warrior Posting Ticket" type="EtcItem">
-		<!-- Rune/Sword/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8028" type="EtcItem" name="Nephilim Warrior Posting Ticket">
 		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="2500000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8029" name="Nephilim Shaman Posting Ticket" type="EtcItem">
-		<!-- Rune/Wizard/Mobile. The Seal of Strife can only be used to place a mercenary when in the possession of the Lords of Dawn. -->
+	<item id="8029" type="EtcItem" name="Nephilim Shaman Posting Ticket">
 		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="price" val="5000000" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="handler" val="MercTicket" />
 	</item>
-	<item id="8030" name="Hot Spring Nectar" type="EtcItem">
-		<!-- Used during the Rainbow Springs Clan Hall Battle, this item may be used on the Hot Springs Yeti. -->
+	<item id="8030" type="EtcItem" name="Hot Spring Nectar">
 		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
@@ -341,16 +280,9 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2240" level="1" /> <!-- Hot Spring Nectar -->
-		</skills>
+		<set name="item_skill" val="2240-1" />
 	</item>
-	<item id="8031" name="Hot Spring Mineral Water" type="EtcItem">
-		<!-- Used during the Rainbow Springs Clan Hall Battle, this item may be used on the Hot Springs Yeti. -->
+	<item id="8031" type="EtcItem" name="Hot Spring Mineral Water">
 		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
@@ -360,16 +292,9 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2241" level="1" /> <!-- Hot Spring Mineral Water -->
-		</skills>
+		<set name="item_skill" val="2241-1" />
 	</item>
-	<item id="8032" name="Hot Spring Water" type="EtcItem">
-		<!-- Used during the Rainbow Springs Clan Hall Battle, this item may be used on the Hot Springs Yeti. -->
+	<item id="8032" type="EtcItem" name="Hot Spring Water">
 		<set name="icon" val="icon.etc_hot_spring_fountain_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
@@ -379,16 +304,9 @@
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2242" level="1" /> <!-- Hot Spring Water -->
-		</skills>
+		<set name="item_skill" val="2242-1" />
 	</item>
-	<item id="8033" name="Hot Spring Brimstone" type="EtcItem">
-		<!-- Used during the Rainbow Springs Clan Hall Battle, this item may be used on the Hot Springs Yeti. -->
+	<item id="8033" type="EtcItem" name="Hot Spring Sulfur">
 		<set name="icon" val="icon.etc_hot_spring_sulfur_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
@@ -397,25 +315,15 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="handler" val="ItemSkills" />
-		<set name="is_private_storeable" val="false" />
-		<skills>
-			<skill id="2243" level="1" /> <!-- Hot Spring Brimstone -->
-		</skills>
+		<set name="item_skill" val="2243-1" />
 	</item>
-	<item id="8034" name="Rainbow Springs Clan Hall War Decree" type="EtcItem">
-		<!-- A participation certificate for the Rainbow Springs Clan Hall Competition. Can be gained through the Red-colored box, which is a reward for fishing. -->
+	<item id="8034" type="EtcItem" name="Rainbow Springs Clan Hall War Decree">
 		<set name="icon" val="icon.etc_hs_agit_war_joining_certificate_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
-	<item id="8035" name="Hot Spring Letter A" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8035" type="EtcItem" name="Hot Spring Letter A">
 		<set name="icon" val="icon.etc_alphabet_a_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -423,14 +331,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8036" name="Hot Spring Letter B" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8036" type="EtcItem" name="Hot Spring Letter B">
 		<set name="icon" val="icon.etc_alphabet_b_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -438,14 +341,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8037" name="Hot Spring Letter C" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8037" type="EtcItem" name="Hot Spring Letter C">
 		<set name="icon" val="icon.etc_alphabet_c_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -453,14 +351,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8038" name="Hot Spring Letter D" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8038" type="EtcItem" name="Hot Spring Letter D">
 		<set name="icon" val="icon.etc_alphabet_d_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -468,14 +361,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8039" name="Hot Spring Letter E" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8039" type="EtcItem" name="Hot Spring Letter E">
 		<set name="icon" val="icon.etc_alphabet_e_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -483,14 +371,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8040" name="Hot Spring Letter F" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8040" type="EtcItem" name="Hot Spring Letter F">
 		<set name="icon" val="icon.etc_alphabet_f_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -498,14 +381,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8041" name="Hot Spring Letter G" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8041" type="EtcItem" name="Hot Spring Letter G">
 		<set name="icon" val="icon.etc_alphabet_g_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -513,14 +391,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8042" name="Hot Spring Letter H" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8042" type="EtcItem" name="Hot Spring Letter H">
 		<set name="icon" val="icon.etc_alphabet_h_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -528,14 +401,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8043" name="Hot Spring Letter I" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8043" type="EtcItem" name="Hot Spring Letter I">
 		<set name="icon" val="icon.etc_alphabet_i_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -543,28 +411,18 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8044" name="Hot Spring Letter J" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8044" type="EtcItem" name="Hot Spring Letter J">
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8045" name="Hot Spring Letter K" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8045" type="EtcItem" name="Hot Spring Letter K">
 		<set name="icon" val="icon.etc_alphabet_k_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -572,14 +430,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8046" name="Hot Spring Letter L" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8046" type="EtcItem" name="Hot Spring Letter L">
 		<set name="icon" val="icon.etc_alphabet_l_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -587,14 +440,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8047" name="Hot Spring Letter N" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8047" type="EtcItem" name="Hot Spring Letter N">
 		<set name="icon" val="icon.etc_alphabet_n_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -602,14 +450,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8048" name="Hot Spring Letter O" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8048" type="EtcItem" name="Hot Spring Letter O">
 		<set name="icon" val="icon.etc_alphabet_o_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -617,14 +460,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8049" name="Hot Spring Letter P" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8049" type="EtcItem" name="Hot Spring Letter P">
 		<set name="icon" val="icon.etc_alphabet_p_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -632,14 +470,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8050" name="Hot Spring Letter R" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8050" type="EtcItem" name="Hot Spring Letter R">
 		<set name="icon" val="icon.etc_alphabet_r_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -647,14 +480,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8051" name="Hot Spring Letter S" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8051" type="EtcItem" name="Hot Spring Letter S">
 		<set name="icon" val="icon.etc_alphabet_s_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -662,14 +490,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8052" name="Hot Spring letter T" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8052" type="EtcItem" name="Hot Spring letter T">
 		<set name="icon" val="icon.etc_alphabet_t_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -677,14 +500,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8053" name="Hot Spring Letter U" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8053" type="EtcItem" name="Hot Spring Letter U">
 		<set name="icon" val="icon.etc_alphabet_u_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -692,14 +510,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8054" name="Hot Spring Letter W" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8054" type="EtcItem" name="Hot Spring Letter W">
 		<set name="icon" val="icon.etc_alphabet_w_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -707,14 +520,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8055" name="Hot Spring Letter Y" type="EtcItem">
-		<!-- Used in combination with similar texts, this may provide rewards during the Rainbow Springs Clan Hall Battle. -->
+	<item id="8055" type="EtcItem" name="Hot Spring Letter Y">
 		<set name="icon" val="icon.etc_alphabet_y_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
@@ -722,55 +530,32 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="8056" name="Room of Splendor Key" type="EtcItem">
-		<!-- The key to the Splendor Room in the Monastery of Silence. -->
+	<item id="8056" type="EtcItem" name="Key of Splendor Room">
 		<set name="icon" val="icon.etc_old_key_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
-		<skills>
-			<skill id="2238" level="1" /> <!-- Room of Splendor Key -->
-		</skills>
+		<set name="item_skill" val="2238-1" />
 	</item>
-	<item id="8057" name="Silver Hemocyte" type="EtcItem">
-		<!-- The Ice Queen's pets' favorite food. -->
+	<item id="8057" type="EtcItem" name="Silver Hemocyte">
 		<set name="icon" val="icon.etc_lesser_potion_clear_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
-		<set name="is_questitem" val="true" />
-		<set name="commissionItemType" val="OTHER_ITEM" />
 	</item>
-	<item id="8058" name="Lockup Research Report" type="EtcItem">
-		<!-- Dr. Chaos' research report. It's locked. -->
+	<item id="8058" type="EtcItem" name="Lockup Research Report">
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_questitem" val="true" />
-		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
-		<set name="handler" val="ItemSkills" />
 		<set name="is_stackable" val="true" />
-		<createItems>
-			<item id="8059" count="1" chance="100" /> <!-- Research Report -->
-		</createItems>
 	</item>
-	<item id="8059" name="Research Report" type="EtcItem">
-		<!-- Unlock the padlock to read Dr. Chaos' research report. -->
+	<item id="8059" type="EtcItem" name="Research Report">
 		<set name="icon" val="icon.etc_magic_book_blue_i00" />
 		<set name="default_action" val="SHOW_HTML" />
 		<set name="immediate_effect" val="true" />
@@ -779,39 +564,20 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_questitem" val="true" />
 		<set name="handler" val="Book" />
 	</item>
-	<item id="8060" name="Key of Enigma" type="EtcItem">
-		<!-- The small journal key that was included with the memo. -->
+	<item id="8060" type="EtcItem" name="Key of Enigma">
 		<set name="icon" val="icon.etc_key_i00" />
-		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="default_action" val="CALL_SKILL" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
-		<set name="is_questitem" val="true" />
-		<createItems>
-			<item id="8059" count="1" chance="100" /> <!-- Research Report -->
-		</createItems>
-		<skills>
-			<skill id="2260" level="1" /> <!-- Key of Enigma -->
-		</skills>
+		<set name="item_skill" val="2260-1" />
 	</item>
-	<item id="8061" name="Scribbled Memo" type="EtcItem">
-		<!-- Dr. Chaos' research report. -->
+	<item id="8061" type="EtcItem" name="Scribbled Memo">
 		<set name="icon" val="icon.etc_memopad_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -819,15 +585,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8062" name="Blood of Maille Lizardman" type="EtcItem">
-		<!-- Blood obtained by killing Maille Lizardmen. -->
+	<item id="8062" type="EtcItem" name="Blood of Maille Lizardman">
 		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -835,15 +595,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8063" name="Leg of King Araneid" type="EtcItem">
-		<!-- The legs obtained by defeating King Araneid. -->
+	<item id="8063" type="EtcItem" name="Leg of King Araneid">
 		<set name="icon" val="icon.etc_sting_b_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -851,15 +605,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8064" name="Visitor's Badge" type="EtcItem">
-		<!-- Permits entry to the Pagan Temple. Don't lose it! -->
+	<item id="8064" type="EtcItem" name="Visitor's Mark">
 		<set name="icon" val="icon.etc_red_rose_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -868,14 +616,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8065" name="Faded Visitor's Badge" type="EtcItem">
-		<!-- This faded badge permits entry to the Pagan Temple. -->
+	<item id="8065" type="EtcItem" name="Faded Visitor's Mark">
 		<set name="icon" val="icon.etc_white_rose_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -884,14 +627,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8066" name="Necromancer's Heart" type="EtcItem">
-		<!-- Obtain this necromantic heart by slaying Bone Animators, Bone Slayers or Skull Animators. -->
+	<item id="8066" type="EtcItem" name="Necromancer's Heart">
 		<set name="icon" val="icon.etc_bodypart_heart_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -900,14 +638,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8067" name="Pagan's Badge" type="EtcItem">
-		<!-- Permits entry and access to the chapel of the Pagan Temple. -->
+	<item id="8067" type="EtcItem" name="Pagan's Mark">
 		<set name="icon" val="icon.etc_totem_necklace_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -916,14 +649,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8068" name="Pagan Totem" type="EtcItem">
-		<!-- The totem obtained by defeating the Pagans. -->
+	<item id="8068" type="EtcItem" name="Pagan Totem">
 		<set name="icon" val="icon.etc_totem_necklace_green_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -932,14 +660,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8069" name="Monk's Scripture" type="EtcItem">
-		<!-- The scripture obtained by defeating the monks within the Monastery of Silence. -->
+	<item id="8069" type="EtcItem" name="Monk's Scripture">
 		<set name="icon" val="icon.etc_magic_book_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -947,15 +670,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8070" name="Water Bottle" type="EtcItem">
-		<!-- The bottle from Greymore. Pour the water into a the Holy Grail in the Splendor Room and take it with you. -->
+	<item id="8070" type="EtcItem" name="Water Bottle">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -963,15 +680,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8071" name="Bottle of water from the Holy Grail" type="EtcItem">
-		<!-- The bottle containing the water from the Holy Grail in the Splendor Room. Take it to Greymore. -->
+	<item id="8071" type="EtcItem" name="Bottle of water from the Holy Grail">
 		<set name="icon" val="icon.etc_potion_yellow_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -979,15 +690,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8072" name="Antelope Skin" type="EtcItem">
-		<!-- The exceptional hide needed to create the magical scroll. -->
+	<item id="8072" type="EtcItem" name="Antelope Skin">
 		<set name="icon" val="icon.etc_leather_brown_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -996,14 +701,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8073" name="Scroll: Remove Frintezza's Magic Force Field" type="EtcItem">
-		<!-- The scroll that permits passage though Frintezza's Magic Force Field. Meet his guide near the Imperial Tomb entrance and he will let you enter the forbidden area. -->
+	<item id="8073" type="EtcItem" name="Frintezza's Magic Force Field Removal Scroll">
 		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1012,14 +712,9 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_depositable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8074" name="Eye of Watchman" type="EtcItem">
-		<!-- This "Wandering Eye" Has been harassing the farmers of Floran. Take it to Almankel in Floran Village. -->
+	<item id="8074" type="EtcItem" name="Watching Eyes">
 		<set name="icon" val="icon.etc_eyeball_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1027,15 +722,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8075" name="Roughly Hewn Rock Golem Shard" type="EtcItem">
-		<!-- This is a fragment from a Roughly Hewn Rock Golem. Take it to Almankel in Floran Village. -->
+	<item id="8075" type="EtcItem" name="Roughly Hewn Rock Golem Shard">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1043,15 +732,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8076" name="Delu Lizardman's Scale" type="EtcItem">
-		<!-- This is a scale of the Delu Lizardman that has been harassing the farmers of Floran. Take it to Almankel in Floran Village. -->
+	<item id="8076" type="EtcItem" name="Delu Lizardman's Scale">
 		<set name="icon" val="icon.etc_scale_of_medusa_green_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1059,15 +742,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8077" name="Silver Ice Crystal" type="EtcItem">
-		<!-- Crystal obtained from a monster. When processed, it becomes the Black Ice Crystal. -->
+	<item id="8077" type="EtcItem" name="Silver Ice Crystal">
 		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1075,15 +752,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8078" name="Black Ice Crystal" type="EtcItem">
-		<!-- When stuck into a the target, the character becomes violent. -->
+	<item id="8078" type="EtcItem" name="Black Ice Crystal">
 		<set name="icon" val="icon.etc_gem_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1091,15 +762,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8079" name="Misa's Letter" type="EtcItem">
-		<!-- Secret letter from Misa to Rafforty. Don't break the seal! -->
+	<item id="8079" type="EtcItem" name="Misa's Letter">
 		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1107,15 +772,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8080" name="Rafforty's Letter" type="EtcItem">
-		<!-- Secret letter from Rafforty to Misa. -->
+	<item id="8080" type="EtcItem" name="Rafforty's Letter">
 		<set name="icon" val="icon.etc_letter_envelope_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1123,15 +782,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8081" name="Piece of Tablet" type="EtcItem">
-		<!-- Unknown tablet fragment. -->
+	<item id="8081" type="EtcItem" name="Piece of Tablet">
 		<set name="icon" val="icon.etc_broken_tablet_fragment_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1139,15 +792,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8082" name="Report Scraps" type="EtcItem">
-		<!-- Fragment of the report from the stone statue. -->
+	<item id="8082" type="EtcItem" name="Report Piece">
 		<set name="icon" val="icon.etc_piece_of_report_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1155,15 +802,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8083" name="Scout's Note" type="EtcItem">
-		<!-- Scribbled note written by a scout searching the nest. -->
+	<item id="8083" type="EtcItem" name="Scout's Memo">
 		<set name="icon" val="icon.etc_piece_of_report_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1171,15 +812,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8084" name="Crystal of Purity" type="EtcItem">
-		<!-- This white crystal was expelled by a wild beast whose heart was pure. -->
+	<item id="8084" type="EtcItem" name="Crystal of Purity">
 		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1187,15 +822,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8085" name="Stakato Fang" type="EtcItem">
-		<!-- Fangs gained from killing Stakatos. -->
+	<item id="8085" type="EtcItem" name="Fang of Stakato">
 		<set name="icon" val="icon.etc_fang_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1203,15 +832,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8086" name="Box Containing Flame of Holy Spirit" type="EtcItem">
-		<!-- Box Containing Flame of Holy Spirit -->
+	<item id="8086" type="EtcItem" name="Box Containing the Fire of Holy Spirit">
 		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1219,15 +842,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8087" name="Cursed Doll" type="EtcItem">
-		<!-- Enchanted doll that has been said to control the evil creatures of the Ragna Orcs. -->
+	<item id="8087" type="EtcItem" name="Cursed Doll">
 		<set name="icon" val="icon.etc_totem_red_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1235,15 +852,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8088" name="Orc Grave Goods" type="EtcItem">
-		<!-- Remains stolen by grave robbers. -->
+	<item id="8088" type="EtcItem" name="Orc Grave Goods">
 		<set name="icon" val="icon.etc_orcish_talisman_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1251,15 +862,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8089" name="Cursed Grave Goods" type="EtcItem">
-		<!-- Items made by angry spirits to use physical force. -->
+	<item id="8089" type="EtcItem" name="Cursed Grave Goods">
 		<set name="icon" val="icon.etc_totem_black_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1267,15 +872,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8090" name="Radio Signal Detector" type="EtcItem">
-		<!-- This rod lights up in the presence of strong electric waves. It is presently unlit. -->
+	<item id="8090" type="EtcItem" name="Electric Wave Detector">
 		<set name="icon" val="icon.weapon_the_staff_of_hero_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1283,15 +882,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8091" name="Radio Signal Detector" type="EtcItem">
-		<!-- This rod lights up in the presence of strong electric waves. It is presently lit. -->
+	<item id="8091" type="EtcItem" name="Electric Wave Detector">
 		<set name="icon" val="icon.weapon_the_staff_of_hero_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1299,15 +892,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8092" name="Telescope Golem's Corpse" type="EtcItem">
-		<!-- Metal obtained from hunting the Scout Golem. It may be concealing something. -->
+	<item id="8092" type="EtcItem" name="Telescope Golem's Corpse">
 		<set name="icon" val="icon.etc_debris_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1315,15 +902,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8093" name="Golem's Dispatcher" type="EtcItem">
-		<!-- Dispatcher obtained from hunting the Telescope Golem. -->
+	<item id="8093" type="EtcItem" name="Golem's Dispatcher">
 		<set name="icon" val="icon.etc_mechanic_box_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1331,15 +912,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8094" name="Storage Medium" type="EtcItem">
-		<!-- The storage medium taken from the Golem. It is empty. -->
+	<item id="8094" type="EtcItem" name="Storage Medium">
 		<set name="icon" val="icon.etc_calculator_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1347,15 +922,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8095" name="Storage Medium" type="EtcItem">
-		<!-- The storage medium taken from the Golem. It contains information. -->
+	<item id="8095" type="EtcItem" name="Storage Medium">
 		<set name="icon" val="icon.etc_calculator_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1363,15 +932,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8096" name="Ginzu Golem's Black Box" type="EtcItem">
-		<!-- The analysis device obtained from the Ginzu Golem. -->
+	<item id="8096" type="EtcItem" name="Ginzu Golem's Black Box">
 		<set name="icon" val="icon.etc_mechanic_box_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1379,15 +942,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8097" name="X- 688" type="EtcItem">
-		<!-- Curious scroll found on Dr. Chaos' bookshelf. -->
+	<item id="8097" type="EtcItem" name="X-688">
 		<set name="icon" val="icon.etc_map_ivory_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1395,15 +952,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8098" name="Supplying Goods for Railroad Worker" type="EtcItem">
-		<!-- Supplies sent by a Dwarven Elder to a Railroad Worker. -->
+	<item id="8098" type="EtcItem" name="Supplying Goods for Railroad Worker">
 		<set name="icon" val="icon.etc_squares_wood_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1411,15 +962,9 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
-	<item id="8099" name="Thief Guild's Mark" type="EtcItem">
-		<!-- Animal's tooth worn by the thieves of the Plunderous Plains. -->
+	<item id="8099" type="EtcItem" name="Thief Guild's Mark">
 		<set name="icon" val="icon.etc_fang_ivory_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="PAPER" />
@@ -1427,11 +972,6 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
-		<set name="is_depositable" val="false" />
-		<set name="is_clan_depositable" val="false" />
-		<set name="is_mailable" val="false" />
-		<set name="is_commissionable" val="false" />
-		<set name="is_private_storeable" val="false" />
 		<set name="is_questitem" val="true" />
 	</item>
 </list>

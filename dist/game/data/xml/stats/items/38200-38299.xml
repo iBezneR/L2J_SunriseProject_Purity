@@ -43,7 +43,7 @@
 		<set name="immediate_effect" val="true" />
 		<set name="handler" val="Appearance" />
 		<set name="etcitem_type" val="SHAPE_SHIFTING_WP_FIXED" />
-		<!-- <set name="commissionItemType" val="OTHER_ITEM" /> -->
+		<set name="commissionItemType" val="OTHER_ITEM" />
 		<set name="default_action" val="SKILL_REDUCE" />
 	</item>
 	<item id="38205" name="Lobster Appearance Stone: Fist Weapon" type="EtcItem">
@@ -107,24 +107,24 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="144" />
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="379" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="38212" name="Trumpetfish: Dagger" type="Weapon">
 		<!-- Trumpetfish-shaped weapon. Dagger. -->
@@ -133,25 +133,25 @@
 		<set name="bodypart" val="rhand" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="106" />
-		<for>
-			<set stat="pAtk" val="80" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="433" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">80</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="38213" name="Shark: Two-handed Sword" type="Weapon">
 		<!-- Shark-shaped weapon. Two-handed sword. -->
@@ -160,24 +160,24 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="209" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="38214" name="Squid: Spear" type="Weapon">
 		<!-- Squid-shaped weapon. Spear. -->
@@ -186,27 +186,29 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="POLE" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="damage_range" val="0;0;66;120" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="205" />
-        <set name="item_skill" val="3599-1" /> <!-- Polearm Multi-attack -->
-		<for>
-			<set stat="pAtk" val="92" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="8" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="80" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multi-attack -->
+		</skills>
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="38215" name="Sea Horse: Two-handed Magic Blunt Weapon" type="Weapon">
 		<!-- Sea Horse-shaped weapon. Two-handed magic blunt weapon. -->
@@ -215,24 +217,24 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="101" />
-		<for>
-			<set stat="pAtk" val="152" />
-			<set stat="mAtk" val="122" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="20" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">152</stat>
+			<stat type="mAtk">122</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
 	</item>
 	<item id="38216" name="Lobster: Fist Weapon" type="Weapon">
 		<!-- Lobster-shaped weapon. Fist weapon. -->
@@ -241,25 +243,25 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="152" />
-		<for>
-			<set stat="pAtk" val="112" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="accCombat" val="8" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">112</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="38217" name="Giant Crab: Bow" type="Weapon">
 		<!-- Giant crab-shaped weapon. Bow. -->
@@ -268,25 +270,25 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="BOW" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="191" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="293" />
-			<set stat="critRate" val="12" />
-			<set stat="accCombat" val="-3.75" />
-			<set stat="pAtkRange" val="500" />
-			<!-- <set stat="randomDamage" val="5" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
 	</item>
 	<item id="38218" name="Crayfish: Crossbow" type="Weapon">
 		<!-- Crayfish-shaped weapon. Crossbow. -->
@@ -295,25 +297,25 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="CROSSBOW" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="6" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="181" />
-		<for>
-			<set stat="pAtk" val="117" />
-			<set stat="mAtk" val="54" />
-			<set stat="pAtkSpd" val="303" />
-			<set stat="critRate" val="10" />
-			<set stat="accCombat" val="-1.5" />
-			<set stat="pAtkRange" val="400" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">117</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="critRate">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="38219" name="Starfish: Sigil" type="Armor">
 		<!-- Starfish-shaped sigil. -->
@@ -322,19 +324,19 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="weight" val="100" />
-		<for>
-			<set stat="sDef" val="47" />
-			<set stat="rShld" val="20" />
-			<set stat="rEvas" val="-8" />
-		</for>
+		<stats>
+			<stat type="sDef">47</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
 	</item>
 	<item id="38220" name="Turtle: Shield" type="Weapon">
 		<!-- Turtle-shaped shield. -->
@@ -342,17 +344,17 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="weight" val="200" />
-		<for>
-			<add order="0" stat="pDef" val="25" />
-		</for>
+		<stats>
+			<stat type="pDef">25</stat>
+		</stats>
 	</item>
 	<item id="38221" name="Blue Mackerel: Dualsword" type="Weapon">
 		<!-- Blue Mackerel-shaped weapon. Dualsword. -->
@@ -361,24 +363,24 @@
 		<set name="bodypart" val="lrhand" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="crystal_type" val="D" />
-		<!-- <set name="is_clan_depositable" val="false" /> -->
-		<!-- <set name="is_mailable" val="false" /> -->
+		<set name="is_clan_depositable" val="false" />
+		<set name="is_mailable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_sellable" val="false" />
 		<set name="is_commissionable" val="false" />
-		<!-- <set name="is_private_storeable" val="false" /> -->
+		<set name="is_private_storeable" val="false" />
 		<set name="is_freightable" val="true" />
 		<set name="soulshots" val="3" />
 		<set name="spiritshots" val="3" />
 		<set name="weight" val="247" />
-		<for>
-			<set stat="pAtk" val="107" />
-			<set stat="mAtk" val="51" />
-			<set stat="pAtkSpd" val="325" />
-			<set stat="critRate" val="6" />
-			<set stat="pAtkRange" val="40" />
-			<!-- <set stat="randomDamage" val="10" /> -->
-		</for>
+		<stats>
+			<stat type="pAtk">107</stat>
+			<stat type="mAtk">51</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="critRate">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
 	</item>
 	<item id="38222" name="Fish Stew" additionalName="WIT" type="EtcItem">
 		<!-- For 30 min., WIT + 3. Using different fish stews applies the effect of one. Cooldown is 5min. -->
@@ -388,11 +390,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="300000" />
-        <set name="item_skill" val="17387-1" /> <!-- Fish Stew: WIT -->
+		<skills>
+			<skill id="17387" level="1" /> <!-- Fish Stew: WIT -->
+		</skills>
 	</item>
 	<item id="38223" name="Fish Stew" additionalName="INT" type="EtcItem">
 		<!-- For 30 min., INT + 3. Using different fish stews applies the effect of one. Cooldown is 5min. -->
@@ -402,11 +406,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="300000" />
-        <set name="item_skill" val="17388-1" /> <!-- Fish Stew: INT -->
+		<skills>
+			<skill id="17388" level="1" /> <!-- Fish Stew: INT -->
+		</skills>
 	</item>
 	<item id="38224" name="Fish Stew" additionalName="MEN" type="EtcItem">
 		<!-- For 30 min., MEN + 3. Using different fish stews applies the effect of one. Cooldown is 5min. -->
@@ -416,11 +422,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="300000" />
-        <set name="item_skill" val="17389-1" /> <!-- Fish Stew: MEN -->
+		<skills>
+			<skill id="17389" level="1" /> <!-- Fish Stew: MEN -->
+		</skills>
 	</item>
 	<item id="38225" name="Fish Stew" additionalName="DEX" type="EtcItem">
 		<!-- For 30 min., DEX + 3. Using different fish stews applies the effect of one. Cooldown is 5min. -->
@@ -430,11 +438,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="300000" />
-        <set name="item_skill" val="17390-1" /> <!-- Fish Stew: DEX -->
+		<skills>
+			<skill id="17390" level="1" /> <!-- Fish Stew: DEX -->
+		</skills>
 	</item>
 	<item id="38226" name="Fish Stew" additionalName="STR" type="EtcItem">
 		<!-- For 30 min., STR + 3. Using different fish stews applies the effect of one. Cooldown is 5min. -->
@@ -444,11 +454,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="300000" />
-        <set name="item_skill" val="17391-1" /> <!-- Fish Stew: STR -->
+		<skills>
+			<skill id="17391" level="1" /> <!-- Fish Stew: STR -->
+		</skills>
 	</item>
 	<item id="38227" name="Fish Stew" additionalName="CON" type="EtcItem">
 		<!-- For 30 min., CON + 3. Using different fish stews applies the effect of one. Cooldown is 5min. -->
@@ -458,11 +470,13 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_sellable" val="false" />
 		<set name="etcitem_type" val="SCROLL" />
-		<!-- <set name="commissionItemType" val="SCROLL_OTHER" /> -->
+		<set name="commissionItemType" val="SCROLL_OTHER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="reuse_delay" val="300000" />
-        <set name="item_skill" val="17392-1" /> <!-- Fish Stew: CON -->
+		<skills>
+			<skill id="17392" level="1" /> <!-- Fish Stew: CON -->
+		</skills>
 	</item>
 	<item id="38228" name="Lady's Hairpin" additionalName="STR" type="Armor">
 		<!-- STR + 3. Female only. -->
@@ -473,11 +487,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17393-1" /> <!-- Lady's Hairpin: STR -->
+		<skills>
+			<skill id="17393" level="1" /> <!-- Lady's Hairpin: STR -->
+		</skills>
 	</item>
 	<item id="38229" name="Lady's Hairpin" additionalName="DEX" type="Armor">
 		<!-- DEX + 3. Female only. -->
@@ -488,11 +504,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17394-1" /> <!-- Lady's Hairpin: DEX -->
+		<skills>
+			<skill id="17394" level="1" /> <!-- Lady's Hairpin: DEX -->
+		</skills>
 	</item>
 	<item id="38230" name="Lady's Hairpin" additionalName="CON" type="Armor">
 		<!-- CON + 3. Female only. -->
@@ -503,11 +521,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17395-1" /> <!-- Lady's Hairpin: CON -->
+		<skills>
+			<skill id="17395" level="1" /> <!-- Lady's Hairpin: CON -->
+		</skills>
 	</item>
 	<item id="38231" name="Lady's Hairpin" additionalName="MEN" type="Armor">
 		<!-- MEN + 3. Female only. -->
@@ -518,11 +538,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17396-1" /> <!-- Lady's Hairpin: MEN -->
+		<skills>
+			<skill id="17396" level="1" /> <!-- Lady's Hairpin: MEN -->
+		</skills>
 	</item>
 	<item id="38232" name="Lady's Hairpin" additionalName="INT" type="Armor">
 		<!-- INT + 3. Female only. -->
@@ -533,11 +555,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17397-1" /> <!-- Lady's Hairpin: INT -->
+		<skills>
+			<skill id="17397" level="1" /> <!-- Lady's Hairpin: INT -->
+		</skills>
 	</item>
 	<item id="38233" name="Lady's Hairpin" additionalName="WIT" type="Armor">
 		<!-- WIT + 3. Female only. -->
@@ -548,11 +572,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17398-1" /> <!-- Lady's Hairpin: WIT -->
+		<skills>
+			<skill id="17398" level="1" /> <!-- Lady's Hairpin: WIT -->
+		</skills>
 	</item>
 	<item id="38234" name="Lady's Hairpin" additionalName="Critical Rate" type="Armor">
 		<!-- Critical Rate + 50. Female only. -->
@@ -563,11 +589,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17399-1" /> <!-- Lady's Hairpin: Critical Rate -->
+		<skills>
+			<skill id="17399" level="1" /> <!-- Lady's Hairpin: Critical Rate -->
+		</skills>
 	</item>
 	<item id="38235" name="Lady's Hairpin" additionalName="Critical Damage" type="Armor">
 		<!-- Critical Damage + 90, M. Critical Damage + 68. Female only. -->
@@ -578,11 +606,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17400-1" /> <!-- Lady's Hairpin: Critical Damage -->
+		<skills>
+			<skill id="17400" level="1" /> <!-- Lady's Hairpin: Critical Damage -->
+		</skills>
 	</item>
 	<item id="38236" name="Lady's Hairpin" additionalName="P. Def." type="Armor">
 		<!-- P. Def. + 5%. Female only. -->
@@ -593,11 +623,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17401-1" /> <!-- Lady's Hairpin: P. Def. -->
+		<skills>
+			<skill id="17401" level="1" /> <!-- Lady's Hairpin: P. Def. -->
+		</skills>
 	</item>
 	<item id="38237" name="Lady's Hairpin" additionalName="M. Def." type="Armor">
 		<!-- M. Def. + 5%. Female only. -->
@@ -608,11 +640,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17402-1" /> <!-- Lady's Hairpin: M. Def. -->
+		<skills>
+			<skill id="17402" level="1" /> <!-- Lady's Hairpin: M. Def. -->
+		</skills>
 	</item>
 	<item id="38238" name="Lady's Hairpin" additionalName="Evasion" type="Armor">
 		<!-- Evasion + 5. Female only. -->
@@ -623,11 +657,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17403-1" /> <!-- Lady's Hairpin: Evasion -->
+		<skills>
+			<skill id="17403" level="1" /> <!-- Lady's Hairpin: Evasion -->
+		</skills>
 	</item>
 	<item id="38239" name="Lady's Hairpin" additionalName="P. Atk." type="Armor">
 		<!-- P. Atk. + 5%. Female only. -->
@@ -638,11 +674,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17404-1" /> <!-- Lady's Hairpin: P. Atk. -->
+		<skills>
+			<skill id="17404" level="1" /> <!-- Lady's Hairpin: P. Atk. -->
+		</skills>
 	</item>
 	<item id="38240" name="Lady's Hairpin" additionalName="M. Atk." type="Armor">
 		<!-- M. Atk. + 10%. Female only. -->
@@ -653,11 +691,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17405-1" /> <!-- Lady's Hairpin: M. Atk. -->
+		<skills>
+			<skill id="17405" level="1" /> <!-- Lady's Hairpin: M. Atk. -->
+		</skills>
 	</item>
 	<item id="38241" name="Lady's Hairpin" additionalName="Accuracy" type="Armor">
 		<!-- Accuracy + 5. Female only. -->
@@ -668,11 +708,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17406-1" /> <!-- Lady's Hairpin: Accuracy -->
+		<skills>
+			<skill id="17406" level="1" /> <!-- Lady's Hairpin: Accuracy -->
+		</skills>
 	</item>
 	<item id="38242" name="Party Mask" additionalName="STR" type="Armor">
 		<!-- STR + 3. -->
@@ -683,8 +725,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17407-1" /> <!-- Party Mask: STR -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17407" level="1" /> <!-- Party Mask: STR -->
+		</skills>
 	</item>
 	<item id="38243" name="Party Mask" additionalName="DEX" type="Armor">
 		<!-- DEX + 3. -->
@@ -695,8 +739,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17408-1" /> <!-- Party Mask: DEX -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17408" level="1" /> <!-- Party Mask: DEX -->
+		</skills>
 	</item>
 	<item id="38244" name="Party Mask" additionalName="CON" type="Armor">
 		<!-- CON + 3. -->
@@ -707,8 +753,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17409-1" /> <!-- Party Mask: CON -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17409" level="1" /> <!-- Party Mask: CON -->
+		</skills>
 	</item>
 	<item id="38245" name="Party Mask" additionalName="MEN" type="Armor">
 		<!-- MEN + 3. -->
@@ -719,8 +767,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17410-1" /> <!-- Party Mask: MEN -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17410" level="1" /> <!-- Party Mask: MEN -->
+		</skills>
 	</item>
 	<item id="38246" name="Party Mask" additionalName="INT" type="Armor">
 		<!-- INT + 3. -->
@@ -731,8 +781,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17411-1" /> <!-- Party Mask: INT -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17411" level="1" /> <!-- Party Mask: INT -->
+		</skills>
 	</item>
 	<item id="38247" name="Party Mask" additionalName="WIT" type="Armor">
 		<!-- WIT + 3. -->
@@ -743,8 +795,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17412-1" /> <!-- Party Mask: WIT -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17412" level="1" /> <!-- Party Mask: WIT -->
+		</skills>
 	</item>
 	<item id="38248" name="Party Mask" additionalName="Critical Rate" type="Armor">
 		<!-- Critical Rate + 50. -->
@@ -755,8 +809,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17413-1" /> <!-- Party Mask: Critical Rate -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17413" level="1" /> <!-- Party Mask: Critical Rate -->
+		</skills>
 	</item>
 	<item id="38249" name="Party Mask" additionalName="Critical Damage" type="Armor">
 		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
@@ -767,8 +823,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17414-1" /> <!-- Party Mask: Critical Damage -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17414" level="1" /> <!-- Party Mask: Critical Damage -->
+		</skills>
 	</item>
 	<item id="38250" name="Party Mask" additionalName="P. Def." type="Armor">
 		<!-- P. Def. + 5%. -->
@@ -779,8 +837,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17415-1" /> <!-- Party Mask: P. Def. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17415" level="1" /> <!-- Party Mask: P. Def. -->
+		</skills>
 	</item>
 	<item id="38251" name="Party Mask" additionalName="M. Def." type="Armor">
 		<!-- M. Def. + 5%. -->
@@ -791,8 +851,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17416-1" /> <!-- Party Mask: M. Def. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17416" level="1" /> <!-- Party Mask: M. Def. -->
+		</skills>
 	</item>
 	<item id="38252" name="Party Mask" additionalName="Evasion" type="Armor">
 		<!-- Evasion + 5. -->
@@ -803,8 +865,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17417-1" /> <!-- Party Mask: Evasion -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17417" level="1" /> <!-- Party Mask: Evasion -->
+		</skills>
 	</item>
 	<item id="38253" name="Party Mask" additionalName="P. Atk." type="Armor">
 		<!-- P. Atk. + 5%. -->
@@ -815,8 +879,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17418-1" /> <!-- Party Mask: P. Atk. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17418" level="1" /> <!-- Party Mask: P. Atk. -->
+		</skills>
 	</item>
 	<item id="38254" name="Party Mask" additionalName="M. Atk." type="Armor">
 		<!-- M. Atk. + 10%. -->
@@ -827,8 +893,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17419-1" /> <!-- Party Mask: M. Atk. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17419" level="1" /> <!-- Party Mask: M. Atk. -->
+		</skills>
 	</item>
 	<item id="38255" name="Party Mask" additionalName="Accuracy" type="Armor">
 		<!-- Accuracy + 5. -->
@@ -839,8 +907,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17420-1" /> <!-- Party Mask: Accuracy -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17420" level="1" /> <!-- Party Mask: Accuracy -->
+		</skills>
 	</item>
 	<item id="38256" name="Monocle" additionalName="STR" type="Armor">
 		<!-- STR + 3. -->
@@ -851,8 +921,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17421-1" /> <!-- Monocle: STR -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17421" level="1" /> <!-- Monocle: STR -->
+		</skills>
 	</item>
 	<item id="38257" name="Monocle" additionalName="DEX" type="Armor">
 		<!-- DEX + 3. -->
@@ -863,8 +935,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17422-1" /> <!-- Monocle: DEX -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17422" level="1" /> <!-- Monocle: DEX -->
+		</skills>
 	</item>
 	<item id="38258" name="Monocle" additionalName="CON" type="Armor">
 		<!-- CON + 3. -->
@@ -875,8 +949,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17423-1" /> <!-- Monocle: CON -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17423" level="1" /> <!-- Monocle: CON -->
+		</skills>
 	</item>
 	<item id="38259" name="Monocle" additionalName="MEN" type="Armor">
 		<!-- MEN + 3. -->
@@ -887,8 +963,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17424-1" /> <!-- Monocle: MEN -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17424" level="1" /> <!-- Monocle: MEN -->
+		</skills>
 	</item>
 	<item id="38260" name="Monocle" additionalName="INT" type="Armor">
 		<!-- INT + 3. -->
@@ -899,8 +977,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17425-1" /> <!-- Monocle: INT -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17425" level="1" /> <!-- Monocle: INT -->
+		</skills>
 	</item>
 	<item id="38261" name="Monocle" additionalName="WIT" type="Armor">
 		<!-- WIT + 3. -->
@@ -911,8 +991,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17426-1" /> <!-- Monocle: WIT -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17426" level="1" /> <!-- Monocle: WIT -->
+		</skills>
 	</item>
 	<item id="38262" name="Monocle" additionalName="Critical Rate" type="Armor">
 		<!-- Critical Rate + 50. -->
@@ -923,8 +1005,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17427-1" /> <!-- Monocle: Critical Rate -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17427" level="1" /> <!-- Monocle: Critical Rate -->
+		</skills>
 	</item>
 	<item id="38263" name="Monocle" additionalName="Critical Damage" type="Armor">
 		<!-- Critical Damage + 90, M. Critical Damage + 68. -->
@@ -935,8 +1019,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17428-1" /> <!-- Monocle: Critical Damage -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17428" level="1" /> <!-- Monocle: Critical Damage -->
+		</skills>
 	</item>
 	<item id="38264" name="Monocle" additionalName="P. Def." type="Armor">
 		<!-- P. Def. + 5%. -->
@@ -947,8 +1033,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17429-1" /> <!-- Monocle: P. Def. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17429" level="1" /> <!-- Monocle: P. Def. -->
+		</skills>
 	</item>
 	<item id="38265" name="Monocle" additionalName="M. Def." type="Armor">
 		<!-- M. Def. + 5%. -->
@@ -959,8 +1047,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17430-1" /> <!-- Monocle: M. Def. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17430" level="1" /> <!-- Monocle: M. Def. -->
+		</skills>
 	</item>
 	<item id="38266" name="Monocle" additionalName="Evasion" type="Armor">
 		<!-- Evasion + 5. -->
@@ -971,8 +1061,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17431-1" /> <!-- Monocle: Evasion -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17431" level="1" /> <!-- Monocle: Evasion -->
+		</skills>
 	</item>
 	<item id="38267" name="Monocle" additionalName="P. Atk." type="Armor">
 		<!-- P. Atk. + 5%. -->
@@ -983,8 +1075,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17432-1" /> <!-- Monocle: P. Atk. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17432" level="1" /> <!-- Monocle: P. Atk. -->
+		</skills>
 	</item>
 	<item id="38268" name="Monocle" additionalName="M. Atk." type="Armor">
 		<!-- M. Atk. + 10%. -->
@@ -995,8 +1089,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17433-1" /> <!-- Monocle: M. Atk. -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17433" level="1" /> <!-- Monocle: M. Atk. -->
+		</skills>
 	</item>
 	<item id="38269" name="Monocle" additionalName="Accuracy" type="Armor">
 		<!-- Accuracy + 5. -->
@@ -1007,8 +1103,10 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
-        <set name="item_skill" val="17434-1" /> <!-- Monocle: Accuracy -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<skills>
+			<skill id="17434" level="1" /> <!-- Monocle: Accuracy -->
+		</skills>
 	</item>
 	<item id="38270" name="Maiden's Hairpin" additionalName="STR" type="Armor">
 		<!-- STR + 3. Female only. -->
@@ -1019,11 +1117,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17435-1" /> <!-- Maiden's Hairpin: STR -->
+		<skills>
+			<skill id="17435" level="1" /> <!-- Maiden's Hairpin: STR -->
+		</skills>
 	</item>
 	<item id="38271" name="Maiden's Hairpin" additionalName="DEX" type="Armor">
 		<!-- DEX + 3. Female only. -->
@@ -1034,11 +1134,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17436-1" /> <!-- Maiden's Hairpin: DEX -->
+		<skills>
+			<skill id="17436" level="1" /> <!-- Maiden's Hairpin: DEX -->
+		</skills>
 	</item>
 	<item id="38272" name="Maiden's Hairpin" additionalName="CON" type="Armor">
 		<!-- CON + 3. Female only. -->
@@ -1049,11 +1151,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17437-1" /> <!-- Maiden's Hairpin: CON -->
+		<skills>
+			<skill id="17437" level="1" /> <!-- Maiden's Hairpin: CON -->
+		</skills>
 	</item>
 	<item id="38273" name="Maiden's Hairpin" additionalName="MEN" type="Armor">
 		<!-- MEN + 3. Female only. -->
@@ -1064,11 +1168,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17438-1" /> <!-- Maiden's Hairpin: MEN -->
+		<skills>
+			<skill id="17438" level="1" /> <!-- Maiden's Hairpin: MEN -->
+		</skills>
 	</item>
 	<item id="38274" name="Maiden's Hairpin" additionalName="INT" type="Armor">
 		<!-- INT + 3. Female only. -->
@@ -1079,11 +1185,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17439-1" /> <!-- Maiden's Hairpin: INT -->
+		<skills>
+			<skill id="17439" level="1" /> <!-- Maiden's Hairpin: INT -->
+		</skills>
 	</item>
 	<item id="38275" name="Maiden's Hairpin" additionalName="WIT" type="Armor">
 		<!-- WIT + 3. Female only. -->
@@ -1094,11 +1202,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17440-1" /> <!-- Maiden's Hairpin: WIT -->
+		<skills>
+			<skill id="17440" level="1" /> <!-- Maiden's Hairpin: WIT -->
+		</skills>
 	</item>
 	<item id="38276" name="Maiden's Hairpin" additionalName="Critical Rate" type="Armor">
 		<!-- Critical Rate + 50. Female only. -->
@@ -1109,11 +1219,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17441-1" /> <!-- Maiden's Hairpin: Critical Rate -->
+		<skills>
+			<skill id="17441" level="1" /> <!-- Maiden's Hairpin: Critical Rate -->
+		</skills>
 	</item>
 	<item id="38277" name="Maiden's Hairpin" additionalName="Critical Damage" type="Armor">
 		<!-- Critical Damage + 90, M. Critical Damage + 68. Female only. -->
@@ -1124,11 +1236,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17442-1" /> <!-- Maiden's Hairpin: Critical Damage -->
+		<skills>
+			<skill id="17442" level="1" /> <!-- Maiden's Hairpin: Critical Damage -->
+		</skills>
 	</item>
 	<item id="38278" name="Maiden's Hairpin" additionalName="P. Def." type="Armor">
 		<!-- P. Def. + 5%. Female only. -->
@@ -1139,11 +1253,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17443-1" /> <!-- Maiden's Hairpin: P. Def. -->
+		<skills>
+			<skill id="17443" level="1" /> <!-- Maiden's Hairpin: P. Def. -->
+		</skills>
 	</item>
 	<item id="38279" name="Maiden's Hairpin" additionalName="M. Def." type="Armor">
 		<!-- M. Def. + 5%. Female only. -->
@@ -1154,11 +1270,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17444-1" /> <!-- Maiden's Hairpin: M. Def. -->
+		<skills>
+			<skill id="17444" level="1" /> <!-- Maiden's Hairpin: M. Def. -->
+		</skills>
 	</item>
 	<item id="38280" name="Maiden's Hairpin" additionalName="Evasion" type="Armor">
 		<!-- Evasion + 5. Female only. -->
@@ -1169,11 +1287,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17445-1" /> <!-- Maiden's Hairpin: Evasion -->
+		<skills>
+			<skill id="17445" level="1" /> <!-- Maiden's Hairpin: Evasion -->
+		</skills>
 	</item>
 	<item id="38281" name="Maiden's Hairpin" additionalName="P. Atk." type="Armor">
 		<!-- P. Atk. + 5%. Female only. -->
@@ -1184,11 +1304,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17446-1" /> <!-- Maiden's Hairpin: P. Atk. -->
+		<skills>
+			<skill id="17446" level="1" /> <!-- Maiden's Hairpin: P. Atk. -->
+		</skills>
 	</item>
 	<item id="38282" name="Maiden's Hairpin" additionalName="M. Atk." type="Armor">
 		<!-- M. Atk. + 10%. Female only. -->
@@ -1199,11 +1321,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17447-1" /> <!-- Maiden's Hairpin: M. Atk. -->
+		<skills>
+			<skill id="17447" level="1" /> <!-- Maiden's Hairpin: M. Atk. -->
+		</skills>
 	</item>
 	<item id="38283" name="Maiden's Hairpin" additionalName="Accuracy" type="Armor">
 		<!-- Accuracy + 5. Female only. -->
@@ -1214,11 +1338,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17448-1" /> <!-- Maiden's Hairpin: Accuracy -->
+		<skills>
+			<skill id="17448" level="1" /> <!-- Maiden's Hairpin: Accuracy -->
+		</skills>
 	</item>
 	<item id="38284" name="Forget-me-not Hairpin" additionalName="STR" type="Armor">
 		<!-- STR + 3. Female only. -->
@@ -1229,11 +1355,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17449-1" /> <!-- Forget-me-not Hairpin: STR -->
+		<skills>
+			<skill id="17449" level="1" /> <!-- Forget-me-not Hairpin: STR -->
+		</skills>
 	</item>
 	<item id="38285" name="Forget-me-not Hairpin" additionalName="DEX" type="Armor">
 		<!-- DEX + 3. Female only. -->
@@ -1244,11 +1372,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17450-1" /> <!-- Forget-me-not Hairpin: DEX -->
+		<skills>
+			<skill id="17450" level="1" /> <!-- Forget-me-not Hairpin: DEX -->
+		</skills>
 	</item>
 	<item id="38286" name="Forget-me-not Hairpin" additionalName="CON" type="Armor">
 		<!-- CON + 3. Female only. -->
@@ -1259,11 +1389,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17451-1" /> <!-- Forget-me-not Hairpin: CON -->
+		<skills>
+			<skill id="17451" level="1" /> <!-- Forget-me-not Hairpin: CON -->
+		</skills>
 	</item>
 	<item id="38287" name="Forget-me-not Hairpin" additionalName="MEN" type="Armor">
 		<!-- MEN + 3. Female only. -->
@@ -1274,11 +1406,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17452-1" /> <!-- Forget-me-not Hairpin: MEN -->
+		<skills>
+			<skill id="17452" level="1" /> <!-- Forget-me-not Hairpin: MEN -->
+		</skills>
 	</item>
 	<item id="38288" name="Forget-me-not Hairpin" additionalName="INT" type="Armor">
 		<!-- INT + 3. Female only. -->
@@ -1289,11 +1423,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17453-1" /> <!-- Forget-me-not Hairpin: INT -->
+		<skills>
+			<skill id="17453" level="1" /> <!-- Forget-me-not Hairpin: INT -->
+		</skills>
 	</item>
 	<item id="38289" name="Forget-me-not Hairpin" additionalName="WIT" type="Armor">
 		<!-- WIT + 3. Female only. -->
@@ -1304,11 +1440,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17454-1" /> <!-- Forget-me-not Hairpin: WIT -->
+		<skills>
+			<skill id="17454" level="1" /> <!-- Forget-me-not Hairpin: WIT -->
+		</skills>
 	</item>
 	<item id="38290" name="Forget-me-not Hairpin" additionalName="Critical Rate" type="Armor">
 		<!-- Critical Rate + 50. Female only. -->
@@ -1319,11 +1457,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17455-1" /> <!-- Forget-me-not Hairpin: Critical Rate -->
+		<skills>
+			<skill id="17455" level="1" /> <!-- Forget-me-not Hairpin: Critical Rate -->
+		</skills>
 	</item>
 	<item id="38291" name="Forget-me-not Hairpin" additionalName="Critical Damage" type="Armor">
 		<!-- Critical Damage + 90, M. Critical Damage + 68. Female only. -->
@@ -1334,11 +1474,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17456-1" /> <!-- Forget-me-not Hairpin: Critical Damage -->
+		<skills>
+			<skill id="17456" level="1" /> <!-- Forget-me-not Hairpin: Critical Damage -->
+		</skills>
 	</item>
 	<item id="38292" name="Forget-me-not Hairpin" additionalName="P. Def." type="Armor">
 		<!-- P. Def. + 5%. Female only. -->
@@ -1349,11 +1491,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17457-1" /> <!-- Forget-me-not Hairpin: P. Def. -->
+		<skills>
+			<skill id="17457" level="1" /> <!-- Forget-me-not Hairpin: P. Def. -->
+		</skills>
 	</item>
 	<item id="38293" name="Forget-me-not Hairpin" additionalName="M. Def." type="Armor">
 		<!-- M. Def. + 5%. Female only. -->
@@ -1364,11 +1508,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17458-1" /> <!-- Forget-me-not Hairpin: M. Def. -->
+		<skills>
+			<skill id="17458" level="1" /> <!-- Forget-me-not Hairpin: M. Def. -->
+		</skills>
 	</item>
 	<item id="38294" name="Forget-me-not Hairpin" additionalName="Evasion" type="Armor">
 		<!-- Evasion + 5. Female only. -->
@@ -1379,11 +1525,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17459-1" /> <!-- Forget-me-not Hairpin: Evasion -->
+		<skills>
+			<skill id="17459" level="1" /> <!-- Forget-me-not Hairpin: Evasion -->
+		</skills>
 	</item>
 	<item id="38295" name="Forget-me-not Hairpin" additionalName="P. Atk." type="Armor">
 		<!-- P. Atk. + 5%. Female only. -->
@@ -1394,11 +1542,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17460-1" /> <!-- Forget-me-not Hairpin: P. Atk. -->
+		<skills>
+			<skill id="17460" level="1" /> <!-- Forget-me-not Hairpin: P. Atk. -->
+		</skills>
 	</item>
 	<item id="38296" name="Forget-me-not Hairpin" additionalName="M. Atk." type="Armor">
 		<!-- M. Atk. + 10%. Female only. -->
@@ -1409,11 +1559,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17461-1" /> <!-- Forget-me-not Hairpin: M. Atk. -->
+		<skills>
+			<skill id="17461" level="1" /> <!-- Forget-me-not Hairpin: M. Atk. -->
+		</skills>
 	</item>
 	<item id="38297" name="Forget-me-not Hairpin" additionalName="Accuracy" type="Armor">
 		<!-- Accuracy + 5. Female only. -->
@@ -1424,11 +1576,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17462-1" /> <!-- Forget-me-not Hairpin: Accuracy -->
+		<skills>
+			<skill id="17462" level="1" /> <!-- Forget-me-not Hairpin: Accuracy -->
+		</skills>
 	</item>
 	<item id="38298" name="Daisy Hairpin" additionalName="STR" type="Armor">
 		<!-- STR + 3. Female only. -->
@@ -1439,11 +1593,13 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17463-1" /> <!-- Daisy Hairpin: STR -->
+		<skills>
+			<skill id="17463" level="1" /> <!-- Daisy Hairpin: STR -->
+		</skills>
 	</item>
 	<item id="38299" name="Daisy Hairpin" additionalName="DEX" type="Armor">
 		<!-- DEX + 3. Female only. -->
@@ -1454,10 +1610,12 @@
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 		<set name="price" val="50000" />
-		<!-- <set name="commissionItemType" val="HAIR_ACCESSORY" /> -->
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
 		<cond msgId="1518">
 			<player sex="1" />
 		</cond>
-        <set name="item_skill" val="17464-1" /> <!-- Daisy Hairpin: DEX -->
+		<skills>
+			<skill id="17464" level="1" /> <!-- Daisy Hairpin: DEX -->
+		</skills>
 	</item>
 </list>
