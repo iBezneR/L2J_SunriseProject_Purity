@@ -146,7 +146,7 @@ public abstract class DocumentBase
 			}
 		}
 	}
-	
+
 	protected void attachFunc(Node n, Object template, String functionName, Condition attachCond)
 	{
 		final Stats stat = Stats.valueOfXml(n.getAttributes().getNamedItem("stat").getNodeValue());
@@ -156,7 +156,7 @@ public abstract class DocumentBase
 		{
 			order = Integer.parseInt(orderNode.getNodeValue());
 		}
-		
+
 		final double value = getValue(n);
 		final Condition applayCond = parseCondition(n.getFirstChild(), template);
 		final FuncTemplate ft = new FuncTemplate(attachCond, applayCond, functionName, order, stat, value);

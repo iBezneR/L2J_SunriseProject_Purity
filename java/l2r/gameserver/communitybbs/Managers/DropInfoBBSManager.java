@@ -215,8 +215,8 @@ public class DropInfoBBSManager extends BaseBBSManager
 			newHtml = newHtml.replace("<?bp_" + i + "?>", item != null ? "<button value=\"show\" action=\"bypass _bbssearchdropMonstersByItem_" + item.getId() + "_1\" width=40 height=12 back=\"L2UI_CT1.ListCTRL_DF_Title_Down\" fore=\"L2UI_CT1.ListCTRL_DF_Title\">" : "...");
 		}
 		
-		newHtml = newHtml.replace("<?previous?>", page > 1 ? "<button action=\"bypass _bbssearchdropItemsByName_" + itemName + "_" + (page - 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\">" : "<br>");
-		newHtml = newHtml.replace("<?next?>", itemsByName.size() > (itemIndex + 1) ? "<button action=\"bypass _bbssearchdropItemsByName_" + itemName + "_" + (page + 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\">" : "<br>");
+		newHtml = newHtml.replace("<?previous?>", page > 1 ? "<button action=\"bypass _bbssearchdropItemsByName_" + itemName + "_" + (page - 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\"></button>" : "<br>");
+		newHtml = newHtml.replace("<?next?>", itemsByName.size() > (itemIndex + 1) ? "<button action=\"bypass _bbssearchdropItemsByName_" + itemName + "_" + (page + 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\"></button>" : "<br>");
 		
 		newHtml = newHtml.replace("<?search?>", itemName);
 		newHtml = newHtml.replace("<?size?>", Util.formatAdena(itemsByName.size()));
@@ -256,11 +256,11 @@ public class DropInfoBBSManager extends BaseBBSManager
 			newHtml = newHtml.replace("<?type_" + i + "?>", (npc != null) && (drops != null) ? drops.isSweep() ? "Spoil" : "Drop" : "...");
 			newHtml = newHtml.replace("<?count_" + i + "?>", (npc != null) && (drops != null) ? DropInfoFunctions.getMinMaxDropCounts(npc, itemId, drops.isSweep()) : "...");
 			newHtml = newHtml.replace("<?chance_" + i + "?>", (npc != null) && (drops != null) ? DropInfoFunctions.getDropChance(npc, itemId, drops.isSweep()) : "...");
-			newHtml = newHtml.replace("<?bp_" + i + "?>", npc != null ? "<button value=\"show\" action=\"bypass _bbssearchdropMonsterDetailsByItem_" + npc.getId() + "\" width=40 height=12 back=\"L2UI_CT1.ListCTRL_DF_Title_Down\" fore=\"L2UI_CT1.ListCTRL_DF_Title\">" : "...");
+			newHtml = newHtml.replace("<?bp_" + i + "?>", npc != null ? "<button value=\"show\" action=\"bypass _bbssearchdropMonsterDetailsByItem_" + npc.getId() + "\" width=40 height=12 back=\"L2UI_CT1.ListCTRL_DF_Title_Down\" fore=\"L2UI_CT1.ListCTRL_DF_Title\"></button>" : "...");
 		}
 		
-		newHtml = newHtml.replace("<?previous?>", page > 1 ? "<button action=\"bypass _bbssearchdropMonstersByItem_" + itemId + "_" + (page - 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\">" : "<br>");
-		newHtml = newHtml.replace("<?next?>", templates.size() > (npcIndex + 1) ? "<button action=\"bypass _bbssearchdropMonstersByItem_" + itemId + "_" + (page + 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\">" : "<br>");
+		newHtml = newHtml.replace("<?previous?>", page > 1 ? "<button action=\"bypass _bbssearchdropMonstersByItem_" + itemId + "_" + (page - 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_prev_down\" fore=\"L2UI_CH3.shortcut_prev\"></button>" : "<br>");
+		newHtml = newHtml.replace("<?next?>", templates.size() > (npcIndex + 1) ? "<button action=\"bypass _bbssearchdropMonstersByItem_" + itemId + "_" + (page + 1) + "_" + sort + "\" width=16 height=16 back=\"L2UI_CH3.shortcut_next_down\" fore=\"L2UI_CH3.shortcut_next\"></button>" : "<br>");
 		
 		newHtml = newHtml.replace("<?search?>", player.getQuickVar("DCItemName", ItemData.getInstance().getTemplate(itemId).getName()));
 		newHtml = newHtml.replace("<?item?>", ItemData.getInstance().getTemplate(itemId).getName());

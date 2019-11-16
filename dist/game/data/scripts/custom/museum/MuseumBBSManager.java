@@ -309,7 +309,7 @@ public class MuseumBBSManager extends BaseBBSManager
 			int h = cat.getRefreshTime().ordinal();
 			if (typeHtml1[h].equals(""))
 			{
-				
+
 				typeHtml1[h] += "<table cellspacing=-5><tr>";
 				typeHtml1[h] += "<td width=10></td>";
 				typeHtml1[h] += "<td><button value=\"Item\" action=\"\" fore=\"L2UI_CT1.Button_DF\" back=\"L2UI_CT1.Button_DF\" width=\"" + (h > 0 ? 212 : 300) + "\" height=\"24\"></button></td>";
@@ -371,7 +371,7 @@ public class MuseumBBSManager extends BaseBBSManager
 			typeHtml2[h] += "</tr></table>";
 			typeHtml2[h] += "<img src=L2UI.SquareGray width=475 height=1 />";
 			c[h]++;
-			
+
 		}
 		for (int i = 0; i < 4; i++)
 		{

@@ -64,7 +64,7 @@ import java.util.StringTokenizer;
 public class ServicesBBSManager extends BaseBBSManager
 {
 	public String _servicesBBSCommand = CommunityServicesConfigs.BYPASS_COMMAND;
-	
+
 	@Override
 	public void cbByPass(String command, L2PcInstance activeChar)
 	{

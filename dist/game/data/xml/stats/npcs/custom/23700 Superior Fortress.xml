@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/npcs.xsd">
+	<npc id="23774" level="102" type="L2Monster" name="Delta Bathus">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16653" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="908048947" sp="908061" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1277110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="46" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17430" min="1" max="1" chance="0.0075" /> <!-- Eternal Helmet - Heavy Armor -->
+				<item id="17431" min="1" max="1" chance="0.003" /> <!-- Eternal Breastplate - Heavy Armor -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="11.64" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Amaranthine Stormer Fragment -->
+				<item id="35338" min="1" max="1" chance="0.3" /> <!-- Eternal Helmet Ingredient -->
+				<item id="35339" min="1" max="1" chance="0.3" /> <!-- Eternal Breastplate Ingredient -->
+				<item id="36545" min="1" max="1" chance="0.075" /> <!-- Durandil Wire -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23775" level="102" type="L2Monster" name="Delta Carcass">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16653" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="908048947" sp="908061" />
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1277110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="42.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17433" min="1" max="1" chance="0.03" /> <!-- Eternal Gauntlets - Heavy Armor -->
+				<item id="17432" min="1" max="1" chance="0.003" /> <!-- Eternal Gaiters - Heavy Armor -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="12.65" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="1.093" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35329" min="1" max="1" chance="0.3" /> <!-- Amaranthine Slasher Fragment -->
+				<item id="35340" min="1" max="1" chance="0.3" /> <!-- Eternal Gaiter Ingredient -->
+				<item id="35341" min="1" max="1" chance="0.3" /> <!-- Eternal Gauntlet Ingredient -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23776" level="102" type="L2Monster" name="Delta Kshana">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16655" level="1" />
+			<skill name="Skill02_ID" id="16656" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="908048947" sp="908061" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1277110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="47.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17434" min="1" max="1" chance="0.03" /> <!-- Eternal Boots - Heavy Armor -->
+				<item id="17435" min="1" max="1" chance="0.03" /> <!-- Eternal Shield - Heavy Armor -->
+				<item id="57" min="29430" max="68561" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="12.26" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35332" min="1" max="1" chance="0.3" /> <!-- Amaranthine Stormer Fragment -->
+				<item id="35342" min="1" max="1" chance="0.3" /> <!-- Eternal Boot Ingredient -->
+				<item id="35343" min="1" max="1" chance="0.3" /> <!-- Eternal Shield Ingredient -->
+				<item id="36545" min="1" max="1" chance="0.075" /> <!-- Durandil Wire -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23777" level="103" type="L2Monster" name="Royal Templar">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16657" level="1" />
+			<skill name="Skill02_ID" id="16658" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17430" min="1" max="1" chance="0.03" /> <!-- Eternal Helmet - Heavy Armor -->
+				<item id="17418" min="1" max="1" chance="0.003" /> <!-- Amaranthine Slasher -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.494" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="36545" min="1" max="1" chance="0.03" /> <!-- Durandil Wire -->
+				<item id="35456" min="1" max="1" chance="0.0075" /> <!-- Recipe: Amaranthine Stormer (60%) -->
+				<item id="35462" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Helmet (60%) -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23778" level="103" type="L2Monster" name="Royal Shooter">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16659" level="1" />
+			<skill name="Skill02_ID" id="16660" level="1" />
+			<skill name="Skill03_ID" id="16661" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1111149422" sp="1111186" />
+		<equipment rhand="47163" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17431" min="1" max="1" chance="0.03" /> <!-- Eternal Breastplate - Heavy Armor -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.422" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="0.75" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35456" min="1" max="1" chance="0.0075" /> <!-- Recipe: Amaranthine Stormer (60%) -->
+				<item id="35463" min="1" max="1" chance="0.003" /> <!-- Recipe: Eternal Breastplate (60%) -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23779" level="103" type="L2Monster" name="Royal Wizard">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16662" level="1" />
+			<skill name="Skill02_ID" id="16663" level="1" />
+			<skill name="Skill03_ID" id="16664" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+			</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4438" level="5" /> <!-- Greater Sleep Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17432" min="1" max="1" chance="0.03" /> <!-- Eternal Gaiters - Heavy Armor -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.43" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="36545" min="1" max="1" chance="0.03" /> <!-- Durandil Wire -->
+				<item id="35456" min="1" max="1" chance="0.0075" /> <!-- Recipe: Amaranthine Stormer (60%) -->
+				<item id="35464" min="1" max="1" chance="0.0075" /> <!-- Recipe: Eternal Gaiters (60%) -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="36565" min="1" max="1" chance="0.075" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23780" level="103" type="L2Monster" name="Royal Templar Colonel">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16665" level="1" />
+			<skill name="Skill02_ID" id="16666" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1111149422" sp="1111186" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+			</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="32" />
+			<height normal="51" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17433" min="1" max="1" chance="0.03" /> <!-- Eternal Gauntlets - Heavy Armor -->
+				<item id="17421" min="1" max="1" chance="0.003" /> <!-- Amaranthine Stormer -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="5.104" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="36544" min="1" max="1" chance="0.3" /> <!-- Orichalcum Wire -->
+				<item id="35465" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Gauntlets (60%) -->
+				<item id="35453" min="1" max="1" chance="0.003" /> <!-- Recipe: Amaranthine Slasher (60%) -->
+				<item id="37801" min="1" max="1" chance="0.003" /> <!-- Bloody Eternal Enhancement Stone Fragment -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="46081" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Blessed Spiritshot (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23781" level="103" type="L2Monster" name="Royal Sharpshooter">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16667" level="1" />
+			<skill name="Skill02_ID" id="16668" level="1" />
+			<skill name="Skill03_ID" id="16669" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="1111149422" sp="1111186" />
+		<equipment rhand="47163" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1383110" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="900" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+			</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17434" min="1" max="1" chance="0.075" /> <!-- Eternal Boots - Heavy Armor -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.393" /> <!-- Adamantite Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35466" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Boots (60%) -->
+				<item id="36545" min="1" max="1" chance="0.03" /> <!-- Durandil Wire -->
+				<item id="35453" min="1" max="1" chance="0.0075" /> <!-- Recipe: Amaranthine Slasher (60%) -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="46081" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Blessed Spiritshot (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23782" level="103" type="L2Monster" name="Royal Archmage">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6769" level="1" /> <!-- Petrify -->
+			<skill name="Skill02_ID" id="6770" level="1" /> <!-- Heal -->
+		</parameters>
+		<race>GIANT</race>
+		<sex>MAGE</sex>
+		<equipment rhand="13981" /> <!-- rhand: Exclusive to Monsters (Mounted Troops Tactics) -->
+		<acquire expRate="75.9364192249135" sp="57848" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="55817.8012671518" hpRegen="187.410040552143" mp="1846.8" mpRegen="3" />
+			<attack physical="12008.0135566142" magical="8707.81891430402" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578.861024" magical="635.378064" />
+			<attribute>
+				<attack type="EARTH" value="250" />
+				<defence fire="220" water="220" wind="170" earth="250" holy="220" dark="220" default="230" />
+			</attribute>
+			<speed>
+				<walk ground="82" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="15" /> <!--Strong P. Atk. -->
+			<skill id="4411" level="13" /> <!--Slightly Strong M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="8" /> <!--Weak M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="10" /> <!--Dragons -->
+			<skill id="5465" level="1" /> <!--Earth Attacks -->
+			<skill id="6769" level="1" /> <!--Petrify -->
+			<skill id="6770" level="1" /> <!--Heal -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300">
+			<clanList>
+				<clan>DRAGON_IN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="17435" min="1" max="1" chance="0.03" /> <!-- Eternal Shield - Heavy Armor -->
+				<item id="17418" min="1" max="1" chance="0.003" /> <!-- Amaranthine Slasher -->
+				<item id="57" min="31251" max="72861" chance="70" /> <!-- Adena -->
+				<item id="36543" min="1" max="1" chance="6.441" /> <!-- Adamantite Wire -->
+				<item id="36544" min="1" max="1" chance="0.75" /> <!-- Orichalcum Wire -->
+				<item id="47250" min="1" max="1" chance="0.75" /> <!-- Giant Crystal -->
+				<item id="35467" min="1" max="1" chance="0.03" /> <!-- Recipe: Eternal Shield (60%) -->
+				<item id="35453" min="1" max="1" chance="0.0075" /> <!-- Recipe: Amaranthine Slasher (60%) -->
+			</death>
+			<corpse>
+				<item id="36564" min="1" max="1" chance="0.75" /> <!-- Greater Synthetic Cokes -->
+				<item id="46081" min="1" max="1" chance="0.3" /> <!-- Recipe: Mysterious Blessed Spiritshot (R-grade) -->
+				<item id="36565" min="1" max="1" chance="0.03" /> <!-- Exquisite Synthetic Cokes -->
+			</corpse>
+
+		</dropLists>
+	</npc>
+	<npc id="23783" level="103" type="L2Monster" name="Royal Gatekeeper">
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="16674" level="1" />
+			<skill name="Skill02_ID" id="16675" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire expRate="3703831584" sp="3703920" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="23051835" hpRegen="7.5" mp="23928" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="49047.619047619" magical="8655.46218487395" critical="4" attackSpeed="398" range="40" />
+			<defence physical="3814.81481481481" magical="2215.05376344086" />
+
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> <!-- Giants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
+			<!-- <skill id="14823" level="1" /> --> <!-- Lethal Strike Resistance -->
+			<!-- <!-- <skill id="16547" level="10" /> --> --> <!-- Danger Zone Attack Resistance -->
+			<skill id="4379" level="5" /> <!-- Spear Resistance -->
+			<skill id="4435" level="5" /> <!-- Greater Stun Resistance -->
+			<skill id="4461" level="1" /> <!-- Dagger/Rapier Vulnerability -->
+			<!-- <skill id="16608" level="1" /> --> <!-- Servitor Attack Weakness -->
+			<skill id="4071" level="1" /> <!-- Bow/Crossbow Resistance -->
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>SUPERION_1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="48" />
+			<height normal="78" />
+		</collision>
+		<dropLists>
+			<death>
+				<item id="47126" min="1" max="1" chance="51.01" /> <!-- Key Card to the Controller Room -->
+			</death>
+		</dropLists>
+	</npc>
+</list>

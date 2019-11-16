@@ -80,7 +80,7 @@ public class L2NpcInstance extends L2Npc
 		{
 			_log.info("SkillList activated on: " + npc.getObjectId());
 		}
-		
+
 		final int npcId = npc.getTemplate().getId();
 		if (npcId == 32611) // Tolonis (Officer)
 		{
@@ -98,7 +98,7 @@ public class L2NpcInstance extends L2Npc
 					asl.addSkill(s.getSkillId(), s.getSkillLevel(), s.getSkillLevel(), 0, 1);
 				}
 			}
-			
+
 			if (counts == 0) // No more skills to learn, come back when you level.
 			{
 				final int minLevel = SkillTreesData.getInstance().getMinLevelForNewSkill(player, SkillTreesData.getInstance().getCollectSkillTree());
@@ -119,13 +119,13 @@ public class L2NpcInstance extends L2Npc
 			}
 			return;
 		}
-		
+
 		if (!npc.getTemplate().canTeach(classId))
 		{
 			npc.showNoTeachHtml(player);
 			return;
 		}
-		
+
 		if (((L2NpcInstance) npc).getClassesToTeach().isEmpty())
 		{
 			NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
@@ -134,7 +134,7 @@ public class L2NpcInstance extends L2Npc
 			player.sendPacket(html);
 			return;
 		}
-		
+
 		// Normal skills, No LearnedByFS, no AutoGet skills.
 		final List<L2SkillLearn> skills = SkillTreesData.getInstance().getAvailableSkills(player, classId, false, false);
 		final AcquireSkillList asl = new AcquireSkillList(AcquireSkillType.CLASS);
@@ -148,7 +148,7 @@ public class L2NpcInstance extends L2Npc
 				count++;
 			}
 		}
-		
+
 		if (count == 0)
 		{
 			final Map<Integer, L2SkillLearn> skillTree = SkillTreesData.getInstance().getCompleteClassSkillTree(classId);

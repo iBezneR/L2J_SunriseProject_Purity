@@ -203,7 +203,7 @@ public class MasterHandler
 		BeastSpiritShot.class,
 		BlessedSpiritShot.class,
 		Book.class,
-            BoxItem.class,
+        BoxItem.class,
 		Bypass.class,
 		Calculator.class,
 		CharmOfCourage.class,
