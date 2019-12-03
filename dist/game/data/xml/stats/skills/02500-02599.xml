@@ -167,7 +167,7 @@
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="-1" /> <!-- TODO: Daily Reuse Reset ? -->
+		<set name="reuseDelay" val="-1" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>

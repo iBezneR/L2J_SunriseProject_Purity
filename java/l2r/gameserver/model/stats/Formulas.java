@@ -2491,32 +2491,13 @@ public final class Formulas
 		return (skill.getDmgDirectlyToHP() && !activeChar.isBehindTarget() ? false : Rnd.get(1000) < (rate * 10));
 	}
 	
-	public static List<L2Effect> calcCancelStealEffects(L2Character activeChar, L2Character target, L2Skill skill, String slot, int rate, int max)
+	public static List<L2Effect> getCanceledEffects(L2Character activeChar, L2Character target, L2Skill skill, String slot, int rate, int max, boolean randomEffects)
 	{
 		final List<L2Effect> canceled = new ArrayList<>(max);
 		switch (slot)
 		{
 			case "buff":
 			{
-				// Resist Modifier.
-				int cancelMagicLvl = skill.getMagicLevel();
-				final double vuln = target.calcStat(Stats.CANCEL_VULN, 0, target, null);
-				final double prof = activeChar.calcStat(Stats.CANCEL_PROF, 0, target, null);
-				
-				double resMod = 1 + (((vuln + prof) * -1) / 100);
-				double finalRate = rate / resMod;
-				
-				if (activeChar.isDebug())
-				{
-					final StatsSet set = new StatsSet();
-					set.set("Formula", "Cancel success");
-					set.set("baseMod", rate);
-					set.set("magicLevel", cancelMagicLvl);
-					set.set("resMod", resMod);
-					set.set("rate", finalRate);
-					Debug.sendSkillDebug(activeChar, target, skill, set);
-				}
-				
 				final L2Effect[] effects = target.getAllEffects();
 				List<L2Effect> _musicList = new LinkedList<>();
 				List<L2Effect> _buffList = new LinkedList<>();
@@ -2546,12 +2527,22 @@ public final class Formulas
 				Collections.reverse(_buffList);
 				_effectList.addAll(_musicList);
 				_effectList.addAll(_buffList);
+				if (randomEffects)
+				{
+					Collections.shuffle(_effectList);
+				}
 				
 				if (!_effectList.isEmpty())
 				{
 					for (L2Effect e : _effectList)
 					{
-						if (!e.canBeStolen() || (!calcCancelSuccess(e, cancelMagicLvl, (int) finalRate, skill)))
+						if (!e.canBeStolen())
+						{
+							continue;
+						}
+						
+						// Resist modifier
+						if (!calcStealSuccess(activeChar, target, skill, rate))
 						{
 							continue;
 						}
@@ -2594,96 +2585,6 @@ public final class Formulas
 		// Lvl Bonus Modifier.
 		rate *= info.getSkill().getMagicLevel() > 0 ? 1 + ((cancelMagicLvl - info.getSkill().getMagicLevel()) / 100.) : 1;
 		return Rnd.get(100) < Util.constrain(rate, skill.getMinChance(), skill.getMaxChance());
-	}
-	
-	public static List<L2Effect> calcCancelStealEffects(L2Character activeChar, L2Character target, L2Skill skill, double power, boolean randomizeList)
-	{
-		// Resists.
-		int negatedEffectCount = calcNegatedEffectCount(skill);
-		
-		final L2Effect[] effects = target.getAllEffects();
-		List<L2Effect> canceled = new ArrayList<>();
-		
-		// Cancel for Abnormals.
-		if (skill.getNegateAbnormals() != null)
-		{
-			for (L2Effect eff : effects)
-			{
-				if (eff == null)
-				{
-					continue;
-				}
-				
-				if (!calcStealSuccess(activeChar, target, skill, power))
-				{
-					continue;
-				}
-				
-				for (String negateAbnormalType : skill.getNegateAbnormals().keySet())
-				{
-					if (negateAbnormalType.equalsIgnoreCase(eff.getAbnormalType()) && (skill.getNegateAbnormals().get(negateAbnormalType) >= eff.getAbnormalLvl()))
-					{
-						canceled.add(eff);
-					}
-				}
-			}
-		}
-		else
-		{
-			List<L2Effect> _musicList = new LinkedList<>();
-			List<L2Effect> _buffList = new LinkedList<>();
-			
-			for (L2Effect eff : effects)
-			{
-				// Just in case of NPE and remove effect if can't be stolen
-				if ((eff == null) || !eff.canBeStolen())
-				{
-					continue;
-				}
-				
-				if (!calcStealSuccess(activeChar, target, skill, power))
-				{
-					continue;
-				}
-				
-				// Only Dances/Songs.
-				if (eff.getSkill().isDance())
-				{
-					_musicList.add(eff);
-				}
-				else
-				{
-					_buffList.add(eff);
-				}
-			}
-			
-			// Reversing lists and adding to a new list
-			List<L2Effect> _effectList = new LinkedList<>();
-			Collections.reverse(_musicList);
-			Collections.reverse(_buffList);
-			_effectList.addAll(_musicList);
-			_effectList.addAll(_buffList);
-			
-			if (randomizeList)
-			{
-				Collections.shuffle(_effectList);
-			}
-			
-			int negated = 0;
-			if (!_effectList.isEmpty())
-			{
-				for (L2Effect e : _effectList)
-				{
-					if (negated < negatedEffectCount)
-					{
-						negated++;
-						canceled.add(e);
-					}
-				}
-			}
-		}
-		
-		return canceled;
 	}
 	
 	/**
@@ -2758,13 +2659,7 @@ public final class Formulas
 		return result;
 	}
 	
-	private static int calcNegatedEffectCount(L2Skill skill)
-	{
-		int count = skill.getMaxNegatedEffects();
-		return Rnd.get(1, count);
-	}
-	
-	private static boolean calcStealSuccess(L2Character activeChar, L2Character target, L2Skill skill, double power)
+	public static boolean calcStealSuccess(L2Character activeChar, L2Character target, L2Skill skill, double power)
 	{
 		int cancelMagicLvl = skill.getMagicLevel();
 		final double vuln = target.calcStat(Stats.CANCEL_VULN, 0, target, null);
@@ -2783,6 +2678,7 @@ public final class Formulas
 		if (activeChar.isDebug())
 		{
 			final StatsSet set = new StatsSet();
+			set.set("Formula", "calcStealSuccess");
 			set.set("baseMod", rate);
 			set.set("magicLevel", cancelMagicLvl);
 			set.set("resMod", resMod);

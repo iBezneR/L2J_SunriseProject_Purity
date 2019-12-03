@@ -1,20 +1,6 @@
 /*
- * Copyright (C) 2004-2013 L2J DataPack
- *
- * This file is part of L2J DataPack.
- *
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ * Copyright (C) L2J Sunrise
+ * This file is part of L2J Sunrise.
  */
 package handlers.effecthandlers;
 
@@ -29,13 +15,13 @@ import l2r.gameserver.model.stats.Env;
  */
 public class DispelOne extends L2Effect
 {
-	private final boolean _ordered;
+	private final boolean _randomEffects;
 	
 	public DispelOne(Env env, EffectTemplate template)
 	{
 		super(env, template);
 		
-		_ordered = template.getParameters().getBoolean("ordered", false);
+		_randomEffects = template.getParameters().getBoolean("ordered", false);
 	}
 	
 	@Override
@@ -59,7 +45,7 @@ public class DispelOne extends L2Effect
 			return false;
 		}
 		
-		if (_ordered)
+		if (_randomEffects)
 		{
 			L2Effect buff = null;
 			for (L2Effect e : target.getAllEffects())

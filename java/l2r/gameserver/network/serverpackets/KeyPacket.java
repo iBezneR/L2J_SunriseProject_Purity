@@ -48,6 +48,7 @@ public final class KeyPacket extends L2GameServerPacket
 		switch (ServerTypeConfigs.SERVER_TYPE)
 		{
 			case GC:
+				writeC(0); // classic : 1, normal: 0
 			case SL:
 				writeC(0); // classic : 1, normal: 0
 				break;

@@ -6,7 +6,7 @@
 	<!-- Allows museum to be in all community board tabs. -->
 	<set name="WholeCommunityBoard" val="false" />
 	<!-- If museum is not in all tabs, this allows personal and rankings data to be in separated tabs. -->
-	<set name="SeparateTabs" val="true" />
+	<set name="SeparateTabs" val="false" />
 	<!-- If museum is in separated tabs, then select second tab (for personal data). -->
 	<set name="SecondTabInCommunityBoard" val="_bbsloc" />
 	<!-- Time in seconds, when rankings are refreshed. -->

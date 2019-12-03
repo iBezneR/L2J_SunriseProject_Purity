@@ -64,7 +64,30 @@ public interface IChanceMultiplierStrategy
 			}
 			else if (ItemData.getInstance().getTemplate(item.getItemId()).hasExImmediateEffect())
 			{
-				multiplier *= Config.RATE_HERB_DROP_CHANCE_MULTIPLIER;
+				switch (item.getItemId())
+				{
+					case 8600: // Herb of Life
+					case 8601: // Greater Herb of Life
+					case 8602: // Superior Herb of Life
+						multiplier *= Config.RATE_DROP_HP_HERBS;
+						break;
+					case 8603: // Herb of Mana
+					case 8604: // Greater Herb of Mana
+					case 8605: // Superior Herb of Mana
+						multiplier *= Config.RATE_DROP_MP_HERBS;
+						break;
+					case 8612: // Herb of the Warrior
+					case 8613: // Herb of the Mystic
+					case 8614: // Herb of Recovery
+						multiplier *= Config.RATE_DROP_SPECIAL_HERBS;
+						break;
+					case 13028: // Vitality Replenishing Herb
+						multiplier *= Config.RATE_DROP_VITALITY_HERBS;
+						break;
+					default: // Every other herbs e.g. Herb of Power, Herb of Magic
+						multiplier *= Config.RATE_DROP_COMMON_HERBS;
+						break;
+				}
 			}
 			else if (victim.isRaid())
 			{

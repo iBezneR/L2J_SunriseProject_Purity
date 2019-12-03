@@ -40,6 +40,12 @@ public class ExShowContactList extends L2GameServerPacket
 	{
 		switch (ServerTypeConfigs.SERVER_TYPE)
 		{
+			case IL:
+				return;
+		}
+		
+		switch (ServerTypeConfigs.SERVER_TYPE)
+		{
 			// TODO grand crude packet implement me
 			case GC:
 			case SL:

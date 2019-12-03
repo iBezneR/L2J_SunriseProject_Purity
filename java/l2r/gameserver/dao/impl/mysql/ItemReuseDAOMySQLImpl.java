@@ -117,7 +117,7 @@ public class ItemReuseDAOMySQLImpl implements ItemReuseDAO
 						isInInventory = false;
 					}
 					
-					if ((item != null) && (item.getId() == itemId) && (item.getReuseDelay() > 0))
+					if ((item != null) && (item.getId() == itemId) && ((item.getReuseDelay() > 0) || item.getItem().isReuseDaily()))
 					{
 						long remainingTime = systime - System.currentTimeMillis();
 						// Hardcoded to 10 seconds.

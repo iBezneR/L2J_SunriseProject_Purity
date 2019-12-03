@@ -1,69 +1,61 @@
 <html>
 <body>
+<title>Achievement</title>
 <center>
-<table width="285">
-<tr>
-<td align="center">
-<table width="230" bgcolor="000000" cellspacing="0" cellpadding="0">
-<tr>
-<td width="230">
-<img src="L2UI.SquareGray" width="230" height="2"/>
-<table width="230" bgcolor="000000">
-<tr>
-<td width="230" align="center">
-<img src="L2UI.SquareBlank" width="1" height="5"/>
-<font color="5D8AA8">%%category%% Section</font>
-<img src="L2UI.SquareBlank" width="1" height="5"/>
-</td>
-</tr>
-</table>
-<img src="L2UI.SquareGray" width="230" height="1"/>
-<table width="230">
-<tr>
-<td width="230" align="center">
-<img src="L2UI.SquareBlank" width="1" height="5"/>
-%%name%%<br1>
-<img src="%%icon%%" width="32" height="32" /><br>
-
-%%progress%%
-<img src="L2UI.SquareBlank" width="1" height="5"/>
-<font color="C2B280">%%count%%</font>
-<img src="L2UI.SquareBlank" width="1" height="5"/>
-</td>
-</tr>
-</table>
-<img src="L2UI.SquareGray" width="230" height="1"/>
-<table width="230" bgcolor="000000">
-<tr>
-<td width="230" align="center">
-<font color="CCCCCC">
-<br>
-%%longDesc%%</font>
-<br>
-</td>
-</tr>
-</table>
-<img src="L2UI.SquareGray" width="230" height="1"/>
-<table width="230">
-<tr>
-<td width="230" align="center">
-<br>
-<font color="CCCCCC">
-Special gifts awaits you after<br1>
-accomplishing every achievement<br1>
-level. Title is waiting to be used!<br>
-</font>
-</td>
-</tr>
-</table>
-<img src="L2UI.SquareGray" width="230" height="2"/>
-<img src="L2UI.SquareBlank" width="1" height="5"/>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
+    <table width=294 height=359 background="L2UI_CH3.refinewnd_back_Pattern">
+        <tr>
+            <td align="center"><br>
+                <table cellpadding="0" cellspacing="0" width="230">
+                    <tr>
+                        <td width="230">
+                            <center>%%name%%</center>
+                            <table width="230" border="0">
+                                <tr>
+                                    <td width=60 height=45 align=center valign=top>
+                                        <table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="%%icon%%">
+                                            <tr>
+                                                <td width=32 height=32 align=center valign=top>
+                                                    %%refreshach%%
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width=230 height=60  align="center">
+                                        %%progress%%
+                                        <br>
+                                        <img height="5" src="L2UI.SquareBlank" width="1"/>
+                                        <font color="C2B280">%%count%%</font>
+                                        <img height="5" src="L2UI.SquareBlank" width="1"/>
+                                    </td>
+                                </tr>
+                            </table>
+                            <img height="1" src="L2UI.SquareGray" width="230"/>
+                            <table width="230">
+                                <tr>
+                                    <td align="center" height="125"  width="230">
+                                        <font color="CCCCCC">
+                                            <br>
+                                            %%longDesc%%</font>
+                                        <br>
+                                    </td>
+                                </tr>
+                            </table>
+                            <img height="1" src="L2UI.SquareGray" width="230"/>
+                            <table width="230">
+                                <tr>
+                                    <td align="center" height="30" width="230">
+                                        <br><font color="CCCCCC"> Unlocks new title:</font><br><font color="C2B280"> %title%<br></font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </center>
 </body>
 </html>
