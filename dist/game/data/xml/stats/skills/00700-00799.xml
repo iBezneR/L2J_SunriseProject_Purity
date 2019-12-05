@@ -1404,7 +1404,7 @@
 				<mul stat="healEffect" val="0.7" />
 			</effect>
 			<effect name="DispelByCategory" noicon="1" >
-				<param slot="buff" rate="25" max="5" />
+				<param slot="buff" rate="25" max="5" randomEffects="1" />
 			</effect>
 		</for>
 	</skill>

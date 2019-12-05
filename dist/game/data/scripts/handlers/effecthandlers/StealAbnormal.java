@@ -62,7 +62,7 @@ public class StealAbnormal extends L2Effect
 	{
 		if ((getEffected() != null) && getEffected().isPlayer() && (getEffector() != getEffected()))
 		{
-			final List<L2Effect> toSteal = Formulas.calcCancelStealEffects(getEffector(), getEffected(), getSkill(), _slot, _rate, _max);
+			final List<L2Effect> toSteal = Formulas.getCanceledEffects(getEffector(), getEffected(), getSkill(), _slot, _rate, _max, false);
 			if (toSteal.isEmpty())
 			{
 				return false;

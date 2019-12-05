@@ -1,3 +1,7 @@
+/*
+ * Copyright (C) L2J Sunrise
+ * This file is part of L2J Sunrise.
+ */
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
@@ -17,6 +21,7 @@ public final class DispelByCategory extends L2Effect
 	private final String _slot;
 	private final int _rate;
 	private final int _max;
+	private final boolean _randomEffects;
 	
 	public DispelByCategory(Env env, EffectTemplate template)
 	{
@@ -25,6 +30,7 @@ public final class DispelByCategory extends L2Effect
 		_slot = template.getParameters().getString("slot", null);
 		_rate = template.getParameters().getInt("rate", 0);
 		_max = template.getParameters().getInt("max", 0);
+		_randomEffects = template.getParameters().getInt("randomEffects", 0) == 1 ? true : false;
 	}
 	
 	@Override
@@ -47,7 +53,7 @@ public final class DispelByCategory extends L2Effect
 			return false;
 		}
 		
-		final List<L2Effect> canceled = Formulas.calcCancelStealEffects(getEffector(), getEffected(), getSkill(), _slot, _rate, _max);
+		final List<L2Effect> canceled = Formulas.getCanceledEffects(getEffector(), getEffected(), getSkill(), _slot, _rate, _max, _randomEffects);
 		for (L2Effect can : canceled)
 		{
 			can.exit();

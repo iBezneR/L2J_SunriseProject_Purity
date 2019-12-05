@@ -18,6 +18,9 @@
  */
 package handlers.itemhandlers;
 
+import java.util.Calendar;
+import java.util.List;
+
 import l2r.gameserver.handler.IItemHandler;
 import l2r.gameserver.model.actor.L2Playable;
 import l2r.gameserver.model.holders.SkillHolder;
@@ -92,6 +95,7 @@ public class ItemSkillsTemplate implements IItemHandler
 				
 				if (playable.isSkillDisabled(itemSkill))
 				{
+					checkReuse(playable, itemSkill, item);
 					return false;
 				}
 				
@@ -130,6 +134,18 @@ public class ItemSkillsTemplate implements IItemHandler
 				{
 					playable.addTimeStamp(itemSkill, itemSkill.getReuseDelay());
 				}
+				else if (itemSkill.isReuseDaily())
+				{
+					Calendar reUse = Calendar.getInstance();
+					reUse.set(Calendar.HOUR_OF_DAY, 6);
+					reUse.set(Calendar.MINUTE, 30);
+					long reUseDelay = reUse.getTimeInMillis();
+					if (reUseDelay < System.currentTimeMillis())
+					{
+						reUseDelay += 86400000;
+					}
+					playable.addTimeStamp(itemSkill, reUseDelay - System.currentTimeMillis());
+				}
 			}
 		}
 		
@@ -156,6 +172,8 @@ public class ItemSkillsTemplate implements IItemHandler
 	{
 		final long remainingTime = (skill != null) ? playable.getSkillRemainingReuseTime(skill.getReuseHashCode()) : playable.getItemRemainingReuseTime(item.getObjectId());
 		final boolean isAvailable = remainingTime <= 0;
+		final boolean isDailyReuse = skill != null ? skill.isReuseDaily() : false;
+
 		if (playable.isPlayer())
 		{
 			if (!isAvailable)
@@ -164,45 +182,71 @@ public class ItemSkillsTemplate implements IItemHandler
 				final int minutes = (int) (remainingTime % 3600000L) / 60000;
 				final int seconds = (int) ((remainingTime / 1000) % 60);
 				SystemMessage sm = null;
-				if (hours > 0)
+
+				if (isDailyReuse)
 				{
-					sm = SystemMessage.getSystemMessage(SystemMessageId.S2_HOURS_S3_MINUTES_S4_SECONDS_REMAINING_FOR_REUSE_S1);
-					if ((skill == null) || skill.isStatic())
+					if (hours > 0)
 					{
+						sm = SystemMessage.getSystemMessage(SystemMessageId.THERE_ARE_S2_HOURS_S3_MINUTES_S4_SECONDS_REMAINING_FOR_S1_REUSE_TIME);
 						sm.addItemName(item);
+						sm.addInt(hours);
+						sm.addInt(minutes);
+					}
+					else if (minutes > 0)
+					{
+						sm = SystemMessage.getSystemMessage(SystemMessageId.THERE_ARE_S2_MINUTES_S3_SECONDS_REMAINING_FOR_S1_REUSE_TIME);
+						sm.addItemName(item);
+						sm.addInt(minutes);
 					}
 					else
 					{
-						sm.addSkillName(skill);
-					}
-					sm.addInt(hours);
-					sm.addInt(minutes);
-				}
-				else if (minutes > 0)
-				{
-					sm = SystemMessage.getSystemMessage(SystemMessageId.S2_MINUTES_S3_SECONDS_REMAINING_FOR_REUSE_S1);
-					if ((skill == null) || skill.isStatic())
-					{
+						sm = SystemMessage.getSystemMessage(SystemMessageId.THERE_ARE_S2_SECONDS_REMAINING_FOR_S1_REUSE_TIME);
 						sm.addItemName(item);
 					}
-					else
-					{
-						sm.addSkillName(skill);
-					}
-					sm.addInt(minutes);
 				}
 				else
 				{
-					sm = SystemMessage.getSystemMessage(SystemMessageId.S2_SECONDS_REMAINING_FOR_REUSE_S1);
-					if ((skill == null) || skill.isStatic())
+					if (hours > 0)
 					{
-						sm.addItemName(item);
+						sm = SystemMessage.getSystemMessage(SystemMessageId.S2_HOURS_S3_MINUTES_S4_SECONDS_REMAINING_FOR_REUSE_S1);
+						if ((skill == null) || skill.isStatic())
+						{
+							sm.addItemName(item);
+						}
+						else
+						{
+							sm.addSkillName(skill);
+						}
+						sm.addInt(hours);
+						sm.addInt(minutes);
+					}
+					else if (minutes > 0)
+					{
+						sm = SystemMessage.getSystemMessage(SystemMessageId.S2_MINUTES_S3_SECONDS_REMAINING_FOR_REUSE_S1);
+						if ((skill == null) || skill.isStatic())
+						{
+							sm.addItemName(item);
+						}
+						else
+						{
+							sm.addSkillName(skill);
+						}
+						sm.addInt(minutes);
 					}
 					else
 					{
-						sm.addSkillName(skill);
+						sm = SystemMessage.getSystemMessage(SystemMessageId.S2_SECONDS_REMAINING_FOR_REUSE_S1);
+						if ((skill == null) || skill.isStatic())
+						{
+							sm.addItemName(item);
+						}
+						else
+						{
+							sm.addSkillName(skill);
+						}
 					}
 				}
+
 				sm.addInt(seconds);
 				playable.sendPacket(sm);
 			}
