@@ -1,51 +1,8 @@
-<html noscrollbar>
-<body>
-<table border=0 width=285 height=350 background="L2UI_CH3.refinewnd_back_Pattern">
-    <tr>
-        <td>
-            <table border=0 width=285 height=250>
-                <tr>    <!-- Icon and NPC's name -->
-                    <td width=260 height=50 align=center valign=top><br><br>
-                        <table border=0 width=260 height=40 cellspacing=4 cellpadding=4
-                               background="Sybar_L2UI_CT1.SpeechBubbles.shop_dimmed">
-                            <tr>
-                                <td align=left valign=center width=64 height=64>
-                                    <img src="Sybar_BeautyShopiconTex.FMagic_h12_m005_i00" width=64 height=64>
-                                </td>
-                                <td fixwidth="100" align=left>
-                                    <font name="ScreenMessageSmall">Plie</font>
-                                    <br1>
-                                        <font color="C35817" name="__SystemEditBoxFont">Gatekeeper</font>
-                                </td>
-                            </tr>
-                        </table>
-                        <br><br>
-                    </td>
-                </tr>
-
-                <tr>        <!-- NPC's text -->
-                    <td width=260 height=40 align=center valign=top>
-                        <table border=0 width=260 height=200 cellspacing=4 cellpadding=2
-                               background="Sybar_L2UI_CT1.SpeechBubbles.shop_default">
-                            <tr>
-                                <td fixwidth="260" align=left valign=center>
-                                    "Hello!<br1>
-                                    Have you had enough of this place? I can take you back to the surface, all I want in exchange is a little smile..."<br>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width=240 align=left valign=top>
-                                    <button value="Teleport me somewhere else, please..."
-                                            a action="bypass -h npc_%objectId%_Chat 1" width=240 height=25
-                                            back="Sybar_L2UI_CT1.HtmlWnd_BTN01" fore="Sybar_L2UI_CT1.HtmlWnd_BTN01"><br>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
+<html><body>Gatekeeper Plie:<br>
+This place, Underground Gainak, isn't very known. No one lived here in the past. Ever since Mr. Settlen opened the Mystic Tavern, we started having more visitors.<br>
+((If your <font color="LEVEL">Main Class</font> is <font color="LEVEL">Lv. 76 or below</font>, you may teleport for free.)<br>
+<Button ALIGN=LEFT ICON="TELEPORT" action="bypass -h npc_%objectId%_Chat 1">"I'll teleport."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_multisell 002">"I want to trade Dimensional Diamonds."</Button>
+<Button ALIGN=LEFT ICON="NORMAL" action="bypass -h npc_%objectId%_Quest CharacterBirthday">"I need to call Alegria."</Button>
+<Button ALIGN=LEFT ICON="QUEST" action="bypass -h npc_%objectId%_Quest">Quest</Button>
+</body></html>
